@@ -1,0 +1,198 @@
+---
+title: Coupon Code Analysis (basis)
+description: Meer informatie over de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en de gewoonten van klanten beter te begrijpen.
+exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
+source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 0%
+
+---
+
+# Basissyntaxiscodeanalyse
+
+Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en de gewoonten van klanten beter te begrijpen.
+
+We hebben de stappen gedocumenteerd die nodig zijn om deze analyse te maken en te begrijpen hoe klanten met coupon het gebruik van afzonderlijke couponcodes kunnen uitvoeren, trends kunnen zien en het gebruik van afzonderlijke couponcodes kunnen volgen.
+
+![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
+
+## Aan de slag
+
+Eerst een opmerking over hoe couponcodes worden bijgehouden. Als een klant een coupon op een bestelling heeft toegepast, gebeuren er drie dingen:
+
+* Een korting wordt weerspiegeld in de `base_grand_total` hoeveelheid (uw `Revenue` (in MBI)
+* De couponcode wordt opgeslagen in het dialoogvenster `coupon_code` veld. Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
+* Het gedisconteerde bedrag wordt opgeslagen in `base_discount_amount`. Afhankelijk van uw configuratie kan deze waarde negatief of positief lijken.
+
+## Een metrisch object maken
+
+De eerste stap zal zijn nieuwe metrisch met de volgende stappen te construeren:
+
+* Navigeren naar **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
+
+* Selecteer `sales_order`.
+* Deze maatstaf voert een **Som** op de **base_korting_amount** kolom, geordend door **created_at**.
+   * [!UICONTROL Filters]:
+      * Voeg de `Orders we count` (Opgeslagen filterset)
+      * Voeg het volgende toe:
+         * `coupon_code`**IS NIET**`[NULL]`
+      * Geef metrisch een naam, zoals `Coupon discount amount`.
+
+## Het dashboard maken
+
+* Zodra metrisch is gecreeerd:
+   * Navigeren naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
+   * Geef het dashboard een naam, zoals `_Coupon Analysis_`.
+
+* Op die manier zullen wij alle verslagen opstellen en toevoegen.
+
+## Rapporten samenstellen
+
+* **Nieuwe rapporten:**
+
+>[!NOTE]
+>
+>De [!UICONTROL Time Period]** voor elk rapport wordt vermeld als `All-time`. U kunt dit aanpassen aan uw analysebehoeften. We raden alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time`, `Year-to-date`, of `Last 365 days`.
+
+* **Orders met coupons**
+   * 
+      [!UICONTROL Metric]: `Orders`
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS NIET** `[NULL]`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Chart type]:`Number (scalar)`
+
+
+* **Orders zonder coupons**
+   * 
+      [!UICONTROL Metric]: `Orders`
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS** `[NULL]`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Chart type]:`Number (scalar)`
+
+
+* **Netto-inkomsten uit orders met coupons**
+   * 
+      [!UICONTROL Metric]: `Revenue`
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS NIET** `[NULL]`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Chart type]: `Number (scalar)`
+
+
+* **Kortingen op coupons**
+   * [!UICONTROL Metric]: `Coupon discount amount`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Chart type]: `Number (scalar)`
+
+* **Gemiddelde inkomsten tijdens de levensduur: Door coupon aangekochte klanten**
+   * [!UICONTROL Metric]: `Avg lifetime revenue`
+      * Filter toevoegen:
+         * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Chart type]: `Number (scalar)`
+
+
+* **Gemiddelde inkomsten tijdens de levensduur: Klanten zonder coupon**
+   * [!UICONTROL Metric]: `Avg lifetime revenue`
+      * Filter toevoegen:
+         * [A] `Customer's first order's coupon_code` **IS**`[NULL]`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Chart type]: `Number (scalar)`
+
+
+* **Gebruiksgegevens van coupon (eerste bestellingen)**
+   * Metrisch `1`: `Orders`
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS NIET**`[NULL]`
+         * [`B`] `Customer's order number` **Gelijk aan** `1`
+   * Metrisch `2`: `Revenue`
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS NIET**`[NULL]`
+         * [`B`] `Customer's order number` **Gelijk aan** `1`
+      * Naam wijzigen:  `Net revenue`
+   * Metrisch `3`: `Coupon discount amount`
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS NIET**`[NULL]`
+         * [`B`] `Customer's order number` **Gelijk aan** `1`
+   * Nieuwe formule maken: `Gross revenue`
+      * [!UICONTROL Formula]: `(B – C)`
+      * 
+         [!UICONTROL Format]: `Currency`
+   * Nieuwe formule maken:**% verdisconteerd**
+      * Formule: `(C / (B - C))`
+      * 
+         [!UICONTROL Format]: `Percentage`
+   * Nieuwe formule maken: `Average order discount`
+      * [!UICONTROL Formula]: `(C / A)`
+      * 
+         [!UICONTROL Format]: `Percentage`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * 
+
+      [!UICONTROL Chart type]: `Table`
+
+
+
+
+
+
+
+
+* **Gemiddelde levensopbrengsten per coupon voor eerste bestelling**
+   * [!UICONTROL Metric]:**Gem. inkomsten**
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS**`[NULL]`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Chart type]: `Number (scalar)`
+
+
+* **Gebruiksgegevens van coupon (eerste bestellingen)**
+   * [!UICONTROL Metric]: `Avg lifetime revenue`
+      * Filter toevoegen:
+         * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
+   * [!UICONTROL Time period]: `All time`
+   * 
+      [!UICONTROL Interval]: `None`
+   * [!UICONTROL Group by]: `Customer's first order's coupon_code`
+   * 
+
+      [!UICONTROL Chart type]: **Column**
+
+
+* **Nieuwe klanten door middel van couponaankopen/aankopen zonder coupon**
+   * Metrisch `1`: `New customers`
+      * Filter toevoegen:
+         * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
+      * [!UICONTROL Rename]: `Coupon acquisition customer`
+   * Metrisch `2`: `New customers`
+      * Filter toevoegen:
+         * [`A`] `coupon_code` **IS**`[NULL]`
+      * [!UICONTROL Rename]: `Non-coupon acquisition customer`
+   * [!UICONTROL Time period]: `All time`
+   * [!UICONTROL Interval]: `By Month`
+   * [!UICONTROL Chart type]: `Stacked Column`
+
+
+
+
+
+Na het bouwen van de rapporten, verwijs naar het beeld bij de bovenkant van dit onderwerp voor hoe u de rapporten op uw dashboard kunt organiseren.

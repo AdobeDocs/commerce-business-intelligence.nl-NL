@@ -1,0 +1,26 @@
+---
+title: Diagrammen van een andere gebruiker importeren
+description: Leer hoe u een grafiek kunt bewerken die eigendom is van een andere gebruiker of hoe u een vergelijkbare tabel kunt maken.
+exl-id: defcb72d-6027-4ae7-b974-e2f39773fe32
+source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 0%
+
+---
+
+# Diagram importeren van een andere gebruiker
+
+U kunt een grafiek willen uitgeven die een andere gebruiker bezit, of iets gelijkaardig tot stand brengen. Hiervoor hebben we het gemakkelijk gemaakt om een grafiek te importeren die een andere gebruiker momenteel bezit en deze op te slaan in uw eigen dashboard.
+
+## Het diagram zoeken
+
+Zoek eerst het diagram dat u van de andere gebruiker wilt kopiëren. Alle dashboards die met u worden gedeeld kunnen in worden gevonden `Dashboard` zijbalk waar ze zijn gemarkeerd met een gedeeld pictogram. Klik op het gewenste dashboard.
+
+## Het diagram klonen
+
+Kies in het gedeelde dashboard het diagram dat u naar uw eigen account wilt kopiëren. Klik op het gereedschap (![](../../assets/gear-icon.png)) en klik vervolgens op **[!UICONTROL Save As]**.
+
+Vervolgens wordt u gevraagd een naam aan uw exemplaar van het diagram te geven en deze aan een van uw bestaande dashboards toe te voegen. Als u geen dashboard selecteert, wordt dit toegevoegd aan de lijst met bestaande diagrammen en kunt u [later toevoegen](../../data-user/dashboards/add-charts-dashboard.md).
+
+![totale klanten](../../assets/total-customers.png)

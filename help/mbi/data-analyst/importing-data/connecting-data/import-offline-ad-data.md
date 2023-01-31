@@ -1,0 +1,38 @@
+---
+title: Andere gegevens importeren en doorgeven
+description: Leer offline of andere bestanden te importeren en gegevens uit te geven in [!DNL MBI].
+exl-id: 6f12a397-0927-4e87-95ff-3a55ccc9e14b
+source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 0%
+
+---
+
+# Andere gegevens importeren en doorgeven
+
+Als u uw advertentie-uitgaven uploadt, kunt u het rendement van de campagne meten door uw advertentiekosten en de klant met elkaar te vergelijken `lifetime value (CLV)` van gebruikers die zijn aangeschaft via uw campagnes.
+
+## Reclamegegevens uploaden
+
+De eerste stap bij het analyseren en uitgeven van gegevens is het krijgen van de gegevens. Omdat u met de meeste advertentieplatforms rapporten kunt exporteren, raden we u aan de onbewerkte gegevens van uw advertentieplatform te exporteren en rechtstreeks te uploaden naar [!DNL MBI] zonder enige manipulatie. U kunt verrichtingen op de gegevens in uw gegevenspakhuis uitvoeren, zodat is er geen behoefte om uw inspanningen te verdubbelen.
+
+Nadat u de advertentie hebt geëxporteerd, kunt u de opdracht [`File Upload` functie](../connecting-data/using-file-uploader.md) om de gegevens in uw gegevenspakhuis te brengen. U kunt nieuwe gegevens uploaden naar hetzelfde [!DNL MBI] tabel in de tijd.
+
+## Offline bronnen
+
+Naast uw online campagnes, kunt u ook reclame, zoals op de radio of een billboard offline hebben. Als u deze gevallen wilt verwerken, kunt u handmatig een spreadsheet met de kostengegevens uploaden naar [!DNL MBI].
+
+De onderstaande tabelstructuur wordt aanbevolen bij het maken van een `.csv` om gegevens op te nemen en uit te geven. Een sjabloonbestand wordt ook onder aan dit artikel toegevoegd als voorbeeld. Aanbevolen kolommen zijn:
+
+* `ID` - Dit is een unieke id voor elke gegevensrij die door de database wordt gebruikt als primaire sleutel. Dit moet voor elke rij anders zijn.
+* `Date` - Dit is de datum waarop de campagne is gestart, in dd-formaat jjjj-mm.
+* `Amount` - Dit is het bedrag dat u aan de campagne hebt uitgegeven.
+* `campaign` - Dit is de naam van de campagne. Als u [!DNL Google Analytics] om uw andere gegevens te volgen en door te geven, moet deze overeenkomen met de naam van de utm\_campagne.
+* `source` - Dit is de bronnaam. Als u [!DNL Google Analytics], moet dit overeenkomen met de `utm_source` naam.
+* `other` (Optioneel) - U kunt ook extra kolommen opnemen die u helpen campagnes en kosten te segmenteren. Het kan ook een manier zijn om verschillende namen van UTM-campagnes samen te vatten in één coherente campagne voor traceringsdoeleinden. In plaats van dit manueel opstelling, zou het goed kunnen zijn om V-Lookup aan een tweede blad te gebruiken om elke Naam van de Campagne aan Andere Naam aan te passen en het hier dynamisch te melden.
+
+## Verwante
+
+* [Verbinden [!DNL AdWords] data](../integrations/google-adwords.md)
+* [Rendement op reclamecampagnes verhogen](../../analysis/roi-ad-camp.md)

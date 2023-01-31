@@ -1,0 +1,50 @@
+---
+title: Consolideer uw tabellen
+description: Leer hoe u uw tabellen en databases kunt consolideren.
+exl-id: 6065bed3-fb84-4147-a223-92dc3e1b15a5
+source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 0%
+
+---
+
+# Consolideer uw tabellen
+
+Als u veelvoudige opslagfronten of op veelvoudige markten in werking stelt, kunt u gelijkaardige gegevensbestanden hebben die afzonderlijk worden opgeslagen. In [!DNL MBI]Het is echter eenvoudig vergelijkbare tabellen uit verschillende databases samen te voegen.
+
+U hebt bijvoorbeeld een `orders` tabel voor `Market A`en een soortgelijke `orders` tabel voor `Market B`. [!DNL MBI] U kunt beide tabellen samenvoegen en u kunt de gegevens van de samengestelde volgorde bekijken vanuit beide `Market A` en `B`, naast segmentering door specifieke markt.
+
+Voor consolidatie van tabellen is het nodig dat invoertabellen **op vergelijkbare wijze gestructureerd**. Met andere woorden, alle inputlijsten moeten de gegevenskolommen bevatten die in de geconsolideerde lijst worden vereist.
+
+In dit onderwerp worden enkele van de meest gebruikte gevallen voor geconsolideerde tabellen en de volgende stappen voor het maken van uw eigen tabellen besproken.
+
+## Recommendations for When to Use Consolidated Tables
+
+In het volgende gedeelte wordt besproken wanneer het aangewezen is geconsolideerde tabellen in uw systeem te gebruiken.
+
+### Gegevens van meerdere websites integreren
+
+Als u uw producten onder verschillende merken en websites verkoopt, is het waarschijnlijk dat de tabellen voor elk merk of website op dezelfde manier zijn gestructureerd.
+
+U hebt bijvoorbeeld een `orders` tabel voor website `A` en een aparte, maar vergelijkbare `orders` tabel voor website `B`. In deze situatie kan het nuttig zijn de `orders` tabellen van website `A` en `B` zodat u de geconsolideerde inkomsten en het aantal bestellingen van de website kunt bekijken `A` en `B`, naast het segmenteren van metriek door deze twee websites.
+
+### Oudere gegevens integreren
+
+Vele bedrijven hebben hun gegevensbestanden in één keer of een andere refactored, en de gegevens van het oude gegevensbestand worden niet altijd omgezet over in het nieuwe systeem. U kunt geconsolideerde lijsten gebruiken om de zeer belangrijke kolommen van erfenislijsten met die van het actieve systeem samen te voegen. Dit staat u toe om een verenigde analyse van uw gegevens door geschiedenis te leiden.
+
+### Gebeurtenissen combineren voor actieve gebruikersanalyse
+
+Stel je een website voor waar gebruikers verschillende dingen kunnen doen: neem een enquête, speel een spel, koop een aankoop, raadpleeg een vriend enzovoort. Doorgaans worden al deze gebeurtenissen in een eigen tabel opgeslagen. Dit maakt het moeilijk om te analyseren hoeveel afzonderlijke gebruikers in een bepaalde periode ten minste één actie van welke aard dan ook hebben ondernomen.
+
+U kunt geconsolideerde tabellen gebruiken om één uniforme lijst met alle gebruikers te maken en wanneer een van deze gebeurtenissen heeft plaatsgevonden. U kunt dan vragen op de geconsolideerde lijst in werking stellen om zulk een analyse gemakkelijk te leiden.
+
+Zoals met alle andere lijsten in uw gegevenspakhuis, kunt u extra kolommen toevoegen aan macht verschillende soorten grafieken en analyses.
+
+## Een geconsolideerde tabel maken, weergeven of bijwerken
+
+Als u in het toevoegen van een geconsolideerde lijst aan uw gegevenspakhuis geinteresseerd bent, contacteer [!DNL MBI] [ondersteuning](../guide-overview.md).
+
+>[!NOTE]
+>
+>Omdat geconsolideerde tabellen niet kunnen worden weergegeven in het dialoogvenster `Data Warehouse Manager`, kunt u deze tabellen alleen weergeven en bijwerken via [!DNL MBI] ondersteuning.

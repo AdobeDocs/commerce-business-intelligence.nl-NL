@@ -1,0 +1,34 @@
+---
+title: Gemeenschappelijke handelstabellen
+description: Meer informatie over enkele van de meer algemene tabellen die [!DNL MBI] klanten gebruiken.
+exl-id: 8b316130-55c6-4771-ae6e-97ac605fc6cc
+source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 0%
+
+---
+
+# Gemeenschappelijke handelstabellen
+
+Wanneer u eerst een instantie van de Handel verbindt met [[!DNL MBI]](../importing-data/integrations/magento.md), [!DNL MBI] herhaalt automatisch gegevens van sommige van uw handelstabellen (typisch 4-6 lijsten) om de aanvankelijke reeks dashboards en rapporten te vormen. Hoewel dit een groot uitgangspunt aanbiedt, produceren de meeste opslaginstanties tientallen als niet honderden extra lijsten die kritiek inzicht in de prestaties van uw zaken kunnen verstrekken.
+
+Hieronder vindt u een lijst met enkele van de meer algemene tabellen die [!DNL MBI] klanten gebruiken. Na u [Verbind uw instantie van de Handel met MBI](../../data-analyst/importing-data/integrations/magento.md)kunt u de [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden bij te houden.
+
+| Tabelnaam | Beschrijving |
+|---|---|
+| `catalog_category_entity` | Elke rij in de `catalog_category_entity` in de tabel wordt een specifieke categorie beschreven. Met de bijbehorende `catalog_category_entity_varchar` en de `catalog_category_product` Als u een tabel toewijst, kunt u voor elk product informatie over categorieën verkrijgen. |
+| `catalog_category_product` | Elke rij in de `catalog_category_product` in de tabel wordt een combinatie van een product en een categorie weergegeven. Daarom kan een bepaald product op deze lijst veelvoudige tijden met verschillende categorieën bestaan, en een bepaalde categorie kan op deze lijst bestaan veelvoudige tijden verbonden aan verschillende producten. In deze tabel wordt de index van `catalog_category_entity` tabel (met gegevens op categorieniveau) en de `catalog_product_entity` tabel (die details op productniveau bevat). |
+| `catalog_product_entity` | Elke rij in de `catalog_product_entity` tabel geeft een specifiek product aan. Dit omvat wanneer dat product in uw rekening van de Handel en zijn SKU werd gecreeerd. |
+| `customer_entity` | Elke rij in de [`customer_entity`](../data-warehouse-mgr/cust-ent-table.md) tabel vertegenwoordigt een geregistreerde gebruiker op uw website. Belangrijke details op klantniveau, zoals de registratiedatum en het e-mailadres, worden in deze tabel weergegeven. |
+| `quote` | Elke rij in de [`quote`](../data-warehouse-mgr/sales-flat-quote-table.md) tabel staat voor een winkelwagentje dat is gemaakt tijdens het uitrekenen, ongeacht of die winkelwagentje uiteindelijk is omgezet in een bestelling. Gezien de potentiële grootte van deze lijst, adviseren wij u periodiek verslagen te schrappen als bepaalde criteria worden voldaan, zoals als er om het even welke unconvert wortels ouder dan 60 dagen zijn. |
+| `quote_item` | Elke rij in de [`quote_item`](../data-warehouse-mgr/sales-flat-quote-item-table.md) in de tabel staat een artikel dat aan een winkelwagentje is toegevoegd, ongeacht of het karretje uiteindelijk in een bestelling is omgezet. Gezien de potentiële grootte van deze lijst, adviseren wij u periodiek verslagen te schrappen als bepaalde criteria worden voldaan, zoals als er om het even welke unconvert wortels ouder dan 60 dagen zijn. |
+| `sales_order` | Elke rij in de [`sales_order`](../data-warehouse-mgr/sales-flat-order-table.md) tabel staat voor een volgorde die op uw site is geplaatst. Deze tabel bevat informatie op orderniveau, zoals de datum van de order, de klant die de order heeft geplaatst, het ordertotaal en het gebruik van kortingen- en couponcodes. |
+| `sales_order_address` | Elke rij op de `sales_order_address` tabel bevat verzend- en factureringsgegevens voor een specifieke bestelling. Op de `sales_order` de `billing_address_id` en de `shipping_address_id` voor een bepaalde opdracht verwijzen naar een specifieke rij (aangeduid door `entity_id`) over de `sales_order_address` tabel. |
+| `sales_order_item` | Elke rij in de [`sales_order_item`](../data-warehouse-mgr/sales-flat-quote-item-table.md) de lijst identificeert een specifiek punt van een specifieke orde. Elke rij bevat gegevens zoals het product, de aangeschafte hoeveelheid en de volgorde waarin het item is gekoppeld. |
+
+{style=&quot;table-layout:auto&quot;}
+
+## Gerelateerde documentatie
+
+[[!DNL Magento] Relatiediagrammen voor entiteiten](../data-warehouse-mgr/entity-rel-diag.md)
