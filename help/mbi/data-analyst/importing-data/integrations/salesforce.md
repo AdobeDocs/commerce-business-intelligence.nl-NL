@@ -2,9 +2,9 @@
 title: Connect Salesforce
 description: Leer hoe u met Salesforce-gegevens een reeks analyses kunt maken, van scoring tot optimalisatie, zodat u uw doelstellingen voor geconverteerde mogelijkheden kunt halen.
 exl-id: 249b2b40-8c8a-4616-9383-17690f07003d
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -36,4 +36,4 @@ Dat is het! Nadat uw geloofsbrieven worden bevestigd, [!DNL Salesforce] de insta
 Als je wat meer verstand hebt van technologie, dan [[!DNL Salesforce] API-documentatie](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) kan een nuttige bron zijn voor meer informatie over de integratie van Salesforce met [!DNL MBI].
 
 * [Verwacht [!DNL Salesforce] data](../integrations/salesforce-data.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

@@ -2,9 +2,9 @@
 title: MySQL verbinden via een directe verbinding
 description: Leer hoe u verbinding maakt [!DNL MongoDB] via directe verbinding.
 exl-id: 53765844-c9bb-4a16-b00c-ce9672f87415
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -65,4 +65,4 @@ Dat is het! Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de inst
 
 ## Gerelateerde documentatie
 
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

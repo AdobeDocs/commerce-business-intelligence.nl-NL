@@ -2,16 +2,16 @@
 title: Begrijp uw [!DNL MBI] Omgeving
 description: Meer informatie over het werken met en het verbeteren van uw [!DNL MBI] milieu.
 exl-id: 601b5fba-da02-4cc8-96ed-147c24f326f9
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
 
 # Uw [!DNL MBI] Omgeving
 
-Terwijl u uw handelsgegevens analyseert, dient u rekening te houden met deze factoren en algemene misvattingen. Als u hulp nodig hebt om ervoor te zorgen dat u uw schema van de Handel correct gebruikt, aarzel niet om [contactondersteuning](../guide-overview.md).
+Terwijl u uw handelsgegevens analyseert, dient u rekening te houden met deze factoren en algemene misvattingen. Als u hulp nodig hebt om ervoor te zorgen dat u uw schema van de Handel correct gebruikt, aarzel niet om [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ## [!DNL entity\_id]
 

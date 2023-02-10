@@ -2,9 +2,9 @@
 title: De status van de updatecyclus controleren
 description: Leer hoe u de status van de updatecyclus kunt controleren.
 exl-id: bd65f2bb-86c1-4e83-a132-797694ddb086
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Wanneer u zich aanmeldt bij uw [!DNL MBI] dashboard, er zijn verscheidene manier
 
 ## Waarom zou ik de status van de Update Cycle controleren?
 
-Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw controleert [!DNL MBI] account. Indien u [resultaten die niet aan uw verwachtingen voldoen](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md)bijvoorbeeld de dagelijkse verkoop in [!DNL MBI] komen niet overeen met wat u ziet in uw e-commerceplatform of in uw [[!DNL Google] e-commerceontvangsten](https://support.magento.com/hc/en-us/articles/360016505232) U kunt het laatste gegevenspunt controleren om te zien of zal de kwestie worden opgelost zodra een update voltooit.
+Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw controleert [!DNL MBI] account. Indien u [resultaten die niet aan uw verwachtingen voldoen](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md)bijvoorbeeld de dagelijkse verkoop in [!DNL MBI] komen niet overeen met wat u ziet in uw e-commerceplatform of in uw [[!DNL Google] e-commerceontvangsten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=en) U kunt het laatste gegevenspunt controleren om te zien of zal de kwestie worden opgelost zodra een update voltooit.
 
 ## [!UICONTROL Read-Only] en [!UICONTROL Standard]** Gebruikers
 

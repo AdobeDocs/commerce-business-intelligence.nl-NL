@@ -2,9 +2,9 @@
 title: Connect Google ECommerce
 description: Meer informatie over uw meest gewaardeerde verwijzingskanalen.
 exl-id: c80f52f3-894a-4084-8c0e-aee618ed77f5
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Om een bepaalde website te identificeren [!DNL Google Analytics] Profiel-id:
 ## Verwante:
 
 * [Verwacht [!DNL Google ECommerce] data](../integrations/google-ecommerce-data.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
 * [Instellen [!DNL Google ECommerce] bijhouden](https://support.google.com/analytics/answer/1009612?hl=en)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)
 * [ROI verhogen in uw reclamecampagnes](../../analysis/roi-ad-camp.md)

@@ -2,9 +2,9 @@
 title: Relatiediagrammen voor entiteiten
 description: Leer over een paar ER diagrammen om u te helpen de verhouding tussen een handvol gemeenschappelijke het gegevensbestandlijsten van de Handel visualiseren.
 exl-id: de7d419f-efbe-4d0c-95a8-155a12aa93f3
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Eén klant kan veel bestellingen plaatsen. De relatie tussen deze twee tabellen 
 
 >[!IMPORTANT]
 >
->`customer\_entity.entity\_id` is niet gelijk aan `sales\_flat\_order.entity\_id`. De eerste kan worden beschouwd als een `customer\_id` en de tweede kan worden beschouwd als een `order\_id.` Meer informatie hierover vindt u in het gedeelte [`entity\_id` sectie](https://support.magento.com/hc/en-us/articles/360016729951) van onze _[!DNL Magento]: Algemene misvattingen_ artikel.
+>`customer\_entity.entity\_id` is niet gelijk aan `sales\_flat\_order.entity\_id`. De eerste kan worden beschouwd als een `customer\_id` en de tweede kan worden beschouwd als een `order\_id.`
 
 Within [!DNL MBI]Als het pad tussen deze twee tabellen nog niet bestaat, kunt u [het pad maken](../data-warehouse-mgr/create-paths-calc-columns.md) op het tabblad Data Warehouse. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
 

@@ -2,9 +2,9 @@
 title: Analyse van de verwachte levenwaarde (LTV) (basis)
 description: Leer hoe u analyses maakt om de levensduurwaarde van uw huidige klanten te begrijpen en voorspelt hoe de levensduurwaarde met meer bestellingen zal stijgen.
 exl-id: e6f02cf6-f542-4768-969c-3ec998a7caa9
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
 * Op die manier zullen wij alle verslagen opstellen en toevoegen.
 
 ## Rapporten samenstellen
-
-* Als u dat nog niet hebt gedaan, checkt u het uit [deze video](https://fast.wistia.net/embed/iframe/24zz7wmjrt) over het gebruik van de **[!UICONTROL Visual Report Builder] om grafieken, lijsten, en scalaire waarden te bouwen.
 
 >[!NOTE]
 >

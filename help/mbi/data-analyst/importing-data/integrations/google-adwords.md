@@ -2,9 +2,9 @@
 title: Connect Google Adwords
 description: Leer om campagne ROI te meten door uw reclamekosten en de waarde van de klantenlevensduur (CLV) van gebruikers te vergelijken die van uw campagnes worden verworven.
 exl-id: db99f817-2a2e-4194-9dd2-ec2d6b27a118
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,9 @@ U hebt mogelijk meerdere websites verbonden met één [!DNL Google Analytics] ei
 
 ## Verwante
 
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
 * [Referentiebron voor bestelling volgen via [!DNL Google ECommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)
-* [Gebruikersapparaat, browser en besturingssysteemgegevens bijhouden in uw database](https://support.magento.com/hc/en-us/articles/360016732911)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)
 * [ROI verhogen in uw reclamecampagnes](../../analysis/roi-ad-camp.md)
 * [Hoe werkt [!DNL Google Analytics] UTM-toewijzingswerk?](../../analysis/utm-attributes.md)

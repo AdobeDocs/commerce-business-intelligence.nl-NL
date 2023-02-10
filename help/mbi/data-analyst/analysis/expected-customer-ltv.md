@@ -2,9 +2,9 @@
 title: LTV-analyse (Lifetime Value) verwacht voor Pro
 description: Leer hoe te opstelling een dashboard dat u zal helpen de waardeverhoging van de klantenleven en verwachte levenwaarde van uw klanten begrijpen.
 exl-id: e353b92a-ff3b-466b-b519-4f86d054c0bc
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -153,4 +153,4 @@ Overige diagramdetails
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](../../guide-overview.md).
+Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

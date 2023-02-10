@@ -2,9 +2,9 @@
 title: Concentratie van klanten definiëren
 description: Leer hoe te opstelling een dashboard dat u zal helpen meten hoe de totale opbrengst onder uw klantenbasis wordt verdeeld.
 exl-id: 6242019f-a6a5-48d3-b214-94acd7842e00
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -31,49 +31,49 @@ Te maken kolommen
 
 * `Sales_flat_order/customer_entity` table
 * (invoer) `reference`
-* [!UICONTROL Column type]: - `Same table > Calculation`
-* [!UICONTROL Inputs]: - `entity_id`
+* [!UICONTROL Column type]: – `Same table > Calculation`
+* [!UICONTROL Inputs]: – `entity_id`
 * [!UICONTROL Calculation]: - **case als A null is dan null else 1 end**
-* [!UICONTROL Datatype]: - `Integer`
+* [!UICONTROL Datatype]: – `Integer`
 
 * `Customer concentration` tabel (dit is het bestand dat u zojuist hebt geüpload met het nummer `1`)
 * Aantal klanten
-* [!UICONTROL Column type]: - `Many to One > Count Distinct`
+* [!UICONTROL Column type]: – `Many to One > Count Distinct`
 * Pad - `sales_flat_order.(input) reference > Customer Concentration.Primary Key` OF `customer_entity.(input)reference > Customer Concentration.Primary Key`
 * Geselecteerde kolom - `sales_flat_order.customer_email` OF `customer_entity.entity_id`
 
 * `customer_entity` table
 * Aantal klanten
-* [!UICONTROL Column type]: - `One to Many > JOINED_COLUMN`
+* [!UICONTROL Column type]: – `One to Many > JOINED_COLUMN`
 * Pad - `customer_entity.(input) reference > Customer Concentration. Primary Key`
 * Geselecteerde kolom - `Number of customers`
 
 * (invoer) `Ranking by customer lifetime revenue`
-* [!UICONTROL Column type]: - `Same table > Event Number`
+* [!UICONTROL Column type]: – `Same table > Event Number`
 * Eigenaar van gebeurtenis - `Number of customers`
 * Status van gebeurtenis - `Customer's lifetime revenue`
 
 * Inkomenspercentiel van de klant
-* [!UICONTROL Column type]: - `Same table > Calculation`
-* [!UICONTROL Inputs]: - `(input) Ranking by customer lifetime revenue`, `Number of customers`
+* [!UICONTROL Column type]: – `Same table > Calculation`
+* [!UICONTROL Inputs]: – `(input) Ranking by customer lifetime revenue`, `Number of customers`
 * [!UICONTROL Calculation]: - **case when A is null then null else (A/B)* 100 einde **
-* [!UICONTROL Datatype]: - `Decimal`
+* [!UICONTROL Datatype]: – `Decimal`
 
 * `Sales_flat_order` table
 * Aantal klanten
-* [!UICONTROL Column type]: - `One to Many > JOINED_COLUMN`
+* [!UICONTROL Column type]: – `One to Many > JOINED_COLUMN`
 * Pad - `sales_flat_order.(input) reference > Customer Concentration.Primary Key`
 * Geselecteerde kolom - `Number of customers`
 
 * (input) Rangorde door de opbrengst van het klantenleven
-* [!UICONTROL Column type]: - `Same table > Event Number`
+* [!UICONTROL Column type]: – `Same table > Event Number`
 * Eigenaar van gebeurtenis - `Number of customers`
 * Gebeurtenisrack - `Customer's lifetime revenue`
 * Filter - `Customer's order number = 1`
 
 * Inkomenspercentiel van de klant
-* [!UICONTROL Column type]: - `Same table > Calculation`
-* [!UICONTROL Inputs]: - `(input) Ranking by customer lifetime revenue`, `Number of customers`
+* [!UICONTROL Column type]: – `Same table > Calculation`
+* [!UICONTROL Inputs]: – `(input) Ranking by customer lifetime revenue`, `Number of customers`
 * [!UICONTROL Calculation]: - **case when A is null then null else (A/B)* 100 einde **
 * [!UICONTROL Datatype]: - `Decimal`
 
@@ -158,4 +158,4 @@ Te maken kolommen
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](../../guide-overview.md).
+Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

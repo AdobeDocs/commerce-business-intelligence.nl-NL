@@ -2,9 +2,9 @@
 title: Facebook Ads-gegevens verwacht
 description: Leer een kort overzicht van de lijsten wij u adviseren om met uw gegevenspakhuis te synchroniseren
 exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -60,4 +60,4 @@ Deze tabel bevat dezelfde gegevens als de `facebook_ads_insights_{account_id}` t
 ## Verwante
 
 * [Verbinding maken [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

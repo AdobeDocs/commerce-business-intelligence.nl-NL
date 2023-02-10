@@ -2,10 +2,10 @@
 title: Google Analytics - het Overzicht van de Gegevens van de Bron van de Aankoop van de Gebruiker van het spoor
 description: Leer hoe u uw gegevens kunt segmenteren op basis van de aankoopbron van de gebruiker.
 exl-id: 2ce3e4f9-4741-4ada-b822-ec6a5ca94497
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: '837'
+ht-degree: 1%
 
 ---
 
@@ -69,10 +69,10 @@ Laten we aannemen dat we een SQL-database gebruiken en een `users` tabel met de 
 
 | ID | EMAIL | JOIN_DATE | ACQ_SOURCE | ACQ_MEDIUM |
 |--- |--- |--- |--- |--- |
-| 1 | john@abc.com | 24-01-2012 | google | biologisch |
-| 2 | jim@abc.com | 24-01-2012 | google | cpc |
-| 3 | joe@def.com | 25-01-2012 | direct | - |
-| 4 | jess@ghi.com | 26-01-2012 | verwijzing | techcrunch.com |
+| 1 | john@abc.com | 2012-01-24 | google | biologisch |
+| 2 | jim@abc.com | 2012-01-24 | google | cpc |
+| 3 | joe@def.com | 2012-01-25 | direct | - |
+| 4 | jess@ghi.com | 2012-01-26 | verwijzing | techcrunch.com |
 | 5 | jen@ghi.net | 2012-01-30 | overige | biologisch |
 | ... | ... | ... | ... | ... |
 
@@ -93,7 +93,6 @@ Dat is interessant, maar weinig nuttig. Wat we echt willen weten is het groeiper
 
 ### Verwante
 
-* **[Gebruikersapparaat, browser en besturingssysteemgegevens bijhouden in uw database](https://support.magento.com/hc/en-us/articles/360016732911)**
 * **[Ontdek uw meest waardevolle aanschafbronnen en kanalen](../analysis/most-value-source-channel.md)**
 * **[Verbind uw [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)**
 * **[ROI verhogen in uw reclamecampagnes](../analysis/roi-ad-camp.md)**

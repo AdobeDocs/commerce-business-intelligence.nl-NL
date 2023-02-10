@@ -2,9 +2,9 @@
 title: Connect Adobe Analytics
 description: Leer om de de reisnadruk van de klant van begin tot eind samen te brengen van [!DNL Adobe Analytics] en de eCommerce-focus waarop u vertrouwt [!DNL MBI].
 exl-id: 824e1ee4-6b88-42f7-b265-29330dbc4407
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De [!DNL Adobe Analytics] integratie voor [!DNL MBI] laat u toe om de nadruk van
 
 Meer in het bijzonder [!DNL Adobe Analytics] integratie voor [!DNL MBI] verstrekt functionaliteit voor verkopers beginnen hun de gegevensreeksen van de Handel en van de Analyse te combineren.
 - Een verbinding maken op basis van uw bestaande [!DNL Adobe Analytics] account [!DNL MBI].
-- Selecteer maximaal 25 metriek en afmetingen van 1 rapportreeks om in uw te herhalen [!DNL MBI] data-entrepot.
+- Selecteer maximaal 25 metriek en dimensies van één rapportsuite om in uw [!DNL MBI] data-entrepot.
 - Alle standaard gebruiken [!DNL MBI] functionaliteit om te transformeren, zich aan te sluiten bij, en rapport over gerepliceerde [!DNL Adobe Analytics] gegevens.
 
 ## Verbindingsvoorwaarden

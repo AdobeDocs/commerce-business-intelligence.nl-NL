@@ -2,9 +2,9 @@
 title: De operationele tabel van een metrische waarde wijzigen
 description: Leer hoe te om de gegevenslijst te veranderen die metrisch gebruikt om zijn verrichting uit te voeren.
 exl-id: c7a074ca-31f4-43e5-85d9-b64dca95dc23
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ In bepaalde gevallen, kunt u besluiten om de gegevenslijst te veranderen die met
 
    ![](../../assets/change-metrics-2.png)
 
-1. Als de nieuwe tabel geen overeenkomende kolom bevat, kunt u **maken in uw datatabel** of [contactondersteuning](../../guide-overview.md) als het een berekeningskolom of -dimensie betreft, gemaakt door [!DNL MBI]), of gewoon **de dimensie verwijderen uit de metrische**. Om een afmeting te schrappen die u niet meer nodig hebt, ga eenvoudig terug naar de metrische redacteur en selecteer welke afmetingen onder te schrappen `Dimensions`.
+1. Als de nieuwe tabel geen overeenkomende kolom bevat, kunt u **maken in uw datatabel** of [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) als het een berekeningskolom of -dimensie betreft, gemaakt door [!DNL MBI]), of gewoon **de dimensie verwijderen uit de metrische**. Om een afmeting te schrappen die u niet meer nodig hebt, ga eenvoudig terug naar de metrische redacteur en selecteer welke afmetingen onder te schrappen `Dimensions`.
 
    ![](../../assets/change-metrics-3.png)

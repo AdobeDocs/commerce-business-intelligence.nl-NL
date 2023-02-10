@@ -2,9 +2,9 @@
 title: MySQL via cPanel verbinden
 description: Leer hoe u MySQL via cPanel kunt verbinden.
 exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >We raden u ten zeerste aan SSH of een andere codering te gebruiken om uw gegevens te beveiligen. Als dit geen optie is, kunt u nog steeds rechtstreeks verbinding maken [!DNL MBI] aan uw database toe met behulp van de instructies in dit artikel.
 
-In dit artikel, lopen wij u door uw gegevensbestand MySQL rechtstreeks aan te sluiten [!DNL MBI] cPanel gebruiken&quot;. Dit proces kan ook worden gebruikt om verbinding te maken [!DNL Magento] en andere MySQL-gebaseerde eCommerce-databases naar [!DNL MBI].
+In dit artikel, lopen wij u door uw gegevensbestand MySQL rechtstreeks aan te sluiten [!DNL MBI] cPanel gebruiken&quot;. Dit proces kan ook worden gebruikt om verbinding te maken [!DNL Adobe Commerce] en andere MySQL-gebaseerde eCommerce-databases naar [!DNL MBI].
 
 1. Een [!DNL MBI] MySQL-gebruiker in `cPanel`
 1. Verbinding en gebruikersgegevens invoeren in [!DNL MBI]
@@ -69,4 +69,4 @@ Dat is het! Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de inst
 
 ## Verwante:
 
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

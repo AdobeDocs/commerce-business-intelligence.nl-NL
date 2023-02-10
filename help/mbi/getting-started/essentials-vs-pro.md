@@ -2,10 +2,10 @@
 title: MBI Essentials vs. Pro
 description: Leer hoe de Hoofdzaak MBI van MBI Pro verschilt.
 exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
-source-git-commit: 1703e469e245629797bbe08d691d7f8e816a4019
+source-git-commit: dcd02693b3ca060ecdc47cbee189428ce157dd58
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 0%
+source-wordcount: '86'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ In de volgende tabel wordt beschreven wat wordt opgenomen met Essentiële elemen
 | `Pre-Defined Reports` | Tot 100 | Aangepast |
 | `Pre-Defined Dashboards` | 5-6 | Aangepast |
 | `New Custom Report Creation` | Ja | Ja |
-| `Magento Commerce Tables` | 4-6 | Onbeperkt |
+| `Commerce Tables` | 4-6 | Onbeperkt |
 | `Log-ins/User Accounts` | 10 | 20 |
 | `User Permissions` | Ja | Ja |
 | `Data Warehouse Manager` | Niet beschikbaar | Beschikbaar |
@@ -152,7 +152,3 @@ Items in _cursief_ zijn berekende velden.
    * `store_id`
    * `name`
 
-Raadpleeg de volgende videoreeks voor meer informatie over de verschillen tussen [!DNL MBI Essentials] en [!DNL MBI Pro].
-
-* [`Essentials`](https://support.magento.com/hc/en-us/articles/360005305614)
-* [`Pro`](https://support.magento.com/hc/en-us/articles/360005373453)

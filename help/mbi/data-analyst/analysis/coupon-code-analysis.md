@@ -2,9 +2,9 @@
 title: Coupon-prestaties
 description: Meer informatie over het analyseren van de prestaties van je coupon.
 exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
@@ -512,4 +512,4 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](../../guide-overview.md).
+Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

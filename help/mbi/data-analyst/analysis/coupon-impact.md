@@ -2,10 +2,10 @@
 title: Het effect van de coupon analyseren
 description: Leer hoe u de invloed van coupons op het aanschaffen en behouden van klanten analyseert.
 exl-id: b0619365-fa75-49b5-a393-87f3364a390f
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 0%
+source-wordcount: '1392'
+ht-degree: 2%
 
 ---
 
@@ -46,8 +46,8 @@ Laten we eens kijken naar enkele voorbeeldgegevens voor de aanschaf van coupons 
 
 | **Klantenovername** | **Aantal nieuwe klanten** | **Gemiddelde inkomsten tijdens de levensduur** | **Aantal herhalingsorders** | **Aantal herhaalde opdrachten met coupon** | **% van herhaalde opdrachten met coupon** |
 |-----|-----|-----|-----|-----|-----|
-| Coupon | 1 206 | $ 356,91 | 2 570 | 1 248 | 48,56% |
-| Geen coupon | 11 561 | $ 498,30 | 20 145 | 3 251 | 16,14% |
+| Coupon | 1,206 | $356.91 | 2,570 | 1,248 | 48.56% |
+| Geen coupon | 11,561 | $498.30 | 20,145 | 3,251 | 16.14% |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -109,9 +109,9 @@ Laten we nu een voorbeeld bekijken met drie verschillende coupons die worden geb
 
 | **Coupon** | **Eerste bestellingen (FTO)** | **Bruto-inkomsten van de FTO** | **Kortingen toegepast op FTO** | **Netto-inkomsten van de FTO** | **Gemiddelde bestelwaarde voor FTO** |
 |-----|-----|-----|-----|-----|-----|
-| **25% korting op $100 of meer** | 56 | $ 8.531,04 | $ 2.132,76 | $ 6.398,28 | $ 152,34 |
-| **$10 korting** | 87 | $ 3.707,07 | $ 426,10 | $ 3.280,97 | $ 42,61 |
-| **20% korting** | 145 | $ 10.975,05 | $ 2.195,01 | $ 8.780,04 | $ 75,69 |
+| **25% korting op $100 of meer** | 56 | $8,531.04 | $2,132.76 | $6,398.28 | $152.34 |
+| **$10 korting** | 87 | $3,707.07 | $426.10 | $3,280.97 | $42.61 |
+| **20% korting** | 145 | $10,975.05 | $2,195.01 | $8,780.04 | $75.69 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -137,9 +137,9 @@ Nu we naar de orders zelf hebben gekeken, laten we eens kijken naar de klanten d
 
 | **Eerste bestelbon van klant** | **Aantal klanten** | **Gemiddeld aantal orders gedurende de looptijd** | **Gemiddelde inkomsten tijdens de levensduur** |
 |-----|-----|-----|-----|
-| **25% korting op $100 of meer** | 56 | 2,8 | $ 554,54 |
-| **$10 korting** | 87 | 1,9 | $ 115,50 |
-| **20% korting** | 145 | 1,3 | $ 103,75 |
+| **25% korting op $100 of meer** | 56 | 2.8 | $554.54 |
+| **$10 korting** | 87 | 1.9 | $115.50 |
+| **20% korting** | 145 | 1.3 | $103.75 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -149,4 +149,4 @@ Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot
 
 ## Omloop omhoog {#wrapup}
 
-U kunt een groot aantal analyses maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp bij dit soort vragen: [contactondersteuning](../../guide-overview.md).
+U kunt een groot aantal analyses maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp bij dit soort vragen: [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

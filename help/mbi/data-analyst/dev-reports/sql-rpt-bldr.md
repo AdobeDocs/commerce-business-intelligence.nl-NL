@@ -2,9 +2,9 @@
 title: De SQL-Report Builder gebruiken
 description: Leer de in- en uiteinden van het gebruik van de SQL-Report Builder.
 exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
-source-git-commit: 09b6983c3e06a1f18035542dfa3b9de9ac3ceb38
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md) om SQL-grafieken te maken en te bewerken. `Standard` gebruikers kunnen deze grafieken op dashboards opnieuw rangschikken, en `Read-only` de gebruikers zullen de zelfde ervaring hebben zij met traditionele grafieken doen. Daarnaast `Read-only` gebruikers hebben geen toegang tot de tekst van de query.
 
-Zie onze [trainingsvideo](https://support.magento.com/hc/en-us/articles/360016730131) voor meer informatie.
+Zie onze [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) voor meer informatie.
 
 `SQL`, of Gestructureerde Taal van de Vraag, is een programmeertaal die wordt gebruikt om met gegevensbestanden te communiceren. In [!DNL MBI], SQL wordt gebruikt om, gegevens van uw gegevenspakhuis te vragen of terug te winnen. Bekijk de rapporten op uw dashboard - achter de scènes, elk wordt aangedreven door een SQL vraag.
 
 U kunt de [`SQL Report Builder`](../dev-reports/sql-rpt-bldr.md) om uw gegevenspakhuis direct te vragen, bekijk de resultaten, en zet hen in een grafiek om. U kunt een rapport maken met de `SQL Report Builder` door te navigeren naar **[!UICONTROL Report Builder** > **SQL Report Builder]**.
 
-Zie onze [trainingsvideo](https://support.magento.com/hc/en-us/articles/360016730131-Training-Video-SQL-Report-Builder) voor meer informatie.
+Zie onze [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=en) voor meer informatie.
 
-De `SQL Report Builder` staat u toe om uw gegevenspakhuis direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een grafiek. Het beste deel over het gebruiken van SQL om rapporten te bouwen is: [u hoeft niet te wachten op updatecycli om kolommen te doorlopen](https://support.magento.com/hc/en-us/articles/360016506212) die u maakt. Als de resultaten niet behoorlijk juist kijken, kunt u de vraag snel uitgeven en opnieuw in werking stellen tot de dingen uw verwachtingen aanpassen.
+De `SQL Report Builder` staat u toe om uw gegevenspakhuis direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een grafiek. Het beste deel over het gebruiken van SQL om rapporten te bouwen is dat u niet op updatecycli hoeft te wachten om op kolommen te herhalen u creeert. Als de resultaten niet behoorlijk juist kijken, kunt u de vraag snel uitgeven en opnieuw in werking stellen tot de dingen uw verwachtingen aanpassen.
 
 In dit artikel doorlopen we u met de `SQL Report Builder`. Nadat u uw weg rond hebt gekend, controleer onze SQL voor visualisatiezelfstudie of probeer optimaliserend sommige vragen u hebt geschreven.
 
@@ -131,9 +131,9 @@ We willen graag vermelden dat berekende kolommen die met SQL zijn gemaakt, niet 
 
 Het grootste deel van de tijd, kunnen de verschillen in resultaten aan updatecycli worden toegeschreven. Indien [!DNL MBI] is bezig gegevens van uw gegevensbestand aan uw Data Warehouse te herhalen, zou u verschillende resultaten kunnen zien zelfs wanneer het gebruiken van de zelfde vraag.
 
-Verbindingsproblemen kunnen ook tot discrepanties leiden. Ga naar de `Connections` pagina door te klikken **[!DNL Manage Data** > **Connections]**) om het uit te checken - is er een fout voor de betreffende integratie van de database? Indien dit het geval is, kan het nodig zijn [de integratie opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations) om de zaken weer aan de gang te krijgen.
+Verbindingsproblemen kunnen ook tot discrepanties leiden. Ga naar de `Connections` pagina door te klikken **[!DNL Manage Data** > **Connections]**) om het uit te checken - is er een fout voor de betreffende integratie van de database? Indien dit het geval is, kan het nodig zijn [de integratie opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en) om de zaken weer aan de gang te krijgen.
 
-Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn. Probeer de [gidsen voor het oplossen van problemen met betrekking tot gegevens](https://support.magento.com/hc/en-us/sections/360003074492) op onze ondersteuningssite om het probleem vast te stellen.
+Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn.
 
 #### Verwijdert het schrappen van een SQL rapport ook de onderliggende kolommen uit mijn Data Warehouse?
 

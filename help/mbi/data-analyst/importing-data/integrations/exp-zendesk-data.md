@@ -2,9 +2,9 @@
 title: Zendesk-gegevens verwacht
 description: Leer de belangrijkste gegevenslijsten die u van Zendesk in MBI kunt invoeren, met inbegrip van verbindingen aan extra documentatie over gegevens Zendesk.
 exl-id: 838d8d13-e2e1-44c2-a416-f1792200ee6f
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ In dit artikel bekijken we de belangrijkste gegevenstabellen waaruit u kunt impo
 ## Verwante
 
 * [Zendesk verbinden](../integrations/zendesk.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

@@ -2,9 +2,9 @@
 title: Aanbevolen Dimension van Gegevens voor Segmentatie en Filtreren
 description: Leer over beste praktijken voor segmentatie en het filtreren.
 exl-id: 66391bce-bdeb-4e9d-8089-1c796e00d91e
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Dit soort analyse doen marketeers van Fortune 1000 bedrijven de hele dag. Vooraf
 
 De eerste stap om uw metriek door de bovengenoemde afmetingen te segmenteren is ervoor te zorgen dat u deze gegevens in uw gegevensbestand volgt. Als de gegevens niet worden bijgehouden, neemt u contact op met uw technische team en zoekt u een manier om deze gegevens te volgen.
 
-Zodra wij bevestigen dat de gegevens in uw gegevensbestand worden gevolgd, [contact opnemen met ons supportteam](../guide-overview.md) om de afmetingen naar uw [!DNL MBI] metriek en grafieken, of gebruik eenvoudig ons hulpmiddel van het Beheer van het Gebied om deze gebieden op te volgen [!DNL MBI].
+Zodra wij bevestigen dat de gegevens in uw gegevensbestand worden gevolgd, [contact opnemen met ons supportteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om de afmetingen naar uw [!DNL MBI] metriek en grafieken, of gebruik eenvoudig ons hulpmiddel van het Beheer van het Gebied om deze gebieden op te volgen [!DNL MBI].
 
 ## Verwante
 

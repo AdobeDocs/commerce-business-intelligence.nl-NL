@@ -2,9 +2,9 @@
 title: Connect Zendesk
 description: Leer hoe u uw helpdeskrapportage kunt consolideren in [!DNL MBI].
 exl-id: 1c7f7c5c-4b1c-4bcf-8f1d-2b4cf9cdb0fb
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -52,4 +52,4 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 ## Verwante:
 
 * [Verwacht [!DNL Zendesk] data](../integrations/exp-zendesk-data.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

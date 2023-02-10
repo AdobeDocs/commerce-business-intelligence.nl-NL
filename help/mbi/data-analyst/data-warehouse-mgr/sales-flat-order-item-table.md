@@ -2,16 +2,16 @@
 title: sales_order_item, tabel
 description: Leer hoe u met de tabel sales_order_item werkt.
 exl-id: 5c48e985-3ba2-414b-bd1f-555b3da763bd
-source-git-commit: c0892aa046c80f90561b4a178525ef9ed05b435a
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
 
 # `sales_order_item` Tabel
 
-De `sales_order_item` tabel (`sales_flat_order_item` op [!DNL Magento] 1) bevat gegevens over alle producten die in een bestelling zijn aangeschaft. Elke rij vertegenwoordigt een unieke `sku` opgenomen in een bestelling. De hoeveelheid eenheden die voor een specifieke `sku` wordt het vaakst vertegenwoordigd door `qty_ordered` veld.
+De `sales_order_item` tabel (`sales_flat_order_item` op M1 1) een register bevat van alle producten die in een bestelling zijn aangeschaft. Elke rij vertegenwoordigt een unieke `sku` opgenomen in een bestelling. De hoeveelheid eenheden die voor een specifieke `sku` wordt het vaakst vertegenwoordigd door `qty_ordered` veld.
 
 ## Producttypen
 
@@ -82,7 +82,7 @@ Daarom is het mogelijk om op het eenvoudige niveau of op het configureerbare niv
 
 `sales_order_item`
 
-* Verbinden met `sales_order_item` om nieuwe kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. Let op: u moet [contactondersteuning](../../guide-overview.md) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
+* Verbinden met `sales_order_item` om nieuwe kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. Let op: u moet [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
    * Pad: `sales_order_item.parent_item_id` (veel) => `sales_order_item.item_id` (1)
 
 `store`

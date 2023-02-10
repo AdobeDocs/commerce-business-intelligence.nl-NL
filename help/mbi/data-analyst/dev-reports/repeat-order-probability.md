@@ -2,9 +2,9 @@
 title: Rapport voor waarschijnlijkheid van bestelling herhalen
 description: Leer en begrijp het rapport Herhalingskans bestelling.
 exl-id: 2c88b85a-7320-44ca-87a5-5b91250348ea
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als we een filter zouden toevoegen dat een dimensie gebruikt die niet gelijk is 
 
 In bepaalde gevallen kunnen we een `order-specific` dimensie in een `user-specific` dimensie die als filter moet worden toegevoegd in het dialoogvenster `Repeat Order Probability` grafiek. In deze gevallen, zullen wij de ordekenmerken van de eerste orde of recentste orde van een gebruiker (bijvoorbeeld, de naam van het eerste ordegebied van de Gebruiker) terugkeren.
 
-Als u zo&#39;n nieuwe dimensie wilt creëren, [contactondersteuning](../../guide-overview.md).
+Als u zo&#39;n nieuwe dimensie wilt creëren, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ## Herhalingswaarschijnlijkheid van orders met verschillende kenmerken vergelijken
 

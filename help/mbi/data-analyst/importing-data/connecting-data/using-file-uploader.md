@@ -2,9 +2,9 @@
 title: Bestandsuploader gebruiken
 description: Leer hoe te om al uw gegevens in één enkel gegevenspakhuis te zetten.
 exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Laten we advertentiecampagnes als voorbeeld gebruiken. Als u zowel online als of
 ## Beperkingen en eisen {#require}
 
 1. **De enige ondersteunde indeling voor het uploaden van bestanden is `CSV` of`comma separated values`**. Als u in Excel werkt, kunt u de functie Opslaan als gebruiken om het bestand op te slaan in `.csv` gebruiken.
-1. **`CSV`bestanden moeten`UTF-8 encoding`**. Het grootste deel van de tijd zal dit geen kwestie zijn. Als deze fout optreedt tijdens het uploaden van een bestand, [raadpleeg dit ondersteuningsartikel](https://support.magento.com/hc/en-us/articles/360016730591).
+1. **`CSV`bestanden moeten`UTF-8 encoding`**. Het grootste deel van de tijd zal dit geen kwestie zijn. Als deze fout optreedt tijdens het uploaden van een bestand, [raadpleeg dit ondersteuningsartikel](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html?lang=en).
 1. **Bestanden mogen niet groter zijn dan 100 MB**. Als het bestand groter is dan dit, scheidt u de tabel in delen en slaat u deze op als afzonderlijke bestanden. U kunt de gegevens toevoegen nadat het eerste bestand is geladen.
 1. **Alle tabellen moeten een`primary key`**. Er moet minstens één kolom in uw lijst zijn die als `primary key`of een unieke id voor elke rij in de tabel. Elke kolom die als een `primary key` kan *nooit* is null. A `primary key` kan eenvoudig zijn zoals het toevoegen van een kolom die een aantal aan elke rij geeft, of kan twee kolommen zijn samengevoegd om een kolom van unieke waarden (bijvoorbeeld, `campaign name` en `date`).
 

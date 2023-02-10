@@ -2,9 +2,9 @@
 title: Basisanalyses begrijpen en bouwen
 description: Leer hoe u analyses van basisbeginselen begrijpt en bouwt.
 exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3153'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 **Accepteer je gastorders?**
 
-*In dat geval bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met onze [ondersteuningsteam](https://support.magento.com/hc/en-us/articles/360016503692) om ervoor te zorgen dat alle klanten deelnemen aan de analyses van uw klanten.*
+*In dat geval bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met onze [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om ervoor te zorgen dat alle klanten deelnemen aan de analyses van uw klanten.*
 
 *Weet u niet zeker of u gastorders accepteert? Zie [dit onderwerp](../data-warehouse-mgr/guest-orders.md) voor meer informatie!*
 
@@ -58,7 +58,7 @@ In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze tabe
 * **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
 * **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam op uw `Customers` tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar als dit de 15e bestelling van de klant was, staat in deze kolom &quot;15&quot; voor deze bestelling. Als deze dimensie niet bestaat op uw `Customers` tafel, vraag onze [ondersteuningsteam](https://support.magento.com/hc/en-us/articles/360016503692) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar als dit de 15e bestelling van de klant was, staat in deze kolom &quot;15&quot; voor deze bestelling. Als deze dimensie niet bestaat op uw `Customers` tafel, vraag onze [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om u te helpen het bouwen.
 * **[!UICONTROL Customer's order number (previous-current)]**: Een aaneenschakeling van twee waarden in de **[!UICONTROL Customer's order number]** kolom. Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
 * **[!UICONTROL Coupon_code]**: Geeft aan welke coupon(s) op elke bestelling zijn gebruikt.
 * **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.
@@ -86,7 +86,7 @@ Deze tabel wordt gebruikt voor het beheer van uw abonnementsgegevens, zoals de a
 
 ## Tabel met marketinguitgaven
 
-Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook], [!DNL Google AdWords]of andere bronnen in uw analyses. Neem contact op met onze [Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij het instellen van een geconsolideerde tabel voor uw marketingcampagnes.
+Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook], [!DNL Google AdWords]of andere bronnen in uw analyses. Neem contact op met onze [Managed Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij het instellen van een geconsolideerde tabel voor uw marketingcampagnes.
 
 **Dimension**
 
@@ -535,7 +535,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 >[!NOTE]
 >
->U kunt de formule een titel geven als &quot;ROI&quot; en alle metriek verbergen. Bovendien kunt u de filters in de metriek aanpassen om alternatieve bronnen en media te analyseren. Ook uitchecken [dit artikel](../analysis/roi-ad-camp.md) voor meer informatie over CAC, LTV, en ROI.
+>U kunt de formule een titel geven als &quot;ROI&quot; en alle metriek verbergen. Bovendien kunt u de filters in de metriek aanpassen om alternatieve bronnen en media te analyseren. Ook uitchecken [dit onderwerp](../analysis/roi-ad-camp.md) voor meer informatie over CAC, LTV, en ROI.
 
 ![ROI 1](../../assets/ROI_1.png)<!--{: width="929"}-->
 

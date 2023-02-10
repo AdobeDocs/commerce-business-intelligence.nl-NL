@@ -2,9 +2,9 @@
 title: sales_order tabel
 description: Leer hoe u met de tabel sales_order werkt.
 exl-id: 19a8ab88-de51-48f8-af39-ae4897834afe
-source-git-commit: 73373924b7adaffabf643b65bd290ce2d9408574
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Deze lijst omvat alle klantenorden, al dan niet die orde door gastafhandeling we
 | `customer_group_id` | Buitenlandse sleutel gekoppeld aan de `customer_group` tabel. Verbinden met `customer_group.customer_group_id` om de klantengroep te bepalen verbonden aan de orde |
 | `customer_id` | `Foreign key` in verband met de `customer_entity` tabel, als de klant is geregistreerd. Verbinden met `customer_entity.entity_id` om klantenattributen te bepalen verbonden aan de orde. Als de bestelling via uitchecken door gasten is geplaatst, wordt dit veld `NULL` |
 | `entity_id` (PK) | Unieke id voor de tabel en wordt doorgaans gebruikt in combinatie met andere tabellen binnen de instantie Commerce |
-| `increment_id` | Unieke identificatiecode voor een order, gewoonlijk aangeduid als de `order_id` binnen Magento. De `increment_id` wordt het vaakst gebruikt voor verbindingen met externe bronnen, zoals [!DNL Google Ecommerce] |
+| `increment_id` | Unieke identificatiecode voor een order, gewoonlijk aangeduid als de `order_id` in Adobe Commerce. De `increment_id` wordt het vaakst gebruikt voor verbindingen met externe bronnen, zoals [!DNL Google Ecommerce] |
 | `shipping_address_id` | Buitenlandse sleutel gekoppeld aan de `sales_order_address` tabel. Verbinden met `sales_order_address.entity_id` om de verzendadresgegevens van de bestelling te bepalen |
 | `status` | Status van bestelling. Kan waarden als &#39;complete&#39;, &#39;processing&#39;, &#39;canceled&#39;, &#39;teruggegeven&#39; en aangepaste statussen die op de instantie Commerce zijn geïmplementeerd, retourneren. Afhankelijk van wijzigingen in de verwerking van de bestelling |
 | `store_id` | `Foreign key` in verband met de `store` tabel. Verbinden met `store`.`store_id` om te bepalen welke de opslagmening van de Handel met de orde wordt geassocieerd |

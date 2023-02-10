@@ -2,9 +2,9 @@
 title: Streepgegevens verwacht
 description: De belangrijkste gegevenstabellen verkennen die u kunt importeren van Stripe naar [!DNL MBI].
 exl-id: 694577b2-48f9-4376-850d-acae1776afe3
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ In dit artikel bekijken we de belangrijkste gegevenstabellen waaruit u kunt impo
 
 | **Tabelnaam** | **Beschrijving** |
 |-----|-----|
-| [`Customers`](https://stripe.com/docs/api/curl#customer_object) | De voorwerpen van de klant staan u toe om terugkomende kosten uit te voeren en veelvoudige kosten te volgen die met de zelfde klant worden geassocieerd. |
-| [`Charges`](https://stripe.com/docs/api/curl#charge_object) | Deze tabel bevat informatie over de kosten voor creditcards en betaalkaarten, zoals het bedrag, de valuta, de status, de klant-id en nog veel meer. |
-| [`Coupons`](https://stripe.com/docs/api/curl#coupon_object) | Deze tabel bevat informatie over een korting die u op een bepaald percentage of bedrag wilt toepassen op een klant. Merk op dat coupons alleen van toepassing zijn op facturen; zij zijn niet van toepassing op eenmalige kosten. |
-| [`Invoices`](https://stripe.com/docs/api/curl#invoice_object) | Deze tabel bevat informatie over facturen, waaronder het verschuldigde bedrag, abonnementen, factuurposten, eventuele automatische correcties van de proratie en meer. |
-| [`Plans`](https://stripe.com/docs/api/curl#plan_object) | Deze tabel bevat de prijsgegevens voor verschillende producten en functieniveaus op uw site. U hebt bijvoorbeeld een abonnement van $10/maand voor basisfuncties en een abonnement van $20/maand voor premiumfuncties. |
-| [`Subscriptions`](https://stripe.com/docs/api/curl#subscription_object) | Deze lijst bevat de details van abonnementsplannen uw klanten tot behoren. Tot de kenmerken behoren de id van de klant, de status, geannuleerd/beëindigd op datums, het belastingpercentage, de proefgegevens en nog veel meer. |
-| [`Events`](https://stripe.com/docs/api/curl#event_object) | Gebeurtenissen geven u informatie over iets interessants dat zojuist in een account is gebeurd. [Wanneer een interessante gebeurtenis plaatsvindt](https://stripe.com/docs/api/curl#event_types), wordt een nieuw gebeurtenisobject gemaakt. Bijvoorbeeld wanneer een last slaagt `charge.succeeded` gebeurtenis wordt gecreëerd; of wanneer een factuur niet kan worden betaald `invoice.payment\_failed` wordt gemaakt. |
+| [`Customers`](https://stripe.com/docs/sources/customers) | De voorwerpen van de klant staan u toe om terugkomende kosten uit te voeren en veelvoudige kosten te volgen die met de zelfde klant worden geassocieerd. |
+| [`Charges`](https://stripe.com/docs/payments/payment-intents/migration/charges) | Deze tabel bevat informatie over de kosten voor creditcards en betaalkaarten, zoals het bedrag, de valuta, de status, de klant-id en nog veel meer. |
+| [`Coupons`](https://stripe.com/docs/api/coupons/object) | Deze tabel bevat informatie over een korting die u op een bepaald percentage of bedrag wilt toepassen op een klant. Merk op dat coupons alleen van toepassing zijn op facturen; zij zijn niet van toepassing op eenmalige kosten. |
+| [`Invoices`](https://stripe.com/docs/billing/migration/invoice-states) | Deze tabel bevat informatie over facturen, waaronder het verschuldigde bedrag, abonnementen, factuurposten, eventuele automatische correcties van de proratie en meer. |
+| [`Plans`](https://stripe.com/docs/api/plans/object) | Deze tabel bevat de prijsgegevens voor verschillende producten en functieniveaus op uw site. U hebt bijvoorbeeld een abonnement van $10/maand voor basisfuncties en een abonnement van $20/maand voor premiumfuncties. |
+| [`Subscriptions`](https://stripe.com/docs/api/subscriptions/object) | Deze lijst bevat de details van abonnementsplannen uw klanten tot behoren. Tot de kenmerken behoren de id van de klant, de status, geannuleerd/beëindigd op datums, het belastingpercentage, de proefgegevens en nog veel meer. |
+| [`Events`](https://stripe.com/docs/development/dashboard/events) | Gebeurtenissen geven u informatie over iets interessants dat zojuist in een account is gebeurd. [Wanneer een interessante gebeurtenis plaatsvindt](https://stripe.com/docs/api/events/types), wordt een nieuw gebeurtenisobject gemaakt. Bijvoorbeeld wanneer een last slaagt `charge.succeeded` gebeurtenis wordt gecreëerd; of wanneer een factuur niet kan worden betaald `invoice.payment\_failed` wordt gemaakt. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -34,4 +34,4 @@ In dit artikel bekijken we de belangrijkste gegevenstabellen waaruit u kunt impo
 ## Verwante:
 
 * [Verbinding maken [!DNL Stripe]](../integrations/stripe.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

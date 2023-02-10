@@ -2,9 +2,9 @@
 title: Uw [!DNL MBI] Account voor abonnementen op locatie
 description: Meer informatie over het activeren van uw [!DNL MBI] account voor On-Premise Abonnementen.
 exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Om te activeren [!DNL MBI] voor on-premise abonnementen, creeer eerst een [!DNL 
 
 1. Maak uw [!DNL MBI] Account.
 
-   - Ga naar [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
+   - Ga naar uw [Aanmelden bij Adobe Commerce-account](https://account.magento.com/customer/account/login)
 
    - Ga naar **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
@@ -25,7 +25,7 @@ Om te activeren [!DNL MBI] voor on-premise abonnementen, creeer eerst een [!DNL 
 
    ![](../assets/create-account-2.png)
 
-   - Ga naar je postvak IN en verifieer je e-mailadres. Als je geen e-mail hebt ontvangen, [contactondersteuning](../guide-overview.md).
+   - Ga naar je postvak IN en verifieer je e-mailadres. Als je geen e-mail hebt ontvangen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
    - Maak uw wachtwoord.
 

@@ -2,9 +2,9 @@
 title: Connect QuickBooks
 description: Leer hoe uw bedrijfsfinanciën nu naast uw verkoop en marketing gegevens kunnen leven, die u toestaan om snel en gemakkelijk lusjes op uw uitgaven te houden, overbesteding, en meer te identificeren.
 exl-id: e100c88c-af59-4185-b2a2-c8e77bfd7277
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ Na klikken **[!UICONTROL Connect to Quickbooks]**, meldt u zich aan bij uw [!DNL
 ## Verwante
 
 * [Verwacht [!DNL QuickBooks] data](../integrations/quickbooks-data.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

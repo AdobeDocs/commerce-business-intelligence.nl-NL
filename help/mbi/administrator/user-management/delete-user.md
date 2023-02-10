@@ -2,9 +2,9 @@
 title: Een gebruiker verwijderen of opnieuw activeren
 description: Leer hoe u een [!DNL MBI] gebruiker.
 exl-id: 0590275d-3329-40fb-8be1-4a700438338d
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -24,5 +24,5 @@ U kunt de gebruiker opnieuw activeren door een nieuwe gebruiker met hetzelfde e-
 Als u de dashboards van die gebruiker slechts nodig hebt in een verschillend gebruikersrekening worden geduwd, doe het volgende:
 
 1. Gebruik het verwijderde e-mailadres van de gebruiker om een nieuwe gebruiker te maken [!DNL MBI] gebruiker.
-1. [Ondersteuning op de hoogte stellen](../../guide-overview.md) nadat u de gebruiker hebt gemaakt. De ondersteuning zal de dashboards naar uw account overbrengen.
+1. [Ondersteuning op de hoogte stellen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) nadat u de gebruiker hebt gemaakt. De ondersteuning zal de dashboards naar uw account overbrengen.
 1. Nadat de Steun u van de overdracht op de hoogte brengt, kunt u de gebruiker opnieuw schrappen.

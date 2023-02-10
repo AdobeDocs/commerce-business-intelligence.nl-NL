@@ -2,9 +2,9 @@
 title: Uw gegevens verbinden
 description: Leer hoe u in Data Warehouse Manager door de tabellen kunt bladeren die u kunt synchroniseren.
 exl-id: 94beba8b-6a86-4af9-87fb-96b1cf8f8fa2
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,6 @@ Als u een integratie wilt toevoegen, klikt u op **[!UICONTROL Manage Data** > **
 * [Tabellen consolideren](../../../best-practices/consolidating-your-tables.md)
 * [Toegang tot uw database beperken](../../../administrator/account-management/restrict-db-access.md)
 
-**Ziet u niet een gewenste integratie?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u bijvoorbeeld iets zoekt, [!DNL Facebook] - maar niet in de lijst opgenomen, [een ondersteuningsticket indienen](../../../guide-overview.md).
+**Ziet u niet een gewenste integratie?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u bijvoorbeeld iets zoekt, [!DNL Facebook] - maar niet in de lijst opgenomen, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 **Als er een foutstatus voor een integratie wordt weergegeven**, niet paniek maken - controleer de [Sectie Problemen oplossen](https://support.magento.com/hc/en-us/sections/360003078151) voor hulp.

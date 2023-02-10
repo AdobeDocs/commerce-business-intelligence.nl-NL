@@ -2,16 +2,16 @@
 title: Inventarisniveaus analyseren
 description: Leer hoe u inventarisniveaus kunt analyseren.
 exl-id: 620156c5-7bea-4b36-84c7-e0cb4b5cc8be
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
 
 # Inventarisniveaus analyseren
 
-In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris. Dit onderwerp bevat instructies voor cliënten op zowel de erfenisarchitectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** ). Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](../../guide-overview.md) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
+In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris. Dit onderwerp bevat instructies voor cliënten op zowel de erfenisarchitectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** ). Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
 
 ## Kolommen die moeten worden bijgehouden:
 
@@ -240,4 +240,4 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       [!UICONTROL Chart type]: `Table`
 
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](../../guide-overview.md).
+Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

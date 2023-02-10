@@ -2,9 +2,9 @@
 title: Marketing ROI
 description: Leer hoe u een dashboard instelt dat uw kanaalanalyse bijhoudt, inclusief ROI in geaggregeerde vorm en per campagne.
 exl-id: 5de83998-e6cf-478d-bb6a-7a3dc77c2c0c
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [!DNL [Facebook Ads]]
 
 **Oorspronkelijke architectuur:** Om uw uitgaven uit diverse bronnen samen te brengen (zoals [!DNL Facebook Ads] of [!DNL Google Adwords]), raden we u aan een **geconsolideerde tabel** van al je advertentie-uitgaven. U hebt een analist nodig om deze stap voor u te voltooien. Als u dat nog niet hebt gedaan, [een supportverzoek indienen](../../guide-overview.md) met het onderwerp `[MARKETING ROI ANALYSIS]`en een analist maakt deze tabel.
 
-**Nieuwe architectuur:** U kunt het voorbeeld volgen dat in [deze analysebibliotheek](../../data-analyst/data-warehouse-mgr/create-dw-views.md) onderwerp. De geconsolideerde Lijsten zijn nu genoemd geworden Mening van de Data Warehouse over de nieuwe architectuur.
+**Nieuwe architectuur:** U kunt het voorbeeld volgen dat in [Deze analysebibliotheek](../../data-analyst/data-warehouse-mgr/create-dw-views.md) onderwerp. De geconsolideerde Lijsten zijn nu genoemd geworden Mening van de Data Warehouse over de nieuwe architectuur.
 
 ## Berekende kolommen
 
@@ -295,7 +295,7 @@ Te maken kolommen
 
    [!UICONTROL Chart Type]: `Table`
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](../../guide-overview.md).
+Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ### Verwante
 

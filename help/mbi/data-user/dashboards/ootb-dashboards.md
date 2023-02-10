@@ -2,9 +2,9 @@
 title: Opgenomen dashboards
 description: Leer hoe u de gezondheid van essentiële gegevens kunt controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en meer, en zo een solide basis voor toekomstige exploratie kunt leggen.
 exl-id: f50fc417-e5d4-401c-9baa-cda1468196a2
-source-git-commit: 3557e6370fae637cd74550b2806847bebe61d5d3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Als onderdeel van onze services bieden we eCommerce en `SaaS` Startpakketten. De
 >
 >De beschikbaarheid van sommige dashboards hangt van uw dataset af.
 
-Als u vragen hebt of als u een pakket aan uw account wilt toevoegen, dient u een [ondersteuningsticket](../../guide-overview.md) voor hulp.
+Als u vragen hebt of als u een pakket aan uw account wilt toevoegen, dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp.
 
 ## Uitvoerend overzicht
 

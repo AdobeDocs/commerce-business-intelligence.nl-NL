@@ -2,9 +2,9 @@
 title: Gegevens en updates
 description: Leer hoe u de status van uw updatecyclus kunt controleren.
 exl-id: a4a2e487-b826-4888-baf0-9d246a8ff153
-source-git-commit: 09b6983c3e06a1f18035542dfa3b9de9ac3ceb38
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,8 @@ Absoluut! Als er een update wordt uitgevoerd, wordt er een koppeling weergegeven
 
 ## Waarom[!DNL Google ECommerce]andere gegevens dan mijn database? {#ecommdatabase}
 
-Verschillen tussen [!DNL Google Analytics] en uw database kan om een aantal redenen ontstaan. Het volgen wordt niet correct toegelaten, gebruikers die incognito bezoeken, en gebeurtenissen klikken die niet correct werken zijn slechts een paar voorbeelden. Als uw inkomsten en bestellingen er niet helemaal goed uitzien, [dit artikel gebruiken](https://support.magento.com/hc/en-us/articles/360016505232) om het probleem te diagnostiseren.
+Verschillen tussen [!DNL Google Analytics] en uw database kan om een aantal redenen ontstaan. Het volgen wordt niet correct toegelaten, gebruikers die incognito bezoeken, en gebeurtenissen klikken die niet correct werken zijn slechts een paar voorbeelden. Als uw inkomsten en bestellingen er niet helemaal goed uitzien, [dit artikel gebruiken](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=en) om het probleem te diagnostiseren.
 
 ## Hoe los ik een gegevensdiscrepantie problemen op? {#datadiscrepancy}
 
-We weten dat inconsistente gegevens een frustrerende ervaring kunnen zijn. Probeer onze [Controlelijst voor gegevensdiscrepantie](https://support.magento.com/hc/en-us/articles/360016731271) of [Zelfstudie voor gegevensuitvoer](https://support.magento.com/hc/en-us/articles/360016730631) om het probleem te diagnostiseren. Als u nog steeds vastzit, [contactondersteuning](../../guide-overview.md).
+We weten dat inconsistente gegevens een frustrerende ervaring kunnen zijn. Probeer onze [Controlelijst voor gegevensdiscrepantie](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.html?lang=en) of [Zelfstudie voor gegevensuitvoer](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en) om het probleem te diagnostiseren. Als u nog steeds vastzit, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

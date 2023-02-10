@@ -2,9 +2,9 @@
 title: Bepaal klantenkring
 description: Leer hoe u een dashboard instelt dat u zal helpen karn voor uw transactieklanten bepalen.
 exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
-source-git-commit: 3557e6370fae637cd74550b2806847bebe61d5d3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -136,4 +136,4 @@ Zodra u uw dashboard hebt opgebouwd, is de gemeenschappelijkste vraag wij: Hoe g
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan de pagina
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](../../guide-overview.md).
+Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

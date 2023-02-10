@@ -2,9 +2,9 @@
 title: Herhalingswaarschijnlijkheidsverlies en -kromme analyseren
 description: Leer en begrijp hoe tijd verloopt tussen bestellingen en wanneer klanten naar verwachting zullen afkoelen.
 exl-id: ea26052d-ac74-43b7-a4a6-977800d4c719
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Bij het analyseren van recidiefwaarschijnlijkheidsverlies en -kromme kunt u het 
 
 ### Waarschijnlijk eerste herhalingsvolgorde
 
-Deze maatregel wordt gedefinieerd als het totale aantal herhalingsorders, als percentage van het totale aantal bestellingen. Anders gezegd, dit is de kans dat een order wordt gevolgd door een andere volgorde. Als deze waarschijnlijkheid groter is dan 50%, betekent dit dat meer dan de helft van alle orders wordt gevolgd door een volgende order.
+Deze maatregel wordt gedefinieerd als het totale aantal herhalingsorders, als percentage van het totale aantal bestellingen. Anders gezegd, dit is de kans dat een order wordt gevolgd door een andere volgorde. Wanneer deze waarschijnlijkheid meer dan 50 percenten is, impliceert het dat meer dan de helft van alle orden door een verdere orde wordt gevolgd.
 
 ### Herhaal de waarschijnlijkheid van de volgorde van maanden sinds de bestelling
 
@@ -35,7 +35,7 @@ Deze maatregel toont de waarschijnlijkheid aan dat een gebruiker opnieuw bestelt
 
 Afhankelijk van uw bedrijfsmodel kan de waarschijnlijkheid van de herhalingsbestelling onmiddellijk afnemen nadat een klant een bestelling plaatst en in de daaropvolgende maanden verder afneemt, of kan de waarschijnlijkheid seizoensgebonden variaties en pieken aantonen.
 
-In beide gevallen, begrijpt welk percentage van uw klanten naar verwachting herhaalde aankopen zullen doen en hoe deze tendensen in tijd u toestaat om uw klanten met kritieke intervallen te richten om de waarschijnlijkheid van een herhaalde aankoop te maximaliseren. Dus wanneer de waarschijnlijkheid van een herhaalde aankoop afneemt, kunt u een tijd kiezen om een klant te identificeren als &#39;afgekoeld&#39; en uw inspanningen te verschuiven van &#39;vasthouden&#39; naar &#39;reactiveren&#39;.
+In beide gevallen, begrijpt welk percentage van uw klanten naar verwachting herhaalde aankopen zullen doen en hoe deze tendensen in tijd u toestaat om uw klanten met kritieke intervallen te richten om de waarschijnlijkheid van een herhaalde aankoop te maximaliseren. Dus wanneer de waarschijnlijkheid van een herhaalde aankoop afneemt, kunt u een tijd kiezen om een klant te identificeren als &#39;afgekoeld&#39; en uw inspanningen te verschuiven van &#39;vasthouden&#39; naar &#39;opnieuw activeren&#39;.
 
 ## Het voorbeeld van vandaag
 
@@ -55,7 +55,7 @@ Aangezien de waarschijnlijkheid van de eerste herhaling voor dit voorbeeld 60% i
 
 Een andere manier, als een klant een vervolgorder zou plaatsen, zullen zij eerder dit binnen zes maanden na hun laatste orde dan na het 6 maandteken hebben gedaan. Als een klant na zes maanden niet opnieuw heeft aangeschaft, moet een reactiveringscampagne worden gestart om deze klant weer aan te trekken.
 
-Afhankelijk van uw bedrijfsmodel, kunt u een verschillende drempel, zoals het punt willen kiezen waar de waarschijnlijkheid van de herhaalde orde onder 50% of 10% daalt. Als uw interne kennis een ander aantal suggereert, dan zou u het op alle mogelijke manieren moeten gebruiken!
+Afhankelijk van uw bedrijfsmodel, kunt u een verschillende drempel, zoals het punt willen kiezen waar de waarschijnlijkheid van de herhaalde orde onder 50% of 10% daalt. Als uw interne kennis een ander aantal suggereert, dan moet u het op alle mogelijke manieren gebruiken!
 
 Uiteindelijk is het de bedoeling om de drempel te selecteren waar het zinvol is om van retentie naar reactivering over te schakelen. Bewaarinspanningen kunnen e-mails omvatten om bestaande klanten opnieuw te betrekken bij voorgestelde vervolgaankopen om deze aan te bieden, terwijl voor reactivering e-mails naar vervallen klanten met coupons en deals nodig kunnen zijn.
 
@@ -76,7 +76,7 @@ Nadat u de bovenstaande analyse hebt gemaakt en een drempelwaarde voor het aanta
 
 Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. Wilt u meer weten? Bekijk deze zelfstudie om het levenslange aankoopgedrag van klanten te verkennen op basis van specifieke producten die ze hebben aangeschaft.
 
-Deze beste praktijken worden verstrekt door [!DNL MBI] Data Analysis Services (DAS). We kijken ernaar uit om al uw specifieke zakelijke vragen te beantwoorden! [Contact opnemen met ondersteuning](../../guide-overview.md) voor meer informatie.
+Deze beste praktijken worden verstrekt door [!DNL MBI] Data Analysis Services (DAS). We kijken ernaar uit om al uw specifieke zakelijke vragen te beantwoorden! [Contact opnemen met ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor meer informatie.
 
 ### Verwante
 

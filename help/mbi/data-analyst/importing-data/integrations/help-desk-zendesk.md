@@ -2,9 +2,9 @@
 title: Helpdesk-rapporten voor Zendesk
 description: Meer informatie over uw meest gewaardeerde verwijzingskanalen.
 exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit is alleen beschikbaar voor clients die zich op de `Pro` de nieuwe architectuur plannen en gebruiken. U bent op de [nieuwe architectuur](https://support.magento.com/hc/en-us/articles/360016503052-New-Architecture-FAQ) als u `Data Warehouse Views` sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
+>Dit is alleen beschikbaar voor clients die zich op de `Pro` de nieuwe architectuur plannen en gebruiken. U bevindt zich op de nieuwe architectuur als u de `Data Warehouse Views` sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
 
 Uw [!DNL Zendesk] gegevens met uw transactionele gegevensbestand is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop of klantensuccesteams in wisselwerking staan en welk type van klanten uw steunplatform gebruiken. In dit artikel laten we zien hoe u een dashboard kunt instellen om gedetailleerde rapporten over uw [!DNL Zendesk] prestaties en tijd in uw transactieklanten.
 
@@ -196,7 +196,7 @@ Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [[!DNL Zendesk]
 
       * `Calculation` - `to_char(A,'D')||'. '||to_char(A,'Day')`
 
-      *`Datatype` - `String`
+      *`Datatype` – `String`
 
 
 * **`customer_entity`** table
@@ -221,7 +221,7 @@ Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [[!DNL Zendesk]
 
       * `Calculation` - `case when A>0 then 'Yes' else 'No' end`
 
-      * `Datatype` - `String`
+      * `Datatype` – `String`
 
 * **`[Zendesk] Tickets`** table
    * Selecteer een definitie: `Joined Column`

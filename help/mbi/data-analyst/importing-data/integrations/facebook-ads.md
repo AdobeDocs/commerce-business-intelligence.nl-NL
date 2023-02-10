@@ -2,9 +2,9 @@
 title: Connect Facebook-advertenties
 description: Leer om uw advertentie te analyseren en te zien of wordt uw geld effectief besteed.
 exl-id: 219a868b-f17c-4299-9e29-94db9156c9b6
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ U voert een aantal stappen uit om [!DNL MBI] toegang te krijgen tot gegevens uit
 
 ## wat nu ? {#next}
 
-Zorg ervoor dat u bijhoudt [!DNL Facebook] campagnes in [!DNL Google Analytics] als [zelfstudie](https://www.facebook.com/business/google-analytics). Hierdoor wordt gewaarborgd dat de `utm\_campaign` veld in [!DNL Google Analytics] is correct gevuld voor uw [!DNL Facebook] campagnes.
+Zorg ervoor dat u bijhoudt [!DNL Facebook] campagnes in [!DNL Google Analytics]. Hierdoor wordt gewaarborgd dat de `utm\_campaign` veld in [!DNL Google Analytics] is correct gevuld voor uw [!DNL Facebook] campagnes.
 
 ## Verwante
 
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
 * [Verbind uw [!DNL Google Adwords] account](../integrations/google-ecommerce.md)
 * [Referentiebron voor bestelling volgen via [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)

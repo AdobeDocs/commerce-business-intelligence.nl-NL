@@ -2,9 +2,9 @@
 title: MySQL verbinden via SSH-tunnel
 description: Leer hoe te om MySQL via de Tunnel van SSH te verbinden.
 exl-id: 6b691a6a-9542-4e47-9b1d-d6d3c3dac357
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -120,4 +120,4 @@ Dat is het! Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de inst
 
 ## Verwante:
 
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

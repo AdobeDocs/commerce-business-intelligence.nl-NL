@@ -2,10 +2,10 @@
 title: Gedrag voor het opnieuw aanschaffen van klanten analyseren
 description: Leer hoe u het terugkoopgedrag van klanten kunt analyseren.
 exl-id: 62666d08-5240-4f19-bf8e-e5b2d79a25c4
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 0%
+source-wordcount: '876'
+ht-degree: 1%
 
 ---
 
@@ -46,9 +46,9 @@ Met inachtneming van de bovenstaande cijfers, laten we een voorbeeld bekijken me
 
 | **Productnaam** | **Herhalingsvolgordeningswaarschijnlijkheid** | **Gemiddeld aantal orders tijdens de levensduur** | **Gem. inkomsten** | **Mediane tijd tot volgende bestelling** |
 |-----|-----|-----|-----|-----|
-| Koffiebrouwerij voor één beker | 94,98% | 7,92 | $ 549,82 | 57,01 dagen |
-| Koffiecapsules | 93,82% | 8,68 | $ 479,98 | 63,48 dagen |
-| Koffiebonen | 41,92% | 6,07 | $ 99,82 | 27,31 dagen |
+| Koffiebrouwerij voor één beker | 94.98% | 7.92 | $549.82 | 57,01 dagen |
+| Koffiecapsules | 93.82% | 8.68 | $479.98 | 63,48 dagen |
+| Koffiebonen | 41.92% | 6.07 | $99.82 | 27,31 dagen |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -80,4 +80,4 @@ Naast het analyseren van het terugkoopgedrag van uw klanten, kunt u analyses ook
 
 Als u hebt vastgesteld waarom er een fout optreedt, kunt u uw analyse gebruiken om een `reactivation` campagne. Met deze gegevens kunt u gebruikers identificeren die inactief zijn geworden, hoe lang het is sinds hun laatste bezoek, wat hun laatste aankoop was, enzovoort. Hierdoor kunt u handelingen uitvoeren die uw klanten ertoe aanzetten terug te keren.
 
-Voor hulp bij de analyse [contactondersteuning](../../guide-overview.md).
+Voor hulp bij de analyse [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

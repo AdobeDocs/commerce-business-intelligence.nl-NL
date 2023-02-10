@@ -24,7 +24,7 @@ Nadat u het machtigingsniveau hebt ingesteld, kunt u de metriek selecteren als *
 
 >[!NOTE]
 >
->Alle gebruikers met **[!UICONTROL Standard]** de toestemmingen kunnen tot alle gegevens in het gegevenspakhuis via de Uitvoer van Gegevens toegang hebben naast alle metriek van [!DNL Google Analytics].
+>Alle gebruikers met **[!UICONTROL Standard]** de toestemmingen hebben toegang tot alle gegevens in het gegevenspakhuis via de Uitvoer van Gegevens naast alle metriek van [!DNL Google Analytics].
 
 U kunt toegang tot metrisch ook beperken door metrisch uit te geven en **[!UICONTROL Standard]** gebruikers selecteren in het dialoogvenster **[[!UICONTROL User Rights]](../../data-user/reports/ess-manage-data-metrics.md)** sectie.
 

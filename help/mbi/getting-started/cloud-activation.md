@@ -2,9 +2,9 @@
 title: Activeer uw [!DNL MBI] Account voor Cloud Starter-abonnementen
 description: Meer informatie over activeren [!DNL MBI] voor Cloud Starter-projecten.
 exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
 1. Maak uw [!DNL MBI] Account.
 
-   - Ga naar [https://account.magento.com/customer/account/login](https://account.magento.com/customer/account/login)
+   - Ga naar [Aanmelden bij Adobe Commerce-account](https://account.magento.com/customer/account/login)
 
    - Ga naar **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
@@ -53,7 +53,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
 1. Speciaal maken [!DNL MBI] Gebruiker.
 
-   - Nieuwe gebruiker maken op [https://accounts.magento.com](https://accounts.magento.com).
+   - Een nieuwe gebruiker maken in uw [Adobe Commerce-account](https://accounts.magento.com).
 
    - _Waarom een nieuwe gebruiker?_ [!DNL MBI] heeft een gebruiker nodig die aan het project wordt toegevoegd om voortdurend nieuwe gegevens te halen die naar de rekening moeten worden overgebracht [!DNL MBI] data-entrepot. Deze gebruiker zal als die verbinding dienen. Het toevoegen van deze gebruiker aan het project zal in Stap 4 komen.
 
@@ -75,7 +75,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
 1. Uw nieuwe toevoegen [!DNL MBI] `Public key` aan de [!DNL MBI] in Stap 5 wordt gemaakt.
 
-   - Ga naar [https://accounts.magento.cloud/](https://accounts.magento.cloud/). Meld u aan met de aanmeldingsgegevens van uw account voor het nieuwe [!DNL MBI] door de gebruiker gemaakt. Ga vervolgens naar de `Account Settings` tab.
+   - Ga naar [uw cloud Adobe Commerce-account](https://accounts.magento.cloud/). Meld u aan met de aanmeldingsgegevens van uw account voor het nieuwe [!DNL MBI] door de gebruiker gemaakt. Ga vervolgens naar de `Account Settings` tab.
 
    - De pagina omlaag schuiven en de vervolgkeuzelijst uitvouwen voor `SSH` toetsen. Klik vervolgens op **[!UICONTROL Add a public key]**.
 

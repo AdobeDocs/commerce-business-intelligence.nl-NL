@@ -2,9 +2,9 @@
 title: SQL-query's optimaliseren
 description: Leer hoe u SQL-query's optimaliseert.
 exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Met de SQL-Report Builder kunt u op elk gewenst moment query&#39;s uitvoeren op deze query&#39;s. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
 
-Voordat een query wordt uitgevoerd, [[!DNL MBI] schat de kosten](https://support.magento.com/hc/en-us/articles/360016730391). De kosten houden rekening met de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal teruggekeerde rijen onze grenzen overschrijdt, zal de vraag niet lopen. Wij hebben een lijst van aanbevelingen voor het vragen van uw gegevenspakhuis opgesteld, die u zal verzekeren de meest gestroomlijnde vragen mogelijk schrijven.
+Voordat een query wordt uitgevoerd, [[!DNL MBI] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=en). De kosten houden rekening met de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal teruggekeerde rijen onze grenzen overschrijdt, zal de vraag niet lopen. Wij hebben een lijst van aanbevelingen voor het vragen van uw gegevenspakhuis opgesteld, die u zal verzekeren de meest gestroomlijnde vragen mogelijk schrijven.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 

@@ -2,9 +2,9 @@
 title: Filters
 description: Leer hoe u filters kunt gebruiken.
 exl-id: eb683dfe-9a90-400a-a0c0-3dc00d1f28b5
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die word
 >
 >Een rapport kan een maximum van 3.500 gegevenspunten hebben. Om het aantal gegevenspunten te verminderen, gebruik een filter om de hoeveelheid gegevens te verminderen die wordt gebruikt om het rapport te produceren.
 
-MBI bevat een selectie met filters die u &#39;buiten het vak&#39; kunt gebruiken of naar wens kunt wijzigen. Het aantal filters dat u kunt maken, is onbeperkt.
+MBI bevat een selectie van filters die u kunt gebruiken &quot;uit de doos (OTB),&quot;of aanpassen om aan uw behoeften te passen. Het aantal filters dat u kunt maken, is onbeperkt.
 
 ## Een filter toevoegen:
 

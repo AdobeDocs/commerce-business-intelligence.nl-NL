@@ -2,9 +2,9 @@
 title: Een kwalitatieve cohortanalyse maken
 description: Leer wat een kwalitatief cohort is, waarom je geïnteresseerd bent in het maken van deze analyse en hoe je het kunt maken in [!DNL MBI].
 exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '858'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Nochtans, als u het cohortgedrag van veelvoudige gebruikerssegmenten in het zelf
 
 Een `qualitative cohort` in het `Report Builder` Hierbij betrekken we ons analyseteam bij het maken van [geavanceerd berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md) betreffende de nodige tabellen.
 
-Als u deze wilt bouwen, dient u een [ondersteuningsticket](../../guide-overview.md) (en verwijs naar dit artikel!) Dit is wat we moeten weten:
+Als u deze wilt bouwen, dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) (en verwijs naar dit artikel!) Dit is wat we moeten weten:
 
 * De `metric` u wilt uw cohortanalyse uitvoeren met en welke lijst het gebruikt (voorbeeld: `Revenue`op basis van de `orders` tabel).
 

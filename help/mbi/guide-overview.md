@@ -5,9 +5,9 @@ breadcrumb-title: Overzicht van hulplijnen
 seo-title: MBI User Guide
 seo-description: Describes how to use the MBI features used to gain insights from Adobe Commerce or Magento Open Source data.
 exl-id: f62c7a98-1b4c-4abb-9692-50ce0f3ee1fb
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,11 @@ Open ons ondersteuningsteam als u vragen hebt of gebruik wilt maken van sommige 
 
 ### Servicebeleid
 
-Zie een [lijst met services die ons klantenondersteuningsteam biedt](https://support.magento.com/hc/en-us/articles/360016730811).
+Zie een [lijst met services die ons klantenondersteuningsteam biedt](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ### Een ondersteuningsticket indienen
 
-Hebt u hulp nodig bij het bouwen van een geavanceerde berekende kolom? Is er een fout of verbindingsprobleem opgetreden? Als u contact moet opnemen met ons ondersteuningsteam, vragen wij u om onze [richtlijnen voor ondersteuningstickets](https://support.magento.com/hc/en-us/articles/360016730351). In deze richtsnoeren wordt beschreven welke informatie Adobe nodig heeft om het probleem op te lossen.
+Hebt u hulp nodig bij het bouwen van een geavanceerde berekende kolom? Is er een fout of verbindingsprobleem opgetreden? Als u contact moet opnemen met ons ondersteuningsteam, vragen wij u om onze [richtlijnen voor ondersteuningstickets] (https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en). In deze richtsnoeren wordt beschreven welke informatie Adobe nodig heeft om het probleem op te lossen.
 
 ## Beschikbare documentatie
 

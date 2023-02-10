@@ -2,7 +2,7 @@
 title: Gemeenschappelijke handelstabellen
 description: Meer informatie over enkele van de meer algemene tabellen die [!DNL MBI] klanten gebruiken.
 exl-id: 8b316130-55c6-4771-ae6e-97ac605fc6cc
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -31,4 +31,4 @@ Hieronder vindt u een lijst met enkele van de meer algemene tabellen die [!DNL M
 
 ## Gerelateerde documentatie
 
-[[!DNL Magento] Relatiediagrammen voor entiteiten](../data-warehouse-mgr/entity-rel-diag.md)
+[Relatiediagrammen voor entiteiten](../data-warehouse-mgr/entity-rel-diag.md)

@@ -2,9 +2,9 @@
 title: QuickBooks-gegevens verwacht
 description: Leer hoe u relevante gegevensvelden eenvoudig kunt bijhouden voor analyse.
 exl-id: a60996bd-e3d1-497d-abce-f02ef1444f1a
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen
 ## Verwante:
 
 * [Verbinding maken [!DNL QuickBooks]](../integrations/quickbooks.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

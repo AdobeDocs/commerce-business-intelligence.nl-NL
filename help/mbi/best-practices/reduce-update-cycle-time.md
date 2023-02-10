@@ -2,9 +2,9 @@
 title: De tijd van de updatecyclus verkorten
 description: Leer hoe u de updatecyclus verkort.
 exl-id: 0b211e2d-770f-480d-a7fb-8d10e3e7272e
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en graf
 
 ## Omloop omhoog
 
-Als de update nog steeds traag lijkt, zelfs nadat u deze aanbevelingen hebt uitgevoerd [contact opnemen met ons supportteam](../guide-overview.md).
+Als de update nog steeds traag lijkt, zelfs nadat u deze aanbevelingen hebt uitgevoerd [contact opnemen met ons supportteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

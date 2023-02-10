@@ -2,16 +2,16 @@
 title: quote_item, tabel
 description: Leer hoe u met de tabel quote_item werkt.
 exl-id: dad36e88-5986-4b52-8a0e-ac084fabb275
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
 
 # quote_item, tabel
 
-De `quote_item` tabel (`sales_flat_quote_item` op [!DNL Magento] 1) bevat gegevens over elk artikel dat aan een winkelwagentje is toegevoegd, ongeacht of het winkelwagentje is verlaten of dat het is omgezet in een aankoop. Elke rij staat voor één winkelwagentje. Gezien de potentiële grootte van deze lijst, adviseren wij u periodiek verslagen te schrappen als bepaalde criteria worden voldaan, zoals als er om het even welke unconvert wortels ouder dan 60 dagen zijn.
+De `quote_item` tabel (`sales_flat_quote_item` op M1) 1) bevat gegevens over elk artikel dat aan een winkelwagentje is toegevoegd, ongeacht of het winkelwagentje is verlaten of in een aankoop is omgezet. Elke rij staat voor één winkelwagentje. Gezien de potentiële grootte van deze lijst, adviseren wij u periodiek verslagen te schrappen als bepaalde criteria worden voldaan, zoals als er om het even welke unconvert wortels ouder dan 60 dagen zijn.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ De `quote_item` tabel (`sales_flat_quote_item` op [!DNL Magento] 1) bevat gegev
 
 `quote_item`
 
-* Verbinden met `quote_item` om nieuwe kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. Let op: u moet [contactondersteuning](../../guide-overview.md) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
+* Verbinden met `quote_item` om nieuwe kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. Let op: u moet [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
    * Pad: `quote_item.parent_item_id` (veel) => `quote_item.item_id` (1)
 
 `store`

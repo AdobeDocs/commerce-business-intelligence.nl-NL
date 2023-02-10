@@ -2,9 +2,9 @@
 title: De Opties van de Tijd van het gebruik in Visuele Report Builder
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Nu kunnen we zien hoe impact elke maand vorig jaar was:
 
 ## Dezelfde metrische waarde vergelijken over verschillende tijdbereiken {#difftimerange}
 
-In dit voorbeeld wordt een aangepaste dimensie gebruikt, de zogenaamde `Day number of the month`. Als u dit rapport wilt maken en deze dimensie nog niet in uw Data Warehouse hebt, [contactondersteuning](../guide-overview.md) voor hulp.
+In dit voorbeeld wordt een aangepaste dimensie gebruikt, de zogenaamde `Day number of the month`. Als u dit rapport wilt maken en deze dimensie nog niet in uw Data Warehouse hebt, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp.
 
 De twee meest voorkomende voorbeelden in deze categorie zijn (1) het vergelijken van groeicijfers (omzet jaar-over-jaar of maand-over-maand) en (2) het beter begrijpen van recente trends in voorraden of verkoop van artikelen.
 
@@ -143,4 +143,3 @@ Dit voorbeeld toont aan dat de huidige voorraadniveaus goed waren gesitueerd voo
 
 Omdat uw klanten zich in tijd verschillend gedragen, kunt u variaties in gegevens verwachten te zien wanneer het uitvoeren van analyses. Door aangepaste tijdopties in te stellen, kunt u snel complexe analyses maken, zodat u gegevensgestuurde beslissingen kunt nemen die van invloed zijn op historische trends.
 
-Zie onze [trainingsvideo](https://support.magento.com/hc/en-us/articles/360016730071-Training-Video-Time-Options-in-the-Visual-Report-Builder) voor meer informatie.

@@ -2,16 +2,16 @@
 title: Gegevens opslaan in de handel
 description: Leer hoe gegevens worden geproduceerd, wat precies veroorzaakt dat een nieuwe rij in één van de Lijsten van de Handel van de Kern wordt opgenomen, en hoe acties zoals het maken van een aankoop of het creëren van een rekening in het gegevensbestand van de Handel wordt geregistreerd.
 exl-id: 436ecdc1-7112-4dec-9db7-1f3757a2a938
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 0%
+source-wordcount: '960'
+ht-degree: 3%
 
 ---
 
-# Gegevens opslaan in [!DNL Magento]
+# Gegevens opslaan in [!DNL Adobe Commerce]
 
-Het platform van de Handel registreert en organiseert een grote verscheidenheid van waardevolle handelsgegevens over honderden lijsten. In dit onderwerp, zult u leren hoe dat gegeven wordt geproduceerd, wat precies veroorzaakt dat een nieuwe rij in één van wordt opgenomen [Kernhandelsttabellen](../data-warehouse-mgr/common-mage-tables.md), en hoe worden acties zoals het maken van een aankoop of het creëren van een rekening geregistreerd in het gegevensbestand van de Handel. Om deze concepten te verklaren, verwijs naar het volgende voorbeeld:
+Het Adobe Commerce-platform registreert en organiseert een grote verscheidenheid aan waardevolle handelsgegevens over honderden tabellen. In dit onderwerp, zult u leren hoe dat gegeven wordt geproduceerd, wat precies veroorzaakt dat een nieuwe rij in één van wordt opgenomen [Kernhandelsttabellen](../data-warehouse-mgr/common-mage-tables.md), en hoe worden acties zoals het maken van een aankoop of het creëren van een rekening geregistreerd in het gegevensbestand van de Handel. Om deze concepten te verklaren, verwijs naar het volgende voorbeeld:
 
 `Clothes4U` is een kledinghandelaar met zowel een online - als een baksteen - en mortierpresentie . Het gebruikt Magento Open Source achter zijn website om gegevens te verzamelen en te organiseren.
 
@@ -25,20 +25,20 @@ Tevreden met alle montages voor `Throwback Bellbottoms`, klikt de werknemer **[!
 |---|---|---|---|---|
 | 205 | 4 | 8 | Pants10 | 2016/09/22 09:15:43 |
 | 206 | 4 | 8 | Pants11 | 2016/09/22 09:18:17 |
-| 207 | 4 | 12 | Hemden6 | 2016/09/22 09:24:02 |
+| 207 | 4 | 12 | Shirts6 | 2016/09/22 09:24:02 |
 
 * `entity_id` - Dit is de primaire sleutel van de `catalog_product_entity` tabel, dat wil zeggen dat elke rij van de tabel een andere rij moet hebben `entity_id`. Elk `entity_id` in deze tabel kan slechts aan één product worden gekoppeld en elk product kan slechts aan één product worden gekoppeld `entity_id`
    * De bovenste regel van de bovenstaande tabel, `entity_id` = 205, is de nieuwe rij die voor &quot;Throwback Bellbottoms wordt gecreeerd.&quot; Waar `entity_id` = 205 komt voor in het handelsplatform, verwijst het naar het product &quot;Throwback Bellbottoms&quot;
 * `entity_type_id` - De handel heeft veelvoudige categorieën voorwerpen (zoals klanten, adressen, en producten om een paar te noemen), en deze kolom wordt gebruikt om de categorie te wijzen waarin deze bepaalde rij valt.
-   * Dit is het `catalog_product_entity` tabel, heeft elke rij hetzelfde entiteitstype: product. In Magento, `entity_type_id` voor product is 4 , en daarom hebben alle drie de nieuwe producten voor deze kolom het rendement 4 gecreëerd.
+   * Dit is het `catalog_product_entity` tabel, heeft elke rij hetzelfde entiteitstype: product. In Adobe Commerce `entity_type_id` voor product is 4 , en daarom hebben alle drie de nieuwe producten voor deze kolom het rendement 4 gecreëerd.
 * `attribute_set_id` - De reeksen van Attributen worden gebruikt om producten te identificeren die het zelfde van beschrijvers hebben.
    * De bovenste twee rijen van de tabel zijn de `Throwback Bellbottoms` en `Straight Leg Jeans` producten, die allebei een broek zijn. Deze producten zouden dezelfde beschrijvingen hebben (bijvoorbeeld naam, inseam, waistline) en daarom dezelfde `attribute_set_id`. de derde post, `V-Neck T-Shirt` heeft een andere `attribute_set_id` omdat het niet dezelfde beschrijvingen zou hebben als de broek; overhemden hebben geen golflengte of inseams .
-* `sku` - Dit zijn unieke waarden die door de gebruiker aan elk product worden toegewezen bij het maken van een nieuw product in Magento.
+* `sku` - Dit zijn unieke waarden die door de gebruiker aan elk product worden toegewezen bij het maken van een nieuw product in Adobe Commerce.
 * `created_at` - Deze kolom retourneert de tijdstempel van het tijdstip waarop elk product is gemaakt
 
 ## `customer\_entity`
 
-Kort na de toevoeging van de drie nieuwe producten, een nieuwe klant, `Sammy Customer`, bezoeken `Clothes4U`Voor het eerst is de website van Sinds `Clothes4U` niet [gastorders toestaan](https://support.magento.com/hc/en-us/articles/360016729951-Common-Magento-Misconceptions), `Sammy Customer` moet eerst een account op de website maken. Ze voert haar gegevens in en klikt op Verzenden. Dit leidt tot de volgende nieuwe vermelding in het dialoogvenster [`customer\_entity table`](../data-warehouse-mgr/cust-ent-table.md):
+Kort na de toevoeging van de drie nieuwe producten, een nieuwe klant, `Sammy Customer`, bezoeken `Clothes4U`Voor het eerst is de website van Sinds `Clothes4U` gastorders niet toestaat, `Sammy Customer` moet eerst een account op de website maken. Ze voert haar gegevens in en klikt op Verzenden. Dit leidt tot de volgende nieuwe vermelding in het dialoogvenster [`customer\_entity table`](../data-warehouse-mgr/cust-ent-table.md):
 
 | **`entity id`** | **`entity type id`** | **`email`** | **`created at`** |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Met haar account is het aanmaken voltooid, `Sammy Customer` is klaar om haar aan
 
 | **`entity id`** | **`customer id**`**`subtotal`****`created at`** |
 |---|---|---|---|
-| 227 | 214 | 94,85 | 2016/09/23 15:41:39 |
+| 227 | 214 | 94.85 | 2016/09/23 15:41:39 |
 
 * `entity_id` - dit is de primaire sleutel van de `sales_flat_order` tabel.
    * Wanneer Sammy-klant deze bestelling heeft geplaatst en de bovenstaande rij naar de `sales_flat_order` tabel, de volgorde is toegewezen `entity_id` = 227.
@@ -73,8 +73,8 @@ Naast de enkele rij op de `Sales\_flat\_order` tabel, wanneer `Sammy Customer` v
 
 | **`item\_id`** | **`name`** | **`product\_id`** | **`order\_id`** | **`qty\_ordered`** | **`price`** |
 |---|---|---|---|---|---|
-| 822 | `Throwback Bellbottoms` | 205 | 227 | 2 | 39,95 |
-| 823 | `V-Neck T-Shirt` | 207 | 227 | 1 | 14,95 |
+| 822 | `Throwback Bellbottoms` | 205 | 227 | 2 | 39.95 |
+| 823 | `V-Neck T-Shirt` | 207 | 227 | 1 | 14.95 |
 
 * `item_id` - Deze kolom is de primaire sleutel van `sales_flat_order_item` table
    * `Sammy Customer`De bestelling van deze tabel bevat twee regels omdat haar bestelling twee verschillende producten bevat

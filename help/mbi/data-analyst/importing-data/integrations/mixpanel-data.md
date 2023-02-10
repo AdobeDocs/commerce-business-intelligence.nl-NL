@@ -2,9 +2,9 @@
 title: Gegevens van Mixpanel verwacht
 description: De belangrijkste gegevenstabellen verkennen die u vanuit het deelvenster Mixen kunt importeren in uw [!DNL MBI] account.
 exl-id: 87bd337a-63fa-44cf-b1fe-c2f34ca86029
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -30,4 +30,4 @@ In dit artikel bekijken we de belangrijkste gegevenstabellen waaruit u kunt impo
 ## Gerelateerde documentatie
 
 * [Verbinding maken [!DNL Mixpanel]](../integrations/mixpanel.md)
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151-Reauthenticating-integrations)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

@@ -2,16 +2,16 @@
 title: Raw-gegevens exporteren
 description: Leer records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft.
 exl-id: 26decdaf-2b2c-4ca2-b3d5-0386892662e8
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # Raw-gegevens exporteren
 
-Met onbewerkte gegevens kunt u records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft. Bovendien kunt u met onbewerkte gegevens exporteren [discrepanties tussen puntgegevens](https://support.magento.com/hc/en-us/articles/360016730631).
+Met onbewerkte gegevens kunt u records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft. Bovendien kunt u met onbewerkte gegevens exporteren [discrepanties tussen puntgegevens](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en).
 
 De uitvoer van ruwe gegevens verleent toegang tot extra kolommen en dimensies die door de-normalisatie en pre-samenvoeging van relevante metriek worden geproduceerd. Bijvoorbeeld: `User's first order date` is een dimensie die u voor elke gebruiker binnen kunt uitvoeren [!DNL MBI], terwijl deze mogelijk niet beschikbaar is in uw database.
 

@@ -2,9 +2,9 @@
 title: Een nieuwe gebruiker toevoegen/bewerken
 description: Meer informatie over het toevoegen van een nieuwe [!DNL MBI] en hoe u uw gebruikersnaam of wachtwoord kunt bijwerken.
 exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 0%
    >Als u de factureringsgegevens van uw account wilt weergeven, toevoegen of wijzigen, moet u beschikken over `Billing` machtigingen. [Machtigingen worden per gebruiker ingesteld](../../administrator/user-management/user-management.md) wanneer gebruikersaccounts worden gemaakt. Indien nodig `Billing` neemt u contact op met de beheerder van uw account.
 
 1. Klikken **[!UICONTROL Save]**.
-1. De nieuwe gebruiker zal een e-mail met login en wachtwoorddetails ontvangen.
+
+De nieuwe gebruiker zal een e-mail met login en wachtwoorddetails ontvangen.
 
 >[!NOTE]
 >
@@ -37,4 +38,4 @@ Als u de uitnodiging opnieuw naar de nieuwe gebruiker moet sturen, gaat u naar d
 
 >[!IMPORTANT]
 >
->Elk account heeft een gecontracteerd aantal licenties of licenties. Als je de limiet hebt bereikt of meer wilt weten, [een ondersteuningsticket indienen](../../guide-overview.md).
+>Elk account heeft een gecontracteerd aantal licenties of licenties. Als je de limiet hebt bereikt of meer wilt weten, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

@@ -2,9 +2,9 @@
 title: Het rendement van uw reclamecampagnes verhogen
 description: Meer informatie over enkele verschillende methoden om de prestaties van uw campagne te evalueren.
 exl-id: 4f2bf408-eeaf-4dbf-b62e-89426734640a
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Gebruikt u productspecifieke advertenties? Als dat het geval is, kunt u de ROI o
 >
 >We gaan ervan uit dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door aan te nemen dat alle kosten aan het genereren van aankopen werden besteed, zal het resulterende ROI het worstcasescenario (hoogste kosten per aankoop) rekenschap geven, zodat kunt u zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die tien nieuwe gebruikers en 10 aankopen heeft gegenereerd, bedragen uw werkelijke kosten per aankoop $1, maar in onze veronderstelling dat alle kosten zijn doorberekend om nieuwe gebruikers aan te schaffen, bedragen de kosten per aankoop $2.)*
 
-Voordat we beginnen, [een ondersteuningsticket indienen](../../guide-overview.md) om de volgende afmetingen aan uw lijst van lijnpunten ( te verbinden`sales\_flat\_order\_item, order\_item`):
+Voordat we beginnen, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om de volgende afmetingen aan uw lijst van lijnpunten ( te verbinden`sales\_flat\_order\_item, order\_item`):
 
 * De bron van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de bron van de gebruiker aansluit)
 * De campagne van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de campagne van de gebruiker aansluit)

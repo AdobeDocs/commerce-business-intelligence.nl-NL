@@ -2,7 +2,7 @@
 title: Gegevensmigratieservices
 description: Leer alles wat u nodig hebt om een aanvraag in te dienen en aan de slag te gaan met de migratie.
 exl-id: 105cd003-98ef-4358-80b9-b3190c2c57b7
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Gegevensmigratie
 
-Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Ons **[!DNL Magento Services - Analytics]** team biedt migratiehulp - wij doen al het zware heft zodat u niet hoeft te hoeven.
+Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Ons **[!DNL Adobe Commerce Services - Analytics]** team biedt migratiehulp - wij doen al het zware heft zodat u niet hoeft te hoeven.
 
 Om ervoor te zorgen dat de overgang zo soepel mogelijk verloopt, vragen we u om uw migratieverzoek zo gedetailleerd mogelijk in te dienen. In dit artikel staat alles wat u nodig hebt om een aanvraag in te dienen en aan de migratie te beginnen. Als u ons een volledig beeld geeft van uw behoeften, kunt u er zeker van zijn dat uw project op de juiste wijze wordt uitgevoerd en dat de schatting correct is.
 

@@ -2,9 +2,9 @@
 title: Breedtegraad van dashboard
 description: Leer hoe u bulksgewijs alle rapporten op een specifiek dashboard kunt bewerken.
 exl-id: 379d0027-8a7a-4062-a66a-4f06c37b806c
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Als u wilt analyseren hoe een bepaalde winkel het doet, klikt u op het pictogram
 
 >[!NOTE]
 >
->Een opslagfilter wordt in- of uitgeschakeld voor een gehele [!DNL MBI] account. Als een dashboard rapporten bevat die niet door de filter worden beïnvloed, zoals rapporten die niet op om het even welke gegevens van de Handel worden voortgebouwd, werken die rapporten niet bij wanneer de archieffilter wordt toegepast. U kunt [contactondersteuning](../../guide-overview.md) als u van mening bent dat een rapport moet worden bijgewerkt op basis van de keuze van de winkel of als u van mening bent dat het filter van uw accountwinkel per ongeluk is uitgeschakeld.
+>Een opslagfilter wordt in- of uitgeschakeld voor een gehele [!DNL MBI] account. Als een dashboard rapporten bevat die niet door de filter worden beïnvloed, zoals rapporten die niet op om het even welke gegevens van de Handel worden voortgebouwd, werken die rapporten niet bij wanneer de archieffilter wordt toegepast. U kunt [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) als u van mening bent dat een rapport moet worden bijgewerkt op basis van de keuze van de winkel of als u van mening bent dat het filter van uw accountwinkel per ongeluk is uitgeschakeld.
 
 Wanneer u een winkel in het menu `Store Filter`blijft de selectie behouden wanneer u tussen dashboards navigeert. Door uw selectie te behouden, kunt u overal gegevens voor de geselecteerde winkel zien totdat u `All Stores`.
 

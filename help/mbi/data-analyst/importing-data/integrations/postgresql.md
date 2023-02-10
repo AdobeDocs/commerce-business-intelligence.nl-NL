@@ -2,9 +2,9 @@
 title: Connect PostgreSQL via SSH Tunnel
 description: Leer hoe u uw PostSQL-database kunt verbinden met [!DNL MBI] via een SSH-tunnel.
 exl-id: da610988-21c1-4f5f-b4e2-e2deb175a2aa
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -105,4 +105,4 @@ Dat is het! Als u klaar bent, klikt u op **Opslaan en testen** om de installatie
 
 ### Verwante
 
-* [Integraties opnieuw verifiëren](https://support.magento.com/hc/en-us/articles/360016733151)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)

@@ -2,9 +2,9 @@
 title: Begrijp resultaten tussen Gegevensbestand en SQL Redacteur
 description: Leer resultaten te begrijpen tussen database en SQL editor.
 exl-id: f31f3eef-791a-4984-901e-bc10554031bd
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ Het meest recente gegevenspunt voor een bepaalde integratie wordt bepaald door d
 Controleren op versheid van gegevens van *specifieke tabellen*, raden we u aan snel [SQL-rapport](../../dev-reports/sql-rpt-bldr.md) die een `MAX(timestamp)` op de belangrijkste tabel van uw account. Deze tijdstempel vergelijken met de `Last Data Point` geeft aan of de uitgave van invloed is op de gehele account of op een subset van de tabellen. Wij adviseren dit voor drie tot vier belangrijke, algemeen gebruikte lijsten te doen.
 
 - Als de `MAX(timestamp)` waarden zijn recenter dan `Last Data Point Received`, betekent dit dat een subset van de tabellen werd beïnvloed, maar dat de updatecyclus van de gehele account stabiel is.
-- Als de `MAX(timestamp)` waarden zijn gelijk aan of eerder `Last Data Point Received`, betekent dit dat de updatecyclus van de account is beïnvloed. In deze situatie [een ondersteuningsticket indienen](../../../guide-overview.md).
+- Als de `MAX(timestamp)` waarden zijn gelijk aan of eerder `Last Data Point Received`, betekent dit dat de updatecyclus van de account is beïnvloed. In deze situatie [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
