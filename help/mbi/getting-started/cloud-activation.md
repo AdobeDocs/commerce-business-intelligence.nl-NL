@@ -2,7 +2,7 @@
 title: Activeer uw [!DNL MBI] Account voor Cloud Starter-abonnementen
 description: Meer informatie over activeren [!DNL MBI] voor Cloud Starter-projecten.
 exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
-source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
+source-git-commit: 6f018ab220f2ae573cbc9016f9efb83c27a254be
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 0%
@@ -15,7 +15,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
 >[!NOTE]
 >
->Voor activering van Help [!DNL MBI] for `Cloud Pro` projecten, neemt u contact op met de succesmanager van de klant of de technische adviseur van de klant.
+>Voor activering van Help [!DNL MBI] for `Cloud Pro` projecten, neemt u contact op met uw Adobe-accountteam of technische adviseur van de klant.
 
 1. Maak uw [!DNL MBI] Account.
 
@@ -23,7 +23,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
    - Ga naar **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
-   - Klikken **[!UICONTROL Create Instance]**. Als u deze knoop niet ziet, contacteer uw Manager van het Succes van de Klant of Technische Adviseur van de Klant.
+   - Klikken **[!UICONTROL Create Instance]**. Neem contact op met uw Adobe-accountteam of technische adviseur van de klant als deze knop niet wordt weergegeven.
 
    - Selecteer uw `Cloud Starter` abonnement. Als u alleen een `cloud starter` abonnement wordt automatisch geselecteerd.
 
@@ -198,6 +198,6 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
 1. U hebt nu verbinding met uw [!DNL MBI] account.
 
-1. Nadat u verbinding hebt gemaakt [!DNL MBI] aan uw gegevensbestand van de Handel, contacteer uw Manager van het Succes van de Klant om de volgende stappen, zoals opstellings integraties en andere configuratiestappen te coördineren.
+1. Nadat u verbinding hebt gemaakt [!DNL MBI] aan uw gegevensbestand van de Handel, contacteer uw Team van de Rekening van de Adobe om de volgende stappen, zoals opstellings integraties en andere configuratiestappen te coördineren.
 
 1. Wanneer u klaar bent met configuratie, kunt u [aanmelden](../getting-started/sign-in.md) aan uw [!DNL MBI] account.

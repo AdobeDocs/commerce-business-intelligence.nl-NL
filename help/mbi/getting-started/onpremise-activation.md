@@ -2,7 +2,7 @@
 title: Uw [!DNL MBI] Account voor abonnementen op locatie
 description: Meer informatie over het activeren van uw [!DNL MBI] account voor On-Premise Abonnementen.
 exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
-source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
+source-git-commit: 6f018ab220f2ae573cbc9016f9efb83c27a254be
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Om te activeren [!DNL MBI] voor on-premise abonnementen, creeer eerst een [!DNL 
 
    - Ga naar **[!UICONTROL My Account** > **My [!DNL MBI] Instances]**.
 
-   - Klikken **[!UICONTROL Create Instance]**. Als u deze knoop niet ziet, contacteer uw Manager van het Succes van de Klant of Technische Adviseur van de Klant.
+   - Klikken **[!UICONTROL Create Instance]**. Neem contact op met uw Adobe-accountteam of technische adviseur van de klant als deze knop niet wordt weergegeven.
 
    - Voer uw gegevens in om uw account te maken.
 
@@ -43,6 +43,6 @@ Om te activeren [!DNL MBI] voor on-premise abonnementen, creeer eerst een [!DNL 
 
    De handel adviseert sterk u verbindt gebruikend [`SSH tunnel`](../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md). Als dit echter geen optie is, kunt u toch een koppeling maken [!DNL MBI] naar uw database via een [`direct connection`](../data-analyst/importing-data/integrations/mysql-via-a-direct-connection.md).
 
-1. Nadat u verbinding hebt gemaakt [!DNL MBI] aan uw gegevensbestand van de Handel, contacteer uw Manager van het Succes van de Klant om de volgende stappen, zoals opstellings integraties en andere configuratiestappen te coördineren.
+1. Nadat u verbinding hebt gemaakt [!DNL MBI] aan uw gegevensbestand van de Handel, contacteer uw Team van de Rekening van de Adobe om de volgende stappen, zoals opstellings integraties en andere configuratiestappen te coördineren.
 
 1. Wanneer u klaar bent met configuratie, kunt u [aanmelden](../getting-started/sign-in.md) aan uw [!DNL MBI] account.

@@ -2,9 +2,9 @@
 title: Connect Amazon RDS
 description: Leer de stappen voor het aansluiten van uw instantie RDS.
 exl-id: 02ad29c8-84d6-4b49-9ac1-e5f4feaa7fda
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 6f018ab220f2ae573cbc9016f9efb83c27a254be
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Dit is het deel van het proces waar, afhankelijk van het gegevensbestand u gebru
 
 Nadat u [!DNL MBI] toegang tot uw instantie en creeerde een gebruiker voor ons, het laatste ding u moet doen is de verbindingsinfo in ingaan [!DNL MBI].
 
-De referentiepagina&#39;s voor `MySQL`, `Microsoft SQL`, en `PostgreSQL` zijn toegankelijk via de `Integrations` pagina (**[!UICONTROL Manage Data** > **Integrations]**) door te klikken op **[!UICONTROL Add Integration]**. Wanneer de lijst met integraties wordt weergegeven, klikt u op het pictogram voor de database die u gebruikt om naar de pagina met referenties te gaan. Neem contact op met uw CSM als u momenteel geen toegang hebt tot de gewenste integratie.
+De referentiepagina&#39;s voor `MySQL`, `Microsoft SQL`, en `PostgreSQL` zijn toegankelijk via de `Integrations` pagina (**[!UICONTROL Manage Data** > **Integrations]**) door te klikken op **[!UICONTROL Add Integration]**. Wanneer de lijst met integraties wordt weergegeven, klikt u op het pictogram voor de database die u gebruikt om naar de pagina met referenties te gaan. Neem contact op met het accountteam van Adobe als u momenteel geen toegang hebt tot de gewenste-integratie.
 
 Als u de verbinding wilt maken, hebt u de volgende informatie nodig:
 
