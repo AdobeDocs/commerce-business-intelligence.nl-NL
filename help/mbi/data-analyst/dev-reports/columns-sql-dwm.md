@@ -2,16 +2,16 @@
 title: Verschillen tussen SQL en de Manager van de Data Warehouse
 description: Leer de verschillen tussen SQL en de Manager van de Data Warehouse.
 exl-id: 31dd7a04-5c03-4399-b67e-f51703eb9fea
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
 
 # Verschillen tussen SQL en de Manager van de Data Warehouse
 
-Er zijn twee belangrijke verschillen tussen kolommen die zijn gemaakt in het dialoogvenster [SQL Report Builder](../dev-reports/sql-rpt-bldr.md) en die zijn gemaakt met de [Data Warehouse Manager](../data-warehouse-mgr/creating-calculated-columns.md): de ene is afhankelijk van updatecycli, de andere is hoe kolommen in uw account worden opgeslagen.
+Er zijn twee belangrijke verschillen tussen kolommen die zijn gemaakt in het dialoogvenster [SQL Report Builder](../dev-reports/sql-rpt-bldr.md) en die zijn gemaakt met de [Data Warehouse Manager](../data-warehouse-mgr/creating-calculated-columns.md). De ene is afhankelijk van updatecycli en de andere is hoe kolommen worden opgeslagen in uw account.
 
 ## Kolommen in de `SQL Report Builder`
 

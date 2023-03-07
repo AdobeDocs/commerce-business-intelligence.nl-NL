@@ -2,9 +2,9 @@
 title: customer_entity-tabel
 description: Leer hoe u records van alle geregistreerde accounts kunt openen.
 exl-id: 24bf0e66-eea0-45ea-8ce6-4ff99b678201
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,13 @@ Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaats
 
 | **Kolomnaam** | **Beschrijving** |
 |---|---|
-| `created_at` | Tijdstempel die overeenkomt met de registratiedatum van de account, wordt gewoonlijk lokaal opgeslagen in UTC. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
+| `created_at` | Tijdstempel die overeenkomt met de registratiedatum van het account en die lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
 | `email` | E-mailadres gekoppeld aan de account |
 | `entity_id` (PK) | De unieke id voor de tabel en wordt doorgaans gebruikt in verbindingen met de `customer_id` in andere tabellen binnen de instantie |
 | `group_id` | Buitenlandse sleutel gekoppeld aan de `customer_group` tabel. Verbinden met `customer_group.customer_group_id` om de klantengroep te bepalen die aan de geregistreerde rekening wordt geassocieerd |
 | `store_id` | Buitenlandse sleutel gekoppeld aan de `store` tabel. Verbinden met `store`.`store_id` om te bepalen welke mening van de Winkel van de Handel met de geregistreerde rekening wordt geassocieerd |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Gemeenschappelijke berekende kolommen
 
@@ -42,7 +42,7 @@ Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaats
 | `Seconds since customer's first order date` | Verstreken tijd tussen de eerste besteldatum van de klant en nu. Berekend door aftrekken `Customer's first order date` vanuit de tijdstempel van de server op het moment dat de query wordt uitgevoerd, geretourneerd als een geheel getal van seconden |
 | `Store name` | De naam van de winkel Commerce die aan dit geregistreerde account is gekoppeld. Berekend door verbinding `customer_entity.store_id` tot `store.store_id` en de `name` field |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Algemene cijfers
 
@@ -55,16 +55,16 @@ Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaats
 | `New customers` | Het aantal klanten met ten minste één bestelling, gerekend op de datum van hun eerste bestelling. Hiermee sluit u accounts uit die zich registreren maar nooit een bestelling plaatsen | Bewerking: Aantal<br/>Operand: `entity_id`<br/>Tijdstempel: `Customer's first order date` |
 | `Registered accounts` | Het aantal geregistreerde accounts. Bevat alle geregistreerde accounts, ongeacht of de account ooit een bestelling heeft geplaatst | Bewerking: Aantal<br/>Operand: `entity_id`<br/>Tijdstempel: `created_at` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Vreemde sleutelpaden verbinden
 
 `customer_group`
 
-* Verbinden met `customer_group` tabel om nieuwe kolommen te maken die de naam van de klantengroep van de geregistreerde account retourneren.
+* Verbinden met `customer_group` tabel om kolommen te maken die de naam van de klantengroep van de geregistreerde account retourneren.
    * Pad: `customer_entity.group_id` (veel) => `customer_group.customer_group_id` (1)
 
 `store`
 
-* Verbinden met `store` tabel voor het maken van nieuwe kolommen die gegevens retourneren die betrekking hebben op de winkel die is gekoppeld aan een geregistreerde account.
+* Verbinden met `store` tabel voor het maken van kolommen die gegevens retourneren die betrekking hebben op de winkel die is gekoppeld aan een geregistreerde account.
    * Pad: `customer_entity.store_id` (veel) => `store.store_id` (1)

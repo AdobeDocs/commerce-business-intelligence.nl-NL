@@ -2,9 +2,9 @@
 title: Out-of-the-Box Dashboards
 description: Leer over dashboards uit-van-de-doos om inzicht in uw zaken te verstrekken.
 exl-id: fe61c92e-de87-4317-96d7-01d2a9846bf9
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2240'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Het dashboard Klanten (uitchecken door gasten toegestaan) biedt informatie over 
 | `Orders by Existing Customers (Past 30 Days)` | In de afgelopen 30 dagen bestellingen van klanten die eerder ten minste één bestelling hebben geplaatst. |
 | `Total Unique Customers (Past 30 Days)` | Aantal unieke klanten die in de afgelopen 30 dagen orders plaatsen. |
 | `Orders by New vs Existing Customers` | Aantal bestellingen door klanten zonder eerdere bestellingen tegenover klanten met ten minste één eerdere bestelling. |
-| `Subsequent Order Probability (All Time)` | De waarschijnlijkheid dat klanten die een bestelling hebben geplaatst een andere zullen plaatsen. |
+| `Subsequent Order Probability (All Time)` | De waarschijnlijkheid dat klanten die een bestelling hebben geplaatst een andere plaatsen. |
 | `% of Customers with Multiple Orders (All Time)` | Percentage van alle klanten die meer dan één bestelling hebben geplaatst. |
 | `Median Time Between Orders (All Time)` | De mediane hoeveelheid tijd die elke klant nodig heeft tussen het plaatsen van een bestelling en de volgende bestelling. |
-| `Subsequent Order Probability` | De waarschijnlijkheid dat de klanten die een orde hebben geplaatst een andere zullen plaatsen, uitgesplitst door ordeaantal (namelijk percent van klanten met één orde die een tweede, percenten met twee plaatsen die een derde, etc.) plaatsen. |
+| `Subsequent Order Probability` | De waarschijnlijkheid dat de klanten die een orde hebben geplaatst een andere orde plaatsen, uitgesplitst door orderaantal. Dat wil zeggen: het percentage klanten met één bestelling die een seconde, procent plaatsen met twee die een derde plaatsen, enzovoort). |
 | `Time Between Orders` | De gemiddelde en mediane tijd die klanten nemen tussen orders, uitgesplitst naar orderaantal (d.w.z. de tijd tussen bestellingen één en twee, twee en drie, etc.). |
 | `Number of Customers - Lifetime Orders` | Voor een bepaald aantal orden die in het leven van een klant worden geplaatst, het aantal klanten die dat vele orden en het percentage van de volledige klantenbasis hebben geplaatst dat aantal vertegenwoordigt. |
 | `One-Time Customers who Bought 3-6 Months Ago` | Klanten die tussen drie en zes maanden geleden hun eerste en enige aankoop hebben gedaan. |
@@ -56,10 +56,10 @@ Het dashboard Klanten (uitchecken door gasten is niet toegestaan) biedt informat
 | % omzetting van registratie in eerste bestelling (afgelopen 30 dagen) | Percentage van rekeningen die in de afgelopen 30 dagen zijn geregistreerd die een bestelling hebben geplaatst. |
 | % conversie van registratie naar eerste bestelling | Percentage geregistreerde rekeningen die een bestelling hebben gedaan, per maand van registratie. |
 | Bestellingen van nieuwe versus bestaande klanten | Aantal bestellingen door klanten zonder eerdere bestellingen tegenover klanten met ten minste één eerdere bestelling. |
-| Opeenvolgende waarschijnlijkheid van bestelling (Alle tijden) | De waarschijnlijkheid dat klanten die een bestelling hebben geplaatst een andere zullen plaatsen. |
+| Opeenvolgende waarschijnlijkheid van bestelling (Alle tijden) | De waarschijnlijkheid dat klanten die een bestelling hebben geplaatst een andere plaatsen. |
 | % van Klanten met Meerdere bestellingen (altijd) | Percentage van alle klanten die meer dan één bestelling hebben geplaatst. |
 | Mediane tijd tussen bestellingen (altijd) | De mediane hoeveelheid tijd die elke klant nodig heeft tussen het plaatsen van een bestelling en de volgende bestelling. |
-| Opeenvolgende waarschijnlijkheid bestelling | De waarschijnlijkheid dat de klanten die een orde hebben geplaatst een andere zullen plaatsen, uitgesplitst door ordeaantal (namelijk percent van klanten met één orde die een tweede, percenten met twee plaatsen die een derde, etc.) plaatsen. |
+| Opeenvolgende waarschijnlijkheid bestelling | De waarschijnlijkheid dat klanten die een bestelling hebben geplaatst een andere plaatsen, uitgesplitst naar bestelnummer. Dat wil zeggen, procent van de klanten met één bestelling die een seconde plaatsen, een procent met twee die een derde plaatsen, enzovoort. |
 | Tijd tussen bestellingen | De gemiddelde en mediane tijd die klanten nemen tussen orders, uitgesplitst naar orderaantal (d.w.z. de tijd tussen bestellingen één en twee, twee en drie, etc.). |
 | Aantal klanten - Levenslang Orders | Voor een bepaald aantal orden die in het leven van een klant worden geplaatst, het aantal klanten die dat vele orden en het percentage van de volledige klantenbasis hebben geplaatst dat aantal vertegenwoordigt. |
 | Eenmalige klanten die 3 tot 6 maanden geleden hebben gekocht | Klanten die tussen drie en zes maanden geleden hun eerste en enige aankoop hebben gedaan. |
@@ -106,7 +106,7 @@ Het dashboard Executive Summary (geen uitcheckprocedure voor gasten toegestaan) 
 
 ## Orders
 
-Het dashboard voor bestellingen biedt inzicht in het transactievolume van orders, de status ervan, de gebruikte couponcodes, de gegenereerde inkomsten en de gebruikte betalingsmethoden. U kunt bijvoorbeeld het afhandelingsproces volgen en controleren of zich geen problemen of knelpunten voordoen.
+Het dashboard voor bestellingen biedt inzicht in het transactievolume van orders, de status ervan, de gebruikte couponcodes, de gegenereerde inkomsten en de gebruikte betalingsmethoden. U kunt bijvoorbeeld het uitvoeringsproces volgen en controleren of er geen problemen zijn of knelpunten optreden.
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Het dashboard voor bestellingen biedt inzicht in het transactievolume van orders
 
 ## Producten
 
-Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), evenals hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Je winkel moet [geconfigureerd voor het bijhouden van restituties](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) voor die grafieken.
+Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), en hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Je winkel moet [geconfigureerd voor het bijhouden van restituties](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) voor die grafieken.
 
 >[!NOTE]
 >

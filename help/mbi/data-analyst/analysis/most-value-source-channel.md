@@ -2,9 +2,9 @@
 title: Het identificeren van Uw Waardigste Marketingbronnen en Kanalen
 description: Meer informatie over bepaalde rapporten die u kunt gebruiken om uw meest waardevolle marketingkanalen te ontdekken.
 exl-id: 8d25bc80-ea60-47db-b01b-04a23a24c14d
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Je hebt je publiek onderzocht, je hebt je campagne gemaakt, je hebt geïnvesteerd in een paar marketingkanalen. Nu er enige tijd voorbij is, hoe presteren die kanalen? Welk kanaal heeft de meest nieuwe gebruikers gebracht? Welke bron heeft het meest aan uw totale opbrengst bijgedragen?
 
-Met [!DNL MBI]kunt u uw omzet en gebruikers eenvoudig segmenteren op verwijzingsbron, of het beantwoordt aan [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) of aangepaste gegevensvelden. Dankzij deze segmentatie kunt u de best presterende kanalen vinden en uw marketingbudget beter investeren.
+Met [!DNL MBI]kunt u uw omzet en gebruikers eenvoudig segmenteren op verwijzingsbron, of het beantwoordt aan [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) of aangepaste gegevensvelden. Dankzij deze segmentatie kunt u uw best presterende kanalen vinden en uw marketingbudget beter investeren.
 
-In dit artikel bekijken we enkele rapporten die u kunt gebruiken om uw waardevolle marketingkanalen te ontdekken:
+In dit artikel worden enkele rapporten besproken die u kunt gebruiken om uw meest waardevolle marketingkanalen te ontdekken:
 
 * [Nieuwe gebruikers op bronnen](#newusersbysource)
 * [Gemiddelde levensopbrengst per gebruikersbron](#avglifetimerev)
@@ -25,7 +25,7 @@ In dit artikel bekijken we enkele rapporten die u kunt gebruiken om uw waardevol
 
 ## Vereisten {#prereqs}
 
-Om de analyses in dit artikel te bouwen, hebt u toegang tot marketing aanschafgegevens/verwijzingsbrongegevens nodig. Als u het nog niet volgt, moet u [verwijzingsbrongegevens bestellen van [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) in [!DNL MBI] voordat u kunt doorgaan. Bovendien kunt u zien welke technologie uw referenties gebruiken wanneer u apparaatinformatie aan uw analyses toevoegt.
+Om de analyses in dit artikel te bouwen, hebt u toegang tot marketing aanschafgegevens/verwijzingsbrongegevens nodig. Als u het nog niet hebt bijgehouden, moet u [verwijzingsbrongegevens bestellen van [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) in [!DNL MBI] voordat u kunt doorgaan. Bovendien kunt u zien welke technologie uw referenties gebruiken wanneer u apparaatinformatie aan uw analyses toevoegt.
 
 ## Nieuwe gebruikers op bron {#newusersbysource}
 
@@ -33,12 +33,12 @@ Het beoordelen van de prestaties van verwijzingsbronnen is zeer belangrijk bij h
 
 Als u dit rapport wilt maken in het dialoogvenster [Report Builder](../../tutorials/using-visual-report-builder.md), voegt u de **Nieuwe gebruikers** metrisch (of gelijkwaardig metrisch die het aantal nieuwe gebruikers in tijd) aan het rapport telt. Voer vervolgens de volgende handelingen uit:
 
-1. Stel de [!UICONTROL Time Period] aan de registratieperiode u wilt analyseren.
+1. Stel de [!UICONTROL Time Period] aan de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Interval] naar maandelijks.
-1. Set [!UICONTROL Group By] aan verwervingsbron (of verwijzingsbron) en selecteer de bronnen u wilt omvatten.
-1. In dit voorbeeld hebben we de `stacked columns` [!UICONTROL chart type].
+1. Set [!UICONTROL Group By] aan (of verwijzing) bron en selecteer de bronnen die u wilt omvatten.
+1. In dit voorbeeld wordt het `stacked columns` [!UICONTROL chart type].
 
-Hier is een visuele doorloop:
+Hier is een visuele analyse:
 
 ![Het creëren van een Nieuwe gebruikers door bronrapport.](../../assets/New_Users_by_source.gif)
 
@@ -50,8 +50,8 @@ Als u dit rapport wilt maken in de Report Builder, voegt u de opdracht **Gemidde
 
 1. Stel de [!UICONTROL Time Period] op de periode die u wilt analyseren.
 1. Stel de [!UICONTROL Interval] naar maandelijks.
-   [!UICONTROL Group By] aan verwervingsbron (of verwijzingsbron) en selecteer de bronnen u wilt omvatten.
-1. In dit voorbeeld hebben we de `line chart` type.
+   [!UICONTROL Group By] aan (of verwijzing) bron en selecteer de bronnen die u wilt omvatten.
+1. In dit voorbeeld wordt het `line chart` type.
 
 Hier is een visuele analyse:
 
@@ -61,14 +61,14 @@ In dit voorbeeld wordt alleen gekeken naar levenslange inkomsten, maar u kunt de
 
 ## Gemiddelde bestelwaarde per gebruikersbron {#avgorderval}
 
-Om een beter idee te krijgen van hoeveel geld gebruikers van een specifieke aanschafbron uitgeven, kunt u een rapport bouwen dat hun Gemiddelde ordewaarde bekijkt. Hierdoor kunt u bijhouden of gebruikers die van een bepaalde bron zijn aangeschaft, meer per bestelling uitgeven dan gebruikers van een andere bron.
+Om een beter idee te krijgen van hoeveel geld gebruikers van een specifieke aanschafbron uitgeven, kunt u een rapport bouwen dat hun Gemiddelde ordewaarde bekijkt. Hierdoor kunt u bijhouden of gebruikers die van een bepaalde bron zijn opgehaald, meer per bestelling uitgeven dan gebruikers van een andere bron.
 
 Als u dit rapport wilt maken in de Report Builder, voegt u de opdracht **Gemiddelde orderwaarde** Metrisch en dan doe het volgende:
 
-1. Stel de [!UICONTROL Time Period] aan de registratieperiode u wilt analyseren.
+1. Stel de [!UICONTROL Time Period] aan de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Time Interval] naar maandelijks.
-1. Set [!UICONTROL Group By] aan verwervingsbron (of verwijzingsbron) en selecteer de bronnen u wilt omvatten.
-1. In dit voorbeeld hebben we de **gestapelde kolommen** diagramtype.
+1. Set [!UICONTROL Group By] aan (of verwijzing) bron en selecteer de bronnen die u wilt omvatten.
+1. In dit voorbeeld wordt het **gestapelde kolommen** diagramtype.
 
 Hier is een visuele analyse:
 
@@ -76,14 +76,14 @@ Hier is een visuele analyse:
 
 ## Totale inkomsten per registratiedatum en bron van de gebruiker {#revbyregdateandsource}
 
-De analyse van de levensinkomsten die wij vroeger gingen laat u de gemiddelde levensinkomsten bekijken van gebruikers die uit verschillende bronnen werden verworven, maar hoe zit het met totale levensinkomsten? Dit rapport zal u toestaan om te identificeren hoeveel algemene opbrengstgebruikers die tijdens een specifieke tijd en van een specifieke bron registreren produceren.
+De analyse van de levenopbrengst die vroeger werd behandeld laat u de gemiddelde levenopbrengst van gebruikers bekijken die uit verschillende bronnen worden verworven, maar wat met totale levensinkomsten? Dit rapport staat u toe om te identificeren hoeveel algemene opbrengstgebruikers die tijdens een specifieke tijd en van een specifieke bron registreren produceren.
 
 Als u dit rapport wilt maken in de Report Builder, voegt u de opdracht `Revenue by user registration date` metrisch. Als u [gemaakt met deze metrisch](../../data-user/reports/ess-manage-data-metrics.md) al hebt, kunt u dit doen door de `Revenue` metrisch en veranderende `time stamp` aan `creation date`. Voer de volgende handelingen uit nadat u de metrische waarde hebt toegevoegd:
 
-1. Stel de [!UICONTROL Time Period] aan de registratieperiode u wilt analyseren.
+1. Stel de [!UICONTROL Time Period] aan de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Time Interval] naar maandelijks.
-1. Set [!UICONTROL Group By] aan verwervingsbron (of verwijzingsbron) en selecteer de bronnen u wilt omvatten.
-1. In dit voorbeeld hebben we de `stacked columns` diagramtype.
+1. Set [!UICONTROL Group By] aan (of verwijzing) bron en selecteer de bronnen die u wilt omvatten.
+1. In dit voorbeeld wordt het `stacked columns` diagramtype.
 
 Hier is een visuele analyse:
 
@@ -95,14 +95,14 @@ Het gemiddelde rapport van de ordewaarde toont u, gemiddeld, hoeveel gebruikers 
 
 Als u dit rapport wilt maken in het dialoogvenster [Report Builder](../../tutorials/using-visual-report-builder.md), voegt u de **Aantal orders** Metrisch en dan doe het volgende:
 
-1. Stel de [!UICONTROL Time Period] aan de registratieperiode u wilt analyseren.
+1. Stel de [!UICONTROL Time Period] aan de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Time Interval] naar maandelijks.
 1. Voeg een [!UICONTROL filter] zodat alleen gebruikers met herhaalde bestellingen worden opgenomen:
 
    Volgnummer van gebruiker groter dan 1
 
-1. Set [!UICONTROL Group By] aan verwervingsbron (of verwijzingsbron) en selecteer de bronnen u wilt omvatten.
-1. In dit voorbeeld hebben we de `stacked columns` diagramtype.
+1. Set [!UICONTROL Group By] aan (of verwijzing) bron en selecteer de bronnen die u wilt omvatten.
+1. In dit voorbeeld wordt het `stacked columns` diagramtype.
 
 Hier is een visuele analyse:
 
@@ -111,11 +111,11 @@ Hier is een visuele analyse:
 
 ## Omloop omhoog {#wrapup}
 
-In dit artikel hebben we slechts enkele analyses genoemd die u kunt gebruiken om de waarde van uw aankoop- en marketingkanalen te analyseren, maar dit is slechts het topje van de ijsberg. Als u een krachtige analyse hebt gemaakt die wij hier niet hebben besproken, laten wij dan nader ingaan op wat u in de opmerkingen doet.
+In dit artikel worden slechts enkele analyses genoemd die je kunt gebruiken om de waarde van je aankoop- en marketingkanalen te analyseren, maar dit is slechts het topje van de ijsberg.
 
 ## Verwante {#related}
 
 * [Referentiebron van de volgorde volgen via [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md)
 * [Uw [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)
 * [Gebouw [!DNL Google ECommerce] dimensies met orders en klantgegevens](../data-warehouse-mgr/bldg-google-ecomm-dim.md)
-* [Aanbevolen procedures voor UTM-codering in [!DNL Google Analytics]](../../best-practices/utm-tagging-google.md)
+* [Aanbevolen procedures voor UTM-tags in [!DNL Google Analytics]](../../best-practices/utm-tagging-google.md)

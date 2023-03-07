@@ -2,9 +2,9 @@
 title: Helpdesk-rapporten voor Zendesk
 description: Meer informatie over uw meest gewaardeerde verwijzingskanalen.
 exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 >
 >Dit is alleen beschikbaar voor clients die zich op de `Pro` de nieuwe architectuur plannen en gebruiken. U bevindt zich op de nieuwe architectuur als u de `Data Warehouse Views` sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
 
-Uw [!DNL Zendesk] gegevens met uw transactionele gegevensbestand is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop of klantensuccesteams in wisselwerking staan en welk type van klanten uw steunplatform gebruiken. In dit artikel laten we zien hoe u een dashboard kunt instellen om gedetailleerde rapporten over uw [!DNL Zendesk] prestaties en tijd in uw transactieklanten.
+Uw [!DNL Zendesk] gegevens met uw transactionele gegevensbestand is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop of klantensuccesteams in wisselwerking staan. Het helpt u ook weten welk type klanten uw steunplatform gebruiken. In dit artikel wordt getoond hoe u een dashboard kunt instellen om gedetailleerde rapporten over uw [!DNL Zendesk] prestaties en tijd in uw transactieklanten.
 
-Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [[!DNL Zendesk]](../integrations/zendesk.md). Deze analyse bevat [geavanceerd berekende kolommen](../../data-warehouse-mgr/adv-calc-columns.md).
+Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../integrations/zendesk.md). Deze analyse bevat [geavanceerd berekende kolommen](../../data-warehouse-mgr/adv-calc-columns.md).
 
 <!-- Getting Started -->
 
@@ -272,7 +272,7 @@ Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [[!DNL Zendesk]
 * [!UICONTROL Filter]:
 
 * **[!DNL Zendesk]Gemiddelde/mediane tijd tot eerste respons**
-   * Tickets die we tellen
+   * Tickets die worden geteld
    * status IN gesloten, opgeloste
 
 * In de **`[Zendesk] tickets`** table

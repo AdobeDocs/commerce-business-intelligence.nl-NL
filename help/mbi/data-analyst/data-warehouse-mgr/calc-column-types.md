@@ -2,9 +2,9 @@
 title: Berekende kolomtypen
 description: Leer hoe u kolommen maakt om uw gegevens te vergroten en te optimaliseren voor analyse.
 exl-id: 1af79b9e-77ff-4fc6-917a-4e6743b95035
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Binnen de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md)kunt u kolommen maken om uw gegevens te vergroten en te optimaliseren voor analyse. [Deze functionaliteit](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van de Data Warehouse te selecteren en te klikken **[!UICONTROL Create New Column]**.
 
-In dit artikel worden de typen kolommen beschreven die u kunt maken met de Data Warehouse Manager, samen met een beschrijving, een visuele doorloop van die kolom en een [referentiekaart](#map) van alle inputs die nodig zijn om een kolom te maken. U kunt op drie manieren berekende kolommen maken:
+In dit artikel worden de typen kolommen beschreven die u kunt maken met Data Warehouse Manager. Het omvat ook de beschrijving, een visuele doorloop van die kolom, en een [referentiekaart](#map) van alle inputs die nodig zijn om een kolom te maken. U kunt op drie manieren berekende kolommen maken:
 
 * [Dezelfde tabel berekende kolommen](#sametable)
 * [Een-op-veel berekende kolommen](#onetomany)
@@ -33,7 +33,7 @@ Deze kolommen worden gebouwd gebruikend inputkolommen van de zelfde lijst.
 
 Een pagina berekende kolom keert het aantal seconden tussen de huidige tijd en wat inputtijd terug.
 
-In het onderstaande voorbeeld hebben we `Seconds since customer's most recent order` in de `customers` tabel. Dit kan worden gebruikt om gebruikerslijsten samen te stellen van klanten die geen aankopen hebben gedaan (ook wel &#39;churning&#39; genoemd) binnen `X days`.
+In het onderstaande voorbeeld worden `Seconds since customer's most recent order` in de `customers` tabel. Dit kan worden gebruikt om gebruikerslijsten samen te stellen van klanten die geen aankopen hebben gedaan (soms doorverwezen naar als inkopen) binnen `X days`.
 
 ![](../../assets/age.gif)
 
@@ -41,7 +41,7 @@ In het onderstaande voorbeeld hebben we `Seconds since customer's most recent or
 
 Een berekende valutacoconverter zet de native valuta van een kolom om in een gewenste nieuwe valuta.
 
-In het onderstaande voorbeeld hebben we `base\_grand\_total In AED`, de `base\_grand\_total` van het is een native valuta naar het AED in de `sales\_flat\_order` tabel. Deze kolom werkt goed voor winkels met meerdere valuta&#39;s die in hun lokale valuta willen rapporteren.
+In het onderstaande voorbeeld worden `base\_grand\_total In AED`, de `base\_grand\_total` van het is een native valuta naar het AED in de `sales\_flat\_order` tabel. Deze kolom werkt goed voor winkels met meerdere valuta&#39;s die in hun lokale valuta willen rapporteren.
 
 Voor handelscliënten, `base\_currency\_code` in het veld worden doorgaans native valuta&#39;s opgeslagen. De `Spot Time` Dit veld moet overeenkomen met de datum die wordt gebruikt in uw metriek.
 
@@ -49,7 +49,7 @@ Voor handelscliënten, `base\_currency\_code` in het veld worden doorgaans nativ
 
 ## Een-op-veel berekende kolommen {#onetomany}
 
-`One-to-Many` kolommen [een pad tussen twee tabellen gebruiken](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). Dit pad impliceert altijd één tabel, waar een kenmerk woont, en een vele tabel, waar dat kenmerk naar beneden wordt verplaatst. Het pad kan worden beschreven als een `foreign key--primary key` relatie.
+`One-to-Many` kolommen [gebruiken een pad tussen twee tabellen](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). Dit pad impliceert altijd één tabel, waar een kenmerk woont, en een vele tabel, waar dat kenmerk naar beneden wordt verplaatst. Het pad kan worden beschreven als een `foreign key--primary key` relatie.
 
 ### Samengevoegde kolom {#joined}
 
@@ -97,9 +97,9 @@ Als u een beetje moeite hebt zich te herinneren wat alle input wanneer het creë
 
 ## Geavanceerde berekende kolommen {#advanced}
 
-In uw vraag om vragen over uw zaken te analyseren en te beantwoorden, kunt u een situatie ontmoeten waarin u niet de nauwkeurige kolom kunt bouwen u wilt. In deze gevallen hebben we u op de hoogte gebracht!
+In uw vraag om vragen over uw zaken te analyseren en te beantwoorden, kunt u een situatie ontmoeten waarin u niet de nauwkeurige kolom kunt bouwen u wilt.
 
-Om een snelle ommekeer te verzekeren, adviseren wij uit te checken [Geavanceerde berekende kolomtypen](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) gids om te zien welk soort kolommen ons steunteam kan bouwen. In dat artikel, behandelen wij ook de informatie wij van u zullen nodig hebben om de kolom tot stand te brengen - gelieve het met uw verzoek te omvatten.
+Adobe raadt aan de [Geavanceerde berekende kolomtypen](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) gids om te zien welk soort kolommen het de steunteam van de Adobe kan bouwen. Dat artikel behandelt ook de informatie die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
 
 ## Gerelateerde documentatie
 

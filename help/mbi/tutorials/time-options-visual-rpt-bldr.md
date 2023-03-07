@@ -2,9 +2,9 @@
 title: De Opties van de Tijd van het gebruik in Visuele Report Builder
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als u samen met sommige steekproefrapporten wilt volgen die in dit onderwerp wor
 
 ## Metrische gegevens analyseren zonder tijdstempels {#notimestamp}
 
-Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, zal een inventarislijst vaak slechts één rij voor elke SKU bevatten. In dat geval moet u [de metrisch maken](../data-user/reports/ess-manage-data-metrics.md) zonder een tijdstempel op te geven.
+Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, bevat een inventarislijst vaak slechts één rij voor elke SKU. In dat geval moet u [de metrisch maken](../data-user/reports/ess-manage-data-metrics.md) zonder een tijdstempel op te geven.
 
 Wanneer het gebruiken van zulk metrisch in uw rapportering, merkt u dat het toevoegen van dit metrisch aan een rapport automatisch een onafhankelijke plaatst `Time Interval` van `None` en `Time Range` van `Global`:
 
@@ -31,16 +31,16 @@ Wanneer het gebruiken van zulk metrisch in uw rapportering, merkt u dat het toev
 
 ## Eén metrische waarde een onafhankelijk tijdinterval geven {#independenttimeinterval}
 
-`Time` Met de opties kunt u op tijd gebaseerde 100%-grafieken maken om te bepalen welke dag, week, maand of jaar tijdens een bepaald tijdbereik de meeste waarde heeft bijgedragen. In deze sectie maken we een grafiek waarin het percentage van de inkomsten wordt weergegeven dat in elke kalendermaand van een jaar wordt gegenereerd.
+`Time` Met de opties kunt u op tijd gebaseerde 100%-grafieken maken om te bepalen welke dag, week, maand of jaar tijdens een bepaald tijdbereik de meeste waarde heeft bijgedragen. In deze sectie, creeert u een grafiek die u het percentage van opbrengst toont die in elke kalendermaand van een jaar wordt geproduceerd.
 
-Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijken. Als bijvoorbeeld uit een grafiek voor 2015 blijkt dat januari 18% van de inkomsten voor het jaar heeft bijgedragen en één voor 2016 slechts 8%, dan zou u kunnen beginnen met het onderzoek naar wat er mogelijk is gebeurd.
+Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijken. Bijvoorbeeld, heb u een grafiek voor 2015 onthulde dat Januari 18 percenten van opbrengst voor het jaar bijdroeg en een grafiek voor 2016 toonde slechts 8 percenten. Je zou kunnen beginnen te onderzoeken wat er mogelijk gebeurd is.
 
 1. Voeg uw `Revenue` metrisch aan het rapport.
 1. Klikken **[!UICONTROL Duplicate]** om een kopie van de metrische waarde te maken.
 1. Klik op de algemene **[!UICONTROL Time Range]** optie, dan **[!UICONTROL Moving Time Range]**. Stel deze in op `Last Year`.
 1. Klik op de algemene **[!UICONTROL Time Interval]** en instellen op `Monthly`.
 1. Report Builder voegt automatisch een tweede Y-as toe voor een tweede meting. Schakel de optie `Multiple Y-Axes` doos.
-1. Vervolgens passen we een onafhankelijke `Time Interval` naar de eerste metrieke waarde. Klikken **[!UICONTROL Time Options]** (klokpictogram) rechts van `first Revenue metric`.
+1. Vervolgens past u een onafhankelijke `Time Interval` naar de eerste metrieke waarde. Klikken **[!UICONTROL Time Options]** (klokpictogram) rechts van `first Revenue metric`.
 1. Klikken **[!UICONTROL Time Options]** in het uitgebreide venster dat boven het rapport wordt weergegeven.
 1. Stel in de vervolgkeuzelijst het volgende in:
 
@@ -48,9 +48,9 @@ Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijke
 
    * `Time Range`: instellen op `Last Year` door eerst te klikken **[!UICONTROL Custom]** vervolgens **[!UICONTROL Moving Range]** en tot slot de `Last Year` optie.
 
-   * Klikken **[!UICONTROL Apply]** om de interval- en bereikinstellingen op te slaan. Dit leidt tot een metrisch die de totale inkomsten voor het vorige jaar berekent. Vervolgens gebruiken we deze maatstaf als noemer in een formule.
+   * Klikken **[!UICONTROL Apply]** om de interval- en bereikinstellingen op te slaan. Dit leidt tot een metrisch die de totale inkomsten voor het vorige jaar berekent. Vervolgens gebruikt u deze metrische waarde als noemer in een formule.
 
-   * Om het percentage van opbrengst voor elke maand te zien, moeten wij een formule aan het verslag toevoegen. Klikken **[!UICONTROL Add Formula]**.
+   * Om het percentage van opbrengst voor elke maand te zien, moet u een formule aan het rapport toevoegen. Klikken **[!UICONTROL Add Formula]**.
 
    * Enter `B/A` in het veld Formulier en selecteer `% Percent` in de vervolgkeuzelijst naast het tekstveld. Deze formule verdeelt het bedrag van de ontvangsten van een bepaalde maand van het afgelopen jaar door het totale bedrag van de inkomsten van het afgelopen jaar.
 
@@ -58,7 +58,7 @@ Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijke
 
    * Verberg beide invoermeetgegevens en wijzig de naam van de formule.
 
-Nu kunnen we zien hoe impact elke maand vorig jaar was:
+Nu kun je zien hoe impact elke maand vorig jaar was:
 
 ![](../assets/Independent_Time_Int.png)
 
@@ -68,7 +68,7 @@ In dit voorbeeld wordt een aangepaste dimensie gebruikt, de zogenaamde `Day numb
 
 De twee meest voorkomende voorbeelden in deze categorie zijn (1) het vergelijken van groeicijfers (omzet jaar-over-jaar of maand-over-maand) en (2) het beter begrijpen van recente trends in voorraden of verkoop van artikelen.
 
-Om dit geval van gebruik aan te tonen, kijken we naar de dagelijkse inkomsten van de vorige maand in vergelijking met dezelfde maand van het voorgaande jaar. Laten we zeggen dat we naar de inkomsten voor elke dag van januari 2016 willen kijken en dat vervolgens willen vergelijken met januari 2015, januari 2014, enzovoort. Dit verslag zou ons dat laten zien.
+Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vorige maand vergeleken met dezelfde maand van het voorgaande jaar. Stel dat u naar de inkomsten voor elke dag van januari 2016 wilt kijken en die vervolgens wilt vergelijken met januari 2015, januari 2014, enzovoort. Dit verslag zou ons dat laten zien.
 
 1. Voeg uw `Revenue` metrisch aan het rapport.
 1. Klikken **[!UICONTROL Duplicate]** om een kopie van de metrische waarde te maken.
@@ -82,19 +82,19 @@ Om dit geval van gebruik aan te tonen, kijken we naar de dagelijkse inkomsten va
    * `Time Interval`: instellen op `None`.
 
    * `Time Range`: instellen op `From 14 Months Ago To 13 Months Ago` door eerst te klikken **[!UICONTROL Custom]** dan **[!UICONTROL Moving Range]**. Gebruik de velden en vervolgkeuzelijsten boven aan het menu om het bereik in te stellen. Op die manier kunnen we de inkomsten van de vorige maand zien, maar in het voorgaande jaar.
-   Maak zich geen zorgen als metrisch uit het rapport verdwijnt - plaatsend een onafhankelijke tijdopties verbergt automatisch metrisch van het rapport. Klik op **[!UICONTROL Show]** naast de metrische waarde.
+   Maak zich geen zorgen als metrisch uit het rapport verdwijnt - plaatsend een onafhankelijke tijdoptie verbergt automatisch metrisch van het rapport. Klik op **[!UICONTROL Show]** naast de metrische waarde.
 
    ![](../assets/Different_Time_Ranges.gif)
 
    * Klikken **[!UICONTROL Apply]** om de interval- en bereikinstellingen op te slaan.
 
-   * Hierna voegen we onze aangepaste `Day number of the month` dimensie door te klikken **[!UICONTROL Group By]** en het selecteren van de dimensie. Dit zal het dagaantal van de maand van een orde terugkeren - bijvoorbeeld een orde die op 2 Maart wordt geplaatst zal terugkeren `2`.
+   * Vervolgens voegt u uw aangepaste `Day number of the month` dimensie door te klikken **[!UICONTROL Group By]** en het selecteren van de dimensie. Dit zal het dagaantal van de maand van een orde terugkeren - bijvoorbeeld een orde die op 2 Maart wordt geplaatst zal terugkeren `2`.
 
-   * In de `Group By` vervolgkeuzelijst, selecteren `Show All` en klik op **[!UICONTROL Apply]**. Dit zal effectief tot de x-aswaarden voor het rapport leiden:
+   * In de `Group By` vervolgkeuzelijst, selecteren `Show All` en klik op **[!UICONTROL Apply]**. Dit leidt tot de x-aswaarden voor het rapport:
 
    ![](../assets/TO4.png)
 
-   * Wijzig de naam van de metriek. In ons voorbeeld is de eerste metrische waarde `Revenue - 2015` en de tweede `Revenue - 2014`.
+   * Wijzig de naam van de metriek. In het voorbeeld is de eerste metrische waarde `Revenue - 2015` en de tweede `Revenue - 2014`.
 
 
 
@@ -104,12 +104,12 @@ Herinner me om de tijdwaaiers aan te plaatsen wat u wanneer het bouwen van dit r
 
 1. Voeg uw `Items Sold` metrisch aan het rapport.
 1. Klikken **[!UICONTROL Duplicate]** om een kopie van de metrische waarde te maken.
-1. Wijzig de naam van de metriek. U kunt dezelfde namen gebruiken als wij of iets dergelijks:
+1. Wijzig de naam van de metriek. U kunt dezelfde namen gebruiken of iets gelijkaardigs gebruiken:
    1. De naam van de eerste metrische waarde wijzigen in `Items sold last 7 days`.
    1. De naam van de tweede metrieke waarde wijzigen in `Items sold last 28 days`.
-1. Op de `Items sold last 7 days` metrisch, klik globale **[!UICONTROL Time Range]** optie dan **[!UICONTROL Moving Time Range]**. Voor dit voorbeeld stellen we het in op `Last 7 Days`.
+1. Op de `Items sold last 7 days` metrisch, klik globale **[!UICONTROL Time Range]** optie dan **[!UICONTROL Moving Time Range]**. In dit voorbeeld stelt u het in op `Last 7 Days`.
 1. Klikken **[!UICONTROL Time Interval]** en stel deze in op `None`.
-1. Vervolgens definiëren we de `Time Options` voor de `Items sold last 28 days` metrisch. Klikken **[!UICONTROL Time Options]** (klokpictogram) rechts van `second Items sold` metrisch.
+1. Vervolgens definieert u de `Time Options` voor de `Items sold last 28 days` metrisch. Klikken **[!UICONTROL Time Options]** (klokpictogram) rechts van `second Items sold` metrisch.
 1. Klikken **[!UICONTROL Time Options]** in het uitgebreide venster dat boven het rapport wordt weergegeven.
 1. Stel in de vervolgkeuzelijst het volgende in:
 
@@ -122,7 +122,7 @@ Herinner me om de tijdwaaiers aan te plaatsen wat u wanneer het bouwen van dit r
       * `Time Range`: dit wijzigen in het datumbereik dat overeenkomt met de aanbieding waarin je bent geïnteresseerd door op **[!UICONTROL Specific Date Range]** en vervolgens de passende data in te voeren.
       * De naam van de metrisch wijzigen `Items sold during last promotion` of iets dergelijks.
       * Voeg uw `Units on hand` metrisch.
-      * Vervolgens moeten we de berekeningen toevoegen die ons de weken in de hand laten zien, rekening houdend met de verkooptrends, voor de tijdsperioden (`last 7 days`, `last 28 days`, en `last promo` periode ) nemen wij in het verslag op. Dit moet u één keer doen voor elke tijdsperiode.
+      * Vervolgens moet u de berekeningen toevoegen die ons de weken tonen, rekening houdend met de verkooptrends, voor de tijdsperioden (`last 7 days`, `last 28 days`, en `last promo` punt) die u in het rapport opneemt. Dit moet u voor elke tijdsperiode doen.
 
 Als u de formules wilt maken, klikt u op **[!UICONTROL Add Formula]**. Voer de onderstaande formules in en klik op **[!UICONTROL Apply Changes]** wanneer gereed. Herhaal dit voor elk van de drie tijdsperioden:
 
@@ -131,7 +131,7 @@ Als u de formules wilt maken, klikt u op **[!UICONTROL Add Formula]**. Voer de o
 
    >[!NOTE]
    >
-   >Het is belangrijk dat u de geselecteerde tijdbereiken hier normaliseert. In dit voorbeeld moeten 28 dagen worden opgedeeld in vier weken. U moet mogelijk verschillende logica op de formule toepassen.
+   >Het is belangrijk dat u de geselecteerde tijdbereiken hier normaliseert. Breek 28 dagen in vier weken in dit voorbeeld. U moet mogelijk verschillende logica op de formule toepassen.
 
 * Voor de `last promo period`, enter `D / C` in de `Formula` veld.
 

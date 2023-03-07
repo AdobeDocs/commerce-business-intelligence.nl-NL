@@ -2,9 +2,9 @@
 title: Werken met SQL Report Builder
 description: Leer hoe te om gegevens en metriek te controleren gebruikend SQL Report Builder zodat u de resultaten met de gegevens van uw lokale gegevensbestand kunt vergelijken.
 exl-id: d1d9e099-4138-43e6-aaec-6f15ebc5c4d4
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -15,26 +15,26 @@ De `SQL Report Builder` wordt hoofdzakelijk gebruikt om nieuwe rapporten te bouw
 
 ## Metrisch zoeken
 
-Om aan de slag te gaan, opent u de `SQL Report Builder` door te navigeren naar **[!UICONTROL Report Builder > SQL Report Builder > Create Report]**. U kunt sidebar in de SQL redacteur gebruiken om metrisch direct in uw vraag op te nemen door over metrisch te hangen en te klikken **[!UICONTROL Insert]**. Dit zal de vraagdefinitie van dat metrisch aan de redacteur toevoegen. De definitie omvat de volgende componenten:
+Om aan de slag te gaan, opent u de `SQL Report Builder` door te navigeren naar **[!UICONTROL Report Builder > SQL Report Builder > Create Report]**. U kunt sidebar in de SQL redacteur gebruiken om metrisch direct in uw vraag op te nemen door over metrisch te hangen en te klikken **[!UICONTROL Insert]**. Dit voegt de vraagdefinitie van dat metrisch aan de redacteur toe. De definitie omvat de volgende componenten:
 
 - De **metrische bewerking** uitgevoerd, aangegeven door SUM() in het onderstaande voorbeeld.
 - De **tabel op** die metrisch wordt gebouwd, door VAN clausule wordt vermeld.
 - Alle **filters (en filtersets)** die aan metrisch zijn toegevoegd, die door WHERE clausule in het hieronder voorbeeld wordt vermeld.
 - De component van de **tijdstempel** (jaar, maand) waarop de gegevens moeten worden besteld, zoals aangegeven door de ORDER BY-component in het onderstaande voorbeeld.
 
-Als u een duidelijkere mening van de vraag zou willen hebben, kunt u opnieuw formatteren hoe het op het vraaggebied wordt getoond. Wanneer u klaar bent, selecteert u `Run Query`. De resultaten zullen als lijst in het rapportpaneel onder de vraag bevolken.
+Als u een duidelijkere mening van de vraag zou willen hebben, kunt u opnieuw formatteren hoe het op het vraaggebied wordt getoond. Wanneer u klaar bent, selecteert u `Run Query`. De resultaten bevolken als lijst in het rapportpaneel onder de vraag.
 
 ![](../../assets/run-query-results.gif)
 
 ## De query beperken
 
-Als u probeert om een specifieke discrepantie of een reeks gegevens te identificeren, zou u de vraag tot een specifieke steekproef moeten beperken om tegen uw lokale gegevensbestand te controleren. U kunt dit doen door de vraag uit te geven om uw gewenste beperkingen aan te passen. In het volgende voorbeeld, beperken wij de vraag om slechts opbrengst van 1 Januari, 2013 of later te omvatten. Nadat u de query hebt bijgewerkt, selecteert u **[!UICONTROL Run Query]** om de resultaten bij te werken.
+Als u probeert om een specifieke discrepantie of een reeks gegevens te identificeren, zou u de vraag tot een specifieke steekproef moeten beperken om tegen uw lokale gegevensbestand te controleren. U kunt dit doen door de vraag uit te geven om uw gewenste beperkingen aan te passen. In het volgende voorbeeld, beperkt u de vraag om slechts opbrengst van 1 Januari, 2013 of later te omvatten. Nadat u de query hebt bijgewerkt, selecteert u **[!UICONTROL Run Query]** om de resultaten bij te werken.
 
 ![](../../assets/restricting-query.gif)
 
 ## Opslaan en exporteren
 
-Wanneer het rapport aan uw behoeften voldoet, slaat u het op een dashboard door het rapport een andere naam te geven en op **[!UICONTROL Save]** en selecteert u het type rapport dat u wilt opslaan en het dashboard. Bij de controle van metriek, adviseren wij sparen het rapport als a `Table` en het opslaan naar een testdashboard.
+Wanneer het rapport aan uw behoeften voldoet, slaat u het op een dashboard door het rapport een andere naam te geven en op **[!UICONTROL Save]** en selecteert u het type rapport dat u wilt opslaan en het dashboard. Adobe raadt aan het rapport op te slaan als een `Table` en het opslaan naar een testdashboard.
 
 Nadat het rapport is opgeslagen, navigeert u naar dat dashboard door `Go to Dashboard`. Van daar kunt u de gegevens uitvoeren door het rapport te vinden en te selecteren **[!UICONTROL Options gear > Full `.csv`Exporteren]** of **[!UICONTROL Full Excel Export]**.
 
@@ -46,4 +46,4 @@ U kunt ook aangepaste query&#39;s schrijven en de resultaten exporteren die u wi
 
 ### Nog steeds gestompt?
 
-Als u na het controleren van uw gegevens een discrepantie vindt, neemt u een blik bij [Contact opnemen met ondersteuning: Gegevensdiscrepanties](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=en) artikel voor meer informatie over wat te doen volgende.
+Als u na het controleren van uw gegevens een discrepantie vindt, bekijkt u [Contact opnemen met ondersteuning: Gegevensdiscrepanties](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=en) artikel voor meer informatie over wat te doen volgende.

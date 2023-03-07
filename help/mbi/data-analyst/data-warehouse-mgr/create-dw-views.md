@@ -1,21 +1,21 @@
 ---
 title: Weergaven van Data Warehouse maken en gebruiken
-description: Leer over een methode om nieuwe gestreken lijsten tot stand te brengen door een bestaande lijst te wijzigen, of het samenvoegen van of het consolideren van veelvoudige lijsten samen door het gebruik van SQL.
+description: Leer over een methode om nieuwe gestreken lijsten tot stand te brengen door een bestaande lijst te wijzigen, of het samenvoegen van of het consolideren van veelvoudige lijsten samen door SQL te gebruiken.
 exl-id: 5aa571c9-7f38-462c-8f1b-76a826c9dc55
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1064'
 ht-degree: 9%
 
 ---
 
 # Werken met weergaven van Data Warehouse
 
-In dit document worden het doel en het gebruik van `Data Warehouse Views` toegankelijk door te navigeren naar **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]**. Hieronder vindt u een uitleg van wat het doet en hoe u nieuwe weergaven kunt maken, en een voorbeeld van hoe het moet worden gebruikt `Data Warehouse Views` consolideren [!DNL Facebook] en [!DNL AdWords] besteed gegevens.
+In dit document worden het doel en het gebruik van `Data Warehouse Views` toegankelijk door te navigeren naar **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]**. Hieronder vindt u een uitleg van wat het doet en hoe u weergaven kunt maken, en een voorbeeld van hoe het moet worden gebruikt `Data Warehouse Views` consolideren [!DNL Facebook] en [!DNL AdWords] besteed gegevens.
 
 ## Algemeen doel
 
-De `Data Warehouse Views` Deze functie is een methode om nieuwe geagendeerde tabellen te maken door een bestaande tabel te wijzigen of door meerdere tabellen samen te voegen of te consolideren met behulp van SQL. Eenmaal `Data Warehouse View` is gemaakt en verwerkt door een updatecyclus, wordt de Data Warehouse gevuld met een nieuwe tabel onder de `Data Warehouse Views` vervolgkeuzelijst, zoals hieronder weergegeven:
+De `Data Warehouse Views` Deze functie is een methode om nieuwe geagendeerde tabellen te maken door een bestaande tabel te wijzigen of door meerdere tabellen samen te voegen of te consolideren met SQL. Eenmaal `Data Warehouse View` is gemaakt en verwerkt door een updatecyclus, wordt deze in uw Data Warehouse gevuld als een nieuwe tabel onder de `Data Warehouse Views` vervolgkeuzelijst, zoals hieronder weergegeven:
 
 ![](../../assets/Data_Warehouse.png)
 
@@ -31,7 +31,7 @@ Nieuw `Data Warehouse Views` kan worden gemaakt en bestaande weergaven kunnen wo
 
 ![](../../assets/Data_Warehouse_Views.png)
 
-Hier kunt u een nieuwe weergave maken door de voorbeeldinstructies hieronder te volgen:
+Hier kunt u een weergave maken door de voorbeeldinstructies hieronder te volgen:
 
 1. Als u een bestaande weergave wilt bekijken, klikt u op **[!UICONTROL New Data Warehouse View]** om een leeg vraagvenster te openen. Als er al een leeg queryvenster is geopend, gaat u verder met de volgende stap.
 1. Geef de weergave een naam door in het dialoogvenster `View Name` veld. De hier opgegeven naam bepaalt de weergavenaam voor de weergave in de Data Warehouse. `View names` zijn beperkt tot kleine letters, cijfers en onderstrepingstekens (_). Alle andere tekens zijn verboden.
@@ -42,11 +42,11 @@ Hier kunt u een nieuwe weergave maken door de voorbeeldinstructies hieronder te 
 
 1. Als u klaar bent, klikt u op **[!UICONTROL Save]** om de weergave op te slaan. Je weergave bevat tijdelijk een `Pending` status tot deze wordt verwerkt door de volgende volledige updatecyclus, waarna de status verandert in `Active`. Nadat uw weergave door een update is verwerkt, kunt u deze gebruiken in rapporten.
 
-Het is belangrijk om te vermelden dat na sparen, de onderliggende vraag wordt gebruikt om een te produceren `Data Warehouse View` kan niet worden bewerkt. Als u om een of andere reden de structuur van een `Data Warehouse View`, zult u een nieuwe mening moeten creëren en manueel om het even welke berekende kolommen, metriek, of rapporten van de originele mening aan nieuwe migreren. Wanneer de migratie is voltooid, kunt u de oorspronkelijke weergave veilig verwijderen. Omdat `Data Warehouse Views` zijn niet editable, adviseren wij sterk dat u de output van uw vraag gebruikend `SQL Report Builder` voordat u de query opslaat als weergave Data Warehouse.
+Het is belangrijk om te vermelden dat na sparen, de onderliggende vraag wordt gebruikt om een te produceren `Data Warehouse View` kan niet worden bewerkt. Als u de structuur van een `Data Warehouse View`, moet u een mening tot stand brengen en manueel om het even welke berekende kolommen, metriek, of rapporten van de originele mening aan nieuwe migreren. Wanneer de migratie is voltooid, kunt u de oorspronkelijke weergave veilig verwijderen. Omdat `Data Warehouse Views` zijn niet bewerkbaar, raadt Adobe aan dat u de uitvoer van de query test met de opdracht `SQL Report Builder` voordat u de query opslaat als weergave Data Warehouse.
 
 ## Voorbeeld: [!DNL Facebook] en [!DNL Google AdWords] data
 
-Laten we eens nader kijken naar een van de voorbeelden die eerder in dit artikel worden genoemd: consolideren [!DNL Facebook] en [!DNL AdWords] besteed gegevens in een nieuwe geconsolideerde advertentietabel. Meestal gaat het hierbij om de consolidatie van twee tabellen, met de volgende voorbeeldgegevenssets:
+Kijk eens naar een van de voorbeelden die eerder in dit artikel worden genoemd: consolideren [!DNL Facebook] en [!DNL AdWords] besteed gegevens in een nieuwe geconsolideerde advertentietabel. Meestal gaat het hierbij om de consolidatie van twee tabellen, met de volgende voorbeeldgegevenssets:
 
 `Ad source: Google AdWords`
 
@@ -76,7 +76,7 @@ Laten we eens nader kijken naar een van de voorbeelden die eerder in dit artikel
 | 4 | aaa | 110 | 2017-06-08 00:00:00 | 6000 | 10 |
 | 5 | ccc | 5 | 2017-07-06 00:00:00 | 300 | 1.2 |
 
-Eén advertentietabel maken met beide [!DNL Facebook] en [!DNL AdWords] campagnes, zullen wij een SQL vraag moeten schrijven en gebruik maken van `UNION ALL` functie. A `UNION ALL` De instructie wordt meestal gebruikt om meerdere verschillende SQL-query&#39;s te combineren terwijl de resultaten van elke query aan één uitvoer worden toegevoegd.
+Eén advertentietabel maken met beide [!DNL Facebook] en [!DNL AdWords] campagnes, moet u een SQL vraag schrijven en gebruiken `UNION ALL` functie. A `UNION ALL` De instructie wordt meestal gebruikt om meerdere verschillende SQL-query&#39;s te combineren terwijl de resultaten van elke query aan één uitvoer worden toegevoegd.
 
 Er zijn enkele vereisten voor een `UNION` instructies die de moeite van het vermelden waard zijn, zoals beschreven in PostgreSQL [documentatie](https://www.postgresql.org/docs/8.3/queries-union.html):
 
@@ -85,7 +85,7 @@ Er zijn enkele vereisten voor een `UNION` instructies die de moeite van het verm
 
 Wanneer u een `UNION` of `UNION ALL` de naam van de kolommen in de uiteindelijke uitvoer weerspiegelt in de naam van de kolommen in de eerste query.
 
-In de meeste gevallen kunt u uw [!DNL Facebook] en [!DNL Google AdWords] gegevens in een `Data Warehouse View` vereist dat een tabel met zeven kolommen wordt gemaakt, met een query zoals hieronder:
+Gewoonlijk consolideert u uw [!DNL Facebook] en [!DNL Google AdWords] gegevens in een `Data Warehouse View` vereisen de verwezenlijking van een lijst met zeven kolommen, met een vraag gelijkend op hieronder:
 
 ```sql
     SELECT
@@ -112,9 +112,9 @@ In de meeste gevallen kunt u uw [!DNL Facebook] en [!DNL Google AdWords] gegeven
 Een paar belangrijke punten in verband met het bovenstaande:
 
 * Voor de duidelijkheid worden alle kolommen hierboven gealiased zodat de namen overeenkomen met alle query&#39;s. Dit is echter geen vereiste. De orde waarin de kolommen in de UITGEZOCHTE vragen worden geroepen dicteert hoe zij op zijn.
-* Een nieuwe kolom met de naam `ad_source` is gemaakt om het filteren voor [!DNL AdWords] of [!DNL Facebook] gegevens. Onthoud dat deze query alle gegevens uit beide tabellen combineert. Als u geen kolom zoals creeert `ad_source`Er zal geen eenvoudige manier zijn om de uitgaven van een bepaalde bron te identificeren.
+* Een nieuwe kolom met de naam `ad_source` is gemaakt om het filteren voor [!DNL AdWords] of [!DNL Facebook] gegevens. Onthoud dat deze query alle gegevens uit beide tabellen combineert. Als u geen kolom zoals creeert `ad_source`Er is echter geen eenvoudige manier om de uitgaven van een bepaalde bron te identificeren.
 
-De bovenstaande query opslaan als een `Data Warehouse View` Hiermee wordt een nieuwe tabel gemaakt met beide [!DNL Facebook] en [!DNL AdWords] uitgaven, vergelijkbaar met de onderstaande uitgaven:
+De bovenstaande query opslaan als een `Data Warehouse View` maakt een tabel met beide [!DNL Facebook] en [!DNL AdWords] uitgaven, vergelijkbaar met de onderstaande uitgaven:
 
 | **`id`** | **`ad_source`** | **`date`** | **`campaign`** | **`spend`** | **`impressions`** | **`clicks`** |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -133,11 +133,11 @@ In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te 
 
 **Op zoek naar extra hulp?**
 
-SQL schrijven en maken `Data Warehouse Views` wordt niet meegeleverd bij Technische ondersteuning.  Het serviceteam biedt echter wel ondersteuning bij het maken van standpunten. Voor alles, van de migratie en de consolidatie van een erfenisgegevensbestand met een nieuw gegevensbestand tot de verwezenlijking van één enkele Mening van de Data Warehouse voor een specifieke analyse, zijn zij bij het in kaart brengen van op SQL-Gebaseerde oplossingen voor al uw uitdagingen van de gegevensstructuur.
+SQL schrijven en maken `Data Warehouse Views` wordt niet meegeleverd bij Technische ondersteuning. Het serviceteam biedt echter wel ondersteuning bij het maken van standpunten. Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
-In de meeste gevallen moet een nieuwe `Data Warehouse View` voor het consolideren van 2-3 vergelijkbare gestructureerde tabellen is 5 uur aan diensttijd nodig, wat neerkomt op ongeveer 1250 dollar aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte investeringen kunnen doen toenemen:
+Gewoonlijk wordt een nieuwe `Data Warehouse View` voor het consolideren van 2-3 vergelijkbare gestructureerde tabellen is vijf uur diensttijd nodig, wat neerkomt op ongeveer $1250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
 
 * Consolidatie van meer dan drie tabellen in één weergave
-* Het creëren van meer dan één mening van het gegevenspakhuis
+* Weergave van meerdere Data Warehouse maken
 * Complexe samenvoegende logica of filtervoorwaarden
 * Consolidatie van twee of meer tabellen met ongelijke gegevensstructuren

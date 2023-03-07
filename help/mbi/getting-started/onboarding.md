@@ -2,16 +2,16 @@
 title: Onboarding
 description: Meer informatie over instapweigering.
 exl-id: e0cce957-af2c-4514-9afd-c9aaa651a4f0
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
 # Onboarding
 
-Vragen over instapkaarten `store` en `database` zorgen ervoor dat we uw rapportage correct instellen. Met deze antwoorden zullen wij uw rapporten leveren die precies aan de opstelling van uw opslag worden aangepast.
+Vragen over instapkaarten `store` en `database` zorgen ervoor dat u de rapportage correct instelt. Met deze antwoorden levert Adobe uw rapporten die precies op de opstelling van uw opslag worden aangepast.
 
 ## Opslaginstellingen
 
@@ -25,7 +25,7 @@ Vragen over instapkaarten `store` en `database` zorgen ervoor dat we uw rapporta
 
 - *Welke versie van Handel gebruikt u?* - Selecteer de `currency` dat uw winkel wordt geopend.
 
-- *Is uw winkel gevestigd in de Europese Unie?* - Als u `Yes` op deze vraag zullen wij uw Data Warehouse en al uw gegevens in de Europese Unie ontvangen, overeenkomstig de GDPR.
+- *Is uw winkel gevestigd in de Europese Unie?* - Als u `Yes` op deze vraag plaatst Adobe uw Data Warehouse en al uw gegevens in de Europese Unie, overeenkomstig de GDPR.
 
 ## Database-instellingen
 

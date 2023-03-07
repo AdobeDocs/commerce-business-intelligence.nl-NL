@@ -2,7 +2,7 @@
 title: Filtersets maken voor metriek
 description: Leer hoe u opgeslagen filtersets maakt en deze op de metriek toepast.
 exl-id: 6ef8b67c-bebd-45eb-bca7-95832ec34fc8
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Als u meerdere meetwaarden hebt in [!DNL MBI] die op gelijkaardige wijze moeten worden gefiltreerd (bijvoorbeeld, filter uit testorden), kunt u bewaarde Reeksen van de Filter tot stand brengen en hen op metriek toepassen. Hierdoor bespaart u tijd, omdat u geen afzonderlijke filters hoeft toe te voegen wanneer u een metrisch object maakt of bewerkt.
 
-Zie onze [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html?lang=en) voor meer informatie.
+Zie de [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html?lang=en) voor meer informatie.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Zie onze [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowl
 
 1. Voeg alle relevante filters toe.
 
-   Als we bijvoorbeeld alleen orders met de status &quot;complete&quot; in onze `Total number of orders` metrisch, zouden wij een filter toepassen dat alle orden sluit die status = niet hebben `complete`.
+   Als u bijvoorbeeld alleen orders met de status &quot;complete&quot; wilt opnemen in uw `Total number of orders` metrisch, zou u een filter toepassen dat alle orden sluit die status = niet hebben `complete`.
 
 1. Controleer de filterlogica en of de ronde haakjes en operatoren correct zijn geplaatst: bijvoorbeeld: `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
 

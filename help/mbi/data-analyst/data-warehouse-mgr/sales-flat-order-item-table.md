@@ -2,9 +2,9 @@
 title: sales_order_item, tabel
 description: Leer hoe u met de tabel sales_order_item werkt.
 exl-id: 5c48e985-3ba2-414b-bd1f-555b3da763bd
-source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,19 @@ Daarom is het mogelijk om op het eenvoudige niveau of op het configureerbare niv
 
 | **Kolomnaam** | **Beschrijving** |
 |----|----|
-| `base_price` | Prijs van een individuele eenheid van een product op het tijdstip van de verkoop na [catalogusprijsregels, gedifferentieerde kortingen en speciale prijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) worden toegepast en voordat belastingen, verzendkosten of winkelwagenkortingen worden toegepast, weergegeven in de basisvaluta van de winkel |
-| `created_at` | Tijdstempel maken van het orderitem, meestal lokaal opgeslagen in UTC. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
+| `base_price` | Prijs van een individuele eenheid van een product op het tijdstip van de verkoop na [catalogusprijsregels, gedifferentieerde kortingen en speciale prijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) worden toegepast en voordat eventuele belastingen, verzendkosten of winkelkortingen worden toegepast. Dit wordt weergegeven in de basisvaluta van de winkel |
+| `created_at` | Tijdstempel maken van het orderitem, lokaal opgeslagen in UTC. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
 | `item_id` (PK) | Unieke id voor de tabel |
 | `name` | Tekstnaam van het orderitem |
 | `order_id` | `Foreign key` in verband met de `sales_order` tabel. Verbinden met `sales_order.entity_id` om ordekenmerken te bepalen verbonden aan het orde punt |
-| `parent_item_id` | `Foreign key` die een eenvoudig product met zijn ouderbundel of configureerbaar product verbindt. Verbinden met `sales_order_item.item_id` om de kenmerken van het bovenliggende product te bepalen die aan het eenvoudige product zijn gekoppeld. Voor bovenliggende orderitems (d.w.z. bundel- of configureerbare producttypen) wordt de `parent_item_id` wordt `NULL` |
+| `parent_item_id` | `Foreign key` die een eenvoudig product met zijn ouderbundel of configureerbaar product verbindt. Verbinden met `sales_order_item.item_id` om de kenmerken van het bovenliggende product te bepalen die aan het eenvoudige product zijn gekoppeld. Voor bovenliggende orderitems (d.w.z. bundel- of configureerbare producttypen) wordt de `parent_item_id` is `NULL` |
 | `product_id` | `Foreign key` in verband met de `catalog_product_entity` tabel. Verbinden met `catalog_product_entity.entity_id` om productkenmerken te bepalen die aan het orderitem zijn gekoppeld |
 | `product_type` | Soort product dat is verkocht. Potentieel [productsoorten](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) omvatten: eenvoudig, configureerbaar, gegroepeerd, virtueel, bundel en downloadbaar |
 | `qty_ordered` | Hoeveelheid eenheden die op het moment van verkoop in het winkelwagentje voor het specifieke orderartikel is opgenomen |
 | `sku` | Unieke id voor het aangeschafte orderitem |
 | `store_id` | `Foreign key` in verband met de `store` tabel. Verbinden met `store.store_id` om te bepalen welke de opslagmening van de Handel verbonden aan het ordepunt |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Gemeenschappelijke berekende kolommen
 
@@ -57,7 +57,7 @@ Daarom is het mogelijk om op het eenvoudige niveau of op het configureerbare niv
 | `Order's status` | Status van de bestelling. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `status` field |
 | `Store name` | Naam van de opslag van de Handel verbonden aan het ordepunt. Berekend door verbinding `sales_order_item.store_id` tot `store.store_id` en de `name` field |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Algemene cijfers
 
@@ -66,13 +66,13 @@ Daarom is het mogelijk om op het eenvoudige niveau of op het configureerbare niv
 | `Products ordered` | De totale hoeveelheid producten die bij de verkoop in de winkelwagentjes was opgenomen | `Operation: Sum`<br>`Operand: qty_ordered`<br>`Timestamp: created_at` |
 | `Revenue by products ordered` | Totale waarde van de producten die in de winkelwagentjes zijn opgenomen op het moment van de verkoop nadat de catalogusprijsregels, gedifferentieerde kortingen en speciale prijzen zijn toegepast en voordat eventuele belastingen, verzendingen of winkelkortingen worden toegepast | `Operation: Sum`<br>`Operand: Order item total value (quantity * price)`<br>`Timestamp: created_at` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## `Foreign Key` Paden samenvoegen
 
 `catalog_product_entity`
 
-* Verbinden met `catalog_product_entity` tabel voor het maken van nieuwe kolommen die productkenmerken retourneren die zijn gekoppeld aan het orderitem.
+* Verbinden met `catalog_product_entity` tabel om kolommen te maken die productkenmerken retourneren die zijn gekoppeld aan het orderitem.
    * Pad: `sales_order_item.product_id` (veel) => `catalog_product_entity.entity_id` (1)
 
 `sales_order`
@@ -82,10 +82,10 @@ Daarom is het mogelijk om op het eenvoudige niveau of op het configureerbare niv
 
 `sales_order_item`
 
-* Verbinden met `sales_order_item` om nieuwe kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. Let op: u moet [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
+* Verbinden met `sales_order_item` om kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. [Contact opnemen met ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
    * Pad: `sales_order_item.parent_item_id` (veel) => `sales_order_item.item_id` (1)
 
 `store`
 
-* Verbinden met `store` tabel voor het maken van nieuwe kolommen die details retourneren met betrekking tot de winkel Commerce die is gekoppeld aan het orderitem.
+* Verbinden met `store` tabel om kolommen te maken die details retourneren met betrekking tot de winkel Commerce die is gekoppeld aan het orderitem.
    * Pad: `sales_order_item.store_id` (veel) => `store.store_id` (1)

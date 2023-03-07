@@ -2,9 +2,9 @@
 title: Relatiediagrammen voor entiteiten
 description: Leer over een paar ER diagrammen om u te helpen de verhouding tussen een handvol gemeenschappelijke het gegevensbestandlijsten van de Handel visualiseren.
 exl-id: de7d419f-efbe-4d0c-95a8-155a12aa93f3
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Wat is een **[!UICONTROL entity relationship (ER) diagram]**? An `ER` Het diagra
 
 >[!NOTE]
 >
->In dit artikel worden de woorden weergegeven **join**, **relatie** en **pad**. Deze woorden worden allen gebruikt om te beschrijven hoe twee lijsten worden verbonden.
+>In dit artikel ziet u de woorden **join**, **relatie**, en **pad**. Deze woorden worden allen gebruikt om te beschrijven hoe twee lijsten worden verbonden.
 
 ## Kernhandel `ER` Diagram
 
@@ -35,7 +35,7 @@ Eén klant kan veel bestellingen plaatsen. De relatie tussen deze twee tabellen 
 >
 >`customer\_entity.entity\_id` is niet gelijk aan `sales\_flat\_order.entity\_id`. De eerste kan worden beschouwd als een `customer\_id` en de tweede kan worden beschouwd als een `order\_id.`
 
-Within [!DNL MBI]Als het pad tussen deze twee tabellen nog niet bestaat, kunt u [het pad maken](../data-warehouse-mgr/create-paths-calc-columns.md) op het tabblad Data Warehouse. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
+Within [!DNL MBI]Als het pad tussen deze twee tabellen niet bestaat, kunt u [het pad maken](../data-warehouse-mgr/create-paths-calc-columns.md) op het tabblad Data Warehouse. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
 
 ![](../../assets/SFO___CE_path.png)
 
@@ -45,7 +45,7 @@ Within [!DNL MBI]Als het pad tussen deze twee tabellen nog niet bestaat, kunt u 
 
 Eén bestelling kan veel items bevatten. De relatie tussen deze twee tabellen is `sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id`.
 
-Within [!DNL MBI]Als het pad tussen deze twee tabellen nog niet bestaat, kunt u [het pad maken](../data-warehouse-mgr/create-paths-calc-columns.md) op het tabblad Data Warehouse. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
+Within [!DNL MBI]Als het pad tussen deze twee tabellen niet bestaat, kunt u [het pad maken](../data-warehouse-mgr/create-paths-calc-columns.md) op het tabblad Data Warehouse. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
 
 ![](../../assets/SFOI___SFO_path.png)
 
@@ -55,6 +55,6 @@ Within [!DNL MBI]Als het pad tussen deze twee tabellen nog niet bestaat, kunt u 
 
 Eén product kan vele objecten aanschaffen. De relatie tussen deze twee tabellen is `catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product`.
 
-Within [!DNL MBI]Als het pad tussen deze twee tabellen nog niet bestaat, kunt u [het pad maken](../data-warehouse-mgr/create-paths-calc-columns.md) op het tabblad Data Warehouse. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
+Within [!DNL MBI]Als het pad tussen deze twee tabellen niet bestaat, kunt u [het pad maken](../data-warehouse-mgr/create-paths-calc-columns.md) op het tabblad Data Warehouse. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
 
 ![](../../assets/SFOI___CPE_path.png)

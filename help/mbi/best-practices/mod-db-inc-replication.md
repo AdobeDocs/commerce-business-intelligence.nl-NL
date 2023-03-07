@@ -2,9 +2,9 @@
 title: Het wijzigen van Uw Gegevensbestand aan Steun voor Incrementele Replicatie
 description: Leer hoe u uw database kunt aanpassen om incrementele replicatie te ondersteunen.
 exl-id: c9a38892-6096-4eb5-8a53-35b8b7b083dc
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ Tabellen die deze methode gebruiken, zijn één kolom met een geheel getal die d
 
 ## Omloop omhoog
 
-Door minder belangrijke wijzigingen in uw lijsten aan te brengen, kunt u uit de snellere, efficiëntere Stijlvolle Methoden van de Replicatie voordeel halen; als dit echter nog steeds niet mogelijk is , kunt u nog andere stappen ondernemen om [verkort uw updatetijd](../best-practices/reduce-update-cycle-time.md) en [uw database optimaliseren](../best-practices/opt-db-analysis.md).
+Door kleine wijzigingen in uw tabellen aan te brengen, kunt u de snellere, efficiëntere methoden voor incrementele replicatie benutten. Als dit echter niet mogelijk is, kunt u nog andere stappen ondernemen om [verkort uw updatetijd](../best-practices/reduce-update-cycle-time.md) en [uw database optimaliseren](../best-practices/opt-db-analysis.md).

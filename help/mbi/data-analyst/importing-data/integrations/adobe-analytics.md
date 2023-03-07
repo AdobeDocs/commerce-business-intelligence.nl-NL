@@ -2,7 +2,7 @@
 title: Connect Adobe Analytics
 description: Leer om de de reisnadruk van de klant van begin tot eind samen te brengen van [!DNL Adobe Analytics] en de eCommerce-focus waarop u vertrouwt [!DNL MBI].
 exl-id: 824e1ee4-6b88-42f7-b265-29330dbc4407
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 0%
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ![](../../../assets/adobe-analytic-slogo.png)
 
-De [!DNL Adobe Analytics] integratie voor [!DNL MBI] laat u toe om de nadruk van de klantenreis van begin tot eind samen te brengen van [!DNL Adobe Analytics] en de eCommerce-focus waarop u vertrouwt [!DNL MBI], voor een vollediger beeld van de algemene prestaties van je winkel.
+De [!DNL Adobe Analytics] integratie voor [!DNL MBI] laat u toe om de nadruk van de klantenreis van begin tot eind samen te brengen van [!DNL Adobe Analytics] en de eCommerce-focus waarop u vertrouwt [!DNL MBI]. Dit geeft je een volledig beeld van de algehele prestaties van je winkel.
 
 Meer in het bijzonder [!DNL Adobe Analytics] integratie voor [!DNL MBI] verstrekt functionaliteit voor verkopers beginnen hun de gegevensreeksen van de Handel en van de Analyse te combineren.
 - Een verbinding maken op basis van uw bestaande [!DNL Adobe Analytics] account [!DNL MBI].
-- Selecteer maximaal 25 metriek en dimensies van één rapportsuite om in uw [!DNL MBI] data-entrepot.
+- Selecteer maximaal 25 metriek en dimensies van één rapportsuite om in uw [!DNL MBI] Data Warehouse.
 - Alle standaard gebruiken [!DNL MBI] functionaliteit om te transformeren, zich aan te sluiten bij, en rapport over gerepliceerde [!DNL Adobe Analytics] gegevens.
 
 ## Verbindingsvoorwaarden
@@ -41,6 +41,6 @@ De volgende informatie is nodig om verbinding te maken:
 1. Een lijst met beschikbare rapportsuites wordt weergegeven. Selecteer de rapportsuite waaruit u de gegevens wilt importeren en klik op **[!UICONTROL Continue]**.
 1. Het selectiescherm voor maateenheden en afmetingen wordt weergegeven. Selecteer minstens één metrische en minstens één afmeting, tot een gecombineerd totaal van 25 metriek en afmetingen. Zoek op naam of rol om uw componenten te vinden, dan checkboxes te selecteren. Klikken **[!UICONTROL Continue]**.
 1. De geselecteerde rapportsuite wordt in een tabel weergegeven. Klikken **[!UICONTROL Save]** om uw selectie te bevestigen.
-1. De [!DNL MBI] Ondersteuningsteam dat uw integratie is geautoriseerd en dat deze het initiële verbindingsproces voor u uitvoeren.
+1. De [!DNL MBI] Het team van de steun dat uw integratie wordt geautoriseerd, en zij stellen het aanvankelijke verbindingsproces voor u in werking.
 
 Nadat het eerste verbindingsproces is uitgevoerd, is uw tabel beschikbaar op de pagina Data Warehouse onder de `All Tables` tab. Selecteer de kolommen die u wilt repliceren en de gegevens worden weergegeven na de volgende volledige update.

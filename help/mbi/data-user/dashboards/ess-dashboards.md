@@ -2,9 +2,9 @@
 title: Dashboards
 description: Leer hoe u een dashboard maakt en gebruikt.
 exl-id: a872344b-ac66-41eb-a471-5a69f8802527
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 [!DNL MBI] De dashboards geven u een snel overzicht van de prestaties en verkoopactiviteit van uw opslag in een oogopslag. Individuele dashboards kunnen met andere gebruikers worden gedeeld en in logische groepen worden georganiseerd. U kunt ook verschillende machtigingsniveaus instellen voor andere gebruikers.
 
-Het is gemakkelijk om een nieuw rapport tot stand te brengen, het toe te voegen aan een dashboard, en de gegevens uit te voeren naar Excel. Grafieken en rapporten kunnen worden vergroot of verkleind en naar de gewenste positie op het dashboard worden gesleept.
+Het is gemakkelijk om een rapport te creëren, het aan een dashboard toe te voegen, en de gegevens uit te voeren naar Excel. Grafieken en rapporten kunnen worden vergroot of verkleind en naar de gewenste positie op het dashboard worden gesleept.
 
 ![Dashboard](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)
 
 ## Dashboards maken {#createdash}
 
-De dashboards zijn hoofdzakelijk sharable, themated emmers voor de analyses u in de Report Builder creeert. Op deze manier kunt u uw team aanmoedigen om samen te werken en één bron van waarheid in uw organisatie te onderhouden.
+Dashboards zijn scherpe, op thema&#39;s gebaseerde emmers voor de analyses u in de Report Builder creeert. Op deze manier kunt u uw team aanmoedigen om samen te werken en één bron van waarheid in uw organisatie te onderhouden.
 
 *Als u een beheerder of een standaardgebruiker bent*, kunt u een dashboard maken door op de knop `Dashboard Options` vervolgkeuzelijst en kiezen `Create New dashboard`.
 
@@ -27,7 +27,7 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
 ![dashboardelement rangschikken](../../assets/arrange_resize_dashboard_element.gif)
 
-### Een nieuw dashboard maken
+### Een dashboard maken
 
 1. Klik in het menu op **[!UICONTROL Dashboards]**.
 
@@ -39,7 +39,7 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
    * Voer een `Name` voor uw dashboard.
 
-   * Een nieuwe `Group` Voer voor het dashboard de naam van de groep in.
+   * Als u een `Group` Voer voor het dashboard de naam van de groep in.
 
       Bijvoorbeeld, als uw installatie van de Handel veelvoudige opslagmeningen heeft, zou u een Groep voor elke archiefmening kunnen creëren.
 
@@ -76,7 +76,7 @@ In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren
 
 ### Uw dashboards delen {#sharingdash}
 
-Omhoog schalen [!DNL MBI] gedurende uw hele organisatie en voor waardevolle inzichten raden wij u aan dashboards die u maakt, met andere teamleden te delen. *U kunt dashboards delen u bezit* door op de knop `Share Dashboard` boven aan de pagina.
+Omhoog schalen [!DNL MBI] gedurende uw hele organisatie en voor waardevolle inzichten raadt Adobe u aan dashboards te delen die u maakt met andere teamleden. *U kunt dashboards delen u bezit* door op de knop `Share Dashboard` boven aan de pagina.
 
 Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op een individuele basis toewijzen, betekenend kunt u beslissen wie uw rapporten kan bekijken en uitgeven.
 

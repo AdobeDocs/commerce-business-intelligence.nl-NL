@@ -2,9 +2,9 @@
 title: Koppelingsgegevens importeren
 description: Leer linkshare-gegevens importeren in [!DNL MBI].
 exl-id: 1c2025a6-746c-4929-bbb1-62af1afcbc49
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,6 @@ Om uw `Linkshare` gegevens in [!DNL MBI]U moet twee dingen doen:
 
 1. Klikken **[!UICONTROL Download]**.
 
-   Op dit moment kan een `.csv` wordt gemaakt en gedownload.
+   Op dit moment kan een `.csv` en gedownload.
 
 Nadat het bestand is gedownload, kunt u het uploaden naar [!DNL MBI] met de [`File Upload` functie](../connecting-data/using-file-uploader.md).

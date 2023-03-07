@@ -2,9 +2,9 @@
 title: Metrisch maken
 description: Leer hoe u metriek kunt gebruiken om grafieken te maken.
 exl-id: d4c25546-3c51-4d32-b9d8-c424ec103be5
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-Eenvoudig gesteld, is metrisch een meting. In SQL en gegevensbestandstructuren, metrisch is als een opgeslagen vraag over een veranderlijke periode.
+Een metrische waarde is een maat. In SQL en gegevensbestandstructuren, is metrisch als een opgeslagen vraag over een veranderlijke periode.
 
-In [!DNL MBI], kunt u metriek gebruiken aan [grafieken maken](../../data-user/reports/ess-rpt-build-visual.md). Bijvoorbeeld de metrische `revenue` het totale bedrag van de orders. De metrische `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
+In [!DNL MBI], kunt u metriek gebruiken aan [grafieken maken](../../data-user/reports/ess-rpt-build-visual.md). Bijvoorbeeld de metrische `revenue` het totale aantal orders. De metrische `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
 
 Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [gefilterd of gesegmenteerd](../../best-practices/segment-filter.md) naar verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van klanten, ingedeeld naar geslacht - in dit geval, `average customer revenue per order` is het metrisch en het geslacht is de groepering.
 
 ## De metrische waarde definiëren {#define}
 
-1. Als u een nieuwe metrische waarde wilt maken, klikt u op **[!UICONTROL Data** > **Metrics]**.
+1. Klik op **[!UICONTROL Data** > **Metrics]**.
 
 1. Klikken **[!UICONTROL Create New Metric]**.
 
@@ -31,7 +31,7 @@ Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspa
 
 1. Geef de metrische waarde een naam.
 
-   Wij adviseren een naam die, in een blik, u vertelt wat metrisch is. Bijvoorbeeld: `Average Order Revenue`.
+   Adobe adviseert een naam die, in een oogopslag, u vertelt wat metrisch is. Bijvoorbeeld: `Average Order Revenue`.
 
 1. De volgende stap is te bepalen wat uw metrisch doet. Definieer met behulp van de vervolgkeuzemenu&#39;s de bewerking van de meting, en `operation` en een `date` dimensie:
 
@@ -54,9 +54,9 @@ Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspa
 
 ## Filters toevoegen {#filters}
 
-De `Filter` kunt u een nieuw filter maken of een [opgeslagen filterset](../../data-user/reports/ess-manage-data-filters.md) op uw metrische waarde.
+De `Filter` kunt u een filter maken of een [opgeslagen filterset](../../data-user/reports/ess-manage-data-filters.md) op uw metrische waarde.
 
-Voor ons `average order revenue` metrisch, wij zouden geen testbevelen willen omvatten die zouden kunnen worden gedaan terwijl het opzetten van onze opslag - dit zou ons een onnauwkeurig resultaat geven. We kunnen een filterset toepassen om deze orders uit de gegevensset te verwijderen. Nadat het filter is gemaakt, wordt het toegepast op alle diagrammen die met deze metrische waarde zijn gemaakt.
+Voor de `average order revenue` metrisch, zou u geen testorden willen omvatten die zouden kunnen worden gedaan terwijl het opzetten van uw opslag - dit zou ons een onjuist resultaat geven. Kan een filterset toepassen om deze orders uit de gegevensset te verwijderen. Nadat het filter is gemaakt, wordt het toegepast op alle diagrammen die met deze metrische waarde zijn gemaakt.
 
 De `Filter Logic` is waar u kunt verder bepalen hoe metrisch zich zou moeten gedragen.
 
@@ -66,9 +66,9 @@ De `Filter Logic` is waar u kunt verder bepalen hoe metrisch zich zou moeten ged
 
 ## Dimension toevoegen {#dimensions}
 
-De [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) alle beschikbare gegevensafmetingen voor filteren of groeperen; standaard worden alle beschikbare gegevenskolommen weergegeven als afmetingen. Als we ons voorbeeld voortzetten, als we onze inkomsten willen segmenteren naar bron van verwijzing, zouden we dat hier kunnen doen.
+De [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) alle beschikbare gegevensafmetingen voor filteren of groeperen; standaard worden alle beschikbare gegevenskolommen weergegeven als afmetingen. Als u doorgaat met het voorbeeld, als u uw inkomsten wilt segmenteren op verwijzingsbron, kunt u dat hier doen.
 
-Naast het weergeven van alle beschikbare gegevenskolommen als afmetingen, [!DNL MBI] Hierbij wordt ook raden bij welke kolommen gegroepeerd kunnen worden. *Gegevens segmenteren of groeperen in rapporten*, moeten kolommen worden gemarkeerd als gegroepeerd.
+Naast het weergeven van alle beschikbare gegevenskolommen als afmetingen, [!DNL MBI] Gecontroleerd bij welke kolommen gegroepeerd kunnen worden. *Gegevens segmenteren of groeperen in rapporten*, moeten kolommen worden gemarkeerd als gegroepeerd.
 
 ## Voltooien {#finish}
 

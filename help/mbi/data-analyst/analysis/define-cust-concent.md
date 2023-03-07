@@ -1,17 +1,17 @@
 ---
 title: Concentratie van klanten definiëren
-description: Leer hoe te opstelling een dashboard dat u zal helpen meten hoe de totale opbrengst onder uw klantenbasis wordt verdeeld.
+description: Leer hoe te opstelling een dashboard dat u helpt meten hoe de totale opbrengst onder uw klantenbasis wordt verdeeld.
 exl-id: 6242019f-a6a5-48d3-b214-94acd7842e00
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
 
 # Klantenconcentratie
 
-In dit artikel, tonen wij hoe te opstelling een dashboard dat u zal helpen meten hoe de totale opbrengst onder uw klantenbasis wordt verdeeld. Begrijp welk percentage van klanten bijdragen welk percentage van opbrengst en creeer gesegmenteerde lijsten aan beste markt aan en behoud uw hoge bijdragende klanten.
+Dit artikel toont aan hoe te opstelling een dashboard dat u helpt meten hoe de totale opbrengst onder uw klantenbasis wordt verdeeld. Begrijp welk percentage van klanten bijdragen welk percentage van opbrengst en creeer gesegmenteerde lijsten aan beste markt aan en behoud uw hoge bijdragende klanten.
 
 Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -19,11 +19,11 @@ Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-ca
 
 U moet eerst een bestand uploaden dat alleen een primaire sleutel met de waarde één bevat. Hierdoor kunnen enkele noodzakelijke berekende kolommen voor de analyse worden gemaakt.
 
-U kunt [het uploader van het bestand](../importing-data/connecting-data/using-file-uploader.md) en de onderstaande afbeelding om uw bestand op te maken.
+U kunt [het uploader van het bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken.
 
 ## Berekende kolommen
 
-Als u zich op de originele architectuur bevindt (bijvoorbeeld als u geen `Data Warehouse Views` optie onder de `Manage Data` (menu), wilt u ons ondersteuningsteam bereiken om de hieronder kolommen uit te bouwen. Op de nieuwe architectuur, kunnen deze kolommen van worden gecreeerd `Manage Data > Data Warehouse` pagina. Nadere instructies worden hieronder gegeven.
+Als u zich op de originele architectuur bevindt (bijvoorbeeld als u geen `Data Warehouse Views` optie onder de `Manage Data` ), kunt u contact opnemen met het ondersteuningsteam om de onderstaande kolommen samen te stellen. Op de nieuwe architectuur, kunnen deze kolommen van worden gecreeerd `Manage Data > Data Warehouse` pagina. Nadere instructies worden hieronder gegeven.
 
 Een verder onderscheid wordt gemaakt als uw zaken gastorden toestaat. Als dat het geval is, kunt u alle stappen voor de `customer_entity` tabel. Als gastorden niet worden toegestaan, negeer alle stappen voor `sales_flat_order` tabel.
 
@@ -36,7 +36,7 @@ Te maken kolommen
 * [!UICONTROL Calculation]: - **case als A null is dan null else 1 end**
 * [!UICONTROL Datatype]: – `Integer`
 
-* `Customer concentration` tabel (dit is het bestand dat u zojuist hebt geüpload met het nummer `1`)
+* `Customer concentration` tabel (dit is het bestand dat u met het nummer hebt geüpload `1`)
 * Aantal klanten
 * [!UICONTROL Column type]: – `Many to One > Count Distinct`
 * Pad - `sales_flat_order.(input) reference > Customer Concentration.Primary Key` OF `customer_entity.(input)reference > Customer Concentration.Primary Key`
@@ -79,7 +79,7 @@ Te maken kolommen
 
 >[!NOTE]
 >
->De gebruikte percentielen zijn zelfs splitsingen van klanten, die het xth percentiel van uw klantenbasis vertegenwoordigen. Elke klant zal met een geheel van 1 tot 100 worden geassocieerd, dat van als hun levenopbrengst kan worden gedacht *rangschikken*. Bijvoorbeeld als het opbrengstpercentiel van de Klant voor een specifieke klant is **5**, bevindt deze klant zich in de ***5e percentiel*** van alle klanten in termen van levensinkomsten.
+>De gebruikte percentielen zijn zelfs splitsingen van klanten, die het xth percentiel van uw klantenbasis vertegenwoordigen. Elke klant wordt geassocieerd met een geheel van 1 tot 100, dat van als hun levenopbrengst kan worden gedacht *rangschikken*. Bijvoorbeeld als het opbrengstpercentiel van de Klant voor een specifieke klant is **5**, bevindt deze klant zich in de ***vijfde percentiel*** van alle klanten in termen van levensinkomsten.
 
 ## Metrisch
 
@@ -156,6 +156,6 @@ Te maken kolommen
 
    [!UICONTROL Chart type]: `Table`
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat kan er als het bovenstaande voorbeelddashboard uitzien.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

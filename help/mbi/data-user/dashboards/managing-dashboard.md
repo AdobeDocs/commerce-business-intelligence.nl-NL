@@ -2,9 +2,9 @@
 title: Dashboards beheren
 description: Leer hoe u gebruikersmachtigingen voor de dashboards beheert die u hebt, de dashboards verwijdert die u niet meer nodig hebt en een standaarddashboard instelt.
 exl-id: 32c21093-2a7d-4d8e-afc0-19bd702f9b36
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren voor dashboards die u hebt, dashboards verwijderen die u niet meer nodig hebt en een standaarddashboard instellen. Hieronder volgt een kort overzicht van wat we in dit artikel behandelen:
+In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren voor dashboards die u hebt, dashboards verwijderen die u niet meer nodig hebt en een standaarddashboard instellen. Omvat in dit artikel:
 
 1. [Naam van dashboards wijzigen](#rename)
 
@@ -41,7 +41,7 @@ Er zijn drie toegangsniveaus in [!DNL MBI] voor dashboards - `View`, `Edit`, en 
 
 * `Edit` Hiermee kunnen geselecteerde gebruikers grafieken bewerken en opslaan naar dit dashboard als ze over de machtiging Standaard of Beheer beschikken. Gebruikers met de machtiging Bewerken kunnen ook dashboards delen met andere gebruikers.
 
-* `None` betekent dat geselecteerde gebruikers dit dashboard niet kunnen weergeven of bewerken.
+* `None` Dit betekent dat geselecteerde gebruikers dit dashboard niet kunnen weergeven of bewerken.
 
 Gebruikersmachtigingen kunnen op twee manieren worden gewijzigd: voor alle gebruikers of voor een individuele gebruiker.
 

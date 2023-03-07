@@ -2,9 +2,9 @@
 title: Jaarverslagen, maandverslagen en wekelijkse rapporten
 description: Leer hoe u trends in de loop der tijd gemakkelijk kunt zien en het perspectief kunt wijzigen voor tijdsperioden die u wilt vergelijken.
 exl-id: 74cf11c3-7ce0-477f-9a28-9d782e5da3d9
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Dit artikel bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u _Weergaven Data Warehouse_ sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
 
-De rapportbouwer staat u toe om tendensen in tijd gemakkelijk te zien en perspectief voor tijdsperioden te veranderen u kunt willen vergelijken. In dit artikel zullen we laten zien hoe u een dashboard kunt instellen dat een niveau dieper gaat, zodat u rapporten kunt maken voor week in week, maand in maand en jaar in jaar analyse.
+De rapportbouwer staat u toe om tendensen in tijd gemakkelijk te zien en perspectief voor tijdsperioden te veranderen u kunt willen vergelijken. Dit artikel laat zien hoe u een dashboard kunt instellen om een niveau dieper te gaan zodat u rapporten kunt maken voor week in week, maand in maand en jaar in jaar analyse.
 
 ![](../../assets/Wow__mom__yoy.png)
 
@@ -34,11 +34,11 @@ Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-ca
 * `created_at (hour of the day)`
 
 * **Nieuwe architectuur:** SQL hieronder met een foto van een voorbeeld voor hoe te om deze berekening tot stand te brengen
-   * `created_at (month-day)` [!UICONTROL Calculation]:: **to_char(A, &#39;mm-dd&#39;)**
+   * `created_at (month-day)` [!UICONTROL Calculation]: **to_char(A, &#39;mm-dd&#39;)**
    * `created_at (month)` [!UICONTROL Calculation]: **to_char(A, &#39;mm-month&#39;)**
    * `created_at (day of the month)`&lt; [!UICONTROL Calculation]: **to_char(A, &#39;dd&#39;)**
    * `created_at (day of the week)` [!UICONTROL Calculation]: **to_char(A, &#39;d-dag&#39;)**
-   * **`created_at (hour of the day)` [!UICONTROL Calculation]:: **to_char(A, &#39;h24&#39;)**
+   * **`created_at (hour of the day)` [!UICONTROL Calculation]: **to_char(A, &#39;h24&#39;)**
 
       ![](../../assets/new-arch-create-calc.png)
 
@@ -79,7 +79,7 @@ Geen.
 
 * Metrisch `A`: Deze maand*
 * Metrisch `B`: Vorige maand*
-* [!UICONTROL Time period]: 1 maand geleden tot 0 maanden geleden
+* [!UICONTROL Time period]: een maand geleden tot 0 maanden geleden
 * 
    [!UICONTROL Interval]: None
 * [!UICONTROL Group by]: `created_at (day of month)`
@@ -120,4 +120,4 @@ Geen.
 * 
    [!UICONTROL Chart Type]: `Line`
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.

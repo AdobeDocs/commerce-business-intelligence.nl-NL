@@ -1,10 +1,10 @@
 ---
 title: Gegevensafmetingen beheren
-description: Leer hoe gegevens worden geproduceerd, wat precies veroorzaakt dat een nieuwe rij in één van de Handel van de Kern wordt opgenomen hoe acties zoals het maken van een aankoop of het creëren van een rekening in het gegevensbestand van de Handel wordt geregistreerd.
+description: Leer wat een afmeting is en het kan worden gebruikt om grafieken te filtreren of te segmenteren die op metrisch worden gebaseerd.
 exl-id: 143a4b1e-2e6f-438a-90e6-bdda13b39cb9
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-Een dimensie is een gebied in de zelfde lijst zoals metrisch die aan filter of segmentgrafieken kan worden gebruikt die op dat metrisch worden gebaseerd. Een maatstaf van inkomsten kan bijvoorbeeld stad, staat, land, orderstatus, couponcode en andere soorten dimensies bevatten.
+Een dimensie is een gebied in de zelfde lijst zoals metrisch die aan filter of segmentgrafieken kan worden gebruikt die op dat metrisch worden gebaseerd. Een maatstaf voor inkomsten kan bijvoorbeeld stad, staat, land, orderstatus, couponcode en andere typen afmetingen bevatten.
 
 ## Afmetingen toevoegen aan meerdere metriek
 
@@ -27,7 +27,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 1. Kies de tabel die de afmetingen bevat.
 
-1. In de `Choose Metric(s) to Add Dimensions` selecteert u de metriek waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt `Choose Dimensions to Add` wordt rechts in de kolom weergegeven. Controleer de afmetingen die u aan de geselecteerde metrische waarde wilt toevoegen.
+1. In de `Choose Metric(s) to Add Dimensions` selecteert u de metriek waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt `Choose Dimensions to Add` wordt rechts in het scherm weergegeven. Controleer de afmetingen die u aan geselecteerde metrisch wilt toevoegen.
 
    ![](../../assets/Add_Dimensions.png)
 
@@ -45,11 +45,11 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 1. Kies de tabel die de afmetingen bevat.
 
-1. Selecteer de metriek u de afmetingen van op de linkerzijde, en de afmetingen wilt verwijderen u op het recht.
+1. Selecteer de afmetingen die u links wilt verwijderen en de afmetingen die u wilt verwijderen aan de rechterkant.
 
 1. Klikken **[!UICONTROL Remove]**.
 
-1. Als de afmetingen in gebruik zijn in rapporten, zult u een waarschuwing en een lijst van grafieken worden getoond die de afmetingen gebruiken. Klikken **[!UICONTROL Delete]** om de gecontroleerde afmetingen en al hun afhankelijke personen, met inbegrip van rapporten te schrappen.
+1. Als de afmetingen in gebruik zijn in rapporten, wordt u een waarschuwing en een lijst van grafieken getoond die de afmetingen gebruiken. Klikken **[!UICONTROL Delete]** om de gecontroleerde afmetingen en al hun afhankelijke personen, met inbegrip van rapporten te schrappen.
 
 ## Dimensies beheren in metriek
 
@@ -63,7 +63,7 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 >[!NOTE]
 >
->Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden [!DNL MBI]. Als u niet de gewenste afmeting vindt, moeten wij misschien beginnen een nieuwe gegevenskolom in uw gegevensbestand via te volgen [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
+>Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden [!DNL MBI]. Als u de gewenste dimensie niet vindt, moet u mogelijk een nieuwe gegevenskolom in uw database volgen via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
 
 
 **Dimensies verwijderen uit metrische gegevens:**
@@ -76,7 +76,7 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 >[!NOTE]
 >
->Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in ons gegevenspakhuis. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze afmetingen. Als u de gegevenskolom wilt verwijderen, komt een dimensie overeen met [!DNL MBI], maakt u de gegevenskolom eenvoudig ongedaan via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
+>Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in uw Data Warehouse. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze afmetingen. Om de gegevenskolom te verwijderen waarvan een afmeting beantwoordt aan [!DNL MBI], maakt u de gegevenskolom eenvoudig ongedaan via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
 
 ## Gerelateerde documentatie
 

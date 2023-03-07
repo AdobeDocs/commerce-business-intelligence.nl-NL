@@ -2,7 +2,7 @@
 title: Salesforce-gegevens verwacht
 description: Meer informatie over ondersteunde en niet-ondersteunde objecten in Salesforce-gegevens.
 exl-id: 6625349f-2ec0-402d-8635-889a1f29811c
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Verwacht [!DNL Salesforce] data
 
-[Na de [!DNL Salesforce] installatie is voltooid](../integrations/salesforce.md), een lijst voor elk queryable [object](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_concepts.htm) - met naam `sf_/\{sobject-name}` - wordt gemaakt in uw gegevensopslagruimte.
+[Na de [!DNL Salesforce] installatie is voltooid](../integrations/salesforce.md), een lijst voor elk queryable [object](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_concepts.htm) - met naam `sf_/\{sobject-name}` - is gemaakt in uw Data Warehouse.
 
 >[!NOTE]
 >
@@ -21,12 +21,12 @@ Als u een lijst met objecten beschikbaar wilt maken voor uw organisatie, raadple
 
 ## Niet-ondersteunde objecten
 
-Op dit moment [!DNL Salesforce] stelt momenteel de volgende objecten in hun API niet beschikbaar:
+Momenteel [!DNL Salesforce] stelt momenteel de volgende objecten in hun API niet beschikbaar:
 
 * `Announcement`
 * `Attachment`
 * `ContentDocumentLink`
-* `External objects` - [Wat is een extern object?](https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_external_objects.htm)
+* `External objects` - [Wat is een extern object?](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_external_objects.htm)
 * `CollaborationGroupRecord`
 * `ContentDocument`
 * `ContentDocumentLink`

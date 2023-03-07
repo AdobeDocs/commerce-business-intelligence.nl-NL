@@ -2,9 +2,9 @@
 title: Visual Report Builder
 description: Leer hoe te om Visual Report Builder te gebruiken.
 exl-id: 1101f43d-e014-4df2-be21-12d90a9d8a56
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
       ![Groeperen op](../../assets/magento-bi-report-builder-group-by-dimensions.png)
 
-      De `Group By` Elke coupon die door klanten wordt gebruikt, wordt in detail weergegeven. De coupons die zijn gebruikt om de eerste bestelling te plaatsen, zijn gemarkeerd met een selectievakje. Het diagram bevat nu meerdere gekleurde lijnen die de coupon vertegenwoordigen die voor een eerste bestelling is gebruikt. De legenda heeft een kleurcode die overeenkomt met elke gegevensrij.
+      De `Group By` Elke coupon die door klanten wordt gebruikt, wordt in detail weergegeven. De coupons die zijn gebruikt om de eerste bestelling te plaatsen, zijn gemarkeerd met een selectievakje. Het diagram bevat nu meerdere gekleurde lijnen die elke coupon vertegenwoordigen die voor een eerste bestelling is gebruikt. De legenda heeft een kleurcode die overeenkomt met elke gegevensrij.
 
    * Klikken **[!UICONTROL Apply]** om Group By detail te sluiten.
 
@@ -100,7 +100,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
       | ![](../../assets/magento-bi-btn-chart-area.png) | Gebied |
       | ![](../../assets/magento-bi-btn-chart-funnel.png) | Trechter |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
 
 

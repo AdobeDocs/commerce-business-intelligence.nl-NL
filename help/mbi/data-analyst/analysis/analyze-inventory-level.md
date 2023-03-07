@@ -2,16 +2,16 @@
 title: Inventarisniveaus analyseren
 description: Leer hoe u inventarisniveaus kunt analyseren.
 exl-id: 620156c5-7bea-4b36-84c7-e0cb4b5cc8be
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
 
 # Inventarisniveaus analyseren
 
-In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris. Dit onderwerp bevat instructies voor cliënten op zowel de erfenisarchitectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** ). Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
+In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten bevat in uw huidige inventaris. Dit onderwerp bevat instructies voor cliënten op zowel de erfenisarchitectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** ). Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
 
 ## Kolommen die moeten worden bijgehouden:
 
@@ -151,7 +151,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Filters]:
          * [A] `Ordered products we count`
    * **`Avg products sold per week (all time)`**
-      * Wordt gemaakt door een analist wanneer u uw bestand verzendt **[INVENTARISCHE ANALYSE]** supportverzoek
+      * Gemaakt door een analist wanneer u uw **[INVENTARISCHE ANALYSE]** supportverzoek
 
 
 
@@ -183,7 +183,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `Avg products sold per week (all time)`
    * **`Weeks on hand`**
-      * Wordt gemaakt door een analist wanneer u uw bestand verzendt **[!UICONTROL INVENTORY ANALYSIS]** supportverzoek
+      * Gemaakt door een analist wanneer u uw **[!UICONTROL INVENTORY ANALYSIS]** supportverzoek
 
 
 
@@ -240,4 +240,4 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       [!UICONTROL Chart type]: `Table`
 
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

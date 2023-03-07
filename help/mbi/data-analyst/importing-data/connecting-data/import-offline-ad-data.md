@@ -2,7 +2,7 @@
 title: Andere gegevens importeren en doorgeven
 description: Leer offline of andere bestanden te importeren en gegevens uit te geven in [!DNL MBI].
 exl-id: 6f12a397-0927-4e87-95ff-3a55ccc9e14b
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Andere gegevens importeren en doorgeven
 
-Als u uw advertentie-uitgaven uploadt, kunt u het rendement van de campagne meten door uw advertentiekosten en de klant met elkaar te vergelijken `lifetime value (CLV)` van gebruikers die zijn aangeschaft via uw campagnes.
+Door uw advertentieuitgaven te uploaden, kunt u het rendement van de campagne meten door uw advertentiekosten en de klant te laten vergelijken `lifetime value (CLV)` van gebruikers die zijn aangeschaft via uw campagnes.
 
 ## Reclamegegevens uploaden
 
-De eerste stap bij het analyseren en uitgeven van gegevens is het krijgen van de gegevens. Omdat u met de meeste advertentieplatforms rapporten kunt exporteren, raden we u aan de onbewerkte gegevens van uw advertentieplatform te exporteren en rechtstreeks te uploaden naar [!DNL MBI] zonder enige manipulatie. U kunt verrichtingen op de gegevens in uw gegevenspakhuis uitvoeren, zodat is er geen behoefte om uw inspanningen te verdubbelen.
+De eerste stap bij het analyseren en uitgeven van gegevens is het krijgen van de gegevens. Aangezien u met de meeste advertentieplatforms rapporten kunt exporteren, raadt Adobe u aan de onbewerkte gegevens te exporteren van uw advertentieplatform en deze rechtstreeks te uploaden naar [!DNL MBI] zonder enige manipulatie. U kunt bewerkingen uitvoeren op de gegevens in uw Data Warehouse, zodat het niet nodig is om uw inspanningen te verdubbelen.
 
-Nadat u de advertentie hebt geëxporteerd, kunt u de opdracht [`File Upload` functie](../connecting-data/using-file-uploader.md) om de gegevens in uw gegevenspakhuis te brengen. U kunt nieuwe gegevens uploaden naar hetzelfde [!DNL MBI] tabel in de tijd.
+Nadat u de advertentie hebt geëxporteerd, kunt u de opdracht [`File Upload` functie](../connecting-data/using-file-uploader.md) om de gegevens in uw Data Warehouse te brengen. U kunt nieuwe gegevens uploaden naar hetzelfde [!DNL MBI] tabel in de tijd.
 
 ## Offline bronnen
 

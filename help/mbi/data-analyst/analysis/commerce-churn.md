@@ -2,20 +2,20 @@
 title: Commerce Churn
 description: Leer hoe u de Koopprijs genereert en analyseert.
 exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '330'
 ht-degree: 2%
 
 ---
 
 # Wisselfrequentie
 
-In dit onderwerp tonen we hoe we een **kromtrekken** voor uw **handelsklanten**. In tegenstelling tot SaaS of traditionele abonnementsbedrijven, hebben de handelklanten typisch geen beton **&quot;churn event&quot;** om u te tonen dat zij niet meer aan uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
+Dit onderwerp demonstreert hoe u een **kromtrekken** voor uw **handelsklanten**. In tegenstelling tot SaaS of traditionele abonnementsbedrijven, hebben de handelklanten typisch geen beton **&quot;churn event&quot;** om u te tonen dat zij niet meer aan uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
 
 ![](../../assets/Churn_rate_image.png)
 
-Veel klanten willen hulp bij het conceptualiseren van wat **tijdframe** zij moeten hun gegevens gebruiken . Als u historisch klantengedrag wilt gebruiken om dit te bepalen **churn timeframe**, kan het zijn dat u zich vertrouwd wilt maken met de [churn definiëren](../analysis/define-cust-churn.md) artikel. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
+Veel klanten willen hulp bij het conceptualiseren van wat **tijdframe** zij moeten op basis van hun gegevens gebruiken . Als u historisch klantengedrag wilt gebruiken om dit te bepalen **churn timeframe**, kan het zijn dat u zich vertrouwd wilt maken met de [churn definiëren](../analysis/define-cust-churn.md) artikel. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
 
 ## Berekende kolommen
 
@@ -40,11 +40,11 @@ Te maken kolommen
 ## Metrisch
 
 * **Nieuwe klanten (op eerste besteldatum)**
-   * Klanten die we tellen
+   * Klanten die worden geteld
 
 >[!NOTE]
 >
->Deze maatstaf bestaat mogelijk al voor uw account.
+>Deze maatstaf kan op uw account bestaan.
 
 * In de **`customer_entity`** table
 * Deze maatstaf voert een **Aantal**
@@ -53,11 +53,11 @@ Te maken kolommen
 * [!UICONTROL Filter]:
 
 * **Nieuwe klanten (op laatste besteldatum)**
-   * Klanten die we tellen
+   * Klanten die worden geteld
 
 >[!NOTE]
 >
->Deze maatstaf bestaat mogelijk al voor uw account.
+>Deze maatstaf kan op uw account bestaan.
 
 * In de **`customer_entity`** table
 * Deze maatstaf voert een **Aantal**
@@ -107,4 +107,4 @@ Hieronder vindt u een aantal gangbare conversies voor maanden > seconden, maar g
 | 9 | 23,328,000 |
 | 12 | 31,104,000 |
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat kan er als het bovenstaande voorbeelddashboard uitzien.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.

@@ -2,9 +2,9 @@
 title: Verwacht [!DNL Adobe Analytics] Gegevens
 description: Leer de stappen voor het aansluiten van uw instantie RDS.
 exl-id: 4df66ec1-c7f3-4b02-8f0f-49cada99c14c
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ De [!DNL Adobe Analytics] integratie voor [!DNL MBI] gebruikt de [Analyse 2.0 AP
 >
 >Om ervoor te zorgen dat u de gegevens verkrijgt die u verwacht, kunt u eerst een rapport maken in het dialoogvenster [!DNL Adobe Analytics] Werkruimte met de gewenste afmetingen en afmetingen. Hierdoor kunt u controleren op compatibiliteit en beschikbaarheid van gegevens.
 
-Eén tabel per verbonden rapportsuite - aangeroepen `report-suite-<ID>`, waarbij `<ID>` is een unieke id die is gegenereerd door [!DNL MBI] - wordt in uw Data Warehouse gemaakt.
+Eén tabel per verbonden rapportsuite - aangeroepen `report-suite-<ID>`, waarbij `<ID>` is een unieke id die is gegenereerd door [!DNL MBI] - is gemaakt in uw Data Warehouse.
 
-Het schema van deze tabel bestaat uit de maatstaven en dimensies die u hebt geselecteerd in het integratieproces. Er worden ook meerdere extra kolommen gegenereerd door [!DNL MBI]voor identificatiedoeleinden.
+Het schema van deze lijst is samengesteld uit de metriek en de afmetingen die u in het integratieproces selecteerde. Verschillende extra kolommen worden ook gegenereerd door [!DNL MBI]voor identificatiedoeleinden.
 
 Bijvoorbeeld, als u volgende metrisch en afmeting tijdens opstelling selecteerde:
 - `Metric`: `Page views`
@@ -32,8 +32,8 @@ De tabel bevat de volgende kolommen:
 | `_id` | Deze kolom is de primaire sleutel. |
 | `_item_hash` | [!DNL MBI] unieke id. Deze kolom wordt gemaakt door [!DNL MBI]. |
 | `_updated_at` | Deze kolom bevat de laatste keer dat de gegevensrij is bijgewerkt. Het wordt gemaakt door [!DNL MBI]. |
-| `start_date` | Begindatum van de opgenomen gegevens voor de rij. `start_date` zal altijd 00:00 van de zelfde dag binnen één rij zijn. |
-| `end_date` | Einddatum van opgenomen gegevens voor de rij. `end_date` zal altijd 23:59 van de zelfde dag binnen één rij zijn. |
+| `start_date` | Begindatum van de opgenomen gegevens voor de rij. `start_date` is altijd 00:00 van dezelfde dag binnen één rij. |
+| `end_date` | Einddatum van opgenomen gegevens voor de rij. `end_date` is altijd 23:59 van dezelfde dag binnen één rij. |
 | `page_views` | Geselecteerde metrisch: Het totale aantal paginaweergaven voor de opgegeven tijdsperiode. |
 | `page` | Geselecteerde afmeting: Afzonderlijke paginanamen met bijgehouden weergaven. |
 
@@ -46,6 +46,6 @@ In deze sectie worden de beperkingen van de [!DNL Adobe Analytics] integratie vo
 | Beperking | Beschrijving |
 | --- | --- |
 | `Historical data period` | Net als bij andere integraties van derden [!DNL Adobe Analytics] de integratie trekt een beperkte hoeveelheid historische gegevens en blijft dan gegevens bijgewerkt houden. De historische periode wordt gevormd aan 2 weken. |
-| `Empty component combinations` | Sommige combinaties van metriek en afmetingen bevatten geen gegevens. Als een dergelijke combinatie voor replicatie wordt geselecteerd, [!DNL MBI] Hiermee sluit u de kolom uit van de gekopieerde tabel. Als u een dergelijke combinatie niet wilt selecteren, kunt u eerst een rapport maken in het dialoogvenster [[!DNL Adobe Analytics] Werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) om te controleren krijgt u de gegevens u verwacht. |
-| `Re-authorization cadence` | Hertoelating van de [!DNL Adobe Analytics] de integratie is momenteel om de twee weken vereist . Als u opnieuw een autorisatiebewerking wilt uitvoeren, gaat u naar de pagina Bewerken voor de integratie en klikt u op **[!UICONTROL Re-Authorize with [!DNL Adobe Analytics]]**. |
-| `One dimension per row` | [!DNL Adobe Analytics] verstrekt metrische gegevens voor één afmeting tegelijkertijd. Als u tijdens de installatie meerdere afmetingen selecteert, wordt elke rij in uw [!DNL MBI] de lijst zal één enkele afmetingswaarde bevatten en nulls voor elke andere afmeting. |
+| `Empty component combinations` | Sommige combinaties van metriek en afmetingen bevatten geen gegevens. Als een dergelijke combinatie voor replicatie wordt geselecteerd, [!DNL MBI] Hiermee sluit u de kolom uit van de gekopieerde tabel. Als u een dergelijke combinatie niet wilt selecteren, kunt u eerst een rapport maken in het dialoogvenster [[!DNL Adobe Analytics] Werkruimte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en) om te verifiëren u de gegevens krijgt u verwacht. |
+| `Re-authorization cadence` | Hertoelating van de [!DNL Adobe Analytics] om de twee weken is integratie vereist . Als u opnieuw wilt autoriseren, gaat u naar de pagina Bewerken voor de integratie en klikt u op **[!UICONTROL Re-Authorize with [!DNL Adobe Analytics]]**. |
+| `One dimension per row` | [!DNL Adobe Analytics] verstrekt metrische gegevens voor één afmeting tegelijkertijd. Als u tijdens de installatie meerdere afmetingen selecteert, wordt elke rij in uw [!DNL MBI] de lijst bevat één enkele afmetingswaarde en nulls voor elke andere afmeting. |

@@ -2,16 +2,16 @@
 title: Coupon-prestaties
 description: Meer informatie over het analyseren van de prestaties van je coupon.
 exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
 
 # Geavanceerde puntcodeanalyse
 
-Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en uw klanten beter te begrijpen. In dit artikel worden de stappen doorlopen waarmee u analyses kunt maken om te begrijpen welke klanten u kunt aanschaffen door gebruik te maken van coupons, hoe ze het algemene gebruik van coupons uitvoeren en bijhouden.
+Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en uw klanten beter te begrijpen. Dit artikel begeleidt u door de stappen om analyses te maken om te begrijpen welke klanten u aanschaft door gebruik te maken van coupons, hoe ze het algemene gebruik van coupons uitvoeren en volgen.
 
 ![](../../assets/coupon_analysis_-_analysis_library.png)<!--{: width="800" height="375"}-->
 
@@ -34,8 +34,9 @@ Kolommen om ongeacht het beleid van gastorden tot stand te brengen:
    * [!UICONTROL Column type]: `Same Table => CALCULATION`
    * [!UICONTROL Inputs]:
       * `A`: `coupon\_code`
-   * [!UICONTROL Datatype]:: `String`
-   * [!UICONTROL Calculation]:: geval wanneer `A` is dan null `No coupon` else `Coupon` end
+   * 
+      [!UICONTROL Datatype]: `String`
+   * [!UICONTROL Calculation]: geval wanneer `A` is dan null `No coupon` else `Coupon` end
 
 
 * **\[INPUT\] klant\_id - couponcode**
@@ -43,8 +44,8 @@ Kolommen om ongeacht het beleid van gastorden tot stand te brengen:
    * [!UICONTROL Inputs]:
       * `A`: `customer\_id`
       * `B`: `coupon\_code`
-   * [!UICONTROL Datatype]:: String
-   * [!UICONTROL Calculation]:: `concat(A,' - ',B)`
+   * [!UICONTROL Datatype] String
+   * [!UICONTROL Calculation]: `concat(A,' - ',B)`
 
 
 * **Aantal opdrachten met deze coupon**
@@ -76,25 +77,28 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * [!UICONTROL Filter]:
          * `A`: `Orders we count`
          * `B`: `Order has coupon applied? (Coupon/No coupon) = Coupon`
-   * **Klanten die coupon aankopen of klanten die geen coupon kopen**
+   * **Klanten die geld aankopen of klanten die geen coupon kopen**
       * [!UICONTROL Column type]: `Same Table => CALCULATION`
       * [!UICONTROL Inputs]:
          * `A`: `Customer's first order included a coupon? (Coupon/No coupon)`
-      * [!UICONTROL Datatype]:: `String`
-      * [!UICONTROL Calculation]:: **case when A=&#39;Coupon&#39; then &#39;Coupon purchase customer&#39; else &#39;Non coupon acquisition customer&#39; end**
+      * 
+         [!UICONTROL Datatype]: `String`
+      * [!UICONTROL Calculation]: **geval waarin A=&#39;Coupon&#39; dan &#39;Coupon acquisicustomer&#39; anders &#39;Non-coupon acquisition customer&#39; end is**
    * **Percentage van de orders van de klant met coupon**
       * [!UICONTROL Column type]: `Same Table => CALCULATION`
       * [!UICONTROL Inputs]:
          * `A`: `User's lifetime number of coupons used`
          * `B`: `User's lifetime number of orders`
-      * [!UICONTROL Datatype]:: `Decimal`
-      * [!UICONTROL Calculation]:: **case als A null of B null is of B=0 dan null als A/B-einde**
+      * 
+         [!UICONTROL Datatype]: `Decimal`
+      * [!UICONTROL Calculation]: **case als A null of B null is of B=0 dan null als A/B-einde**
    * **Gebruik van coupon door klant**
       * [!UICONTROL Column type]: `Same Table => Calculation`
       * [!UICONTROL Inputs]:
          * `A`: `Percent of customer's orders with coupon`
-      * [!UICONTROL Datatype]:: `String`
-      * [!UICONTROL Calculation]:: **case when A is null then null when A=0 then &#39;Never used coupon&#39; when A&lt;0.5 then &#39;Moarly full price&#39; when A=0.5 then &#39;50/50&#39; when A=1 then &#39;Coupons only&#39; when A>0.5 then &#39;Moarly coupon&#39; else &#39;Undefined&#39; end**
+      * 
+         [!UICONTROL Datatype]: `String`
+      * [!UICONTROL Calculation]: **case when A is null then null when A=0 then &#39;Never used coupon&#39; when A&lt;0.5 then &#39;Moarly full price&#39; when A=0.5 then &#39;50/50&#39; when A=1 then &#39;Coupons only&#39; when A>0.5 then &#39;Moarly coupon&#39; else &#39;Undefined&#39; end**
 
 
 
@@ -123,12 +127,13 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
    * **Het coupon van de eerste bestelling van de klant**{:}**-** gemaakt door analist als onderdeel van uw \[COUPON ANALYSE\]-ticket
 
 * **Levenslang aantal gebruikte coupons van de klant**{:}**-** gemaakt door analist als onderdeel van uw \[COUPON ANALYSE\]-ticket
-* **Klanten die coupon aankopen of klanten die geen coupon kopen**
+* **Klanten die geld aankopen of klanten die geen coupon kopen**
    * [!UICONTROL Column type]: `Same Table => CALCULATION`
    * [!UICONTROL Inputs]:
       * `A`: `Customer's first order included a coupon? (Coupon/No coupon)`
-   * [!UICONTROL Datatype]:: `String`
-   * [!UICONTROL Calculation]:: **case when A=&#39;Coupon&#39; then &#39;Coupon purchase customer&#39; else &#39;Non coupon acquisition customer&#39; end**
+   * 
+      [!UICONTROL Datatype]: `String`
+   * [!UICONTROL Calculation]: **geval waarin A=&#39;Coupon&#39; dan &#39;Coupon acquisicustomer&#39; anders &#39;Non-coupon acquisition customer&#39; end is**
 
 
 * **Percentage van de orders van de klant met coupon**
@@ -136,16 +141,18 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
    * [!UICONTROL Inputs]:
       * `A`: `User's lifetime number of coupons used`
       * `B`: `User's lifetime number of orders`
-   * [!UICONTROL Datatype]:: `Decimal`
-   * [!UICONTROL Calculation]:: **case als A null of B null is of B=0 dan null als A/B-einde**
+   * 
+      [!UICONTROL Datatype]: `Decimal`
+   * [!UICONTROL Calculation]: **case als A null of B null is of B=0 dan null als A/B-einde**
 
 
 * **Gebruik van coupon door klant**
    * [!UICONTROL Column type]: `Same Table => Calculation`
    * [!UICONTROL Inputs]:
       * `A`: `Percent of customer's orders with coupon`
-   * [!UICONTROL Datatype]:: `String`
-   * [!UICONTROL Calculation]:: **case when A is null then null when A=0 then &#39;Never used coupon&#39; when A&lt;0.5 then &#39;Moarly full price&#39; when A=0.5 then &#39;50/50&#39; when A=1 then &#39;Coupons only&#39; when A>0.5 then &#39;Moarly coupon&#39; else &#39;Undefined&#39; end**
+   * 
+      [!UICONTROL Datatype]: `String`
+   * [!UICONTROL Calculation]: **case when A is null then null when A=0 then &#39;Never used coupon&#39; when A&lt;0.5 then &#39;Moarly full price&#39; when A=0.5 then &#39;50/50&#39; when A=1 then &#39;Coupons only&#39; when A>0.5 then &#39;Moarly coupon&#39; else &#39;Undefined&#39; end**
 
 
 ## Metrisch
@@ -237,7 +244,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 >[!NOTE]
 >
->Als u een groot aantal couponcodes hebt, zoals veel van onze klanten doen, wilt u een Top/Bottom toepassen, zoals Top 10, gesorteerd op inkomsten uit de gemiddelde levensduur
+>Als u veel couponcodes hebt, zoals veel clients doen, wilt u een Top/Bottom toepassen, zoals Top 10, gesorteerd op Gem. levenslange inkomsten
 
 * **Waarschijnlijk herhalingsvolgorde: Overnames van coupons**
    * [!UICONTROL Metric]: `Number of orders`
@@ -251,7 +258,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       [!UICONTROL-formule]: `B/A`
    * [!UICONTROL Format]: `Percentage %`
 
-   * statistisch significant aantal selecteren uit `Customer's by lifetime orders` grafiek. Wanneer het bekijken van de grafiek, als goede regel kijken wij typisch bestelaantallen met 30 of meer klanten in het emmertje. Afhankelijk van uw gegevensset kan dit een groot aantal zijn, zodat u 1-10 gratis kunt toevoegen.
+   * statistisch significant aantal selecteren uit `Customer's by lifetime orders` grafiek. Wanneer het bekijken van de grafiek, als goede regel orderaantallen met 30 of meer klanten in het emmertje moet zoeken. Afhankelijk van uw gegevensset kan dit een groot aantal zijn, zodat u 1-10 gratis kunt toevoegen.
 
 
 * Metrisch `A`: `Number of orders`
@@ -291,7 +298,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * **Door coupon verkregen gebruikstarief van klanten met coupon (herhaalde opdrachten)**
    * [!UICONTROL Metric]: `New customers`
    * [!UICONTROL Filter]:
-      * Klanten die geld aankopen of klanten die geen coupon kopen = couponaankoop
+      * Klanten die geld aankopen of klanten die geen coupon aankopen = couponaankoop
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Filter]:
       * bestelnummer van de klant > 1
@@ -322,7 +329,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * **Gebruik van coupon door klanten zonder coupon (herhaalde opdrachten)**
    * [!UICONTROL Metric]: `New customers`
    * [!UICONTROL Filter]:
-      * Klanten die coupon aankopen of klanten die geen coupon aankopen = Niet-couponaankoop
+      * Klanten die geld aankopen of klanten die geen coupon kopen = Niet-couponaankoop
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Filter]:
       * bestelnummer van de klant > 1
@@ -510,6 +517,6 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 >
 >Het aantal van 10 voor &quot;Aantal orders met deze coupon&quot; is willekeurig. Voel u vrij om de meest geschikte hoeveelheid voor dit filter te gebruiken.
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

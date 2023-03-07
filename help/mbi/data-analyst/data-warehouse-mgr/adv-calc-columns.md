@@ -2,9 +2,9 @@
 title: Geavanceerde berekende kolomtypen
 description: Leer de grondbeginselen voor de meeste gevallen van de gebruikkolom — maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan tot stand brengen.
 exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '900'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 Veel analyses die u wilt maken, worden uitgevoerd met behulp van een **nieuwe kolom** die u wilt `group by` of `filter by`. De [Berekende kolommen maken](../data-warehouse-mgr/creating-calculated-columns.md) De zelfstudie behandelt de grondbeginselen voor de meeste gebruiksgevallen, maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan creëren.
 {: #top}
 
-Deze typen kolommen kunnen door ons team van Data Warehouse-analisten worden gemaakt. Als u een nieuwe berekende kolom wilt definiëren, geeft u ons de volgende informatie:
+Deze kolomtypen kunnen worden gemaakt door het Adobe-team van Data Warehouse-analisten. Als u een nieuwe berekende kolom wilt definiëren, geeft u ons de volgende informatie:
 
 1. De **`definition`** van deze kolom (inclusief invoer, formules of opmaak)
 1. De **`table`** waarop u de kolom wilt maken
@@ -31,7 +31,7 @@ Hier volgen enkele voorbeelden van geavanceerd berekende kolommen die gebruikers
 
 ## Ik probeer gebeurtenissen opeenvolgend te bestellen {#compareevents}
 
-We noemen dit een **gebeurtenisnummer** berekende kolom. Dit betekent wij proberen om de opeenvolging te vinden waarin de gebeurtenissen voor een bepaalde gebeurteniseigenaar, zoals een klant of een gebruiker voorkwamen.
+Dit wordt een **gebeurtenisnummer** berekende kolom. Dit betekent dat u probeert de volgorde te vinden waarin gebeurtenissen zich voor een bepaalde gebeurteniseigenaar hebben voorgedaan, zoals een klant of gebruiker.
 
 Hier volgt een voorbeeld:
 
@@ -43,7 +43,7 @@ Hier volgt een voorbeeld:
 | 4 | `A` | 2015-01-02 13:00:00 | 3 |
 | 5 | `B` | 2015-01-03 13:00:00 | 2 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Een kolom met het berekende gebeurtenisaantal kan worden gebruikt om verschillen in gedrag tussen gebeurtenissen voor het eerst, herhalingsgebeurtenissen of nde gebeurtenissen in uw gegevens waar te nemen.
 
@@ -51,17 +51,17 @@ Wilt u de kolom met het ordernummer van de klant in actie zien? Klik het beeld o
 
 ![Een kolom met een gebeurtenisnummer gebruiken die is berekend als groep op bestelnummer van de klant.](../../assets/EventNumber.gif)<!--{: style="max-width: 500px;"}-->
 
-Om dit type van berekende kolom tot stand te brengen, moeten wij weten:
+Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 * De tabel waarop u deze kolom wilt maken
 * Het veld dat de eigenaar van de gebeurtenissen aangeeft (`owner\_id` in dit voorbeeld)
 * Het veld waarmee u de gebeurtenissen wilt bestellen (`timestamp` in dit voorbeeld)
 
-[terug naar boven](#top)
+[Terug naar boven](#top)
 
 ## Ik probeer de tijd te vinden tussen twee gebeurtenissen. {#twoevents}
 
-We noemen dit een `date difference` berekende kolom. Dit betekent dat we proberen de tijd te vinden tussen twee gebeurtenissen die tot één record behoren, op basis van de tijdstempels van de gebeurtenis.
+Dit wordt een `date difference` berekende kolom. Dit betekent dat u de tijd probeert te vinden tussen twee gebeurtenissen die tot één record behoren, op basis van de tijdstempels van de gebeurtenis.
 
 Hier volgt een voorbeeld:
 
@@ -70,22 +70,22 @@ Hier volgt een voorbeeld:
 | `A` | 2015-01-01 00:00:00 | 2015-01-01 12:30:00 | 45000 |
 | `B` | 2015-01-01 08:00:00 | 2015-01-01 10:00:00 | 7200 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Een kolom voor het berekende datumverschil kan worden gebruikt om een metrische waarde te maken die de gemiddelde of mediane tijd tussen twee gebeurtenissen berekent. Klik op de onderstaande afbeelding om uit te zoeken hoe de `Average time to first order` metrisch wordt gebruikt in een rapport.
 
 ![Een kolom gebruiken die het datumverschil berekent om Gemiddelde tijd aan eerste orde te berekenen.](../../assets/DateDifference.gif)<!--{: style="max-width: 500px;"}-->
 
-Om dit type van berekende kolom tot stand te brengen, moeten wij weten:
+Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 * De tabel waarop u deze kolom wilt maken
 * De twee tijdstempels waartussen u het verschil wilt weten
 
-[terug naar boven](#top)
+[Terug naar boven](#top)
 
 ## Ik probeer opeenvolgende gebeurteniswaarden te vergelijken. {#sequence}
 
-We noemen dit een **sequentiële gebeurtenisvergelijking**. Dit betekent dat we proberen de delta tussen een waarde (valuta, getal, tijdstempel) en de overeenkomstige waarde voor de vorige gebeurtenis van de eigenaar te vinden.
+Dit wordt een **sequentiële gebeurtenisvergelijking**. Dit betekent dat u probeert de delta tussen een waarde (valuta, aantal, timestamp) en de overeenkomstige waarde voor de vorige gebeurtenis van de eigenaar te vinden.
 
 Hier volgt een voorbeeld:
 
@@ -97,19 +97,19 @@ Hier volgt een voorbeeld:
 | 4 | `A` | 2015-01-02 13:00:00 | 126000 |
 | 5 | `B` | 2015-01-03 13:00:00 | 217800 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Een opeenvolgende gebeurtenisvergelijking kan worden gebruikt om de gemiddelde of mediane tijd tussen elke opeenvolgende gebeurtenis te vinden. Klik op de onderstaande afbeelding om de **Gemiddelde en Mediane tijd tussen bestellingen** metriek in actie.
 
 =![Een kolom gebruiken voor het berekenen van de gemiddelde en mediane tijd tussen orders met een opeenvolgende gebeurtenisvergelijking.](../../assets/SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
 
-Om dit type van berekende kolom tot stand te brengen, moeten wij weten:
+Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 * De tabel waarop u deze kolom wilt maken
 * Het veld dat de eigenaar van de gebeurtenissen aangeeft (`owner\_id` in het voorbeeld)
 * Het waardeveld dat u wilt zien voor het verschil tussen elke opeenvolgende gebeurtenis (`timestamp` in dit voorbeeld)
 
-[terug naar boven](#top)
+[Terug naar boven](#top)
 
 ## Ik probeer de valuta om te zetten. {#currency}
 
@@ -122,16 +122,16 @@ Hier volgt een voorbeeld:
 | `1` | 2015-01-01 00:00:00 | 30 | 33.57 |
 | `2` | 2015-01-02 00:00:00 | 50 | 55.93 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Om dit type van berekende kolom tot stand te brengen, moeten wij weten:
+Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 * De tabel waarop u deze kolom wilt maken
-* De kolom voor het transactiebedrag dat u wilt converteren
+* De kolom met het transactiebedrag die u wilt converteren
 * De kolom die de valuta aangeeft waarin de gegevens zijn opgenomen (doorgaans een ISO-code).
 * De voorkeursrapportagevaluta
 
-[terug naar boven](#top)
+[Terug naar boven](#top)
 
 ## Ik probeer de tijdzones om te zetten. {#timezone}
 
@@ -144,20 +144,20 @@ Hier volgt een voorbeeld:
 | `1` | 2015-01-01 00:00:00 | 2014-12-31 19:00:00 |
 | `2` | 2015-01-01 12:00:00 | 2015-01-01 07:00:00 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-Om dit type van berekende kolom tot stand te brengen, moeten wij weten:
+Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 * De tabel waarop u deze kolom wilt maken
 * De tijdstempelkolom die u wilt converteren
 * De tijdzone waarin de gegevens zijn opgenomen
 * De voorkeursrapporttijdzone
 
-[terug naar boven](#top)
+[Terug naar boven](#top)
 
 ## Ik probeer iets te doen dat hier niet vermeld staat. {#else}
 
-Geen zorgen. Dat het hier niet voorkomt, betekent niet dat het niet mogelijk is. Ons team van Data Warehouse-analisten heeft u behandeld.
+Geen zorgen. Dat het hier niet voorkomt, betekent niet dat het niet mogelijk is. Het Adobe team van Data Warehouse Analysts kan helpen.
 
 Een nieuwe berekende kolom definiëren [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) met details over wat u precies wilt bouwen.
 

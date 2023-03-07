@@ -1,10 +1,10 @@
 ---
 title: Deelvenster Verbinden
-description: Leer hoe u analyseert hoe gebruikers door uw websites en apps navigeren en deze gebruiken.
+description: Leer hoe u kunt analyseren hoe gebruikers door uw websites en apps navigeren en deze gebruiken.
 exl-id: e6a9f08f-1063-4d92-93e6-971280239fdb
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 
 ## Het openen van de [!DNL Mixpanel] aanmeldingspagina {#stepone}
 
-Laten we beginnen:
+Aan de slag:
 
 1. Ga naar de `Connections` pagina onder **[!DNL Manage Data** > **Connections]**.
 1. Klikken **[!UICONTROL Add a New Source]**, die zich aan de rechterkant van het scherm boven het `Data Sources` tabel.
@@ -43,11 +43,11 @@ Als u zich niet hebt aangemeld bij uw [!DNL Mixpanel] nog, doe dit en doe dan he
 
 1. Klikken **[!UICONTROL Account]** in de rechterbovenhoek.
 1. Klik in het weergegeven dialoogvenster op **[!UICONTROL Projects]**.
-1. Uw API-referenties worden weergegeven:
+1. De weergave van uw API-referenties:
 
 ![Inloggegevens van de Mixpanel-API ophalen](../../../assets/Mixpanel_API_creds.png)
 
-Houd dit open - we hebben het nodig om dit te laten samenvatten.
+Houd dit open - u hebt het nodig om dit rond te krijgen.
 
 ## Uw [!DNL Mixpanel] API-referenties in [!DNL MBI] {#stepthree}
 

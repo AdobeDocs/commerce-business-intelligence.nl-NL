@@ -2,9 +2,9 @@
 title: Werken met gegevens
 description: Leer de beste werkwijzen voor het organiseren en werken met die gegevens.
 exl-id: cd898aa0-afec-481a-b800-d156d57aba85
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---

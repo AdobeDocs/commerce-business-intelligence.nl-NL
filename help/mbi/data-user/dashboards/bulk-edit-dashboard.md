@@ -2,9 +2,9 @@
 title: Grafieken voor bulkbewerking in dashboards
 description: Leer hoe u de functie voor bulkbewerking kunt gebruiken in [!DNL MBI].
 exl-id: 576ffabb-5e5d-4251-9662-951e2cd30f31
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ Met de functie voor het bewerken van grote hoeveelheden kunt u heel gemakkelijk 
 
 * [De ](#dates)
 
-Dit gezegd hebbende, bedenk dit - *Moeten deze veranderingen permanent zijn?* Als dat niet het geval is, kunt u het dashboard klonen en vervolgens de datums in het nieuwe dashboard wijzigen. Op deze manier kunt u het oorspronkelijke dashboard behouden en toch de gewenste wijzigingen aanbrengen.
+Dit gezegd hebbende, bedenk dit - *Moeten deze veranderingen permanent zijn?* Als dat niet het geval is, kunt u het dashboard klonen en vervolgens de datums in het nieuwe dashboard wijzigen. Zo kunt u het oorspronkelijke dashboard behouden en toch de gewenste wijzigingen aanbrengen.
 
 >[!NOTE]
 >
->Als u veel rapporten wijzigt, kan het bijwerken enige tijd duren.
+>Als u een groot aantal rapporten wijzigt, kan het bijwerken enige tijd duren.
 
 ## Gebruiken `Find/Replace` {#findreplace}
 

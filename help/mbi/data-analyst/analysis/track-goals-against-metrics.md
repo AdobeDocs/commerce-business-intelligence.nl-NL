@@ -2,32 +2,32 @@
 title: Doelstellingen bijhouden op basis van cijfers
 description: Leer hoe u een dashboard instelt waarmee u uw bedrijfsdoelstellingen kunt bijhouden op basis van uw feitelijke gegevens, zoals inkomsten, nieuwe geregistreerde gebruikers en bestellingen in de loop der tijd.
 exl-id: 9d621f40-f9c2-4310-bd96-a46ab7159930
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
 # Doelstellingen bijhouden op basis van prestatiemetriek
 
-Een grote meerderheid van onze klanten wil vaak hun **bedrijfsdoelstellingen**, maar dit is niet mogelijk in [!DNL MBI]. In dit artikel, tonen wij hoe te opstelling een dashboard dat u zal helpen uw bedrijfsdoelstellingen tegen uw daadwerkelijke gegevens - met inbegrip van opbrengst, nieuwe geregistreerde gebruikers, en orden in tijd volgen. We laten u ook zien hoe u de prestaties van jaar tot jaar kunt vergelijken, allemaal in een dashboard als dit:
+De meeste klanten willen hun **bedrijfsdoelstellingen**, maar dit is niet mogelijk in [!DNL MBI]. In dit artikel ziet u hoe u een dashboard kunt instellen waarmee u uw bedrijfsdoelstellingen kunt bijhouden op basis van uw feitelijke gegevens, waaronder inkomsten, nieuwe geregistreerde gebruikers en bestellingen in de loop der tijd. U leert ook hoe u de prestaties van jaar tot jaar kunt vergelijken, allemaal in een dashboard als dit:
 
 ![](../../assets/Goals-_dashboard_2.png)
 
-Voordat u aan de slag gaat, wilt u zich vertrouwd maken met onze [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en zorg ervoor u uw bedrijfsdoelstellingen voor een bepaalde periode hebt bepaald.
+Voordat u aan de slag gaat, wilt u zich vertrouwd maken met de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en zorg ervoor u uw bedrijfsdoelstellingen voor een bepaalde periode hebt bepaald.
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat specifieke dagelijkse/maandelijkse/driemaandelijkse doelstellingen voor uw bedrijf bevat.
 
-U kunt de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om uw bestand op te maken. De meest voorkomende doelen die onze klanten volgen [!DNL MBI] inclusief bestellingen, inkomsten en nieuwe geregistreerde accounts.
+U kunt de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken. De gemeenschappelijkste doelstellingen die de cliënten binnen volgen [!DNL MBI] inclusief bestellingen, inkomsten en nieuwe geregistreerde accounts.
 
 ![](../../assets/Goals-_Excel.png)
 
 ## Metrisch
 
-U moet één nieuwe metrisch voor elk doel tot stand brengen. Als u bijvoorbeeld doelstellingen voor maandelijkse inkomsten en bestellingen uploadt, moet u twee nieuwe maatstaven maken:
+Creeer één nieuwe metrisch voor elk doel. Als u bijvoorbeeld doelstellingen voor maandelijkse inkomsten en bestellingen uploadt, moet u twee nieuwe metriek maken:
 
 * **Maandelijkse inkomstendoelstelling**
 * In de **`Monthly goals`** table
@@ -103,4 +103,4 @@ Zoals altijd, is het nuttig om een mengeling van statische waarden en visuele gr
 
 Zodra u de bovengenoemde rapporten voor opbrengstdoelstellingen hebt voltooid, kunt u identieke rapporten voor doelstellingen rond orden, geregistreerde rekeningen, of om het even welke andere waarden tot stand brengen u in uw doelstellingen uploadt dossier hebt omvat.
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.

@@ -2,9 +2,9 @@
 title: Prestaties van vakantieseizoen analyseren
 description: Leer en begrijp hoe het groeipatroon van dit jaar zich verhoudt tot de voorgaande jaren.
 exl-id: 328f30b8-0db6-48fd-8d97-95f0bc7e4803
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Voor uw bedrijf, zouden de vakanties één van de drukste tijden van het jaar kunnen zijn. Voor detailhandelaren met een grote Amerikaanse klantenbasis beslaat het vakantieseizoen gewoonlijk de maanden tussen Thanksgiving en het Nieuwjaar.
 
-De ruiten kunnen op elk moment van het jaar worden ervaren; als uw bedrijf bijvoorbeeld korte of poolbenodigdheden verkoopt , kan het zijn dat u tijdens de zomer een haast hebt . In dit onderwerp onderzoeken we analyses die je helpen om je hoge seizoenen over verschillende jaren te vergelijken.
+De ruiten kunnen op elk moment van het jaar worden ervaren; als uw bedrijf bijvoorbeeld korte of poolbenodigdheden verkoopt , kan het zijn dat u tijdens de zomer een haast hebt . In dit onderwerp worden analyses besproken die u helpen uw hoge seizoenen over verschillende jaren te vergelijken.
 
 ## Aanbevolen meetwaarden
 
@@ -21,7 +21,7 @@ Analyseer bij het analyseren van de prestaties van het vakantieseizoen ([of gebo
 
 ### Aantal nieuwe klanten, aantal orders, inkomsten
 
-Om u te helpen begrijpen hoe het groeipatroon van dit jaar zich verhoudt tot voorgaande jaren, kunt u overwegen deze maatregelen te analyseren. Het aantal nieuwe klanten, het aantal nieuwe orden, en de opbrengst zullen u tonen hoe uw zaken op een dag-door-dag basis voor het tijdkader (vakantieseizoen) presteren u specificeert. U kunt deze maatregelen ook analyseren met een cumulatief perspectief om te zien hoe de metrische waarden in de loop van de tijd veranderen.
+Om u te helpen begrijpen hoe het groeipatroon van dit jaar zich verhoudt tot voorgaande jaren, kunt u overwegen deze maatregelen te analyseren. Het aantal nieuwe klanten, het aantal nieuwe orders, en de opbrengstwaarde tonen u hoe uw zaken op een dag-door-dag basis voor het tijdkader (vakantieseizoen) presteren u specificeert. U kunt deze maatregelen ook analyseren met een cumulatief perspectief om te zien hoe de metrische waarden in de loop van de tijd veranderen.
 
 ### Gemiddelde orderwaarde
 
@@ -29,13 +29,13 @@ Deze maatregel toont de algemene gemiddelde ordewaarde tijdens uw vakantieseizoe
 
 ## Voorbeeld: Inkomsten dagvakantieseizoen
 
-Nu we weten welke maatstaven moeten worden geanalyseerd, kijken we naar enkele gegevens over de inkomsten uit steekproeven tijdens de maanden november en december van het vakantieseizoen voor zowel 2014 als 2015.
+Nu u weet welke metriek moet worden geanalyseerd, bekijkt u sommige gegevens van steekproefopbrengst tijdens de maanden van het vakantieseizoen van november en December voor zowel 2014 als 2015.
 
 ![Ontvangsten per feestdag voor 2014 en 2015](../../assets/Analyzing_holiday_season.png)
 
 In dit voorbeeld zijn er twee grote inkomstenspikes voor 2014 en 2015: deze stijgingen vallen samen met Black Vrijdag en Cyber Maandag. Let op: de pieken zijn niet op dezelfde dag voor 2014 en 2015. De reden hiervoor is dat de zwarte vrijdag op 27 november voor 2014 en 28 november voor 2015 is gevallen. Op dezelfde manier was Cyber maandag 30 november voor 2014 en 1 december voor 2015.
 
-Bovendien zijn de inkomsten voor 2015 op 19 december sterk gestegen, wat in 2014 niet het geval is. het is mogelijk dat een verkoop werd aangeboden op deze specifieke zaterdag die het voorgaande jaar niet beschikbaar was.
+Bovendien zijn de inkomsten voor 2015 op 19 december sterk gestegen, wat in 2014 niet het geval is. Het is mogelijk dat een verkoop werd aangeboden op deze zaterdag die het voorgaande jaar niet beschikbaar was.
 
 Afgezien van de enkele hierboven vermelde data, zijn de inkomsten voor deze twee jaar samen.
 

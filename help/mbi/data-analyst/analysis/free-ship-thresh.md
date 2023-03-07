@@ -1,10 +1,10 @@
 ---
 title: Gratis verzenddrempel
-description: Leer hoe u een dashboard instelt waarmee de prestaties van uw gratis verzenddrempel worden bijgehouden.
+description: Leer hoe u een dashboard instelt dat de prestaties van je gratis verzenddrempel bijhoudt.
 exl-id: a90ad89b-96d3-41f4-bfc4-f8c223957113
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Dit artikel bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bevindt zich op de nieuwe architectuur als de sectie &quot;Weergaven Data Warehouse&quot; beschikbaar is nadat u &quot;Gegevens beheren&quot; op de hoofdwerkbalk hebt geselecteerd.
 
-In dit artikel laten we zien hoe we een dashboard kunnen instellen dat de prestaties van je gratis verzenddrempel bijhoudt. Dit dashboard, dat hieronder wordt getoond, is een uitstekende manier aan test A/B twee verschillende vrije verschepingsdrempels. Je bedrijf weet bijvoorbeeld niet zeker of je gratis verzending moet aanbieden op $50 of $100. U zou een A/B test van twee willekeurige ondergroepen van uw klanten moeten uitvoeren, en de analyse uitvoeren in [!DNL MBI].
+Dit artikel laat zien hoe u een dashboard instelt dat de prestaties van uw gratis verzenddrempel bijhoudt. Dit dashboard, dat hieronder wordt getoond, is een uitstekende manier aan test A/B twee vrije verschepingsdrempels. Je bedrijf weet bijvoorbeeld niet zeker of je gratis verzending moet aanbieden op $50 of $100. U zou een A/B test van twee willekeurige ondergroepen van uw klanten moeten uitvoeren, en de analyse uitvoeren in [!DNL MBI].
 
 Voordat je aan de slag gaat, wil je twee verschillende tijdsperioden identificeren waarbij je verschillende waarden hebt voor de drempel voor gratis verzending in je winkel.
 
@@ -25,17 +25,17 @@ Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-ca
 
 ## Berekende kolommen
 
-Als u zich op de originele architectuur bevindt (bijvoorbeeld als u geen `Data Warehouse Views` optie onder de `Manage Data` (menu), wilt u ons ondersteuningsteam bereiken om de hieronder kolommen uit te bouwen. Op de nieuwe architectuur, kunnen deze kolommen van worden gecreeerd `Manage Data > Data Warehouse` pagina. Nadere instructies worden hieronder gegeven.
+Als u zich op de originele architectuur bevindt (bijvoorbeeld als u geen `Data Warehouse Views` optie onder de `Manage Data` (menu), wilt u uit naar het ondersteuningsteam om de hieronder kolommen te bouwen. Op de nieuwe architectuur, kunnen deze kolommen van worden gecreeerd `Manage Data > Data Warehouse` pagina. Nadere instructies worden hieronder gegeven.
 
 * **`sales_flat_order`** table
    * Met deze berekening maakt u emmers in stappen ten opzichte van de typische tekengrootten. Dit kan variëren van stappen zoals 5, 10, 50, 100
 
-* **`Order subtotal (buckets)`** Oorspronkelijke architectuur: wordt gemaakt door een analist als onderdeel van uw `[FREE SHIPPING ANALYSIS]` kaartje
+* **`Order subtotal (buckets)`** Oorspronkelijke architectuur: gemaakt door een analist als onderdeel van uw `[FREE SHIPPING ANALYSIS]` kaartje
 * **`Order subtotal (buckets)`** Nieuwe architectuur:
    * Zoals hierboven vermeld, leidt deze berekening tot emmers in toename met betrekking tot uw typische wortelgrootte. Als u een native subtotaal kolom hebt, zoals `base_subtotal`, die als basis voor deze nieuwe kolom kunnen worden gebruikt. Als dat niet het geval is, kan het een berekende kolom zijn die verzendingen en kortingen van inkomsten uitsluit.
    >[!NOTE]
    >
-   >De &quot;emmer&quot;grootte zal afhangen van wat voor u als cliënt aangewezen is. U kunt beginnen met uw `average order value` en maak een bepaald aantal emmers kleiner dan of groter dan die hoeveelheid. Wanneer het bekijken van de berekening hieronder, zult u zien hoe te om een deel van de vraag gemakkelijk te kopiëren, het uit te geven, en extra emmers tot stand te brengen. Het voorbeeld wordt uitgevoerd in stappen van 50.
+   >De &quot;emmer&quot;grootte hangt van wat voor u als cliënt aangewezen is af. U kunt beginnen met uw `average order value` en maak enkele emmers kleiner dan of groter dan die hoeveelheid. Wanneer het bekijken van de berekening hieronder, ziet u hoe te om een deel van de vraag gemakkelijk te kopiëren, het uit te geven, en extra emmers tot stand te brengen. Het voorbeeld wordt uitgevoerd in stappen van 50.
 
    * `Column type - Same table, Column definition - Calculation, Column Inputs-` `base_subtotal`, of `calculated column`, `Datatype`: `Integer`
    * [!UICONTROL Calculation]: `case when A >= 0 and A<=200 then 0 - 200`
@@ -137,4 +137,4 @@ Geen nieuwe metriek!!!
 
 Herhaal bovenstaande stappen en rapporten voor Verzending B en de tijdsperiode met verzendregel B.
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.

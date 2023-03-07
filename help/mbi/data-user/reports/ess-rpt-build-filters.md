@@ -2,16 +2,16 @@
 title: Filters
 description: Leer hoe u filters kunt gebruiken.
 exl-id: eb683dfe-9a90-400a-a0c0-3dc00d1f28b5
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # Filters
 
-Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die worden gebruikt om een rapport te maken. Elk filter is een expressie die een kolom uit de bijbehorende tabel, een operator en een waarde bevat. Bijvoorbeeld om slechts herhaalde klanten te omvatten, zou u een filter kunnen tot stand brengen dat slechts klanten omvat die meer dan één orde hebben geplaatst. U kunt meerdere filters gebruiken met logische `AND/OR` om logica aan het rapport toe te voegen.
+Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die worden gebruikt om een rapport te produceren. Elk filter is een expressie die een kolom uit de bijbehorende tabel, een operator en een waarde bevat. Bijvoorbeeld om slechts herhaalde klanten te omvatten, zou u een filter kunnen tot stand brengen dat slechts klanten omvat die meer dan één orde hebben geplaatst. U kunt meerdere filters gebruiken met logische `AND/OR` om logica aan het rapport toe te voegen.
 
 >[!TIP]
 >
@@ -49,7 +49,7 @@ MBI bevat een selectie van filters die u kunt gebruiken &quot;uit de doos (OTB),
 
    * Wanneer het filter is voltooid, klikt u op **[!UICONTROL Apply]**.
 
-      Het rapport omvat nu slechts herhaalde klanten, en het aantal klantenverslagen die voor het rapport zijn teruggewonnen is verminderd van 33K tot 12.6k.
+      Het rapport omvat nu slechts herhaalde klanten, en het aantal klantenverslagen die voor het rapport zijn teruggewonnen is verminderd van 33.000 tot 12.600.
 
       ![Gefilterd rapport](../../assets/magento-bi-report-builder-filter-report.png)<!--{: .zoom}-->
 

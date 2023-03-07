@@ -1,27 +1,31 @@
 ---
 title: Recente, Frequentie, Monetaire (RFM) Analyse
-description: Leer hoe te opstelling een dashboard dat u zal toestaan om uw klanten door hun recentie, frequentie, en monetaire rankings te segmenteren.
+description: Leer hoe te opstelling een dashboard dat u toestaat om uw klanten door hun recentie, frequentie, en monetaire rankings te segmenteren.
 exl-id: 8f0f08fd-710b-4810-9faf-3d0c3cc0a25d
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
 # RFM-analyse
 
-In dit artikel, tonen wij hoe te opstelling een dashboard dat u zal toestaan om uw klanten door hun recentie, frequentie, en monetaire rankings te segmenteren. De analyse van RFM is een marketing techniek die klantengedrag in overweging neemt om u te helpen segmentatie voor outreach bepalen. Er wordt rekening gehouden met drie aspecten: Recente informatie over hoe recent een klant bij uw winkel heeft gekocht, Frequentie in hoe vaak hij of zij bij u koopt en Monetair in hoeveel de klant besteedt.
+In dit artikel ziet u hoe u een dashboard instelt waarmee u uw klanten kunt segmenteren op basis van hun recenentie, frequentie en monetaire waarderingen. De analyse van RFM is een marketing techniek die klantengedrag in overweging neemt om u te helpen segmentatie voor outreach bepalen. Het omvat drie aspecten:
+
+* Recente periode in hoe recent een klant bij uw winkel heeft gekocht
+* Frequentie in hoe vaak ze van u kopen
+* Monetair in hoeveel de klant besteedt
 
 ![](../../assets/blobid0.png)
 
-De RFM-analyse kan alleen worden geconfigureerd als u beschikt over de [!DNL MBI] Pro-abonnement op de nieuwe architectuur (bijvoorbeeld als u de optie &quot;Weergaven Data Warehouse&quot; onder het menu &quot;Gegevens beheren&quot; hebt). Deze kolommen kunnen worden gemaakt op de pagina &quot;Gegevens beheren > Data Warehouse&quot;. Nadere instructies worden hieronder gegeven.
+De RFM-analyse kan alleen worden geconfigureerd als u beschikt over [!DNL MBI] Pro-abonnement op de nieuwe architectuur (bijvoorbeeld als u de optie &quot;Weergaven Data Warehouse&quot; onder het menu &quot;Gegevens beheren&quot; hebt). Deze kolommen kunnen worden gemaakt op de pagina &quot;Gegevens beheren > Data Warehouse&quot;. Nadere instructies worden hieronder gegeven.
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat alleen een primaire sleutel met de waarde één bevat. Hierdoor kunnen enkele noodzakelijke berekende kolommen voor de analyse worden gemaakt.
 
-U kunt dit benutten [Help Center-artikel](../importing-data/connecting-data/using-file-uploader.md) en de onderstaande afbeelding om uw bestand op te maken.
+U kunt dit [Help Center-artikel](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken.
 
 ## Berekende kolommen
 
@@ -51,7 +55,7 @@ Te maken kolommen
 
    [!UICONTROL Datatype]: `Integer`
 
-* **Telreferentie** tabel (dit is het bestand dat u zojuist hebt geüpload met het nummer &quot;1&quot;)
+* **Telreferentie** tabel (dit is het bestand dat u hebt geüpload met het nummer &quot;1&quot;)
 * Aantal klanten
 * [!UICONTROL Column type]: `Many to One > Count Distinct`
 * [!UICONTROL Path]: `ales_flat_order.(input) reference > Count reference.Primary Key` OF `customer_entity.(input)reference > Count Reference`. `Primary Key`
@@ -196,7 +200,7 @@ Geen nieuwe metriek!
 
    [!UICONTROL Chart type]: `Table`
 
-* **Klanten met 5 recentiescore**
+* **Klanten met vijf recentiescore**
 * Metrisch `A`: `New customers`
 * [!UICONTROL Metric]: `New customers`
 * [!UICONTROL Filter]: `Customer's recency score (by percentiles) Equal to 5`
@@ -214,7 +218,7 @@ Geen nieuwe metriek!
 
    [!UICONTROL Chart type]: `Table`
 
-* **Klanten met 1 recentiescore**
+* **Klanten met één recentiescore**
 * Metrisch `A`: `New customers`
 * [!UICONTROL Metric]: `New customers`
 * [!UICONTROL Filter]: `Customer's recency score (by percentiles) Equal to 1`
@@ -232,4 +236,4 @@ Geen nieuwe metriek!
 
    [!UICONTROL Chart type]: `Table`
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat kan als het bovengenoemde steekproefdashboard kijken, maar de drie geproduceerde lijsten zijn enkel voorbeelden van de types van klantensegmentatie u kunt uitvoeren.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan als het bovengenoemde steekproefdashboard kijken, maar de drie geproduceerde lijsten zijn enkel voorbeelden van de types van klantensegmentatie u kunt uitvoeren.

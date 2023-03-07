@@ -2,9 +2,9 @@
 title: Dashboards delen
 description: Leer met uw dashboards te werken en te delen.
 exl-id: 73df627f-bc08-45c0-aa5e-410c4fd0642d
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Door het delen van dashboards bezitten u en uw team op elk gewenst moment dezelf
 
 ## Dubbele dashboards voorkomen
 
-Het kan voorkomen dat er meerdere dashboards met dezelfde naam zijn, dit komt meestal omdat andere gebruikers vergelijkbare dashboards met u hebben gemaakt en gedeeld. Deze dashboards kunnen duplicaten zijn van een primaire kopie. In dit geval raden we u aan één gebruiker de primaire kopie van het dashboard te laten delen en vervolgens alle dubbele dashboards te verwijderen.
+Het kan voorkomen dat er meerdere dashboards met dezelfde naam zijn, dit komt meestal omdat andere gebruikers vergelijkbare dashboards met u hebben gemaakt en gedeeld. Deze dashboards kunnen duplicaten zijn van een primaire kopie. In dit geval raadt Adobe aan dat één gebruiker de primaire kopie van het dashboard deelt en vervolgens alle dubbele dashboards verwijdert.
 
 Als u wilt zien wie de eigenaar is van een dashboard, klikt u op het dashboard-vervolgkeuzemenu linksboven. Alle dashboards zonder een naam eronder, zijn van u.
 
@@ -34,12 +34,12 @@ Wanneer nieuwe gebruikers worden gemaakt, hebben zij geen dashboards of grafieke
 
 ## Dashboards delen met Nieuwe Gebruikers
 
-Nieuwe gebruikers kunnen ook profiteren van toegang tot sommige dashboards die niet in de hele organisatie worden gedeeld. In deze gevallen raden we aan dat dashboardeigenaars [delen van de relevante dashboards](../data-user/dashboards/share-dashboard-with-users.md) met nieuwe gebruikers zodra hun accounts zijn aangemaakt.
+Nieuwe gebruikers kunnen ook profiteren van toegang tot sommige dashboards die niet in de hele organisatie worden gedeeld. In deze gevallen beveelt Adobe aan dat dashboardeigenaars [delen van de relevante dashboards](../data-user/dashboards/share-dashboard-with-users.md) met nieuwe gebruikers wanneer hun accounts worden gemaakt.
 
 ## Selectief zijn met bewerkmachtigingen
 
-`Edit` de toestemmingen geven gebruikers veel macht. Maar met grote macht komt grote verantwoordelijkheid. Om onbedoelde veranderingen in uw grafieken en dashboards te verhinderen, adviseren wij dat u over wie selectief bent u geeft `Edit` machtigingen aan.
+`Edit` de toestemmingen geven gebruikers veel macht. Maar met grote macht komt grote verantwoordelijkheid. Om onbedoelde wijzigingen in uw grafieken en dashboards te voorkomen, raadt Adobe u aan te bepalen wie u toedient `Edit` machtigingen aan.
 
 ## Uw diagrammen notiteren
 
-Door een dashboard te delen krijgen gebruikers alleen toegang tot dezelfde informatie. Om ervoor te zorgen dat de informatie wordt begrepen, adviseren wij gebruikend de eigenschap van de grafieknota&#39;s om kennis en nuances over een specifiek gegevenspunt te delen of het doel van een analyse over te brengen.
+Door een dashboard te delen krijgen gebruikers alleen toegang tot dezelfde informatie. Om ervoor te zorgen dat informatie wordt begrepen, raadt Adobe aan de functie voor grafieknotities te gebruiken om kennis en nuances over een specifiek gegevenspunt te delen of om het doel van een analyse over te brengen.

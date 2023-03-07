@@ -1,10 +1,10 @@
 ---
 title: Analyse van de verwachte levenwaarde (LTV) (basis)
-description: Leer hoe u analyses maakt om de levensduurwaarde van uw huidige klanten te begrijpen en voorspelt hoe de levensduurwaarde met meer bestellingen zal stijgen.
+description: Leer hoe u analyses maakt om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen toeneemt.
 exl-id: e6f02cf6-f542-4768-969c-3ec998a7caa9
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 Het voorspellen van de levenwaarde van klanten aangezien zij meer orden plaatsen is één van de belangrijkste aspecten van om het even welke zaken van om het even welke grootte.
 
-Hier volgen de stappen voor het maken van analyses om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen zal stijgen:
+Hier volgen de stappen om analyses te maken om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen toeneemt:
 
 ![verwachte levenwaarde](../../assets/expected_ltv_720.png)
 
 ## Een metrisch object maken
 
-De eerste stap zal zijn nieuwe metrisch met de volgende stappen te construeren:
+De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de volgende stappen:
 * Navigeren naar **[!UICONTROL Manage Data > Metrics]**
    * Bestaande weergeven **[!UICONTROL Avg lifetime revenue]**.
 
@@ -41,13 +41,13 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
 * Navigeren naar **[!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
 * Geef het dashboard een naam, zoals `Expected LTV`.
 
-* Op die manier zullen wij alle verslagen opstellen en toevoegen.
+* Hier maakt u alle rapporten en voegt u deze toe.
 
 ## Rapporten samenstellen
 
 >[!NOTE]
 >
->Aan **[!UICONTROL Time Period:]** wordt de termijn voor elk verslag als volgt vermeld: `All-time`. U kunt dit aanpassen aan uw analysebehoeften. We raden alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time`, `Year-to-date`, of `Last 365 days`.
+>Aan **[!UICONTROL Time Period:]** wordt de termijn voor elk verslag als volgt vermeld: `All-time`. U kunt dit aanpassen aan uw analysebehoeften. Adobe raadt alle rapporten op dit dashboard aan dezelfde periode te bestrijken, zoals `All time`, `Year-to-date`, of `Last 365 days`.
 
 * **[!UICONTROL Average LTV (all)]**
    * [!UICONTROL Metric]: `Avg lifetime revenue`
@@ -88,7 +88,7 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
       [!UICONTROL Chart Type]: `Line`
    >[!NOTE]
    >
-   >Niet alle waarden toevoegen voor `Customer's lifetime number of orders`In plaats daarvan bekijkt u een punt waar het aantal Nieuwe Klanten een klein aantal bereikt en voegt u handmatig het levensduuraantal van elke klant aan dat punt toe. Bijvoorbeeld, als er 200 klanten bij één orde zijn, 75 bij twee, 15 bij drie, en 3 bij vier, voeg toe *1, 2 en 3*.
+   >Niet alle waarden toevoegen voor `Customer's lifetime number of orders`. In plaats daarvan, bekijk een punt waar het aantal Nieuwe Klanten een klein aantal bereikt en manueel het levenslevensaantal van elke Klant van ordewaarde aan dat punt toevoegen. Bijvoorbeeld, als er 200 klanten bij één orde zijn, 75 bij twee, 15 bij drie, en 3 bij vier, voeg toe *1, 2 en 3*.
 
 * Bestaande toevoegen [!UICONTROL Avg customer lifetime revenue by cohort] verslag.
 

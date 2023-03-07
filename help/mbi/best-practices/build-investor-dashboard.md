@@ -2,16 +2,16 @@
 title: Een dashboard voor investeerders maken
 description: Leer hoe u een dashboard voor investeerders maakt.
 exl-id: 917e7628-3498-4413-a7e1-61799989a7dd
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # Dashboard voor investeerders maken
 
-Veel van onze klanten werken met beleggers en moeten informatie van het platform met hen delen, maar de dashboards die u creeert om dagelijkse bedrijfsbesluiten te nemen kunnen niet zijn wat een investeerder zoekt. Hier volgen enkele best practices voor het maken van een uitgebreid maar eenvoudig dashboard dat ideaal is voor het delen met actieve en potentiële investeerders.
+Veel klanten werken met beleggers en moeten informatie delen van het platform, maar de dashboards die u creeert om dagelijkse bedrijfsbesluiten te nemen kunnen niet zijn wat een investeerder zoekt. Hieronder worden enkele aanbevolen procedures beschreven voor het maken van een dashboard dat alomvattend maar eenvoudig is en ideaal is voor het delen met actieve en potentiële investeerders.
 
 Hier volgt wat u rapporten voor het dashboard van uw investeerder moet maken:
 
@@ -28,7 +28,7 @@ Hier volgt wat u rapporten voor het dashboard van uw investeerder moet maken:
 * **[!UICONTROL Revenue by quarter]**
    * Metrisch - inkomsten
 * **[!UICONTROL Revenue from 1st time orders vs repeat orders]**
-   * Metrisch - Eerste bestelling inkomsten
+   * Metrisch - inkomsten uit eerste bestellingen
    * Filter - Het ordernummer van de gebruiker is gelijk aan 1
    * Metrisch 2 - Herhalingsorderontvangsten
       * Filter - Het ordernummer van de gebruiker is groter dan 1
@@ -71,8 +71,8 @@ Met de [Verrijkingsdiensten handelsgegevens](https://business.adobe.com/products
 * Duidelijk en beknopt gebruiken [naamgevingsconventie](../best-practices/naming-elements.md)
 * Het dashboard delen met beleggers
 * Of verzend het via **[!UICONTROL Automated email summary]**(../data-user/export-data/email-summaries.md)
-* Maak slechts één dashboard. Hierdoor wordt het onderhoud van de inhoud gemakkelijker en weet u precies wat uw investeerders bekijken.
+* Maak slechts één dashboard. Dit maakt de inhoud gemakkelijker te onderhouden en u weet precies wat uw investeerders bekijken.
 
-Bewust uw rapporten en let op details. Na afloop ziet het dashboard er ongeveer als volgt uit:
+Bewust uw rapporten en let op details. Na voltooiing ziet het dashboard er ongeveer als volgt uit:
 
 ![](../../mbi/assets/investor-dboard-example.png)

@@ -2,24 +2,24 @@
 title: Verwachte Google Analytics
 description: Leer om met uw metriek van Google Analytics in wisselwerking te staan.
 exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
 # Verwacht [!DNL Google Analytics] data
 
-Nadat u een [!DNL Google Analytics] integratie, kunt u met uw [!DNL Google Analytics] cijfers *onmiddellijk in het`Visual Report Builder`*. Wanneer u de `Visual Report Builder`, als u op **[!UICONTROL Add a Metric]**, een reeks meetgegevens van uw [!DNL Google Analytics] profiel(en) worden weergegeven in een vervolgkeuzelijst direct onder de meetgegevens in uw gegevensopslagruimte.
+Nadat u een [!DNL Google Analytics] integratie, kunt u met uw [!DNL Google Analytics] cijfers *onmiddellijk in het`Visual Report Builder`*. Wanneer u de `Visual Report Builder`, als u op **[!UICONTROL Add a Metric]**, een reeks meetgegevens van uw [!DNL Google Analytics] wordt weergegeven in een vervolgkeuzelijst direct onder de meetwaarden in de Data Warehouse.
 
-De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report Builder` vraagt gegevens van [!DNL Google Analytics] *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek waartoe u toegang hebt, precies is gedefinieerd zoals ze zich bevinden in [!DNL Google Analytics]en dat deze waarden niet *gehuisvest* in uw [!DNL MBI] account — wordt alleen visueel weergegeven in uw rapporten.
+De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report Builder` vraagt gegevens van [!DNL Google Analytics] *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek waartoe u toegang kunt hebben, precies is gedefinieerd zoals ze zich bevinden in [!DNL Google Analytics]en dat deze waarden niet *gehuisvest* in uw [!DNL MBI] account — wordt alleen visueel weergegeven in uw rapporten.
 
 [!DNL Google Analytics] integratie in [!DNL MBI] gebruiken [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/)en ondersteunt de volgende maatstaven en dimensies.
 
 >[!NOTE]
 >
->U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met de metrische waarden die u gebruikt in het dialoogvenster `Report Builder`. U kunt [hier](https://developers.google.com/analytics/devguides/reporting/core/dimsmets).
+>U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer meetgegevens die u gebruikt in het dialoogvenster `Report Builder`. U kunt [hier](https://ga-dev-tools.google/dimensions-metrics-explorer/).
 
 ## Ondersteunde metriek
 
@@ -73,7 +73,7 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 | `All Goals Conversion Rate` | `ga:goalConversionRateAll` |
 | `Total Goal Value` | `ga:goal1ValueAll` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Ondersteunde Dimension
 
@@ -142,4 +142,4 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 | `Custom (User Defined) Value` | `ga:userDefinedValue` | `Yes` |
 | `Year` | `ga:year` | `No` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

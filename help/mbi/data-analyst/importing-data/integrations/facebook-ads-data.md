@@ -1,10 +1,10 @@
 ---
 title: Facebook Ads-gegevens verwacht
-description: Leer een kort overzicht van de lijsten wij u adviseren om met uw gegevenspakhuis te synchroniseren
+description: Leer een kort overzicht van de tabellen die u kunt synchroniseren met uw Data Warehouse
 exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -15,27 +15,27 @@ ht-degree: 0%
 
 Nadat u [heeft uw [!DNL Facebook Ads] account](../integrations/facebook-ads.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
-In dit artikel, geven wij u een kort overzicht van de lijsten wij u adviseren om met uw gegevenspakhuis te synchroniseren. Dit is geen volledige lijst, aangezien er vrij een paar subtables zijn. We markeren alleen de kerntabellen.
+Dit artikel geeft u een kort overzicht van de lijsten Adobe adviseert u aan uw Data Warehouse te synchroniseren. Dit is geen volledige lijst, aangezien er vrij een paar subtables zijn. Alleen de kerntabellen worden gemarkeerd.
 
 ## Kerntabellen en campagnemetabellen
 
 Deze lijsten bevatten gegevens over kern en campagnecomponenten.
 
-### [`facebook _campaigns_ (account-id)`](https://developers.facebook.com/docs/reference/ads-api/adcampaign/)
+### [`facebook _campaigns_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign-group)
 
 Deze tabel is de belangrijkste tabel voor campagnes in een [!DNL Facebook Ads] account. Kolommen opnemen `campaign id`, `name`, `status (active/paused)`, `objective`.
 
 ### [`facebook _adsets_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign)
 
-Deze tabelrecords vormen de kern van de tabel [!DNL Facebook Ads] Stelt in een [!DNL Facebook Ads] account. Kolommen bevatten de advertentie `Campaign id/name` de advertentieset behoort tot, de budgettering, het soort bod, de planning en het doelpubliek.
+Deze tabelrecord is de kerntabel [!DNL Facebook Ads] Stelt in een [!DNL Facebook Ads] account. Kolommen bevatten de advertentie `Campaign id/name` de advertentieset behoort tot, de budgettering, het type bod, de planning en doelgerichte informatie.
 
-### [`facebook _ads_ (account-id)`](https://developers.facebook.com/docs/reference/ads-api/adgroup/)
+### [`facebook _ads_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/adgroup)
 
-In deze tabel worden alle advertenties in een [!DNL Facebook Ads] account. Kolommen bevatten de advertentiemateriaal, waaronder de advertentieset en de advertentiecampagne waartoe deze behoort, de advertentie, de advertentie en het zoeken naar en verwijzen naar specifieke creatieve (afbeelding/tekst) die de advertentie gebruikt.
+In deze tabel worden alle advertenties in een [!DNL Facebook Ads] account. Kolommen bevatten de advertentiemateriaal, waaronder de advertentieset en de advertentiecampagne waartoe deze behoort, de advertentie, het adverteren en het aanwijzen, en een verwijzing naar specifieke creatieve (beeld/tekst) die de advertentie gebruikt.
 
-### [`facebook _adcreative_ (account-id)`](https://developers.facebook.com/docs/reference/ads-api/adcreative/)
+### [`facebook _adcreative_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-creative)
 
-In deze tabel worden alle creatieve elementen weergegeven die worden gebruikt in [!DNL Facebook Ads]. Deze omvatten, waar van toepassing, creatieve naam, beschrijving en relevante URL&#39;s voor afbeeldingen.
+In deze tabel worden creatieve elementen vastgelegd die worden gebruikt in [!DNL Facebook Ads]. Creatieve producten bevatten waar nodig creatieve namen, beschrijvingen en relevante URL&#39;s voor afbeeldingen.
 
 ## Gesegmenteerde campagnemetabellen
 

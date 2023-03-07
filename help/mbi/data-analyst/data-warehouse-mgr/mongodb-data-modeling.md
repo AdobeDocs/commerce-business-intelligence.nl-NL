@@ -2,9 +2,9 @@
 title: MongoDB-gegevensmodellering
 description: Leer hoe u gegevenspatronen kunt vermijden die een probleem vormen.
 exl-id: 556c854b-5d7c-4f72-8ed7-5bc08d9ee5b9
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '128'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Het goede nieuws: Al deze patronen kunnen worden vermeden.
 
 ## Subgeneste arrays {#subnested}
 
-Als de verzameling er als volgt uitziet: [!DNL MBI] alleen de gegevens in de itemarray repliceren. Gegevens uit de subitems-array worden niet opgehaald.
+Als de verzameling er als volgt uitziet: [!DNL MBI] dupliceert alleen de gegevens in de itemarray. Gegevens uit de subitems-array worden niet opgehaald.
 
 ```bash
     {
@@ -54,7 +54,7 @@ Verzamelingen die objecten met variabele-objectsleutels bevatten, worden niet ge
     }
 ```
 
-Dit gebeurt gewoonlijk wanneer een object wordt gebruikt en een array geschikter is. Nu zullen we het bovenstaande voorbeeld opnieuw bekijken:
+Dit gebeurt gewoonlijk wanneer een object wordt gebruikt en een array geschikter is. Wijzig nu het bovenstaande voorbeeld:
 
 ```bash
     {

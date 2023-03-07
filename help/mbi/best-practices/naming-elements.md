@@ -2,26 +2,26 @@
 title: Naamrapporten en -elementen in MBI
 description: Leer beste praktijken voor noemende rapporten en elementen in [!DNL MBI].
 exl-id: c662cedd-c779-4254-b04b-f3092a538c85
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
 
 # Naamrapporten en -elementen
 
-Voordat u aan de slag gaat met het[!DNL MBI]We willen een aantal van onze geheimen delen om succes te boeken. Het is belangrijk om te weten hoe u metriek, filters, enzovoort kunt maken, maar al dat werk is voor onophoudelijk als u niet kunt vinden wat u nodig hebt of als het hier om het even welke dubbelzinnigheid is.
+Voordat u aan de slag gaat met het[!DNL MBI]Adobe wil wat geheimen delen om te slagen. Het is belangrijk om te weten hoe u metriek, filters, enzovoort kunt maken, maar al uw werk kan onverwacht zijn als u niet kunt vinden wat u nodig hebt of als er dubbelzinnigheid is.
 
 ## Waarom is nomenclatuur belangrijk? {#why}
 
-De manier u uw berekende kolommen, metriek, en rapporten noemt dicteert het gemak waarin de verschillende gebruikers door uw kunnen navigeren [!DNL MBI] account. Bij de naamgeving van deze functies houden we rekening met de volgende drie instellingen:
+De manier u uw berekende kolommen, metriek, en rapporten noemt dicteert het gemak waarin de verschillende gebruikers door uw kunnen navigeren [!DNL MBI] account. Houd bij de naamgeving van deze functies rekening met de volgende drie instellingen:
 
 * **DUIDELIJKHEID** - Je kan dus in één oogopslag zien wat een rapport toont, wat een metrisch doet, enzovoort.
-* **CONSISTENTIE** - zodat u (en ons ondersteuningsteam) eenvoudig elementen en rapporten in uw account kunt vinden en begrijpen.
+* **CONSISTENTIE** - zodat u (en het Adobe-ondersteuningsteam) eenvoudig elementen en rapporten in uw account kunt vinden en begrijpen.
 * **GELOOFWAARDIGHEID** - Om andere gegevensgestuurde elementen te inspireren en te versterken [!DNL MBI] gebruikers, moet u vertrouwen in hoe zij de gegevens begrijpen en gebruiken!
 
-Lees verder voor onze beproefde en ware nomenclatuurtips!
+Lees verder voor beproefde en ware nomenclatuurtips!
 
 ## Algemene beste praktijken {#general}
 
@@ -41,13 +41,13 @@ Deze voorbeelden zijn specifiek, wat de kans op verwarring vermindert.
 
 ### Verenigbaar zijn met hoofdletters {#capitalize}
 
-We zijn grote fans van de eerste letter in hoofdletters, de rest van de tekens in kleine letters, tenzij de eigenlijke nieuwe stijl van hoofdletters wordt gebruikt. Bijvoorbeeld: **Volgnummer van de gebruiker** eerder dan **Volgnummer van gebruiker.**
+Adobe raadt eerste letter in hoofdletters aan met de rest van de tekens in kleine letters, tenzij de eigenlijke naamstijl van hoofdletters wordt gebruikt. Bijvoorbeeld: **Volgnummer van de gebruiker** eerder dan **Volgnummer van gebruiker.**
 
 Dit is echt een kwestie van voorkeur, maar het punt om zich te herinneren is om met wat te verenigbaar te zijn u kiest.
 
 ### Consistentie van entiteiten {#entity}
 
-U hebt waarschijnlijk al een nomenclatuur bij uw bedrijf. Houd de metriek en de afmetingen op zijn plaats verenigbaar met wat in andere gegevensbestanden en hulpmiddelen wordt gebruikt. Bijvoorbeeld:
+U hebt waarschijnlijk al een nomenclatuur bij uw bedrijf. Houd de metriek en de afmetingen die u op zijn plaats zet verenigbaar met wat in andere gegevensbestanden en hulpmiddelen wordt gebruikt. Bijvoorbeeld:
 
 * Gebruiker versus klant vs. lid vs. account
 * Bedrijf vs. account vs. organisatie
@@ -59,7 +59,7 @@ Controleer de spelling nogmaals en vergeet deze plakbezittingen niet!
 
 ## Grafieken {#charts}
 
-Bij naamgeving [grafieken](../tutorials/using-visual-report-builder.md)Wij vinden het nuttig om deze formule te volgen: **(Gegevensperspectief) + (Metrisch) + (Tijdsperiode) + (Tijdinterval)**
+Bij naamgeving [grafieken](../tutorials/using-visual-report-builder.md), is het zeer nuttig om deze formule te volgen: **(Gegevensperspectief) + (Metrisch) + (Tijdsperiode) + (Tijdinterval)**
 
 **Onjuist voorbeeld:**
 Ontvangsten
@@ -79,7 +79,7 @@ Als het dashboard daarentegen een plaats is waar u experimenteert met verschille
 
 ## Dimension (Berekende kolommen) {#dimensions}
 
-Nieuwe naamgeving [afmetingen](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md)Wij vinden het nuttig om deze formule te volgen: **(Entiteit) + (Nde) + (tijdkader) + (berekening) + (opmerkingen)**. Bijvoorbeeld:
+Nieuwe naamgeving [afmetingen](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), is het zeer nuttig om deze formule te volgen: **(Entiteit) + (Nde) + (tijdkader) + (berekening) + (opmerkingen)**. Bijvoorbeeld:
 
 Eerste 30-daagse inkomsten van gebruiker
 * Volgnummer van de gebruiker
@@ -87,18 +87,18 @@ Eerste 30-daagse inkomsten van gebruiker
 
 ## Filtersets {#filterset}
 
-[Filtersets](../data-user/reports/ess-manage-data-filters.md) worden gewoonlijk genoemd op manieren die de informatie verklaren zij omvatten of uitsluiten. Een filterset bijvoorbeeld een naam geven **Objecten bestellen die we tellen** Hiermee kan elke gebruiker naar binnen gaan, de logica van de filterset bekijken en begrijpen welke orderinformatie bepaalt wat er over het bedrijf wordt geteld. Vergeet niet dat filtersets op zowel berekende kolommen als metriek kunnen worden toegepast en eenvoudig te begrijpen moeten zijn.
+[Filtersets](../data-user/reports/ess-manage-data-filters.md) worden gewoonlijk genoemd op manieren die de informatie verklaren zij omvatten of uitsluiten. Een filterset bijvoorbeeld een naam geven **Objecten bestellen die we tellen** staat om het even welke gebruiker toe om binnen te gaan, de logica van de filterreeks te bekijken, en te begrijpen welke ordeinformatie bepaalt wat over de zaken wordt geteld. Vergeet niet dat filtersets op zowel berekende kolommen als metriek kunnen worden toegepast en eenvoudig te begrijpen moeten zijn.
 
 ## Metrisch {#metrics}
 
-[Metrisch](../data-user/reports/ess-manage-data-metrics.md) Dit zijn hoofdzakelijk vragen die u regelmatig wilt beantwoorden. Wat was het aantal bestellingen in de afgelopen maand? Wat is de gemiddelde levenswaarde van onze klanten? Het is doorgaans aan te raden om metriek een naam te geven die het antwoord weergeeft dat gebruikers krijgen. Als u dezelfde maateenheid hebt gefilterd voor een specifieke winkel of afdeling, moeten deze bovendien als zodanig zijn gelabeld. Bijvoorbeeld:
+[Metrisch](../data-user/reports/ess-manage-data-metrics.md) Dit zijn hoofdzakelijk vragen die u regelmatig wilt beantwoorden. Wat was het aantal bestellingen in de afgelopen maand? Wat is de gemiddelde levenwaarde van uw klanten? Het wordt aanbevolen om metriek een naam te geven die het antwoord aangeeft dat gebruikers krijgen. Als u dezelfde maateenheid hebt gefilterd voor een specifieke winkel of afdeling, moet u deze als zodanig labelen. Bijvoorbeeld:
 
 Gemiddelde LTV-winkel van klant (eerste 30 dagen) - Opbrengst
 
-Tot slot kan zelfde metrisch soms door verschillende timestamps worden georganiseerd, afhankelijk van hoe de individuele gebruikers het berekenen. Als dit het geval is, zorg ervoor om timestamp in de naam op te nemen:
+Tot slot kan zelfde metrisch soms door verschillende timestamps worden georganiseerd, afhankelijk van hoe de individuele gebruikers het berekenen. Zo ja, zorg ervoor dat u de tijdstempel in de naam opneemt:
 
 Ontvangsten (verscheept\_at) (gemaakt\_at)
 
 ## Omloop omhoog {#wrapup}
 
-Als u de stijl en de naamgevingsconventies al vroeg instelt, kunt u uw werk sneller uitvoeren [!DNL MBI] account. Herinner de drie C&#39;s: duidelijkheid, consistentie en geloofwaardigheid.
+Door de stijl- en naamconventies in een vroeg stadium te definiëren, kunt u uw werk sneller uitvoeren [!DNL MBI] account. Denk aan de drie CS&#39;s: duidelijkheid, consistentie en geloofwaardigheid.

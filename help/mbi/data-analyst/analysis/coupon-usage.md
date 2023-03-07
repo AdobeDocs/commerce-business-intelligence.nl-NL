@@ -2,16 +2,16 @@
 title: Het gebruik van coupons analyseren
 description: Leer hoe u het gebruik van coupons kunt analyseren bij het aanschaffen en behouden van klanten.
 exl-id: d4d1393f-1695-43f2-980a-84525f84031e
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1144'
 ht-degree: 2%
 
 ---
 
 # Coupongebruik
 
-Vraag je je ooit af hoe het aanbieden van coupons je je bedrijf beïnvloedt? Wilt u weten welke coupons de prestaties helpen of schaden? In dit artikel bekijken we analyses die u een goed beeld geven van het gebruik van de coupon van uw klanten door de volgende vragen te beantwoorden:
+Vraag je je ooit af hoe het aanbieden van coupons je je bedrijf beïnvloedt? Wilt u weten welke coupons de prestaties helpen of schaden? In dit artikel worden analyses besproken die u een goed beeld geven van het gebruik van de coupon van uw klanten door de volgende vragen te beantwoorden:
 
 * Hoeveel klanten gebruiken coupons?
 * Hoeveel coupons worden gebruikt?
@@ -63,7 +63,7 @@ Deze metrische hulp evalueert de loyaliteit en gemiddelde opbrengst die door kla
 
 ## Voorbeeld {#example}
 
-Nu we weten naar welke maatstaven we moeten kijken, laten we een voorbeeld nemen met drie verschillende coupons: 10% korting, 20 dollar korting van 100 dollar of meer en 10 dollar korting.
+Nu je weet naar welke maatstaven je moet kijken, kijk naar een voorbeeld met drie verschillende coupons — 10% korting, $20 van $100 of meer en $10 korting.
 
 | **Coupon** | **Aantal bestellingen** | **Bruto-inkomsten** | **Brutodisconto uit coupons** | **Netto-inkomsten** | **Percentage verdisconteerd** |
 |-----|-----|-----|-----|-----|-----|
@@ -71,7 +71,7 @@ Nu we weten naar welke maatstaven we moeten kijken, laten we een voorbeeld nemen
 | **$ 20 korting op $100+** | 101 | $13,928.91 | $2,020.00 | $11,908.91 | 14.50% |
 | **$10 korting** | 201 | $14,542.35 | $2,010.00 | $12,532.35 | 13.82% |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 
 | **Coupon** | **Gem. nettoorderwaarde** | **Gem. orderkorting** | **Afzonderlijke kopers** | **Gem. levenslange inkomsten** |
@@ -80,9 +80,9 @@ Nu we weten naar welke maatstaven we moeten kijken, laten we een voorbeeld nemen
 | **$ 20 korting op $100+** | $117.91 | $20.00 | 95 | $218.76 |
 | **$10 korting** | $62.35 | $10.00 | 199 | $84.27 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Wat kunnen we hiervan weghalen?
+## Wat kun je hiervan wegnemen?
 
 Ongeveer 80 orders zijn geplaatst met de coupon &quot;10% korting&quot;, 100 opdrachten met de coupon &quot;$20 van $100 of meer&quot; en 200 opdrachten met de coupon &quot;$10 korting&quot;. De **aantal bestellingen** voor elke coupon kunnen verschillende factoren worden gebruikt, zoals:
 
@@ -97,19 +97,19 @@ Ongeveer 80 orders zijn geplaatst met de coupon &quot;10% korting&quot;, 100 opd
 
 * het gebruikelijke aankoopgedrag van de klant.
 
-Terwijl de **brutokortingen** voor alle drie de coupons is het aantal orders voor elke coupon aanzienlijk verschillend ( ongeveer $2.000 ) . Het analyseren van kortingen op een per ordebasis helpt de redenen voor deze contrasterende aantallen verklaren. De coupon met de waarde &quot;10% korting&quot; heeft het minste aantal opdrachten, maar heeft een **gemiddelde orderkorting** van ongeveer $25. Hoewel deze coupon een laag aantal orders heeft, leidt haar hoge gemiddelde discontowaarde tot een brutodiscontobedrag van ongeveer $2.000.
+Terwijl de **brutokortingen** voor alle drie de coupons is het aantal orders voor elke coupon gelijk ( ongeveer $2.000 ) . Het analyseren van kortingen op een per ordebasis helpt de redenen voor deze contrasterende aantallen verklaren. De coupon met de waarde &quot;10% korting&quot; heeft het minste aantal opdrachten, maar heeft een **gemiddelde orderkorting** van ongeveer $25. Hoewel deze coupon een laag aantal orders heeft, leidt haar hoge gemiddelde discontowaarde tot een brutodiscontobedrag van ongeveer $2.000.
 
-**Bruto- en netto-inkomsten** Geef een algemeen overzicht van de totale waarde van de aan elke coupon gekoppelde orders. Dit totaalbeeld geeft echter geen inzicht in de verschillende gedragingen met betrekking tot elke coupon. Als u eenmaal per bestelling kijkt, ziet u dat de coupon &quot;10% korting&quot; erg hoog is **gemiddelde nettoorder** waarde, die op zijn beurt weer leidt tot de hoge **netto-inkomsten**.
+**Bruto- en netto-inkomsten** Geef een algemeen overzicht van de totale waarde van de aan elke coupon gekoppelde orders. Dit totaalbeeld geeft echter geen inzicht in de verschillende gedragingen met betrekking tot elke coupon. Als u eenmaal per bestelling kijkt, ziet u dat de coupon voor &quot;10% korting&quot; een hoge waarde heeft **gemiddelde nettoorder** waarde, die op zijn beurt weer leidt tot de hoge **netto-inkomsten**.
 
-Anderzijds heeft de coupon &quot;10% korting&quot; een zeer hoge gemiddelde discontowaarde ($25,01), maar de laagste **gedisconteerd percentage**. Dit is logisch als je rekening houdt met de gemiddelde nettoorderwaarde van $225,08. De coupon &quot;10% korting&quot; heeft een kleine procentuele korting op een grote gemiddelde nettoorderwaarde, dus de gemiddelde orderkorting is een groot bedrag.
+Anderzijds heeft de coupon &quot;10% korting&quot; een hoge gemiddelde discontowaarde ($25,01), maar de laagste **gedisconteerd percentage**. Dit is logisch als je de gemiddelde nettoorderwaarde van $225,08 opneemt. De coupon &quot;10% korting&quot; heeft een kleine procentuele korting op een grote gemiddelde nettoorderwaarde, dus de gemiddelde orderkorting is een groot bedrag.
 
-Laten we eens kijken naar de **afzonderlijke kopers** en **gemiddelde levensduurinkomsten** voor elke coupon. De coupon &quot;10% korting&quot; heeft hetzelfde aantal orders als afzonderlijke kopers. Dit kan het gevolg zijn van het feit dat elke klant beperkt is tot één coupon. Anderzijds hebben de coupons &quot;$20 van $100 of meer&quot; en &quot;$10 korting&quot; minder duidelijke kopers dan het aantal orders, wat betekent dat sommige klanten deze coupons meerdere keren hebben gebruikt.
+Kijk naar de **afzonderlijke kopers** en **gemiddelde levensduurinkomsten** voor elke coupon. De coupon &quot;10% korting&quot; heeft hetzelfde aantal orders als afzonderlijke kopers. Dit kan het gevolg zijn van het feit dat elke klant beperkt is tot één coupon. Anderzijds hebben de coupons &quot;$20 van $100 of meer&quot; en &quot;$10 korting&quot; minder duidelijke kopers dan het aantal orders, wat betekent dat sommige klanten deze coupons meerdere keren hebben gebruikt.
 
 Voor gemiddelde levensinkomsten kunt u zien dat de gemiddelde levensinkomsten voor elke coupon groter zijn dan de respectieve **gemiddelde nettoorder** waarde. Dit houdt in dat ofwel klanten herhaalde aankopen hebben gedaan, en/of dat hun orderwaarde veel hoger was dan de gemiddelde nettoorderwaarde.
 
 ## Wat kan ik nog meer analyseren? {#otheranalyses}
 
-De analyses die we in dit artikel hebben genoemd, kunnen u waardevolle inzichten geven in hoe uw klanten uw coupons gebruiken, maar er zijn vele andere analyses die u in staat stellen een beetje dieper te graven.
+De analyses die in dit artikel worden genoemd, kunnen u waardevolle inzichten geven in hoe uw klanten uw coupons gebruiken, maar er zijn vele andere analyses die u toestaan om wat dieper te graven.
 
 **U kunt de acquisities van uw klanten aan de hand van coupons analyseren.**
 
@@ -117,10 +117,10 @@ Welke coupons moedigen klanten aan om orders te plaatsen? Zijn deze coupons aant
 
 **U kunt de tijd analyseren die het voor uw klanten duurt om uw coupons te gebruiken.**
 
-Worden uw coupons gebruikt op de dag dat ze worden vrijgegeven of loopt een week of twee voorbij voordat de meerderheid van uw klanten deze gebruikt?
+Worden uw coupons gebruikt op de dag dat ze worden vrijgegeven of verlopen er een of twee weken voordat de meeste klanten deze gebruiken?
 
 **U kon het optimale discontobedrag ontdekken dat klantenloyaliteit en algemene waarde verhoogt.**
 
-Welk kortingsbedrag zal herhaalde kopers, hogere gemiddelde orderwaarde, en hogere levensinkomsten aanmoedigen?
+Welk kortingsbedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde, en hogere levensinkomsten?
 
-Als u deze vragen beantwoordt, krijgt u inzicht in uw klanten, hun gedrag en de coupons die uw bedrijf de meeste waarde bieden.
+Het beantwoorden van deze vragen geeft u inzichten in uw klanten, hun gedrag, en de coupons die de meeste waarde aan uw zaken verstrekken.

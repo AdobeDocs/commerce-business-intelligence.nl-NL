@@ -1,17 +1,17 @@
 ---
 title: Bepaal klantenkring
-description: Leer hoe u een dashboard instelt dat u zal helpen karn voor uw transactieklanten bepalen.
+description: Leer hoe u een dashboard instelt waarmee u het koor voor uw klanten van de transactie kunt definiëren.
 exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
 # Transactionele Klantenketen
 
-In dit artikel, tonen wij hoe te opstelling een dashboard dat u zal helpen karn voor uw transactieklanten bepalen.
+Dit artikel toont aan hoe te opstelling een dashboard dat u helpt karn voor uw transactieklanten bepalen.
 
 ![](../../assets/churn-deashboard.png)
 
@@ -28,7 +28,7 @@ Te maken kolommen
 * Selecteer een [!UICONTROL column]: **`entity_id`**
 * [!UICONTROL Path]: sales_flat_order.customer_id = customer_entiteit.entiteit_id
 * [!UICONTROL Filter]:
-* Bestellingen die we tellen
+* Orders die worden geteld
 
 * `sales_flat_order` table
 * `Customer's lifetime number of orders`
@@ -59,11 +59,11 @@ Geen nieuwe metriek!
 ## Rapporten
 
 * **Waarschijnlijk eerste herhalingsvolgorde**
-* Metrisch A: Alle herhaalde opdrachten
+* Metrisch A: Volgorde voor herhalingen bij alle tijd
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
-* Metrisch B: Alle tijdbestellingen
+* Metrisch B: Volgorde in alle tijd
 * [!UICONTROL Metric]: Aantal orders
 
 * [!UICONTROL Formula]: Waarschijnlijk eerste herhalingsvolgorde
@@ -93,7 +93,7 @@ Geen nieuwe metriek!
    [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
-* Metrisch C: Alle tijden herhalen orden (verbergen)
+* Metrisch C: Volgorde voor herhaalde herhalingen (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
@@ -101,7 +101,7 @@ Geen nieuwe metriek!
 
    [!UICONTROL Group door]: `Independent`
 
-* Metrisch D: Alle laatste bestellingen bij tijd (verbergen)
+* Metrisch D: Laatste bestellingen bij volledige uitvoering (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
@@ -128,12 +128,12 @@ Geen nieuwe metriek!
 
 Het waarschijnlijkheidsrapport voor de eerste herhalingsvolgorde vertegenwoordigt de Totaal aantal herhalingsorders / Totaal aantal bestellingen. Elke order is een mogelijkheid om een herhalingsbevel te geven; het aantal herhalingsorders is de subset van die welke daadwerkelijk worden uitgevoerd .
 
-De formule die wij gebruiken vereenvoudigt aan (het Totaal herhaalde orden die na X maanden voorkwamen)/ (het Totale aantal orden die minstens X maanden oud zijn). Het toont ons dat historisch gezien, aangezien het X maanden is sinds een orde, er een Y% kans is dat de gebruiker een andere orde zal plaatsen.
+De formule die u gebruikt, vereenvoudigt (Totaal aantal herhaalde orders die na X maanden zijn uitgevoerd)/ (Totaal aantal orders die minstens X maanden oud zijn). Het toont ons dat historisch gezien, aangezien het X maanden sinds een orde is geweest, er een Y% kans is dat de gebruiker een andere orde plaatst.
 
-Zodra u uw dashboard hebt opgebouwd, is de gemeenschappelijkste vraag wij: Hoe gebruik ik dit om een kanteldrempel te bepalen?
+Nadat u het dashboard hebt opgebouwd, wordt de meest voorkomende vraag gesteld: Hoe gebruik ik dit om een kanteldrempel te bepalen?
 
-**Er is geen &quot;één goed antwoord&quot;.** Nochtans, adviseren wij het punt vinden waar de lijn de waarde kruist die de helft van het aanvankelijke herhalingskanspercentage is. Dit is het punt waarop we kunnen zeggen: &quot;Als een gebruiker een herhalingsbestelling zou maken, zouden ze dat waarschijnlijk al gedaan hebben.&quot; Uiteindelijk is het doel de drempel te selecteren waar het zinvol is om over te schakelen van &quot;retentie&quot; naar &quot;reactivering&quot;.
+**Er is geen &quot;één goed antwoord&quot;.** Adobe raadt echter aan het punt te zoeken waar de lijn de waarde kruist die de helft is van de waarschijnlijkheid bij eerste herhaling. Dit is het punt waar u kunt zeggen &quot;Als een gebruiker een herhalingsorde gaat maken, zouden zij het waarschijnlijk tegen nu hebben gedaan.&quot; Uiteindelijk is het doel de drempel te selecteren waar het zinvol is om over te schakelen van &quot;retentie&quot; naar &quot;reactivering&quot;.
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan de pagina
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan lijken op de afbeelding boven aan de pagina
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

@@ -2,9 +2,9 @@
 title: Visualisatieopties in Visual Report Builder
 description: Leer hoe te om de opties van de Visualisatie in Visual Report Builder te gebruiken.
 exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Het selecteren van de juiste visualisatie voor een bepaalde gegevensset is een essentieel onderdeel van het analyseproces. Elke gegevensset heeft een verhaal dat je moet vertellen, maar het effect van dat verhaal wordt benadrukt door zijn visuele impact en leesbaarheid.
 
-De [!DNL MBI] `Visual Report Builder` biedt twaalf verschillende visualisatieopties, elk met hun eigen voordelen en gebruiksscenario&#39;s. In dit artikel worden de verschillende visualisatieopties in [!DNL MBI], met inbegrip van de vereiste rapportconfiguraties, indien van toepassing, en een voorbeeld van een gebruikscenario. De volgende visualisaties zijn beschikbaar in MBI:
+De [!DNL MBI] `Visual Report Builder` biedt twaalf verschillende visualisatieopties, elk met hun eigen voordelen en gebruiksscenario&#39;s. In dit artikel worden de verschillende visualisatieopties in [!DNL MBI], met inbegrip van vereiste rapportconfiguraties indien van toepassing, en een voorbeeld van een gebruiksgeval. De volgende visualisaties zijn beschikbaar in MBI:
 
 * `Scalar`
 * `Table`
@@ -35,7 +35,7 @@ De [!DNL MBI] `Visual Report Builder` biedt twaalf verschillende visualisatieopt
 
 ![](../../assets/blobid0.png)
 
-Om een rapport als scalar te bewaren, vorm uw filters en tijdmontages, dan klik **[!UICONTROL Save]** of **[!UICONTROL Update]** in de rechterbovenhoek van het verslag. Onder de `Type` kiest u Nummer: Metrische naam om het rapport op te slaan als de waarde die op de linkerzijbalk wordt weergegeven.
+Om een rapport als scalar te bewaren, vorm uw filters en tijdmontages, dan klik **[!UICONTROL Save]** of **[!UICONTROL Update]** in de rechterbovenhoek van het rapport. Onder de `Type` kiest u Nummer: Metrische naam om het rapport op te slaan als de waarde die op de linkerzijbalk wordt weergegeven.
 
 ![](../../assets/blobid1.png)
 
@@ -47,7 +47,7 @@ Om een rapport als scalar te bewaren, vorm uw filters en tijdmontages, dan klik 
 
 ## `Table`
 
-Zoals de naam suggereert, `table` rapporten zijn ideaal voor het tonen van tabeldetails. Wanneer er een behoefte is om een groot aantal groep door waarden of metriek in één enkel rapport te tonen, is een lijst vaak de beste manier om te gaan. Hieronder ziet u bijvoorbeeld een tabel met &quot;klantgegevens&quot;, waarin bestellingen en inkomsten per e-mail van de klant worden gegroepeerd:
+Zoals de naam suggereert, `table` rapporten zijn ideaal voor het tonen van tabeldetails. Wanneer er een behoefte is om vele groepen door waarden of metriek in één enkel rapport te tonen, is een lijst vaak de beste manier om te gaan. Hieronder ziet u bijvoorbeeld een tabel met &quot;klantgegevens&quot;, waarin bestellingen en inkomsten per e-mail van de klant worden gegroepeerd:
 
 ![](../../assets/blobid2.png)
 
@@ -81,7 +81,7 @@ Om een rapport als lijngrafiek te bewaren, pas het rapport aan `Type` tot `Chart
 
 ![](../../assets/blobid2.png)
 
-Elke afzonderlijke metrische combinatie, groep door, en tijdintervalcombinatie wordt getoond als zijn eigen bar. Als u twee metriek met één hebt `group by`, met drie verschillende `group by` waarden, uw rapport zal zes afzonderlijke bars tonen.
+Elke afzonderlijke metrische combinatie, groep door, en tijdintervalcombinatie wordt getoond als zijn eigen bar. Als u twee metriek met één hebt `group by`, met drie verschillende `group by` waarden, uw rapport bevat zes aparte balken.
 
 Als u een rapport wilt opslaan als staafdiagram, past u het rapport aan `Type` tot `Chart` en selecteert u de `Bar` zoals hieronder weergegeven:
 
@@ -95,7 +95,7 @@ Als u een rapport wilt opslaan als staafdiagram, past u het rapport aan `Type` t
 
 `Stacked bar` grafieken zijn vergelijkbaar met de diagrammen van de staafdiagrammen, met de extra mogelijkheid om de proportionele uitsplitsing van elke balk weer te geven. Meestal worden gestapelde staafdiagrammen ingesteld met twee of meer metriek en één groep per, zodat elke balk een unieke groep per waarde vertegenwoordigt die wordt opgesplitst tussen de metrische onderdelen.
 
-Het onderstaande rapport heeft bijvoorbeeld twee identieke inkomstenwaarden: één gefilterd voor eerste orders en de andere gefilterd voor herhaalde orders. Na groepering door opslag, kunt u zowel de totale opbrengstbijdrage voor elke opslag zien (die door de totale breedte van de bar wordt vertegenwoordigd) evenals de eerste keer versus herhaalde verdeling van opbrengst voor elke opslag:
+Het rapport hieronder bevat bijvoorbeeld twee identieke inkomstenmetriek met één gefilterd voor eerste bestellingen en de andere gefilterd voor herhaalde bestellingen. Na groepering door opslag, kunt u zowel de totale opbrengstbijdrage voor elke opslag zien (die door de totale breedte van de bar wordt vertegenwoordigd) als de eerste keer versus herhaalde verdeling van opbrengst voor elke opslag.
 
 ![](../../assets/blobid4.png)
 
@@ -111,9 +111,9 @@ Als u een rapport wilt opslaan als een gestapeld staafdiagram, past u het rappor
 
 ## `Column`
 
-`Column` grafieken vertegenwoordigen elk gegevenspunt als verticale kolom, en zijn over het algemeen beter voor het tonen van tijd trending gegevens dan de horizontale visualisatie van het staafdiagram. Aangezien elke unieke metrisch en groep door combinatie in zijn eigen reeks bars wordt vertegenwoordigd, is een kolomrapport over het algemeen best voor rapporten met drie of minder metriek, of één metrisch met één enkele groep door 1-3 groep door waarden te bevatten.
+`Column` grafieken vertegenwoordigen elk gegevenspunt als verticale kolom, en zijn beter voor het tonen van tijd-trending gegevens dan de horizontale visualisatie van het staafdiagram. Elke unieke metrische waarde en groep door combinatie wordt vertegenwoordigd in zijn eigen reeks bars. Een kolomrapport is best voor rapporten met drie of minder metriek of één metrisch met één enkele groep door 1-3 groep door waarden te bevatten.
 
-In het onderstaande voorbeeld tonen we twee inkomstenmetriek, een gefilterd voor de eerste keer opbrengst en een ander voor herhaalde opbrengst, die in tijd door maand trending:
+In het onderstaande voorbeeld ziet u twee inkomstenmetriek, waarvan de ene gefilterd is voor de eerste omzet en de andere voor de volgende omzet, die in de loop van de tijd per maand trending:
 
 ![](../../assets/blobid6.png)
 
@@ -182,7 +182,7 @@ Als u een rapport wilt opslaan als een vlakdiagram, past u de `Type` tot `Chart`
 
 ![](../../assets/blobid4.png)
 
-In een trechterrapport, wordt de relatieve waarde van een bepaalde stap van de trechter weerspiegeld door de hoogte van de stap, en de orde waarin de stappen worden getoond wordt bepaald door de rapportconfiguratie. Er zijn twee manieren om een kanaalrapport te vormen:
+In een trechter-rapport wordt de relatieve waarde van een bepaalde trede van de trechter weerspiegeld door de hoogte van de trede. De rapportconfiguratie bepaalt de orde waarin de stappen worden getoond. Er zijn twee manieren om een kanaalrapport te vormen:
 
 * `Single metric with one group by`: - De volgorde van de stappen die wordt bepaald door de instelling Boven/Onder tonen van de groep door. Standaard worden treekstappen weergegeven op volgorde van de hoogste naar de laagste waarde, maar u kunt ze ook alfabetisch sorteren op naam.
 
@@ -227,7 +227,7 @@ Optie 2:
 
 ## `Bubble` diagram
 
-A `bubble` de grafiek kan tot vier afmetingen van gegevens tonen waar `X` en `Y` de assen specificeren de plaats van de bellen, `Z` De as is de grootte van de bellen, en door twee groepsbys op te nemen kunt u kleur aan de bellen toevoegen. Dit type van visualisatie wordt het best gebruikt wanneer u veelvoudige afmetingen van gegevens in één enkele grafiek wilt plotten.
+A `bubble` de grafiek kan tot vier afmetingen van gegevens tonen waar `X` en `Y` De assen specificeren de plaats van de bellen. De `Z` De as is de grootte van de bellen, en door twee groepenbys op te nemen kunt u kleur aan de bellen toevoegen. Dit type van visualisatie wordt het best gebruikt wanneer u veelvoudige afmetingen van gegevens in één enkele grafiek wilt plotten.
 
 In het volgende diagram ziet u bijvoorbeeld het aantal klanten (bubble size) dat is gegroepeerd op een specifieke acquisitiebron (bubble color) en toestand (diverse bubbles in specifieke kleur), uitgezet tegen de totale omzet en de gemiddelde levensduurbestellingen.
 
@@ -251,7 +251,7 @@ Optie 2
 * Nee `group by`
 * Set `time interval`
 
-**Voorschriften voor een uit meerdere series bestaand luchtdiagram:**
+**Voorschriften voor een uit meerdere reeksen bestaand luchtdiagram:**
 
 * Drie `metrics`
 * Twee `group by`

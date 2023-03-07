@@ -2,9 +2,9 @@
 title: Consolideer uw tabellen
 description: Leer hoe u uw tabellen en databases kunt consolideren.
 exl-id: 6065bed3-fb84-4147-a223-92dc3e1b15a5
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In het volgende gedeelte wordt besproken wanneer het aangewezen is geconsolideer
 
 Als u uw producten onder verschillende merken en websites verkoopt, is het waarschijnlijk dat de tabellen voor elk merk of website op dezelfde manier zijn gestructureerd.
 
-U hebt bijvoorbeeld een `orders` tabel voor website `A` en een aparte, maar vergelijkbare `orders` tabel voor website `B`. In deze situatie kan het nuttig zijn de `orders` tabellen van website `A` en `B` zodat u de geconsolideerde inkomsten en het aantal bestellingen van de website kunt bekijken `A` en `B`, naast het segmenteren van metriek door deze twee websites.
+U hebt bijvoorbeeld een `orders` tabel voor website `A` en een aparte, maar vergelijkbare `orders` tabel voor website `B`. In deze situatie kan het nuttig zijn de `orders` tabellen van website `A` en `B`. Hier kunt u kijken naar de geconsolideerde inkomsten en het aantal bestellingen van websites `A` en `B`, naast het segmenteren van metriek door deze twee websites.
 
 ### Oudere gegevens integreren
 
@@ -35,15 +35,15 @@ Vele bedrijven hebben hun gegevensbestanden in één keer of een andere refactor
 
 ### Gebeurtenissen combineren voor actieve gebruikersanalyse
 
-Stel je een website voor waar gebruikers verschillende dingen kunnen doen: neem een enquête, speel een spel, koop een aankoop, raadpleeg een vriend enzovoort. Doorgaans worden al deze gebeurtenissen in een eigen tabel opgeslagen. Dit maakt het moeilijk om te analyseren hoeveel afzonderlijke gebruikers in een bepaalde periode ten minste één actie van welke aard dan ook hebben ondernomen.
+Stel je een website voor waar gebruikers verschillende dingen kunnen doen: neem een enquête, speel een spel, koop een aankoop, raadpleeg een vriend enzovoort. Meestal wordt elk van deze gebeurtenissen in een eigen tabel opgeslagen. Dit maakt het moeilijk om te analyseren hoeveel afzonderlijke gebruikers in een bepaalde periode ten minste één actie van welke aard dan ook hebben ondernomen.
 
-U kunt geconsolideerde tabellen gebruiken om één uniforme lijst met alle gebruikers te maken en wanneer een van deze gebeurtenissen heeft plaatsgevonden. U kunt dan vragen op de geconsolideerde lijst in werking stellen om zulk een analyse gemakkelijk te leiden.
+U kunt geconsolideerde tabellen gebruiken om één uniforme lijst van alle gebruikers te maken en wanneer een van deze gebeurtenissen heeft plaatsgevonden. U kunt dan vragen op de geconsolideerde lijst in werking stellen om zulk een analyse gemakkelijk te leiden.
 
-Zoals met alle andere lijsten in uw gegevenspakhuis, kunt u extra kolommen toevoegen aan macht verschillende soorten grafieken en analyses.
+Zoals met alle andere lijsten in uw Data Warehouse, kunt u extra kolommen toevoegen om verschillende soorten grafieken en analyses te aandrijven.
 
 ## Een geconsolideerde tabel maken, weergeven of bijwerken
 
-Als u in het toevoegen van een geconsolideerde lijst aan uw gegevenspakhuis geinteresseerd bent, contacteer [!DNL MBI] [ondersteuning](../guide-overview.md).
+Als u een geconsolideerde tabel aan uw Data Warehouse wilt toevoegen, neemt u contact op met [!DNL MBI] [ondersteuning](../guide-overview.md).
 
 >[!NOTE]
 >

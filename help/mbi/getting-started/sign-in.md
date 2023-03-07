@@ -2,9 +2,9 @@
 title: Toegang tot uw [!DNL MBI] Account
 description: Meer informatie over aanmelden bij uw [!DNL MBI] account.
 exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
-source-git-commit: 6f018ab220f2ae573cbc9016f9efb83c27a254be
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ U kunt zich aanmelden met uw [!DNL Adobe ID] of uw [!DNL MBI] e-mailadres en wac
 
 >[!NOTE]
 >
->Als u zich aanmeldt met uw [!DNL Adobe ID], kunt u uw [!DNL MBI] profielwachtwoord.
+>Als u zich aanmeldt met uw [!DNL Adobe ID], u kunt uw [!DNL MBI] profielwachtwoord.
 
 ## Aanmelden met uw gebruikersnaam en wachtwoord
 

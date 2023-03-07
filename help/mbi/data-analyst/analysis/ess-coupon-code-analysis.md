@@ -2,9 +2,9 @@
 title: Coupon Code Analysis (basis)
 description: Meer informatie over de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en de gewoonten van klanten beter te begrijpen.
 exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
-source-git-commit: 82882479d4d6bea712e8dd7c6b2e5b7715022cc3
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en de gewoonten van klanten beter te begrijpen.
 
-We hebben de stappen gedocumenteerd die nodig zijn om deze analyse te maken en te begrijpen hoe klanten met coupon het gebruik van afzonderlijke couponcodes kunnen uitvoeren, trends kunnen zien en het gebruik van afzonderlijke couponcodes kunnen volgen.
+In dit artikel worden de stappen beschreven die nodig zijn om deze analyse te maken, zodat u kunt zien hoe klanten met coupon het gebruik van afzonderlijke couponcodes uitvoeren, trends kunt zien en het gebruik van afzonderlijke couponcodes kunt bijhouden.
 
 ![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
@@ -27,7 +27,7 @@ Eerst een opmerking over hoe couponcodes worden bijgehouden. Als een klant een c
 
 ## Een metrisch object maken
 
-De eerste stap zal zijn nieuwe metrisch met de volgende stappen te construeren:
+De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de volgende stappen:
 
 * Navigeren naar **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
 
@@ -45,7 +45,7 @@ De eerste stap zal zijn nieuwe metrisch met de volgende stappen te construeren:
    * Navigeren naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
    * Geef het dashboard een naam, zoals `_Coupon Analysis_`.
 
-* Op die manier zullen wij alle verslagen opstellen en toevoegen.
+* Hier maakt u alle rapporten en voegt u deze toe.
 
 ## Rapporten samenstellen
 
@@ -53,7 +53,7 @@ De eerste stap zal zijn nieuwe metrisch met de volgende stappen te construeren:
 
 >[!NOTE]
 >
->De [!UICONTROL Time Period]** voor elk rapport wordt vermeld als `All-time`. U kunt dit aanpassen aan uw analysebehoeften. We raden alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time`, `Year-to-date`, of `Last 365 days`.
+>De [!UICONTROL Time Period]** voor elk rapport wordt vermeld als `All-time`. U kunt dit aanpassen aan uw analysebehoeften. Adobe raadt alle rapporten op dit dashboard aan dezelfde periode te bestrijken, zoals `All time`, `Year-to-date`, of `Last 365 days`.
 
 * **Orders met coupons**
    * 
@@ -129,15 +129,15 @@ De eerste stap zal zijn nieuwe metrisch met de volgende stappen te construeren:
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS NIET**`[NULL]`
          * [`B`] `Customer's order number` **Gelijk aan** `1`
-   * Nieuwe formule maken: `Gross revenue`
+   * Formule maken: `Gross revenue`
       * [!UICONTROL Formula]: `(B – C)`
       * 
          [!UICONTROL Format]: `Currency`
-   * Nieuwe formule maken:**% verdisconteerd**
+   * Formule maken:**% verdisconteerd**
       * Formule: `(C / (B - C))`
       * 
          [!UICONTROL Format]: `Percentage`
-   * Nieuwe formule maken: `Average order discount`
+   * Formule maken: `Average order discount`
       * [!UICONTROL Formula]: `(C / A)`
       * 
          [!UICONTROL Format]: `Percentage`

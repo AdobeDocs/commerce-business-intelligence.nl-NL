@@ -2,9 +2,9 @@
 title: Dashboardgroepen gebruiken
 description: Leer hoe u dashboards beter kunt organiseren.
 exl-id: e48b7345-62d0-4898-997e-3c3c02040ad3
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,25 +17,25 @@ In het vervolgkeuzemenu voor dashboardselectie worden dashboardgroepen in alfabe
 
 ## Delen van dashboardgroep
 
-Dashboardgroepen kunnen niet rechtstreeks tussen gebruikers worden gedeeld. Wanneer een dashboard met gebruikers wordt gedeeld, wordt de dashboardgroep onder automatisch gecreeerd voor die gebruikers als het nog niet bestaat. Als de dashboardgroep al bestaat, wordt het dashboard gewoon aan de lijst toegevoegd.
+Dashboardgroepen kunnen niet rechtstreeks tussen gebruikers worden gedeeld. Wanneer een dashboard met gebruikers wordt gedeeld, wordt de dashboardgroep onder automatisch gecreeerd voor die gebruikers als het niet bestaat. Als de dashboardgroep bestaat, wordt het dashboard toegevoegd aan de lijst.
 
-Wanneer de groep van een dashboard door zijn eigenaar wordt veranderd, zal de verandering automatisch voor alle gebruikers worden weerspiegeld met wie het dashboard is gedeeld. Gebruikers kunnen de dashboardgroep niet wijzigen voor dashboards die ze niet hebben.
+Wanneer de groep van een dashboard door zijn eigenaar wordt veranderd, wordt de verandering automatisch weerspiegeld voor alle gebruikers met wie het dashboard is gedeeld. Gebruikers kunnen de dashboardgroep niet wijzigen voor dashboards die ze niet hebben.
 
 ## Dashboardgroepen maken
 
 U kunt op twee manieren dashboardgroepen maken:
 
-1. Bij het maken van een nieuw dashboard:
+1. Bij het maken van een dashboard:
 
    ![dashboardgroep maken](../../assets/create-dashboard-groups-new-dashboard.png)
 
 1. Wanneer u de groep van een bestaand dashboard wijzigt, kiest u `Manage Data > Dashboards` pagina:
 
-   1. Klik op het dashboard waarvoor u de nieuwe groep wilt maken.
+   1. Klik op het dashboard waarvoor u de groep wilt maken.
 
    1. Onder `Dashboard Group (optional)`, wordt de huidige dashboardgroep weergegeven.
 
-   1. Als u een nieuwe groep wilt maken, typt u de naam van de nieuwe groep en klikt u buiten het vak.
+   1. Als u een groep wilt maken, typt u de naam van de nieuwe groep en klikt u buiten het vak.
 
       ![dashboardgroep maken](../../assets/create-dashboard-groups-existing-dashboard.png)
 

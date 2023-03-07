@@ -2,14 +2,14 @@
 title: Een nieuwe gebruiker toevoegen/bewerken
 description: Meer informatie over het toevoegen van een nieuwe [!DNL MBI] en hoe u uw gebruikersnaam of wachtwoord kunt bijwerken.
 exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# Nieuwe gebruiker toevoegen
+# Een gebruiker toevoegen
 
 1. Klik op de naam van uw bedrijf in de rechterbovenhoek en selecteer **[!UICONTROL Invite User]** in de vervolgkeuzelijst.
 1. Voer de naam en het e-mailadres van de gebruiker in.
@@ -22,19 +22,19 @@ ht-degree: 0%
 
 1. Klikken **[!UICONTROL Save]**.
 
-De nieuwe gebruiker zal een e-mail met login en wachtwoorddetails ontvangen.
+De nieuwe gebruiker wordt een e-mail met login en wachtwoorddetails verzonden.
 
 >[!NOTE]
 >
->De nieuwe gebruiker heeft standaard geen dashboards. Wij raden u aan [delen](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk.
+>De nieuwe gebruiker heeft standaard geen dashboards. Adobe raadt u aan [delen](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk.
 
 ## Uw e-mailadres of wachtwoord bijwerken
 
-U kunt uw e-mailadres en/of wachtwoord bijwerken door in de rechterbovenhoek op uw bedrijfsnaam te klikken en vervolgens op Klik **[!UICONTROL Edit Profile]**.
+U kunt uw e-mailadres en/of wachtwoord bijwerken door in de rechterbovenhoek op uw bedrijfsnaam te klikken en vervolgens op **[!UICONTROL Edit Profile]**.
 
 ## De uitnodiging opnieuw verzenden
 
-Als u de uitnodiging opnieuw naar de nieuwe gebruiker moet sturen, gaat u naar de [aanmeldingspagina](https://dashboard.rjmetrics.com), klikt u op **[!UICONTROL Forgot?]**, voert u het e-mailadres van de nieuwe gebruiker in en klikt u op **[!UICONTROL Reset Password]**. Hierdoor wordt de uitnodiging opnieuw verzonden en kan de gebruiker zich aanmelden.
+Als u de uitnodiging opnieuw naar de nieuwe gebruiker moet sturen, gaat u naar de [aanmeldingspagina](https://dashboard.rjmetrics.com/v2/session/create), klikt u op **[!UICONTROL Forgot?]**, voert u het e-mailadres van de nieuwe gebruiker in en klikt u op **[!UICONTROL Reset Password]**. Hiermee wordt de uitnodiging opnieuw verzonden en kan de gebruiker zich aanmelden.
 
 >[!IMPORTANT]
 >

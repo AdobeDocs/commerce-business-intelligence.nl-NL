@@ -2,9 +2,9 @@
 title: Gegevens uit Band en uitgaven importeren
 description: Leer Bing-reclame-uitgaven importeren in [!DNL MBI] voor analyse.
 exl-id: c8dec4b4-74ce-41b2-a77d-403fe44e2816
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Om te importeren [!DNL Bing] advertenties geven gegevens uit aan [!DNL MBI] voor
 
 ## [!DNL Bing] Advertentie-editor
 
-Om uw gegevens van BingAdds uit te voeren, zult u de Redacteur van Bing moeten hebben geïnstalleerd Advertentie. U kunt een gratis download vinden van [Bing Ads Editor](https://advertise.bingads.microsoft.com/en-us/bingads-editor).
+Om uw gegevens van BingAdds uit te voeren, moet u de Redacteur van Bing Ads hebben geïnstalleerd. U kunt een gratis download vinden van [Bing Ads Editor](https://about.ads.microsoft.com/en-us/solutions/tools/editor).
 
 ## [!DNL Bing] Adds Data Export
 
@@ -24,4 +24,4 @@ Om uw gegevens van BingAdds uit te voeren, zult u de Redacteur van Bing moeten h
 1. In de `Save As` klikt u op de map waarin u het exportbestand wilt opslaan.
 1. In de `File name` kiest u een naam voor het exporteren van uw bestand.
 1. Klikken **[!UICONTROL Save]**.
-1. Nadat het bestand is gedownload,  [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en)en wij zullen een eerste upload namens u uitvoeren en de noodzakelijke achterwaartse afmetingen instellen.
+1. Nadat het bestand is gedownload,  [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om voor uw rekening een eerste upload uit te voeren en de noodzakelijke achterste-eindafmetingen in te stellen.

@@ -2,7 +2,7 @@
 title: Opeenvolgende vergelijking berekende kolom
 description: Leer het doel en het gebruik van de Opeenvolgende Berekende kolom van de Vergelijking.
 exl-id: 625062b4-f05d-42aa-94c3-729b39c7d728
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Dit onderwerp schetst het doel en het gebruik van `Sequential Comparison` bereke
 
 De `Sequential Comparison` kolomtype: Hiermee wordt het verschil tussen opeenvolgende gebeurtenissen gevonden. Het meest voorkomende type `Sequential Comparison` de kolom is `Seconds since previous order` kolom. Er zijn drie invoeren nodig voor deze kolom:
 
-1. `Event Owner`: Deze invoer bepaalt de entiteit waarvoor de rijen zijn gegroepeerd. In het dialoogvenster `Seconds since previous order` kolom, is de gebeurteniseigenaar de klant, omdat wij het aantal seconden sinds de vorige orde van de zelfde klant willen vinden.
+1. `Event Owner`: Deze invoer bepaalt de entiteit waarvoor de rijen zijn gegroepeerd. In het dialoogvenster `Seconds since previous order` kolom, is de gebeurteniseigenaar de klant, omdat u het aantal seconden sinds de vorige orde van de zelfde klant wilt vinden.
 1. `Event Date`: Deze invoer dwingt de volgorde van gebeurtenissen af. In het geval van `Seconds since previous order`moet de kolom met het tijdstempel van de volgorde `Event Date`. Deze invoer is altijd een tijdstempel.
 1. `Value to Compare`: Deze invoer is de werkelijke waarde die moet worden vergeleken. De waarde van de vorige rij wordt afgetrokken van de waarde van de huidige rij. Daarom wordt een kolom die het tijdverschil tussen opeenvolgende orders van een klant vindt, aangeroepen `Seconds since previous order`. Deze invoer hoeft geen tijdstempel te zijn. Een niet-tijdstempelvoorbeeld is het verschil in orderwaarde tussen opeenvolgende orders van een klant te vinden.
 
@@ -31,7 +31,7 @@ De `Sequential Comparison` kolomtype: Hiermee wordt het verschil tussen opeenvol
 | **`4`** | A | 2015-01-02 13:00:00 | 126000 |
 | **`5`** | B | 2015-01-03 13:00:00 | 217800 |
 
-In het bovenstaande voorbeeld: `Seconds since owner's previous event` is de `Sequential Comparison` berekende kolom. Voor de `owner_id = A`, wordt eerst een reeks vastgesteld op basis van de `timestamp` kolom, en trekt dan de vorige gebeurtenis af `timestamp` uit de tijdstempel van de huidige gebeurtenis. In de derde rij in de tabel - de tweede rij voor `owner_id A` - de waarde van `Seconds since owner's previous event` is het aantal seconden tussen &#39;2015-01-01 02:00&#39; en &#39;2015-01-01 00&#39;:00:00&quot;. Dit verschil is 2 uur = 7200 seconden.
+In het bovenstaande voorbeeld: `Seconds since owner's previous event` is de `Sequential Comparison` berekende kolom. Voor de `owner_id = A`, wordt eerst een reeks vastgesteld op basis van de `timestamp` kolom, en trekt dan de vorige gebeurtenis af `timestamp` uit de tijdstempel van de huidige gebeurtenis. In de derde rij in de tabel - de tweede rij voor `owner_id A` - de waarde van `Seconds since owner's previous event` is het aantal seconden tussen &#39;2015-01-01 02:00&#39; en &#39;2015-01-01 00&#39;:00:00&quot;. Dit verschil is twee uur = 7200 seconden.
 
 Voor dit berekende kolomtype heeft de rij die overeenkomt met de eerste gebeurtenis van de eigenaar een `NULL` waarde.
 
@@ -48,7 +48,7 @@ Om een **Gebeurtenisnummer** kolom:
    - `Event Owner`
    - `Event Date`
    - `Value to Compare`
-1. U kunt ook filters toevoegen om rijen uit te sluiten van overweging. De uitgesloten rijen zullen een NULL waarde voor deze kolom hebben.
+1. U kunt ook filters toevoegen om rijen uit te sluiten van overweging. De uitgesloten rijen hebben een NULL-waarde voor deze kolom.
 1. Geef een naam op voor de kolom boven aan de pagina en klik op **[!UICONTROL Save]**.
 1. De kolom is beschikbaar voor gebruik *onmiddellijk*.
 

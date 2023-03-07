@@ -2,9 +2,9 @@
 title: MailChimp-gegevens importeren
 description: Leren om MailChimp-gegevens te importeren in [!DNL MBI].
 exl-id: 5595c6a6-5476-4a0e-a493-ddc32161894e
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,6 @@ Om een volledig beeld te krijgen van uw campagnepogingen, kunt u uw invoeren `Ma
 
 ## Bestanden voorbereiden voor uploaden naar [!DNL MBI] {#upload}
 
-Elk bestand - `Opens`, `Clicks`, en `Sent` - moet worden geüpload naar [!DNL MBI] als een afzonderlijk bestand. We raden u ook aan de bestanden een naam te geven met deze naamgevingsconventie: `MailChimp\_ACTION\_DATE`. Vervangen `ACTION` with `Open`, `Click`, of `Sent`en vervangen `DATE` met de datum van uitvoer.
+Elk bestand - `Opens`, `Clicks`, en `Sent` - moet worden geüpload naar [!DNL MBI] als een afzonderlijk bestand. Adobe raadt u aan de bestanden een naam te geven met behulp van deze naamgevingsconventie: `MailChimp\_ACTION\_DATE`. Vervangen `ACTION` with `Open`, `Click`, of `Sent`en vervangen `DATE` met de datum van uitvoer.
 
-Wanneer u klaar bent om de bestanden te uploaden, gebruikt u de [`File Upload` functie](../connecting-data/using-file-uploader.md) om de gegevens in uw gegevenspakhuis te brengen.
+Wanneer u klaar bent om de bestanden te uploaden, gebruikt u de [`File Upload` functie](../connecting-data/using-file-uploader.md) om de gegevens in uw Data Warehouse te brengen.

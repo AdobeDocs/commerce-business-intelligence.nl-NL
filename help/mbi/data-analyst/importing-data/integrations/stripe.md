@@ -1,10 +1,10 @@
 ---
 title: Streep verbinden
-description: Leer hoe u de betalings- en factuurgegevens van uw bedrijf beheert en bijhoudt.
+description: Leer hoe u de betaling- en factuurgegevens van uw bedrijf beheert en bijhoudt.
 exl-id: c038f2a9-b2bd-4e45-93f9-12d2e5077b31
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. Ga naar de `Connections` pagina onder **[!UICONTROL Admin** > **Connections]**.
 1. Klikken **[!UICONTROL Add a Data Source]**, die zich aan de rechterkant van het scherm boven het `Data Sources` tabel.
-1. Klik op de knop [!DNL Stripe] pictogram. Hiermee wordt het dialoogvenster `[!DNL Stripe] authorization` pagina.
+1. Klik op de knop [!DNL Stripe] pictogram. Hierdoor wordt het dialoogvenster `[!DNL Stripe] authorization` pagina.
 1. Klikken **[!UICONTROL Connect with Stripe]**.
 
 ## Toestaan [!DNL MBI] toegang tot uw [!DNL Stripe] data {#steptwo}

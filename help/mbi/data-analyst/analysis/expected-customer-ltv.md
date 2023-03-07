@@ -1,23 +1,23 @@
 ---
 title: LTV-analyse (Lifetime Value) verwacht voor Pro
-description: Leer hoe te opstelling een dashboard dat u zal helpen de waardeverhoging van de klantenleven en verwachte levenwaarde van uw klanten begrijpen.
+description: Leer hoe u een dashboard instelt waarmee u inzicht krijgt in de groei van de levenswaarde van klanten en de verwachte levensduurwaarde van uw klanten.
 exl-id: e353b92a-ff3b-466b-b519-4f86d054c0bc
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # Verwachte Lifetime-waardeanalyse
 
-In dit artikel, tonen wij aan hoe te opstelling een dashboard dat u zal helpen de waardegroei van de klantenleven en verwachte levenwaarde van uw klanten begrijpen.
+Dit artikel toont aan hoe te opstelling een dashboard dat u de waardegroei van de klantenleven en verwachte levenwaarde van uw klanten helpt begrijpen.
 
 ![](../../assets/exp-lifetim-value-anyalysis.png)
 
 Deze analyse is alleen beschikbaar voor klanten met een Pro-account op de nieuwe architectuur. Als uw account toegang heeft tot `Persistent Views` onderdeel onder de `Manage Data` zijbalk, bevindt u zich op de nieuwe architectuur en kunt u de hier vermelde instructies opvolgen om deze analyse zelf te maken.
 
-Voordat u aan de slag gaat, wilt u zich vertrouwd maken met onze [cohort report builder.](../dev-reports/cohort-rpt-bldr.md)
+Voordat u aan de slag gaat, wilt u zich vertrouwd maken met de [cohort report builder.](../dev-reports/cohort-rpt-bldr.md)
 
 ## Berekende kolommen
 
@@ -151,6 +151,6 @@ Overige diagramdetails
 * [!UICONTROL Cohort date]: `Customer's first order date`
 * [!UICONTROL Perspective]: `Cumulative average value per cohort member`
 
-Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het eindresultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
+Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
-Als u op vragen loopt terwijl u deze analyse bouwt, of eenvoudig ons professionele de dienstenteam wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).

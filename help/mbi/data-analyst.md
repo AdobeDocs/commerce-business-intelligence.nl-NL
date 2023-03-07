@@ -2,9 +2,9 @@
 title: Data Analyst
 description: Data Analyst
 exl-id: e7c4e0ba-f8fd-4a35-a9b1-1c2c43a1773d
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,11 @@ ht-degree: 0%
 
 U bent comfortabel het ontwerpen van vragen en het zijn de go-aan persoon voor gegevensanalyse. U weet hoe u specifieke antwoorden kunt vinden op gegevensvragen en u wilt een zelfbedieningservaring voor uw collega&#39;s vergemakkelijken.
 
-In deze sectie leert u hoe u gegevens kunt verbinden en importeren naar [!DNL MBI], bekijk hoe uw gegevens worden opgeslagen en in uw gegevenspakhuis gestructureerd, hoe te om uw gegevens te analyseren, en hoe te om het `SQL report builder`.
+In dit gedeelte wordt getoond hoe u:
+* gegevens verbinden en importeren naar [!DNL MBI]
+* bekijken hoe uw gegevens in uw Data Warehouse worden opgeslagen en gestructureerd
+* uw gegevens analyseren
+* gebruiken `SQL report builder`
 
 ## Verwante
 

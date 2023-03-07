@@ -2,9 +2,9 @@
 title: MySQL via cPanel verbinden
 description: Leer hoe u MySQL via cPanel kunt verbinden.
 exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
-source-git-commit: 9974cc5c5cf89829ca522ba620b8c0c2d509610c
+source-git-commit: e4ac176492913623ae461484c8ef2abe034e5f62
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->We raden u ten zeerste aan SSH of een andere codering te gebruiken om uw gegevens te beveiligen. Als dit geen optie is, kunt u nog steeds rechtstreeks verbinding maken [!DNL MBI] aan uw database toe met behulp van de instructies in dit artikel.
+>Adobe raadt u aan SSH of een andere codering te gebruiken om uw gegevens te beveiligen! Als dit geen optie is, kunt u nog steeds rechtstreeks verbinding maken [!DNL MBI] aan uw database toe met behulp van de instructies in dit artikel.
 
-In dit artikel, lopen wij u door uw gegevensbestand MySQL rechtstreeks aan te sluiten [!DNL MBI] cPanel gebruiken&quot;. Dit proces kan ook worden gebruikt om verbinding te maken [!DNL Adobe Commerce] en andere MySQL-gebaseerde eCommerce-databases naar [!DNL MBI].
+Dit artikel begeleidt u door direct het verbinden van uw gegevensbestand MySQL met [!DNL MBI] gebruiken `cPanel`. Dit proces kan ook worden gebruikt om verbinding te maken [!DNL Adobe Commerce] en andere MySQL-gebaseerde eCommerce-databases naar [!DNL MBI].
 
 1. Een [!DNL MBI] MySQL-gebruiker in `cPanel`
 1. Verbinding en gebruikersgegevens invoeren in [!DNL MBI]
@@ -41,7 +41,7 @@ Aan de slag.
    ![](../../../assets/create-mbi-mysql-user-cpanel.png)
 
 1. Klikken **[!UICONTROL Create User]**.
-1. Nu u de gebruiker hebt gecreeerd, moet u het aan een gegevensbestand associëren. Ga terug naar de `Add New User` sectie - zie de montages voor `Add User to Database?` Dat is wat we nodig hebben.
+1. Nu u de gebruiker hebt gecreeerd, moet u het aan een gegevensbestand associëren. Ga terug naar de `Add New User` sectie - zie de montages voor `Add User to Database?` Dat is wat u nodig hebt.
 1. In de `User` Selecteer de gebruiker die u hebt gemaakt in het vervolgkeuzemenu van deze sectie.
 1. In de `Database` vervolgkeuzelijst van deze sectie, selecteer de database waarmee u verbinding wilt maken [!DNL MBI].
 1. Klikken **[!UICONTROL Add]**.
@@ -49,16 +49,16 @@ Aan de slag.
 
 ## De verbinding en gebruikersgegevens invoeren in [!DNL MBI] {#finish}
 
-Om dingen te verpakken, moeten wij de verbinding en gebruikersinformatie ingaan in [!DNL MBI]. Hebt u de MySQL aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Manage Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en vervolgens het MySQL-pictogram.
+Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL MBI]. Hebt u de MySQL aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Manage Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en vervolgens het MySQL-pictogram.
 
 Voer de volgende gegevens in op deze pagina in het dialoogvenster `Database Connection` sectie:
 
 * `Username`: De gebruikersnaam voor de [!DNL MBI] MySQL-gebruiker
 * `Password`: Het wachtwoord voor de [!DNL MBI] MySQL-gebruiker
 * `Port`: De poort van MySQL op uw server (`3306` standaard)
-* `Host`: De openbare adressen van de `MySQL` server [!DNL MBI] maakt verbinding met. Dit is meestal de URL waarmee u zich aanmeldt `cPanel`.
+* `Host`: De openbare adressen van de `MySQL` server [!DNL MBI] maakt verbinding met. Dit is gewoonlijk de URL waarmee u zich aanmeldt `cPanel`.
 
-Als u een [`SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md), moet u ook de versleutelingsgegevens invoeren. Stel de `Encrypted` schakelen naar `Yes` om het formulier weer te geven.
+Als u een [`SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md), moet u de versleutelingsgegevens invoeren. Stel de `Encrypted` schakelen naar `Yes` om het formulier weer te geven.
 
 * `Connection Type`: Stel deze in op `SSH Tunnel`
 * `Remote Address`: Het IP-adres of de hostnaam van de server [!DNL MBI] wordt

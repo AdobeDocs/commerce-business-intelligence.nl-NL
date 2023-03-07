@@ -2,9 +2,9 @@
 title: Visualisaties maken van SQL-query's
 description: Leer om u met de terminologie vertrouwd te maken die in SQL Report Builder wordt gebruikt en u een stevige stichting te geven voor het creëren van SQL visualisaties.
 exl-id: 9b9bc205-5b64-4e64-8d23-057072e5dd72
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Voordat u met deze zelfstudie begint, raadpleegt u de volgende terminologie die 
 >
 >Datums en tijdstempels kunnen ook worden gebruikt als `Categories`. Zij zijn enkel een kolom van gegevens in uw vraag en moeten worden geformatteerd en worden bevolen zoals gewenst in de vraag zelf.
 
-- `Labels`: Deze worden toegepast als labels op de x-as. Wanneer het analyseren van gegevenstrending in tijd, worden de jaar en maandkolommen over het algemeen gespecificeerd als etiketten. Er kunnen meerdere kolommen worden ingesteld op Label.
+- `Labels`: Deze worden toegepast als labels op de x-as. Wanneer het analyseren van gegevenstrending in tijd, worden de jaar en maandkolommen gespecificeerd als etiketten. Er kunnen meerdere kolommen worden ingesteld op Label.
 
 ## Stap 1: De query schrijven
 
@@ -35,7 +35,7 @@ Houd rekening met het volgende:
 
 - De `SQL Report Builder` gebruik [`Redshift SQL`](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
 
-- Als u een rapport met een tijdreeks maakt, moet u `ORDER BY` de tijdstempelkolom(men). Dit zal ervoor zorgen dat de tijdstempels in de juiste orde in het rapport worden geplot.
+- Als u een rapport met een tijdreeks maakt, moet u `ORDER BY` de tijdstempelkolom(men). Dit zorgt ervoor dat de tijdstempels in de juiste volgorde in het rapport worden uitgezet.
 
 - De `EXTRACT` Deze functie is handig voor het parseren van de dag, week, maand of het jaar van de tijdstempel. Dit is handig wanneer de `time interval` u wilt gebruiken voor het rapport: `daily`, `weekly`, `monthly`, of `yearly`.
 
@@ -60,17 +60,17 @@ Deze vraag keert deze lijst van resultaten terug:
 
 ## Stap 2: De visualisatie maken
 
-Met deze resultaten *hoe maak je de visualisatie ?* Klik op de knop **[!UICONTROL Chart]** in de `Results` venster. Hiermee wordt het dialoogvenster `Chart settings` tab.
+Met deze resultaten *hoe maak je de visualisatie ?* Klik op de knop **[!UICONTROL Chart]** in de `Results` venster. Hierdoor wordt het dialoogvenster `Chart settings` tab.
 
 Wanneer een vraag eerst wordt uitgevoerd, kan het rapport onscrubable kijken omdat alle kolommen in de vraag als reeks worden uitgezet:
 
 ![](../assets/SQL_initial_report_results.png)
 
-Voor dit voorbeeld willen we dat dit een lijngrafiek wordt die trends in de loop van de tijd weergeeft. Gebruik de volgende instellingen om het bestand te maken:
+In dit voorbeeld wilt u dat dit een lijngrafiek wordt die zich in de loop van de tijd ontwikkelt. Gebruik de volgende instellingen om het bestand te maken:
 
-- `Series`: Selecteer `Items sold` kolom als de `Series` omdat wij het willen meten . Nadat u een `Series` kolom, zult u één enkele lijn zien die in het rapport wordt geplot.
+- `Series`: Selecteer `Items sold` kolom als de `Series` omdat je het wilt meten. Nadat u een `Series` kolom, zult u één enkele lijn zien die in het rapport wordt geplot.
 
-- `Category`: In dit voorbeeld willen we elk product als een andere regel in het rapport bekijken. Om dit te doen, stellen wij `Product name` als de `Category`.
+- `Category`: Voor dit voorbeeld, wilt u elk product als verschillende lijn in het rapport bekijken. Hiervoor stelt u `Product name` als de `Category`.
 
 - `Labels`: De kolommen gebruiken `year` en `month` als labels op de x-as om te kunnen bekijken `Items Sold` in de loop van de tijd.
 
@@ -78,7 +78,7 @@ Voor dit voorbeeld willen we dat dit een lijngrafiek wordt die trends in de loop
 >
 >De query moet een `ORDER BY` clausule op de etiketten indien deze `date`/`time` kolommen.
 
-Hier is een snel overzicht van hoe wij deze visualisatie, van het runnen van de vraag aan vestiging het rapport creeerden:
+Hieronder volgt een snel overzicht van hoe u deze visualisatie creeerde, van het runnen van de vraag aan vestiging het rapport:
 
 ![](../assets/SQL_report_settings.gif)
 

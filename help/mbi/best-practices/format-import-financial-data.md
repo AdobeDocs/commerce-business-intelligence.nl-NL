@@ -2,9 +2,9 @@
 title: Financiële gegevens opmaken en importeren
 description: Leer hoe u financiële gegevens opmaakt en importeert.
 exl-id: cdbed262-7cf1-4fd6-ad5a-c44d26dffba7
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '259'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Dit onderwerp bespreekt de beste manier om financiële gegevens voor analyse in te voeren [!DNL MBI].
 
-Een tweedimensionale, cross-tab gegevenstabel is vaak de indeling die wordt gebruikt voor financiële gegevens. Met waarden die door labels in zowel kolommen als rijen worden gecategoriseerd, kan dit type lay-out gemakkelijk zijn om met menselijke ogen en spreadsheethulpmiddelen te bekijken, maar het is niet zeer vriendelijk aan gegevensbestanden.
+Een tweedimensionale, cross-tab gegevenstabel is vaak de indeling die wordt gebruikt voor financiële gegevens. Met waarden die door labels in zowel kolommen als rijen worden gecategoriseerd, zou dit type lay-out gemakkelijk met menselijke ogen en spreadsheethulpmiddelen kunnen zijn, maar het is niet vriendschappelijk aan gegevensbestanden.
 
 ![](../../mbi/assets/crosstab.png)
 
@@ -26,7 +26,7 @@ Deze gegevens importeren en analyseren in [!DNL MBI], moet de tabel worden samen
 Een tweedimensionale tabel samenvoegen met een Excel-draaientabel:
 
 1. Open het bestand met de tweedimensionale gegevenstabel.
-1. Open de Wizard draaitabellen. In Windows is de sneltoets `Alt-D`. Typ in Mac OSX `Command-Option-P`.
+1. Open de Wizard draaitabellen. In Windows is de sneltoets `Alt-D`. Voer in Mac OS `Command-Option-P`.
 1. Selecteren **[!UICONTROL Multiple consolidated ranges]** en klik op **[!UICONTROL Next]**.
 1. Selecteren **[!UICONTROL I will create the page fields]** en klik op **[!UICONTROL Next]**.
 1. Selecteer de volledige gegevensset in de tweedimensionale tabel, inclusief de labels. Zorg ervoor dat `0` is geselecteerd voor het aantal gewenste paginavelden en klik op **[!UICONTROL Next]**.

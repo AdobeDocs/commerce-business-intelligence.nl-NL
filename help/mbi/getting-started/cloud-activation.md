@@ -2,9 +2,9 @@
 title: Activeer uw [!DNL MBI] Account voor Cloud Starter-abonnementen
 description: Meer informatie over activeren [!DNL MBI] voor Cloud Starter-projecten.
 exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
-source-git-commit: 6f018ab220f2ae573cbc9016f9efb83c27a254be
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
 >[!NOTE]
 >
->Voor activering van Help [!DNL MBI] for `Cloud Pro` projecten, neemt u contact op met uw Adobe-accountteam of technische adviseur van de klant.
+>Voor hulp bij activering [!DNL MBI] for `Cloud Pro` projecten, neemt u contact op met uw Adobe-accountteam of technische adviseur van de klant.
 
 1. Maak uw [!DNL MBI] Account.
 
@@ -25,7 +25,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
    - Klikken **[!UICONTROL Create Instance]**. Neem contact op met uw Adobe-accountteam of technische adviseur van de klant als deze knop niet wordt weergegeven.
 
-   - Selecteer uw `Cloud Starter` abonnement. Als u alleen een `cloud starter` abonnement wordt automatisch geselecteerd.
+   - Selecteer uw `Cloud Starter` abonnement. Als u alleen een `cloud starter` -abonnement, dit is de standaardselectie.
 
    - Klikken **[!UICONTROL Continue]**.
 
@@ -49,13 +49,13 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
    ![](../assets/create-account-6.png)
 
-   Er is wat informatie u moet verzamelen alvorens u uw gegevensbestand voor de derde stap in de instapkaartstroom kunt verbinden. U vult de `Connect your database` in Stap 9.
+   Verzamel enkele informatie voordat u uw database kunt verbinden voor de derde stap in de instapkaartstroom. U voltooit de `Connect your database` in Stap 9.
 
 1. Speciaal maken [!DNL MBI] Gebruiker.
 
-   - Een nieuwe gebruiker maken in uw [Adobe Commerce-account](https://accounts.magento.com).
+   - Maak een gebruiker in uw [Adobe Commerce-account](https://account.magento.com/customer/account/login).
 
-   - _Waarom een nieuwe gebruiker?_ [!DNL MBI] heeft een gebruiker nodig die aan het project wordt toegevoegd om voortdurend nieuwe gegevens te halen die naar de rekening moeten worden overgebracht [!DNL MBI] data-entrepot. Deze gebruiker zal als die verbinding dienen. Het toevoegen van deze gebruiker aan het project zal in Stap 4 komen.
+   - _Waarom een nieuwe gebruiker?_ [!DNL MBI] heeft een gebruiker nodig die aan het project wordt toegevoegd om voortdurend nieuwe gegevens te halen die naar de rekening moeten worden overgebracht [!DNL MBI] Data Warehouse. Deze gebruiker fungeert als die verbinding. Het toevoegen van deze gebruiker aan het project is behandeld in Stap 4.
 
    - De reden waarom er een speciale [!DNL MBI] gebruiker moet voorkomen dat de toegevoegde gebruiker per ongeluk wordt gedeactiveerd of verwijderd en de [!DNL MBI] verbinding.
 
@@ -75,7 +75,7 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
 1. Uw nieuwe toevoegen [!DNL MBI] `Public key` aan de [!DNL MBI] in Stap 5 wordt gemaakt.
 
-   - Ga naar [uw cloud Adobe Commerce-account](https://accounts.magento.cloud/). Meld u aan met de aanmeldingsgegevens van uw account voor het nieuwe [!DNL MBI] door de gebruiker gemaakt. Ga vervolgens naar de `Account Settings` tab.
+   - Ga naar [uw cloud Adobe Commerce-account](https://account.magento.com/cloud/customer/login/). Meld u aan met uw aanmeldingsgegevens voor uw account voor de nieuwe [!DNL MBI] door de gebruiker gemaakt. Ga vervolgens naar de `Account Settings` tab.
 
    - De pagina omlaag schuiven en de vervolgkeuzelijst uitvouwen voor `SSH` toetsen. Klik vervolgens op **[!UICONTROL Add a public key]**.
 
@@ -170,11 +170,11 @@ Om te activeren [!DNL MBI] for `Cloud Starter` projecten, maakt eerst een [!DNL 
 
    - `Database`: `Timezone: UTC`
 
-   - `Desired Timezone`: [Kies de tijdzone waarin de gegevens moeten worden weergegeven.]
+   - `Desired Timezone`: [Kies de tijdzone waarin u de gegevens wilt weergeven.]
 
 1. Verkrijg informatie voor uw encryptie montages.
 
-   - Het project UI verstrekt een `SSH` toegangstekenreeks. Deze tekenreeks kan worden gebruikt voor het verzamelen van de informatie die nodig is voor `Remote Address` en `Username` bij het instellen van uw `Encryption` instellingen. Gebruik de `SSH Access` tekenreeks gevonden door te klikken op de knop voor de toegangssite in uw Master vertakking van de projectgebruikersinterface en uw `User Name` en `Remote Address` zoals hieronder weergegeven.
+   - Het project UI verstrekt een `SSH` toegangstekenreeks. Deze tekenreeks kan worden gebruikt voor het verzamelen van de informatie die nodig is voor `Remote Address` en `Username` bij het instellen van uw `Encryption` instellingen. Gebruik de `SSH Access` tekenreeks gevonden door te klikken op de knop voor de toegangssite in de primaire vertakking van de projectgebruikersinterface en uw `User Name` en `Remote Address` zoals hieronder weergegeven.
 
    ![](../assets/create-account-13.png)
 

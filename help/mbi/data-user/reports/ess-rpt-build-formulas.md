@@ -2,9 +2,9 @@
 title: Formulas
 description: Leer hoe u formules kunt gebruiken.
 exl-id: b6432d93-739f-410c-b732-e09a278f8dae
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    * In de `Enter your Formul` invoervak, typ `A/B`.
 
-      Dit zal de opbrengst door producten verdelen die door het aantal nieuwe klanten worden bevolen.
+      Dit deelt de opbrengst door producten die door het aantal nieuwe klanten worden bevolen.
 
    * Set `Select format` tot `123Number`.
 
@@ -85,7 +85,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
 ## Stap 4: Het rapport opslaan
 
-In deze stap, zult u het rapport als grafiek en ook als lijst bewaren.
+In deze stap, slaat u het rapport als grafiek en ook als lijst op.
 
 1. Klikken `Untitled Report` boven aan de pagina en voer een beschrijvende titel in. Voor dit voorbeeld is de rapporttitel: `2017 Holiday Sales`.
 

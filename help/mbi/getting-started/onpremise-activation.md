@@ -2,16 +2,16 @@
 title: Uw [!DNL MBI] Account voor abonnementen op locatie
 description: Meer informatie over het activeren van uw [!DNL MBI] account voor On-Premise Abonnementen.
 exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
-source-git-commit: 6f018ab220f2ae573cbc9016f9efb83c27a254be
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 # Activeer uw [!DNL MBI] Account voor abonnementen op locatie
 
-Om te activeren [!DNL MBI] voor on-premise abonnementen, creeer eerst een [!DNL MBI] account, dan verbinden [!DNL MBI] aan uw gegevensbestand van de Handel. Voor informatie over activering in `Cloud Starter` projecten, zie [Uw [!DNL MBI] Account voor `Cloud Starter` Abonnementen](../getting-started/cloud-activation.md).
+Om te activeren [!DNL MBI] voor on-premise abonnementen, creeer eerst en [!DNL MBI] account, dan verbinden [!DNL MBI] aan uw gegevensbestand van de Handel. Voor informatie over activering in `Cloud Starter` projecten, zie [Uw [!DNL MBI] Account voor `Cloud Starter` Abonnementen](../getting-started/cloud-activation.md).
 
 1. Maak uw [!DNL MBI] Account.
 

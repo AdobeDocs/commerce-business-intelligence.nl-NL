@@ -2,9 +2,9 @@
 title: Basisanalyses begrijpen en bouwen
 description: Leer hoe u analyses van basisbeginselen begrijpt en bouwt.
 exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3117'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Als u eenmaal vertrouwd bent met de [!DNL MBI] en u hebt een basiskennis van het hulpmiddel, wilt u beginnen rapporten op te stellen. Een van de meest voorkomende vragen die je hebt is: &quot;Waar moet ik naar kijken?&quot;
 
-De informatie hieronder schetst enkele gemeenschappelijke metriek en rapporten u waardevol zou kunnen vinden. Er bestaat al een aantal van deze rapporten in uw account. Controleer daarom de cijfers en rapporten die in uw account staan om te voorkomen dat er duplicaten worden gemaakt.
+De informatie hieronder schetst enkele gemeenschappelijke metriek en rapporten die u waardevol zou kunnen vinden. Sommige van deze rapporten bestaan in uw account, dus controleer de cijfers en rapporten die in uw account staan om te voorkomen dat er duplicaten worden gemaakt.
 
 ## Tabellen en kolommen die u wilt begrijpen
 
@@ -24,13 +24,13 @@ Wanneer het bouwen van metrisch, moet u vier stukken van informatie kennen:
 1. De kolom waarop u die handeling wilt uitvoeren, en
 1. Het tijdstempel dat u wilt gebruiken voor het bijhouden van die gegevens.
 
-Waarschijnlijk verschillen de namen van de tabellen die we in deze voorbeelden gebruiken enigszins van de kolom- en tabelnamen in uw database, omdat elke database uniek is. Verwijs naar de onderstaande definities als u hulp nodig hebt die een overeenkomstige lijst of kolom in uw gegevensbestand identificeert.
+Waarschijnlijk verschillen de namen van de tabellen die in deze voorbeelden worden gebruikt enigszins van de kolom- en tabelnamen in uw database, omdat elke database uniek is. Verwijs naar de onderstaande definities als u hulp met het identificeren van een overeenkomstige lijst of kolom in uw gegevensbestand nodig hebt.
 
 ## Klantentabel
 
-Deze tabel bevat de belangrijkste informatie over elke klant, zoals een unieke klant-id, e-mailadres, aanmaakdatum van account enzovoort. In de onderstaande voorbeelden gebruiken we **[!UICONTROL customer_entity]** als de naam van een voorbeeldklantentabel.
+Deze lijst bevat de belangrijkste informatie over elke klant, zoals een unieke klant - identiteitskaart, e-mailadres, etc. De onderstaande voorbeelden worden gebruikt **[!UICONTROL customer_entity]** als de naam van een voorbeeldklantentabel.
 
-Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen alle beheerders in uw account ze maken. Bovendien, wilt u ervoor zorgen dat deze afmetingen groeperbaar voor alle toepasselijke metriek zijn.
+Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen alle beheerders in uw account ze maken. Bovendien moet u ervoor zorgen dat deze afmetingen gegroepeerd zijn voor alle toepasselijke meetgegevens.
 
 **Dimension**
 
@@ -44,28 +44,28 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 **Accepteer je gastorders?**
 
-*In dat geval bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met onze [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om ervoor te zorgen dat alle klanten deelnemen aan de analyses van uw klanten.*
+*In dat geval bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om ervoor te zorgen dat alle klanten bij de analyses van uw klanten worden betrokken.*
 
 *Weet u niet zeker of u gastorders accepteert? Zie [dit onderwerp](../data-warehouse-mgr/guest-orders.md) voor meer informatie!*
 
 ## Orderentabel
 
-In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze tabel bevatten basisinformatie over elke bestelling, zoals de id van de bestelling, de aanmaakdatum, de status, de id van de klant die de bestelling heeft geplaatst, enzovoort. In de onderstaande voorbeelden gebruiken we **[!UICONTROL sales_flat_order]** als de naam van een tabel met voorbeeldorders.
+In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze tabel bevatten basisinformatie over elke bestelling, zoals de id van de bestelling, de aanmaakdatum, de status, de id van de klant die de bestelling heeft geplaatst, enzovoort. De onderstaande voorbeelden worden gebruikt **[!UICONTROL sales_flat_order]** als de naam van een tabel met voorbeeldorders.
 
 **Dimension**
 
-* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit zal vaak worden gebruikt om informatie tussen de klant en ordentabellen te bewegen. In onze voorbeelden verwachten we de customer_id op de **[!UICONTROL sales_flat_order]** tabel die moet worden uitgelijnd met de **[!UICONTROL entitiy_id]** op de **[!UICONTROL customer_entity]** tabel.
+* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit wordt vaak gebruikt om informatie tussen de klant en orden lijsten te bewegen. In deze voorbeelden verwacht u customer_id op **[!UICONTROL sales_flat_order]** tabel die moet worden uitgelijnd met de **[!UICONTROL entitiy_id]** op de **[!UICONTROL customer_entity]** tabel.
 * **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
 * **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam op uw `Customers` tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar als dit de 15e bestelling van de klant was, staat in deze kolom &quot;15&quot; voor deze bestelling. Als deze dimensie niet bestaat op uw `Customers` tafel, vraag onze [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar als dit de 15e bestelling van de klant was, staat in deze kolom &quot;15&quot; voor deze bestelling. Als deze dimensie niet bestaat op uw `Customers` tabel, vraag de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om u te helpen het bouwen.
 * **[!UICONTROL Customer's order number (previous-current)]**: Een aaneenschakeling van twee waarden in de **[!UICONTROL Customer's order number]** kolom. Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
-* **[!UICONTROL Coupon_code]**: Geeft aan welke coupon(s) op elke bestelling zijn gebruikt.
+* **[!UICONTROL Coupon_code]**: Geeft aan welke coupons zijn gebruikt voor elke bestelling.
 * **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.
 
 ## Tabel met volgordeitems
 
-In deze tabel vertegenwoordigt elke rij één object dat is verkocht. Deze tabel bevat informatie over de objecten die in elke bestelling worden verkocht, zoals het referentienummer van de bestelling, het productnummer, de hoeveelheid, enzovoort. In de onderstaande voorbeelden gebruiken we `sales_flat_order_item` als de naam van een tabel met items in de voorbeeldvolgorde.
+In deze tabel vertegenwoordigt elke rij één object dat is verkocht. Deze tabel bevat informatie over de objecten die in elke bestelling worden verkocht, zoals het referentienummer van de bestelling, het productnummer, de hoeveelheid, enzovoort. De onderstaande voorbeelden worden gebruikt `sales_flat_order_item` als de naam van een tabel met items in de voorbeeldvolgorde.
 
 **Dimension**
 
@@ -81,12 +81,12 @@ Deze tabel wordt gebruikt voor het beheer van uw abonnementsgegevens, zoals de a
 
 **Dimension**
 
-* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit is een gemeenschappelijke manier om een weg tussen de lijst van Klanten en de lijst van Orden te bouwen. In onze voorbeelden verwachten we de customer_id op de **sales_flat_order** tabel die moet worden uitgelijnd met de `entitiy_id` op de `customer_entity` tabel.
+* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit is een gemeenschappelijke manier om een weg tussen de lijst van Klanten en de lijst van Orden te bouwen. In deze voorbeelden verwacht u customer_id op **sales_flat_order** tabel die moet worden uitgelijnd met de `entitiy_id` op de `customer_entity` tabel.
 * **[!UICONTROL Start date]**: De datum waarop het abonnement van een klant is gestart.
 
 ## Tabel met marketinguitgaven
 
-Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook], [!DNL Google AdWords]of andere bronnen in uw analyses. Neem contact op met onze [Managed Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij het instellen van een geconsolideerde tabel voor uw marketingcampagnes.
+Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook], [!DNL Google AdWords]of andere bronnen in uw analyses. Als u meerdere marketinguitgavenbronnen hebt, neemt u contact op met de [Managed Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij het instellen van een geconsolideerde tabel voor uw marketingcampagnes.
 
 **Dimension**
 
@@ -95,14 +95,14 @@ Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook], [!DNL Google 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken. In [!DNL Facebook], dit zou de klikkolom in zijn `facebook_ads_insights_####` tabel. In [!DNL Google AdWords], dit zou de kolom adClicks in `campaigns####` tabel.
 * **[!UICONTROL Impressions]**: The total number of impressions. In [!DNL Facebook], zou dit de indruk zijn in de `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit zou de indruk wekken dat `campaigns####` tabel.
 * **[!UICONTROL Campaign]**: Het totale aantal klikken. In [!DNL Facebook], dit zou de kolom campagne_name in `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit zou de campagnekolom zijn in het dialoogvenster `campaigns####` tabel.
-* **[!UICONTROL Date]**: Het tijdstempel dat de uitgave, het klikken of de indrukken voor een bepaalde campagne hebben plaatsgevonden. In [!DNL Facebook]is dit `date_start` in de `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit is de datumkolom in het dialoogvenster `campaigns####` tabel.
+* **[!UICONTROL Date]**: Het tijdstip en de datum waarop de activiteit (uitgeven, klikken of indrukken) voor een bepaalde campagne is opgetreden. In [!DNL Facebook]is dit `date_start` in de `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit is de datumkolom in het dialoogvenster `campaigns####` tabel.
 * **[!UICONTROL Customer's first order's source]**: De bron van de bestelling van de eerste bestelling van de klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
 * **[!UICONTROL Customer's first order's medium]**: Het medium van de bestelling van de eerste bestelling van de klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
 * **[!UICONTROL Customer's first order's campaign]**: De campagne van de bestelling van de eerste bestelling van een klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
 
 ## Algemene rapporten en maatstaven
 
-Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden:
+Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt vinden:
 
 * [Klantenanalyse](#customeranalytics)
 * [Order Analytics](#orderanalytics)
@@ -123,7 +123,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 ### Unieke klanten
 
-* **Beschrijving**: Een telling van het totale aantal afzonderlijke klanten over een bepaalde periode. Dit verschilt van `New Users`, omdat deze alleen klanten volgt die minstens één bestelling hebben geplaatst. Een verschillend klantenrapport zal slechts één keer een klant in een bepaald tijdinterval volgen. Als u het tijdsinterval instelt op `By Day` en een klant op die dag meer dan één aankoop doet, wordt de klant slechts eenmaal meegeteld. Als je een totaal aantal aankopen in het algemeen wilt zien, kijk dan naar `Number of Orders`.
+* **Beschrijving**: Een telling van het totale aantal afzonderlijke klanten over een bepaalde periode. Dit verschilt van `New Users`, omdat deze alleen klanten volgt die minstens één bestelling hebben geplaatst. Een verschillend rapport van de klant volgt slechts één keer een klant in een bepaald tijdinterval. Als u het tijdsinterval instelt op `By Day` en een klant op die dag meer dan één aankoop doet, wordt de klant slechts één keer meegeteld. Als je een totaal aantal aankopen in het algemeen wilt zien, kijk dan naar `Number of Orders`.
 * **Metrische definitie**: Deze maatstaf voert een **Verschil aantal** van `customer_id` van `sales_flat_order` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Afzonderlijke klanten per week in de afgelopen 90 dagen
    * **[!UICONTROL Metric]**: `Distinct Customers`
@@ -145,7 +145,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 ### Klanten herhalen
 
-* **Beschrijving**: Het totale aantal klanten dat gedurende een bepaalde periode meer dan één bestelling heeft geplaatst. In een rapport van herhaalde klanten, kunt u gebruiken `Distinct Customers` de `Customer's Order Number` dimensie van uw `orders` tabel.
+* **Beschrijving**: Het totale aantal klanten dat meer dan één bestelling over een periode heeft geplaatst. In een rapport van herhaalde klanten, kunt u gebruiken `Distinct Customers` de `Customer's Order Number` dimensie van uw `orders` tabel.
 * **Metrisch gebruikt**: `Distinct Customers`
 * **Voorbeeld van rapport**: Aantal tweede en derde aankopen vorig jaar
    * **[!UICONTROL Metric]**: `Distinct Customers`
@@ -155,7 +155,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
    ![](../../assets/2nd_and_3rd_purchases_last_year.png)
 
-* **Voorbeeld 2 van rapport**: Aantal herhaalde klanten vorig jaar
+* **Voorbeeld 2 van rapport**: Aantal herhaalde klanten in de afgelopen jaren
    * **[!UICONTROL Metric]**: `Distinct Customers`
    * **[!UICONTROL Filters]**: `Customer's Order Number Greater Than 1`
    * **[!UICONTROL Time Range]**: `Moving range > Last Year`
@@ -197,7 +197,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
    * **[!UICONTROL Metric]**: `Revenue`
    * **[!UICONTROL Cohort Date]**: `Customer's first order date`
    * **[!UICONTROL Time Interval]**: `Month`
-   * **[!UICONTROL Time Period]**: Verhuisset cohorten van de meest recente 8 cohorts met ten minste 4 maanden gegevens
+   * **[!UICONTROL Time Period]**: Verhuisset cohorten van de meest recente acht cohorten met ten minste vier maanden gegevens
    * **[!UICONTROL Duration]**: `12 Month(s)`
    * **[!UICONTROL Table]**: `Customer_entity`
    * **[!UICONTROL Perspective]**: Gecumuleerde gemiddelde waarde per cohortelid
@@ -241,7 +241,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 * **Beschrijving**: Het gemiddelde van het bedrag van inkomsten dat klanten binnen hun eerste 30 dagen als klant hebben gegenereerd.
 * **Metrische beschrijving**: Deze maatstaf voert een **Gemiddeld** van `Customer's First 30 Day Revenue` van `customer_entity` tabel geordend door `created_at`.
-* **Beschrijving van rapport**: Het tijdgemiddelde van de eerste 30 dagen van de klant
+* **Beschrijving van rapport**: Het gemiddelde van de eerste 30 dagen van de klant
 * **[!UICONTROL Metric]**: `Average First 30 Day Revenue`
 * **[!UICONTROL Time Range]**: `All Time`
 * **[!UICONTROL Time Interval]**: `None`
@@ -252,7 +252,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 * **Beschrijving**: Het gemiddelde bedrag van opbrengst die door uw klanten over hun leven wordt geproduceerd.
 * **Metrische beschrijving**: Deze maatstaf voert een **Gemiddeld** van de `Customer's Lifetime Revenue` kolom op de `customer_entity` op basis van de `created_at`.
-* **Beschrijving van rapport**: Het tijdsgemiddelde van de inkomsten uit de levensduur van de klant
+* **Beschrijving van rapport**: Gemiddelde over de gehele levensduur van de klant
    * **[!UICONTROL Metric]**: `Average Customer Lifetime Revenue`
    * **[!UICONTROL Time Range]**: `All Time`
    * **[!UICONTROL Time Interval]**: `None`
@@ -264,7 +264,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 ### Ontvangsten
 
 * **Beschrijving**: De maatstaf van de opbrengst toont de totale opbrengst die over een gekozen tijdspanne wordt verdiend.
-* Deze maatstaven voeren een **som** van `grand_total` van `sales_flat_order` tabel geordend door `created_at`.
+* Deze maatstaf voert een **som** van `grand_total` van `sales_flat_order` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Ontvangsten per maand, YTD
    * **[!UICONTROL Metric]**: `Revenue`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
@@ -272,13 +272,13 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 >[!TIP]
 >
->Zorg ervoor uw omzetmetrische berekening verenigbaar met de definitie is die u intern bespreekt. U wilt bijvoorbeeld alleen inkomsten tellen uit bestellingen die zijn verzonden, u moet mogelijk valuta&#39;s uit verschillende regio&#39;s converteren en u kunt belasting uitsluiten. Verder kunt u [Filtersets](../../data-user/reports/ess-manage-data-filters.md) om consistentie te verzekeren over alle metriek die op de zelfde lijst worden voortgebouwd.
+>Zorg ervoor uw omzetmetrische berekening verenigbaar met de definitie is die u intern bespreekt. U wilt bijvoorbeeld inkomsten tellen uit orders die zijn verzonden, valuta&#39;s uit verschillende regio&#39;s converteren of belasting uitsluiten. U kunt ook [Filtersets](../../data-user/reports/ess-manage-data-filters.md) om consistentie te verzekeren over alle metriek die op de zelfde lijst worden voortgebouwd.
 
 ![Ontvangsten](../../assets/revenue.png)<!--{: width="929"}-->
 
 ### Orders
 
-* **Beschrijving**: Een telling van het totale aantal orders over een bepaalde periode. Een orderrapport zal veranderingen in ordervolume volgen die door nieuw productdienstenaanbod, promoties, of iets anders worden veroorzaakt die (of) transactievolume kunnen verhogen. U kunt deze metrisch vaak door een aantal variabelen willen segmenteren om uw vragen te beantwoorden.
+* **Beschrijving**: Een telling van het totale aantal orders over een bepaalde periode. Een orderrapport volgt veranderingen in ordervolume die door nieuw productdienstenaanbod, promoties, of om het even wat worden veroorzaakt die (of) transactievolume kunnen verhogen of verminderen. U kunt deze metrisch vaak door sommige variabelen willen segmenteren om uw vragen te beantwoorden.
 * **Metrische definitie**: Deze maatstaf voert een **Aantal** van `entity_id` van `sales_flat_order` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Orders per maand, YTD
    * **[!UICONTROL Metric]**: `number of orders`
@@ -294,7 +294,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 ### Geordende producten
 
 * **Beschrijving**: De geordende metrische producten vertellen u de hoeveelheid punten die over een specifieke tijdspanne worden verkocht.
-* **Metrische definitie**: Deze maatstaven voeren een **som** van `qty_ordered` van `sales_flat_order_item` tabel geordend door `created_at`.
+* **Metrische definitie**: Deze maatstaf voert een **som** van `qty_ordered` van `sales_flat_order_item` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Objecten verkocht per maand, YTD
    * **[!UICONTROL Metric]**: `Products ordered`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
@@ -303,11 +303,11 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
    ![Geordende producten](../../assets/products_ordered_pic1.png)<!--{: width="929"}-->
 
 * Combineer deze metrische waarde met het aantal orders om het aantal items per bestelling te berekenen. Voeg vervolgens couponcodes toe aan het rapport om te bepalen hoe uw promoties de grootte van winkelwagentjes beïnvloeden, of deel deze met nieuwe of herhaalde bestellingen om uw klantengedrag beter te begrijpen.
-* **Voorbeeld van rapport**: Producten per bestelling: 1ste volgorde versus herhalingsorders
-   * **[!UICONTROL Metric A]**: Geordende producten: 1e volgorde
+* **Voorbeeld van rapport**: Producten per bestelling: eerste orde vs. herhalingsorden
+   * **[!UICONTROL Metric A]**: Geordende producten: eerste opdracht
       * **[!UICONTROL Metric]**: `Products ordered`
       * **[!UICONTROL Filter]**: `Customer's order number = 1`
-   * **[!UICONTROL Metric B]**: Bestellingen: 1e volgorde
+   * **[!UICONTROL Metric B]**: Bestellingen: eerste opdracht
       * **[!UICONTROL Metric]**: `Orders`
       * **[!UICONTROL Filter]**: `Customer's order number = 1`
    * **[!UICONTROL Metric C]**: Geordende producten: herhalingsorders
@@ -329,7 +329,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 ### Gemiddelde orderwaarde
 
-* **Beschrijving**: Volg de gemiddelde waarde van de orders die over een tijdsperiode zijn geplaatst. Met deze maatstaf kunt u snel bepalen hoe uw gemiddelde orderwaarde (AOV) is gewijzigd als gevolg van uw marketinginspanningen, productaanbod en/of andere wijzigingen in uw bedrijf.
+* **Beschrijving**: De gemiddelde waarde van de orders over een periode bijhouden. Met deze maatstaf kunt u snel bepalen hoe uw gemiddelde orderwaarde (AOV) is gewijzigd als gevolg van uw marketinginspanningen, productaanbod en/of andere wijzigingen in uw bedrijf.
 * **Metrische definitie**: Deze maatstaf voert een **gemiddelde** van `grand_total` van `sales_flat_order` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: AOV vs. vorig jaar, YTD
    * **[!UICONTROL Metric]**: `Average order value`
@@ -438,7 +438,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 ### Klanten op basis van aankoopbron
 
-* **Beschrijving**: Als u de bron, het medium en de campagne van een bestelling bijhoudt met [!DNL Google eCommerce]kunt u uw klanten analyseren op basis van hun aankoopbron. Dit zal u helpen identificeren welke marketing bronnen klanten en antwoordvragen zoals &quot;zijn de meesten van uw klanten die hun eerste orden door maken [!DNL Google], [!DNL Facebook]of een andere bron?&quot;
+* **Beschrijving**: Als u de bron, het medium en de campagne van een bestelling bijhoudt met [!DNL Google eCommerce]kunt u uw klanten analyseren op basis van hun aankoopbron. Dit helpt u identificeren welke marketing bronnen klanten en antwoordvragen zoals &quot;zijn de meesten van uw klanten die hun eerste orden door maken [!DNL Google], [!DNL Facebook]of een andere bron?&quot;
 * **Voorbeeld van rapport**: Klanten op basis van aankoopbron
    * **[!UICONTROL Metric Used]**: `New Customers`
    * **[!UICONTROL Time Range]**: `All-Time`
@@ -494,7 +494,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 ### De waarde van het leven door aanschafbron, middel, en campagne
 
-* **Beschrijving**: Naast het analyseren van het aantal klanten die door elke campagne worden verworven, kunt u de gemiddelde levenopbrengst van deze klanten analyseren. Op deze manier kunt u beter identificeren:
+* **Beschrijving**: Naast het analyseren van het aantal klanten die door elke campagne worden verworven, kunt u de gemiddelde levenopbrengst van deze klanten analyseren. Zo kunt u beter identificeren:
    * Als bepaalde campagnes een groot aantal klanten aantrekken, maar die klanten hebben een lage levenwaarde.
    * Als bepaalde campagnes een laag volume van klanten aantrekken, maar die klanten hebben een hoge levenwaarde.
 * **Voorbeeld van rapport**: Voeg eerst de `New customers` metrisch. Voeg vervolgens de `Average lifetime revenue` metrisch. Selecteer het gewenste tijdframe en kies de optie `interval` als `None`. Tot slot selecteert u `group by` optie als`Customer's first order's campaign`.
@@ -510,7 +510,7 @@ Hier volgen enkele voorbeelden van rapporten en metriek die u nuttig kunt vinden
 
 >[!NOTE]
 >
->Voor de twee filters, kunt u andere media toevoegen die als &quot;betaalde&quot;media voor uw zaken zoals cpc of betaalde onderzoek worden beschouwd, en u kunt om het even welke andere bronnen toevoegen u zoals Facebook zou willen analyseren. Ook uitchecken [dit artikel](../analysis/roi-ad-camp.md) voor meer informatie over CAC, LTV, en ROI.
+>Voor de twee filters, kunt u andere media toevoegen die als &quot;betaalde&quot;media voor uw zaken (zoals cpc of betaalde onderzoek) worden beschouwd. U kunt ook andere bronnen toevoegen die u wilt analyseren, zoals Facebook. Uitchecken [dit artikel](../analysis/roi-ad-camp.md) voor meer informatie over CAC, LTV, en ROI.
 
 ![De waarde van het leven door aanschafbron, middel, en campagne](../../assets/LTV_2.png)<!--{: width="929"}-->
 

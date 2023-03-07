@@ -2,16 +2,16 @@
 title: Raw-gegevens exporteren
 description: Leer records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft.
 exl-id: 26decdaf-2b2c-4ca2-b3d5-0386892662e8
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # Raw-gegevens exporteren
 
-Met onbewerkte gegevens kunt u records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft. Bovendien kunt u met onbewerkte gegevens exporteren [discrepanties tussen puntgegevens](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en).
+Met onbewerkte gegevens kunt u records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft. Ook onbewerkte gegevensexport kan u helpen [discrepanties tussen puntgegevens](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en).
 
 De uitvoer van ruwe gegevens verleent toegang tot extra kolommen en dimensies die door de-normalisatie en pre-samenvoeging van relevante metriek worden geproduceerd. Bijvoorbeeld: `User's first order date` is een dimensie die u voor elke gebruiker binnen kunt uitvoeren [!DNL MBI], terwijl deze mogelijk niet beschikbaar is in uw database.
 
@@ -23,14 +23,14 @@ Deze zelfstudie behandelt het volgende:
 
 ## Stap 1: Te exporteren gegevens selecteren {#select}
 
-U kunt onbewerkte gegevens op twee manieren exporteren [!DNL MBI]: op diagramniveau of op tabelniveau.
+Er zijn twee manieren waarop u onbewerkte gegevens kunt exporteren in [!DNL MBI]: op diagramniveau of op tabelniveau.
 
 ### Exporteren op tabelniveau in uw `Manage Data` Tab
 
-Als u de tabel wilt exporteren `Manage Data` tab, hebt u [Beheer](../administrator/user-management/user-management.md) machtigingen.
+Als u de tabel wilt exporteren `Manage Data` tabblad, hebt u [Beheer](../administrator/user-management/user-management.md) machtigingen.
 
 1. Klikken **[!UICONTROL Manage Data** > ** Gegevens exporteren **> **Raw-gegevens exporteren]** om aan de slag te gaan.
-1. U ziet een `Export List` van recent gecreëerde uitvoer van gegevens, indien van toepassing. Klikken **[!UICONTROL Add Export]** om een nieuwe exportbewerking te maken.
+1. U ziet een `Export List` van recent gecreëerde uitvoer van gegevens, indien van toepassing. Klikken **[!UICONTROL Add Export]** om een exportbewerking te maken.
 1. De `New Raw Data Export` wordt weergegeven. Hier kunt u het exporteren aanpassen door kolommen en filters te selecteren of te deselecteren:
 
    * `Table` - de `Table` selecteert de tabel waaruit gegevens worden geëxporteerd. Standaard wordt hiermee de tabel weergegeven waarin u hebt genavigeerd.
@@ -51,7 +51,7 @@ Als u de tabel wilt exporteren `Manage Data` tab, hebt u [Beheer](../administrat
 
 1. Als u klaar bent, klikt u op **[!UICONTROL Export Data]**.
 
-Laten we eens kijken naar het hele proces op diagramniveau.
+Bekijk het volledige proces op het grafiekniveau.
 
 ![](../assets/Chart-level_export.gif)
 

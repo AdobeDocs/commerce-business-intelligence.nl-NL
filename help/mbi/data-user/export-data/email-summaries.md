@@ -2,7 +2,7 @@
 title: Geautomatiseerde e-mailoverzichten maken
 description: Leer hoe u geautomatiseerde e-mailoverzichten kunt maken.
 exl-id: a9aea4fc-9193-467f-8554-3ad77ac3fa73
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Geautomatiseerde e-mailoverzichten maken
 
-E-mailoverzichten zijn een krachtig communicatiemiddel dat u kunt gebruiken om de huidige status en trends van uw bedrijf te delen met belangrijke belanghebbenden. Met e-mailoverzichten kunt u:
+E-mailoverzichten zijn een krachtig communicatiemiddel waarmee u de status en trends van uw bedrijf kunt delen met belangrijke betrokkenen. Met e-mailoverzichten kunt u:
 
 * Grafische overzichten e-mailen die rapporten bevatten
 * De auteur van het e-mailoverzicht toevoegen aan of uitsluiten van het ontvangen van het e-mailbericht
@@ -32,7 +32,7 @@ E-mailoverzichten zijn een krachtig communicatiemiddel dat u kunt gebruiken om d
 
 1. In de `Choose Content` selecteert u de rapporten die u in het overzicht wilt opnemen.
 
-   U kunt maximaal 10 rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met geldige gegevens bevat, raadpleegt u [Uw accountinstellingen beheren](../../administrator/account-management/managing-account-settings.md).
+   U kunt maximaal tien rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met geldige gegevens bevat, raadpleegt u [Uw accountinstellingen beheren](../../administrator/account-management/managing-account-settings.md).
 
    >[!NOTE]
    >
