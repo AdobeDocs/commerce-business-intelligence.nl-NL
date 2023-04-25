@@ -2,7 +2,7 @@
 title: Toegang tot uw [!DNL MBI] Account
 description: Meer informatie over aanmelden bij uw [!DNL MBI] account.
 exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 7f168ff545a68e5ee9ec2f80928a653fd6a1370b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Toegang tot uw geactiveerde [!DNL MBI] account
 
-Nadat u uw [!DNL MBI] account of [op locatie](../getting-started/onpremise-activation.md) of [wolk](../getting-started/cloud-activation.md) en hebt met uw Adobe Account Team samengewerkt om de configuratiestappen af te ronden, kunt u zich nu aanmelden bij uw account.
+Nadat u uw [!DNL MBI] account of [on-premise of cloud](../getting-started/onpremise-activation.md) en hebt met uw Adobe Account Team samengewerkt om de configuratiestappen af te ronden, kunt u zich nu aanmelden bij uw account.
 
 U kunt zich aanmelden met uw [!DNL Adobe ID] of uw [!DNL MBI] e-mailadres en wachtwoord.
 
