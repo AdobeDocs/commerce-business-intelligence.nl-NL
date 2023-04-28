@@ -2,10 +2,10 @@
 title: Activeer uw [!DNL MBI] Account voor Cloud Starter-abonnementen
 description: Meer informatie over activeren [!DNL MBI] voor Cloud Starter-projecten.
 exl-id: 172439ee-fa1d-4872-b6a9-c61a212a7cbe
-redirect_to: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/start/onpremise-activation.html?lang=en
-source-git-commit: 807ad89d38ab6c6dfb05afb3b1b9c09947633efa
+redirect_to: https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/start/onpremise-activation.html
+source-git-commit: f358f11586e4b7c44e9192584ea0fdeff5526287
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
