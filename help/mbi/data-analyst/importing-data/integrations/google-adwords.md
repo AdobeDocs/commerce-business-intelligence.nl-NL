@@ -2,9 +2,9 @@
 title: Connect Google Adwords
 description: Leer om campagne ROI te meten door uw reclamekosten en de waarde van de klantenlevensduur (CLV) van gebruikers te vergelijken die van uw campagnes worden verworven.
 exl-id: db99f817-2a2e-4194-9dd2-ec2d6b27a118
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ![](../../../assets/Google_Adwords_logo.png)
 
-Je deed je onderzoek, je creëerde je advertenties, je lanceerde je campagne. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Met behulp van uw advertentiefoutgegevens kunt u [maatregel campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) te vergelijken](../../analysis/roi-ad-camp.md) van gebruikers die zijn aangeschaft via uw campagnes.
+U hebt uw onderzoek uitgevoerd, u hebt uw advertenties gemaakt, u hebt uw [!DNL Google] campagne. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Met behulp van uw advertentiefoutgegevens kunt u [maatregel campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) te vergelijken](../../analysis/roi-ad-camp.md) van gebruikers die zijn aangeschaft via uw campagnes.
 
-Ga aan de slag met je [!DNL Google Adwords] inloggegevens [!DNL MBI]:
+Ga aan de slag met je [!DNL Google Adwords] inloggegevens [!DNL Commerce Intelligence].
 
-1. Ga naar de pagina Verbindingen onder **Gegevens beheren > Integraties**.
+1. Ga naar de `Connections` pagina onder **Gegevens beheren > Integraties**.
 1. Klikken **Integratie toevoegen**, rechtsboven in het scherm.
 1. Klik op de knop **[!DNL Google Adwords]** pictogram. Hierdoor wordt het [!DNL Google Adwords] aanmeldingspagina.
-1. Voer uw [!DNL Google Analytics] referenties. Nadat het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL MBI].
-1. Een lijst met profiel-id&#39;s. Controleer de profielen waarmee u verbinding wilt maken [!DNL MBI].
+1. Voer uw [!DNL Google Analytics] referenties. Nadat het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence].
+1. Een lijst met profiel-id&#39;s. Controleer de profielen waarmee u verbinding wilt maken [!DNL Commerce Intelligence].
 
    ![](../../../assets/cnnct-profile.png)
 
@@ -33,9 +33,9 @@ Ga aan de slag met je [!DNL Google Adwords] inloggegevens [!DNL MBI]:
 
 Als u meerdere profielen hebt en hulp nodig hebt bij het identificeren van welke profielen, raadpleegt u de `Connecting Multiple Google Analytics profiles` hieronder.
 
-## `Connecting multiple Google Analytics profiles`
+## Meerdere verbindingen maken [!DNL Google Analytics] profielen
 
-U hebt mogelijk meerdere websites verbonden met één [!DNL Google Analytics] eigen rekening [!DNL Google Analytics] Profiel-id. In dit geval kunt u al uw profiel-id&#39;s opnemen in [!DNL MBI]. Controleer de profiel-id&#39;s die u wilt opnemen tijdens de stap voor profielselectie.
+U hebt mogelijk meerdere websites verbonden met één [!DNL Google Analytics] eigen rekening [!DNL Google Analytics] Profiel-id. In dit geval kunt u al uw profiel-id&#39;s opnemen in [!DNL Commerce Intelligence]. Controleer de profiel-id&#39;s die u wilt opnemen tijdens de stap voor profielselectie.
 
 **De Google Analytics-id van een bepaalde website identificeren:**
 
@@ -48,12 +48,12 @@ U hebt mogelijk meerdere websites verbonden met één [!DNL Google Analytics] ei
 ## Verbinding verbreken [!DNL Google Adwords]
 
 1. Bezoek uw [!DNL Google] [accountinstellingen](https://www.google.com/account/about/?hl=en) pagina.
-1. Onder de `Security` en klik op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
-1. Klikken **[!UICONTROL revoke access]** naast [!DNL MBI].
+1. Onder de `Security` sectie, klikt u op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
+1. Klikken **[!UICONTROL revoke access]**.
 
 ## Verwante
 
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Referentiebron voor bestelling volgen via [!DNL Google ECommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)

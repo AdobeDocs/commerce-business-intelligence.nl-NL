@@ -2,22 +2,22 @@
 title: Opgenomen dashboards
 description: Leer hoe u de gezondheid van essentiële gegevens kunt controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en meer, en zo een solide basis voor toekomstige exploratie kunt leggen.
 exl-id: f50fc417-e5d4-401c-9baa-cda1468196a2
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
 
 # Opgenomen dashboards
 
-Adobe biedt eCommerce en `SaaS` Startpakketten. Deze pakketten, die door Adobe analisten worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
+[!DNL Adobe] aanbiedingen `eCommerce` en `SaaS` Startpakketten. Deze pakketten, die door Adobe analisten worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
 
 >[!NOTE]
 >
 >De beschikbaarheid van sommige dashboards hangt van uw dataset af.
 
-Als u vragen hebt of als u een pakket aan uw account wilt toevoegen, dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp.
+Als u vragen hebt of als u een pakket aan uw account wilt toevoegen, dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
 
 ## Uitvoerend overzicht
 

@@ -2,24 +2,24 @@
 title: De Opties van de Tijd van het gebruik in Visuele Report Builder
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
 
-# Gebruiken `Time` Opties in `Visual Report Builder`
+# Gebruiken [!DNL Time] Opties in [!DNL Visual Report Builder]
 
-Een van de kenmerken van de `Visual Report Builder` is de wereld `Time Range` en `Interval` instellingen. Met deze instellingen kunt u de gegevens in uw rapport gedurende een bepaalde periode analyseren.
+Een van de kenmerken van de [!DNL Visual Report Builder] is de wereld `Time Range` en `Interval` instellingen. Met deze instellingen kunt u de gegevens in uw rapport gedurende een bepaalde periode analyseren.
 
-Voor sommige analyses moet u echter rekening houden met verschillende tijdsintervallen of tijdsintervallen in hetzelfde rapport. Dat is waar `Time` Er zijn opties. U krijgt een beter idee hoe u `Time` Deze zelfstudie bevat opties in uw rapporten die betrekking hebben op de volgende gebruiksgevallen:
+Voor sommige analyses moet u echter rekening houden met verschillende tijdsintervallen of tijdsintervallen in hetzelfde rapport. Dat is waar `Time` Er zijn opties. U krijgt een beter idee hoe u `Time` in uw rapporten worden in deze zelfstudie de volgende gebruiksgevallen beschreven:
 
 * [Metrische gegevens analyseren zonder tijdstempels](#notimestamp)
 * [Eén metrische waarde een onafhankelijk tijdinterval geven](#independenttimeinterval)
 * [Dezelfde metrische waarde vergelijken over verschillende tijdbereiken](#difftimerange)
 
-Als u samen met sommige steekproefrapporten wilt volgen die in dit onderwerp worden besproken, open [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md) voordat u verdergaat.
+Als u samen met sommige steekproefrapporten wilt volgen die in dit onderwerp worden besproken, open [[!DNL Visual Report Builder]](../data-user/reports/ess-rpt-build-visual.md) voordat u verdergaat.
 
 ## Metrische gegevens analyseren zonder tijdstempels {#notimestamp}
 
@@ -64,7 +64,7 @@ Nu kun je zien hoe impact elke maand vorig jaar was:
 
 ## Dezelfde metrische waarde vergelijken over verschillende tijdbereiken {#difftimerange}
 
-In dit voorbeeld wordt een aangepaste dimensie gebruikt, de zogenaamde `Day number of the month`. Als u dit rapport wilt maken en deze dimensie nog niet in uw Data Warehouse hebt, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp.
+In dit voorbeeld wordt een aangepaste dimensie gebruikt, de zogenaamde `Day number of the month`. Als u dit rapport wilt maken en deze dimensie nog niet in uw Data Warehouse hebt, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
 
 De twee meest voorkomende voorbeelden in deze categorie zijn (1) het vergelijken van groeicijfers (omzet jaar-over-jaar of maand-over-maand) en (2) het beter begrijpen van recente trends in voorraden of verkoop van artikelen.
 

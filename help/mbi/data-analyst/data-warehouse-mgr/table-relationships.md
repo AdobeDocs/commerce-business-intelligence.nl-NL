@@ -2,7 +2,7 @@
 title: Tabelrelaties begrijpen en evalueren
 description: Leer hoe u begrijpt hoeveel mogelijke exemplaren in een tabel tot een entiteit in een andere tabel kunnen behoren.
 exl-id: e7256f46-879a-41da-9919-b700f2691013
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 0%
@@ -19,13 +19,13 @@ Inzicht in relaties is van essentieel belang voor het behoud van gegevensintegri
 
 Er zijn drie soorten relaties die tussen twee tabellen kunnen bestaan:
 
-* [&quot;one-to-one&quot;](#onetoone)
-* [&quot;one-to-many&quot;](#onetomany)
-* [&quot;many-to-many&quot;](#manytomany)
+1. [&quot;one-to-one&quot;](#onetoone)
+1. [&quot;one-to-many&quot;](#onetomany)
+1. [&quot;many-to-many&quot;](#manytomany)
 
 ### `One-to-One` {#onetoone}
 
-In een `one-to-one` relatie, een record in tabel `B` behoort tot slechts één record in tabel `A`. En een record in de tabel `A` behoort tot slechts één record in tabel `B`.
+In een `one-to-one` relatie, een record in tabel `B` behoort tot slechts één record in de tabel `A`. En een record in de tabel `A` behoort tot slechts één record in tabel `B`.
 
 In de relatie tussen personen en de rijbewijsnummers kan een persoon bijvoorbeeld slechts één rijbewijsnummer hebben, terwijl het rijbewijsnummer alleen aan de persoon toebehoort.
 
@@ -33,13 +33,13 @@ In de relatie tussen personen en de rijbewijsnummers kan een persoon bijvoorbeel
 
 ### `One-to-Many` {#onetomany}
 
-In een `one-to-many` relatie, een record in tabel `A` kan mogelijk tot verscheidene verslagen in Lijst behoren `B`. Denk na over de relatie tussen `orders` en `items` - een bestelling kan veel items bevatten, maar een item behoort tot één bestelling. In dit geval worden de `orders` de ene kant en de andere kant `items` tafel is de vele kant .
+In een `one-to-many` relatie, een record in tabel `A` kan mogelijk tot meerdere records in de tabel behoren `B`. Denk na over de relatie tussen `orders` en `items` - een bestelling kan veel items bevatten, maar een item behoort tot één bestelling. In dit geval worden de `orders` de ene kant en de andere kant `items` tafel is de vele kant .
 
 ![](../../assets/one-to-many_001.png)
 
 ### `Many-to-Many` {#manytomany}
 
-In een `many-to-many` relatie, een record in tabel `B` kan mogelijk tot verscheidene verslagen in Lijst behoren `A`. En andersom, een verslag in Lijst `A` kan mogelijk tot verscheidene verslagen in Lijst behoren `B`.
+In een `many-to-many` relatie, een record in tabel `B` kan mogelijk tot meerdere records in de tabel behoren `A`. En vice versa, een verslag in lijst `A` kan mogelijk tot verscheidene verslagen in Lijst behoren `B`.
 
 Denk na over de relatie tussen **producten** en **categorieën**: een product kan tot veel categorieën behoren en een categorie kan veel producten bevatten .
 
@@ -60,6 +60,7 @@ Wanneer u bijvoorbeeld nadenkt over gebruikers en bestellingen, moet u rekening 
 Deze methode gebruiken:
 
 1. Identificeer de entiteit die in elke tabel wordt beschreven. **Tip: het is meestal een zelfstandig naamwoord**. De `user` en `orders` in tabellen worden gebruikers en bestellingen expliciet beschreven.
+
 1. Identificeer een of meer werkwoorden die beschrijven hoe deze entiteiten op elkaar inwerken. Wanneer gebruikers bijvoorbeeld met bestellingen vergelijken, plaatsen gebruikers bestellingen. In de andere richting zijn de bestellingen &quot;van&quot; gebruikers.
 
 Dit type framework kan worden toegepast op elke koppeling van tabellen in uw Data Warehouse. Zo kunt u gemakkelijk het type relatie identificeren en zien welke tabel één zijde heeft en welke tabel een vele zijde heeft.

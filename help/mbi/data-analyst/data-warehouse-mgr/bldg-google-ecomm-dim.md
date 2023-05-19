@@ -2,9 +2,9 @@
 title: Opbouwen[!DNL Google ECommerce]afmetingen
 description: Leer dimensies te bouwen die uw gegevens van de eCommerce met uw orden en klantengegevens verbinden.
 exl-id: f8a557ae-01d7-4886-8a1c-c0f245c7bc49
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-Nu bent u klaar [verbinden uw[!DNL Google ECommerce]account](../../data-analyst/importing-data/integrations/google-ecommerce.md), wat kunt u doen met die gegevens in [!DNL MBI]? Dit artikel begeleidt u door bouwdimensies die uw gegevens van de eCommerce met uw orden en klantengegevens verbinden.
+Nu bent u klaar [verbinden uw[!DNL Google ECommerce] account](../../data-analyst/importing-data/integrations/google-ecommerce.md), wat kunt u doen met die gegevens in [!DNL Commerce Intelligence]? Dit onderwerp begeleidt u door bouwdimensies die uw gegevens van de eCommerce met uw orden en klantengegevens verbinden.
 
-Met de vermelde afmetingen kunt u analyses maken die [belangrijke vragen beantwoorden over uw marketingkanalen en -campagnes](../../data-analyst/analysis/most-value-source-channel.md). Welk percentage van opbrengst komt uit elke bron? Hoe vergelijk de levensduurwaarde van Facebook-klanten met die van? [!DNL Google]?
+Met de vermelde afmetingen kunt u analyses maken die [belangrijke vragen beantwoorden over uw marketingkanalen en -campagnes](../../data-analyst/analysis/most-value-source-channel.md). Welk percentage van opbrengst komt uit elke bron? Hoe bepaalt de levenswaarde van [!DNL Facebook] overgenomen klanten vergelijken met klanten van [!DNL Google]?
 
 ## Voorwaarden en overzicht
 
-Als u de afmetingen in dit artikel wilt maken, hebt u een [!DNL Google ECommerce] tabel `orders` en een `customers` tabel. Deze tabellen moeten [gesynchroniseerd met uw Data Warehouse](../../data-analyst/data-warehouse-mgr/tour-dwm.md) voordat de afmetingen kunnen worden opgebouwd. Tabellen die worden gesynchroniseerd, worden weergegeven in het dialoogvenster `Synced Tables` van de `Data Warehouse Manager`.
+Als u de afmetingen in dit onderwerp wilt maken, hebt u een [!DNL Google ECommerce] tabel `orders` en een `customers` tabel. Deze tabellen moeten [gesynchroniseerd met uw Data Warehouse](../../data-analyst/data-warehouse-mgr/tour-dwm.md) voordat de afmetingen kunnen worden opgebouwd. Tabellen die worden gesynchroniseerd, worden weergegeven in het dialoogvenster `Synced Tables` van de `Data Warehouse Manager`.
 
 Hier volgt een snelle blik bij het synchroniseren van lijsten en kolommen als u een verfrisser nodig hebt:
 
@@ -121,12 +121,12 @@ Voltooien door deel te nemen aan de `Customer's first order's` medium en `campai
 
 U hebt de afmetingen gemaakt, wat betekent dat u nu krachtige analyses kunt maken die de prestaties van de verschillende kanalen en campagnes volgen. Vergeet niet dat de **nieuwe kolommen zijn pas beschikbaar nadat de volgende update is voltooid**.
 
-Sommige populairdere dimensies worden in dit artikel behandeld, maar de lucht is de grens - probeer creërend uw of voel vrij om ons te pingelen als u met het onderzoeken van andere opties wilt helpen. 
+Sommige populairdere dimensies komen voor in dit onderwerp, maar de lucht is de grens - probeer zelf te creëren of voel ons vrij om ons te pingelen als u hulp met het onderzoeken van andere opties wilt. 
 
-### Ik zit vast! Wat is anders? {#stuck}
+### Aanvullende opmerkingen
 
-**`Orders`tabel 1:** Wanneer u het `Order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 12 zijn geselecteerd. In dit voorbeeld was de kolom `Source`.
+**`Orders`tabel #1**: Wanneer u het `Order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 12 zijn geselecteerd. In dit voorbeeld was de kolom `Source`.
 
-**`Customers`tabel:** Wanneer u het `Customer's first order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Order's [!DNL Google Analytics]` bron.
+**`Customers`table**: Wanneer u het `Customer's first order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Order's [!DNL Google Analytics]` bron.
 
-**`Orders`tabel 2:** Wanneer u de `Customer's first order's [!DNL Google Analytics]` medium en `campaign` kolommen naar de `orders` In de tabel is het verschil de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Customer's first order's [!DNL Google Analytics]` bron.
+**`Orders`tabel #2**: Wanneer u de `Customer's first order's [!DNL Google Analytics]` medium en `campaign` kolommen naar de `orders` In de tabel is het verschil de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Customer's first order's [!DNL Google Analytics]` bron.

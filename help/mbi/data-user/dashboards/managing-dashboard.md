@@ -2,9 +2,9 @@
 title: Dashboards beheren
 description: Leer hoe u gebruikersmachtigingen voor de dashboards beheert die u hebt, de dashboards verwijdert die u niet meer nodig hebt en een standaarddashboard instelt.
 exl-id: 32c21093-2a7d-4d8e-afc0-19bd702f9b36
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren voor dashboards die u hebt, dashboards verwijderen die u niet meer nodig hebt en een standaarddashboard instellen. Omvat in dit artikel:
+In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren voor dashboards die u hebt, dashboards verwijderen die u niet meer nodig hebt en een standaarddashboard instellen. Dit onderwerp omvat:
 
 1. [Naam van dashboards wijzigen](#rename)
 
@@ -35,7 +35,7 @@ De naam van een dashboard wijzigen:
 
 ## Gebruikersmachtigingen beheren {#userperm}
 
-Er zijn drie toegangsniveaus in [!DNL MBI] voor dashboards - `View`, `Edit`, en `None`.
+Er zijn drie toegangsniveaus in [!DNL Commerce Intelligence] voor dashboards - `View`, `Edit`, en `None`.
 
 * `View` Hiermee kunnen geselecteerde gebruikers het dashboard weergeven maar niet bewerken. Gebruikers kunnen ook het formaat van grafieken wijzigen, gegevens exporteren en de diagrammen naar hun eigen dashboards kopiëren met de functie Opslaan als als ze de machtiging Standaard of Beheer hebben.
 

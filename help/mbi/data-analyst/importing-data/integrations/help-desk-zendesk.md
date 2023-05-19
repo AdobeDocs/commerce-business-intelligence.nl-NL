@@ -2,7 +2,7 @@
 title: Helpdesk-rapporten voor Zendesk
 description: Meer informatie over uw meest gewaardeerde verwijzingskanalen.
 exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Dit is alleen beschikbaar voor clients die zich op de `Pro` de nieuwe architectuur plannen en gebruiken. U bevindt zich op de nieuwe architectuur als u de `Data Warehouse Views` sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
 
-Uw [!DNL Zendesk] gegevens met uw transactionele gegevensbestand is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop of klantensuccesteams in wisselwerking staan. Het helpt u ook weten welk type klanten uw steunplatform gebruiken. In dit artikel wordt getoond hoe u een dashboard kunt instellen om gedetailleerde rapporten over uw [!DNL Zendesk] prestaties en tijd in uw transactieklanten.
+Uw [!DNL Zendesk] gegevens met uw transactionele gegevensbestand is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop of klantensuccesteams in wisselwerking staan. Het helpt u ook weten welk type klanten uw steunplatform gebruiken. In dit onderwerp wordt getoond hoe u een dashboard kunt instellen om gedetailleerde rapporten over uw [!DNL Zendesk] prestaties en tijd in uw transactieklanten.
 
 Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../integrations/zendesk.md). Deze analyse bevat [geavanceerd berekende kolommen](../../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -86,34 +86,34 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 
       * `Datatype` - `String`
 
-* **`[Zendesk] audits_~_events`** table
+* **`[!DNL Zendesk] audits_~_events`** table
    * Selecteer een definitie: `Joined Column`
    * [!UICONTROL Create Path]:
-   * [!UICONTROL Many]: `[Zendesk] audits_~_events.author_id8`
-   * [!UICONTROL One]: `[Zendesk] users.id`
+   * [!UICONTROL Many]: `[!DNL Zendesk] audits_~_events.author_id8`
+   * [!UICONTROL One]: `[!DNL Zendesk] users.id`
 
-   * Selecteer een [!UICONTROL table]: `[Zendesk] users`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] users`
    * Selecteer een [!UICONTROL column]: `User is agent? (Yes/No)`
-   * [!UICONTROL Path]: `[Zendesk] audits_~_events.author_id = [!DNL Zendesk] users.id`
+   * [!UICONTROL Path]: `[!DNL Zendesk] audits_~_events.author_id = [!DNL Zendesk] users.id`
 
 * **`Author is agent? (Yes/No)`**
 
-* **`[Zendesk] audits`** table
+* **`[!DNL Zendesk] audits`** table
    * Selecteer een definitie: `Exists`
    * [!UICONTROL Create Path]:
-   * [!UICONTROL Many]: `[Zendesk] audits_~_events._id_of_parent`
-   * [!UICONTROL One]: `[Zendesk] audits._id`
+   * [!UICONTROL Many]: `[!DNL Zendesk] audits_~_events._id_of_parent`
+   * [!UICONTROL One]: `[!DNL Zendesk] audits._id`
 
-   * Selecteer een [!UICONTROL table]: `[Zendesk] audits_~_events`
-   * [!UICONTROL Path]: `[Zendesk] audits_~_events._id_of_parent = [Zendesk] audits._id`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] audits_~_events`
+   * [!UICONTROL Path]: `[!DNL Zendesk] audits_~_events._id_of_parent = [!DNL Zendesk] audits._id`
    * [!UICONTROL Filter]:
    * `field_name` = `status`
    * `type` = `Change`
    * `value` = `solved`
 
    * Selecteer een definitie: `Exists`
-   * Selecteer een [!UICONTROL table]: `[Zendesk] audits_~_events`
-   * [!UICONTROL Path]: `[Zendesk] audits_~_events._id_of_parent = [Zendesk] audits._id`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] audits_~_events`
+   * [!UICONTROL Path]: `[!DNL Zendesk] audits_~_events._id_of_parent = [!DNL Zendesk] audits._id`
    * [!UICONTROL Filter]: `Author is agent? (Yes/No)`
    * `type` = `Comment`
    * `public` = `1`
@@ -121,36 +121,36 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 * **`Status changes to solved? (1/0)`**
 * **`Is agent comment? (1/0)`**
 
-* **`[Zendesk] Tickets`** table
+* **`[!DNL Zendesk] Tickets`** table
    * Selecteer een definitie: `Joined Column`
    * [!UICONTROL Create Path]:
-   * [!UICONTROL Many]: `[Zendesk] tickets.requester_id`
-   * [!UICONTROL One]: `[Zendesk] users.id`
+   * [!UICONTROL Many]: `[!DNL Zendesk] tickets.requester_id`
+   * [!UICONTROL One]: `[!DNL Zendesk] users.id`
 
-   * Selecteer een [!UICONTROL table]: `[Zendesk] users`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] users`
    * Selecteer een [!UICONTROL column]: `email`
-   * [!UICONTROL Path]: `[Zendesk] tickets.requester_id = [Zendesk] users.id`
+   * [!UICONTROL Path]: `[!DNL Zendesk] tickets.requester_id = [!DNL Zendesk] users.id`
 
    * Selecteer een definitie: `Joined Column`
-   * Selecteer een [!UICONTROL table]: `[Zendesk] users`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] users`
    * Selecteer een [!UICONTROL column]: `role`
-   * [!UICONTROL Path]: `[Zendesk] tickets.requester_id = [Zendesk] users.id`
+   * [!UICONTROL Path]: `[!DNL Zendesk] tickets.requester_id = [!DNL Zendesk] users.id`
 
    * Selecteer een definitie: `Max`
    * [!UICONTROL Create Path]:
-   * [!UICONTROL Many]: `[Zendesk] audits.ticket_id`
-   * [!UICONTROL One]: `[Zendesk] tickets.id`
+   * [!UICONTROL Many]: `[!DNL Zendesk] audits.ticket_id`
+   * [!UICONTROL One]: `[!DNL Zendesk] tickets.id`
 
-   * Selecteer een [!UICONTROL table]: `[Zendesk] audits`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] audits`
    * Selecteer een [!UICONTROL column]: `created_at`
-   * [!UICONTROL Path]: `[Zendesk] audits.ticket_id = [Zendesk] tickets.id`
+   * [!UICONTROL Path]: `[!DNL Zendesk] audits.ticket_id = [!DNL Zendesk] tickets.id`
    * [!UICONTROL Filter]:
    * `status` gewijzigd in `solved = 1`
 
    * Selecteer een definitie: `Min`
-   * Selecteer een [!UICONTROL table]: `[Zendesk] audits`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] audits`
    * Selecteer een [!UICONTROL column]: `created_at`
-   * [!UICONTROL Path]: `[Zendesk] audits.ticket_id = [Zendesk] tickets.id`
+   * [!UICONTROL Path]: `[!DNL Zendesk] audits.ticket_id = [!DNL Zendesk] tickets.id`
    * [!UICONTROL Filter]:
    * `Is agent comment? = 1`
 
@@ -202,13 +202,13 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 * **`customer_entity`** table
    * Selecteer een definitie: `Count`
    * [!UICONTROL Create Path]:
-   * [!UICONTROL Many]: `[Zendesk] tickets.email`
+   * [!UICONTROL Many]: `[!DNL Zendesk] tickets.email`
    * 
 
       [!UICONTROL One]: `customer_entity.email`
 
-   * Selecteer een [!UICONTROL table]: `[Zendesk] tickets`
-   * [!UICONTROL Path]: `[Zendesk] tickets.email = customer_entity.email`
+   * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] tickets`
+   * [!UICONTROL Path]: `[!DNL Zendesk] tickets.email = customer_entity.email`
    * [!UICONTROL Filter]:
    * `Tickets we count`
 
@@ -223,11 +223,11 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 
       * `Datatype` – `String`
 
-* **`[Zendesk] Tickets`** table
+* **`[!DNL Zendesk] Tickets`** table
    * Selecteer een definitie: `Joined Column`
    * Selecteer een [!UICONTROL table]: `customer_entity`
    * Selecteer een [!UICONTROL column]: `User's lifetime number of support tickets requested`
-   * [!UICONTROL Path]: `[Zendesk] tickets.email = customer_entity.email`
+   * [!UICONTROL Path]: `[!DNL Zendesk] tickets.email = customer_entity.email`
 
 * **`Requester's lifetime number of support tickets`**
 
@@ -236,7 +236,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 * **[!DNL Zendesk]Nieuwe tickets**
    * `Tickets we count`
 
-* In de **`[Zendesk] tickets`** table
+* In de **`[!DNL Zendesk] tickets`** table
 * Deze maatstaf voert een **Aantal**
 * Op de **`id`** kolom
 * Besteld door de **`created_at`** tijdstempel
@@ -246,7 +246,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
    * `Tickets we count`
    * status IN `closed, solved`
 
-* In de **`[Zendesk] tickets`** table
+* In de **`[!DNL Zendesk] tickets`** table
 * Deze maatstaf voert een **Aantal**
 * Op de **`id`** kolom
 * Besteld door de **`created_at`** tijdstempel
@@ -255,7 +255,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 * **[!DNL Zendesk]Afzonderlijke gebruikers die tickets aanvragen**
    * `Tickets we count`
 
-* In de **`[Zendesk] tickets`** table
+* In de **`[!DNL Zendesk] tickets`** table
 * Deze maatstaf voert een **Verschil aantal**
 * Op de **`requester_id`** kolom
 * Besteld door de **`created_at`** tijdstempel
@@ -265,7 +265,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
    * `Tickets we count`
    * status IN `closed, solved`
 
-* In de **`[Zendesk] tickets`** table
+* In de **`[!DNL Zendesk] tickets`** table
 * Deze maatstaf voert een **Gemiddelde (of Mediaan)**
 * Op de **`Seconds to resolution`** kolom
 * Besteld door de **`created_at`** tijdstempel
@@ -275,7 +275,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
    * Tickets die worden geteld
    * status IN gesloten, opgeloste
 
-* In de **`[Zendesk] tickets`** table
+* In de **`[!DNL Zendesk] tickets`** table
 * Deze maatstaf voert een **Gemiddelde (of Mediaan)**
 * Op de **`Seconds to first response`** kolom
 * Besteld door de **`created_at`** tijdstempel

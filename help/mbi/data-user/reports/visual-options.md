@@ -2,9 +2,9 @@
 title: Visualisatieopties in Visual Report Builder
 description: Leer hoe te om de opties van de Visualisatie in Visual Report Builder te gebruiken.
 exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Het selecteren van de juiste visualisatie voor een bepaalde gegevensset is een essentieel onderdeel van het analyseproces. Elke gegevensset heeft een verhaal dat je moet vertellen, maar het effect van dat verhaal wordt benadrukt door zijn visuele impact en leesbaarheid.
 
-De [!DNL MBI] `Visual Report Builder` biedt twaalf verschillende visualisatieopties, elk met hun eigen voordelen en gebruiksscenario&#39;s. In dit artikel worden de verschillende visualisatieopties in [!DNL MBI], met inbegrip van vereiste rapportconfiguraties indien van toepassing, en een voorbeeld van een gebruiksgeval. De volgende visualisaties zijn beschikbaar in MBI:
+De [!DNL Commerce Intelligence] [!DNL Visual Report Builder] biedt twaalf verschillende visualisatieopties, elk met hun eigen voordelen en gebruiksscenario&#39;s. In dit onderwerp worden de verschillende visualisatieopties besproken in [!DNL Commerce Intelligence], met inbegrip van vereiste rapportconfiguraties indien van toepassing, en een voorbeeld van een gebruiksgeval. De volgende visualisaties zijn beschikbaar in [!DNL Commerce Intelligence]:
 
 * `Scalar`
 * `Table`

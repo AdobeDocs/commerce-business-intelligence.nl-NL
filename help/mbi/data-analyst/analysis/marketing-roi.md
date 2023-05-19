@@ -2,9 +2,9 @@
 title: Marketing ROI
 description: Leer hoe u een dashboard instelt dat uw kanaalanalyse bijhoudt - inclusief ROI in geaggregeerde vorm en per campagne.
 exl-id: 5de83998-e6cf-478d-bb6a-7a3dc77c2c0c
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u de sectie &quot;Weergaven Data Warehouse&quot; hebt beschikbaar nadat u Gegevens beheren hebt geselecteerd op de hoofdwerkbalk.
+>Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u de sectie &quot;Weergaven Data Warehouse&quot; hebt beschikbaar nadat u Gegevens beheren hebt geselecteerd op de hoofdwerkbalk.
 
-Als u geld uitgeeft aan online reclame, wilt u uw rendement op dit geld volgen en gegevensgedreven besluiten over verdere investeringen nemen. Dit artikel laat zien hoe u een dashboard kunt instellen dat uw kanaalanalyse bijhoudt, inclusief ROI in geaggregeerde vorm en per campagne.
+Als u geld uitgeeft aan online reclame, wilt u uw rendement op dit geld volgen en gegevensgedreven besluiten over verdere investeringen nemen. Dit onderwerp toont hoe te opstelling een dashboard dat uw kanaalanalyse - met inbegrip van ROI in bijeengevoegde en door campagne volgt.
 
 ![](../../assets/Marketing_dashboard_example.png)
 
@@ -23,20 +23,16 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [!DNL [Facebook Ads]]
 
 ## Geconsolideerde tabellen
 
-**Oorspronkelijke architectuur:** Om uw uitgaven uit diverse bronnen samen te brengen (zoals [!DNL Facebook Ads] of [!DNL Google Adwords]), raadt Adobe aan een **geconsolideerde tabel** van al je advertentie-uitgaven. U hebt een analist nodig om deze stap voor u te voltooien. Als dat niet het geval is, [een supportverzoek indienen](../../guide-overview.md) met het onderwerp `[MARKETING ROI ANALYSIS]`en een analist maakt deze tabel.
+**Oorspronkelijke architectuur:** Om uw uitgaven uit diverse bronnen samen te brengen, zoals [!DNL Facebook Ads] of [!DNL Google Adwords], raadt Adobe aan een **geconsolideerde tabel** van al je advertentie-uitgaven. U hebt een analist nodig om deze stap voor u te voltooien. Als dat niet het geval is, [een supportverzoek indienen](../../guide-overview.md#Submitting-a-Support-Ticket) met het onderwerp `[MARKETING ROI ANALYSIS]`en een analist maakt deze tabel.
 
-**Nieuwe architectuur:** U kunt het voorbeeld volgen in [deze analysebibliotheek](../../data-analyst/data-warehouse-mgr/create-dw-views.md) onderwerp. De geconsolideerde Lijsten zijn nu genoemd geworden Mening van de Data Warehouse over de nieuwe architectuur.
+**Nieuwe architectuur:** U kunt het voorbeeld volgen in [Deze analysebibliotheek](../../data-analyst/data-warehouse-mgr/create-dw-views.md) onderwerp. De geconsolideerde Lijsten zijn nu genoemd geworden Mening van de Data Warehouse over de nieuwe architectuur.
 
 ## Berekende kolommen
 
 Te maken kolommen
 
 * **`Consolidated Digital Ad Spend`** table
-* **`Campaign name`** wordt gemaakt door een analist als onderdeel van uw **[ANALYSE VAN HET VERKOOPPERVLAK]** kaartje
-
->[!NOTE]
->
->Zie hierboven voor nieuwe architectuurverschillen.
+* **`Campaign name`** wordt gemaakt door een Adobe-analist als onderdeel van uw **[ANALYSE VAN HET VERKOOPPERVLAK]** kaartje
 
 **Oorspronkelijke en nieuwe architecturen:**
 
@@ -63,7 +59,6 @@ Te maken kolommen
       * Selecteer een [!UICONTROL table]: `ecommerce####`
       * Selecteer een [!UICONTROL column]: `source`
       * [!UICONTROL Path]: sales_flat_order.increment_id = e-commerce####.transactionId ^
-
 
 
 
@@ -295,7 +290,7 @@ Te maken kolommen
 
    [!UICONTROL Chart Type]: `Table`
 
-Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ### Verwante
 

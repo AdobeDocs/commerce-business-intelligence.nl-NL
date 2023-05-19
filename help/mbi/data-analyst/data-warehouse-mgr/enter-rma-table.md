@@ -2,20 +2,20 @@
 title: enterprise_rma-tabel
 description: Leer hoe u informatie over een specifieke retouraanvraag analyseert.
 exl-id: a19cbc9a-e34f-4f4e-820f-9e413d1a552d
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
 # enterprise_rma-tabel
 
-Elke rij in de `enterprise_rma` table (vaak `magento_rma` in Handel 2.x, maar de naam kan worden aangepast) bevat informatie over een specifiek terugkeerverzoek.
+Elke rij in de `enterprise_rma` table (vaak `magento_rma` in Adobe Commerce 2.x, maar de naam kan worden aangepast) bevat informatie over een specifieke retouraanvraag.
 
 >[!NOTE]
 >
->Deze tabel wordt alleen standaard geleverd met uw Commerce-account als u een `Enterprise Edition` of `Enterprise Cloud Edition` klant.
+>Deze tabel wordt alleen standaard geleverd bij uw Adobe Commerce-account als u een `Enterprise Edition` of `Enterprise Cloud Edition` klant.
 
 ## Algemene native kolommen
 

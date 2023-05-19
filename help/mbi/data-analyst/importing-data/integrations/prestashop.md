@@ -1,21 +1,21 @@
 ---
 title: Connect PrestaShop
-description: Leer hoe u PrestaShop-gegevens kunt verbinden met [!DNL MBI].
+description: Leer hoe u PrestaShop-gegevens kunt verbinden met [!DNL Commerce Intelligence].
 exl-id: b6f240c0-9461-4015-a56a-64e8e67392fa
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
 
 ---
 
-# Verbinden `PrestaShop`
+# Verbinden [!DNL PrestaShop]
 
 ![](../../../assets/Prestashop-logo.png)
 
-Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Uw `PrestaShop` gegevens naar [!DNL MBI] laat u deze vragen en meer beantwoorden .
+Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Uw [!DNL PrestaShop] gegevens naar [!DNL Commerce Intelligence] laat u deze vragen en meer beantwoorden .
 
-De `PrestaShop` database is gebaseerd op `MySQL`, kunt u er verbinding mee maken [!DNL MBI] via een [directe verbinding](../integrations/mysql-via-a-direct-connection.md), [`cPanel`](../integrations/mysql-via-cpanel.md), of [via een `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md). Adobe raadt u aan de `SSH` de veiligste methode.
+De [!DNL PrestaShop] database is gebaseerd op [!DNL MySQL], kunt u er verbinding mee maken [!DNL Commerce Intelligence] via een [directe verbinding](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [via een `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md). Adobe raadt u aan de `SSH` de veiligste methode.
 
 ## Gerelateerde documentatie
 

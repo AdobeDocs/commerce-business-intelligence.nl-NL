@@ -1,19 +1,19 @@
 ---
-title: SQL-query's omzetten in [!DNL MBI] rapporten
-description: Leer hoe SQL de vragen in berekende kolommen worden vertaald, metriek u binnen gebruikt [!DNL MBI].
+title: SQL-query's omzetten in Commerce Intelligence-rapporten
+description: Leer hoe SQL de vragen in de berekende kolommen, metriek worden vertaald u in de Intelligentie van de Handel gebruikt.
 exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
-# SQL-query&#39;s vertalen in MBI
+# SQL-query&#39;s vertalen in Commerce Intelligence
 
-ooit vroeg zich af hoe SQL-query&#39;s vertaald worden in de [berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md), [cijfers](../../data-user/reports/ess-manage-data-metrics.md), en [rapporten](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL MBI]? Als u een zware SQL-gebruiker bent, begrijpen hoe SQL wordt vertaald in [!DNL MBI] biedt u de mogelijkheid om slimmer te werken in de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) en het beste uit de [!DNL MBI] platform.
+ooit vroeg zich af hoe SQL-query&#39;s vertaald worden in de [berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md), [cijfers](../../data-user/reports/ess-manage-data-metrics.md), en [rapporten](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL Commerce Intelligence]? Als u een zware SQL-gebruiker bent, begrijpen hoe SQL wordt vertaald in [!DNL Commerce Intelligence] biedt u de mogelijkheid om slimmer te werken in de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) en het beste uit de [!DNL Commerce Intelligence] platform.
 
-Aan het einde van dit artikel vindt u een **vertaalmatrix** voor SQL-queryclausules en [!DNL MBI] elementen.
+Aan het einde van dit onderwerp vindt u een **vertaalmatrix** voor SQL-queryclausules en [!DNL Commerce Intelligence] elementen.
 
 Begin door een algemene vraag te bekijken:
 
@@ -32,7 +32,7 @@ In dit voorbeeld worden de meeste gevallen van vertaling behandeld, maar er zijn
 
 ## Samengevoegde functies
 
-Samengevoegde functies (bijvoorbeeld `count`, `sum`, `average`, `max`, `min`) bij vragen in de vorm van **metrische aggregaten** of **kolomaggregaties** in [!DNL MBI]. De differentiërende factor is of een verbinding wordt vereist om de samenvoeging uit te voeren.
+Samengevoegde functies (bijvoorbeeld `count`, `sum`, `average`, `max`, `min`) bij vragen in de vorm van **metrische aggregaten** of **kolomaggregaties** in [!DNL Commerce Intelligence]. De differentiërende factor is of een verbinding wordt vereist om de samenvoeging uit te voeren.
 
 Bekijk een voorbeeld voor elk van bovenstaande.
 
@@ -40,7 +40,7 @@ Bekijk een voorbeeld voor elk van bovenstaande.
 
 Metrisch is vereist bij aggregatie `within a single table`. Bijvoorbeeld de `SUM(b)` de gezamenlijke functie van de vraag hierboven zou hoogstwaarschijnlijk door metrisch worden vertegenwoordigd die kolom sommen `B`. 
 
-Bekijk een specifiek voorbeeld van hoe een `Total Revenue` Metrisch kan worden gedefinieerd in [!DNL MBI]. Bekijk de query hieronder die u probeert te vertalen:
+Bekijk een specifiek voorbeeld van hoe een `Total Revenue` Metrisch kan worden gedefinieerd in [!DNL Commerce Intelligence]. Bekijk de query hieronder die u probeert te vertalen:
 
 |  |  |
 |--- |--- |
@@ -51,7 +51,7 @@ Bekijk een specifiek voorbeeld van hoe een `Total Revenue` Metrisch kan worden g
 | `email NOT LIKE '%@magento.com'` | Metrisch `filter` |
 | `AND created_at < X`<br><br>`AND created_at >= Y` | Metrisch `timestamp` (en rapportage `time range`) |
 
-Navigeren naar de metrische bouwer door te klikken **[!UICONTROL Manage Data** > ** Metrisch **> **Nieuwe metrisch maken]** moet u eerst de juiste `source` de tabel, die in dit geval de `orders` tabel. Dan zou metrisch opstelling zoals hieronder getoond zijn:
+Navigeer naar de metrische bouwer door te klikken **[!UICONTROL Manage Data** > ** Metrisch **> **Nieuwe metrisch maken]** moet u eerst de juiste `source` de tabel, die in dit geval de `orders` tabel. Dan zou metrisch opstelling zoals hieronder getoond zijn:
 
 ![Metrische aggregatie](../../assets/Metric_aggregation.png)
 
@@ -71,7 +71,7 @@ De query voor deze aggregatie kan er ongeveer als volgt uitzien:
 | `ON c.customer_id = o.customer_id` | Pad |
 | `WHERE o.status = 'success'` | Samenvoegen, filter |
 
-Deze instelling instellen in [!DNL MBI] vereist het gebruik van uw manager van de Data Warehouse, waar u een weg tussen uw bouwt `orders` en `customers` tabel maakt vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
+Deze instelling instellen in [!DNL Commerce Intelligence] vereist het gebruik van uw manager van de Data Warehouse, waar u een weg tussen uw bouwt `orders` en `customers` tabel maakt vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
 
 Kijk hoe u een nieuw pad kunt instellen tussen de `customers` en `orders`. Het uiteindelijke doel is om een nieuwe samengevoegde kolom te maken in de `customers` tabel, dus navigeer eerst naar de `customers` tabel in uw Data Warehouse en klik vervolgens op **[!UICONTROL Create a Column** > ** Een definitie selecteren **> **SUM]**.
 
@@ -83,9 +83,9 @@ Hier moet u zorgvuldig het verband tussen de twee lijsten overwegen u probeert o
 
 >[!NOTE]
 >
->In [!DNL MBI], *pad* is gelijk aan `Join` in SQL.
+>In [!DNL Commerce Intelligence], `path` is gelijk aan `Join` in SQL.
 
-Als het pad eenmaal is opgeslagen, kunt u de `Customer LTV` kolom! Bekijk het onderstaande:
+Als het pad eenmaal is opgeslagen, kunt u het `Customer LTV` kolom! Zie hieronder:
 
 ![](../../assets/Customer_LTV.gif)
 
@@ -95,11 +95,11 @@ Nu hebt u de nieuwe `Customer LTV` kolom in uw `customers` tabel, kunt u een [me
 >
 >Voor de laatste kolom moet u altijd een nieuwe berekende kolom maken [de dimensie toevoegen aan bestaande metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) voordat het beschikbaar is als een `filter` of `group by`.
 
-Zie [berekende kolommen maken](../data-warehouse-mgr/creating-calculated-columns.md) met uw Data Warehouse manager.
+Zie [berekende kolommen maken](../data-warehouse-mgr/creating-calculated-columns.md) met uw Data Warehouse Manager.
 
 ## `Group By` clausules
 
-`Group By` functies in query&#39;s worden vaak weergegeven in [!DNL MBI] als kolom die wordt gebruikt om een visueel rapport te segmenteren of te filteren. Als voorbeeld kunnen we de `Total Revenue` vraag die u eerder verkende, maar dit tijdsegment de opbrengst door `coupon\_code` om beter te begrijpen welke coupons de meeste inkomsten genereren.
+`Group By` functies in query&#39;s worden vaak weergegeven in [!DNL Commerce Intelligence] als kolom die wordt gebruikt om een visueel rapport te segmenteren of te filteren. Als voorbeeld kunnen we de `Total Revenue` vraag die u eerder verkende, maar dit tijdsegment de opbrengst door `coupon\_code` om beter te begrijpen welke coupons de meeste inkomsten genereren.
 
 Begin met de onderstaande query:
 
@@ -149,10 +149,10 @@ Stel nu dat u al metriek hebt ingesteld voor het berekenen van de `Total Revenue
 
 ## Omloop omhoog
 
-Als u een zware SQL-gebruiker bent, moet u nadenken over hoe query&#39;s worden vertaald in [!DNL MBI] laat u toe om berekende kolommen, metriek, en rapporten te bouwen.
+Als u een zware SQL-gebruiker bent, moet u nadenken over hoe query&#39;s worden vertaald in [!DNL Commerce Intelligence] laat u toe om berekende kolommen, metriek, en rapporten te bouwen.
 
-Voor een snelle referentie kunt u de onderstaande matrix uitchecken. Dit toont het equivalent van een SQL-component [!DNL MBI] element en hoe het aan meer dan één element kan in kaart brengen, afhankelijk van hoe het in de vraag wordt gebruikt.
+Voor een snelle referentie kunt u de onderstaande matrix uitchecken. Dit toont het equivalent van een SQL-component [!DNL Commerce Intelligence] element en hoe het aan meer dan één element kan in kaart brengen, afhankelijk van hoe het in de vraag wordt gebruikt.
 
-## MBI Elements
+## Commerce Intelligence Elements
 
 |**`SQL Clause`**|**`Metric`**|**`Filter`**|**`Report group by`**|**`Report time frame`**|**`Path`**|**`Calculated column inputs`**|**`Source table`**| |—|—|—|—|—|—|—|—|—| |`SELECT`|X|-|X|-|-|X|-|- |`FROM`|-|-|-|-|-|-|X| |`WHERE`|-|X|-|-|-|-|-|-|- |`WHERE` (met tijdelementen)|-|-|-|X|-|-|-|- |`JOIN...ON`|-|X|-|-|X|X|-| |`GROUP BY`|-|-|X|-|-|-|-|-|

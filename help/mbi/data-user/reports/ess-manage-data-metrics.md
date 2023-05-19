@@ -2,9 +2,9 @@
 title: Metrisch maken
 description: Leer hoe u metriek kunt gebruiken om grafieken te maken.
 exl-id: d4c25546-3c51-4d32-b9d8-c424ec103be5
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-Een metrische waarde is een maat. In SQL en gegevensbestandstructuren, is metrisch als een opgeslagen vraag over een veranderlijke periode.
+Een metrisch is een meting. In SQL en gegevensbestandstructuren, is metrisch als een opgeslagen vraag over een veranderlijke periode.
 
-In [!DNL MBI], kunt u metriek gebruiken aan [grafieken maken](../../data-user/reports/ess-rpt-build-visual.md). Bijvoorbeeld de metrische `revenue` het totale aantal orders. De metrische `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
+In [!DNL Commerce Intelligence], kunt u metriek gebruiken aan [grafieken maken](../../data-user/reports/ess-rpt-build-visual.md). Bijvoorbeeld de metrische `revenue` het totale aantal orders. De metrische `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
 
 Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [gefilterd of gesegmenteerd](../../best-practices/segment-filter.md) naar verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van klanten, ingedeeld naar geslacht - in dit geval, `average customer revenue per order` is het metrisch en het geslacht is de groepering.
 
@@ -68,7 +68,7 @@ De `Filter Logic` is waar u kunt verder bepalen hoe metrisch zich zou moeten ged
 
 De [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) alle beschikbare gegevensafmetingen voor filteren of groeperen; standaard worden alle beschikbare gegevenskolommen weergegeven als afmetingen. Als u doorgaat met het voorbeeld, als u uw inkomsten wilt segmenteren op verwijzingsbron, kunt u dat hier doen.
 
-Naast het weergeven van alle beschikbare gegevenskolommen als afmetingen, [!DNL MBI] Gecontroleerd bij welke kolommen gegroepeerd kunnen worden. *Gegevens segmenteren of groeperen in rapporten*, moeten kolommen worden gemarkeerd als gegroepeerd.
+Naast het weergeven van alle beschikbare gegevenskolommen als afmetingen, [!DNL Commerce Intelligence] Gecontroleerd bij welke kolommen gegroepeerd kunnen worden. *Gegevens segmenteren of groeperen in rapporten*, moeten kolommen worden gemarkeerd als gegroepeerd.
 
 ## Voltooien {#finish}
 

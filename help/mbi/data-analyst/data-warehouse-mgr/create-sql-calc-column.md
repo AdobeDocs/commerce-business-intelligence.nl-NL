@@ -1,23 +1,23 @@
 ---
 title: Een SQL Berekende kolom maken en gebruiken
-description: Leer hoe de geavanceerde kolommen in de vorm van SQL de kolommen van de Berekening op de nieuwe architectuur kunnen worden gecreeerd MBI.
+description: Leer hoe u geavanceerde kolommen kunt maken in de vorm van SQL-berekeningskolommen op de nieuwe Adobe Commerce Intelligence-architectuur.
 exl-id: f16e4ee4-ed73-4ddb-b701-1fe3db14346a
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Een SQL Berekende kolom maken
 
-Dit onderwerp schetst het doel en het gebruik van `Calculation` kolomtype: die met de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md). Hieronder volgt een uitleg van wat SQL-berekeningen doen, waarom ze worden gebruikt, het proces voor het maken van een SQL-berekening en twee voorbeelden.
+Dit onderwerp schetst het doel en het gebruik van `Calculation` kolomtype, dat aan lijsten kan worden toegevoegd gebruikend [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md). Hieronder wordt uitgelegd wat SQL-berekeningen doen, waarom ze worden gebruikt, het proces voor het maken van een SQL-berekening en bevat twee voorbeelden.
 
 **Toelichting**
 
-In het verleden werden kolommen die `advanced` kan alleen worden uitgevoerd door een analist van het Customer Success-team hier op [!DNL MBI]. Nu is al macht in de handen van het eind - gebruiker, en de geavanceerde kolommen kunnen in de vorm van worden gecreeerd `SQL Calculation` kolommen over de nieuwe [!DNL MBI] architectuur.
+In het verleden werden kolommen die `advanced` kan alleen worden uitgevoerd door een analist van het Customer Success-team hier op [!DNL Adobe Commerce Intelligence]. Nu is al macht in de handen van het eind - gebruiker, en de geavanceerde kolommen kunnen in de vorm van worden gecreeerd `SQL Calculation` kolommen over de nieuwe [!DNL Commerce Intelligence] architectuur.
 
-De `Calculation` kolomtype, nu beschikbaar als optie in de Manager van de Data Warehouse, is een zelfde lijstverrichting die u toestaat om de kolommen op een lijst om te zetten gebruikend logica PostgreSQL. Documentatie over de functies en operatoren die in de `Calculatio`Een kolomtype is te vinden op de PostSQL-website [hier](https://www.postgresql.org/docs/9.6/functions.html).
+De `Calculation` kolomtype, nu beschikbaar als optie in de Manager van de Data Warehouse, is een zelfde lijstverrichting die u toestaat om de kolommen op een lijst om te zetten gebruikend logica PostgreSQL. Documentatie over de functies en operatoren die in de `Calculation` het kolomtype is te vinden op de website PostgreSQL [hier](https://www.postgresql.org/docs/9.6/functions.html).
 
 De verschillende kolommen die kunnen worden gemaakt met de `Calculation` de kolom is bijna onbeperkt, maar de meeste kolommen kunnen worden tot stand gebracht gebruikend IF-THEN verklaringen en basisrekenkunde, die in de voorbeelden hieronder wordt gebruikt.
 
@@ -73,4 +73,5 @@ Van hieruit kunt u een `Calculation` kolom door de onderstaande stappen te volge
    * `Datetime` - yyyy-MM-dd hh:mm:ss-indeling
 
 1. Klikken **[!UICONTROL test column]**. Hierdoor wordt een lijst met vijf testwaarden gegenereerd voor elk van uw inputs en wordt het resultaat van de logica uit stap 6 voor elke set testwaarden weergegeven. Als een gedeelte van de SQL een fout genereert, wordt het juiste foutbericht geretourneerd. Voorbeeldresultaten kunnen alleen worden gegenereerd als alle invoerkolommen native velden zijn. Als om het even welke inputkolommen worden berekend kolommen, moet u de resultaten bevestigen door de kolom aan metrisch toe te voegen en in Visual Report Builder te bekijken
+
 1. Als u tevreden bent met het resultaat, klikt u op **[!UICONTROL Save]**. De kolom schakelt voor gebruik in.

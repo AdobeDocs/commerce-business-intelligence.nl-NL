@@ -1,24 +1,24 @@
 ---
-title: MBI
-description: Leren gebruiken [!DNL MBI] -functies beschikbaar voor Adobe Commerce.
-breadcrumb-title: MBI-gebruikershandleiding
-source-git-commit: be09d288755ea32eddf62b1eaf26ce586017320f
+title: Commerce Intelligence
+description: Leren gebruiken [!DNL Commerce Intelligence] -functies beschikbaar voor Adobe Commerce.
+breadcrumb-title: Handboek voor informatie over handel
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
 
 
-# [!DNL MBI] Handboek {#mbi}
+# [!DNL Commerce Intelligence] Handboek {#mbi}
 
-- [[!DNL MBI] Overzicht van gebruikershandleiding](guide-overview.md)
-- [[!DNL MBI] Inleiding](getting-started/getting-started.md)
+- [[!DNL Commerce Intelligence] Handboek](guide-overview.md)
+- [[!DNL Commerce Intelligence] Inleiding](getting-started/getting-started.md)
 - Aan de slag {#start}
    - [Onboarding](getting-started/onboarding.md)
-   - [Activeer uw [!DNL MBI] Account](getting-started/onpremise-activation.md)
-   - [Aanmelden bij uw [!DNL MBI] Account](getting-started/sign-in.md)
-   - [MBI Essentials vs MBI Pro](getting-started/essentials-vs-pro.md)
+   - [Activeer uw [!DNL Commerce Intelligence] Account](getting-started/onpremise-activation.md)
+   - [Aanmelden bij uw [!DNL Commerce Intelligence] Account](getting-started/sign-in.md)
+   - [Commerce Intelligence Essentials vs Commerce Intelligence Pro](getting-started/essentials-vs-pro.md)
 - Beheerder {#administrator}
    - Accountbeheer {#acct-mgmt}
       - [Voordelen van [!DNL New Architecture]](../mbi/administrator/account-management/new-architecture.md)
@@ -53,7 +53,7 @@ ht-degree: 0%
       - [[!DNL MongoDB] gids voor gegevensmodellen](data-analyst/data-warehouse-mgr/mongodb-data-modeling.md)
       - [Replicatie [!DNL Google Analytics] kanalen](data-analyst/data-warehouse-mgr/rep-google-analytics-channels.md)
       - [Gegevens standaardiseren met toewijzingstabellen](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
-      - [SQL-query&#39;s omzetten in [!DNL MBI] rapporten](data-analyst/dev-reports/sql-queries-reports.md)
+      - [SQL-query&#39;s omzetten in [!DNL Commerce Intelligence] rapporten](data-analyst/dev-reports/sql-queries-reports.md)
       - [Tabelrelaties begrijpen en evalueren](data-analyst/data-warehouse-mgr/table-relationships.md)
       - [Het berekende datumverschil gebruiken](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
       - [Werken met Dashboard Breed filteren](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
@@ -74,7 +74,7 @@ ht-degree: 0%
       - [Een kwalitatieve cohortanalyse maken](data-analyst/dev-reports/create-qual-cohort-analysis.md)
       - [Speciale filteroperatoren verkennen](data-analyst/dev-reports/explr-special-filter-ops.md)
       - [De resultaten van mijn query exporteren](data-analyst/dev-reports/export-query-results.md)
-      - [Formulas gebruiken in het dialoogvenster [!DNL Report Builder]](../mbi/data-analyst/dev-reports/formulas-in-rpt-bldr.md)
+      - [Formulas gebruiken in de [Report Builder]](../mbi/data-analyst/dev-reports/formulas-in-rpt-bldr.md)
       - [Maken [!DNL Google Analytics] grafieken](data-analyst/dev-reports/google-analytics-charts-regex.md)
       - [Het belang van de [!DNL Lifetime Revenue Cohort Analysis]](data-analyst/dev-reports/lifetime-rev-cohort-analysis.md)
       - [Gegevens ordenen met de [!DNL Show Top/Bottom] functie](data-analyst/dev-reports/order-data-top-bottom-feat.md)
@@ -129,8 +129,8 @@ ht-degree: 0%
    - Database-integratie {#integration}
       - [Verbinding maken [!DNL Amazon RDS]](data-analyst/importing-data/integrations/amazon-rds.md)
       - [Verbinding maken met databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
-      - [Maak verbinding met [!DNL MySQL Database] tot [!DNL MBI]](data-analyst/importing-data/integrations/db-to-mbi.md)
-      - [Connecting Commerce](data-analyst/importing-data/integrations/magento.md)
+      - [Maak verbinding met [!DNL MySQL Database] tot [!DNL Commerce Intelligence]](data-analyst/importing-data/integrations/db-to-mbi.md)
+      - [Adobe Commerce verbinden](data-analyst/importing-data/integrations/magento.md)
       - [Verwachte handelsgegevens](data-analyst/importing-data/integrations/magento-data.md)
       - [Verbinding maken [!DNL Microsoft SQL Server]](data-analyst/importing-data/integrations/microsoft-sql-server.md)
       - [Verbinding maken [!DNL MongoDB] via [!DNL SSH Tunnel]](data-analyst/importing-data/integrations/mongodb-via-ssh-tunnel.md)
@@ -221,11 +221,11 @@ ht-degree: 0%
       - [Uw database aanpassen om incrementele replicatie te ondersteunen](best-practices/mod-db-inc-replication.md)
       - [Uw database optimaliseren voor analyse](best-practices/opt-db-analysis.md)
       - [Optimaliseren [!DNL SQL] Zoekopdrachten](best-practices/optimizing-your-sql-queries.md)
-      - [Uw kennis [!DNL MBI] Omgeving](best-practices/understanding-magento.md)
+      - [Uw kennis [!DNL Commerce Intelligence] Omgeving](best-practices/understanding-magento.md)
    - Projectorganisatie {#project}
-      - [Rapporten en elementen benoemen in [!DNL MBI]](best-practices/naming-elements.md)
+      - [Rapporten en elementen benoemen in [!DNL Commerce Intelligence]](best-practices/naming-elements.md)
       - [Tabellen consolideren](best-practices/consolidating-your-tables.md)
-      - [Verleen uw [!DNL MBI] account](best-practices/declutter-account.md)
+      - [Verleen uw [!DNL Commerce Intelligence] account](best-practices/declutter-account.md)
    - Werken met dashboards {#working-dashboards}
       - [Dashboards delen](best-practices/share-dashboard-best-practice.md)
       - [Een investeringsdashboard opbouwen](best-practices/build-investor-dashboard.md)

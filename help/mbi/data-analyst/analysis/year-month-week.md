@@ -2,9 +2,9 @@
 title: Jaarverslagen, maandverslagen en wekelijkse rapporten
 description: Leer hoe u trends in de loop der tijd gemakkelijk kunt zien en het perspectief kunt wijzigen voor tijdsperioden die u wilt vergelijken.
 exl-id: 74cf11c3-7ce0-477f-9a28-9d782e5da3d9
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u _Weergaven Data Warehouse_ sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
+>Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u [!DNL _Weergaven Data Warehouse_] sectie beschikbaar na het selecteren [!DNL Manage Data] van de hoofdwerkbalk.
 
-De rapportbouwer staat u toe om tendensen in tijd gemakkelijk te zien en perspectief voor tijdsperioden te veranderen u kunt willen vergelijken. Dit artikel laat zien hoe u een dashboard kunt instellen om een niveau dieper te gaan zodat u rapporten kunt maken voor week in week, maand in maand en jaar in jaar analyse.
+De rapportbouwer staat u toe om tendensen in tijd gemakkelijk te zien en perspectief voor tijdsperioden te veranderen u kunt willen vergelijken. Dit onderwerp toont hoe te opstelling een dashboard om een niveau dieper te gaan om u toe te staan om rapporten voor week over week, maand over maand en jaar over jaaranalyse te creëren.
 
 ![](../../assets/Wow__mom__yoy.png)
 
-Voordat u aan de slag gaat, wilt u meer inzicht in de perspectieven [hier](../../tutorials/using-visual-report-builder.md) en onafhankelijke tijdopties [hier](../../tutorials/time-options-visual-rpt-bldr.md).
+Voordat u aan de slag gaat, moet u de perspectieven nader onderzoeken [hier](../../tutorials/using-visual-report-builder.md) en onafhankelijke tijdopties [hier](../../tutorials/time-options-visual-rpt-bldr.md).
 
 Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-calc-columns.md).
 

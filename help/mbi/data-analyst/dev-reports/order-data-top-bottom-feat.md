@@ -2,9 +2,9 @@
 title: Gegevens sorteren met de functie Boven/Onder tonen
 description: Leer hoe u uw gegevens kunt bestellen met de functie Boven/Onder tonen.
 exl-id: d47119f4-cdc5-4fa7-a606-d4b8555a8843
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Dit soort het sorteren en het opdracht geven tot van gegevens kan in rapporten w
 
 ## Hoe gebruik ik dit? {#how}
 
-Nadat u op de knop **[!UICONTROL Show Top/Bottom link]** Er wordt een venster weergegeven waarin u de parameters voor weergave en sorteren kunt instellen. Het getal in het tekstvak kan een geheel getal zijn (zoals `5`) of `ALL`. Daarna, kunt u verkiezen om het rapport of door metrisch OF door de groepering te sorteren.
+Klik op de knop **[!UICONTROL Show Top/Bottom link]** om de parameters voor weergave en sorteren in te stellen. Het getal in het tekstvak kan een geheel getal zijn (zoals `5`) of `ALL`. Daarna, kunt u verkiezen om het rapport of door metrisch OF door de groepering te sorteren.
 
 Bijvoorbeeld, als u de vijf verwijzingsbronnen wilde tonen die de meeste opbrengst in brachten, is dit hoe u het doet:
 

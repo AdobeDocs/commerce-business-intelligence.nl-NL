@@ -2,16 +2,16 @@
 title: Het effect van de coupon analyseren
 description: Leer hoe u de invloed van coupons op het aanschaffen en behouden van klanten analyseert.
 exl-id: b0619365-fa75-49b5-a393-87f3364a390f
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1359'
 ht-degree: 2%
 
 ---
 
 # Coupon-effect
 
-Analyseren hoe klanten uw coupons gebruiken, kan uw bedrijf veel inzicht geven. Specifiek analyseren hoe u klanten aanschaft en behoudt via coupons. In dit artikel worden analyses besproken die u kunnen helpen de volgende typen vragen te beantwoorden:
+Analyseren hoe klanten uw coupons gebruiken, kan uw bedrijf veel inzicht geven. Specifiek analyseren hoe u klanten aanschaft en behoudt via coupons. Dit onderwerp verkent analyses die u kunnen helpen de volgende soorten vragen beantwoorden:
 
 * Hoeveel klanten verwerft u via coupons?
 * Hebben klanten met een coupon meer kans om herhaaldelijk aankopen te doen dan klanten die niet via coupons zijn gekocht?
@@ -69,7 +69,7 @@ Het aantal herhaalde opdrachten voor niet-couponaankopen is veel hoger dan voor 
 
 Evenzo is het aantal herhaalde opdrachten met een coupon hoger voor aankopen zonder coupon.
 
-## #Percentage herhaalde opdrachten met coupon
+## Percentage herhalingsopdrachten met coupon
 
 Klanten die geen coupon hebben, hebben een veel lager percentage van herhaalde opdrachten met een coupon dan klanten die een coupon hebben verkregen. Voor klanten met coupon geldt dus dat bijna de helft van herhaalde opdrachten een coupon heeft. In dit voorbeeld doen klanten die coupon hebben gekocht vaak herhaalde aankopen met coupons.
 
@@ -149,4 +149,4 @@ Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot
 
 ## Omloop omhoog {#wrapup}
 
-Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp bij dit soort vragen: [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp bij dit soort vragen: [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

@@ -2,7 +2,7 @@
 title: Zoeken naar dashboards
 description: Leer hoe u met de functie Globaal zoeken naar dashboards kunt zoeken en hoe u kunt zoeken naar dashboards die eigendom zijn van andere gebruikers.
 exl-id: eea09ee5-e7ec-4002-8257-a35a64c900a9
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Zoeken naar een dashboard
 
-In dit artikel wordt uitgelegd hoe u de [`Global Search` functie](#global) om naar dashboards en hoe te te zoeken [dashboards van andere gebruikers](#other).
+In dit onderwerp ziet u hoe u de [[!DNL Global Search] functie](#global) om naar dashboards en hoe te te zoeken [dashboards van andere gebruikers](#other).
 
 ## Globaal zoeken {#global}
 
-De `Global Search` kunt u zoeken naar dashboards en deze selecteren.
+De [!DNL Global Search] kunt u zoeken naar dashboards en deze selecteren.
 
 * *Een lijst met uw bestaande dashboards weergeven*, klikt u op het dashboard.
 

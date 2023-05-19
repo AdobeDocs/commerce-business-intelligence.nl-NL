@@ -1,10 +1,10 @@
 ---
 title: Verwachte spreadgegevens
-description: Bekijk de belangrijkste gegevenstabellen die u vanuit Spreiding in uw [!DNL MBI] account.
+description: Bekijk de belangrijkste gegevenstabellen die u vanuit Spreiding in uw [!DNL Commerce Intelligence] account.
 exl-id: 203a2d4b-e7ad-4704-a3c1-8e22ff0bf2d6
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Nadat u [heeft uw [!DNL Spree] winkel](../../../data-analyst/importing-data/integrations/spree.md)kunt u de [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) om relevante gegevensvelden gemakkelijk van uw [!DNL Spree] platform voor analyse.
 
-In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt importeren [!DNL Spree] in uw [!DNL MBI] account, inclusief koppelingen naar [aanvullende documentatie](https://guides.spreecommerce.org/developer/addresses.html#address) info [!DNL Spree] gegevens.
+Dit onderwerp verkent de belangrijkste gegevenslijsten die u van kunt invoeren [!DNL Spree] in uw [!DNL Commerce Intelligence] account, inclusief koppelingen naar [aanvullende documentatie](https://guides.spreecommerce.org/developer/addresses.html#address) info [!DNL Spree] gegevens.
 
 | **Tabelnaam** | **Beschrijving** |
 |-----|-----|
@@ -28,4 +28,4 @@ In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt
 ## Verwante:
 
 * [Verbinding maken [!DNL Spree]](../integrations/spree.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

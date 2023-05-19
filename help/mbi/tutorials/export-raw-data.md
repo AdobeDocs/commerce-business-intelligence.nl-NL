@@ -1,19 +1,19 @@
 ---
 title: Raw-gegevens exporteren
-description: Leer records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft.
+description: Leer records uit uw [!DNL Commerce Intelligence] Data Warehouse om nader te bekijken wat uw dashboard aandrijft.
 exl-id: 26decdaf-2b2c-4ca2-b3d5-0386892662e8
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
 
 # Raw-gegevens exporteren
 
-Met onbewerkte gegevens kunt u records uit uw [!DNL MBI] Data Warehouse om nader te bekijken wat uw dashboard aandrijft. Ook onbewerkte gegevensexport kan u helpen [discrepanties tussen puntgegevens](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en).
+Met onbewerkte gegevensexportbewerkingen kunt u records uit uw Data Warehouse exporteren om beter te zien wat het dashboard van stroom voorziet. Ook onbewerkte gegevensexport kan u helpen [discrepanties tussen puntgegevens](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html).
 
-De uitvoer van ruwe gegevens verleent toegang tot extra kolommen en dimensies die door de-normalisatie en pre-samenvoeging van relevante metriek worden geproduceerd. Bijvoorbeeld: `User's first order date` is een dimensie die u voor elke gebruiker binnen kunt uitvoeren [!DNL MBI], terwijl deze mogelijk niet beschikbaar is in uw database.
+De uitvoer van ruwe gegevens verleent toegang tot extra kolommen en dimensies die door de-normalisatie en pre-samenvoeging van relevante metriek worden geproduceerd. Bijvoorbeeld: `User's first order date` is een dimensie die u voor elke gebruiker binnen kunt uitvoeren [!DNL Commerce Intelligence], terwijl deze mogelijk niet beschikbaar is in uw database.
 
 Deze zelfstudie behandelt het volgende:
 
@@ -23,13 +23,16 @@ Deze zelfstudie behandelt het volgende:
 
 ## Stap 1: Te exporteren gegevens selecteren {#select}
 
-Er zijn twee manieren waarop u onbewerkte gegevens kunt exporteren in [!DNL MBI]: op diagramniveau of op tabelniveau.
+Er zijn twee manieren waarop u onbewerkte gegevens kunt exporteren in [!DNL Commerce Intelligence]:
 
-### Exporteren op tabelniveau in uw `Manage Data` Tab
+1. op diagramniveau
+1. op tabelniveau
 
-Als u de tabel wilt exporteren `Manage Data` tabblad, hebt u [Beheer](../administrator/user-management/user-management.md) machtigingen.
+### Exporteren op tabelniveau in uw [!UICONTROL Manage Data] Tab
 
-1. Klikken **[!UICONTROL Manage Data** > ** Gegevens exporteren **> **Raw-gegevens exporteren]** om aan de slag te gaan.
+Als u de tabel wilt exporteren [!UICONTROL Manage Data] tabblad, hebt u [Beheer](../administrator/user-management/user-management.md) machtigingen.
+
+1. Klikken **[!UICONTROL Manage Data** > ** Gegevens exporteren **> **Raw-gegevens exporteren]**.
 1. U ziet een `Export List` van recent gecreëerde uitvoer van gegevens, indien van toepassing. Klikken **[!UICONTROL Add Export]** om een exportbewerking te maken.
 1. De `New Raw Data Export` wordt weergegeven. Hier kunt u het exporteren aanpassen door kolommen en filters te selecteren of te deselecteren:
 
@@ -43,8 +46,11 @@ Als u de tabel wilt exporteren `Manage Data` tabblad, hebt u [Beheer](../adminis
 ### Exporteren op grafiekniveau vanaf het dashboard
 
 1. Klik op het tandwielpictogram in de rechterbovenhoek van een diagram.
+
 1. Selecteren `Raw Export` van de vervolgkeuzelijst om de `Raw Export` .
+
 1. U kunt de exportbewerking aanpassen door de opdracht `table`, `columns`, en `filters` op te nemen of uit te sluiten. Raadpleeg de vorige sectie voor meer informatie over de velden in deze module.
+
    >[!NOTE]
    >
    >De tabel die wordt weergegeven in het dialoogvenster `Table` field is, door gebrek, de lijst die de grafiek aandrijft.
@@ -66,5 +72,3 @@ Klik op **[!UICONTROL Raw Data Exports]** in de rechterbovenhoek van het scherm.
 ## Stap 3: Toegang tot historische exportbewerkingen {#historical}
 
 Klik op **[!UICONTROL Raw Data Export]** in de rechterbovenhoek van het scherm. Rapporten die in behandeling zijn en die voltooid zijn, zijn maximaal zeven dagen toegankelijk.
-
-Gefeliciteerd! U bent klaar.

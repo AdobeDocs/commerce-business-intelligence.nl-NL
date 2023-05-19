@@ -2,16 +2,16 @@
 title: Nieuwe architectuur
 description: Leer meer over de voordelen van een overstap naar een nieuwe architectuur.
 exl-id: cbb10673-5704-4a90-9574-5ac114f389b9
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
 # Nieuwe architectuur
 
-MBI Product- en Engineering-teams hebben zich het afgelopen jaar geconcentreerd op het mogelijk maken van de meest verstrekkende, hoogst gevraagde verbeteringen. Adobe is blij om de beschikbaarheid van een nieuwe [!DNL MBI] productarchitectuur die deze verbeteringen werkelijkheid maakt.
+[!DNL Adobe Commerce Intelligence] Product- en technische teams hebben zich het afgelopen jaar geconcentreerd op het mogelijk maken van de meest ingrijpende, hoogst gevraagde verbeteringen. Adobe is blij om de beschikbaarheid van een nieuwe [!DNL Commerce Intelligence] productarchitectuur die deze verbeteringen werkelijkheid maakt.
 
 ## Voordelen van nieuwe architectuur
 
@@ -25,15 +25,15 @@ De belangrijkste verschillen worden hierboven vermeld, maar de belangrijkste ver
 
 ### Naar nieuwe architectuur
 
-Aangezien de rekeningen fundamenteel verschillend worden gebouwd, is er geen automatisch proces om uw Data Warehouse of rapporten aan een nieuwe architectuurrekening te migreren. Als u naar de nieuwe architectuur gaat, moet uw bestaande account opnieuw worden geïmplementeerd.
+Aangezien de rekeningen fundamenteel verschillend worden gebouwd, is er geen automatisch proces om uw Data Warehouse of rapporten aan een nieuwe architectuurrekening te migreren. Voor de overgang naar de nieuwe architectuur moet uw bestaande account opnieuw worden geïmplementeerd.
 
 ### Kosten voor overstap naar de nieuwe architectuur
 
-Geen extra kosten! Adobe maakt dit nieuwe account zodat u kunt beginnen met de herimplementatie, die minstens een maand gratis is. Dit staat u tijd toe om beide rekeningen open te hebben zodat u de herimplementatie gemakkelijker kunt uitvoeren en ervoor zorgt dat uw team geen hiaat in de dienst heeft.
+Geen extra kosten! Adobe maakt dit nieuwe account zodat u kunt beginnen met de herimplementatie, die minstens een maand gratis is. Dit staat u tijd toe om beide rekeningen open te hebben zodat u de re-implementatie gemakkelijker kunt uitvoeren en ervoor zorgt dat uw team geen hiaat in de dienst heeft.
 
 ### Tijd nodig om account opnieuw te implementeren in de nieuwe architectuur
 
-De tijden van implementatie variëren afhankelijk van wat u wilt herbouwen. Adobe raadt u aan de volgende stappen in uw bestaande account uit te voeren om een idee te krijgen van wat er nodig is voor de herimplementatie:
+De tijden van herimplementatie variëren afhankelijk van wat u wilt herbouwen. Adobe raadt u aan de volgende stappen in uw bestaande account uit te voeren om een idee te krijgen van wat er nodig is voor de nieuwe implementatie:
 
 * Een kernset rapporten/dashboards identificeren.
 * Bepaal metriek en afmetingen die worden vereist om die rapporten te bouwen.
@@ -43,7 +43,7 @@ Wanneer dit volledig is, weet u welke gegevens u aan synchronisatie aan de nieuw
 
 ### Help opvragen
 
-De [!DNL MBI] Het team van de diensten kan uw herimplementatie voor extra kosten uitvoeren. Neem contact op met uw [Adobe-accountteam](../../guide-overview.md) en zijn voorbereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
+De [!DNL Adobe Commerce Intelligence] [Services-team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) kan uw herimplementatie voor extra kosten uitvoeren. Neem contact op met uw [Adobe-accountteam](../../guide-overview.md#Submitting-a-Support-Ticket) en zijn voorbereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
 
 ### Blijven werken met bestaande architectuur
 

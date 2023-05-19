@@ -1,25 +1,25 @@
 ---
-title: Gegevens opslaan in de handel
-description: Leer hoe de gegevens worden geproduceerd, wat veroorzaakt dat een nieuwe rij wordt opgenomen, en hoe de acties in het gegevensbestand van de Handel worden geregistreerd.
+title: Gegevens opslaan in Adobe Commerce
+description: Leer hoe de gegevens worden geproduceerd, wat veroorzaakt dat een nieuwe rij wordt opgenomen, en hoe de acties in het gegevensbestand van Adobe Commerce worden geregistreerd.
 exl-id: 436ecdc1-7112-4dec-9db7-1f3757a2a938
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '928'
 ht-degree: 3%
 
 ---
 
 # Gegevens opslaan in [!DNL Adobe Commerce]
 
-Het Adobe Commerce-platform registreert en organiseert een grote verscheidenheid aan waardevolle handelsgegevens over honderden tabellen. Dit onderwerp beschrijft:
+De [!DNL Adobe Commerce] het platform registreert en organiseert een grote verscheidenheid van waardevolle handelsgegevens over honderden lijsten. Dit onderwerp beschrijft:
 
 * hoe die gegevens worden gegenereerd
-* wat er precies toe leidt dat een nieuwe rij wordt ingevoegd in een van de [Kernhandelsttabellen](../data-warehouse-mgr/common-mage-tables.md)
-* de wijze waarop handelingen zoals het maken van een aankoop of het aanmaken van een account in de handelsdatabase worden opgenomen
+* wat ertoe leidt dat een nieuwe rij in één van [Kernhandelsttabellen](../data-warehouse-mgr/common-mage-tables.md)
+* hoe handelingen zoals het maken van een aankoop of het maken van een account worden opgenomen in de [!DNL Adobe Commerce] database
 
-Om deze concepten te verklaren, verwijs naar het volgende voorbeeld:
+Raadpleeg het volgende voorbeeld om deze concepten te bespreken:
 
-`Clothes4U` is een kledinghandelaar met zowel een online - als een baksteen - en mortierpresentie . Het gebruikt Magento Open Source achter zijn website om gegevens te verzamelen en te organiseren.
+`Clothes4U` is een kledinghandelaar met zowel een online - als een baksteen - en mortierpresentie . Gebruikt [!DNL Magento Open Source] achter haar website om gegevens te verzamelen en te ordenen.
 
 ## `catalog\_product\_entity`
 
@@ -57,7 +57,7 @@ Kort na de toevoeging van de drie nieuwe producten, een nieuwe klant, `Sammy Cus
 * `email` - dit veld wordt gevuld met de e-mail die een nieuwe klant invoert bij het maken van zijn account
 * `created_at` - Deze kolom retourneert de tijdstempel voor het tijdstip waarop elke gebruiker zich bij het programma heeft gevoegd
 
-## `sales\_flat\_order (or Sales\_order` als u Commerce 2.0 of hoger hebt)
+## `sales\_flat\_order (or Sales\_order` als u [!DNL Adobe Commerce 2.x]
 
 Nu het aanmaken van de account is voltooid, `Sammy Customer` is klaar om een aankoop te beginnen. Op de website voegt de klant twee paren van de `Throwback Bellbottoms` en één `V-Neck T-Shirt` naar de wagen. Tevreden met de selecties, beweegt de klant zich aan controle en legt de orde voor, creërend de volgende ingang op [verkoop vlakke orde lijst](../data-warehouse-mgr/sales-flat-order-table.md):
 
@@ -73,7 +73,9 @@ Nu het aanmaken van de account is voltooid, `Sammy Customer` is klaar om een aan
    * De twee paren &quot;Throwback Bellbottoms&quot; en &quot;V-Neck T-Shirt&quot; kosten in totaal $94,85
 * `created_at` - Deze kolom retourneert de tijdstempel voor het tijdstip waarop elke bestelling is gemaakt
 
-## `sales\_flat\_order\_item ( or Sales\_order\_item` als u Commerce 2.0 of hoger hebt)
+## `sales\_flat\_order\_item ( or Sales\_order\_item`
+
+(als je Commerce 2.0 of hoger hebt)
 
 Naast de enkele rij op de `Sales\_flat\_order` tabel, wanneer `Sammy Customer` verzendt de orde, een rij voor elk uniek punt in die orde wordt opgenomen in [`sales\_flat\_order\_item` table](../data-warehouse-mgr/sales-flat-order-item-table.md):
 

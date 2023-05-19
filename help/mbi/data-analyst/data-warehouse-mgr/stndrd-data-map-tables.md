@@ -2,16 +2,16 @@
 title: Gegevens standaardiseren met toewijzingstabellen
 description: Leer hoe u met toewijzingstabellen werkt.
 exl-id: e452ff87-f298-43d5-acc3-af58e53bd0bc
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
 
 # Gegevens standaardiseren met toewijzingstabellen
 
-Beeld dit: u bent in `Report Builder`, een `Revenue by State` verslag. Je bent in de zone. Alles gaat goed totdat u een `billing state` groeperen zich aan uw rapport en u ziet dit:
+Stel je voor dat je in de `Report Builder` een gebouw `Revenue by State` verslag. Alles gaat goed totdat u een `billing state` groeperen zich aan uw rapport en u ziet dit:
 
 ![](../../assets/Messy_State_Segments.png)
 
@@ -45,9 +45,9 @@ Voer in de tweede kolom in wat deze waarden zijn **moeten**. Als u wilt doorgaan
 
 ![](../../assets/Mapping_table_examples.jpg)
 
-## Wat moet ik doen in [!DNL MBI] om het te gebruiken? {#use}
+## Wat moet ik doen in [!DNL Commerce Intelligence] om het te gebruiken? {#use}
 
-Nadat u de toewijzingstabel hebt gemaakt, moet u [uploadt het bestand](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) in [!DNL MBI] en [een bij elkaar gevoegde kolom maken](../../data-analyst/data-warehouse-mgr/calc-column-types.md) Hiermee verplaatst u het nieuwe veld naar de gewenste tabel. U kunt dit doen nadat het bestand is gesynchroniseerd met uw Data Warehouse.
+Nadat u de toewijzingstabel hebt gemaakt, moet u [uploadt het bestand](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) in [!DNL Commerce Intelligence] en [een bij elkaar gevoegde kolom maken](../../data-analyst/data-warehouse-mgr/calc-column-types.md) Hiermee verplaatst u het nieuwe veld naar de gewenste tabel. U kunt dit doen nadat het bestand is gesynchroniseerd met uw Data Warehouse.
 
 In dit voorbeeld wordt de kolom verplaatst die u in het dialoogvenster `mapping_state` tabel (`state_input`) aan de `customer_address` tabel met een aangesloten kolom. Hierdoor kunnen we ons scharen achter de schone `state_input` in uw rapporten in plaats van de `state` kolom.
 
@@ -70,15 +70,13 @@ Als u de opdracht `joined` navigeer naar de tabel waarnaar het veld wordt verpla
 1. Het pad wordt mogelijk niet direct na het opslaan gevuld. Als dit gebeurt, klikt u op de knop `Path` en selecteer het pad dat u hebt gemaakt.
 1. Klikken **[!UICONTROL Save]** om de kolom te maken.
 
-Dat is het!
-
 ## Wat doe ik nu? {#wrapup}
 
 Nadat een updatecyclus voltooit, zult u uw nieuwe aangesloten kolom kunnen gebruiken om uw gegevens behoorlijk te segmenteren in plaats van de berichtkolom van uw gegevensbestand. Kijk nu naar de groeperingsopties - geen stress meer:
 
 ![](../../assets/Clean_State_Segments.png)
 
-Tabellen toewijzen is handig voor elk moment waarop u mogelijk onjuiste gegevens in uw Data Warehouse wilt opruimen. Toewijzingstabellen kunnen echter ook worden gebruikt voor andere gebruiksproblemen, zoals [het repliceren van uw Google Analytics kanalen in MBI](../data-warehouse-mgr/rep-google-analytics-channels.md).
+Tabellen toewijzen is handig voor elk moment waarop u mogelijk onjuiste gegevens in uw Data Warehouse wilt opruimen. Toewijzingstabellen kunnen echter ook worden gebruikt voor andere gebruiksproblemen, zoals [repliceren, [!DNL Google Analytics channels] in [!DNL Commerce Intelligence]](../data-warehouse-mgr/rep-google-analytics-channels.md).
 
 ### Verwante
 

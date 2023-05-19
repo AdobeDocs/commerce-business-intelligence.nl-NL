@@ -2,16 +2,16 @@
 title: Geavanceerde berekende kolomtypen
 description: Leer de grondbeginselen voor de meeste gevallen van de gebruikkolom — maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan tot stand brengen.
 exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '898'
 ht-degree: 4%
 
 ---
 
 # Geavanceerde berekende kolomtypen
 
-Veel analyses die u wilt maken, worden uitgevoerd met behulp van een **nieuwe kolom** die u wilt `group by` of `filter by`. De [Berekende kolommen maken](../data-warehouse-mgr/creating-calculated-columns.md) De zelfstudie behandelt de grondbeginselen voor de meeste gebruiksgevallen, maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan creëren.
+Veel analyses die u wilt maken, worden gemaakt met behulp van een **nieuwe kolom** die u wilt `group by` of `filter by`. De [Berekende kolommen maken](../data-warehouse-mgr/creating-calculated-columns.md) De zelfstudie behandelt de grondbeginselen voor de meeste gebruiksgevallen, maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan creëren.
 {: #top}
 
 Deze kolomtypen kunnen worden gemaakt door het Adobe-team van Data Warehouse-analisten. Als u een nieuwe berekende kolom wilt definiëren, geeft u ons de volgende informatie:
@@ -159,7 +159,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 Geen zorgen. Dat het hier niet voorkomt, betekent niet dat het niet mogelijk is. Het Adobe team van Data Warehouse Analysts kan helpen.
 
-Een nieuwe berekende kolom definiëren [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) met details over wat u precies wilt bouwen.
+Een nieuwe berekende kolom definiëren [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) met details over wat u precies wilt bouwen.
 
 ## Gerelateerde documentatie
 

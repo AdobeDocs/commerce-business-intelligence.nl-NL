@@ -1,15 +1,15 @@
 ---
-title: Onboarding
-description: Meer informatie over instapweigering.
+title: Onboarding Adobe Commerce Intelligence
+description: Meer informatie over het instappen van Adobe Commerce Intelligence.
 exl-id: e0cce957-af2c-4514-9afd-c9aaa651a4f0
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Onboarding
+# Onboarding [!DNL Adobe Commerce Intelligence]
 
 Vragen over instapkaarten `store` en `database` zorgen ervoor dat u de rapportage correct instelt. Met deze antwoorden levert Adobe uw rapporten die precies op de opstelling van uw opslag worden aangepast.
 
@@ -29,6 +29,6 @@ Vragen over instapkaarten `store` en `database` zorgen ervoor dat u de rapportag
 
 ## Database-instellingen
 
-- `Database name` - Wat is de *naam van de MySQL-database* waar uw transactiegegevens van de Handel verblijven?
+- `Database name` - Wat is de *naam van de [!DNL MySQL] database* waar uw transactiegegevens van de Handel verblijven?
 
 - `Table prefix (optional)` - Zijn de lijsten in uw gegevensbestand van de Handel door om het even wat (bijvoorbeeld `store_`)? Dit is normaal gesproken niet het geval, maar het is een aanpassing die kan worden gemaakt.

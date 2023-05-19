@@ -2,7 +2,7 @@
 title: Dashboards op meerdere schermen weergeven
 description: Leer hoe u de dashboards op kantoor kunt weergeven.
 exl-id: aabe5c8f-0809-467c-9713-099aed6926b9
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # De dashboards van de vertoning rond het bureau
 
-Voor [!DNL MBI] gebruikers die geïnteresseerd zijn in het weergeven van hun dashboards en rapporten op schermen in het hele kantoor, zijn er verschillende hardwareopties die deze instelling gemakkelijk kunnen inschakelen.
+Voor [!DNL Commerce Intelligence] gebruikers die geïnteresseerd zijn in het weergeven van hun dashboards en rapporten op schermen in het hele kantoor, zijn er verschillende hardwareopties die deze instelling gemakkelijk kunnen inschakelen.
 
 Hier volgt de aanbevolen lijst met zaken die u nodig hebt voor de optie:
 

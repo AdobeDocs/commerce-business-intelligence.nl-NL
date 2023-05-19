@@ -2,9 +2,9 @@
 title: Formulas
 description: Leer hoe u formules kunt gebruiken.
 exl-id: b6432d93-739f-410c-b732-e09a278f8dae
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    Ga als volgt te werk:
 
-   * In de `Enter your Formul` invoervak, typ `A/B`.
+   * In de `Enter your Formula` invoervak, typ `A/B`.
 
       Dit deelt de opbrengst door producten die door het aantal nieuwe klanten worden bevolen.
 
@@ -71,7 +71,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    * Kies in de kalenders het datumbereik.
 
-      In dit voorbeeld loopt het vakantieseizoen van 1 november tot en met 31 december.
+      In dit voorbeeld is het feestseizoen van `November 1` doorheen `December 31`.
 
    * Onder `Select Time Interval`kiest u `Day`.
 

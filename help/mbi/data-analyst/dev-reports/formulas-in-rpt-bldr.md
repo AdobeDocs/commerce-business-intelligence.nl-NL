@@ -2,16 +2,16 @@
 title: Formules in de Report Builder
 description: Leer hoe formules in de Report Builder kunnen worden gebruikt.
 exl-id: 7a0ad07a-5bcc-474f-95bc-ccc2b74073b2
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
 
 # Formules in de `Report Builder`
 
-In de [`Report Builder`](../../tutorials/using-visual-report-builder.md)kunt u krachtige visualisaties maken met de [gedefinieerde meetwaarden](../../data-user/reports/ess-manage-data-metrics.md) in uw account. Door deze meetgegevens in een formule te combineren, kunt u extra inzichten van uw gegevens genereren. In dit artikel wordt uitgelegd hoe formules kunnen worden gebruikt in de `Report Builder` - laten we erin springen!
+In de [`Report Builder`](../../tutorials/using-visual-report-builder.md)kunt u krachtige visualisaties maken met de [gedefinieerde meetwaarden](../../data-user/reports/ess-manage-data-metrics.md) in uw account. Door deze meetgegevens in een formule te combineren, kunt u extra inzichten van uw gegevens genereren. Dit onderwerp duikt in hoe formules in kunnen worden gebruikt in `Report Builder` - laten we erin springen!
 
 ## Wat is een `formula`? {#what}
 
@@ -63,4 +63,4 @@ In dit voorbeeld hebt u de opdracht `Stacked Columns` perspectief om de resultat
 
 Merkte u in de bovenstaande voorbeelden op dat de formule `timestamp`, `groupings`, `perspectives`, en `filters` worden overgeërfd van zijn inputmetriek? Houd er rekening mee dat formules kunnen worden gebruikt `perspectives` en [onafhankelijke tijdopties](../../tutorials/time-options-visual-rpt-bldr.md){: target=&quot;_blank&quot;}, net als metriek.
 
-Als u nog vragen hebt over het gebruik van formules in het dialoogvenster `Report Builder`, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u nog vragen hebt over het gebruik van formules in het dialoogvenster `Report Builder`, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

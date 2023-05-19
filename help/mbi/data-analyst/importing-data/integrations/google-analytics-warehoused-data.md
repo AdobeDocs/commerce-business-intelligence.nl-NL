@@ -2,14 +2,14 @@
 title: Google Analytics gehuisvest gegevens verwacht
 description: Leer om met uw Google Analytics op te slaan gegevens in wisselwerking te staan.
 exl-id: 2b1305cd-5f34-43d9-b77f-a4f5b1d82c66
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
 
-# Verwacht [!DNL Google Analytics] Gehuisveste gegevens
+# Verwacht [!DNL Google Analytics Warehoused] Gegevens
 
 >[!NOTE]
 >
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >Sommige informatie is gebruikt met toestemming van uw vrienden op [[!DNL Stitch]](https://www.stitchdata.com/docs/integrations/saas/google-analytics).
 
-[!DNL Google Analytics Warehoused] integratie in [!DNL MBI] gebruikt de [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
+[!DNL Google Analytics Warehoused] integratie in [!DNL Commerce Intelligence] gebruikt de [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/).
 
 >[!NOTE]
 >
@@ -39,8 +39,8 @@ De tabel ziet er zo uit als in het onderstaande voorbeeld.
 | **Kolomnaam** | **Beschrijving** |
 |-----|-----|
 | `\_id` | Deze kolom is `primary key`. |
-| `\_rjm\_record\_hash` | [!DNL MBI] unieke id. Deze kolom wordt gemaakt door [!DNL MBI]. |
-| `\_updated\_at` | Deze kolom bevat de laatste keer dat de gegevensrij is bijgewerkt. Deze kolom wordt gemaakt door [!DNL MBI]. |
+| `\_rjm\_record\_hash` | [!DNL Commerce Intelligence] unieke id. Deze kolom wordt gemaakt door [!DNL Commerce Intelligence]. |
+| `\_updated\_at` | Deze kolom bevat de laatste keer dat de gegevensrij is bijgewerkt. Deze kolom wordt gemaakt door [!DNL Commerce Intelligence]. |
 | `start-date` | Identificatie van de dag waarop de rij staat. |
 | `end-date` | Identificatie van de dag waarop de rij staat. |
 | `month` | Geselecteerde afmeting: Maand van de sessie, een geheel getal van twee cijfers van 01 tot en met 12. |
@@ -48,7 +48,7 @@ De tabel ziet er zo uit als in het onderstaande voorbeeld.
 
 {style="table-layout:auto"}
 
-## Herinnering: Verschil tussen Google Analytics gehuisvest en actieve integratie
+## Wat is het verschil tussen [!DNL Google Analytics Warehoused] en [!DNL Live Integration]
 
 De belangrijkste differentiator is dat één integratie wordt opgeslagen ([!DNL Google Analytics Warehoused]) en de andere is niet ([!DNL Google Analytics Live]). In gevallen van [!DNL Google Analytics Warehoused]kunt u uw [!DNL Google Analytics] gegevens en biedt u de mogelijkheid om [!DNL Google Analytics] en andere gegevensbronnen om inzichtelijke rapportage te maken.
 
@@ -56,7 +56,7 @@ Kijk naar [!DNL Google Analytics] advertentiecampagnes voor een voorbeeld van wa
 
 Met het combinatieaspect [!DNL Google Analytics] gegevens die met het oog op de uitvoering van analyses aan andere gegevens moeten worden toegevoegd. Neem bijvoorbeeld `Total Time On Site By Ad Campaign` gegevens van [!DNL Google Analytics] en doe mee `Total Spent Per Campaign` gegevens van [!DNL Facebook Ads] om een volledig beeld te krijgen van hoeveel betrokkenheid u kost.
 
-Met de [!DNL Google Analytics Live] integratie daarentegen , elke [!DNL Google Analytics] diagram is als een kleine silo die niet is opgeslagen in uw [!DNL MBI] Data Warehouse.
+Met de [!DNL Google Analytics Live] integratie daarentegen , elke [!DNL Google Analytics] diagram is als een kleine silo die niet is opgeslagen in uw [!DNL Commerce Intelligence] Data Warehouse.
 
 ## Verwante:
 

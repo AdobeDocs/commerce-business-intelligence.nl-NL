@@ -2,16 +2,16 @@
 title: Salesforce-gegevens verwacht
 description: Meer informatie over ondersteunde en niet-ondersteunde objecten in Salesforce-gegevens.
 exl-id: 6625349f-2ec0-402d-8635-889a1f29811c
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
 # Verwacht [!DNL Salesforce] data
 
-[Na de [!DNL Salesforce] installatie is voltooid](../integrations/salesforce.md), een lijst voor elk queryable [object](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_concepts.htm) - met naam `sf_/\{sobject-name}` - is gemaakt in uw Data Warehouse.
+Na de [[!DNL Salesforce] instellen](../integrations/salesforce.md) is volledig, een lijst voor elk queryable [object](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_concepts.htm) - met naam `sf_/\{sobject-name}` - is gemaakt in uw Data Warehouse.
 
 >[!NOTE]
 >
@@ -48,4 +48,4 @@ Momenteel [!DNL Salesforce] stelt momenteel de volgende objecten in hun API niet
 ## Verwante:
 
 * [Verbinding maken [!DNL Salesforce]](../integrations/salesforce.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

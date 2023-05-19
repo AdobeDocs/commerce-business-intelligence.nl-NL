@@ -2,7 +2,7 @@
 title: Gegevensgebruiker
 description: Gegevensgebruiker
 exl-id: 2f412c94-5042-4411-b19b-482993e6f70f
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 U gebruikt gegevens om zakelijke beslissingen te nemen. U kunt rapporten en dashboards van een gegevensanalist op uw team ontvangen, maar u wilt ook leren hoe te om die rapporten en dashboards tot stand te brengen.
 
 In dit gedeelte wordt getoond hoe u:
-* gegevens verkrijgen en weergeven in [!DNL MBI] rapporten en dashboards gebruiken
+* gegevens verkrijgen en weergeven in [!DNL Commerce Intelligence] rapporten en dashboards gebruiken
 * deze gegevens via e-mail en `.csv` bestanden
 
 ## Verwante

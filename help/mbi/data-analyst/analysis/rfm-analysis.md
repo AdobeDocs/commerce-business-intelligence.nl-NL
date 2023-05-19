@@ -2,30 +2,30 @@
 title: Recente, Frequentie, Monetaire (RFM) Analyse
 description: Leer hoe te opstelling een dashboard dat u toestaat om uw klanten door hun recentie, frequentie, en monetaire rankings te segmenteren.
 exl-id: 8f0f08fd-710b-4810-9faf-3d0c3cc0a25d
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
 # RFM-analyse
 
-In dit artikel ziet u hoe u een dashboard instelt waarmee u uw klanten kunt segmenteren op basis van hun recenentie, frequentie en monetaire waarderingen. De analyse van RFM is een marketing techniek die klantengedrag in overweging neemt om u te helpen segmentatie voor outreach bepalen. Het omvat drie aspecten:
+Dit onderwerp toont aan hoe te opstelling een dashboard dat u toestaat om uw klanten door hun recentie, frequentie, en monetaire rankings te segmenteren. De analyse van RFM is een marketing techniek die klantengedrag in overweging neemt om u te helpen segmentatie voor outreach bepalen. Het omvat drie aspecten:
 
-* Recente periode in hoe recent een klant bij uw winkel heeft gekocht
-* Frequentie in hoe vaak ze van u kopen
-* Monetair in hoeveel de klant besteedt
+1. Recente periode in hoe recent een klant bij uw winkel heeft gekocht
+1. Frequentie in hoe vaak ze van u kopen
+1. Monetair in hoeveel de klant besteedt
 
 ![](../../assets/blobid0.png)
 
-De RFM-analyse kan alleen worden geconfigureerd als u beschikt over [!DNL MBI] Pro-abonnement op de nieuwe architectuur (bijvoorbeeld als u de optie &quot;Weergaven Data Warehouse&quot; onder het menu &quot;Gegevens beheren&quot; hebt). Deze kolommen kunnen worden gemaakt op de pagina &quot;Gegevens beheren > Data Warehouse&quot;. Nadere instructies worden hieronder gegeven.
+De RFM-analyse kan alleen worden geconfigureerd als u beschikt over [!DNL Adobe Commerce Intelligence] Pro-abonnement op de nieuwe architectuur (bijvoorbeeld als u de `Data Warehouse Views` optie onder de `Manage Data` ). Deze kolommen kunnen worden gemaakt op basis van de **[!DNL Manage Data > Data Warehouse]** pagina. Hieronder vindt u gedetailleerde instructies.
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat alleen een primaire sleutel met de waarde één bevat. Hierdoor kunnen enkele noodzakelijke berekende kolommen voor de analyse worden gemaakt.
 
-U kunt dit [Help Center-artikel](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken.
+U kunt dit [artikel](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken.
 
 ## Berekende kolommen
 
@@ -174,13 +174,15 @@ Te maken kolommen
 
 >[!NOTE]
 >
->De gebruikte percentielen zijn zelfs splitsingen van klanten (bijvoorbeeld, 20% emmers om 1-5 terug te keren). Als u een aangepaste manier hebt waarop u deze wilt wegen, laat dan de analist weten wanneer u het ticket verzendt.
+>De gebruikte percentielen zijn zelfs splitsingen van klanten (bijvoorbeeld, 20 percentenemmers om 1-5 terug te keren). Als u een aangepaste manier hebt waarop u deze wilt wegen, laat dan de analist weten wanneer u het ticket verzendt.
 
 ## Metrisch
 
 Geen nieuwe metriek!
 
-**Opmerking**: Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>[!NOTE]
+>
+>Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
 
 ## Rapporten
 

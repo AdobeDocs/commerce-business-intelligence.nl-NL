@@ -1,8 +1,8 @@
 ---
 title: Streepgegevens verwacht
-description: De belangrijkste gegevenstabellen verkennen die u kunt importeren van Stripe naar [!DNL MBI].
+description: Onderzoek de belangrijkste gegevenslijsten die u van Stripe in de Intelligentie van de Handel kunt invoeren.
 exl-id: 694577b2-48f9-4376-850d-acae1776afe3
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Na [u hebt verbinding gemaakt met uw [!DNL Stripe] account](../integrations/stripe.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
-In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt importeren [!DNL Stripe] in [!DNL MBI]. Nadat de opstelling wordt voltooid, zullen de volgende lijsten in uw Data Warehouse worden gecreeerd. Klik op de koppelingen in de kolom Tabelnaam voor meer informatie over de kenmerken in elke tabel.
+Dit onderwerp verkent de belangrijkste gegevenslijsten die u van kunt invoeren [!DNL Stripe] in [!DNL Commerce Intelligence]. Nadat de opstelling wordt voltooid, zullen de volgende lijsten in uw Data Warehouse worden gecreeerd. Klik op de koppelingen in de kolom Tabelnaam voor meer informatie over de kenmerken in elke tabel.
 
 | **Tabelnaam** | **Beschrijving** |
 |-----|-----|
@@ -34,4 +34,4 @@ In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt
 ## Verwante:
 
 * [Verbinding maken [!DNL Stripe]](../integrations/stripe.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

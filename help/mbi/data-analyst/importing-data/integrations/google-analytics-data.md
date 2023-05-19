@@ -2,9 +2,9 @@
 title: Verwachte Google Analytics
 description: Leer om met uw metriek van Google Analytics in wisselwerking te staan.
 exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
-source-git-commit: 0e9d30155432a29cf67d29a10646a2971ea0382f
+source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Nadat u een [!DNL Google Analytics] integratie, kunt u met uw [!DNL Google Analytics] cijfers *onmiddellijk in het`Visual Report Builder`*. Wanneer u de `Visual Report Builder`, als u op **[!UICONTROL Add a Metric]**, een reeks meetgegevens van uw [!DNL Google Analytics] wordt weergegeven in een vervolgkeuzelijst direct onder de meetwaarden in de Data Warehouse.
 
-De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report Builder` vraagt gegevens van [!DNL Google Analytics] *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek waartoe u toegang kunt hebben, precies is gedefinieerd zoals ze zich bevinden in [!DNL Google Analytics]en dat deze waarden niet *gehuisvest* in uw [!DNL MBI] account - wordt alleen visueel weergegeven in uw rapporten.
+De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report Builder` vraagt gegevens van [!DNL Google Analytics] *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek waartoe u toegang kunt hebben, precies is gedefinieerd zoals ze zich bevinden in [!DNL Google Analytics]en dat deze waarden niet *gehuisvest* in uw [!DNL Commerce Intelligence] account - wordt alleen visueel weergegeven in uw rapporten.
 
 +++Ondersteunde metriek en Dimension (Google Analytics 3 of Universal Analytics)
 
@@ -21,7 +21,7 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 >
 >Op 1 juli 2023, standaard universele analyse ([!DNL Google Analytics] 3) eigenschappen verwerken geen gegevens meer. U kunt uw Universal Analytics-rapporten na 1 juli 2023 bekijken. Nieuwe gegevens worden echter alleen doorgegeven naar [!DNL Google Analytics] 4 eigenschappen.
 
-[!DNL Google Analytics] integratie in [!DNL MBI] gebruiken [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/)en ondersteunt de volgende maatstaven en dimensies.
+[!DNL Google Analytics] integratie in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/)en ondersteunt de volgende maatstaven en dimensies.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 
 ## Ondersteunde metriek
 
-| [!DNL MBI] Weergavenaam | [!DNL Google Analytics] Naam/formule |
+| [!DNL Commerce Intelligence] Weergavenaam | [!DNL Google Analytics] Naam/formule |
 | --- | --- |
 | `Page Views` | `ga:pageviews` |
 | `Total Time Spent On Page` | `ga:timeOnPage` |
@@ -83,7 +83,7 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 
 ## Ondersteunde Dimension
 
-| [!DNL MBI] Weergavenaam | [!DNL Google Analytics] Naam/formule | Groeperen? |
+| [!DNL Commerce Intelligence] Weergavenaam | [!DNL Google Analytics] Naam/formule | Groeperen? |
 | --- | --- | --- |
 | `Ad Content` | `ga:adContent` | `Yes` |
 | `Ad Group` | `ga:adGroup` | `Yes` |
@@ -154,11 +154,11 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 
 +++Ondersteunde Dimension en metriek (Google Analytics 4)
 
-[!DNL Google Analytics] integratie in [!DNL MBI] gebruiken [!DNL Google Analytics] [Data API v1 (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1).
+[!DNL Google Analytics] integratie in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [Data API v1 (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1).
 
 >[!NOTE]
 >
-> MBI ondersteunt de volgende afmetingen niet: `cohort`, `cohortNthDay`, `cohortNthMonth`, en `cohortNthWeek`.
+> De inlichtingen van de Handel steunt niet de volgende dimensies: `cohort`, `cohortNthDay`, `cohortNthMonth`, en `cohortNthWeek`.
 >
 >U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer meetgegevens die u gebruikt in het dialoogvenster `Visual Report Builder`. U kunt de [GA4-Dimension &amp; Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
 

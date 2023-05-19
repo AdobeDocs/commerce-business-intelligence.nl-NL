@@ -2,9 +2,9 @@
 title: Weergaven van Data Warehouse maken en gebruiken
 description: Leer over een methode om nieuwe gestreken lijsten tot stand te brengen door een bestaande lijst te wijzigen, of het samenvoegen van of het consolideren van veelvoudige lijsten samen door SQL te gebruiken.
 exl-id: 5aa571c9-7f38-462c-8f1b-76a826c9dc55
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1071'
 ht-degree: 9%
 
 ---
@@ -36,6 +36,7 @@ Hier kunt u een weergave maken door de voorbeeldinstructies hieronder te volgen:
 1. Als u een bestaande weergave wilt bekijken, klikt u op **[!UICONTROL New Data Warehouse View]** om een leeg vraagvenster te openen. Als er al een leeg queryvenster is geopend, gaat u verder met de volgende stap.
 1. Geef de weergave een naam door in het dialoogvenster `View Name` veld. De hier opgegeven naam bepaalt de weergavenaam voor de weergave in de Data Warehouse. `View names` zijn beperkt tot kleine letters, cijfers en onderstrepingstekens (_). Alle andere tekens zijn verboden.
 1. Voer uw query in het venster met de naam `Select Query`, met gebruik van de standaard PostSQL-syntaxis.
+
    >[!NOTE]
    >
    >Uw query moet verwijzen naar specifieke kolomnamen. Het gebruik van de `*`niet toegestaan om alle kolommen te selecteren.
@@ -76,7 +77,7 @@ Kijk eens naar een van de voorbeelden die eerder in dit artikel worden genoemd: 
 | 4 | aaa | 110 | 2017-06-08 00:00:00 | 6000 | 10 |
 | 5 | ccc | 5 | 2017-07-06 00:00:00 | 300 | 1.2 |
 
-Eén advertentietabel maken met beide [!DNL Facebook] en [!DNL AdWords] campagnes, moet u een SQL vraag schrijven en gebruiken `UNION ALL` functie. A `UNION ALL` De instructie wordt meestal gebruikt om meerdere verschillende SQL-query&#39;s te combineren terwijl de resultaten van elke query aan één uitvoer worden toegevoegd.
+Eén advertentietabel maken met beide [!DNL Facebook] en [!DNL Google AdWords] campagnes, moet u een SQL vraag schrijven en gebruiken `UNION ALL` functie. A `UNION ALL` De instructie wordt meestal gebruikt om meerdere verschillende SQL-query&#39;s te combineren terwijl de resultaten van elke query aan één uitvoer worden toegevoegd.
 
 Er zijn enkele vereisten voor een `UNION` instructies die de moeite van het vermelden waard zijn, zoals beschreven in PostgreSQL [documentatie](https://www.postgresql.org/docs/8.3/queries-union.html):
 
@@ -129,13 +130,13 @@ De bovenstaande query opslaan als een `Data Warehouse View` maakt een tabel met 
 | **5** | [!DNL Facebook] | 2017-07-06 00:00:00 | ccc | 1.2 | 300 | 5 |
 | **5** | [!DNL Google AdWords] | 2017-07-10 00:00:00 | fff | 28.5 | 10200 | 280 |
 
-In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te maken, kunt u nu slechts één set meetgegevens maken met de bovenstaande tabel om al uw advertenties vast te leggen.
+In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te maken, kunt u slechts één set meetgegevens maken met de bovenstaande tabel om al uw advertenties vast te leggen.
 
 **Op zoek naar extra hulp?**
 
-SQL schrijven en maken `Data Warehouse Views` wordt niet meegeleverd bij Technische ondersteuning. Het serviceteam biedt echter wel ondersteuning bij het maken van standpunten. Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
+SQL schrijven en maken `Data Warehouse Views` wordt niet meegeleverd bij Technische ondersteuning. De [Services-team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt wel hulp bij het oprichten van standpunten . Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
-Gewoonlijk wordt een nieuwe `Data Warehouse View` voor het consolideren van 2-3 vergelijkbare gestructureerde tabellen is vijf uur diensttijd nodig, wat neerkomt op ongeveer $1250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
+Gewoonlijk wordt een nieuwe `Data Warehouse View` voor de consolidatie van 2-3 vergelijkbare gestructureerde tabellen is vijf uur aan diensttijd nodig, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
 
 * Consolidatie van meer dan drie tabellen in één weergave
 * Weergave van meerdere Data Warehouse maken

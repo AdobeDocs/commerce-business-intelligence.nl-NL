@@ -2,16 +2,16 @@
 title: Dashboards delen met andere gebruikers
 description: Leer hoe u dashboards kunt delen met andere gebruikers.
 exl-id: 6279b049-d1b2-4d40-b30b-ee8772e990f4
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # Dashboards delen met andere gebruikers
 
-Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [Adobe beveelt aan](../../best-practices/share-dashboard-best-practice.md){: target=&quot;_blank&quot;} die u toekent `Edit` rechten voor een paar gebruikers om onbedoelde wijzigingen tot een minimum te beperken.
+Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [[!DNL Adobe] beveelt aan](../../best-practices/share-dashboard-best-practice.md){: target=&quot;_blank&quot;} die u toekent `Edit` rechten voor een paar gebruikers om onbedoelde wijzigingen tot een minimum te beperken.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ Het delen van dashboards is een uitstekende manier om uw team in de loop te houd
 
 1. Klikken **[!UICONTROL Share Dashboard]** boven aan het scherm.
 
-   Een lijst met alle gebruikers in uw [!DNL MBI] account wordt weergegeven.
+   Een lijst met alle gebruikers in uw [!DNL Commerce Intelligence] account wordt weergegeven.
 
 1. Als u een gebruiker wilt selecteren om het dashboard mee te delen, schakelt u het selectievakje links van de naam in.
 

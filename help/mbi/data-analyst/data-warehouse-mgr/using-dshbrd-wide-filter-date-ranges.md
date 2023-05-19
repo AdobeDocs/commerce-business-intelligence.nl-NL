@@ -2,16 +2,16 @@
 title: Filteren in dashboard-breed
 description: Leer hoe u bulksgewijs alle rapporten op een specifiek dashboard kunt bewerken.
 exl-id: 379d0027-8a7a-4062-a66a-4f06c37b806c
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
 # Filteren in dashboard-breed
 
-Met het filter voor het hele dashboard kunt u bulkbewerkingen uitvoeren van alle rapporten op een specifiek dashboard. U kunt dezelfde analyse snel bekijken over verschillende tijdsperiodes of voor verschillende winkels. U kunt de prestaties van een vorig jaar, maand, of week per opslag gemakkelijk vergelijken. Bovendien kunt u een volledig dashboard bijwerken om een nieuw gestarte campagne te kunnen plaatsen.
+Met het filter voor het hele dashboard kunt u bulkbewerkingen uitvoeren van alle rapporten op een specifiek dashboard. U kunt dezelfde analyse snel bekijken over verschillende tijdsperiodes of voor verschillende winkels. U kunt de prestaties van een vorig jaar, maand, of week per opslag gemakkelijk vergelijken. U kunt een volledig dashboard bijwerken om een nieuw gelanceerde campagne aan te passen.
 
 ## Datumfilters
 
@@ -45,7 +45,7 @@ Als u wilt analyseren hoe een bepaalde winkel het doet, klikt u op het pictogram
 
 >[!NOTE]
 >
->Een opslagfilter wordt in- of uitgeschakeld voor een gehele [!DNL MBI] account. Als een dashboard rapporten bevat die niet door het filter worden beïnvloed (zoals rapporten die niet op om het even welke Handel data () worden voortgebouwd, werken die rapporten niet bij wanneer de archieffilter wordt toegepast. U kunt [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) als u van mening bent dat een rapport moet worden bijgewerkt op basis van de keuze van de winkel of als u van mening bent dat het filter van uw accountwinkel per ongeluk is uitgeschakeld.
+>Een opslagfilter wordt in- of uitgeschakeld voor een gehele [!DNL Commerce Intelligence] account. Als een dashboard rapporten bevat die niet door de filter worden beïnvloed (zoals rapporten die niet op om het even welk worden gebouwd [!DNL Adobe Commerce] gegevens), worden deze rapporten niet bijgewerkt wanneer het opslagfilter wordt toegepast. U kunt [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u van mening bent dat een rapport moet worden bijgewerkt op basis van de keuze van de winkel of als u van mening bent dat het filter van uw accountwinkel per ongeluk is uitgeschakeld.
 
 Wanneer u een winkel in het menu `Store Filter`blijft de selectie behouden wanneer u tussen dashboards navigeert. Door uw selectie te behouden, kunt u overal gegevens voor de geselecteerde winkel zien totdat u `All Stores`.
 

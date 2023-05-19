@@ -2,7 +2,7 @@
 title: Herhalingswaarschijnlijkheidsverlies en -kromme analyseren
 description: Leer en begrijp hoe tijd verloopt tussen bestellingen en wanneer klanten naar verwachting zullen afkoelen.
 exl-id: ea26052d-ac74-43b7-a4a6-977800d4c719
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Met een goed begrip van het percentage klanten dat herhaalde aankopen moet doen 
 
 ## Het voorbeeld van vandaag
 
-Kijk naar de waarschijnlijkheidsdaling voor een typisch eCommerce-bedrijf.
+Kijk naar de herhalingswaarschijnlijkheidsdaling voor een typisch e-commerce bedrijf.
 
 ![Met de waarschijnlijkheid van een eerste herhalingsvolgorde wordt de volgorde in maanden sinds de order herhaald.](../../assets/Order_probability_reports.png)
 
 ### Waarschijnlijk eerste herhalingsvolgorde
 
-In dit voorbeeld is de waarschijnlijkheid van een eerste herhaalde bestelling - of de waarschijnlijkheid dat een klant een herhaalde aankoop doet - 60%. Dit betekent dat 60% van alle bestellingen die bij dit bedrijf worden geplaatst, worden gevolgd door een volgende bestelling.
+In dit voorbeeld is de waarschijnlijkheid van de eerste herhalingsbestelling - of de waarschijnlijkheid dat een klant een herhaalde aankoop maakt - 60 procent. Dit betekent dat 60 percent van alle orden die met deze zaken worden geplaatst door een verdere orde worden gevolgd.
 
 ### Herhaal de waarschijnlijkheid van de volgorde van maanden sinds de bestelling
 
@@ -55,7 +55,7 @@ Aangezien de waarschijnlijkheid van de eerste herhaling voor dit voorbeeld 60% i
 
 Een andere manier, als een klant een vervolgorder zou plaatsen, zullen zij eerder dit binnen zes maanden na hun laatste orde dan na het zes maandteken hebben gedaan. Als een klant na zes maanden niet opnieuw heeft aangeschaft, moet een reactiveringscampagne worden gestart om deze klant terug te halen.
 
-Afhankelijk van uw bedrijfsmodel, kunt u een verschillende drempel, zoals het punt willen kiezen waar de waarschijnlijkheid van de herhaalde orde onder 50% of 10% daalt. Als uw interne kennis een ander aantal suggereert, dan moet u het op alle mogelijke manieren gebruiken!
+Afhankelijk van uw bedrijfsmodel, kunt u een verschillende drempel, zoals het punt willen kiezen waar de waarschijnlijkheid van de herhaalde orde onder 50% of 10% daalt. Als uw interne kennis een ander aantal suggereert, dan zou u het op alle mogelijke manieren moeten gebruiken!
 
 Uiteindelijk is het de bedoeling om de drempel te selecteren waar het zinvol is om van retentie naar reactivering over te schakelen. Bewaarinspanningen kunnen e-mails omvatten om bestaande klanten opnieuw te betrekken bij voorgestelde vervolgaankopen om deze aan te bieden, terwijl voor reactivering e-mails naar vervallen klanten met coupons en deals nodig kunnen zijn.
 
@@ -76,7 +76,7 @@ Nadat u de bovenstaande analyse hebt gemaakt en een drempelwaarde voor het aanta
 
 Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. Wilt u meer weten? Bekijk deze zelfstudie om het levenslange aankoopgedrag van klanten te verkennen op basis van specifieke producten die ze hebben aangeschaft.
 
-Deze beste praktijken worden verstrekt door [!DNL MBI] Data Analysis Services (DAS). [Contact opnemen met ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor meer informatie.
+Deze beste praktijken worden verstrekt door [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [Contact opnemen met ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor meer informatie.
 
 ### Verwante
 

@@ -2,9 +2,9 @@
 title: Berekende kolomtypen
 description: Leer hoe u kolommen maakt om uw gegevens te vergroten en te optimaliseren voor analyse.
 exl-id: 1af79b9e-77ff-4fc6-917a-4e6743b95035
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 Binnen de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md)kunt u kolommen maken om uw gegevens te vergroten en te optimaliseren voor analyse. [Deze functionaliteit](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van de Data Warehouse te selecteren en te klikken **[!UICONTROL Create New Column]**.
 
-In dit artikel worden de typen kolommen beschreven die u kunt maken met Data Warehouse Manager. Het omvat ook de beschrijving, een visuele doorloop van die kolom, en een [referentiekaart](#map) van alle inputs die nodig zijn om een kolom te maken. U kunt op drie manieren berekende kolommen maken:
+Dit onderwerp beschrijft de types van kolommen die u met de Manager van de Data Warehouse kunt tot stand brengen. Het omvat ook de beschrijving, een visuele doorloop van die kolom, en een [referentiekaart](#map) van alle inputs die nodig zijn om een kolom te maken. U kunt op drie manieren berekende kolommen maken:
 
-* [Dezelfde tabel berekende kolommen](#sametable)
-* [Een-op-veel berekende kolommen](#onetomany)
-* [Vele-aan-één berekende kolommen](#manytoone)
+1. [Dezelfde tabel berekende kolommen](#sametable)
+1. [Een-op-veel berekende kolommen](#onetomany)
+1. [Vele-aan-één berekende kolommen](#manytoone)
 
 ## Dezelfde tabel berekende kolommen {#sametable}
 
@@ -85,13 +85,13 @@ Dit kan worden gebruikt om klant-vlakke dimensies tot stand te brengen zoals `Cu
 
 ### Exists {#exists}
 
-Een bestaande berekende kolom is een binaire test die de aanwezigheid van een record aan de vele kanten bepaalt. Met andere woorden, de nieuwe kolom retourneert een `1` als het pad ten minste één rij in elke tabel met elkaar verbindt, en `0` als er geen verbinding kan worden gemaakt.
+Een berekende kolom is een binaire test die de aanwezigheid van een verslag aan de vele kant bepaalt. Met andere woorden, de nieuwe kolom retourneert een `1` als het pad ten minste één rij in elke tabel met elkaar verbindt, en `0` als er geen verbinding kan worden gemaakt.
 
 Dit soort dimensie kan bijvoorbeeld bepalen of een klant ooit een bepaald product heeft gekocht. Een verbinding tussen een `customers` tabel en `orders` tabel, een filter voor een specifiek product, een dimensie `Customer has purchased Product X?` kan worden gebouwd.
 
 ## Handmatige verwijzingskaart {#map}
 
-Als u een beetje moeite hebt zich te herinneren wat alle input wanneer het creëren van een berekende kolom zijn, probeer behoudend deze verwijzingskaart handig wanneer u bouwt:
+Als u moeite hebt zich te herinneren wat alle input wanneer het creëren van een berekende kolom zijn, houd deze verwijzingskaart handig wanneer u bouwt:
 
 ![](../../assets/merged_reference_map.png)
 
@@ -99,7 +99,7 @@ Als u een beetje moeite hebt zich te herinneren wat alle input wanneer het creë
 
 In uw vraag om vragen over uw zaken te analyseren en te beantwoorden, kunt u een situatie ontmoeten waarin u niet de nauwkeurige kolom kunt bouwen u wilt.
 
-Adobe raadt aan de [Geavanceerde berekende kolomtypen](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) gids om te zien welk soort kolommen het de steunteam van de Adobe kan bouwen. Dat artikel behandelt ook de informatie die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
+Adobe raadt aan de [Geavanceerde berekende kolomtypen](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) gids om te zien welk soort kolommen het de steunteam van de Adobe kan bouwen. Dat onderwerp behandelt ook de info die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
 
 ## Gerelateerde documentatie
 

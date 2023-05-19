@@ -1,17 +1,17 @@
 ---
-title: Activeer uw [!DNL MBI] Account
-description: Leer wie contact opneemt om uw [!DNL MBI] account.
+title: Activeer uw [!DNL Commerce Intelligence] Account
+description: Leer wie contact opneemt om uw [!DNL Commerce Intelligence] account.
 exl-id: 0efac7b4-2457-48c7-947a-d2776b90a1dd
-source-git-commit: 434539f1c0cc5455db7f1998347fa65eb8a6d39f
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '36'
 ht-degree: 0%
 
 ---
 
-# Activeer uw [!DNL MBI] Account
+# Activeer uw [!DNL Commerce Intelligence] Account
 
-Om te activeren [!DNL MBI] voor on-premise of `Cloud Pro` abonnementen, neemt u contact op met uw Adobe Customer Success Manager.
+Om te activeren [!DNL Commerce Intelligence] voor on-premise of `Cloud Pro` abonnementen; [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 >[!NOTE]
 >

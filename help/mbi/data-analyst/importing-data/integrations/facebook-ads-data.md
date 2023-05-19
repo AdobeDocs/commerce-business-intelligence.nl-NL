@@ -2,20 +2,18 @@
 title: Facebook Ads-gegevens verwacht
 description: Leer een kort overzicht van de tabellen die u kunt synchroniseren met uw Data Warehouse
 exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
 # Verwacht [!DNL Facebook Ads] data
 
-![](../../../assets/Facebook_Logo.png)
-
 Nadat u [heeft uw [!DNL Facebook Ads] account](../integrations/facebook-ads.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
-Dit artikel geeft u een kort overzicht van de lijsten Adobe adviseert u aan uw Data Warehouse te synchroniseren. Dit is geen volledige lijst, aangezien er vrij een paar subtables zijn. Alleen de kerntabellen worden gemarkeerd.
+Dit onderwerp geeft u een kort overzicht van de lijsten Adobe adviseert u met uw Data Warehouse synchroniseren. Dit benadrukt slechts de kernlijsten, aangezien er vrij een paar subtables zijn.
 
 ## Kerntabellen en campagnemetabellen
 
@@ -60,4 +58,4 @@ Deze tabel bevat dezelfde gegevens als de `facebook_ads_insights_{account_id}` t
 ## Verwante
 
 * [Verbinding maken [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

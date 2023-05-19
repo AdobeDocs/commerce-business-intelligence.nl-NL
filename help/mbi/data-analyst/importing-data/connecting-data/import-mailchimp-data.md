@@ -1,21 +1,21 @@
 ---
 title: MailChimp-gegevens importeren
-description: Leren om MailChimp-gegevens te importeren in [!DNL MBI].
+description: Leren om MailChimp-gegevens te importeren in [!DNL Commerce Intelligence].
 exl-id: 5595c6a6-5476-4a0e-a493-ddc32161894e
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
 
-# Importeren `MailChimp` data
+# Importeren [!DNL Mailchimp] data
 
-Om een volledig beeld te krijgen van uw campagnepogingen, kunt u uw invoeren `MailChimp` gegevens van e-mailcampagne naar [!DNL MBI]. Als u het importeren wilt voltooien, moet u voor elke instantie het volgende doen `MailChimp` campagne die u hebt:
+Om een volledig beeld te krijgen van uw campagnepogingen, kunt u uw invoeren [!DNL Mailchimp] gegevens van e-mailcampagne naar [!DNL Commerce Intelligence]. Als u het importeren wilt voltooien, moet u voor elke instantie het volgende doen [!DNL Mailchimp] campagne die u hebt:
 
 ## Gegevens voor openen exporteren {#opens}
 
-1. Nadat u zich hebt aangemeld `MailChimp`, ga naar de `Campaigns` tab.
+1. Nadat u zich hebt aangemeld [!DNL Mailchimp], ga naar de `Campaigns` tab.
 
    ![import mailchimp 1](../../../assets/import-mailchimp-1.png)
 
@@ -41,7 +41,7 @@ Om een volledig beeld te krijgen van uw campagnepogingen, kunt u uw invoeren `Ma
 
    ![import mailchimp 5](../../../assets/import-mailchimp-5.png)
 
-1. Klik op een van de nummers onder de `Total Clicks` OF `Unique Clicks` kolom.
+1. Klik op een van de nummers onder het `Total Clicks` OF `Unique Clicks` kolom.
 
    ![import mailchimp 6](../../../assets/import-mailchimp-6.png)
 
@@ -55,7 +55,7 @@ Om een volledig beeld te krijgen van uw campagnepogingen, kunt u uw invoeren `Ma
 
 ## Verzonden gegevens exporteren {#sent}
 
-1. Ga naar de `Campaigns` tabblad van MailChimp.
+1. Ga naar de `Campaigns` tabblad van [!DNL Mailchimp].
 
 1. Klikken **[!UICONTROL View Report]** naast de naam van de campagne.
 
@@ -69,8 +69,8 @@ Om een volledig beeld te krijgen van uw campagnepogingen, kunt u uw invoeren `Ma
 
    ![import mailchimp 9](../../../assets/import-mailchimp-9.png)
 
-## Bestanden voorbereiden voor uploaden naar [!DNL MBI] {#upload}
+## Bestanden voorbereiden voor uploaden naar [!DNL Commerce Intelligence] {#upload}
 
-Elk bestand - `Opens`, `Clicks`, en `Sent` - moet worden geüpload naar [!DNL MBI] als een afzonderlijk bestand. Adobe raadt u aan de bestanden een naam te geven met behulp van deze naamgevingsconventie: `MailChimp\_ACTION\_DATE`. Vervangen `ACTION` with `Open`, `Click`, of `Sent`en vervangen `DATE` met de datum van uitvoer.
+Elk bestand - `Opens`, `Clicks`, en `Sent` - moet worden geüpload naar [!DNL Commerce Intelligence] als een afzonderlijk bestand. Adobe raadt u aan de bestanden een naam te geven met behulp van deze naamgevingsconventie: `MailChimp\_ACTION\_DATE`. Vervangen `ACTION` with `Open`, `Click`, of `Sent`en vervangen `DATE` met de datum van uitvoer.
 
 Wanneer u klaar bent om de bestanden te uploaden, gebruikt u de [`File Upload` functie](../connecting-data/using-file-uploader.md) om de gegevens in uw Data Warehouse te brengen.

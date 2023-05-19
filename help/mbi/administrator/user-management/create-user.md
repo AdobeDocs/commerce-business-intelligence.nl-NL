@@ -1,15 +1,15 @@
 ---
-title: Een nieuwe gebruiker toevoegen/bewerken
-description: Meer informatie over het toevoegen van een nieuwe [!DNL MBI] en hoe u uw gebruikersnaam of wachtwoord kunt bijwerken.
+title: Een nieuwe Adobe Commerce Intelligence-gebruiker toevoegen
+description: Meer informatie over het toevoegen van een nieuwe [!DNL Commerce Intelligence] en hoe u uw gebruikersnaam of wachtwoord kunt bijwerken.
 exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Een gebruiker toevoegen
+# Een nieuwe toevoegen [!DNL Adobe Commercer Intelligence] user
 
 1. Klik op de naam van uw bedrijf in de rechterbovenhoek en selecteer **[!UICONTROL Invite User]** in de vervolgkeuzelijst.
 1. Voer de naam en het e-mailadres van de gebruiker in.
@@ -34,8 +34,8 @@ U kunt uw e-mailadres en/of wachtwoord bijwerken door in de rechterbovenhoek op 
 
 ## De uitnodiging opnieuw verzenden
 
-Als u de uitnodiging opnieuw naar de nieuwe gebruiker moet sturen, gaat u naar de [aanmeldingspagina](https://dashboard.rjmetrics.com/v2/session/create), klikt u op **[!UICONTROL Forgot?]**, voert u het e-mailadres van de nieuwe gebruiker in en klikt u op **[!UICONTROL Reset Password]**. Hiermee wordt de uitnodiging opnieuw verzonden en kan de gebruiker zich aanmelden.
+Als u de uitnodiging opnieuw wilt verzenden, gaat u naar de [aanmeldingspagina](https://dashboard.rjmetrics.com/v2/session/create), klikt u op **[!UICONTROL Forgot?]**, voert u het e-mailadres van de nieuwe gebruiker in en klikt u op **[!UICONTROL Reset Password]**. Hiermee verzendt u de uitnodiging opnieuw en kan de gebruiker zich aanmelden.
 
 >[!IMPORTANT]
 >
->Elk account heeft een gecontracteerd aantal licenties of licenties. Als je de limiet hebt bereikt of meer wilt weten, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+>Elk account heeft een gecontracteerd aantal licenties of licenties. Als je de limiet hebt bereikt of meer wilt weten, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

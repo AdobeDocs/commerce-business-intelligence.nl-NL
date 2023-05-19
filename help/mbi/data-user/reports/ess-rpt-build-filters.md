@@ -2,9 +2,9 @@
 title: Filters
 description: Leer hoe u filters kunt gebruiken.
 exl-id: eb683dfe-9a90-400a-a0c0-3dc00d1f28b5
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die word
 >
 >Een rapport kan een maximum van 3.500 gegevenspunten hebben. Om het aantal gegevenspunten te verminderen, gebruik een filter om de hoeveelheid gegevens te verminderen die wordt gebruikt om het rapport te produceren.
 
-MBI bevat een selectie van filters die u kunt gebruiken &quot;uit de doos (OTB),&quot;of aanpassen om aan uw behoeften te passen. Het aantal filters dat u kunt maken, is onbeperkt.
+[!DNL Adobe Commerce Intelligence] bevat een selectie van filters die u &quot;buiten de doos (OOTB)&quot; kunt gebruiken of kunt aanpassen om aan uw behoeften te voldoen. Het aantal filters dat u kunt maken, is onbeperkt.
 
 ## Een filter toevoegen:
 

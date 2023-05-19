@@ -2,7 +2,7 @@
 title: Gegevens van eCommerce opmaken en importeren
 description: Leer de ideale gegevensindelingen voor het uploaden van eCommerce-gegevens.
 exl-id: 7b910f78-9a5a-4d5d-a8b7-1b0b76304afe
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Gegevens opmaken en importeren
 
-Als u een integratie gebruikt die momenteel niet door wordt gesteund [!DNL MBI]kunt u de [Bestanden uploaden, functie](using-file-uploader.md) om uw gegevens in uw Data Warehouse te krijgen. In dit artikel worden de ideale gegevensindelingen beschreven voor het uploaden van eCommerce-gegevens.
+Als u een integratie gebruikt die momenteel niet door wordt gesteund [!DNL Adobe Commerce Intelligence]kunt u de [Bestanden uploaden, functie](using-file-uploader.md) om uw gegevens in uw Data Warehouse te krijgen. Dit onderwerp behandelt de ideale gegevensformaten die voor het uploaden van elektronische handelsgegevens moeten worden gebruikt.
 
 ## `Orders` table
 

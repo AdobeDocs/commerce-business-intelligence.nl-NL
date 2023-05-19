@@ -2,71 +2,69 @@
 title: MySQL via cPanel verbinden
 description: Leer hoe u MySQL via cPanel kunt verbinden.
 exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
-source-git-commit: e4ac176492913623ae461484c8ef2abe034e5f62
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
-# MySQL via cPanel verbinden
+# Verbinden [!DNL MySQL] via [!DNL cPanel]
 
-* [Een [!DNL MBI] MySQL-gebruiker in cPanel](#cpanel)
-* [Verbinding en gebruikersgegevens invoeren in MBI](#finish)
+* [Een [!DNL Commerce Intelligence] [!DNL MySQL] gebruiker in [!DNL cPanel]](#cpanel)
+* [Verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]](#finish)
 
 ## Springen naar
 
-* [MySQL via SSH-tunnel](../integrations/mysql-via-ssh-tunnel.md)
-* [MySQL via directe verbinding](../integrations/mysql-via-a-direct-connection.md)
-
-* **`MySQL via cPanel`**
+* [[!DNL MySQL] via SSH-tunnel](../integrations/mysql-via-ssh-tunnel.md)
+* [[!DNL MySQL] via directe verbinding](../integrations/mysql-via-a-direct-connection.md)
 
 >[!IMPORTANT]
 >
->Adobe raadt u aan SSH of een andere codering te gebruiken om uw gegevens te beveiligen! Als dit geen optie is, kunt u nog steeds rechtstreeks verbinding maken [!DNL MBI] aan uw database toe met behulp van de instructies in dit artikel.
+>[!DNL Adobe] raadt u aan SSH of een andere codering te gebruiken om uw gegevens te beveiligen. Als dit geen optie is, kunt u nog steeds rechtstreeks verbinding maken [!DNL Commerce Intelligence] aan uw gegevensbestand gebruikend de instructies in dit onderwerp.
 
-Dit artikel begeleidt u door direct het verbinden van uw gegevensbestand MySQL met [!DNL MBI] gebruiken `cPanel`. Dit proces kan ook worden gebruikt om verbinding te maken [!DNL Adobe Commerce] en andere MySQL-gebaseerde eCommerce-databases naar [!DNL MBI].
+Dit onderwerp loopt u door het rechtstreeks verbinden van uw [!DNL MySQL] database naar [!DNL Commerce Intelligence] gebruiken [!DNL cPanel]. Dit proces kan ook worden gebruikt om verbinding te maken [!DNL Adobe Commerce] en andere MySQL-gebaseerde eCommerce-databases naar [!DNL Commerce Intelligence].
 
-1. Een [!DNL MBI] MySQL-gebruiker in `cPanel`
-1. Verbinding en gebruikersgegevens invoeren in [!DNL MBI]
+1. Een [!DNL Commerce Intelligence] [!DNL MySQL] gebruiker in [!DNL cPanel]
+1. Verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]
 
 Aan de slag.
 
-## Een [!DNL MBI] MySQL-gebruiker in `cPanel` {#cpanel}
+## Een [!DNL Commerce Intelligence] [!DNL MySQL] gebruiker in [!DNL cPanel] {#cpanel}
 
-1. Aanmelden bij [`cPanel`](../../../data-analyst/importing-data/integrations/mysql-via-cpanel.md) via uw hostingprovider.
-1. Klikken **[!UICONTROL MySQL Databases]**, gevestigd in de `Database` sectie.
-1. Omlaag schuiven naar de `Add New User` en maak een gebruiker voor [!DNL MBI]:
+1. Aanmelden bij [!DNL cPanel] via uw hostingprovider.
+1. Klikken **[!UICONTROL [!DNL MySQL] Databases]**, gevestigd in de `Database` sectie.
+1. Omlaag schuiven naar de `Add New User` en maak een gebruiker voor [!DNL Commerce Intelligence]:
 
    ![](../../../assets/create-mbi-mysql-user-cpanel.png)
 
 1. Klikken **[!UICONTROL Create User]**.
 1. Nu u de gebruiker hebt gecreeerd, moet u het aan een gegevensbestand associëren. Ga terug naar de `Add New User` sectie - zie de montages voor `Add User to Database?` Dat is wat u nodig hebt.
 1. In de `User` Selecteer de gebruiker die u hebt gemaakt in het vervolgkeuzemenu van deze sectie.
-1. In de `Database` vervolgkeuzelijst van deze sectie, selecteer de database waarmee u verbinding wilt maken [!DNL MBI].
+1. In de `Database` vervolgkeuzelijst van deze sectie, selecteer de database waarmee u verbinding wilt maken [!DNL Commerce Intelligence].
 1. Klikken **[!UICONTROL Add]**.
-1. Schakel het selectievakje naast `SELECT` - dit alles [!DNL MBI] moet verbinding maken met uw database.
+1. Schakel het selectievakje naast `SELECT` - dit alles [!DNL Commerce Intelligence] moet verbinding maken met uw database.
 
-## De verbinding en gebruikersgegevens invoeren in [!DNL MBI] {#finish}
+## De verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence] {#finish}
 
-Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL MBI]. Hebt u de MySQL aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Manage Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en vervolgens het MySQL-pictogram.
+Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de [!DNL MySQL] aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Manage Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en de [!DNL MySQL] pictogram.
 
 Voer de volgende gegevens in op deze pagina in het dialoogvenster `Database Connection` sectie:
 
-* `Username`: De gebruikersnaam voor de [!DNL MBI] MySQL-gebruiker
-* `Password`: Het wachtwoord voor de [!DNL MBI] MySQL-gebruiker
+* `Username`: De gebruikersnaam voor de [!DNL Commerce Intelligence] [!DNL MySQL] user
+* `Password`: Het wachtwoord voor de [!DNL Commerce Intelligence] [!DNL MySQL] user
 * `Port`: De poort van MySQL op uw server (`3306` standaard)
-* `Host`: De openbare adressen van de `MySQL` server [!DNL MBI] maakt verbinding met. Dit is gewoonlijk de URL waarmee u zich aanmeldt `cPanel`.
+* `Host`: De openbare adressen van de `MySQL` server [!DNL Commerce Intelligence] maakt verbinding met. Dit is gewoonlijk de URL waarmee u zich aanmeldt `[!DNL cPanel]`.
 
 Als u een [`SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md), moet u de versleutelingsgegevens invoeren. Stel de `Encrypted` schakelen naar `Yes` om het formulier weer te geven.
 
 * `Connection Type`: Stel deze in op `SSH Tunnel`
-* `Remote Address`: Het IP-adres of de hostnaam van de server [!DNL MBI] wordt
-* `Username`: De gebruikersnaam voor de [!DNL MBI] `SSH (Linux)` gebruiker, zie [instructies](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) over hoe dit moet gebeuren, als u dat nog niet hebt gedaan)
+* `Remote Address`: Het IP-adres of de hostnaam van de server [!DNL Commerce Intelligence] wordt
+* `Username`: De gebruikersnaam voor de [!DNL Commerce Intelligence] `SSH (Linux)` gebruiker, zie [instructies](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) over hoe dit moet gebeuren, als u dat nog niet hebt gedaan)
 * `SSH Port`: SSH-poort op uw server (`22` standaard)
 
-Dat is het! Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
+Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
 
 ## Verwante:
 
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

@@ -2,7 +2,7 @@
 title: Het rendement van uw reclamecampagnes verhogen
 description: Meer informatie over enkele verschillende methoden om de prestaties van uw campagne te evalueren.
 exl-id: 4f2bf408-eeaf-4dbf-b62e-89426734640a
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '1237'
 ht-degree: 0%
@@ -11,14 +11,14 @@ ht-degree: 0%
 
 # Reclamecampagnes en investeringsrendement
 
-Met MBI kunt u eenvoudig [Gegevens over advertentiekosten en inkomstengegevens combineren](../../data-analyst/importing-data/integrations/google-adwords.md) uit uw database. Hierdoor kunt u gemakkelijker zien welke campagnes het hoogste rendement op investeringen hebben. In dit artikel worden enkele verschillende methoden voor het evalueren van de prestaties van uw campagne besproken.
+[!DNL Adobe Commerce Intelligence] staat u toe gemakkelijk [Gegevens over advertentiekosten en inkomstengegevens combineren](../../data-analyst/importing-data/integrations/google-adwords.md) uit uw database. Dit helpt u identificeren welke campagnes het hoogste rendement op investering (ROI) hebben. In dit onderwerp worden enkele verschillende methoden voor het evalueren van de prestaties van uw campagne besproken.
 
 ## Vereisten
 
 * Je gegevens over advertentiekosten importeren:
-   * [Verbind uw [!DNL Google AdWords] tot [!DNL MBI]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] uitgeven in [!DNL MBI]
-   * [Andere gegevens over advertentiekosten uploaden](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt aanbevolen voor kanalen zonder directe aansluiting op [!DNL MBI]
-   * Als u kostengegevens uit meerdere bronnen importeert, kunt u [consolideren](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL MBI]. Eenvoudig [een ondersteuningsticket indienen](../../guide-overview.md).
+   * [Verbind uw [!DNL Google AdWords] tot [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] uitgeven in [!DNL Commerce Intelligence]
+   * [Andere gegevens over advertentiekosten uploaden](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt aanbevolen voor kanalen zonder directe aansluiting op [!DNL Commerce Intelligence]
+   * Als u kostengegevens uit meerdere bronnen importeert, kunt u [consolideren](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence]. Eenvoudig [een ondersteuningsticket indienen](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Kanaalgegevens van verwervingskanalen bijhouden](../analysis/google-track-user-acq.md)
 
 ## Aankoopcampagnes voor gebruikers
@@ -35,7 +35,7 @@ De bovenstaande analyses (1) en (2) worden in een aparte zelfstudie besproken op
 >
 >In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om nieuwe gebruikers aan te schaffen. In werkelijkheid worden uw campagnekosten ook gedeeld met het aanschaffen van ongeconverteerde bezoeken, herhaalde kopers en dergelijke. Door ervan uit te gaan dat alle kosten worden gebruikt om nieuwe geregistreerde gebruikers aan te schaffen, wordt het meest ongunstige scenario (hoogste kosten per overname) in het resulterende rendement verwerkt. U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan uw berekening.
 >
->Voorbeeld: Ervan uitgaande dat je $20 hebt uitgegeven aan een campagne die 10 nieuwe gebruikers en 10 herhaalde kopers heeft gegenereerd, bedragen de werkelijke kosten per nieuwe gebruiker $1. Maar, in de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.)
+>Voorbeeld: Ervan uitgaande dat je $20 hebt uitgegeven aan een campagne die 10 nieuwe gebruikers en 10 herhaalde kopers heeft gegenereerd, bedragen de werkelijke kosten per nieuwe gebruiker $1. Maar, in de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.
 
 **1. Begin door een grafiek te creëren die uw Advertentiekosten door Campagnes segmenteert:**
 
@@ -95,9 +95,9 @@ Gebruikt u productspecifieke advertenties? Als dat het geval is, kunt u de ROI o
 
 >[!NOTE]
 >
->In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door ervan uit te gaan dat alle kosten werden besteed aan het genereren van aankopen, maakt het resulterende rendement van investeringen het worstcasescenario (hoogste kosten per aankoop). U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die tien nieuwe gebruikers en tien aankopen heeft gegenereerd, bedragen uw werkelijke kosten per aankoop $1. Onder de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.)*
+>In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door ervan uit te gaan dat alle kosten werden besteed aan het genereren van aankopen, maakt het resulterende rendement van investeringen het worstcasescenario (hoogste kosten per aankoop). U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die tien nieuwe gebruikers en tien aankopen heeft gegenereerd, bedragen uw werkelijke kosten per aankoop $1. Onder de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.
 
-Voordat u begint, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om de volgende afmetingen aan uw lijst van lijnpunten ( te verbinden`sales\_flat\_order\_item, order\_item`):
+Voordat u begint, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de volgende afmetingen aan uw lijst van lijnpunten ( te verbinden`sales\_flat\_order\_item, order\_item`):
 
 * De bron van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de bron van de gebruiker aansluit)
 * De campagne van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de campagne van de gebruiker aansluit)

@@ -2,24 +2,24 @@
 title: MongoDB-gegevensmodellering
 description: Leer hoe u gegevenspatronen kunt vermijden die een probleem vormen.
 exl-id: 556c854b-5d7c-4f72-8ed7-5bc08d9ee5b9
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
 
 # [!DNL MongoDB] Gegevensmodellering
 
-Wanneer [!DNL MBI] pulls in [!DNL MongoDB] gegevens, die gegevens worden omgezet in een relationeel model.
+Wanneer [!DNL Adobe Commerce Intelligence] pulls in [!DNL MongoDB] gegevens, die gegevens worden omgezet in een relationeel model.
 
-Het slechte nieuws: Hoewel de meeste gegevenspatronen geen probleem vormen, zijn er een paar die, door de vertaling naar een relationeel model, [!DNL MBI] ondersteunt niet.
+Het slechte nieuws: Hoewel de meeste gegevenspatronen geen probleem vormen, zijn er een aantal die niet worden ondersteund door [!DNL Commerce Intelligence]vanwege de vertaling naar een relationeel model.
 
 Het goede nieuws: Al deze patronen kunnen worden vermeden.
 
 ## Subgeneste arrays {#subnested}
 
-Als de verzameling er als volgt uitziet: [!DNL MBI] dupliceert alleen de gegevens in de itemarray. Gegevens uit de subitems-array worden niet opgehaald.
+Als de verzameling er als volgt uitziet: [!DNL Commerce Intelligence] dupliceert alleen de gegevens in de itemarray. Gegevens uit de subitems-array worden niet opgehaald.
 
 ```bash
     {
@@ -41,7 +41,7 @@ Als de verzameling er als volgt uitziet: [!DNL MBI] dupliceert alleen de gegeven
 
 ## Toetsen voor variabele objecten {#varobjectkeys}
 
-Verzamelingen die objecten met variabele-objectsleutels bevatten, worden niet gerepliceerd in [!DNL MBI]. Bijvoorbeeld:
+Verzamelingen die objecten met variabele-objectsleutels bevatten, worden niet gerepliceerd in [!DNL Commerce Intelligence]. Bijvoorbeeld:
 
 ```bash
     {

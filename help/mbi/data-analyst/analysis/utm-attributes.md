@@ -2,16 +2,16 @@
 title: Google Analytics- en UTM-kenmerk
 description: Meer informatie over het toewijzingsproces van de bron Google Analytics.
 exl-id: 48b8a3d3-f1ac-4d3f-8f65-db1245c9ae0a
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
-# Google Analytics- en UTM-kenmerk
+# [!DNL Google Analytics] en UTM-kenmerk
 
-Het is van essentieel belang om [verwervingsbron voor gebruiker bijhouden](../../data-analyst/analysis/google-track-user-acq.md) tot [de best presterende reclamecampagnes te identificeren](../../data-analyst/analysis/most-value-source-channel.md). In dit artikel wordt het brontoewijzingsproces van Google Analytics besproken. Met andere woorden, welk deel van de informatie wordt geregistreerd wanneer.
+Het is van essentieel belang om [verwervingsbron voor gebruiker bijhouden](../../data-analyst/analysis/google-track-user-acq.md) tot [de best presterende reclamecampagnes te identificeren](../../data-analyst/analysis/most-value-source-channel.md). In dit onderwerp wordt de [!DNL Google Analytics] brontoewijzingsproces. Met andere woorden, welk deel van de informatie wordt geregistreerd wanneer.
 
 ## Wat is attributie?
 
@@ -31,11 +31,11 @@ Wanneer de UTM-parameters op de URL worden opgegeven, worden deze geparseerd en 
 
 De laatste klikattributie is het gemeenschappelijkste attributiemodel dat door wordt gebruikt [!DNL Google Analytics]. In dit geval worden de [!DNL Google Analytics] cookie vertegenwoordigt de UTM-parameters voor de meest recente bron vóór de conversiegebeurtenis. Dit is [opgenomen in de database](../../data-analyst/analysis/google-track-user-acq.md). De [!DNL Google Analytics] cookie overschrijft alleen de vorige UTM-parameters als de gebruiker op een nieuwe URL klikt die een nieuwe set UTM-parameters bevat.
 
-Neem bijvoorbeeld een gebruiker die eerst een website bezoekt via [!DNL Google Analytics][!DNL Google Analytics][!DNL Google Analytics] *betaalde zoekopdracht*, dan keert terug via *organische zoekopdracht*, en komt eindelijk terug op de *rechtstreeks* of via een *e-mailkoppeling* **zonder UTM-parameters** vóór de conversiegebeurtenis. In dit voorbeeld wordt [!DNL Google Analytics] cookie zegt dat de bron van de gebruiker biologisch is , aangezien dit de laatste bron vóór de conversie is . De *pad* van de gebruiker voordat die laatste conversiegebeurtenis wordt genegeerd. Als de gebruiker in plaats daarvan via een e-mailkoppeling met UTM de website heeft bezocht, [!DNL Google Analytics] cookie zou zeggen dat de bron &quot;email&quot; is. Als het cookie bestaande UTM-parameters bevat en de gebruiker via direct de cookie in de cookie komt, wordt de [!DNL Google Analytics] cookie toont de UTM-parameters in plaats van &quot;direct&quot;.
+Neem bijvoorbeeld een gebruiker die eerst een website bezoekt via [!DNL Google Analytics] *betaalde zoekopdracht*, dan keert terug via *organische zoekopdracht*, en komt eindelijk terug op de *rechtstreeks* of via een *e-mailkoppeling* **zonder UTM-parameters** vóór de conversiegebeurtenis. In dit voorbeeld wordt [!DNL Google Analytics] cookie zegt dat de bron van de gebruiker biologisch is , aangezien dit de laatste bron vóór de conversie is . De *pad* van de gebruiker voordat die laatste conversiegebeurtenis wordt genegeerd. Als de gebruiker in plaats daarvan via een e-mailkoppeling met UTM de website heeft bezocht, [!DNL Google Analytics] cookie zou zeggen dat de bron &quot;email&quot; is. Als het cookie bestaande UTM-parameters bevat en de gebruiker via direct de cookie in de cookie komt, wordt de [!DNL Google Analytics] cookie toont de UTM-parameters in plaats van &quot;direct&quot;.
 
 >[!NOTE]
 >
->Een specifieke gebruiker [!DNL Google Analytics] cookieparameters worden gewist wanneer het cookie [verloopt](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)of wanneer een gebruiker de cookies in de browser wist.*)
+>Een specifieke gebruiker [!DNL Google Analytics] cookieparameters worden gewist wanneer het cookie [verloopt](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage)of wanneer een gebruiker de cookies in de browser wist.*
 
 ### Kenmerk eerste klik
 
@@ -45,10 +45,10 @@ Met sommige gereedschappen voor betaalde toewijzingen kunt u de &quot;pancake-st
 
 [!DNL Google Analytics] heeft een aantal robuuste functies in de webinterface waarmee u vier verschillende attribuutmodellen kunt uitvoeren:
 
-* eerste klik
-* laatste klik
-* lineair (verdeel de opbrengst gelijkelijk over alle bronnen in de weg)
-* gewogen (aangepaste attributie)
+1. eerste klik
+1. laatste klik
+1. lineair (verdeel de opbrengst gelijkelijk over alle bronnen in de weg)
+1. gewogen (aangepaste attributie)
 
 Nu je begrijpt wat het toewijzingsmodel is voor elke micro- of macro-conversie, wordt de vraag: &quot;Wat doe je met alle conversies van een gebruiker?&quot;.  Bekijk bijvoorbeeld de UTM&#39;s die zijn opgenomen op basis van de logica van de GA voor laatste klik:
 

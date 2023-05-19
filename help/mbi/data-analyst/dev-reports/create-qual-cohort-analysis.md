@@ -1,19 +1,19 @@
 ---
 title: Een kwalitatieve cohortanalyse maken
-description: Leer wat een kwalitatief cohort is, waarom je geïnteresseerd bent in het maken van deze analyse en hoe je het kunt maken in [!DNL MBI].
+description: Leer wat een kwalitatief cohort is, waarom je geïnteresseerd zou kunnen zijn in het maken van deze analyse, en hoe je het kunt maken in de Commerce Intelligence.
 exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
 
 # Een `Qualitative Cohort Analysis`
 
-Weet u hoe uw [!DNL Adwords]- de verworven klantensegmenten hun LTV in vergelijking met die klanten kweken die van biologisch onderzoek worden verworven? Heb je ooit gedacht aan het uitvoeren van een `cohort` analyse van verschillende klantensegmenten naast elkaar in hetzelfde rapport? Zo ja, `qualitative cohort analysis` helpt u deze vragen te beantwoorden.
+Weet u hoe uw [!DNL Google Adwords]- de verworven klantensegmenten hun LTV in vergelijking met die klanten kweken die van biologisch onderzoek worden verworven? Heb je ooit gedacht aan het uitvoeren van een `cohort` analyse van verschillende klantensegmenten naast elkaar in hetzelfde rapport? Zo ja, `qualitative cohort analysis` helpt u deze vragen te beantwoorden.
 
-Dit artikel duikt in wat een kwalitatieve cohort is, waarom je geïnteresseerd zou kunnen zijn in het bouwen van deze analyse en hoe je het kunt maken in [!DNL MBI].
+Dit onderwerp duikt in wat een kwalitatieve cohort is, waarom je geïnteresseerd zou kunnen zijn in het bouwen van deze analyse en hoe je het kunt maken in [!DNL Commerce Intelligence].
 
 ## Wat is `qualitative cohorts`, toch? {#whatare}
 
@@ -21,7 +21,7 @@ Dit artikel duikt in wat een kwalitatieve cohort is, waarom je geïnteresseerd z
 
 Zie [cohortanalyse](https://www.cohortanalysis.com/).
 
-Meeste `cohort` analyses in [!DNL MBI] groepeer gebruikers samen door een gemeenschappelijke datum (bijvoorbeeld, de reeks alle klanten die hun eerste aankoop in een bepaalde maand maakten). A `qualitative cohort` is iets anders: het is een gebruikersgroep die door een eigenschap wordt bepaald die niet op tijd-gebaseerd is. Voorbeelden zijn:
+Meeste `cohort` analyses in [!DNL Commerce Intelligence] groepeer gebruikers samen door een gemeenschappelijke datum (bijvoorbeeld, de reeks alle klanten die hun eerste aankoop in een bepaalde maand maakten). A `qualitative cohort` is iets anders: het is een gebruikersgroep die door een eigenschap wordt bepaald die niet op tijd-gebaseerd is. Voorbeelden zijn:
 
 * De set met alle gebruikers die zijn aangeschaft via een advertentiecampagne
 * De set van alle gebruikers voor wie de eerste aankoop een coupon bevatte (of niet)
@@ -37,7 +37,7 @@ Nochtans, als u het cohortgedrag van veelvoudige gebruikerssegmenten in het zelf
 
 Een `qualitative cohort` in het `Report Builder` Hierbij wordt het Adobe-analist-team betrokken bij het maken van [geavanceerd berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md) betreffende de nodige tabellen.
 
-Als u deze wilt bouwen, dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) (en verwijs naar dit artikel!) Dit is wat u moet weten:
+Als u deze wilt bouwen, dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (en verwijs naar dit artikel!) Dit is wat u moet weten:
 
 * De `metric` u wilt uw cohortanalyse uitvoeren met en welke lijst het gebruikt (voorbeeld: `Revenue`op basis van de `orders` tabel).
 

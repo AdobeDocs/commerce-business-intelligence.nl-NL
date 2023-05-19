@@ -2,16 +2,16 @@
 title: De tijd van de updatecyclus verkorten
 description: Leer hoe u de updatecyclus verkort.
 exl-id: 0b211e2d-770f-480d-a7fb-8d10e3e7272e
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 # Verminder de verwerkingstijd van de updatecyclus
 
-[!DNL MBI] synchroniseert de hele dag met de database om nieuwe gegevens te repliceren, zodat op de dashboards altijd de meest recente informatie wordt weergegeven.
+[!DNL Adobe Commerce Intelligence] synchroniseert de hele dag met de database om nieuwe gegevens te repliceren, zodat op de dashboards altijd de meest recente informatie wordt weergegeven.
 
 Veel factoren kunnen een reeds lange updatetijd vergroten. Bepaalde replicatiemethodes, hogere recheck frequenties, en het aantal dashboards en grafieken zijn enkel een paar contribuanten. In deze onderwerpen worden enkele aanbevolen procedures besproken om de updatetijden te verkorten.
 
@@ -19,7 +19,7 @@ Veel factoren kunnen een reeds lange updatetijd vergroten. Bepaalde replicatieme
 
 In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld in een **orders** tabel kan een kolom met de naam **status**. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde kunnen bevatten `pending`. De volgorde wordt overgenomen in uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) met `pending` waarde.
 
-Wijzigbare kolommen moeten [opnieuw gecontroleerd op bijgewerkte waarden](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) na verloop van tijd. Standaard, [!DNL MBI] controleert deze kolommen tijdens elke update opnieuw, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en worden herhaald, kan het negatief uw updatetijd beïnvloeden. In plaats van tijdens elke update opnieuw te controleren, raadt Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
+Wijzigbare kolommen moeten [opnieuw gecontroleerd op bijgewerkte waarden](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) na verloop van tijd. Standaard, [!DNL Commerce Intelligence] controleert deze kolommen tijdens elke update opnieuw, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en worden herhaald, kan het negatief uw updatetijd beïnvloeden. In plaats van tijdens elke update opnieuw te controleren, raadt Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
 
 ## Methoden voor incrementele replicatie gebruiken
 
@@ -27,9 +27,9 @@ Zoals hierboven vermeld, zijn lange updatetijden rechtstreeks gecorreleerd aan h
 
 ## Ongebruikte grafieken verwijderen uit dashboards
 
-Aan het einde van de updatecyclus [!DNL MBI] voert een geheim voorgeheugenverrichting voor alle grafieken uit. In een cache worden gegevens opgeslagen zodat toekomstige verzoeken om informatie sneller kunnen worden voltooid. In [!DNL MBI], betekent dit dat dashboards snel geladen moeten worden omdat grafieken niet gegevens hoeven te vragen telkens als zij laden.
+Aan het einde van de updatecyclus [!DNL Commerce Intelligence] voert een geheim voorgeheugenverrichting voor alle grafieken uit. In een cache worden gegevens opgeslagen zodat toekomstige verzoeken om informatie sneller kunnen worden voltooid. In [!DNL Commerce Intelligence], betekent dit dat dashboards snel geladen moeten worden omdat grafieken niet gegevens hoeven te vragen telkens als zij laden.
 
-Sinds [!DNL MBI] voert alleen cachebewerkingen uit voor diagrammen die in een dashboard worden gevonden. Als u ongebruikte grafieken verwijdert uit uw dashboards, neemt de updatetijd af. Houd er rekening mee dat hetzelfde diagram zich op meerdere dashboards kan bevinden - raadpleeg uw team om ervoor te zorgen dat ongebruikte grafieken ook worden verwijderd.
+Sinds [!DNL Commerce Intelligence] voert alleen cachebewerkingen uit voor diagrammen die in een dashboard worden gevonden. Als u ongebruikte grafieken verwijdert uit uw dashboards, neemt de updatetijd af. Houd er rekening mee dat hetzelfde diagram zich op meerdere dashboards kan bevinden - raadpleeg uw team om ervoor te zorgen dat ongebruikte grafieken ook worden verwijderd.
 
 >[!NOTE]
 >
@@ -41,4 +41,4 @@ Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en graf
 
 ## Omloop omhoog
 
-Als de update nog steeds traag lijkt, zelfs nadat u deze aanbevelingen hebt uitgevoerd [contact opnemen met het ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als de update nog steeds traag lijkt, zelfs nadat u deze aanbevelingen hebt uitgevoerd [contact opnemen met het ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

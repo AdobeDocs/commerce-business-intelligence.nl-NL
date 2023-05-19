@@ -2,9 +2,9 @@
 title: Google Analytics maken
 description: Leer hoe u grafieken maakt op basis van uw Google Analytics-gegevens.
 exl-id: ee80fd0d-e3b1-4331-853d-3c2c11931d3f
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 (met regex syntaxis help)
 
-Nadat u verbinding hebt gemaakt met uw [[!DNL Google Analytics] account](../../data-analyst/importing-data/integrations/google-analytics.md), kunt u grafieken maken van uw [!DNL Google Analytics] gegevens.
+Nadat u verbinding hebt gemaakt met uw [[!DNL Google Analytics] account](../../data-analyst/importing-data/integrations/google-analytics.md)kunt u grafieken maken met uw [!DNL Google Analytics] gegevens.
 
 ## Maken [!DNL Google Analytics] Grafieken
 

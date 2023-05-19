@@ -2,7 +2,7 @@
 title: Verwacht[!DNL Google ECommerce]data
 description: Leer welke soorten gegevens met de Handel van Google worden gedeeld.
 exl-id: 8e5d8863-f003-4c38-95c5-660bcbff48da
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Verwacht[!DNL Google ECommerce] data
 
-Na uw [!DNL Google ECommerce] account is verbonden met [!DNL MBI]worden gegevens geïmporteerd in een tabel met de naam `ecommerce`. Deze lijst registreert een gegevensrij voor elke transactie. Dit omvat de volgende orde-vlakke gegevenskolommen:
+Na uw [!DNL Google ECommerce] account is verbonden met [!DNL Commerce Intelligence]worden gegevens geïmporteerd in een tabel met de naam `ecommerce`. Deze lijst registreert een gegevensrij voor elke transactie. Dit omvat de volgende orde-vlakke gegevenskolommen:
 
 | Kolomnaam | Beschrijving |
 |-----|-----|

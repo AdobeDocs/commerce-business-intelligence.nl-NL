@@ -2,16 +2,16 @@
 title: quote_item, tabel
 description: Leer hoe u met de tabel quote_item werkt.
 exl-id: dad36e88-5986-4b52-8a0e-ac084fabb275
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 0%
 
 ---
 
 # quote_item, tabel
 
-De `quote_item` tabel (`sales_flat_quote_item` op M1) 1) bevat gegevens over elk artikel dat aan een winkelwagentje is toegevoegd, ongeacht of het winkelwagentje is verlaten of in een aankoop is omgezet. Elke rij staat voor één winkelwagentje. Vanwege de mogelijke grootte van deze tabel, raadt Adobe u aan om regelmatig records te verwijderen als aan bepaalde criteria wordt voldaan, bijvoorbeeld als er niet-omgezette winkelwagentjes ouder zijn dan 60 dagen.
+De `quote_item` tabel (`sales_flat_quote_item` op M1) bevat gegevens over elk artikel dat aan een winkelwagentje is toegevoegd, ongeacht of het winkelwagentje is verlaten of in een aankoop is omgezet. Elke rij staat voor één winkelwagentje. Vanwege de mogelijke grootte van deze tabel, raadt Adobe u aan om regelmatig records te verwijderen als aan bepaalde criteria wordt voldaan, bijvoorbeeld als er niet-omgezette winkelwagentjes ouder zijn dan 60 dagen.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ De `quote_item` tabel (`sales_flat_quote_item` op M1) 1) bevat gegevens over el
 | **Kolomnaam** | **Beschrijving** |
 |---|---|
 | `base_price` | Prijs van een afzonderlijke eenheid van een product op het moment dat het item aan een winkelwagentje werd toegevoegd, na [catalogusprijsregels, gedifferentieerde kortingen en speciale prijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) worden toegepast en voordat eventuele belastingen, verzendkosten of winkelkortingen worden toegepast. Dit wordt weergegeven in de basisvaluta van de winkel. |
-| `created_at` | Tijdstempel maken van het winkelwagentje dat lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
+| `created_at` | Tijdstempel maken van het winkelwagentje dat lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL Commerce Intelligence]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL Commerce Intelligence] die van uw streek van de gegevensbestandtijd verschilt |
 | `item_id` (PK) | Unieke id voor de tabel |
 | `name` | Tekstnaam van het orderitem |
 | `parent_item_id` | `Foreign key` die een eenvoudig product met zijn ouderbundel of configureerbaar product verbindt. Verbinden met `quote_item.item_id` om de kenmerken van het bovenliggende product te bepalen die aan het eenvoudige product zijn gekoppeld. Voor bovenliggende winkelwagentjes (d.w.z. bundel- of configureerbare producttypen): `parent_item_id` is `NULL` |
@@ -70,7 +70,7 @@ De `quote_item` tabel (`sales_flat_quote_item` op M1) 1) bevat gegevens over el
 
 `quote_item`
 
-* Verbinden met `quote_item` om kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. [Contact opnemen met ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
+* Verbinden met `quote_item` om kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. [Contact opnemen met ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp bij het vormen van deze berekeningen, als het gebouw in de manager van de Data Warehouse.
    * Pad: `quote_item.parent_item_id` (veel) => `quote_item.item_id` (1)
 
 `store`

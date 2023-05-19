@@ -2,16 +2,16 @@
 title: De visuele Report Builder gebruiken
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: da97b63d-63f0-4fd6-87e3-4cac49a42acc
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
 workflow-type: tm+mt
 source-wordcount: '1188'
 ht-degree: 0%
 
 ---
 
-# Gebruik de `Visual Report Builder`
+# Gebruik de [!DNL Visual Report Builder]
 
-De [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md) kunt u uw gegevens visueel verkennen om inzichten te tekenen en zakelijke beslissingen te stimuleren. Dit leerprogramma begeleidt u door het proces om een basisrapport tot stand te brengen.
+De [[!DNL Visual Report Builder]](../data-user/reports/ess-rpt-build-visual.md) kunt u uw gegevens visueel verkennen om inzichten te tekenen en zakelijke beslissingen te stimuleren. Dit leerprogramma begeleidt u door het proces om een basisrapport tot stand te brengen.
 
 >[!NOTE]
 >
@@ -19,9 +19,9 @@ De [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md) kunt 
 
 ## Stap 1: Een rapport maken
 
-Als u een rapport wilt gaan maken, klikt u op **[!UICONTROL Report Builder]** op de zijbalk of **[!UICONTROL Add Report]** boven aan een dashboard. Wanneer de `Report Builder` op de selectiepagina worden weergegeven, klikt u op de **[!UICONTROL Visual Report Builder]** optie.
+Als u een rapport wilt gaan maken, klikt u op **[!UICONTROL Report Builder]** op de zijbalk of **[!UICONTROL Add Report]** boven aan een dashboard. Wanneer de `Report Builder` pagina wordt weergegeven, klikt u op de knop **[!UICONTROL Visual Report Builder]** optie.
 
-Als u een rapport wilt bewerken dat is gemaakt in het dialoogvenster `Visual Report Builder`klikt u op het tandwielpictogram (Opties) in de rechterbovenhoek van een diagram en klikt u vervolgens op **[!UICONTROL Edit]**.
+Als u een rapport wilt bewerken dat is gemaakt in het dialoogvenster [!DNL Visual Report Builder]klikt u op het tandwielpictogram (Opties) rechtsboven in een diagram en klikt u vervolgens op **[!UICONTROL Edit]**.
 
 ## Stap 2: Metrisch toevoegen
 
@@ -45,7 +45,7 @@ Aan nul binnen op een bepaalde rektijd, kunt u de tijdspanne voor de analyse pla
 
 Wanneer het plaatsen van een specifieke datumwaaier voor de tijdspanne, zorg ervoor dat de begindatum bij het begin van het interval is en de einddatum aan het eind van uw interval is.
 
-Stel bijvoorbeeld een tijdsperiode in van `January 1st to March 1st` en kiest u een `monthly` interval toont `March` als datapoint, maar elke dag negeren `March` behalve `March 1`. In dat geval moet u uw `Time Period` van `January 1 to March 31`.
+Stel bijvoorbeeld een tijdsperiode in van `January 1st` tot `March 1st` en kiest u een `monthly` interval toont `March` als datapoint, maar elke dag negeren `March` behalve `March 1`. In dat geval moet u uw `Time Period` van `January 1 to March 31`.
 
 ## Stap 5: `Group by` / `Segmenting the Analysis` {#groupby}
 

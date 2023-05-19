@@ -2,16 +2,16 @@
 title: Inventarisniveaus analyseren
 description: Leer hoe u inventarisniveaus kunt analyseren.
 exl-id: 620156c5-7bea-4b36-84c7-e0cb4b5cc8be
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Inventarisniveaus analyseren
 
-In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten bevat in uw huidige inventaris. Dit onderwerp bevat instructies voor cliënten op zowel de erfenisarchitectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** ). Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
+In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris en instructies bevat voor klanten op zowel de oudere architectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** -menu. Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
 
 ## Kolommen die moeten worden bijgehouden:
 
@@ -29,7 +29,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten bevat in uw hu
 
 ## Berekende kolommen:
 
-### Nieuwe architectuur
++++ Nieuwe architectuur
 
 * **[!UICONTROL catalog_product_entity]** tabel:
    * **`Product's most recent order date`**
@@ -118,7 +118,8 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten bevat in uw hu
 
 
 
-### Verouderde architectuur
++++
++++ Verouderde architectuur
 
 * **[!UICONTROL catalog_product_entity]** tabel:
    * **`Product's most recent order date`**
@@ -189,6 +190,8 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten bevat in uw hu
 
 
 
++++
+
 ## Metrisch
 
 ### Metrische instructies
@@ -240,4 +243,4 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten bevat in uw hu
       [!UICONTROL Chart type]: `Table`
 
 
-Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

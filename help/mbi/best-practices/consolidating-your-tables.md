@@ -2,7 +2,7 @@
 title: Consolideer uw tabellen
 description: Leer hoe u uw tabellen en databases kunt consolideren.
 exl-id: 6065bed3-fb84-4147-a223-92dc3e1b15a5
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 # Consolideer uw tabellen
 
-Als u veelvoudige opslagfronten of op veelvoudige markten in werking stelt, kunt u gelijkaardige gegevensbestanden hebben die afzonderlijk worden opgeslagen. In [!DNL MBI]Het is echter eenvoudig vergelijkbare tabellen uit verschillende databases samen te voegen.
+Als u veelvoudige opslagfronten of op veelvoudige markten in werking stelt, kunt u gelijkaardige gegevensbestanden hebben die afzonderlijk worden opgeslagen. In [!DNL Adobe Commerce Intelligence]Het is echter eenvoudig vergelijkbare tabellen uit verschillende databases samen te voegen.
 
-U hebt bijvoorbeeld een `orders` tabel voor `Market A`en een soortgelijke `orders` tabel voor `Market B`. [!DNL MBI] U kunt beide tabellen samenvoegen en u kunt de gegevens van de samengestelde volgorde bekijken vanuit beide `Market A` en `B`, naast segmentering door specifieke markt.
+U hebt bijvoorbeeld een `orders` tabel voor `Market A`en een soortgelijke `orders` tabel voor `Market B`. [!DNL Commerce Intelligence] U kunt beide tabellen samenvoegen en u kunt de gegevens van de samengestelde volgorde bekijken vanuit beide `Market A` en `B`, naast segmentering door specifieke markt.
 
 Voor consolidatie van tabellen is het nodig dat invoertabellen **op vergelijkbare wijze gestructureerd**. Met andere woorden, alle inputlijsten moeten de gegevenskolommen bevatten die in de geconsolideerde lijst worden vereist.
 
@@ -43,8 +43,8 @@ Zoals met alle andere lijsten in uw Data Warehouse, kunt u extra kolommen toevoe
 
 ## Een geconsolideerde tabel maken, weergeven of bijwerken
 
-Als u een geconsolideerde tabel aan uw Data Warehouse wilt toevoegen, neemt u contact op met [!DNL MBI] [ondersteuning](../guide-overview.md).
+Als u een geconsolideerde tabel aan uw Data Warehouse wilt toevoegen, neemt u contact op met [!DNL Commerce Intelligence] [ondersteuning](../guide-overview.md#Submitting-a-Support-Ticket).
 
 >[!NOTE]
 >
->Omdat geconsolideerde tabellen niet kunnen worden weergegeven in het dialoogvenster `Data Warehouse Manager`, kunt u deze tabellen alleen weergeven en bijwerken via [!DNL MBI] ondersteuning.
+>Omdat geconsolideerde tabellen niet kunnen worden weergegeven in het dialoogvenster `Data Warehouse Manager`, kunt u deze tabellen alleen weergeven en bijwerken via [!DNL Commerce Intelligence] ondersteuning.

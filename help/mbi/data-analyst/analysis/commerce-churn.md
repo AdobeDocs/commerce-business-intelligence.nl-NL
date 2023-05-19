@@ -2,7 +2,7 @@
 title: Commerce Churn
 description: Leer hoe u de Koopprijs genereert en analyseert.
 exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 2%
@@ -15,7 +15,7 @@ Dit onderwerp demonstreert hoe u een **kromtrekken** voor uw **handelsklanten**.
 
 ![](../../assets/Churn_rate_image.png)
 
-Veel klanten willen hulp bij het conceptualiseren van wat **tijdframe** zij moeten op basis van hun gegevens gebruiken . Als u historisch klantengedrag wilt gebruiken om dit te bepalen **churn timeframe**, kan het zijn dat u zich vertrouwd wilt maken met de [churn definiëren](../analysis/define-cust-churn.md) artikel. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
+Veel klanten willen hulp bij het conceptualiseren van wat **tijdframe** zij moeten op basis van hun gegevens gebruiken . Als u historisch klantengedrag wilt gebruiken om dit te bepalen **churn timeframe**, kan het zijn dat u zich vertrouwd wilt maken met de [churn definiëren](../analysis/define-cust-churn.md) onderwerp. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
 
 ## Berekende kolommen
 
@@ -55,9 +55,9 @@ Te maken kolommen
 * **Nieuwe klanten (op laatste besteldatum)**
    * Klanten die worden geteld
 
->[!NOTE]
->
->Deze maatstaf kan op uw account bestaan.
+   >[!NOTE]
+   >
+   >Deze maatstaf kan op uw account bestaan.
 
 * In de **`customer_entity`** table
 * Deze maatstaf voert een **Aantal**

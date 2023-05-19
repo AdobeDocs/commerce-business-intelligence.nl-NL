@@ -2,9 +2,9 @@
 title: Audit Zendesk-gegevens
 description: Leer de stappen voor het exporteren van uw Zendesk-gegevens.
 exl-id: 3c8dcc72-3623-4c4e-a941-f431a97571e0
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Iets vreemds gevonden in je [[!DNL Zendesk] data](../integrations/exp-zendesk-da
 
 ## Gegevens exporteren inschakelen
 
-Het exporteren van gegevens is momenteel niet voor alle toepassingen ingeschakeld [!DNL Zendesk] rekeningen. U activeert deze functie als volgt: [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en), met vermelding van uw [!DNL Zendesk] subdomeinnaam.
+Het exporteren van gegevens is momenteel niet voor alle toepassingen ingeschakeld [!DNL Zendesk] rekeningen. U activeert deze functie als volgt: [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html), met vermelding van uw [!DNL Zendesk] subdomeinnaam.
 
 >[!NOTE]
 >
@@ -36,6 +36,6 @@ Nadat het exporteren van gegevens is ingeschakeld, kunnen alleen beheerders in e
 
    Deze downloadkoppeling is ten minste drie dagen geldig.
 
-Tijdens dit proces wordt een XML-bestand gemaakt dat alle informatie bevat die in de huidige [!DNL Zendesk] -account, inclusief kaartgegevens (met opmerkingen), gebruikersgegevens en accountgegevens. U kunt nu [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) (zorg dat u dit bestand bijvoegt!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het met de [!DNL MBI] team via [!DNL Dropbox] of [!DNL Google Drive].
+Tijdens dit proces wordt een XML-bestand gemaakt dat alle informatie bevat die in de huidige [!DNL Zendesk] -account, inclusief kaartgegevens (met opmerkingen), gebruikersgegevens en accountgegevens. U kunt nu [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (zorg dat u dit bestand bijvoegt!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het met de [!DNL Commerce Intelligence] team via [!DNL Dropbox] of [!DNL Google Drive].
 
 Meer informatie over [!DNL Zendesk] bestand export, raadpleeg de officiële [[!DNL Zendesk] exportdocumentatie](https://support.zendesk.com/hc/en-us/articles/4408886165402-Exporting-data-to-a-JSON-CSV-or-XML-file).

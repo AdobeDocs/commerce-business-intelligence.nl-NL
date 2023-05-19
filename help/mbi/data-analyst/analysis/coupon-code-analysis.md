@@ -2,16 +2,16 @@
 title: Coupon-prestaties
 description: Meer informatie over het analyseren van de prestaties van je coupon.
 exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
 
 # Geavanceerde puntcodeanalyse
 
-Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en uw klanten beter te begrijpen. Dit artikel begeleidt u door de stappen om analyses te maken om te begrijpen welke klanten u aanschaft door gebruik te maken van coupons, hoe ze het algemene gebruik van coupons uitvoeren en volgen.
+Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en uw klanten beter te begrijpen. Dit onderwerp begeleidt u door de stappen om analyses tot stand te brengen om te begrijpen welke klanten u door coupons te gebruiken verkrijgt, hoe zij uitvoeren en algemeen coupongebruik volgen.
 
 ![](../../assets/coupon_analysis_-_analysis_library.png)<!--{: width="800" height="375"}-->
 
@@ -19,7 +19,7 @@ Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-ca
 
 ## Aan de slag
 
-Als eerste stap, moet u ervoor zorgen dat de volgende kolommen aan uw Data Warehouse worden gesynchroniseerd. Als dat niet het geval is, gaat u verder en volgt u deze door naar &quot;Gegevens beheren&quot; > &quot;Data Warehouse&quot; te navigeren en het volgende te synchroniseren:
+Als eerste stap, moet u ervoor zorgen dat de volgende kolommen aan uw Data Warehouse worden gesynchroniseerd. Als dat niet zo is, ga dan door en ga naar `Manage Data` > `Data Warehouse`en het volgende synchroniseren:
 
 * **sales\_flat\_order** table
 * **coupon\_code**
@@ -519,4 +519,4 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
-Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

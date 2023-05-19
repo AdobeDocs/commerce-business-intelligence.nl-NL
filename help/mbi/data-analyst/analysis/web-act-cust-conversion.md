@@ -2,22 +2,22 @@
 title: De activiteiten van de Website en de Conversietarieven van de Klant analyseren
 description: Leer hoe u een dashboard instelt waarmee uw websiteactiviteit (inclusief paginaweergaven, sessies en gebruikers) en de conversiesnelheid van uw klant in de loop van de tijd worden bijgehouden.
 exl-id: 2b57d5b3-3bbf-4ec9-86a6-9fa850c1c459
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
 
 # Website-activiteit analyseren
 
-[!DNL MBI] kunt u uw gegevens over de advertentiekosten eenvoudig integreren met de rest van uw gegevens. Hierdoor kunt u niet alleen de activiteiten van uw website begrijpen, maar kunt u ook het percentage bezoekers op uw website afleiden dat een geregistreerde gebruiker wordt of een aankoop doet.
+[!DNL Adobe Commerce Intelligence] kunt u uw gegevens over de advertentiekosten eenvoudig integreren met de rest van uw gegevens. Hierdoor kunt u niet alleen de activiteiten van uw website begrijpen, maar kunt u ook het percentage bezoekers op uw website afleiden dat een geregistreerde gebruiker wordt of een aankoop doet.
 
-Dit artikel laat zien hoe u een dashboard instelt waarmee uw websiteactiviteit (inclusief paginaweergaven, sessies en gebruikers) en de conversiesnelheid van uw klant in de loop van de tijd worden bijgehouden.
+In dit onderwerp ziet u hoe u een dashboard instelt waarmee uw websiteactiviteit (inclusief paginaweergaven, sessies en gebruikers) en de conversiesnelheid van uw klant in de loop van de tijd worden bijgehouden.
 
 ## Vereisten
 
-**Je gegevens over advertentiekosten importeren** - Verbinden [!DNL [Google AdWords]](../importing-data/integrations/google-adwords.md) tot [!DNL MBI] - hiermee worden uw [!DNL AdWords] uitgaven in MBI.
+**Je gegevens over advertentiekosten importeren** - Verbinden [!DNL [Google AdWords]](../importing-data/integrations/google-adwords.md) tot [!DNL Adobe Commerce Intelligence] - hiermee worden uw [!DNL AdWords] uitgaven in de Commerce Intelligence.
 
 **Kanaalgegevens van verwervingskanalen bijhouden** - Als u uw [!DNL Google AdWords] gegevens aan specifieke orden in uw gegevensbestand, moet u [traceringsgebruikersovername](../analysis/google-track-user-acq.md) via [!DNL Google Analytics E-commerce]. Hierdoor kunt u elke bestelling verbinden met een utm-bron en een medium.
 
@@ -103,4 +103,4 @@ Deze inzameling van rapporten wordt gebouwd gebruikend het volgende:
 
 Nu u toegang tot gegevens over uw Webverkeer en omzettingspercentages hebt, kunt u beginnen om dit te ontginnen om bedrijfsbesluiten, zoals te drijven welke plaatsen het best in het besturen van verkeer aan uw plaats zijn? of Welke van uw campagnes zijn het meest effectief in het verwerven van klanten met de hoge levenwaarde?
 
-Als u de strategie voor uitgaven en marketing aanpast, kunt u de resultaten blijven bijhouden in [!DNL MBI], herhalend op dit dashboard om aan de evoluerende prioriteiten van uw bedrijf te voldoen.
+Als u de strategie voor uitgaven en marketing aanpast, kunt u de resultaten blijven bijhouden in [!DNL Commerce Intelligence], herhalend op dit dashboard om aan de evoluerende prioriteiten van uw bedrijf te voldoen.

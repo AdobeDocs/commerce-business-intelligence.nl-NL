@@ -2,9 +2,9 @@
 title: Connect Facebook-advertenties
 description: Leer hoe u uw advertentie kunt analyseren en kunt zien of uw geld effectief wordt besteed.
 exl-id: 219a868b-f17c-4299-9e29-94db9156c9b6
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -15,30 +15,30 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/Facebook_Logo.png)
+![](../../../assets/facebook-ads-logo.png)
 
 Je hebt je onderzoek gedaan, je hebt je advertenties gemaakt, je hebt je campagne gestart op [!DNL Facebook]. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Met behulp van uw advertentiefoutgegevens kunt u [maatregel campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) te vergelijken](../../../data-analyst/analysis/roi-ad-camp.md) van gebruikers die zijn aangeschaft via uw campagnes.
 
-Facebook en gegevens verbinden met [!DNL MBI] is een eenvoudig proces in drie stappen:
+Uw [!DNL Facebook Ad] gegevens naar [!DNL Commerce Intelligence] is een eenvoudig proces in drie stappen:
 
-1. [Toevoegen [!DNL Facebook] als gegevensbron in [!DNL MBI]](#stepone)
-1. [Toestaan [!DNL MBI] toegang tot uw [!DNL Facebook Ads] data](#steptwo)
+1. [Toevoegen [!DNL Facebook] als gegevensbron in [!DNL Commerce Intelligence]](#stepone)
+1. [Toestaan [!DNL Commerce Intelligence] toegang tot uw [!DNL Facebook Ads] data](#steptwo)
 1. [Selecteren [!DNL Facebook Ads] Rekeningen voor het aantrekken van gegevens](#stepthree)
 
-## Toevoegen [!DNL Facebook] als gegevensbron in [!DNL MBI] {#stepone}
+## Toevoegen [!DNL Facebook] als gegevensbron in [!DNL Commerce Intelligence] {#stepone}
 
-1. Als u de opdracht [!DNL Facebook] kunt u integreren in uw account, naar het `Connections` pagina onder **[!UICONTROL Manage Data** > **Integrations]**.
-1. Klikken **[!UICONTROL Add Integration]**, die zich aan de rechterkant van het scherm boven de gegevens bevindt `Sources` tabel.
+1. Als u de opdracht [!DNL Facebook] integratie met uw [!DNL Commerce Intelligence]account, naar de `Connections` pagina onder **[!UICONTROL Manage Data** > **Integrations]**.
+1. Klikken **[!UICONTROL Add Integration]**, rechts.
 1. Klik op de knop [!DNL Facebook] pictogram. Hierdoor wordt het dialoogvenster [!DNL Facebook] machtigingspagina.
 1. Klikken **[!UICONTROL Authorize]**.
 
-## Toestaan [!DNL MBI] toegang tot uw [!DNL Facebook Ads] data {#steptwo}
+## Toestaan [!DNL Commerce Intelligence] toegang tot uw [!DNL Facebook Ads] data {#steptwo}
 
 Na klikken **[!DNL Facebook Authorize]**, wordt een klein pop-upvenster weergegeven:
 
 ![](../../../assets/Facebook_Access_Popup.png)
 
-U voert een reeks stappen uit om [!DNL MBI] toegang te krijgen tot gegevens uit uw openbaar profiel, [!DNL Facebook Ads] en, verwante staten. Klikken **[!UICONTROL OK]** over deze stappen om door te gaan.
+U voert een reeks stappen uit om [!DNL Commerce Intelligence] toegang te krijgen tot gegevens uit uw openbaar profiel, [!DNL Facebook Ads] en, verwante staten. Klikken **[!UICONTROL OK]** over deze stappen om door te gaan.
 
 ## Selecteren [!DNL Facebook Ads] Rekeningen voor het aantrekken van gegevens {#stepthree}
 
@@ -56,7 +56,7 @@ Zorg ervoor dat u bijhoudt [!DNL Facebook] campagnes in [!DNL Google Analytics].
 
 ## Verwante
 
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Verbind uw [!DNL Google Adwords] account](../integrations/google-ecommerce.md)
 * [Referentiebron voor bestelling volgen via [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)

@@ -2,16 +2,16 @@
 title: Teruggestuurde bestellingen analyseren
 description: Leer hoe u een dashboard instelt met een gedetailleerde analyse van de geretourneerde bedragen van uw winkel.
 exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
 
 # Teruggestuurde bestellingen
 
-In dit artikel, leer hoe te opstelling een dashboard dat een gedetailleerde analyse van de terugkeer van uw opslag verstrekt.
+Dit onderwerp toont aan hoe te opstelling een dashboard dat een gedetailleerde analyse van de terugkeer van uw opslag verstrekt.
 
 ![](../../assets/detailed-returns-dboard.png)
 
@@ -248,4 +248,4 @@ Te maken kolommen
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 
-Als u op om het even welke vragen terwijl het bouwen van deze analyse loopt of het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen terwijl het bouwen van deze analyse loopt of het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

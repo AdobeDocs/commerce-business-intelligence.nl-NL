@@ -2,9 +2,9 @@
 title: Data Warehouse Manager
 description: Leer hoe te om lijst en kolomsync montages te beheren, boor neer in het schema van een lijst, en creeer berekende kolommen in rapporten te gebruiken.
 exl-id: b9577919-0db0-47f1-a426-1abe48443ac0
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: c4094e780f83255846520d18f4d0806b1dd9a9ef
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md)
 
-De Manager van de Data Warehouse, die door te klikken wordt betreden **[!UICONTROL Manage Data > Data Warehouse]** in de zijbalk is dit het portaal naar uw [!DNL MBI] Data Warehouse. Gebruikend de Manager van de Data Warehouse, kunt u lijst en kolomsync montages beheren, neer in het schema van een lijst boren, en berekende kolommen tot stand brengen in rapporten te gebruiken.
+De Manager van de Data Warehouse, die door te klikken wordt betreden **[!UICONTROL Manage Data > Data Warehouse]**, is het portaal voor uw [!DNL Adobe Commerce Intelligence] Data Warehouse. Gebruikend de Manager van de Data Warehouse, kunt u lijst en kolomsync montages beheren, neer in het schema van een lijst boren, en berekende kolommen tot stand brengen in rapporten te gebruiken.
 
-Dit artikel heeft betrekking op:
+Dit onderwerp omvat:
 
 * [Leer je weg](#learning)
 * [Tabellen en kolommen synchroniseren](#syncing)
@@ -39,7 +39,7 @@ De `Synced Tables` toont alle lijsten die reeds aan uw Data Warehouse zijn toege
 Zie de tabel die u zoekt niet in het dialoogvenster `All Tables` lijst? Hiervoor zijn enkele redenen te vinden:
 
 * De gegevensbron is nog niet toegevoegd
-* De gegevensbron is een database en de [!DNL MBI] de gebruiker die u hebt gemaakt, heeft geen toegang. In dit geval moet u of uw databasebeheerder toegang verlenen.
+* De gegevensbron is een database en de [!DNL Commerce Intelligence] de gebruiker die u hebt gemaakt, heeft geen toegang. In dit geval moet u of uw databasebeheerder toegang verlenen.
 * De gegevensbron of tabel is onlangs toegevoegd en nog niet gesynchroniseerd
 
 ## Tabellen en kolommen synchroniseren {#syncing}
@@ -61,7 +61,7 @@ De Manager van de Data Warehouse geeft u niet alleen de capaciteit om uw gegeven
    Als u een tabel synchroniseert die rechtstreeks afkomstig is uit uw database, is het mogelijk dat `Primary Keys` mag niet worden aangegeven. In dit geval neemt u contact op met de databasebeheerder om te vragen of een primaire sleutel of sleutels aan de tabel moet worden toegevoegd.
 1. Als u klaar bent, klikt u op de knop ![knop](../../assets/button.png) knop.
 
-A *Succes!* wordt weergegeven en verandert de status in `Pending` voor de geselecteerde kolommen. Nadat de volgende volledige update is voltooid, zijn de nieuw gesynchroniseerde tabellen en kolommen beschikbaar voor gebruik in rapporten; u kunt ook nieuwe [replicatiemethoden](./cfg-replication-methods.md) na de eerste synchronisatie.
+A *Succes!* berichtweergaven en de status verandert in `Pending` voor de geselecteerde kolommen. Nadat de volgende volledige update is voltooid, zijn de nieuw gesynchroniseerde tabellen en kolommen beschikbaar voor gebruik in rapporten. U kunt ook nieuwe [replicatiemethoden](./cfg-replication-methods.md) na de eerste synchronisatie.
 
 Hieronder volgt een kort overzicht van het hele proces:
 
@@ -119,6 +119,6 @@ Wanneer u klaar bent om uw nieuwe kolommen in rapporten te gebruiken, [u moet ze
 
 ## Omloop
 
-Deze zelfstudie bedekte veel materiaal. Ondertussen, zou u een stevig inzicht in wat een gegevensbestand is, hoe de gegevens worden georganiseerd, hoe de lijsten met elkaar betrekking hebben, en wat u met de Manager van de Data Warehouse kunt doen.
+Dit artikel bedekte veel materiaal. Ondertussen, zou u een stevig inzicht in wat een gegevensbestand is, hoe de gegevens worden georganiseerd, hoe de lijsten met elkaar betrekking hebben, en wat u met de Manager van de Data Warehouse kunt doen.
 
-Uitstekend! Test uw nieuwe kennis door [een berekende kolom maken](../data-warehouse-mgr/creating-calculated-columns.md) of [interessante verslagen](../../tutorials/using-visual-report-builder.md).
+Test uw kennis door [een berekende kolom maken](../data-warehouse-mgr/creating-calculated-columns.md) of [interessante verslagen](../../tutorials/using-visual-report-builder.md).

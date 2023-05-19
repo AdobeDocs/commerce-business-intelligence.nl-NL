@@ -2,9 +2,9 @@
 title: Gegevens en updates
 description: Leer hoe u de status van uw updatecyclus kunt controleren.
 exl-id: a4a2e487-b826-4888-baf0-9d246a8ff153
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## Waarom zijn mijn gegevens gewijzigd? {#datachange}
 
-De waarden van de grafiek kunnen door de dag veranderen toe te schrijven aan nieuwe gegevens die aan uw Data Warehouse worden gesynchroniseerd. Ook kunnen waarden voor bestaande gegevenskolommen veranderen als gevolg van [hercontroles](../data-warehouse-mgr/cfg-data-rechecks.md). Een nieuwe controle is een proces dat zoekt naar gewijzigde waarden in gegevenskolommen, bijvoorbeeld een orderstatus die overgaat van `open` tot `shipped`.
+De waarden van de grafiek kunnen door de dag veranderen toe te schrijven aan nieuwe gegevens die aan uw Data Warehouse worden gesynchroniseerd. Ook kunnen waarden voor bestaande gegevenskolommen veranderen als gevolg van [hercontroles](../data-warehouse-mgr/cfg-data-rechecks.md). Een nieuwe controle is een proces dat op veranderde waarden in gegevenskolommen zoals een ordestatus zoekt die zich van `open` tot `shipped`.
 
-Er zijn een paar verschillende manieren [om de status van uw updatecyclus te controleren](../../best-practices/check-update-cycle.md), afhankelijk van het type gebruikersmachtigingen dat u hebt.
+Er zijn een paar verschillende manieren [om de status van uw updatecyclus te controleren](../../best-practices/check-update-cycle.md), afhankelijk van de machtigingsinstellingen van de gebruiker.
 
 ## Wat is het verschil tussen een regelmatige en gedwongen update? {#regularforcedupdates}
 
-Normale updates zijn **gepland** processen terwijl geforceerde updates **handmatige processen die door u zijn gestart**. Als u brainstormuren hebt - of een periode waarin [!DNL MBI] moet uw gegevens niet bijwerken - door een update te forceren wordt een cyclus gestart die niet voldoet aan de beperkingen van de black-out periode.
+Normale updates zijn **gepland** processen terwijl geforceerde updates **handmatige processen die door u zijn gestart**. Als u brainstormuren hebt (of een periode waarin [!DNL Commerce Intelligence] moet uw gegevens niet bijwerken), door een update te forceren wordt een cyclus gestart die niet voldoet aan de beperkingen van de uitvalperiode.
 
 ## Waarom duurt de updatecyclus lang? {#updatecycletime}
 
@@ -38,8 +38,8 @@ Als er een update wordt uitgevoerd, staat er een koppeling op het tabblad `Conne
 
 ## Waarom[!DNL Google ECommerce]andere gegevens dan mijn database? {#ecommdatabase}
 
-Verschillen tussen [!DNL Google Analytics] en uw database kan om verschillende redenen ontstaan. Het volgen wordt niet correct toegelaten, gebruikers die incognito bezoeken, en gebeurtenissen klikken die niet correct werken zijn slechts een paar voorbeelden. Als uw inkomsten en bestellingen er niet goed uitzien, [dit artikel gebruiken](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=en) om het probleem te diagnostiseren.
+Verschillen tussen [!DNL Google Analytics] en uw database kan om verschillende redenen ontstaan. Het volgen wordt niet correct toegelaten, gebruikers die incognito bezoeken, en gebeurtenissen klikken die niet correct werken zijn slechts een paar voorbeelden. Als uw inkomsten en bestellingen er niet goed uitzien, [zie dit onderwerp](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) om een probleem te diagnostiseren.
 
 ## Hoe los ik een gegevensdiscrepantie problemen op? {#datadiscrepancy}
 
-Adobe weet dat het zien van inconsistente gegevens een frustrerende ervaring kan zijn. Probeer de [Controlelijst voor gegevensdiscrepantie](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.html?lang=en) of [Zelfstudie voor gegevensuitvoer](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=en) om het probleem te diagnostiseren. Als u nog steeds vastzit, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Adobe weet dat het zien van inconsistente gegevens een frustrerende ervaring kan zijn. Probeer de [Controlelijst voor gegevensdiscrepantie](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.html) of [Zelfstudie voor gegevensuitvoer](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html) om het probleem te diagnostiseren. Als u nog steeds vastzit, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

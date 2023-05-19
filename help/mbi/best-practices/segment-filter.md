@@ -2,9 +2,9 @@
 title: Aanbevolen Dimension van Gegevens voor Segmentatie en Filtreren
 description: Leer over beste praktijken voor segmentatie en het filtreren.
 exl-id: 66391bce-bdeb-4e9d-8089-1c796e00d91e
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Goede segmentatie is wat een oppervlakkige statistiek omzet in een zakelijke maa
 
 Wilt u weten wie uw meest waardevolle klanten zijn? Wat zijn uw meest waardevolle marketingkanalen? Welke producten bewegen sneller en waarom? Om aan om het even welk van deze antwoorden te krijgen, moet u beginnen door uw gegevens te segmenteren.
 
-Dit artikel behandelt kritieke segmenten die vaak aan klanten worden geadviseerd. Het gaat ook in detail op welke vragen die deze segmenten u kunnen helpen beantwoorden. Technisch, zijn de segmenten gegevenskolommen in uw gegevensbestand. In [!DNL MBI]worden de afmetingen genoemd.
+Dit onderwerp behandelt kritieke segmenten die vaak aan klanten worden geadviseerd. Het gaat ook in detail op welke vragen die deze segmenten u kunnen helpen beantwoorden. Technisch, zijn de segmenten gegevenskolommen in uw gegevensbestand. In [!DNL Adobe Commerce Intelligence]worden de afmetingen genoemd.
 
 ![](../../mbi/assets/mbi-critical-segments.png)
 
@@ -28,7 +28,7 @@ Gebruikerssegmenten helpen u te begrijpen wie uw gebruikers zijn en hoe zij zich
 * **Geslacht**: Doen verschillende geslachten zich anders met uw website?
 * **Adres**: Waar komen uw gebruikers vandaan? Moet u uw marketinginspanningen richten op een bepaalde regio? Hebben uw recente reclamecampagnes zoals verwacht in uw doelregio&#39;s uitgevoerd?
 * **Aankoopbron voor klanten**\: Weet u uit welk marketingkanaal uw gebruikers afkomstig zijn? Hebben ze op een advertentie geklikt of via zoekactie naar je gezocht? [Gegevens segmenteren op basis van de aankoopbron van de gebruiker](../data-analyst/analysis/google-track-user-acq.md) is de eerste stap in het optimaliseren van uw nieuwe klantenaanschaf. Stap twee is meer geld uit te geven in wat werkt en wat niet werkt te doden.
-* **Registratieapparaat**: Hebben gebruikers zich geregistreerd via uw mobiele app of uw website? iOS of Android™? Is uw mobiele gebruikersbasis groot genoeg om meer bronnen toe te wijzen voor de ontwikkeling van uw mobiele product? (Als u dit nog niet volgt, zie dit onderwerp [informatie over het bijhouden van gebruikersapparaten](../data-analyst/analysis/track-usr-dev-browser.md).
+* **Registratieapparaat**: Hebben gebruikers zich geregistreerd via uw mobiele app of uw website? iOS of Android™? Is uw mobiele gebruikersbasis groot genoeg om meer bronnen toe te wijzen voor de ontwikkeling van uw mobiele product? Als u dit nog niet volgt, zie dit onderwerp [informatie over het bijhouden van gebruikersapparaten](../data-analyst/analysis/track-usr-dev-browser.md).
 * **Bedoeld door**: Wie zijn uw belangrijkste beïnvloedende krachten? Hoeveel gebruikers werden rechtstreeks door anderen doorverwezen?
 * **Industrie**: Als u een B2B-bedrijf bent, in welke industrieën werken uw gebruikers? Welke handelsorganisaties zijn de moeite waard om zich bij te sluiten?
 * **Antwoorden van enquêtes**: Als u klantenonderzoeken uitvoert, gebruik de reacties als segmenten voor een dieper niveau van het profileren. U kunt vragen stellen die een aanvulling vormen op wat u al weet over uw gebruikers of uw instructies bevestigen.
@@ -63,13 +63,13 @@ Als je geïnteresseerd bent in winkelen, kun je het uitchecken [hoe te om produc
 
 De deskundigen van de segmentatie kunnen zich voorbij eendimensionele plakken willen bewegen en beginnen het vestigen van echte klantenprofielen. Mensen tussen 13 en 24 jaar die zich bijvoorbeeld via een mobiel apparaat hebben geregistreerd, worden in een groep &quot;Jong en mobiel&quot; geplaatst. Hoe verhoudt het gedrag van deze groep zich tot de rest van uw gebruikersbasis?
 
-Dit soort analyse doen marketeers van Fortune 1000 bedrijven de hele dag. Voor de komst van op de cloud gebaseerde business intelligence-platforms, zoals [!DNL MBI]Maar het was voor de rest van ons grotendeels onbereikbaar. Gelukkig is dat niet langer het geval.
+Dit soort analyse doen marketeers van Fortune 1000 bedrijven de hele dag. Voor de komst van op de cloud gebaseerde business intelligence-platforms, zoals [!DNL Commerce Intelligence]Maar het was voor de rest van ons grotendeels onbereikbaar. Gelukkig is dat niet langer het geval.
 
 ## Nieuwe segmenten bijhouden
 
 De eerste stap om uw metriek door de bovengenoemde afmetingen te segmenteren is ervoor te zorgen dat u deze gegevens in uw gegevensbestand volgt. Als de gegevens niet worden bijgehouden, neemt u contact op met uw technische team en zoekt u een manier om deze gegevens te volgen.
 
-Nadat u hebt bevestigd dat de gegevens in uw database worden bijgehouden, [contact opnemen met het ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om de afmetingen naar uw [!DNL MBI] cijfers en grafieken. U kunt ook de opdracht *Veldbeheer* om deze velden bij te houden in [!DNL MBI].
+Nadat u hebt bevestigd dat de gegevens in uw database worden bijgehouden, [contact opnemen met het ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de afmetingen naar uw [!DNL Commerce Intelligence] cijfers en grafieken. U kunt ook de opdracht *Veldbeheer* om deze velden bij te houden in [!DNL Commerce Intelligence].
 
 ## Verwante
 

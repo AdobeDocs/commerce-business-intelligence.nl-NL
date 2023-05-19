@@ -1,17 +1,17 @@
 ---
 title: Lifetime inkomstencohortanalyse
-description: Ontdek de kracht van [!DNL MBI] cohortanalyse.
+description: De kracht van de Commerce Intelligence-cohortanalyse onderzoeken.
 exl-id: f2b55745-d364-4ba6-9857-ce9cee05c3ae
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
 
-# `Lifetime Revenue Cohort` Analyse
+# [!DNL Lifetime Revenue Cohort] Analyse
 
-U kunt uw gegevens op verschillende manieren bekijken in [!DNL MBI]En u weet dat interpretatie en begrip net zo belangrijk zijn als berekening en visualisatie. In dit artikel wordt de kracht van [!DNL MBI] `cohort` analyse.
+U kunt uw gegevens op verschillende manieren bekijken in [!DNL Adobe Commerce Intelligence]En u weet dat interpretatie en begrip net zo belangrijk zijn als berekening en visualisatie. Dit onderwerp verkent de kracht van [!DNL Commerce Intelligence] `cohort` analyse.
 
 ## Wat doet `lifetime revenue cohort` betekenis van analyse?
 

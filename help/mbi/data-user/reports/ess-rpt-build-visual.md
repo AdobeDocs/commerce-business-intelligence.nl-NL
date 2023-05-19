@@ -2,24 +2,24 @@
 title: Visual Report Builder
 description: Leer hoe te om Visual Report Builder te gebruiken.
 exl-id: 1101f43d-e014-4df2-be21-12d90a9d8a56
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
 
 ---
 
-# `Visual Report Builder`
+# [!DNL Visual Report Builder]
 
-`Visual Report Builder` maakt het gemakkelijk om snelle rapporten tot stand te brengen die op vooraf bepaalde metriek worden gebaseerd. Elke metrisch omvat een vraag die de reeks gegevens voor het rapport bepaalt.
+[!DNL Visual Report Builder] maakt het gemakkelijk om snelle rapporten tot stand te brengen die op vooraf bepaalde metriek worden gebaseerd. Elke metrisch omvat een vraag die de reeks gegevens voor het rapport bepaalt.
 
 Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brengen, groepeert de gegevens door een extra afmeting, plaatst het datum en tijdinterval, verandert het grafiektype, en bewaart het rapport aan een dashboard.
 
 ## Een eenvoudig rapport maken:
 
-1. In de [!DNL MBI] menu, klikt u op **[!UICONTROL Report Builder]**.
+1. In de [!DNL Commerce Intelligence] menu, klikt u op **[!UICONTROL Report Builder]**.
 
-1. Onder `Visual Report Builder`, klikt u op **[!UICONTROL Create Report]** en voer de volgende handelingen uit:
+1. Onder [!UICONTROL Visual Report Builder], klikt u op **[!UICONTROL Create Report]** en voer de volgende handelingen uit:
 
    * Klikken **[!UICONTROL Add Metric]**.
 

@@ -2,18 +2,18 @@
 title: Visualisaties maken van SQL-query's
 description: Leer om u met de terminologie vertrouwd te maken die in SQL Report Builder wordt gebruikt en u een stevige stichting te geven voor het creëren van SQL visualisaties.
 exl-id: 9b9bc205-5b64-4e64-8d23-057072e5dd72
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
 
 # Visualisaties maken van SQL-query&#39;s
 
-Het doel van deze zelfstudie is om u vertrouwd te maken met de terminologie die wordt gebruikt in het dialoogvenster `SQL Report Builder` en u een solide basis geven voor het maken van `SQL visualizations`.
+Het doel van deze zelfstudie is om u vertrouwd te maken met de terminologie die wordt gebruikt in het dialoogvenster [!DNL SQL Report Builder] en u een solide basis geven voor het maken van `SQL visualizations`.
 
-De [`SQL Report Builder`](../data-analyst/dev-reports/sql-rpt-bldr.md) is een rapportbouwer met opties: u kunt een vraag voor het enige doel in werking stellen om een lijst van gegevens terug te winnen, of u kunt die resultaten in een rapport veranderen. In deze zelfstudie wordt uitgelegd hoe u een visualisatie maakt op basis van een SQL-query.
+De [[!DNL SQL Report Builder]](../data-analyst/dev-reports/sql-rpt-bldr.md) is een rapportbouwer met opties: u kunt een vraag voor het enige doel in werking stellen om een lijst van gegevens terug te winnen, of u kunt die resultaten in een rapport veranderen. In deze zelfstudie wordt uitgelegd hoe u een visualisatie maakt op basis van een SQL-query.
 
 ## Terminologie
 
@@ -33,13 +33,13 @@ Voordat u met deze zelfstudie begint, raadpleegt u de volgende terminologie die 
 
 Houd rekening met het volgende:
 
-- De `SQL Report Builder` gebruik [`Redshift SQL`](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
+- De [!DNL SQL Report Builder] gebruik [`Redshift SQL`](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
 
 - Als u een rapport met een tijdreeks maakt, moet u `ORDER BY` de tijdstempelkolom(men). Dit zorgt ervoor dat de tijdstempels in de juiste volgorde in het rapport worden uitgezet.
 
 - De `EXTRACT` Deze functie is handig voor het parseren van de dag, week, maand of het jaar van de tijdstempel. Dit is handig wanneer de `time interval` u wilt gebruiken voor het rapport: `daily`, `weekly`, `monthly`, of `yearly`.
 
-Om te beginnen, open omhoog `SQL Report Builder` door te klikken **[!UICONTROL Report Builder** > **SQL Report Builder]**.
+Om te beginnen, open omhoog [!DNL SQL Report Builder] door te klikken **[!UICONTROL Report Builder** > **SQL Report Builder]**.
 
 Neem bijvoorbeeld deze query in overweging die het maandelijkse totale aantal verkochte items voor elk product retourneert:
 
@@ -94,6 +94,6 @@ Als u dit rapport opnieuw wilt gebruiken, geeft u het rapport een naam en klikt 
 
 Selecteer in het vervolgkeuzemenu de optie `Chart` als de `Type` en dan een dashboard om het rapport aan te slaan.
 
-## Gefeliciteerd! Je bent klaar.
+## Omloop omhoog
 
 Wilt u een stap verder gaan? Kijk uit de [best practices voor queryoptimalisatie](../best-practices/optimizing-your-sql-queries.md).

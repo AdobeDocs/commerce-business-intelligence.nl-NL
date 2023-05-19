@@ -2,18 +2,18 @@
 title: SQL-query's optimaliseren
 description: Leer hoe u SQL-query's optimaliseert.
 exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
 
 # SQL-query&#39;s optimaliseren
 
-Met de SQL-Report Builder kunt u op elk gewenst moment query&#39;s uitvoeren op deze query&#39;s. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
+De [!DNL SQL Report Builder] staat u toe om op die vragen op om het even welk bepaald ogenblik te vragen en te herhalen. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
 
-Voordat een query wordt uitgevoerd, [[!DNL MBI] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=en). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal teruggekeerde rijen MBI grenzen overschrijdt, ontbreekt de vraag. Voor het vragen van uw Data Warehouse, die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
+Voordat een query wordt uitgevoerd, [[!DNL Commerce Intelligence] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen groter is dan [!DNL Commerce Intelligence] limieten, mislukt de query. Voor het opvragen van uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md)Adobe raadt het volgende aan, zodat u de meest gestroomlijnde query&#39;s kunt schrijven.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 

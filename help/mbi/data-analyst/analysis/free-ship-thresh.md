@@ -2,9 +2,9 @@
 title: Gratis verzenddrempel
 description: Leer hoe u een dashboard instelt dat de prestaties van je gratis verzenddrempel bijhoudt.
 exl-id: a90ad89b-96d3-41f4-bfc4-f8c223957113
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit artikel bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bevindt zich op de nieuwe architectuur als de sectie &quot;Weergaven Data Warehouse&quot; beschikbaar is nadat u &quot;Gegevens beheren&quot; op de hoofdwerkbalk hebt geselecteerd.
+>Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bevindt zich op de nieuwe architectuur als u de `Data Warehouse Views` sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
 
-Dit artikel laat zien hoe u een dashboard instelt dat de prestaties van uw gratis verzenddrempel bijhoudt. Dit dashboard, dat hieronder wordt getoond, is een uitstekende manier aan test A/B twee vrije verschepingsdrempels. Je bedrijf weet bijvoorbeeld niet zeker of je gratis verzending moet aanbieden op $50 of $100. U zou een A/B test van twee willekeurige ondergroepen van uw klanten moeten uitvoeren, en de analyse uitvoeren in [!DNL MBI].
+In dit onderwerp ziet u hoe u een dashboard instelt dat de prestaties van uw gratis verzenddrempel bijhoudt. Dit dashboard, dat hieronder wordt getoond, is een uitstekende manier aan test A/B twee vrije verschepingsdrempels. Je bedrijf weet bijvoorbeeld niet zeker of je gratis verzending moet aanbieden op $50 of $100. U zou een A/B test van twee willekeurige ondergroepen van uw klanten moeten uitvoeren, en de analyse uitvoeren in [!DNL Commerce Intelligence].
 
 Voordat je aan de slag gaat, wil je twee verschillende tijdsperioden identificeren waarbij je verschillende waarden hebt voor de drempel voor gratis verzending in je winkel.
 

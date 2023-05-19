@@ -1,19 +1,19 @@
 ---
 title: Gemeenschappelijke handelstabellen
-description: Meer informatie over enkele van de meer algemene tabellen die [!DNL MBI] klanten gebruiken.
+description: Meer informatie over enkele van de meer algemene tabellen die [!DNL Commerce Intelligence] klanten gebruiken.
 exl-id: 8b316130-55c6-4771-ae6e-97ac605fc6cc
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Gemeenschappelijke handelstabellen
 
-Wanneer u eerst een instantie van de Handel verbindt met [[!DNL MBI]](../importing-data/integrations/magento.md), [!DNL MBI] herhaalt automatisch gegevens van sommige van uw handelstabellen (typisch 4-6 lijsten) om de aanvankelijke reeks dashboards en rapporten te vormen. Hoewel dit een groot uitgangspunt aanbiedt, produceren de meeste opslaginstanties tientallen als niet honderden extra lijsten die kritiek inzicht in de prestaties van uw zaken kunnen verstrekken.
+Wanneer u een [!DNL Adobe Commerce] instantie aan [[!DNL Adobe Commerce Intelligence]](../importing-data/integrations/magento.md), [!DNL Commerce Intelligence] herhaalt automatisch gegevens van sommige van uw handelstabellen (typisch 4-6 lijsten) om de aanvankelijke reeks dashboards en rapporten te vormen. Hoewel dit een groot uitgangspunt aanbiedt, produceren de meeste opslaginstanties tientallen als niet honderden extra lijsten die kritiek inzicht in de prestaties van uw zaken kunnen verstrekken.
 
-Hieronder vindt u een lijst met enkele van de meer algemene tabellen die [!DNL MBI] klanten gebruiken. Na u [Verbind uw instantie van de Handel met MBI](../../data-analyst/importing-data/integrations/magento.md)kunt u de [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden bij te houden.
+Hieronder vindt u een lijst met enkele van de meer algemene tabellen die [!DNL Commerce Intelligence] klanten gebruiken. Na u [Verbind uw instantie van de Handel met de Intelligentie van de Handel](../../data-analyst/importing-data/integrations/magento.md)kunt u de [Data Warehouse Manager](../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden bij te houden.
 
 | Tabelnaam | Beschrijving |
 |---|---|

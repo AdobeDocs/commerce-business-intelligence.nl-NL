@@ -2,20 +2,20 @@
 title: Connect Salesforce
 description: Leer hoe u met Salesforce-gegevens een reeks analyses kunt maken, van scoring tot optimalisatie, zodat u uw doelstellingen voor geconverteerde mogelijkheden kunt halen.
 exl-id: 249b2b40-8c8a-4616-9383-17690f07003d
-source-git-commit: fa954868177b79d703a601a55b9e549ec1bd425e
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
-# Connect Salesforce
+# Verbinden [!DNL Salesforce]
+
+![](../../../assets/Salesforce_Logo.png)
 
 >[!NOTE]
 >
 >Vereisten [Beheerdersmachtigingen](../../../administrator/user-management/user-management.md).
-
-![](../../../assets/Salesforce_Logo.png)
 
 Uw [!DNL Salesforce] Met gegevens beschikt u over een reeks analyses, variërend van scoring en optimalisatie, zodat u uw doelstellingen kunt halen voor geconverteerde mogelijkheden.
 
@@ -29,11 +29,9 @@ Uw [!DNL Salesforce] Met gegevens beschikt u over een reeks analyses, variërend
 1. Klikken **[!UICONTROL Connect to Salesforce]**.
 1. Voer uw [!DNL Salesforce] referenties en klik op **[!UICONTROL Login to Salesforce]**.
 
-Dat is het! Nadat uw geloofsbrieven worden bevestigd, [!DNL Salesforce] de installatie is voltooid.
-
 ## Verwante:
 
-Als je wat meer verstand hebt van technologie, dan [[!DNL Salesforce] API-documentatie](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) kan een nuttige bron zijn voor meer informatie over de integratie van Salesforce met [!DNL MBI].
+Als je wat meer verstand hebt van technologie, dan [[!DNL Salesforce] API-documentatie](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) kan een nuttige bron zijn voor meer informatie over de integratie van Salesforce met [!DNL Commerce Intelligence].
 
 * [Verwacht [!DNL Salesforce] data](../integrations/salesforce-data.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

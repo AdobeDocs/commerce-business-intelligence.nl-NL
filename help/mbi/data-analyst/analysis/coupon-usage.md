@@ -2,24 +2,22 @@
 title: Het gebruik van coupons analyseren
 description: Leer hoe u het gebruik van coupons kunt analyseren bij het aanschaffen en behouden van klanten.
 exl-id: d4d1393f-1695-43f2-980a-84525f84031e
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
 
 # Coupongebruik
 
-Vraag je je ooit af hoe het aanbieden van coupons je je bedrijf beïnvloedt? Wilt u weten welke coupons de prestaties helpen of schaden? In dit artikel worden analyses besproken die u een goed beeld geven van het gebruik van de coupon van uw klanten door de volgende vragen te beantwoorden:
+Vraag je je ooit af hoe het aanbieden van coupons je je bedrijf beïnvloedt? Wilt u weten welke coupons de prestaties helpen of schaden? In dit onderwerp worden analyses besproken die u een goed beeld geven van het gebruik van de coupon van uw klanten door de volgende vragen te beantwoorden:
 
 * Hoeveel klanten gebruiken coupons?
 * Hoeveel coupons worden gebruikt?
 * Wat zijn uw inkomsten voor en na het toepassen van coupons?
 * Wat is de gemiddelde orderwaarde voor en na het toepassen van coupons?
 * Welk soort klanten trekt u met coupons aan?
-
-Laten we beginnen!
 
 ## Aanbevolen meetwaarden {#metrics}
 
@@ -109,7 +107,7 @@ Voor gemiddelde levensinkomsten kunt u zien dat de gemiddelde levensinkomsten vo
 
 ## Wat kan ik nog meer analyseren? {#otheranalyses}
 
-De analyses die in dit artikel worden genoemd, kunnen u waardevolle inzichten geven in hoe uw klanten uw coupons gebruiken, maar er zijn vele andere analyses die u toestaan om wat dieper te graven.
+De analyses die in dit onderwerp worden genoemd kunnen u waardevolle inzicht in geven hoe uw klanten uw coupons gebruiken, maar er zijn vele andere analyses die u toestaan om een wat dieper te graven.
 
 **U kunt de acquisities van uw klanten aan de hand van coupons analyseren.**
 

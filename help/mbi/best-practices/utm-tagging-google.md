@@ -2,16 +2,16 @@
 title: UTM-tracking in Google Analytics
 description: Meer informatie over de beste praktijken voor het bijhouden van UTM-codes (tagging) in Google Analytics.
 exl-id: 70bfd855-3b3f-469b-99bc-deb8251904b7
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
 # UTM-tracking
 
-`UTM` het volgen is een etiketteringsovereenkomst voor URLs die u laten analyseren waar uw gebruikers komen van. Als u de URL&#39;s bekijkt waarop u klikt in de meeste marketingadvertenties in e-mail- of banneradvertenties, ziet u UTM-codering. Het zijn die lange verbindingen die eindigen met dingen als `utm\_source` en `utm\_medium`.
+`UTM` het volgen is een etiketteringsovereenkomst voor URLs die u toelaat om te analyseren waar uw gebruikers komen van. Als u de URL&#39;s bekijkt waarop u klikt in de meeste marketingadvertenties in e-mail- of banneradvertenties, ziet u UTM-codering. Het zijn die lange verbindingen die eindigen met dingen als `utm\_source` en `utm\_medium`.
 
 [!DNL Google Analytics] gebruik `UTM` labelen om te weten waar uw verkeer vandaan komt. Een deel van deze informatie is afkomstig uit de [HTTP-referentie](https://en.wikipedia.org/wiki/HTTP_referer) maar de rest moet je zelf bevoorraden `UTM` parameters. Wanneer u ziet `google adwords` of `email marketing`, betekent het `UTM` De parameters die van de originele verbinding worden geregistreerd klikken en dan opgeslagen in de koekjes van gebruikers. Van daaruit, [!DNL Google Analytics] gebruikt die gegevens aan [interessant gedrag voor kenmerken](../data-analyst/analysis/google-track-user-acq.md) op uw site. Als u begrijpt wat die parameters zijn, kunt u beter begrijpen hoe u UTM-tags het beste kunt instellen en gebruiken.
 

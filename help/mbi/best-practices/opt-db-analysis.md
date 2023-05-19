@@ -2,16 +2,16 @@
 title: Uw database optimaliseren voor analyse
 description: Leer hoe u uw database kunt optimaliseren voor analyse.
 exl-id: e73e1a1e-c933-476d-97bc-bd8f52bb2fa1
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
 # Uw database optimaliseren
 
-Het belangrijkste voordeel van het gebruiken van een operationeel gegevensbestand voor bedrijfsintelligentie is dat niets moet worden gebouwd of worden gewijzigd om gegevens te verzamelen. Er is al waardevolle informatie voorhanden; alles wat je hoeft te doen is het ontgrendelen.
+Het belangrijkste voordeel van het gebruik van een operationele database voor [!DNL Adobe Commerce Intelligence] niets hoeft te worden opgebouwd of gewijzigd om gegevens te verzamelen. Waardevolle informatie is er al. U hoeft deze alleen maar te ontgrendelen.
 
 Dit onderwerp bevat een aantal aanbevelingen om u te helpen uw gegevensbestand voor analyse optimaliseren en actionable inzichten van ruwe gegevens trekken.
 
@@ -51,16 +51,16 @@ Te veel bedrijven richten zich uitsluitend op het vinden van kanalen die nieuwe 
 
 ### Primaire sleutel instellen
 
-A [primaire sleutel](https://en.wikipedia.org/wiki/Unique_key) is een onveranderlijke kolom (of een reeks kolommen) die unieke waarden binnen een lijst veroorzaakt. Primaire toetsen zijn ongelooflijk belangrijk, omdat ze ervoor zorgen dat uw tabellen correct worden gerepliceerd in [!DNL MBI].
+A [primaire sleutel](https://en.wikipedia.org/wiki/Unique_key) is een onveranderlijke kolom (of een reeks kolommen) die unieke waarden binnen een lijst veroorzaakt. Primaire toetsen zijn ongelooflijk belangrijk, omdat ze ervoor zorgen dat uw tabellen correct worden gerepliceerd in [!DNL Commerce Intelligence].
 
 Gebruik bij het bouwen van primaire sleutels een gegevenstype voor gehele getallen voor de kolom die automatisch wordt verhoogd. Adobe raadt u aan zoveel mogelijk het gebruik van meerdere primaire kolomsleutels te vermijden.
 
-Als uw tabel een SQL-weergave is, voegt u een kolom toe die als primaire sleutel kan fungeren. [!DNL MBI] kan deze kolom automatisch identificeren als een primaire sleutel.
+Als uw tabel een SQL-weergave is, voegt u een kolom toe die als primaire sleutel kan fungeren. [!DNL Commerce Intelligence] kan deze kolom automatisch identificeren als een primaire sleutel.
 
 ### Een gegevenstype toewijzen aan uw gegevenskolom
 
-Als een gegevenskolom geen toegewezen [gegevenstype](https://en.wikipedia.org/wiki/Data_type), [!DNL MBI] geeft een schatting van het gegevenstype dat moet worden gebruikt. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het de steunteam van Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
+Als een gegevenskolom geen toegewezen [gegevenstype](https://en.wikipedia.org/wiki/Data_type), [!DNL Commerce Intelligence] geeft een schatting van het gegevenstype dat moet worden gebruikt. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het de steunteam van Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld als een numeriek gegevenstype wordt geraden, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
 
 ### Voeg prefixen aan uw Lijsten van Gegevens toe als u veelvoudige Gegevensbestanden hebt
 
-Als er meerdere databases zijn verbonden met [!DNL MBI]Adobe raadt u aan voorvoegsels aan uw tabellen toe te voegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden waar metrische gegevens of gegevensafmetingen vandaan komen.
+Als er meerdere databases zijn verbonden met [!DNL Commerce Intelligence]Adobe raadt u aan voorvoegsels aan uw tabellen toe te voegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden waar metrische gegevens of gegevensafmetingen vandaan komen.

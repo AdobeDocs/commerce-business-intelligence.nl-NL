@@ -2,7 +2,7 @@
 title: Offertetabel
 description: Leer hoe u met de prijsopgave werkt.
 exl-id: 3a1e9239-33a7-429e-bfc8-628c68701710
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
@@ -24,7 +24,7 @@ De `quote` tabel (`sales_flat_quote` op M1) bevat gegevens over elk winkelwagent
 | `base_currency_code` | Valuta voor alle waarden die zijn vastgelegd in `base_*` velden (dat wil zeggen `base_grand_total`, `base_subtotal`, enzovoort). Dit weerspiegelt doorgaans de standaardvaluta van de Commerce Store |
 | `base_grand_total` | De uiteindelijke prijs die aan de klant voor het winkelwagentje wordt aangeboden, nadat alle belastingen, verzendkosten en kortingen zijn toegepast. Hoewel de precieze berekening aanpasbaar is, wordt in het algemeen `base_grand_total` wordt berekend als `base_subtotal` + `base_tax_amount` + `base_shipping_amount` + `base_discount_amount` - `base_gift_cards_amount` - `base_customer_balance_amount` |
 | `base_subtotal` | Bruto-handelswaarde van alle in het winkelwagentje opgenomen artikelen. Belastingen, verzendkosten, kortingen enzovoort zijn niet inbegrepen |
-| `created_at` | Tijdstempel maken van het winkelwagentje dat lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
+| `created_at` | Tijdstempel maken van het winkelwagentje dat lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL Commerce Intelligence]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL Commerce Intelligence] die van uw streek van de gegevensbestandtijd verschilt |
 | `customer_email` | E-mailadres van de klant die het winkelwagentje heeft gemaakt |
 | `customer_id` | `Foreign key` in verband met de `customer_entity` tabel, als de klant is geregistreerd. Verbinden met `customer_entity.entity_id` om klantenattributen te bepalen verbonden aan de gebruiker die de kar creeerde. Als het winkelwagentje is gemaakt via uitchecken door gasten, is dit veld `NULL` |
 | `entity_id` (PK) | Unieke id voor de tabel en wordt doorgaans gebruikt in combinatie met andere tabellen binnen de instantie Commerce |

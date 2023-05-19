@@ -2,26 +2,26 @@
 title: Doelstellingen bijhouden op basis van cijfers
 description: Leer hoe u een dashboard instelt waarmee u uw bedrijfsdoelstellingen kunt bijhouden op basis van uw feitelijke gegevens, zoals inkomsten, nieuwe geregistreerde gebruikers en bestellingen in de loop der tijd.
 exl-id: 9d621f40-f9c2-4310-bd96-a46ab7159930
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Doelstellingen bijhouden op basis van prestatiemetriek
 
-De meeste klanten willen hun **bedrijfsdoelstellingen**, maar dit is niet mogelijk in [!DNL MBI]. In dit artikel ziet u hoe u een dashboard kunt instellen waarmee u uw bedrijfsdoelstellingen kunt bijhouden op basis van uw feitelijke gegevens, waaronder inkomsten, nieuwe geregistreerde gebruikers en bestellingen in de loop der tijd. U leert ook hoe u de prestaties van jaar tot jaar kunt vergelijken, allemaal in een dashboard als dit:
+De meeste klanten willen hun **bedrijfsdoelstellingen**, maar dit is niet mogelijk in [!DNL Adobe Commerce Intelligence]. Dit onderwerp toont aan hoe te opstelling een dashboard dat u zal helpen uw bedrijfsdoelstellingen tegen uw daadwerkelijke gegevens volgen - met inbegrip van opbrengst, nieuwe geregistreerde gebruikers, en orden in tijd. U leert ook hoe u de prestaties van jaar tot jaar kunt vergelijken, allemaal in een dashboard als dit:
 
 ![](../../assets/Goals-_dashboard_2.png)
 
-Voordat u aan de slag gaat, wilt u zich vertrouwd maken met de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en zorg ervoor u uw bedrijfsdoelstellingen voor een bepaalde periode hebt bepaald.
+Voordat u aan de slag gaat, moet u de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en zorg ervoor u uw bedrijfsdoelstellingen voor een bepaalde periode hebt bepaald.
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat specifieke dagelijkse/maandelijkse/driemaandelijkse doelstellingen voor uw bedrijf bevat.
 
-U kunt de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken. De gemeenschappelijkste doelstellingen die de cliënten binnen volgen [!DNL MBI] inclusief bestellingen, inkomsten en nieuwe geregistreerde accounts.
+U kunt de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken. De gemeenschappelijkste doelstellingen die de cliënten binnen volgen [!DNL Commerce Intelligence] inclusief bestellingen, inkomsten en nieuwe geregistreerde accounts.
 
 ![](../../assets/Goals-_Excel.png)
 
@@ -49,7 +49,7 @@ Creeer één nieuwe metrisch voor elk doel. Als u bijvoorbeeld doelstellingen vo
 
 ## Rapporten
 
-Zoals altijd, is het nuttig om een mengeling van statische waarden en visuele grafieken te hebben wanneer het analyseren van uw doelstellingen. Hieronder staan drie voorbeeldrapporten waarmee u uw inkomstenprestaties kunt gaan volgen.
+Het is nuttig om een mengeling van statische waarden en visuele grafieken te hebben wanneer het analyseren van uw doelstellingen. Hieronder staan drie voorbeeldrapporten waarmee u uw inkomstenprestaties kunt gaan volgen.
 
 * **Resterende inkomsten om doel te bereiken**
 * Metrisch `A`: `Revenue`

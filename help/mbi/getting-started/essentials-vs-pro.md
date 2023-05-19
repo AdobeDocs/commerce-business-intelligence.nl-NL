@@ -1,19 +1,19 @@
 ---
-title: MBI Essentials vs. Pro
-description: Leer hoe de Hoofdzaak MBI van MBI Pro verschilt.
+title: Commerce Intelligence Essentials vs. Pro
+description: Leer hoe de Hoofdzaak van de Intelligentie van de Handel van de Intelligentie verschilt van de Intelligentie van de Handel Pro.
 exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
-source-git-commit: c403d28392d781f0e897b937d00dfe0cfe35ea4d
+source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '74'
 ht-degree: 5%
 
 ---
 
-# [!DNL MBI Essentials] vs [!DNL MBI Pro]
+# [!DNL Commerce Intelligence Essentials] vs [!DNL Commerce Intelligence Pro]
 
-In de volgende tabel worden de elementen beschreven die zijn opgenomen in een verouderde versie `Essentials` account versus een huidige MBI-account. Adobe biedt niet meer aan `Essentials`.
+In de volgende tabel worden de elementen beschreven die zijn opgenomen in een verouderde versie `Essentials` account versus een lopende Commerce Intelligence-account. Adobe biedt niet meer aan `Essentials`.
 
-|  | **`MBI Essentials`** | **`MBI Pro`** |
+|  | **`Commerce Intelligence Essentials`** | **`Commerce Intelligence Pro`** |
 |-----|-----|-----|
 | `Pre-Defined Reports` | Tot 100 | Aangepast |
 | `Pre-Defined Dashboards` | 5-6 | Aangepast |

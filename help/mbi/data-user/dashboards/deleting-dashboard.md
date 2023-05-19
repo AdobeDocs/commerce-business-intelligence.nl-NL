@@ -2,9 +2,9 @@
 title: Een dashboard verwijderen
 description: Leer hoe u een dashboard verwijdert.
 exl-id: 27482dea-0593-46d6-8310-ad505ff9436a
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ Als u wilt voorkomen dat de dashboardlijst te onoverzichtelijk wordt, kunt u een
 
 1. [Via de `Account Settings` page](#account) - deze methode vereist [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-1. [Via de `Dashboard Options` menu](#do) - deze methode vereist dat u eigenaar bent van het dashboard of dat u beschikt over de machtiging Bewerken.
+1. [Via de `Dashboard Options` menu](#do) - deze methode vereist dat u eigenaar bent van het dashboard of `Edit` machtigingen.
 
 ## Het dashboard verwijderen via het dialoogvenster `Account Settings` page {#account}
 

@@ -2,7 +2,7 @@
 title: Bestandsuploader gebruiken
 description: Leer hoe u al uw gegevens in één Data Warehouse plaatst.
 exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 0%
@@ -15,14 +15,14 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../../administrator/user-management/user-management.md).
 
-[!DNL MBI] is krachtig, niet alleen vanwege de visualisatiefuncties, maar ook omdat u hiermee alle gegevens in één Data Warehouse kunt plaatsen. Zelfs de gegevens die buiten uw gegevensbestanden en de integratie leven kunnen in worden gebracht [!DNL MBI] met het gereedschap Bestand uploaden in Data Warehouse Manager.
+[!DNL Adobe Commerce Intelligence] is krachtig, niet alleen vanwege de visualisatiefuncties, maar ook omdat u hiermee alle gegevens in één Data Warehouse kunt plaatsen. Zelfs de gegevens die buiten uw gegevensbestanden en de integratie leven kunnen in worden gebracht [!DNL Commerce Intelligence] met het gereedschap Bestand uploaden in Data Warehouse Manager.
 
 Gebruik advertentiecampagnes als voorbeeld. Als u zowel online als offline campagnes voert, kunt u niet het volledige beeld krijgen als u slechts gegevens van een online integratie analyseert. Door een spreadsheet te uploaden met de offlinecampagne kunt u beide sets gegevens analyseren en een beter inzicht krijgen in de prestaties van uw campagne.
 
 ## Beperkingen en eisen {#require}
 
 1. **De enige ondersteunde indeling voor het uploaden van bestanden is `CSV` of`comma separated values`**. Als u in Excel werkt, kunt u de functie Opslaan als gebruiken om het bestand op te slaan in `.csv` gebruiken.
-1. **`CSV`bestanden moeten`UTF-8 encoding`**. Meestal is dit geen probleem. Als deze fout optreedt tijdens het uploaden van een bestand, [raadpleeg dit ondersteuningsartikel](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html?lang=en).
+1. **`CSV`bestanden moeten`UTF-8 encoding`**. Meestal is dit geen probleem. Als deze fout optreedt tijdens het uploaden van een bestand, [raadpleeg dit ondersteuningsartikel](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html).
 1. **Bestanden mogen niet groter zijn dan 100 MB**. Als het bestand groter is dan dit, scheidt u de tabel in delen en slaat u deze op als afzonderlijke bestanden. U kunt de gegevens toevoegen nadat het eerste bestand is geladen.
 1. **Alle tabellen moeten een`primary key`**. Er moet minstens één kolom in uw lijst zijn die als `primary key`of een unieke id voor elke rij in de tabel. Elke kolom die als een `primary key` kan *nooit* is null. A `primary key` kan eenvoudig zijn zoals het toevoegen van een kolom die een aantal aan elke rij geeft, of kan twee kolommen zijn samengevoegd om een kolom van unieke waarden (bijvoorbeeld, `campaign name` en `date`).
 
@@ -30,7 +30,7 @@ Gebruik advertentiecampagnes als voorbeeld. Als u zowel online als offline campa
 
 ## Gegevens opmaken voor uploaden {#formatting}
 
-Voordat u uw gegevens kunt uploaden naar [!DNL MBI], controleert u of de notatie is gebaseerd op de richtlijnen in deze sectie.
+Voordat u uw gegevens kunt uploaden naar [!DNL Commerce Intelligence], controleert u of de notatie is gebaseerd op de richtlijnen in deze sectie.
 
 ### Koptekstrij {#header}
 
@@ -77,7 +77,7 @@ Voor [!DNL Google Docs] en [!DNL Apple Numbers] bronnen, raadpleegt u de [Verwan
 
 ## Gegevens uploaden {#uploading}
 
-Nu de spreadsheet correct is opgemaakt en [!DNL MBI]-vriendelijk, voeg het toe aan uw Data Warehouse.
+Nu de spreadsheet correct is opgemaakt en [!DNL Commerce Intelligence]-vriendelijk, voeg het toe aan uw Data Warehouse.
 
 1. Ga om aan de slag te gaan naar **[!UICONTROL Data** > **File Uploads]**.
 
@@ -85,7 +85,7 @@ Nu de spreadsheet correct is opgemaakt en [!DNL MBI]-vriendelijk, voeg het toe a
 
 1. Klikken **[!UICONTROL Choose File]** en selecteert u het bestand. Klikken **[!UICONTROL Open]** om het uploaden te starten.
 
-   Nadat het uploaden is voltooid, wordt een lijst met de kolommen weergegeven [!DNL MBI] gevonden in uw dossier toont.
+   Nadat het uploaden is voltooid, wordt een lijst met de kolommen weergegeven [!DNL Commerce Intelligence] gevonden in uw dossier toont.
 
 1. Controleer of de kolomnamen en gegevenstypen correct zijn. Controleer met name of datumkolommen worden gelezen als datums en niet als getallen.
 
@@ -111,7 +111,7 @@ Geüploade tabellen worden weergegeven onder de **Bestand uploaden** sectie van 
 
 ## Gegevens bijwerken of toevoegen aan een bestaande tabel {#appending}
 
-Wilt u nieuwe gegevens toevoegen aan een bestand dat u al hebt geüpload? Geen probleem - u kunt gegevens eenvoudig bijwerken en toevoegen in [!DNL MBI].
+Wilt u nieuwe gegevens toevoegen aan een bestand dat u al hebt geüpload? Geen probleem - u kunt gegevens eenvoudig bijwerken en toevoegen in [!DNL Commerce Intelligence].
 
 1. Ga om aan de slag te gaan naar **[!UICONTROL Manage Data** > **File Uploads]**.
 
@@ -121,7 +121,7 @@ Wilt u nieuwe gegevens toevoegen aan een bestand dat u al hebt geüpload? Geen p
 
 1. Gebruik het vervolgkeuzemenu om de optie voor de afhandeling van dubbele rijen te selecteren:
 
-   |  |  |
+   | Option | Beschrijving |
    |---|---|
    | `Overwrite old row with new row` | Hierdoor worden bestaande gegevens overschreven door nieuwe gegevens als een rij dezelfde primaire sleutel heeft in zowel de bestaande tabel als het nieuwe bestand. Dit is de methode die moet worden gebruikt voor kolommen met waarden die in de loop der tijd veranderen, bijvoorbeeld een kolom Status. Bestaande gegevens worden overschreven en bijgewerkt met de nieuwe gegevens. Rijen met primaire toetsen die niet in de bestaande tabel staan, worden als nieuwe rijen toegevoegd. |
    | `Retain old row; discard new row` | Hierdoor worden nieuwe gegevens genegeerd als een rij dezelfde primaire sleutel heeft in zowel de bestaande tabel als het nieuwe bestand. |
@@ -131,7 +131,7 @@ Wilt u nieuwe gegevens toevoegen aan een bestand dat u al hebt geüpload? Geen p
 
 1. Klikken **[!UICONTROL Open]** om het uploaden te starten.
 
-   Nadat het uploaden is voltooid, [!DNL MBI] zal de gegevensstructuur in het bestand valideren. A *Succes!* verschijnt boven aan het scherm nadat de tabel is opgeslagen.
+   Nadat het uploaden is voltooid, [!DNL Commerce Intelligence] zal de gegevensstructuur in het bestand valideren. A *Succes!* verschijnt boven aan het scherm nadat de tabel is opgeslagen.
 
 ## Beschikbaarheid van gegevens {#availability}
 
@@ -139,9 +139,9 @@ Net als berekende kolommen, zijn de gegevens van dossier uploadt beschikbaar nad
 
 ## Omloop {#wrapup}
 
-In dit artikel worden alleen de basisbeginselen voor het importeren van gegevens besproken, maar u kunt ook iets geavanceerder doen. Lees de verwante artikelen voor hulp bij het formatteren en invoeren van financiële, eCommerce, en uitgaven, en andere soorten gegevens.
+Dit onderwerp behandelde slechts de grondbeginselen voor het gebruiken van het invoeren van gegevens, maar u kunt iets geavanceerder willen doen. Lees de verwante artikelen voor hulp bij het formatteren en invoeren van financiële, eCommerce, en uitgaven, en andere soorten gegevens.
 
-Het uploaden van bestanden is niet de enige manier om uw gegevens in te voeren [!DNL MBI]. De [API voor gegevensimport](https://developer.adobe.com/commerce/services/reporting/import-api/) met functies kunt u willekeurige gegevens in uw [!DNL MBI] Data Warehouse.
+Het uploaden van bestanden is niet de enige manier om uw gegevens in te voeren [!DNL Commerce Intelligence]. De [API voor gegevensimport](https://developer.adobe.com/commerce/services/reporting/import-api/) met functies kunt u willekeurige gegevens in uw [!DNL Commerce Intelligence] Data Warehouse.
 
 ## Verwante {#related}
 

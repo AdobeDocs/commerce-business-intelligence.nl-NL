@@ -1,14 +1,14 @@
 ---
-title: Uw MySQL-database verbinden
-description: Kijk hoe u uw MySQL-databases kunt verbinden met [!DNL MBI].
+title: Maak verbinding met [!DNL MySQL] Database
+description: Kijk hoe u uw [!DNL MySQL] databases met [!DNL Commerce Intelligence].
 exl-id: 22632cab-3c44-4a1b-8809-ac6cba5f655a
-source-git-commit: 03a5161930cafcbe600b96465ee0fc0ecb25cae8
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
-source-wordcount: '18'
+source-wordcount: '15'
 ht-degree: 0%
 
 ---
 
 # Maak verbinding met `MySQL` Database
 
-Info binnenkort beschikbaar.
+Informatie komt.

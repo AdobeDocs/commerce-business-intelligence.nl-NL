@@ -2,7 +2,7 @@
 title: Cohort Report Builder
 description: Leer over de analyse van gebruikersgroepen die gelijkaardige kenmerken over hun levenscycli delen.
 exl-id: d80c5389-7256-40e0-86e0-49903113f93d
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 # Cohort Report Builder
 
-Hebt u ooit willen onderzoeken hoe verschillende subsets van uw gebruikers zich in de loop der tijd gedragen? Bijvoorbeeld, vroeg ooit zich af of de gebruikers die tijdens een bevorderingsperiode registreren een hogere gemiddelde levensinkomsten hebben dan zij die niet? Als het antwoord `Yes`en de `Cohort Report Builder` is het perfecte gereedschap voor je. [!DNL MBI] is geoptimaliseerd om deze analyse uit te voeren en deze relevant te maken voor uw bedrijf.
+Hebt u ooit willen onderzoeken hoe verschillende subsets van uw gebruikers zich in de loop der tijd gedragen? Bijvoorbeeld, vroeg ooit zich af of de gebruikers die tijdens een bevorderingsperiode registreren een hogere gemiddelde levensinkomsten hebben dan zij die niet? Als het antwoord `Yes`en de `Cohort Report Builder` is het perfecte gereedschap voor je. [!DNL Adobe Commerce Intelligence] is geoptimaliseerd om deze analyse uit te voeren en deze relevant te maken voor uw bedrijf.
 
 ## Wat is cohortanalyse? {#what}
 
 `Cohort` de analyse kan globaal worden gedefinieerd als de analyse van gebruikersgroepen die gedurende hun levenscyclus vergelijkbare kenmerken delen . Hiermee kunt u gedragstrends in verschillende gebruikersgroepen identificeren.
 
-Voor een diepgaandere primer ingeschakeld `cohort` analyse, [kijk hier](https://www.cohortanalysis.com/).
+Voor een diepgaande primer ingeschakeld `cohort` analyse, herziening [deze pagina](https://www.cohortanalysis.com/).
 
-In uw [!DNL MBI] dashboard, is het gemakkelijk om gebruiker tot stand te brengen `cohorts` op basis van een `cohort` datum en een metrische waarde in uw account.
+In uw [!DNL Commerce Intelligence] dashboard, is het gemakkelijk om gebruiker tot stand te brengen `cohorts` op basis van een `cohort` datum en een metrische waarde in uw account.
 
 ## Waarom is cohortanalyse belangrijk? {#important}
 
@@ -99,7 +99,7 @@ Hier is een voorbeeld om het allemaal samen te trekken. In dit voorbeeld wil ik 
 
 #### Verouderde architectuur {#personalinfo}
 
-Hieronder vindt u instructies die specifiek zijn voor de oudere versie van het `Cohort Report Builder`. Als u geïnteresseerd bent in het gebruik van de nieuwe versie, raadpleegt u [Nieuwe architectuur](../../administrator/account-management/new-architecture.md) voor meer informatie over migreren naar een [!DNL MBI] Nieuw architectuuraccount.
+Hieronder vindt u instructies die specifiek zijn voor de oudere versie van het `Cohort Report Builder`. Als u geïnteresseerd bent in het gebruik van de nieuwe versie, raadpleegt u [Nieuwe architectuur](../../administrator/account-management/new-architecture.md) voor meer informatie over migreren naar een [!DNL Commerce Intelligence] Nieuw architectuuraccount.
 
 #### Hoe maak ik mijn eigen `cohort` analyse? {#create}
 
@@ -107,7 +107,7 @@ Hieronder vindt u instructies die specifiek zijn voor de oudere versie van het `
 
 `Cohort` analyse in actie! Hier zie je dat de omzet in de loop der tijd toeneemt, op cumulatieve basis en per gebruiker.
 
-Deze sectie begeleidt u door het creëren van uw eigen `cohort` analyse. Bekijk voor voorbeelden (en geanimeerde GIFFEN die het proces demonstreren) de [Voorbeelden, sectie](#examples) van dit artikel.
+Deze sectie begeleidt u door het creëren van uw eigen `cohort` analyse. Bekijk voor voorbeelden (en geanimeerde GIFFEN die het proces demonstreren) de [Voorbeelden, sectie](#examples) van dit onderwerp.
 
 1. Klikken **[!UICONTROL Report Builder]** op de linkertab of **[!UICONTROL Add Report** > **Create Report]** in een dashboard.
 

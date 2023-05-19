@@ -2,16 +2,16 @@
 title: Opeenvolgende vergelijking berekende kolom
 description: Leer het doel en het gebruik van de Opeenvolgende Berekende kolom van de Vergelijking.
 exl-id: 625062b4-f05d-42aa-94c3-729b39c7d728
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 1%
+source-wordcount: '397'
+ht-degree: 2%
 
 ---
 
 # Opeenvolgende vergelijking berekende kolom
 
-Dit onderwerp schetst het doel en het gebruik van `Sequential Comparison` berekende kolom beschikbaar in de **[!DNL Manage Data > Data Warehouse]** pagina. Hieronder volgt een uitleg van wat het doet, gevolgd door een voorbeeld, en de mechanismen om het te maken.
+Dit onderwerp schetst het doel en het gebruik van `Sequential Comparison` berekende kolom beschikbaar in de **[!DNL Manage Data > Data Warehouse]** pagina. Hieronder volgt een uitleg van wat het doet, gevolgd door een voorbeeld en de mechanismen om het te maken.
 
 **Toelichting**
 
@@ -39,17 +39,25 @@ Voor dit berekende kolomtype heeft de rij die overeenkomt met de eerste gebeurte
 
 Om een **Gebeurtenisnummer** kolom:
 
-1. Ga naar de **[!DNL Manage Data** > **Data Warehouse]** pagina.
+1. Ga naar de **[!DNL Manage Data > Data Warehouse]** pagina.
+
 1. Navigeer naar de tabel waarop u deze kolom wilt maken.
-1. Klikken **[!UICONTROL Create New Column]** aan de rechterbovenhoek van het scherm.
+
+1. Klikken **[!UICONTROL Create New Column]** in de rechterbovenhoek.
+
 1. Selecteren `Same Table` als de `Definition Type` (Als de kolommen die u wilt vergelijken zich niet op de zelfde lijst bevinden kunt u hen moeten verplaatsen).
+
 1. Selecteren `SEQUENTIAL_COMPARISON` als de `Column Definition Equation`.
+
 1. Kies de inputs, zoals hierboven beschreven:
    - `Event Owner`
    - `Event Date`
    - `Value to Compare`
-1. U kunt ook filters toevoegen om rijen uit te sluiten van overweging. De uitgesloten rijen hebben een NULL-waarde voor deze kolom.
+
+1. U kunt ook filters toevoegen om rijen uit te sluiten van overweging. De uitgesloten rijen hebben een `NULL` waarde voor deze kolom.
+
 1. Geef een naam op voor de kolom boven aan de pagina en klik op **[!UICONTROL Save]**.
+
 1. De kolom is beschikbaar voor gebruik *onmiddellijk*.
 
 ![SEC](../../assets/SEC_new.png)

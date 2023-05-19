@@ -1,10 +1,10 @@
 ---
 title: Gegevens van Mixpanel verwacht
-description: De belangrijkste gegevenstabellen verkennen die u vanuit het deelvenster Mixen kunt importeren in uw [!DNL MBI] account.
+description: De belangrijkste gegevenstabellen verkennen die u vanuit het deelvenster Mixen kunt importeren in uw [!DNL Commerce Intelligence] account.
 exl-id: 87bd337a-63fa-44cf-b1fe-c2f34ca86029
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 Na [u hebt verbinding gemaakt met uw [!DNL Mixpanel] account](../integrations/mixpanel.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
-In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt importeren [!DNL Mixpanel] in uw [!DNL MBI] account. De volgende tabellen worden in uw Data Warehouse gemaakt nadat u het deelvenster Mixer hebt verbonden. Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen in de kolom Tabelnaam.
+Dit onderwerp verkent de belangrijkste gegevenslijsten die u van kunt invoeren [!DNL Mixpanel] in uw [!DNL Commerce Intelligence] account. De volgende tabellen worden na verbinding met de Data Warehouse gemaakt [!DNL Mixpanel]. Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen in de kolom Tabelnaam.
 
 >[!NOTE]
 >
->Vanwege de beperkingen van de [!DNL Mixpanel] API, historische gegevens - gegevens ouder dan zeven (7) dagen vanaf de datum van verbinding aan [!DNL MBI] - niet wordt gerepliceerd.
+>Vanwege de beperkingen van de [!DNL Mixpanel] API, historische gegevens - gegevens ouder dan zeven (7) dagen vanaf de datum van verbinding aan [!DNL Commerce Intelligence] - niet wordt gerepliceerd.
 
 | **Tabelnaam** | **Beschrijving** |
 |-----|-----|
@@ -30,4 +30,4 @@ In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt
 ## Gerelateerde documentatie
 
 * [Verbinding maken [!DNL Mixpanel]](../integrations/mixpanel.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

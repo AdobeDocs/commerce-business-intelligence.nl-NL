@@ -1,25 +1,25 @@
 ---
-title: Naamrapporten en -elementen in MBI
-description: Leer beste praktijken voor noemende rapporten en elementen in [!DNL MBI].
+title: Naamrapporten en -elementen in de handelsinlichtingendienst
+description: Leer beste praktijken voor noemende rapporten en elementen in [!DNL Commerce Intelligence].
 exl-id: c662cedd-c779-4254-b04b-f3092a538c85
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
 
 # Naamrapporten en -elementen
 
-Voordat u aan de slag gaat met het[!DNL MBI]Adobe wil wat geheimen delen om te slagen. Het is belangrijk om te weten hoe u metriek, filters, enzovoort kunt maken, maar al uw werk kan onverwacht zijn als u niet kunt vinden wat u nodig hebt of als er dubbelzinnigheid is.
+Voordat u aan de slag gaat met het[!DNL Adobe Commerce Intelligence]Adobe wil wat geheimen delen om te slagen. Het is belangrijk om te weten hoe u metriek, filters, enzovoort kunt maken, maar al uw werk kan onverwacht zijn als u niet kunt vinden wat u nodig hebt of als er dubbelzinnigheid is.
 
 ## Waarom is nomenclatuur belangrijk? {#why}
 
-De manier u uw berekende kolommen, metriek, en rapporten noemt dicteert het gemak waarin de verschillende gebruikers door uw kunnen navigeren [!DNL MBI] account. Houd bij de naamgeving van deze functies rekening met de volgende drie instellingen:
+De manier u uw berekende kolommen, metriek, en rapporten noemt dicteert het gemak waarin de verschillende gebruikers door uw kunnen navigeren [!DNL Commerce Intelligence] account. Houd bij de naamgeving van deze functies rekening met de volgende drie instellingen:
 
 * **DUIDELIJKHEID** - Je kan dus in één oogopslag zien wat een rapport toont, wat een metrisch doet, enzovoort.
 * **CONSISTENTIE** - zodat u (en het Adobe-ondersteuningsteam) eenvoudig elementen en rapporten in uw account kunt vinden en begrijpen.
-* **GELOOFWAARDIGHEID** - Om andere gegevensgestuurde elementen te inspireren en te versterken [!DNL MBI] gebruikers, moet u vertrouwen in hoe zij de gegevens begrijpen en gebruiken!
+* **GELOOFWAARDIGHEID** - Om andere gegevensgestuurde elementen te inspireren en te versterken [!DNL Commerce Intelligence] gebruikers, moet u vertrouwen in hoe zij de gegevens begrijpen en gebruiken!
 
 Lees verder voor beproefde en ware nomenclatuurtips!
 
@@ -41,7 +41,7 @@ Deze voorbeelden zijn specifiek, wat de kans op verwarring vermindert.
 
 ### Verenigbaar zijn met hoofdletters {#capitalize}
 
-Adobe raadt eerste letter in hoofdletters aan met de rest van de tekens in kleine letters, tenzij de eigenlijke naamstijl van hoofdletters wordt gebruikt. Bijvoorbeeld: **Volgnummer van de gebruiker** eerder dan **Volgnummer van gebruiker.**
+[!DNL Adobe] raadt aan om de eerste letter in hoofdletters te plaatsen met de rest van de tekens, tenzij de eigenlijke naamstijl van hoofdletters wordt gebruikt. Bijvoorbeeld: **Volgnummer van de gebruiker** eerder dan **Volgnummer van gebruiker.**
 
 Dit is echt een kwestie van voorkeur, maar het punt om zich te herinneren is om met wat te verenigbaar te zijn u kiest.
 
@@ -101,4 +101,4 @@ Ontvangsten (verscheept\_at) (gemaakt\_at)
 
 ## Omloop omhoog {#wrapup}
 
-Door de stijl- en naamconventies in een vroeg stadium te definiëren, kunt u uw werk sneller uitvoeren [!DNL MBI] account. Denk aan de drie CS&#39;s: duidelijkheid, consistentie en geloofwaardigheid.
+Door de stijl- en naamconventies in een vroeg stadium te definiëren, kunt u uw werk sneller uitvoeren [!DNL Commerce Intelligence] account. Denk aan de drie CS&#39;s: duidelijkheid, consistentie en geloofwaardigheid.

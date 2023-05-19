@@ -2,9 +2,9 @@
 title: Paden voor berekende kolommen maken of verwijderen
 description: Leer hoe u een pad definieert waarin wordt beschreven hoe de tabel waarop u een kolom maakt, verwant is aan de tabel waaruit u gegevens aan het ophalen bent.
 exl-id: 734a8046-8058-4f03-93a2-8d59b9be6d2d
-source-git-commit: 8de036e2717aedef95a8bb908898fd9b9bc9c3fa
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Wanneer [berekende kolommen maken](../data-warehouse-mgr/creating-calculated-col
 1. Hoe de lijsten in uw gegevensbestanden op elkaar betrekking hebben
 1. De primaire en buitenlandse sleutels die deze verhouding bepalen
 
-Als u deze informatie kent, kunt u gemakkelijk een weg tot stand brengen die de instructies in dit artikel volgen. Een overzicht van deze concepten als u een beetje onzeker voelt, maar u kunt een technische deskundige in uw organisatie willen vragen of het de steunteam van de Adobe contacteren.
+Als u deze informatie kent, kunt u gemakkelijk tot een weg leiden die de instructies in dit onderwerp volgt. U kunt een technische deskundige in uw organisatie vragen of contact opnemen met de [Team voor professionele services](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ## Vernieuwen op tabelrelaties en toetstypen {#refresher}
 
@@ -36,7 +36,7 @@ Tabellen kunnen op drie manieren met elkaar worden verbonden:
 
 {style="table-layout:auto"}
 
-Zodra een verband tussen twee lijsten wordt begrepen, kan het worden gebruikt om te bepalen welke weg zou moeten worden gecreeerd om informatie van één lijst aan een andere te brengen. Voor deze volgende stap moet u weten welke primaire en externe sleutels een tabelrelatie mogelijk maken.
+Wanneer een verband tussen twee lijsten wordt begrepen, kan het worden gebruikt om te bepalen welke weg zou moeten worden gecreeerd om informatie van één lijst aan een andere te brengen. Voor deze volgende stap moet u weten welke primaire en externe sleutels een tabelrelatie mogelijk maken.
 
 ### Primaire en buitenlandse sleutels {#keys}
 
@@ -59,7 +59,7 @@ U kunt nu het pad maken.
 1. Klikken **[!UICONTROL Data > Data Warehouse]**.
 1. Klik in de tabellijst op de tabel waarin u de kolom wilt maken. In dit voorbeeld is het `customers` tabel.
 1. Het tabelschema wordt weergegeven. Klikken **[!UICONTROL Create New Column]**.
-1. Geef uw kolom een naam, bijvoorbeeld `Customer's orders`.
+1. Geef uw kolom bijvoorbeeld een naam, `Customer's orders`.
 1. Selecteer de definitie voor de kolom. Kijk uit de [Berekende kolomhulplijn](../data-warehouse-mgr/creating-calculated-columns.md) voor een handig bedriegblad.
 1. In de [!UICONTROL Select table and column] vervolgkeuzelijst, klikt u op de knop **[!UICONTROL Create new path]** optie.
 
@@ -75,20 +75,23 @@ U kunt nu het pad maken.
 
 ### Beperkingen voor het maken van paden {#limits}
 
-* **[!DNL MBI]kan geen primaire/externe sleutelrelaties raden**. U wilt geen onjuiste gegevens in uw account introduceren, dus het maken van paden moet handmatig gebeuren.
-* **U kunt momenteel alleen paden opgeven tussen twee verschillende tabellen**. Vormt de logica die u probeert opnieuw te maken meer dan twee tabellen? Het zou dan aan (1) kunnen logisch zijn om de kolommen aan een intermediaire lijst eerst, dan aan de &quot;definitieve bestemmings&quot;lijst te verbinden, of (2) overleg met het team van Adobe om de beste benadering van uw doelstellingen te vinden.
+* **[!DNL Commerce Intelligence]kan geen primaire/externe sleutelrelaties raden**. U wilt geen onjuiste gegevens in uw account introduceren, dus het maken van paden moet handmatig gebeuren.
+
+* **U kunt momenteel alleen paden opgeven tussen twee verschillende tabellen**. Vormt de logica die u probeert opnieuw te maken meer dan twee tabellen? Het zou dan aan (1) zin kunnen hebben om de kolommen aan een intermediaire lijst eerst, dan aan de &quot;definitieve bestemmings&quot;lijst te verbinden, of (2) overleg met [Team voor professionele services](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de beste benadering van uw doelstellingen te vinden.
+
 * **Een kolom kan slechts de buitenlandse belangrijkste verwijzing voor ÉÉN weg tegelijkertijd zijn**. Als `order_items.order_id` punten naar `orders.id`vervolgens `order_items.order_id` kan niet op iets anders wijzen.
+
 * **`Many-to-many`paden kunnen technisch worden gemaakt, maar produceren vaak slechte gegevens omdat geen van beide zijden waar is `one-to-many` buitenlandse sleutel**. De beste manier om deze wegen te benaderen hangt altijd van de specifieke gewenste analyse af. Raadpleeg het RJ Analyst-team om de beste oplossing te ontdekken.
 
 Als u geen berekende kolom kunt maken vanwege een of meer van de bovenstaande beperkingen, neemt u contact op met de technische ondersteuning en een beschrijving van de kolom
 
 ## Een berekend kolompad verwijderen {#delete}
 
-Een onjuist pad in de Data Warehouse gemaakt? Of misschien doe je een beetje lentesreiniging en wil je opruimen? Als u een pad van uw account moet verwijderen, kunt u [stuur een kaartje naar Adobe-ondersteuningsanalisten](../../guide-overview.md). **Zorg ervoor dat u de naam van het pad opneemt!**
+Een onjuist pad in de Data Warehouse gemaakt? Of misschien doe je een beetje lentesreiniging en wil je opruimen? Als u een pad van uw account moet verwijderen, kunt u [stuur een kaartje naar Adobe-ondersteuningsanalisten](../../guide-overview.md#Submitting-a-Support-Ticket). **Zorg ervoor dat u de naam van het pad opneemt!**
 
 ## Omloop {#wrapup}
 
-Nu kunt u op een comfortabele manier paden maken voor berekende kolommen in uw Data Warehouse. Als u nog steeds niet zeker bent van een bepaald pad, vergeet dan niet dat u altijd op **[!UICONTROL Support]** in uw [!DNL MBI] account om hulp te krijgen.
+Nu kunt u op een comfortabele manier paden maken voor berekende kolommen in uw Data Warehouse. Als u nog steeds niet zeker bent van een bepaald pad, vergeet dan niet dat u altijd op **[!UICONTROL Support]** in uw [!DNL Commerce Intelligence] account om hulp te krijgen.
 
 ## Verwante
 

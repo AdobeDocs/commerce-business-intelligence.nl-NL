@@ -2,16 +2,16 @@
 title: Gedrag voor het opnieuw aanschaffen van klanten analyseren
 description: Leer hoe u het terugkoopgedrag van klanten kunt analyseren.
 exl-id: 62666d08-5240-4f19-bf8e-e5b2d79a25c4
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 1%
 
 ---
 
 # Gedrag voor terugkerende klantenservice
 
-Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. In dit artikel worden analyses besproken die u kunnen helpen de volgende vragen te beantwoorden:
+Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. Dit onderwerp verkent analyses die u kunnen helpen de volgende vragen beantwoorden.
 
 Onder klanten die een *specifiek item*,
 
@@ -52,7 +52,7 @@ Houd bovenstaande cijfers in gedachten en bekijk een voorbeeld met koffieproduct
 
 {style="table-layout:auto"}
 
-Nu je gegevens hebt, kijk dan wat dit voor elk van je metriek kan betekenen.
+Wat betekent dit voor elk van je metriek?
 
 ### Herhalingsvolgordeningswaarschijnlijkheid
 
@@ -66,7 +66,7 @@ Op basis van bovenstaande gegevens kunt u zien dat mensen die de brouwerij of ca
 
 ### Gemiddelde omzet tijdens de levensduur van de klant
 
-Klanten die de brouwerij kopen, hebben de hoogste gemiddelde levensduuropbrengst; dat is logisch aangezien de kosten van de brouwerij in deze maatregel zijn opgenomen . Daarentegen kopen klanten die koffiebonen kopen doorgaans alleen goedkope artikelen.
+Klanten die de brouwerij kopen, hebben de hoogste gemiddelde levensduurinkomsten, wat logisch is, aangezien de kosten van de brouwerij in deze maatregel zijn opgenomen. Daarentegen kopen klanten die koffiebonen kopen doorgaans alleen goedkope artikelen.
 
 ### Tijd tot volgende bestelling
 
@@ -74,10 +74,10 @@ Onder klanten die koffiecapsules hebben gekocht, maakt de helft een herhalingsbe
 
 ## Welke andere analyses kan ik maken?
 
-Met behulp van de metriek die in dit artikel wordt beschreven, kunt u ook andere nuttige terugkoopanalyses bouwen. U kunt bijvoorbeeld ook zien hoe klanten hun aankopen terugkopen **hetzelfde item** - bijvoorbeeld wanneer zij regelmatig vullingen kopen. Capsules en koffiebonen kunnen regelmatig worden teruggekocht, maar het zou onverwacht zijn als klanten de koffiebrouwerij herhaaldelijk zouden kopen. Als uw zaken zich op vult of herbevolkt concentreert, zou deze analyse nuttig zijn.
+Met behulp van de metriek die in dit onderwerp wordt geschetst, kunt u andere nuttige het terugkopen analyses ook bouwen. U kunt bijvoorbeeld ook zien hoe klanten hun aankopen terugkopen **hetzelfde item** - bijvoorbeeld wanneer zij regelmatig vullingen kopen. Capsules en koffiebonen kunnen regelmatig worden teruggekocht, maar het zou onverwacht zijn als klanten de koffiebrouwerij herhaaldelijk zouden kopen. Als uw zaken zich op vult of herbevolkt concentreert, zou deze analyse nuttig zijn.
 
 Naast het analyseren van het terugkoopgedrag van uw klanten, kunt u analyses ook bouwen die klantenloyaliteit bekijken. Overweeg patronen in klantenkring te analyseren - waar verlaten uw klanten uw plaats en komen niet terug? In welk tempo gebeurt dit?
 
 Als u hebt vastgesteld waarom er een fout optreedt, kunt u uw analyse gebruiken om een `reactivation` campagne. Met deze gegevens kunt u gebruikers identificeren die inactief zijn geworden, hoe lang het is sinds hun laatste bezoek, wat hun laatste aankoop was, enzovoort. Dit staat u toe om actieable besluiten te nemen die uw klanten ertoe aanzetten om terug te komen.
 
-Voor hulp bij de analyse [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Voor hulp bij de analyse [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

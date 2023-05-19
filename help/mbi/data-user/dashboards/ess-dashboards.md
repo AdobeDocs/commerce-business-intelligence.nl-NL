@@ -2,7 +2,7 @@
 title: Dashboards
 description: Leer hoe u een dashboard maakt en gebruikt.
 exl-id: a872344b-ac66-41eb-a471-5a69f8802527
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Dashboards
 
-[!DNL MBI] De dashboards geven u een snel overzicht van de prestaties en verkoopactiviteit van uw opslag in een oogopslag. Individuele dashboards kunnen met andere gebruikers worden gedeeld en in logische groepen worden georganiseerd. U kunt ook verschillende machtigingsniveaus instellen voor andere gebruikers.
+[!DNL Adobe Commerce Intelligence] De dashboards geven u een snel overzicht van de prestaties en verkoopactiviteit van uw opslag in een oogopslag. Individuele dashboards kunnen met andere gebruikers worden gedeeld en in logische groepen worden georganiseerd. U kunt ook verschillende machtigingsniveaus instellen voor andere gebruikers.
 
 Het is gemakkelijk om een rapport te creëren, het aan een dashboard toe te voegen, en de gegevens uit te voeren naar Excel. Grafieken en rapporten kunnen worden vergroot of verkleind en naar de gewenste positie op het dashboard worden gesleept.
 
@@ -76,7 +76,7 @@ In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren
 
 ### Uw dashboards delen {#sharingdash}
 
-Omhoog schalen [!DNL MBI] gedurende uw hele organisatie en voor waardevolle inzichten raadt Adobe u aan dashboards te delen die u maakt met andere teamleden. *U kunt dashboards delen u bezit* door op de knop `Share Dashboard` boven aan de pagina.
+Omhoog schalen [!DNL Commerce Intelligence] gedurende uw hele organisatie en voor waardevolle inzichten raadt Adobe u aan dashboards te delen die u maakt met andere teamleden. *U kunt dashboards delen u bezit* door op de knop `Share Dashboard` boven aan de pagina.
 
 Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op een individuele basis toewijzen, betekenend kunt u beslissen wie uw rapporten kan bekijken en uitgeven.
 
@@ -113,7 +113,7 @@ Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op ee
 
    **`Default`**
 
-   1. Als u dit dashboard als standaard voor uw [!DNL MBI] account, klik op **[!UICONTROL Make Default]**.
+   1. Als u dit dashboard als standaard voor uw [!DNL Commerce Intelligence] account, klik op **[!UICONTROL Make Default]**.
 
    **`Remove`**
 

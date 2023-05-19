@@ -2,9 +2,9 @@
 title: Het identificeren van Uw Waardigste Marketingbronnen en Kanalen
 description: Meer informatie over bepaalde rapporten die u kunt gebruiken om uw meest waardevolle marketingkanalen te ontdekken.
 exl-id: 8d25bc80-ea60-47db-b01b-04a23a24c14d
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Je hebt je publiek onderzocht, je hebt je campagne gemaakt, je hebt geïnvesteerd in een paar marketingkanalen. Nu er enige tijd voorbij is, hoe presteren die kanalen? Welk kanaal heeft de meest nieuwe gebruikers gebracht? Welke bron heeft het meest aan uw totale opbrengst bijgedragen?
 
-Met [!DNL MBI]kunt u uw omzet en gebruikers eenvoudig segmenteren op verwijzingsbron, of het beantwoordt aan [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) of aangepaste gegevensvelden. Dankzij deze segmentatie kunt u uw best presterende kanalen vinden en uw marketingbudget beter investeren.
+Met [!DNL Adobe Commerce Intelligence]kunt u uw omzet en gebruikers eenvoudig segmenteren op verwijzingsbron, of het beantwoordt aan [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) of aangepaste gegevensvelden. Dankzij deze segmentatie kunt u uw best presterende kanalen vinden en uw marketingbudget beter investeren.
 
-In dit artikel worden enkele rapporten besproken die u kunt gebruiken om uw meest waardevolle marketingkanalen te ontdekken:
+In dit onderwerp worden enkele rapporten besproken die u kunt gebruiken om uw waardevolle marketingkanalen te ontdekken:
 
 * [Nieuwe gebruikers op bronnen](#newusersbysource)
 * [Gemiddelde levensopbrengst per gebruikersbron](#avglifetimerev)
@@ -25,7 +25,7 @@ In dit artikel worden enkele rapporten besproken die u kunt gebruiken om uw mees
 
 ## Vereisten {#prereqs}
 
-Om de analyses in dit artikel te bouwen, hebt u toegang tot marketing aanschafgegevens/verwijzingsbrongegevens nodig. Als u het nog niet hebt bijgehouden, moet u [verwijzingsbrongegevens bestellen van [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) in [!DNL MBI] voordat u kunt doorgaan. Bovendien kunt u zien welke technologie uw referenties gebruiken wanneer u apparaatinformatie aan uw analyses toevoegt.
+Om de analyses in dit onderwerp te bouwen, hebt u toegang tot marketing verwerving/verwijzingsbrongegevens nodig. Als u het nog niet hebt bijgehouden, moet u [verwijzingsbrongegevens bestellen van [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) in [!DNL Adobe Commerce Intelligence] voordat u kunt doorgaan. Bovendien kunt u door apparaatgegevens aan uw analyses toe te voegen, zien welke technologie uw referenties gebruiken.
 
 ## Nieuwe gebruikers op bron {#newusersbysource}
 
@@ -111,7 +111,7 @@ Hier is een visuele analyse:
 
 ## Omloop omhoog {#wrapup}
 
-In dit artikel worden slechts enkele analyses genoemd die je kunt gebruiken om de waarde van je aankoop- en marketingkanalen te analyseren, maar dit is slechts het topje van de ijsberg.
+In dit onderwerp werden slechts enkele analyses genoemd die je kunt gebruiken om de waarde van je aankoop- en marketingkanalen te analyseren, maar dit is slechts het topje van de ijsberg.
 
 ## Verwante {#related}
 

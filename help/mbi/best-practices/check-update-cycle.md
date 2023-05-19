@@ -2,22 +2,22 @@
 title: De status van de updatecyclus controleren
 description: Leer hoe u de status van de updatecyclus kunt controleren.
 exl-id: bd65f2bb-86c1-4e83-a132-797694ddb086
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
 # Voortgang van cyclus bijwerken
 
-Wanneer u zich aanmeldt bij uw [!DNL MBI] dashboard, er zijn verscheidene manieren om de status van uw laatste updatecyclus te controleren. Het hangt allemaal af van het type [gebruikersmachtigingen](../administrator/user-management/user-management.md) dat hebt u.
+Wanneer u zich aanmeldt bij uw [!DNL Adobe Commerce Intelligence] dashboard, er zijn verscheidene manieren om de status van uw laatste updatecyclus te controleren. Het hangt allemaal af van het type [gebruikersmachtigingen](../administrator/user-management/user-management.md) dat hebt u.
 
 ## Waarom zou ik de status van de Update Cycle controleren?
 
-Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw controleert [!DNL MBI] account. Indien u [resultaten die niet aan uw verwachtingen voldoen](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md)bijvoorbeeld de dagelijkse verkoop in [!DNL MBI] komen niet overeen met wat u ziet in uw e-commerceplatform of in uw [[!DNL Google] e-commerceontvangsten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=en) U kunt het laatste gegevenspunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
+Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw controleert [!DNL Commerce Intelligence] account. Indien u [resultaten die niet aan uw verwachtingen voldoen](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md)bijvoorbeeld de dagelijkse verkoop in [!DNL Commerce Intelligence] komen niet overeen met wat u ziet in uw e-commerceplatform of in uw [[!DNL Google] e-commerceontvangsten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) U kunt het laatste gegevenspunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
 
-## [!UICONTROL Read-Only] en [!UICONTROL Standard]** Gebruikers
+## [!UICONTROL Read-Only] en [!UICONTROL Standard] Gebruikers
 
 `Read-only` gebruikers kunnen zich aanmelden bij hun dashboard en zien hoe recent de gegevens zijn bijgewerkt door de muisaanwijzer op het pictogram rechtsboven op de pagina te plaatsen. Dit toont wanneer het laatste gegevenspunt werd getrokken.
 
@@ -39,4 +39,4 @@ Als er geen update wordt uitgevoerd, ziet u een koppeling waarmee een update wor
 
 >[!NOTE]
 >
->Als u brainstormuren hebt (tijdstip waarop u dit niet wilt [!DNL MBI] om uw gegevens bij te werken), door een update te forceren wordt een updatecyclus gestart die niet voldoet aan de beperkingen van deze brainstormuren.
+>Als u brainstormuren hebt (tijdstip waarop u dit niet wilt [!DNL Commerce Intelligence] om uw gegevens bij te werken), door een update te forceren wordt een updatecyclus gestart die niet voldoet aan de beperkingen van deze brainstormuren.

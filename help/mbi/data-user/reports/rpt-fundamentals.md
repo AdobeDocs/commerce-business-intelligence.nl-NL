@@ -2,7 +2,7 @@
 title: Een rapport gebruiken
 description: Leer hoe u uw rapportgegevens gebruikt.
 exl-id: 94d4db27-0e06-4066-9c03-036b109d2d9b
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Een rapport gebruiken
 
-Rapporten gebruiken in [!DNL MBI] om u te helpen bedrijfsvragen beantwoorden - of u eenvoudig de inkomsten van deze maand vergeleken bij vorig jaar wilt zien of uw aanschafkosten voor uw recentste begrijpen [!DNL Google AdWords] campagne.
+Rapporten gebruiken in [!DNL Adobe Commerce Intelligence] om u te helpen bedrijfsvragen beantwoorden - of u eenvoudig de inkomsten van deze maand vergeleken bij vorig jaar wilt zien of uw aanschafkosten voor uw recentste begrijpen [!DNL Google AdWords] campagne.
 
 Hoe ziet dat pad van vraag tot antwoord er precies uit?
 
@@ -62,7 +62,7 @@ Dat wordt dan gebruikt om tot stand te brengen:
 
 Beide velden moeten op gebruikersniveau worden gemaakt (bijvoorbeeld op de `user` tabel). Hierdoor kan de gemiddelde analyse door de gebruikers worden genormaliseerd (met andere woorden, de noemer in deze gemiddelde berekening is het aantal gebruikers).
 
-Dit is waar [!DNL MBI] stappen in! U kunt uw [!DNL MBI] Data Warehouse om de bovenstaande kolommen te maken. Neem contact op met het team van Adobe-analisten en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt ook de opdracht [Kolomeditor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
+Dit is waar [!DNL Commerce Intelligence] stappen in! U kunt uw [!DNL Commerce Intelligence] Data Warehouse om de bovenstaande kolommen te maken. Neem contact op met het team van Adobe-analisten en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt ook de opdracht [Kolomeditor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 Het is aan te raden te vermijden dat u deze berekende gegevensvelden rechtstreeks in uw database maakt, aangezien dit een onnodige belasting voor uw productieservers betekent.
 
@@ -75,7 +75,7 @@ Hier wilt u de volgende berekening uitvoeren:
 
 _[SUM van `Time between a customer's registration date and first purchase date`] / [Totaal aantal klanten dat zich heeft geregistreerd en aangeschaft]_
 
-En u wilt deze berekening in tijd, of trending, volgens de registratiedatum van een klant in kaart brengen. En hier is hoe te [deze metrisch maken](../../data-user/reports/ess-manage-data-metrics.md) in [!DNL MBI]:
+En u wilt deze berekening in tijd, of trending, volgens de registratiedatum van een klant in kaart brengen. En hier is hoe te [deze metrisch maken](../../data-user/reports/ess-manage-data-metrics.md) in [!DNL Commerce Intelligence]:
 
 1. Ga naar **[!UICONTROL Data]** en selecteert u de `Metrics` tab.
 1. Klikken **[!UICONTROL Add New Metric]** en selecteert u de `user` tabel (waarin u de bovenstaande afmetingen hebt gemaakt).

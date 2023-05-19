@@ -1,23 +1,28 @@
 ---
-title: Overzicht van MBI-gebruikershandleiding
-description: Uitgebreide informatie voor MBI gegevensbeheerders.
+title: Handboek voor informatie over handel
+description: Uitgebreide informatie voor gegevensbeheerders van de inlichtingen van de Handel.
 breadcrumb-title: Overzicht van hulplijnen
-seo-title: MBI User Guide
-seo-description: Describes how to use the MBI features used to gain insights from Adobe Commerce or Magento Open Source data.
+seo-title: Commerce Intelligence User Guide
+seo-description: Describes how to use Adobe Commerce Intelligence features used to gain insights from Adobe Commerce or Magento Open Source data, along with other third-party data sources.
 exl-id: f62c7a98-1b4c-4abb-9692-50ce0f3ee1fb
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
 
-# [!DNL MBI] Overzicht van gebruikershandleiding
+
+# [!DNL Adobe Commerce Intelligence] Handboek
+
+>[!NOTE]
+>
+>[!DNL Adobe Commerce Intelligence] voorheen bekend als [!DNL Magento Business Intelligence]. Deze handleiding bevat momenteel een aantal updates waarmee de wijzigingen kunnen worden vastgelegd.
 
 Er zijn twee gebieden voor gegevensbeheerders:
 
 - De beheerder: Gebruik dit gebied om tot de configuratie UI en het melden toegang te hebben.
-- De opdrachtregelinterface: Gebruik dit gereedschap om installatie- en achtergrondconfiguratietaken uit te voeren.
+- De bevel-lijn interface (CLI): Gebruik dit gereedschap om installatie- en achtergrondconfiguratietaken uit te voeren.
 
 ## Hoe deze gids te gebruiken
 
@@ -25,24 +30,24 @@ Deze gids bevat de volgende secties die op welke rol worden georganiseerd u binn
 
 - [Gegevensgebruiker](data-user.md): U gebruikt gegevens om zakelijke beslissingen te nemen. U kunt rapporten en dashboards van een gegevensanalist op uw team ontvangen, maar u wilt ook leren hoe te om die rapporten en dashboards tot stand te brengen.
 - [Data Analyst](data-analyst.md): U bent comfortabel het ontwerpen van vragen en het zijn de go-aan persoon voor gegevensanalyse. U weet hoe u specifieke antwoorden kunt vinden op gegevensvragen en u wilt een zelfbedieningservaring voor uw collega&#39;s vergemakkelijken.
-- Beheerder: U beheert de [!DNL MBI] account, waaronder licenties, het toevoegen en verwijderen van gebruikers en het uitvoeren van essentiële administratieve taken.
+- Beheerder: U beheert de [!DNL Commerce Intelligence] account, waaronder licenties, het toevoegen en verwijderen van gebruikers en het uitvoeren van essentiële administratieve taken.
 
 Naast de bovenstaande op rol-gebaseerde workflows bevat deze handleiding ook:
 
-- Aanbevolen procedures: [!UICONTROL MBI] is een robuust en flexibel platform, wat betekent dat er veel verschillende manieren zijn om soortgelijke taken uit te voeren. In deze sectie worden de [!DNL MBI] aanbevolen methoden voor het vastleggen, analyseren en bekijken van uw gegevens.
-- Tutorials: Volg deze zelfstudies om de kracht van [!DNL MBI].
+- Aanbevolen procedures: [!UICONTROL Commerce Intelligence] is een robuust en flexibel platform, wat betekent dat er veel verschillende manieren zijn om soortgelijke taken uit te voeren. In deze sectie worden de [!DNL Commerce Intelligence] aanbevolen methoden voor het vastleggen, analyseren en bekijken van uw gegevens.
+- Tutorials: Volg deze zelfstudies om de kracht van [!DNL Commerce Intelligence].
 
 ## Hoe krijg je hulp?
 
-Neem contact op met het ondersteuningsteam als u vragen hebt, gebruik wilt maken van sommige van uw Professional Services of problemen met uw account wilt ondervinden.
+Contact opnemen met de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u vragen hebt en gebruik wilt maken van sommige van uw Professional Services of als er problemen optreden met uw account.
 
 ### Servicebeleid
 
-Zie een [lijst van de diensten die het team van de klantensteun verleent](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Zie een [lijst van de diensten die het team van de klantensteun verleent](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ### Een ondersteuningsticket indienen
 
-Hebt u hulp nodig bij het bouwen van een geavanceerd berekend kolom? Is er een fout of verbindingsprobleem opgetreden? Als u contact moet opnemen met het ondersteuningsteam, vraagt Adobe u om de functie [richtlijnen voor ondersteuningstickets] (https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en). In deze richtsnoeren wordt beschreven welke informatie Adobe nodig heeft om het probleem op te lossen.
+Hebt u hulp nodig bij het bouwen van een geavanceerd berekend kolom? Is er een fout of verbindingsprobleem opgetreden? Als u contact moet opnemen met het ondersteuningsteam, vraagt Adobe u om de functie [richtlijnen voor ondersteuningstickets](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html). In deze richtsnoeren wordt beschreven welke informatie Adobe nodig heeft om het probleem op te lossen.
 
 ## Beschikbare documentatie
 

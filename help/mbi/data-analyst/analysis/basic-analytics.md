@@ -2,16 +2,16 @@
 title: Basisanalyses begrijpen en bouwen
 description: Leer hoe u analyses van basisbeginselen begrijpt en bouwt.
 exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3113'
 ht-degree: 0%
 
 ---
 
 # Basisanalyses
 
-Als u eenmaal vertrouwd bent met de [!DNL MBI] en u hebt een basiskennis van het hulpmiddel, wilt u beginnen rapporten op te stellen. Een van de meest voorkomende vragen die je hebt is: &quot;Waar moet ik naar kijken?&quot;
+Als u eenmaal vertrouwd bent met de [!DNL Adobe Commerce Intelligence] en u hebt een basiskennis van het hulpmiddel, wilt u beginnen rapporten op te stellen. Een van de meest voorkomende vragen die je hebt is: &quot;Waar moet ik naar kijken?&quot;
 
 De informatie hieronder schetst enkele gemeenschappelijke metriek en rapporten die u waardevol zou kunnen vinden. Sommige van deze rapporten bestaan in uw account, dus controleer de cijfers en rapporten die in uw account staan om te voorkomen dat er duplicaten worden gemaakt.
 
@@ -44,7 +44,7 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 **Accepteer je gastorders?**
 
-*In dat geval bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om ervoor te zorgen dat alle klanten bij de analyses van uw klanten worden betrokken.*
+*In dat geval bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om ervoor te zorgen dat alle klanten bij de analyses van uw klanten worden betrokken.*
 
 *Weet u niet zeker of u gastorders accepteert? Zie [dit onderwerp](../data-warehouse-mgr/guest-orders.md) voor meer informatie!*
 
@@ -58,7 +58,7 @@ In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze tabe
 * **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
 * **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam op uw `Customers` tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar als dit de 15e bestelling van de klant was, staat in deze kolom &quot;15&quot; voor deze bestelling. Als deze dimensie niet bestaat op uw `Customers` tabel, vraag de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar als dit de 15e bestelling van de klant was, staat in deze kolom &quot;15&quot; voor deze bestelling. Als deze dimensie niet bestaat op uw `Customers` tabel, vraag de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
 * **[!UICONTROL Customer's order number (previous-current)]**: Een aaneenschakeling van twee waarden in de **[!UICONTROL Customer's order number]** kolom. Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
 * **[!UICONTROL Coupon_code]**: Geeft aan welke coupons zijn gebruikt voor elke bestelling.
 * **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.

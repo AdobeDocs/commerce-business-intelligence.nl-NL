@@ -1,19 +1,19 @@
 ---
 title: Zendesk-gegevens verwacht
-description: Leer de belangrijkste gegevenslijsten die u van Zendesk in MBI kunt invoeren, met inbegrip van verbindingen aan extra documentatie over gegevens Zendesk.
+description: Leer de belangrijkste gegevenstabellen die u van Zendesk in de Intelligentie van de Handel kunt invoeren, met inbegrip van verbindingen aan extra documentatie over gegevens Zendesk.
 exl-id: 838d8d13-e2e1-44c2-a416-f1792200ee6f
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-# Zendesk-gegevens verwacht
+# Verwacht [!DNL Zendesk] data
 
 Na [u hebt verbinding gemaakt met uw [!DNL Zendesk] account](../integrations/zendesk.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
-In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt importeren [!DNL Zendesk] in [!DNL MBI], inclusief koppelingen naar aanvullende documentatie over [!DNL Zendesk] gegevens.
+Dit onderwerp verkent de belangrijkste gegevenslijsten die u van kunt invoeren [!DNL Zendesk] in [!DNL Adobe Commerce Intelligence], inclusief koppelingen naar aanvullende documentatie over [!DNL Zendesk] gegevens.
 
 | Tabelnaam | Beschrijving |
 |-----|-----|
@@ -33,4 +33,4 @@ In dit artikel worden de belangrijkste gegevenstabellen besproken waaruit u kunt
 ## Verwante
 
 * [Zendesk verbinden](../integrations/zendesk.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

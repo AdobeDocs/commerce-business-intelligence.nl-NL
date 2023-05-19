@@ -2,7 +2,7 @@
 title: Analyse van de verwachte levenwaarde (LTV) (basis)
 description: Leer hoe u analyses maakt om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen toeneemt.
 exl-id: e6f02cf6-f542-4768-969c-3ec998a7caa9
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Het voorspellen van de levenwaarde van klanten aangezien zij meer orden plaatsen is één van de belangrijkste aspecten van om het even welke zaken van om het even welke grootte.
 
-Hier volgen de stappen om analyses te maken om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen toeneemt:
+Hieronder vindt u de stappen voor het maken van analyses om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen toeneemt.
 
 ![verwachte levenwaarde](../../assets/expected_ltv_720.png)
 

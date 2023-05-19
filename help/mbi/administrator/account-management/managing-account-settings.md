@@ -2,9 +2,9 @@
 title: Uw accountinstellingen beheren
 description: Leer hoe u uw accountinstellingen voor uw Data Warehouse kunt aanpassen.
 exl-id: 847d51b1-287e-4c14-b64e-0bd9bfcccedc
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen.](../../administrator/user-management/user-management.md)
 
-In uw [!DNL MBI] -account, kunt u uw accountinstellingen aanpassen voor uw Data Warehouse. U kunt deze openen door de naam van uw organisatie te selecteren in de rechterbovenhoek van een scherm en vervolgens **[!UICONTROL Account Settings]** in de vervolgkeuzelijst.
+In uw [!DNL Commerce Intelligence] -account, kunt u uw accountinstellingen aanpassen voor uw Data Warehouse. U kunt deze openen door de naam van uw organisatie te selecteren in de rechterbovenhoek van een scherm en vervolgens **[!UICONTROL Account Settings]** in de vervolgkeuzelijst.
 
 * **[!UICONTROL Client Name:]** Deze instelling wordt in de rechterbovenhoek van alle dashboards en elders in uw account weergegeven. Als u wilt wijzigen **[!UICONTROL "Vandelay Industries Co., Ltd]** alleen **[!UICONTROL "Vandelay]** Dat is de juiste weg.
 

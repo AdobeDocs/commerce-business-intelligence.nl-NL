@@ -2,9 +2,9 @@
 title: Coupon Code Analysis (basis)
 description: Meer informatie over de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en de gewoonten van klanten beter te begrijpen.
 exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw bestellingen te segmenteren en de gewoonten van klanten beter te begrijpen.
 
-In dit artikel worden de stappen beschreven die nodig zijn om deze analyse te maken, zodat u kunt zien hoe klanten met coupon het gebruik van afzonderlijke couponcodes uitvoeren, trends kunt zien en het gebruik van afzonderlijke couponcodes kunt bijhouden.
+Dit onderwerp documenteert de stappen die worden vereist om deze analyse tot stand te brengen om te begrijpen hoe de op coupon-verworven klanten presteren, trends, en het gebruik van individuele couponcode volgen.
 
 ![](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
@@ -21,7 +21,7 @@ In dit artikel worden de stappen beschreven die nodig zijn om deze analyse te ma
 
 Eerst een opmerking over hoe couponcodes worden bijgehouden. Als een klant een coupon op een bestelling heeft toegepast, gebeuren er drie dingen:
 
-* Een korting wordt weerspiegeld in de `base_grand_total` hoeveelheid (uw `Revenue` (in MBI)
+* Een korting wordt weerspiegeld in de `base_grand_total` hoeveelheid (uw `Revenue` metrisch in de inlichtingen van de Handel)
 * De couponcode wordt opgeslagen in het dialoogvenster `coupon_code` veld. Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
 * Het gedisconteerde bedrag wordt opgeslagen in `base_discount_amount`. Afhankelijk van uw configuratie kan deze waarde negatief of positief lijken.
 

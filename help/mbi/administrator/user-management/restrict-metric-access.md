@@ -2,9 +2,9 @@
 title: Toegang tot metriek beperken
 description: Leer hoe u met metrische toegang en beperkingen werkt.
 exl-id: 88f5ca7a-8073-4968-9685-95f141b2a87f
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,8 @@ Nadat u het machtigingsniveau hebt ingesteld, kunt u de metriek selecteren als *
 
 1. Ga naar **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]**.
 1. Selecteer de gewenste gebruikersaccount.
-1. De **[!UICONTROL Metrics]** wordt een lijst weergegeven met beschikbare maatstaven. Controleer de meetgegevens waartoe de gebruiker toegang moet hebben; Schakel de opties uit waartoe de gebruiker geen toegang mag hebben.
-1. [!DNL MBI] Hiermee worden de wijzigingen automatisch opgeslagen. Als de wijziging is gelukt, [!DNL MBI] displays **[!UICONTROL Saved!]** boven aan de pagina.
+1. De **[!UICONTROL Metrics]** wordt een lijst weergegeven met beschikbare maatstaven. Controleer de meetgegevens waartoe de gebruiker toegang moet hebben en hef de selectie op van de gegevens waartoe de gebruiker geen toegang mag hebben.
+1. [!DNL Adobe Commerce Intelligence] Hiermee worden de wijzigingen automatisch opgeslagen. Als de wijziging is gelukt, [!DNL Commerce Intelligence] displays **[!UICONTROL Saved!]** boven aan de pagina.
 
 >[!NOTE]
 >
@@ -30,4 +30,4 @@ U kunt toegang tot metrisch ook beperken door metrisch uit te geven en **[!UICON
 
 >[!NOTE]
 >
->Als u een metrische waarde dupliceert, [!DNL MBI] kopieert de gebruikerstoestemmingen die in originele metrisch worden geplaatst.
+>Als u een metrische waarde dupliceert, [!DNL Commerce Intelligence] kopieert de gebruikerstoestemmingen die in originele metrisch worden geplaatst.

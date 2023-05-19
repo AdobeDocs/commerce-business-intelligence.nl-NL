@@ -2,9 +2,9 @@
 title: sales_order tabel
 description: Leer hoe u met de tabel sales_order werkt.
 exl-id: 19a8ab88-de51-48f8-af39-ae4897834afe
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Deze lijst omvat alle klantenorden, of die orde door gastcontrole werd verwerkt.
 | `base_tax_amount` | Belastingwaarde toegepast op bestelling |
 | `billing_address_id` | `Foreign key` in verband met de `sales_order_address` tabel. Verbinden met `sales_order_address.entity_id` om de factureringsadresdetails te bepalen verbonden aan de orde |
 | `coupon_code` | Coupon toegepast op bestelling. Als er geen coupon wordt toegepast, wordt dit veld `NULL` |
-| `created_at` | Tijdstempel van de bestelling wordt lokaal in UTC opgeslagen. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
+| `created_at` | Tijdstempel van de bestelling wordt lokaal in UTC opgeslagen. Afhankelijk van uw configuratie in [!DNL Commerce Intelligence]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL Commerce Intelligence] die van uw streek van de gegevensbestandtijd verschilt |
 | `customer_email` | E-mailadres van de klant die de bestelling plaatst. Dit is in alle situaties bevolkt, met inbegrip van bestellingen die door gastafhandeling worden verwerkt |
 | `customer_group_id` | Buitenlandse sleutel gekoppeld aan de `customer_group` tabel. Verbinden met `customer_group.customer_group_id` om de klantengroep te bepalen verbonden aan de orde |
 | `customer_id` | `Foreign key` in verband met de `customer_entity` tabel, als de klant is geregistreerd. Verbinden met `customer_entity.entity_id` om klantenattributen te bepalen verbonden aan de orde. Als de bestelling via uitchecken door gasten is geplaatst, is dit veld `NULL` |
@@ -55,7 +55,7 @@ Deze lijst omvat alle klantenorden, of die orde door gastcontrole werd verwerkt.
 | `Customer's lifetime revenue` | Som totaal van opbrengsten voor alle orders geplaatst door deze klant. Berekend door de `base_grand_total` veld voor alle orders voor elke unieke klant |
 | `Customer's order number` | Volgorde in volgorde voor bestelling van deze klant. Berekend door alle orders te identificeren die door een klant zijn geplaatst, en deze in oplopende volgorde te sorteren door de `created_at` tijdstempel en een incrementele geheel-getalwaarde toewijzen aan elke volgorde. De eerste bestelling van de klant retourneert bijvoorbeeld een `Customer's order number` van 1, retourneert de tweede bestelling van de klant een `Customer's order number` van 2 enzovoort. |
 | `Customer's order number (previous-current)` | Rang van de vorige bestelling van de klant samengevoegd met de rangorde van deze bestelling, gescheiden door een `-` teken. Berekend door samenvoegen (&quot;`Customer's order number` - 1&quot;) met &quot;`-`&quot; gevolgd door &quot;`Customer's order number`&quot;. Voor de bestelling die is gekoppeld aan de tweede aankoop van de klant retourneert deze kolom bijvoorbeeld de waarde van `1-2`. Het vaakst gebruikt wanneer het vertegenwoordigen van de tijd tussen twee ordegebeurtenissen (namelijk in de &quot;Tijd tussen orden&quot;grafiek) |
-| `Is customer's last order?` | Hiermee wordt bepaald of de bestelling overeenkomt met de laatste of meest recente bestelling van de klant. Berekend door de `Customer's order number` waarde met `Customer's lifetime number of orders`. Wanneer deze twee velden gelijk zijn voor de gegeven volgorde, retourneert deze kolom &quot;Ja&quot;; anders wordt &quot;Nee&quot; geretourneerd |
+| `Is customer's last order?` | Hiermee wordt bepaald of de bestelling overeenkomt met de laatste of meest recente bestelling van de klant. Berekend door de `Customer's order number` waarde met `Customer's lifetime number of orders`. Wanneer deze twee velden gelijk zijn voor de opgegeven volgorde, wordt deze kolom geretourneerd `Yes`; anders retourneert het `No` |
 | `Number of items in order` | Totale hoeveelheid items die in de bestelling is opgenomen. Berekend door verbinding `sales_order`.`entity_id` tot `sales_order_item`.`order_id` en de `sales_order_item`.`qty_ordered` field |
 | `Seconds between customer's first order date and this order` | Verlopen tijd tussen deze bestelling en de eerste bestelling van de klant. Berekend door aftrekken `Customer's first order date` van de `created_at` voor elke orde, teruggekeerd als geheel aantal seconden |
 | `Seconds since previous order` | Verlopen tijd tussen deze bestelling en de onmiddellijk voorafgaande bestelling van de klant. Berekend door de `created_at` voor de vorige bestelling van de `created_at` van deze volgorde, geretourneerd als een geheel getal van seconden. Bijvoorbeeld, voor het orderverslag dat aan de derde orde van een klant beantwoordt, keert deze kolom het aantal seconden tussen de tweede orde van de klant en derde orde terug. Voor de eerste bestelling van de klant retourneert dit veld `NULL` |

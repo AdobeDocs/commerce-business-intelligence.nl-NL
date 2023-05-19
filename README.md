@@ -1,5 +1,5 @@
 ---
-source-git-commit: 84182bc922e95cf066675af936add7ca7b82bfae
+source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -11,7 +11,7 @@ Wij verwelkomen de bijdragen van onze gemeenschap en van Adobe werknemers van bu
 
 ## Adobe Open-Source-gedragscode
 
-Dit project heeft het [Adobe Open-Source-gedragscode](../code-of-conduct.md) of de [.NET de Gedragscode van de Stichting](https://dotnetfoundation.org/code-of-conduct). Zie voor meer informatie de [Bijdragen](../contributing.md) artikel.
+Dit project heeft het [Adobe Open-Source-gedragscode](../code-of-conduct.md) of de [.NET de Gedragscode van de Stichting](https://dotnetfoundation.org/code-of-conduct). Zie voor meer informatie de [Bijdragen](../contributing.md) onderwerp.
 
 ## Over uw bijdragen aan Adobe-inhoud
 
@@ -21,7 +21,7 @@ Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen 
 
 ### Kleine wijzigingen
 
-Als u kleine updates aanbrengt uit uw goedheid, gaat u naar het artikel en klikt u op de knop **Bewerken** verbinding in het artikel dat naar de bron GitHub voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie de algemene [Handleiding Adobe Docs Contributor](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie .
+Als u kleine updates aanbrengt uit uw goedheid, gaat u naar het artikel en klikt u op de knop **Bewerken** verbinding in het artikel dat naar de bron GitHub voor het onderwerp gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie de algemene [Handleiding Adobe Docs Contributor](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie .
 
 Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden in dit antwoord aanbrengt, worden behandeld in de gebruiksvoorwaarden van de Adobe.
 

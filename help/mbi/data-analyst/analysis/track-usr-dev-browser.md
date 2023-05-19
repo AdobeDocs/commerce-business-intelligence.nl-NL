@@ -2,16 +2,16 @@
 title: Google Analytics - Gebruikersapparaat en browsergegevens bijhouden in uw database
 description: Leer hoeveel gebruikers zich daadwerkelijk aanmelden via mobiele apparaten en hoe dat de levensduurwaarde van deze gebruikers beïnvloedt.
 exl-id: 57b1bc45-b139-4370-86ea-2fbd021aa14d
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Google Analytics] Tekstspatiëring
 
-Met [!UICONTROL Google Analytics] u [bron-informatie opslaan](../analysis/google-track-user-acq.md) om te begrijpen waar uw meest waardevolle gebruikers vandaan komen. In dit onderwerp, zult u over het platform (bijvoorbeeld, apparaat of browser) leren uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
+Met [!UICONTROL Google Analytics] u [bron-informatie opslaan](../analysis/google-track-user-acq.md) om te begrijpen waar uw meest waardevolle gebruikers vandaan komen. Dit onderwerp bespreekt het platform (bijvoorbeeld, apparaat of browser) uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
 
 ## Gebruikersapparaat en browsergegevens opslaan
 
@@ -30,7 +30,7 @@ Deze gegevens zijn voor elke server toegankelijk wanneer een aanvraag wordt inge
 
 ### Wanneer moet u deze gegevens vastleggen?
 
-Adobe raadt u aan een nieuw veld met de naam `Platform` of `User-Agent` aan uw `Customers` en `Orders` databasetabellen waarin deze gegevens worden opgeslagen wanneer een gebruiker wordt gemaakt of een bestelling wordt geplaatst. Als u een SQL-database gebruikt, moet dit veld een `VARCHAR(255)`. 
+[!DNL Adobe] raadt u aan een nieuw veld met de naam `Platform` of `User-Agent` aan uw `Customers` en `Orders` databasetabellen waarin deze gegevens worden opgeslagen wanneer een gebruiker wordt gemaakt of een bestelling wordt geplaatst. Als u een SQL-database gebruikt, moet dit veld een `VARCHAR(255)`. 
 
 >[!NOTE]
 >

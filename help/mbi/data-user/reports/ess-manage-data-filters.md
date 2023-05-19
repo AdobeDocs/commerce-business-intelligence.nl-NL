@@ -2,18 +2,18 @@
 title: Filtersets maken voor metriek
 description: Leer hoe u opgeslagen filtersets maakt en deze op de metriek toepast.
 exl-id: 6ef8b67c-bebd-45eb-bca7-95832ec34fc8
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Filtersets maken
 
-Als u meerdere meetwaarden hebt in [!DNL MBI] die op gelijkaardige wijze moeten worden gefiltreerd (bijvoorbeeld, filter uit testorden), kunt u bewaarde Reeksen van de Filter tot stand brengen en hen op metriek toepassen. Hierdoor bespaart u tijd, omdat u geen afzonderlijke filters hoeft toe te voegen wanneer u een metrisch object maakt of bewerkt.
+Als u meerdere meetwaarden hebt in [!DNL Commerce Intelligence] die op gelijkaardige wijze moeten worden gefiltreerd (bijvoorbeeld, filter uit testorden), kunt u bewaarde Reeksen van de Filter tot stand brengen en hen op metriek toepassen. Hierdoor bespaart u tijd, omdat u geen afzonderlijke filters hoeft toe te voegen wanneer u een metrisch object maakt of bewerkt.
 
-Zie de [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html?lang=en) voor meer informatie.
+Zie de [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html) voor meer informatie .
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Zie de [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowled
 
 1. Controleer de filterlogica en of de ronde haakjes en operatoren correct zijn geplaatst: bijvoorbeeld: `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
 
-   Een onjuist filter is vaak de oorzaak van gegevensdiscrepanties tussen [!DNL MBI] rapporten en de verwachte resultaten.
+   Een onjuist filter is vaak de oorzaak van gegevensdiscrepanties tussen [!DNL Commerce Intelligence] rapporten en de verwachte resultaten.
 
 1. Sla de `Filter Set`.
 
@@ -45,7 +45,7 @@ Nadat een filterset is opgeslagen, kunt u deze toepassen op elke metrische waard
 
 >[!NOTE]
 >
->`Filter Sets` kan ook worden toegepast op berekende kolommen in [!DNL MBI]. U kunt een filterset toepassen op een gegevensdimensie die is gemaakt in [!DNL MBI] via contact op te nemen met ondersteuning.
+>`Filter Sets` kan ook worden toegepast op berekende kolommen in [!DNL Commerce Intelligence]. U kunt een filterset toepassen op een gegevensdimensie die is gemaakt in [!DNL Commerce Intelligence] via contact op te nemen met ondersteuning.
 
 ## Verwante
 

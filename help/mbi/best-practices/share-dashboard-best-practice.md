@@ -2,7 +2,7 @@
 title: Dashboards delen
 description: Leer met uw dashboards te werken en te delen.
 exl-id: 73df627f-bc08-45c0-aa5e-410c4fd0642d
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Een dashboard delen
 
-Door het delen van dashboards bezitten u en uw team op elk gewenst moment dezelfde informatie, waardoor samenwerking en discussie mogelijk zijn. Hier volgen enkele aanbevelingen voor het delen van dashboards en het behouden van uw [!DNL MBI] account onoverzichtelijk.
+Door het delen van dashboards bezitten u en uw team op elk gewenst moment dezelfde informatie, waardoor samenwerking en discussie mogelijk zijn. Hier volgen enkele aanbevelingen voor het delen van dashboards en het behouden van uw [!DNL Adobe Commerce Intelligence] account onoverzichtelijk.
 
 ## Dubbele dashboards voorkomen
 
 Het kan voorkomen dat er meerdere dashboards met dezelfde naam zijn, dit komt meestal omdat andere gebruikers vergelijkbare dashboards met u hebben gemaakt en gedeeld. Deze dashboards kunnen duplicaten zijn van een primaire kopie. In dit geval raadt Adobe aan dat één gebruiker de primaire kopie van het dashboard deelt en vervolgens alle dubbele dashboards verwijdert.
 
-Als u wilt zien wie de eigenaar is van een dashboard, klikt u op het dashboard-vervolgkeuzemenu linksboven. Alle dashboards zonder een naam eronder, zijn van u.
+Als u wilt zien wie eigenaar is van een dashboard, klikt u op het vervolgkeuzemenu in de linkerbovenhoek. Alle dashboards zonder een naam eronder, zijn van u.
 
 ![](../../mbi/assets/Dash_ownership.gif)
 
@@ -30,7 +30,7 @@ Alle dubbele dashboards verwijderen:
 
 ## Een kernset van dashboards maken
 
-Wanneer nieuwe gebruikers worden gemaakt, hebben zij geen dashboards of grafieken. Zij zullen, echter, een lijst van de populairste dashboards in uw organisatie (met Mening of geef rechten voor het volledige team uit) wanneer het eerst het programma openen. Zorg ervoor dat dashboards altijd in deze lijst zijn zodat de nieuwe gebruikers kunnen worden omvat.
+Wanneer nieuwe gebruikers worden gemaakt, hebben zij geen dashboards of grafieken. Nochtans, zullen zij een lijst van de populairste dashboards in uw organisatie (met Mening of geef rechten voor het volledige team uit) wanneer het eerst het programma openen. Zorg ervoor dat dashboards altijd in deze lijst zijn zodat de nieuwe gebruikers kunnen worden omvat.
 
 ## Dashboards delen met Nieuwe Gebruikers
 

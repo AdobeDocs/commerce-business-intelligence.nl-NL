@@ -2,9 +2,9 @@
 title: Google Analytics - het Overzicht van de Gegevens van de Bron van de Aankoop van de Gebruiker van het spoor
 description: Leer hoe u uw gegevens kunt segmenteren op basis van de aankoopbron van de gebruiker.
 exl-id: 2ce3e4f9-4741-4ada-b822-ec6a5ca94497
-source-git-commit: ad95a03193853eebf2b695cd6f5c3cb5a9837f93
+source-git-commit: af1e3839839b4c419beabb0cc666c996ea2179d4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '791'
 ht-degree: 1%
 
 ---
@@ -13,27 +13,27 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Het onderstaande proces ondersteunt niet [!DNL GoogleUniversal Analytics].
+>Het onderstaande proces ondersteunt niet [!DNL Google Universal Analytics].
 
 De mogelijkheid om uw gegevens te segmenteren op basis van de aankoopbron van de gebruiker is van essentieel belang voor het effectief beheren van uw marketingplan. Als u de aankoopbron van nieuwe gebruikers kent, ziet u welke kanalen de beste opbrengsten opleveren en stelt u uw team in staat marketingdollars met vertrouwen toe te wijzen.
 
-Als u de aanschafbronnen van gebruikers nog niet bijhoudt in uw database, [!DNL MBI] kunt u helpen aan de slag te gaan:
+Als u de aanschafbronnen van gebruikers nog niet bijhoudt in uw database, [!DNL Adobe Commerce Intelligence] kunt u helpen aan de slag te gaan:
 
 ## Ophaalbron van gebruiker bijhouden
 
-Adobe raadt twee methoden aan om brongegevens van verwijzingen te volgen op basis van uw setup:
+[!DNL Adobe] adviseert twee methodes om verwijzingsbrongegevens te volgen die op uw opstelling worden gebaseerd:
 
 ### (Optie 1) Brongegevens voor verwijzing bijhouden via [!DNL Google Analytics E-Commerce] (Inclusief [!DNL Shopify] Winkels)
 
-Als u [!DNL Google Analytics E-Commerce] om uw bestelling en verkoopgegevens te volgen, kunt u [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) om de brongegevens van elke opdracht te synchroniseren. Dit staat u toe om opbrengst en bevelen door verwijzingsbron (bijvoorbeeld) te segmenteren `utm_source` of `utm_medium`). U krijgt ook een gevoel van bronnen voor klantaankopen via [!DNL MBI] aangepaste afmetingen zoals `User's first order source`.
+Als u [!DNL Google Analytics E-Commerce] om uw bestelling en verkoopgegevens te volgen, kunt u [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) om de brongegevens van elke opdracht te synchroniseren. Dit staat u toe om opbrengst en bevelen door verwijzingsbron (bijvoorbeeld) te segmenteren `utm_source` of `utm_medium`). U krijgt ook een gevoel van bronnen voor klantaankopen via [!DNL Commerce Intelligence] aangepaste afmetingen zoals `User's first order source`.
 
 >[!NOTE]
 >
->Voor gebruikers van Shopify*: Inschakelen [!DNL [Google Analytics E-Commerce] tracking in Shopify](https://help.shopify.com/en/manual/reports-and-analytics/google-analytics#ecommerce-tracking) voordat u verbinding maakt met uw [!DNL Google Analytics E-Commerce] account aan [!DNL MBI].
+>**Voor gebruikers van Shopify**: Inschakelen [!DNL [Google Analytics E-Commerce] tracking in Shopify](https://help.shopify.com/en/manual/reports-and-analytics/google-analytics#ecommerce-tracking) voordat u verbinding maakt met uw [!DNL Google Analytics E-Commerce] account aan [!DNL Commerce Intelligence].
 
 ### (Optie 2) Opslaan [!DNL Google Analytics]&#39; brongegevens in de database verkrijgen
 
-In dit artikel wordt uitgelegd hoe u het bestand opslaat [!DNL Google Analytics] de informatie van het verwervingskanaal in uw eigen gegevensbestand - namelijk `source`, `medium`, `term`, `content`, `campaign`, en `gclid` parameters die aanwezig waren op het eerste bezoek van een gebruiker aan uw website. Voor een uitleg van deze parameters raadpleegt u de [!DNL [Google Analytics] documentation](https://support.google.com/analytics/answer/1191184?hl=en#zippy=%2Cin-this-article). Vervolgens verkent u enkele krachtige marketinganalyses die met deze informatie kunnen worden uitgevoerd in [!DNL MBI].
+In dit onderwerp wordt uitgelegd hoe u het bestand opslaat [!DNL Google Analytics] de informatie van het verwervingskanaal in uw eigen gegevensbestand - namelijk `source`, `medium`, `term`, `content`, `campaign`, en `gclid` parameters die aanwezig waren op het eerste bezoek van een gebruiker aan uw website. Voor een uitleg van deze parameters raadpleegt u de [!DNL [Google Analytics] documentation](https://support.google.com/analytics/answer/1191184?hl=en#zippy=%2Cin-this-article). Vervolgens verkent u enkele krachtige marketinganalyses die met deze informatie kunnen worden uitgevoerd in [!DNL Commerce Intelligence].
 
 #### Waarom?
 
@@ -51,7 +51,7 @@ Wat als u een follow-up overeenkomst aan alle klanten wilt e-mailen die van een 
 
 > `100000000.12345678.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=rj metrics`
 
-Het is duidelijk dat er bepaalde brongegevens voor acquisities in de tekenreeks zijn gecodeerd. Dit wordt getest om te bevestigen dat dit de recentste aanschafbron van de bezoeker en bijbehorende campagnegegevens is. Nu moet u weten hoe u de gegevens kunt extraheren. Gelukkig heeft Justin Cutroni eerder beschreven hoe deze codering werkt en heeft ze JavaScript-code gedeeld om de belangrijkste gegevensfragmenten te extraheren.
+Het is duidelijk dat er bepaalde brongegevens voor acquisities in de tekenreeks zijn gecodeerd. Dit wordt getest om te bevestigen dat dit de recentste aanschafbron van de bezoeker en bijbehorende campagnegegevens is. Nu moet u weten hoe u de gegevens kunt extraheren.
 
 Deze code is omgezet in een [PHP-bibliotheek gehost op github](https://github.com/RJMetrics/referral-grabber-php). Als u de bibliotheek wilt gebruiken, `include` een verwijzing naar `ReferralGrabber.php` en vervolgens bellen
 
@@ -59,7 +59,7 @@ Deze code is omgezet in een [PHP-bibliotheek gehost op github](https://github.co
 
 De geretourneerde `$data` array is een kaart van de keys `source`, `medium`, `term`, `content`, `campaign`, `gclid`en hun respectieve waarden.
 
-Adobe raadt u aan een tabel met de naam toe te voegen aan uw database, bijvoorbeeld `user_referral`, met de volgende kolommen: `id INT PRIMARY KEY, user_id INT NOT NULL, source VARCHAR(255), medium VARCHAR(255), term VARCHAR(255), content VARCHAR(255), campaign VARCHAR(255), gclid VARCHAR(255)`. Wanneer een gebruiker zich aanmeldt, haalt u de verwijzingsinformatie op en slaat u deze op in deze tabel.
+[!DNL Adobe] Het wordt aanbevolen een tabel aan de database toe te voegen met de naam, bijvoorbeeld `user_referral`, met de volgende kolommen: `id INT PRIMARY KEY, user_id INT NOT NULL, source VARCHAR(255), medium VARCHAR(255), term VARCHAR(255), content VARCHAR(255), campaign VARCHAR(255), gclid VARCHAR(255)`. Wanneer een gebruiker zich aanmeldt, haalt u de verwijzingsinformatie op en slaat u deze op in deze tabel.
 
 #### Hoe deze gegevens te gebruiken
 

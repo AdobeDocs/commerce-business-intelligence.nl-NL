@@ -1,19 +1,19 @@
 ---
 title: Verwachte handelsgegevens
-description: Onderzoek de belangrijkste gegevenslijsten die de gebruikers van de Handel in MBI invoeren
+description: Ontdek de belangrijkste gegevenstabellen die de gebruikers van de Handel in de Intelligentie van de Handel invoeren
 exl-id: b481c8fc-41b6-4094-8901-17d57f26bfc0
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-# Verwachte handelsgegevens
+# Verwacht [!DNL Adobe Commerce] Gegevens
 
-Nadat u [heeft de winkel Commerce aangesloten](../../../data-analyst/importing-data/integrations/magento.md), kunt u de Manager van de Data Warehouse gebruiken om relevante gegevensgebieden van uw gegevensbestand van de Handel voor analyse gemakkelijk te volgen.
+Nadat u [heeft uw [!DNL Adobe Commerce] winkel](../../../data-analyst/importing-data/integrations/magento.md), kunt u de Manager van de Data Warehouse gebruiken om relevante gegevensgebieden van uw gegevensbestand van de Handel voor analyse gemakkelijk te volgen.
 
-In dit artikel worden de belangrijkste gegevenstabellen besproken die gebruikers van de Handel kunnen importeren in [!DNL MBI].
+Dit onderwerp verkent de belangrijkste gegevenslijsten die de gebruikers van de Handel in invoeren [!DNL Commerce Intelligence].
 
 | **Tabelnaam** | **Beschrijving** |
 |-----|-----|
@@ -28,4 +28,4 @@ In dit artikel worden de belangrijkste gegevenstabellen besproken die gebruikers
 ## Verwante
 
 * [Verbinding maken [!DNL Adobe Commerce]](../integrations/magento.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=en)
+* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

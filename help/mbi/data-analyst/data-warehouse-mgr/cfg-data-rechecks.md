@@ -2,31 +2,32 @@
 title: Gegevenscontroles configureren
 description: Leer hoe te om gegevenskolommen met veranderlijke waarden te vormen.
 exl-id: c31ef32e-ba5a-4902-b632-fbab551cc632
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 # Gegevenscontroles configureren
 
-In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld in een `orders`) er kan een kolom met de naam `status`. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde kunnen bevatten _hangend_. De volgorde wordt overgenomen in uw [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) met `pending` waarde.
+In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld in een `orders` tabel kan een kolom met de naam `status`. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde kunnen bevatten _hangend_. De volgorde wordt overgenomen in uw [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) met `pending` waarde.
 
-De status van de orde kan veranderen echter - zij zijn niet altijd in a `pending` status. Uiteindelijk kan het worden `complete` of `cancelled`. Om ervoor te zorgen dat uw Data Warehouse deze wijziging synchroniseert, moet de kolom opnieuw worden gecontroleerd op nieuwe waarden.
+De status van de orde kan veranderen alhoewel zij niet altijd in a zijn `pending` status. Uiteindelijk kan het worden `complete` of `cancelled`. Om ervoor te zorgen dat uw Data Warehouse deze wijziging synchroniseert, moet de kolom opnieuw worden gecontroleerd op nieuwe waarden.
 
 Hoe past dit in de [replicatiemethoden](../data-warehouse-mgr/cfg-replication-methods.md) dat is besproken ? De verwerking van nieuwe controles varieert op basis van de gekozen replicatiemethode. De `Modified\_At` De replicatiemethode is de beste keus voor verwerking veranderende waarden, aangezien de hercontroles niet moeten worden gevormd. De `Auto-Incrementing Primary Key` en `Primary Key Batch Monitoring` voor methoden moet de configuratie opnieuw worden gecontroleerd.
 
 Wanneer u een van deze methoden gebruikt, moeten verwisselbare kolommen worden gemarkeerd voor nieuwe controle. Er zijn drie manieren om dit te doen:
 
-* Een controleproces dat als deel van de update loopt markeert kolommen die opnieuw moeten worden gecontroleerd.
+1. Een controleproces dat als deel van de update loopt markeert kolommen die opnieuw moeten worden gecontroleerd.
 
    >[!NOTE]
    >
    >De controleur baseert zich op een bemonsteringsproces en de veranderende kolommen kunnen niet onmiddellijk worden gevangen.
 
-* U kunt hen plaatsen zelf door checkbox naast de kolom in de Manager van de Data Warehouse te selecteren, die klikt **[!UICONTROL Set Recheck Frequency]** en het kiezen van een geschikt tijdsinterval voor wanneer u op wijzigingen moet controleren.
-* Een lid van de [!DNL MBI] Het team van de Data Warehouse kan de kolommen voor het opnieuw controleren in uw Data Warehouse manueel merken. Als u zich bewust bent van veranderbare kolommen, contacteer het team om te verzoeken dat de nieuwe controles worden geplaatst. Neem een lijst met kolommen en de frequentie op met uw verzoek.
+1. U kunt hen plaatsen zelf door checkbox naast de kolom in de Manager van de Data Warehouse te selecteren, die klikt **[!UICONTROL Set Recheck Frequency]** en het kiezen van een geschikt tijdsinterval voor wanneer u op wijzigingen moet controleren.
+
+1. Een lid van de [!DNL Adobe Commerce Intelligence] Het team van de Data Warehouse kan de kolommen voor het opnieuw controleren in uw Data Warehouse manueel merken. Als u zich bewust bent van veranderbare kolommen, contacteer het team om te verzoeken dat de nieuwe controles worden geplaatst. Neem een lijst met kolommen en de frequentie op met uw verzoek.
 
 ## Frequenties opnieuw controleren {#frequency}
 
@@ -55,7 +56,7 @@ Als u de frequentie voor het opnieuw controleren wilt wijzigen, klikt u op het s
 
 Soms ziet u `Paused` in de `Changes?` kolom. Deze waarde wordt weergegeven wanneer de tabel [replicatiemethode](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is ingesteld op `Paused`.
 
-Adobe raadt aan deze kolommen te reviseren om de updates te optimaliseren en ervoor te zorgen dat de veranderlijke kolommen opnieuw worden gecontroleerd. Als de frequentie voor het opnieuw controleren van een kolom hoog is gezien hoe vaak de gegevens veranderen, adviseert Adobe het verminderen van het om uw updates te optimaliseren.
+[!DNL Adobe] U wordt aangeraden deze kolommen te reviseren om de updates te optimaliseren en ervoor te zorgen dat de verwisselbare kolommen opnieuw worden gecontroleerd. Als de frequentie voor het opnieuw controleren van een kolom hoog is gezien hoe vaak de gegevens veranderen, adviseert Adobe het verminderen van het om uw updates te optimaliseren.
 
 Neem contact met ons op met vragen of vraag naar de huidige replicatiemethoden of hercontroles.
 

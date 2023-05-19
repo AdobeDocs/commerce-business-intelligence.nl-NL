@@ -2,16 +2,16 @@
 title: Bepaal klantenkring
 description: Leer hoe u een dashboard instelt waarmee u het koor voor uw klanten van de transactie kunt definiëren.
 exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Transactionele Klantenketen
 
-Dit artikel toont aan hoe te opstelling een dashboard dat u helpt karn voor uw transactieklanten bepalen.
+Dit onderwerp toont aan hoe te opstelling een dashboard dat u helpt karn voor uw transactieklanten bepalen.
 
 ![](../../assets/churn-deashboard.png)
 
@@ -136,4 +136,4 @@ Nadat u het dashboard hebt opgebouwd, wordt de meest voorkomende vraag gesteld: 
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan lijken op de afbeelding boven aan de pagina
 
-Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

@@ -2,9 +2,9 @@
 title: customer_entity-tabel
 description: Leer hoe u records van alle geregistreerde accounts kunt openen.
 exl-id: 24bf0e66-eea0-45ea-8ce6-4ff99b678201
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 De `customer_entity` de tabel bevat een overzicht van alle geregistreerde accounts . Een account wordt beschouwd als geregistreerd als ze zich aanmelden voor een account, ongeacht of ze ooit een aankoop hebben voltooid. Elke rij komt overeen met één unieke geregistreerde account, zoals die door de `entity_id`.
 
-Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaatsen. Als je winkel het uitchecken van gasten accepteert, [leren hoe u account kunt maken](../data-warehouse-mgr/guest-orders.md) voor die klanten.
+Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaatsen. Als je winkel uitchecken door gasten accepteert, zie [hoe te om rekening te houden met gastorden](../data-warehouse-mgr/guest-orders.md) voor die opdrachten.
 
 ## Algemene kolommen
 
 | **Kolomnaam** | **Beschrijving** |
 |---|---|
-| `created_at` | Tijdstempel die overeenkomt met de registratiedatum van het account en die lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL MBI]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL MBI] die van uw streek van de gegevensbestandtijd verschilt |
+| `created_at` | Tijdstempel die overeenkomt met de registratiedatum van het account en die lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL Commerce Intelligence]kan deze tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL Commerce Intelligence] die van uw streek van de gegevensbestandtijd verschilt |
 | `email` | E-mailadres gekoppeld aan de account |
 | `entity_id` (PK) | De unieke id voor de tabel en wordt doorgaans gebruikt in verbindingen met de `customer_id` in andere tabellen binnen de instantie |
 | `group_id` | Buitenlandse sleutel gekoppeld aan de `customer_group` tabel. Verbinden met `customer_group.customer_group_id` om de klantengroep te bepalen die aan de geregistreerde rekening wordt geassocieerd |

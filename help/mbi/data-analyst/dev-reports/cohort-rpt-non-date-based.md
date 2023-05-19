@@ -2,20 +2,20 @@
 title: Cohort Report Builder voor Cohorts zonder datumbasis
 description: Leer gebruikers te groeperen door een gelijkaardige activiteit of een attribuut.
 exl-id: c7b85ce9-113c-4ffc-855f-3d53fe2347d8
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
-# `Cohort Report Builder for Non-Date-Based Cohorts`
+# [!DNL Cohort Report Builder] voor niet-datumgebaseerde cohorten
 
-De [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) is geweldig in het helpen van handelaren om te bestuderen hoe verschillende subsets van gebruikers zich in de loop der tijd gedragen. In het verleden `Cohort Report Builder` is geoptimaliseerd voor het groeperen van gebruikers door een algemene `cohort date` (bijvoorbeeld de set van alle klanten die hun eerste aankoop in een bepaalde maand hebben gedaan). De `Non-Date Based Cohort` biedt u nu de mogelijkheid gebruikers te groeperen met een vergelijkbare activiteit of kenmerk. Bekijk een paar gebruiksgevallen voor deze functie.
+De [`Cohort Report Builder`](../dev-reports/cohort-rpt-bldr.md) is ideaal om handelaren te helpen onderzoeken hoe verschillende subsets van gebruikers zich in de loop der tijd gedragen. In het verleden `Cohort Report Builder` is geoptimaliseerd voor het groeperen van gebruikers door een algemene `cohort date` (bijvoorbeeld de set van alle klanten die hun eerste aankoop in een bepaalde maand hebben gedaan). De `Non-Date Based Cohort` biedt u nu de mogelijkheid gebruikers te groeperen met een vergelijkbare activiteit of kenmerk. Bekijk een paar gebruiksgevallen voor deze functie.
 
 ## Gevallen gebruiken
 
-Dit is geen uitgebreide lijst, maar er zijn enkele potentiële analyses die met deze functie kunnen worden uitgevoerd:
+Dit is geen uitgebreide lijst, maar er zijn enkele potentiële analyses die met deze functie kunnen worden uitgevoerd.
 
 * Onderzoek van de inkomsten van klanten die zijn verkregen uit [!DNL Google] versus [!DNL Facebook]
 * Klanten wier eerste aankoop in de VS en Canada is gedaan, analyseren
@@ -33,7 +33,7 @@ Nu ben je in de `Report Builder`voegt u de metrische waarde toe waarop u de anal
 
 >[!NOTE]
 >
->Oorspronkelijk [!DNL Google Analytics] metriek is niet compatibel met de `Cohort Report Builder`. Het doel voor dit voorbeeld is na verloop van tijd te kijken naar de inkomsten voor klanten van eerste bestelling die via verschillende GA-bronnen zijn aangeschaft.
+>Oorspronkelijk [!DNL Google Analytics] metriek is niet compatibel met de `Cohort Report Builder`. Het doel voor dit voorbeeld is om opbrengst in tijd voor eerste-ordeklanten te bekijken die door verschillende werden verworven [!DNL Google Analytics] bronnen.
 
 ### Schakelen `Metric View` tot `Cohort`
 
@@ -49,9 +49,9 @@ Er zijn vijf specificaties nodig om een verslag van Cohort op te stellen:
 1. Tijdbereik eerste handeling van Cohort
 1. Tijdbereik na cohort-instantie
 
-![cohortgroepen](../../assets/2-cohort-groups.png){: width=&quot;200&quot; height=&quot;224&quot;}
+![cohortgroepen](../../assets/2-cohort-groups.png)<!--{: width="200" height="224"}-->
 
-![cohort-first-action-time-range](../../assets/3-cohort-first-action-time-range.png){: width=&quot;400&quot; height=&quot;554&quot;}
+!![cohort-first-action-time-range]<!--(../../assets/3-cohort-first-action-time-range.png){: width="400" height="554"}-->
 
 #### 1. Groepering `cohorts`
 
@@ -77,7 +77,10 @@ Wilt u de knop `cohorts` in tijd per maand, week, of jaar? Hier maakt u deze sel
 
 ![cohort-first-action-time-range](../../assets/5-cohort-first-action-time-range.png)<!--{: width="400" height="557"}-->
 
-### Overige opmerkingen
+>[!NOTE]
+>
+>[!UICONTROL Filters] toegepast op uw metriek blijven intact wanneer u schakelt tussen `Standard` en `Cohort` weergaven.
 
-* [!UICONTROL Filters]: toegepast op uw metriek blijven intact wanneer u schakelt tussen `Standard` en `Cohort` views
-* Zie [`Perspectives`](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+### Verwante
+
+Zie [`Perspectives`](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
