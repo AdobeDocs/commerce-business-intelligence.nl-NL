@@ -136,7 +136,7 @@ In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te 
 
 SQL schrijven en maken `Data Warehouse Views` wordt niet meegeleverd bij Technische ondersteuning. De [Services-team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt wel hulp bij het oprichten van standpunten . Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
-Gewoonlijk wordt een nieuwe `Data Warehouse View` voor de consolidatie van 2-3 vergelijkbare gestructureerde tabellen is vijf uur aan diensttijd nodig, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
+Gewoonlijk wordt een nieuwe `Data Warehouse View` voor de consolidatie van 2-3 vergelijkbare gestructureerde tabellen is vijf uur aan diensttijd nodig, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte investeringen kunnen doen toenemen:
 
 * Consolidatie van meer dan drie tabellen in één weergave
 * Weergave van meerdere Data Warehouse maken

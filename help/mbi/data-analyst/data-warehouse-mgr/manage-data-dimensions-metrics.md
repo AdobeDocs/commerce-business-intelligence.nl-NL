@@ -15,11 +15,11 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-Een dimensie is een gebied in de zelfde lijst zoals metrisch die aan filter of segmentgrafieken kan worden gebruikt die op dat metrisch worden gebaseerd. Een maatstaf voor inkomsten kan bijvoorbeeld stad, staat, land, orderstatus, couponcode en andere typen afmetingen bevatten.
+Een dimensie is een gebied in de zelfde lijst zoals metrisch die aan filter of segmentgrafieken kan worden gebruikt die op dat metrisch worden gebaseerd. Een maatstaf voor omzet kan bijvoorbeeld plaats, staat, land, orderstatus, couponcode en andere soorten afmetingen bevatten.
 
-## Afmetingen toevoegen aan meerdere metriek
+## Afmetingen toevoegen aan meerdere metrics
 
-Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
+Een of meer dimensies tegelijk toevoegen aan meerdere metrics:
 
 1. Ga naar **[!UICONTROL Manage Data > Metrics]**.
 
@@ -27,7 +27,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 1. Kies de tabel die de afmetingen bevat.
 
-1. In de `Choose Metric(s) to Add Dimensions` selecteert u de metriek waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt `Choose Dimensions to Add` wordt rechts in het scherm weergegeven. Controleer de afmetingen die u aan geselecteerde metrisch wilt toevoegen.
+1. In het dialoogvenster `Choose Metric(s) to Add Dimensions` , selecteert u de metrics waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt `Choose Dimensions to Add` rechts in het scherm. Controleer de afmetingen die u aan de geselecteerde metrisch wilt toevoegen.
 
    ![](../../assets/Add_Dimensions.png)
 
@@ -37,7 +37,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 ## Afmetingen van meerdere meeteenheden verwijderen
 
-Een of meer afmetingen uit meerdere meeteenheden verwijderen:
+Een of meer dimensies uit meerdere metrics verwijderen:
 
 1. Ga naar **[!UICONTROL Data > Metrics]**.
 
@@ -45,11 +45,11 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 1. Kies de tabel die de afmetingen bevat.
 
-1. Selecteer de afmetingen die u links wilt verwijderen en de afmetingen die u wilt verwijderen aan de rechterkant.
+1. Selecteer de metrics die u aan de linkerkant wilt verwijderen en de afmetingen die u aan de rechterkant wilt verwijderen.
 
 1. Klikken **[!UICONTROL Remove]**.
 
-1. Als de afmetingen in gebruik zijn in rapporten, wordt een waarschuwing weergegeven met de lijst met grafieken die de afmetingen gebruiken. Klikken **[!UICONTROL Delete]** om de gecontroleerde afmetingen en al hun afhankelijke personen, met inbegrip van rapporten te schrappen.
+1. Als de afmetingen in gebruik zijn in rapporten, wordt een waarschuwing weergegeven met de lijst met diagrammen die de afmetingen gebruiken. Klikken **[!UICONTROL Delete]** om de gecontroleerde afmetingen en al hun afhankelijke personen, met inbegrip van rapporten te schrappen.
 
 ## Dimensies beheren in metriek
 
@@ -59,20 +59,20 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 1. Klikken **[!UICONTROL Edit]** op metrisch wilt u een nieuwe afmeting.
 
-1. In de `Dimensions` de sectie gebruiken `Add a dimension` vervolgkeuzelijst om een dimensie te selecteren die u wilt toevoegen.
+1. In het dialoogvenster `Dimensions` gebruiken `Add a dimension` vervolgkeuzelijst om de dimensie te selecteren die u wilt toevoegen.
 
 >[!NOTE]
 >
->Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden [!DNL Commerce Intelligence]. Als u de gewenste dimensie niet vindt, moet u mogelijk een nieuwe gegevenskolom in uw database volgen via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
+>Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden [!DNL Commerce Intelligence]. Als u niet de gewenste afmeting vindt, moet u mogelijk een nieuwe gegevenskolom in uw database volgen via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
 
 
-**Dimensies verwijderen uit metrische gegevens:**
+**Dimensie(s) verwijderen uit metrisch:**
 
 1. Ga naar **[!UICONTROL Manage Data > Metrics]**.
 
-1. Klikken **[!UICONTROL Edit]** op metrisch wilt u een nieuwe afmeting.
+1. Klikken **[!UICONTROL Edit]** op de metrische basis wilt u een nieuwe dimensie.
 
-1. Onder de `Dimensions` selecteert u het selectievakje in de kolom Verwijderen naast de dimensie(en) die u wilt verwijderen.
+1. Onder de `Dimensions` schakelt u het selectievakje in de kolom Verwijderen in naast de afmetingen die u wilt verwijderen.
 
 >[!NOTE]
 >

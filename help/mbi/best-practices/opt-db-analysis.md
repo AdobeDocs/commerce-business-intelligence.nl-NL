@@ -59,7 +59,7 @@ Als uw tabel een SQL-weergave is, voegt u een kolom toe die als primaire sleutel
 
 ### Een gegevenstype toewijzen aan uw gegevenskolom
 
-Als een gegevenskolom geen toegewezen [gegevenstype](https://en.wikipedia.org/wiki/Data_type), [!DNL Commerce Intelligence] geeft een schatting van het gegevenstype dat moet worden gebruikt. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het de steunteam van Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld als een numeriek gegevenstype wordt geraden, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
+Als een gegevenskolom geen toegewezen [gegevenstype](https://en.wikipedia.org/wiki/Data_type), [!DNL Commerce Intelligence] geeft een schatting van het gegevenstype dat moet worden gebruikt. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het de steunteam van Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
 
 ### Voeg prefixen aan uw Lijsten van Gegevens toe als u veelvoudige Gegevensbestanden hebt
 

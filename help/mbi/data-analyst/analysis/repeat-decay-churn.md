@@ -55,7 +55,7 @@ Aangezien de waarschijnlijkheid van de eerste herhaling voor dit voorbeeld 60% i
 
 Een andere manier, als een klant een vervolgorder zou plaatsen, zullen zij eerder dit binnen zes maanden na hun laatste orde dan na het zes maandteken hebben gedaan. Als een klant na zes maanden niet opnieuw heeft aangeschaft, moet een reactiveringscampagne worden gestart om deze klant terug te halen.
 
-Afhankelijk van uw bedrijfsmodel, kunt u een verschillende drempel, zoals het punt willen kiezen waar de waarschijnlijkheid van de herhaalde orde onder 50% of 10% daalt. Als uw interne kennis een ander aantal suggereert, dan zou u het op alle mogelijke manieren moeten gebruiken!
+Afhankelijk van uw bedrijfsmodel, kunt u een verschillende drempel, zoals het punt willen kiezen waar de waarschijnlijkheid van de herhaalde orde onder 50% of 10% daalt. Als uw interne kennis een ander aantal suggereert, dan moet u het op alle mogelijke manieren gebruiken!
 
 Uiteindelijk is het de bedoeling om de drempel te selecteren waar het zinvol is om van retentie naar reactivering over te schakelen. Bewaarinspanningen kunnen e-mails omvatten om bestaande klanten opnieuw te betrekken bij voorgestelde vervolgaankopen om deze aan te bieden, terwijl voor reactivering e-mails naar vervallen klanten met coupons en deals nodig kunnen zijn.
 

@@ -77,7 +77,7 @@ Om een rapport als lijngrafiek te bewaren, pas het rapport aan `Type` tot `Chart
 
 ## `Bar`
 
-`Bar` in grafieken worden uw gegevens weergegeven als een reeks horizontale balken. Deze diagrammen zijn het meest geschikt voor het weergeven van de algehele prestaties van een beperkt aantal metriek of groep op basis van waarden. Bijvoorbeeld, zou een bar grafiek kunnen worden gebruikt om de opbrengst per opslag te vergelijken:
+`Bar` in grafieken worden uw gegevens weergegeven als een reeks horizontale balken. Deze diagrammen zijn het meest geschikt voor het weergeven van de algemene prestaties van een beperkt aantal metriek of groep op basis van waarden. Bijvoorbeeld, zou een bar grafiek kunnen worden gebruikt om de opbrengst per opslag te vergelijken:
 
 ![](../../assets/blobid2.png)
 
