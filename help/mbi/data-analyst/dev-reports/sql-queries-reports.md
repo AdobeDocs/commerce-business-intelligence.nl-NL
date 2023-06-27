@@ -2,7 +2,7 @@
 title: SQL-query's omzetten in Commerce Intelligence-rapporten
 description: Leer hoe SQL de vragen in de berekende kolommen, metriek worden vertaald u in de Intelligentie van de Handel gebruikt.
 exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
-source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
+source-git-commit: fa65bd909495d4d73cabbc264e9a47b3e0a0da3b
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Aan het einde van dit onderwerp vindt u een **vertaalmatrix** voor SQL-queryclau
 
 Begin door een algemene vraag te bekijken:
 
-|  |  |
+| | |
 |--- |--- |
 | `SELECT` |  |
 | `a,` | Rapport `group by` |
@@ -42,7 +42,7 @@ Metrisch is vereist bij aggregatie `within a single table`. Bijvoorbeeld de `SU
 
 Bekijk een specifiek voorbeeld van hoe een `Total Revenue` Metrisch kan worden gedefinieerd in [!DNL Commerce Intelligence]. Bekijk de query hieronder die u probeert te vertalen:
 
-|  |  |
+| | |
 |--- |--- |
 | `SELECT` |  |
 | `SUM(order_total) as "Total Revenue"` | `Metric operation` (kolom) |
@@ -63,7 +63,7 @@ De query voor deze aggregatie kan er ongeveer als volgt uitzien:
 
 |  |  |
 |--- |--- |
-| `Select` |  |
+| `Select` | |
 | `c.customer_id` | Geaggregeerde eigenaar |
 | `SUM(o.order_total) as "Customer LTV"` | Samengevoegde bewerking (kolom) |
 | `FROM customers c` | Aggregate owner table |
@@ -103,7 +103,7 @@ Zie [berekende kolommen maken](../data-warehouse-mgr/creating-calculated-columns
 
 Begin met de onderstaande query:
 
-|  |  |
+| | |
 |--- |--- |
 | `SELECT coupon_code,` | Rapport `group by` |
 | `SUM(order_total) as "Total Revenue"` | `Metric operation`(kolom) |
@@ -132,7 +132,7 @@ De eerste methode zou de creatie van een nieuwe metrieke omvatten die een gemidd
 
 Neem een stap terug en bekijk de algemene vraag voor `Average order value`:
 
-|  |  |
+| | |
 |--- |--- |
 | `SELECT` |  |
 | `SUM(order_total) as "Total Revenue"` | Metrisch `operation` (kolom) |
@@ -155,4 +155,11 @@ Voor een snelle referentie kunt u de onderstaande matrix uitchecken. Dit toont h
 
 ## Commerce Intelligence Elements
 
-|**`SQL Clause`**|**`Metric`**|**`Filter`**|**`Report group by`**|**`Report time frame`**|**`Path`**|**`Calculated column inputs`**|**`Source table`**| |—|—|—|—|—|—|—|—|—| |`SELECT`|X|-|X|-|-|X|-|- |`FROM`|-|-|-|-|-|-|X| |`WHERE`|-|X|-|-|-|-|-|-|- |`WHERE` (met tijdelementen)|-|-|-|X|-|-|-|- |`JOIN...ON`|-|X|-|-|X|X|-| |`GROUP BY`|-|-|X|-|-|-|-|-|
+| **`SQL Clause`** | **`Metric`** | **`Filter`** | **`Report group by`** | **`Report time frame`** | **`Path`** | **`Calculated column inputs`** | **`Source table`** |
+|---|---|---|---|---|---|---|---|
+| `SELECT` | X | - | X | - | - | X | - |
+| `FROM` | - | - | - | - | - | - | X |
+| `WHERE` | - | X | - | - | - | - | - |
+| `WHERE` (met tijdelementen) | - | - | - | X | - | - | - |
+| `JOIN...ON` | - | X | - | - | X | X | - |
+| `GROUP BY` | - | - | X | - | - | - | - |
