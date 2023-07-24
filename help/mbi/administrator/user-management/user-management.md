@@ -2,7 +2,9 @@
 title: Adobe Commerce-gebruikers en -machtigingen beheren
 description: Leer hoe u de gebruikers van de Commerce Intelligence beheert.
 exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, User
+feature: User Management
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -23,25 +25,25 @@ In [!DNL Commerce Intelligence]Er zijn drie algemene machtigingsniveaus die van 
 
 Met deze machtigingen kunnen gebruikers bepaalde handelingen uitvoeren of toegang krijgen tot specifieke onderdelen van [!DNL Commerce Intelligence]. Hier is een lijst van wat elk toestemmingsniveau binnen kan doen [!DNL Commerce Intelligence]:
 
-|  | `Admin` | `Standard` | `Read Only` |
+|   | `Admin` | `Standard` | `Read Only` |
 | -----|-----|-----|----|
-| **Gebruikers maken/beheren** | ✔ |  |  |
-| **E-mailsamenvattingen maken** | ✔ | ✔ |  |
-| **Dashboards maken/bewerken/delen** | ✔ | ✔ |  |
+| **Gebruikers maken/beheren** | ✔ |   |   |
+| **E-mailsamenvattingen maken** | ✔ | ✔ |   |
+| **Dashboards maken/bewerken/delen** | ✔ | ✔ |   |
 | **dashboards weergeven** | ✔ | ✔ | ✔ |
-| **Visuele rapporten maken/bewerken/verwijderen** | ✔ | ✔* |  |
-| **SQL-rapporten maken/bewerken/verwijderen** | ✔ |  |  |
-| **Kloondashboards** | ✔ |  |  |
-| **Integraties toevoegen/beheren** | ✔ |  |  |
-| **Toegang tot de Manager van de Data Warehouse** | ✔ |  |  |
-| **Tabellen en kolommen synchroniseren/desynchroniseren** | ✔ |  |  |
-| **Metrisch maken/bewerken** | ✔ |  |  |
-| **Filtersets maken/bewerken** | ✔ |  |  |
-| **Berekende kolommen maken/bewerken** | ✔ |  |  |
-| **Lijst met afhankelijke rapporten maken** | ✔ |  |  |
-| **Overzicht van toegangssystemen** | ✔ |  |  |
-| **Toegang tot tijdzone-instellingen** | ✔ |  |  |
-| **Facturering openen** | ✔ | ✔** |  |
+| **Visuele rapporten maken/bewerken/verwijderen** | ✔ | ✔* |   |
+| **SQL-rapporten maken/bewerken/verwijderen** | ✔ |  |   |
+| **Kloondashboards** | ✔ |   |   |
+| **Integraties toevoegen/beheren** | ✔ |   |   |
+| **Toegang tot de Manager van de Data Warehouse** | ✔ |   |   |
+| **Tabellen en kolommen synchroniseren/desynchroniseren** | ✔ |   |   |
+| **Metrisch maken/bewerken** | ✔ |   |   |
+| **Filtersets maken/bewerken** | ✔ |   |   |
+| **Berekende kolommen maken/bewerken** | ✔ |   |   |
+| **Lijst met afhankelijke rapporten maken** | ✔ |   |   |
+| **Overzicht van toegangssystemen** | ✔ |   |   |
+| **Toegang tot tijdzone-instellingen** | ✔ |   |   |
+| **Facturering openen** | ✔ | ✔** |   |
 | **Contact opnemen met ondersteuning** | ✔ | ✔ | ✔ |
 
 {style="table-layout:auto"}

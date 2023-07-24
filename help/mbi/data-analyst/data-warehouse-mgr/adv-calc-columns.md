@@ -2,7 +2,9 @@
 title: Geavanceerde berekende kolomtypen
 description: Leer de grondbeginselen voor de meeste gevallen van de gebruikkolom — maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan tot stand brengen.
 exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 4%

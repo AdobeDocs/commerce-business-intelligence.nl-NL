@@ -2,7 +2,9 @@
 title: Concentratie van klanten definiëren
 description: Leer hoe te opstelling een dashboard dat u helpt meten hoe de totale opbrengst onder uw klantenbasis wordt verdeeld.
 exl-id: 6242019f-a6a5-48d3-b214-94acd7842e00
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Warehouse Manager, Reports, Dashboards
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
@@ -99,17 +101,16 @@ Te maken kolommen
 * [!UICONTROL Filter]: `Customer's revenue percentile IS NOT NULL`
 
 * 
-   [!UICONTROL Group door]: `Independent`
+  [!UICONTROL Group door]: `Independent`
 * Metrisch `A`: `Total customer lifetime revenue by percentile`
 * Metrisch `B`: `Total customer lifetime revenue (ungrouped)`
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's revenue percentile`
 * Boven/onder tonen: `100% of Customer's revenue percentile Name`
 * 
-
-   [!UICONTROL Chart type]: `Line`
+  [!UICONTROL Chart type]: `Line`
 
 * **Bovenste 10% concentratie**
 * [!UICONTROL Filter]: `Customer's revenue percentile <= 10`
@@ -117,13 +118,12 @@ Te maken kolommen
 * Metrisch `A`: `Total customer lifetime revenue`
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * Diagram verbergen
 * 
-   [!UICONTROL Group door]: `Email`
+  [!UICONTROL Group door]: `Email`
 * 
-
-   [!UICONTROL Chart type]: `Table`
+  [!UICONTROL Chart type]: `Table`
 
 * **Concentratie onder 50% met slechts één aankoop**
 
@@ -134,13 +134,12 @@ Te maken kolommen
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * Diagram verbergen
 * 
-   [!UICONTROL Group door]: `Email`
+  [!UICONTROL Group door]: `Email`
 * 
-
-   [!UICONTROL Chart type]: `Table`
+  [!UICONTROL Chart type]: `Table`
 
 * **Onder 10% concentratie**
 * [!UICONTROL Filter]: `Customer's revenue percentile > 90`
@@ -148,13 +147,12 @@ Te maken kolommen
 * Metrisch `A`: `Total customer lifetime revenue`
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * Diagram verbergen
 * 
-   [!UICONTROL Group door]: `Email`
+  [!UICONTROL Group door]: `Email`
 * 
-
-   [!UICONTROL Chart type]: `Table`
+  [!UICONTROL Chart type]: `Table`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 

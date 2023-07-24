@@ -2,7 +2,9 @@
 title: Begrijp uw [!DNL Commerce Intelligence] Omgeving
 description: Meer informatie over het werken met en het verbeteren van uw [!DNL Commerce Intelligence] milieu.
 exl-id: 601b5fba-da02-4cc8-96ed-147c24f326f9
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Warehouse Manager
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -19,7 +21,7 @@ Veel van uw tabellen bevatten een kolom met de naam `entity\_id`. In elke tabel
 
 Elke rij in de `sales\_order` tabel is een unieke volgorde. De primaire sleutel in deze tabel wordt aangeroepen `entity\_id`. Deze kolom kan worden beschouwd als `order\_id`. In een afzonderlijke tabel: `customer\_entity`, vertegenwoordigt elke rij een unieke klant. De primaire sleutel in deze tabel wordt ook wel `entity\_id`, die als `customer\_id`.
 
-In die tabellen: `sales\_order.entity\_id` is niet gelijk aan `customer\_entity.entity\_id`. Dit geldt voor alle sets tabellen die `entity\_id`: `table\_A.entity\_id` is niet gelijk aan `table\_B.entity\_id`.
+In die tabellen: `sales\_order.entity\_id` is niet gelijk aan `customer\_entity.entity\_id`. Dit geldt voor alle sets tabellen die `entity\_id`: `table\_A.entity\_id` is niet gelijk aan `table\_B.entity\_id`.
 
 ## [!DNL Guest orders]
 

@@ -1,8 +1,10 @@
 ---
-title: UTM bijhouden in Google Analytics
+title: UTM-tracking in Google Analytics
 description: Meer informatie over de beste praktijken voor het bijhouden van UTM-codes (tagging) in Google Analytics.
 exl-id: 70bfd855-3b3f-469b-99bc-deb8251904b7
-source-git-commit: 8d4e71363edad0613cc0ab277c2a43aad000965e
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Integration, Data Import/Export, Data Warehouse Manager
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -11,31 +13,31 @@ ht-degree: 0%
 
 # UTM-tracking
 
-`UTM` bijhouden is een coderings Conventie voor Url&#39;s waarmee u kunt analyseren waar uw gebruikers vandaan komen. Als je de Url&#39;s ziet waarop je klikt van de meeste marketing-mail-of banneradvertenties, zie je UTM codering. Dit zijn de lange koppelingen die eindigen op zaken als `utm\_source` en `utm\_medium` .
+`UTM` het volgen is een etiketteringsovereenkomst voor URLs die u toelaat om te analyseren waar uw gebruikers komen van. Als u de URL&#39;s bekijkt waarop u klikt in de meeste marketingadvertenties in e-mail- of banneradvertenties, ziet u UTM-codering. Het zijn die lange verbindingen die eindigen met dingen als `utm\_source` en `utm\_medium`.
 
-[!DNL Google Analytics] gebruikt `UTM` codering om te weten te komen waar het verkeer vandaan komt. Een deel van deze informatie is afkomstig van de [ http-verwijzings ](https://en.wikipedia.org/wiki/HTTP_referer) functie, maar de rest ervan, moet u zelf aan parameters door `UTM` geven. Wanneer u het bestand ziet `google adwords` of `email marketing` , worden de parameters die `UTM` u van de oorspronkelijke koppeling hebt vastgelegd, geklikt en vervolgens opgeslagen in de cookies van gebruikers. [!DNL Google Analytics]Hiermee gebruikt u deze gegevens om het kenmerk interessant gedrag ](../data-analyst/analysis/google-track-user-acq.md) op uw site te [ kenmerken. Leer hoe u deze parameters kunt gebruiken om te leren hoe u UTM-codering het beste kunt instellen en gebruiken.
+[!DNL Google Analytics] gebruik `UTM` labelen om te weten waar uw verkeer vandaan komt. Een deel van deze informatie is afkomstig uit de [HTTP-referentie](https://en.wikipedia.org/wiki/HTTP_referer) maar de rest moet je zelf bevoorraden `UTM` parameters. Wanneer u ziet `google adwords` of `email marketing`, betekent het `UTM` De parameters die van de originele verbinding worden geregistreerd klikken en dan opgeslagen in de koekjes van gebruikers. Van daaruit, [!DNL Google Analytics] gebruikt die gegevens aan [interessant gedrag voor kenmerken](../data-analyst/analysis/google-track-user-acq.md) op uw site. Als u begrijpt wat die parameters zijn, kunt u beter begrijpen hoe u UTM-tags het beste kunt instellen en gebruiken.
 
-## Aanbevolen procedures voor het coderen van UTM
+## Aanbevolen procedures voor UTM-codering
 
-Hier volgt een overzicht van de belangrijkste vijf belangrijkste zaken die u kunt onthouden bij het instellen van uw Url&#39;s met `UTM` codering.
+De volgende lijst maakt een lijst van de vijf belangrijkste dingen om te herinneren wanneer vestiging uw URLs met `UTM` labelen.
 
-### 1. streeft ernaar een label te geven voor elke URL die u kunt controleren op uw site
+### 1. Doel is om elke URL waarop u het komen naar uw site kunt controleren, van een tag te voorzien
 
-Telkens wanneer u personen vraagt om op een koppeling te klikken, dient u codering in te stellen `UTM` . Dit geldt ook voor al uw e-mail koppelingen (uw e-mail serviceprovider heeft een manier om uw Url&#39;s automatisch te labelen), ad links, pers artikelen, blogberichten.
+Telkens als u mensen vraagt om een verbinding te klikken, zou u opstelling moeten zijn `UTM` labelen. Hieronder vallen al uw e-mailkoppelingen (uw e-mailservicebureau kan uw URL&#39;s mogelijk automatisch coderen), koppelingen, drukartikelen en blogberichten.
 
 ### 2. Een gereedschap gebruiken om de URL te maken
 
-`UTM`gelabelde Url&#39;s kunnen omslachtig zijn. In plaats van te proberen om deze te typen uit lange versie, gebruikt u een dergelijk ](https://support.google.com/analytics/answer/1033867?hl=en) hulpmiddel [ om u te helpen. Dit zorgt ervoor dat u alle bedachte parameters aan de URL toevoegt en u krijgt de URL die u kunt kopiëren-plakken. Voor het beheren van sociale koppelingen [!DNL Hootsuite] kunt u bijvoorbeeld de volgende opties gebruiken om aangepaste URL-parameters toe te voegen aan al uw koppelingen.
+`UTM`URL&#39;s met codes kunnen omslachtig zijn. Gebruik een gereedschap in plaats van ze langer te typen [zoals dit](https://support.google.com/analytics/answer/1033867?hl=en) om u te helpen. Zo weet u zeker dat u alle nuttige parameters aan de URL wilt toevoegen en dat u de URL voor kopiëren en plakken meteen uit de URL wilt halen. Voor het beheren van sociale koppelingen, gereedschappen zoals [!DNL Hootsuite] bevat de optie om aangepaste URL-parameters toe te voegen aan al uw koppelingen.
 
-### 3. Zorg ervoor dat u hoofdlettergevoelig bent in de parameterwaarden
+### 3. Zorg ervoor dat de parameterwaarden hoofdlettergevoelig zijn
 
-Het is belangrijk te weten dat de tag `utm\_source=adwords` een andere code is dan `utm\_source=Adwords` . Maak een voorbeeld van wat kleine letters.
+Het is belangrijk te onthouden dat de tag `utm\_source=adwords` is een andere tag dan `utm\_source=Adwords`. Overweeg om alles in kleine letters te maken.
 
-### 4. Sla de waarden voor de UTM-parameters op in uw database
+### 4. Sla de UTM-parameterwaarden op in uw database
 
-Telkens wanneer een transactie of gebeurtenis optreedt, wilt u de prestaties van uw marketingactiviteiten evalueren. U kunt dit doen door de waarden van de UTM-parameterwaarden van de [[!DNL Google Analytics]  cookie te lezen in uw database ](../data-analyst/analysis/google-track-user-acq.md) .
+Telkens wanneer een transactie of gebeurtenis gebeurt, wilt u de prestaties van uw marketing activiteiten evalueren. U kunt dit doen door de waarden van de UTM-parameterwaarden van de [[!DNL Google Analytics] cookie in uw database](../data-analyst/analysis/google-track-user-acq.md).
 
-### 5. denk eens aan de naam van campagnes
+### 5. Denk na over hoe u campagnes noemt
 
 Als u wilt bijhouden hoe uw marketinginspanningen in de loop der tijd verbeteren, moet u op de hoogte zijn van uw naamgevingsconventies. Houd het eenvoudig en minimaliseer het zoveel mogelijk. Gecompliceerde naamgevingssystemen zijn moeilijker te onderhouden.
 

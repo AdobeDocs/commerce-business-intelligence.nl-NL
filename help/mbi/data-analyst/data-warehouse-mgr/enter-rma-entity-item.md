@@ -2,7 +2,9 @@
 title: Enterprise_RAM_Item_Entity table
 description: Leer hoe u informatie over een specifiek item kunt analyseren op basis van een gevraagde return.
 exl-id: aa71cb3f-3e0b-4b6b-b4cc-dad103f79c51
-source-git-commit: 14777b216bf7aaeea0fb2d0513cc94539034a359
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -46,7 +48,7 @@ Elke rij in de `enterprise_rma_item_entity` table (vaak `magento_rma_item_entity
 
 | **Metrische naam** | **Beschrijving** | **Constructie** |
 |---|---|---|
-| `Number of items returned` | Het aantal geretourneerde items. | Bewerkingskolom: hoeveelheid geretourneerd<br>Bewerking: som<br>Tijdstempelkolom: Datum van terugkeer aangevraagd |
+| `Number of items returned` | Het aantal geretourneerde items. | Bewerkingskolom: hoeveelheid geretourneerd<br>Bewerking: Som<br>Tijdstempelkolom: Datum van terugkeer aangevraagd |
 | `Returned items' total value` | Het geldbedrag dat is geretourneerd. | Bewerkingskolom: Totale waarde van retourpost (geretourneerde hoeveelheid * prijs)<br>Bewerking: Som<br>Tijdstempelkolom: Datum van terugkeer aangevraagd |
 
 {style="table-layout:auto"}
@@ -64,4 +66,4 @@ Elke rij in de `enterprise_rma_item_entity` table (vaak `magento_rma_item_entity
 * Gemengde kolommen maken op het tabblad  `enterprise_rma_item_entity` tabel via de volgende samenvoeging:
 
 * Handel 1.x: `enterprise_rma_item_entity.order_item_id ` (veel) => `sales_flat_order_item.item_id` (1)
-* Handel 2.x: `magento_rma_item_entity.order_item_id ` (veel) => `sales_order_item.item_id` (1)
+* Handel 2.x: `magento_rma_item_entity.order_item_id ` (veel) => `sales_order_item.item_id` (1)

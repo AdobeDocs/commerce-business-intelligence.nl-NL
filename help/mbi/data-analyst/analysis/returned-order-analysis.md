@@ -2,7 +2,9 @@
 title: Teruggestuurde bestellingen analyseren
 description: Leer hoe u een dashboard instelt met een gedetailleerde analyse van de geretourneerde bedragen van uw winkel.
 exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, User
+feature: Data Warehouse Manager, Reports, Dashboards
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -60,10 +62,9 @@ Te maken kolommen
 * Selecteer een definitie: `Joined Column`
 * [!UICONTROL Create Path]:
 * 
-   [!UICONTROL Many]: `enterprise_rma.order_id`
+  [!UICONTROL Many]: `enterprise_rma.order_id`
 * 
-
-   [!UICONTROL One]: `sales_flat_order.entity_id`
+  [!UICONTROL One]: `sales_flat_order.entity_id`
 
 * Selecteer een [!UICONTROL table]: `sales_flat_order`
 * Selecteer een [!UICONTROL column]: `created_at`
@@ -82,10 +83,9 @@ Te maken kolommen
 * Selecteer een definitie: `Joined Column`
 * [!UICONTROL Create Path]:
    * 
-      [!UICONTROL Many]: `enterprise_rma_item_entity.rma_entity_id`
+     [!UICONTROL Many]: `enterprise_rma_item_entity.rma_entity_id`
    * 
-
-      [!UICONTROL One]: `enterprise_rma.entity_id`
+     [!UICONTROL One]: `enterprise_rma.entity_id`
 
 * Selecteer een [!UICONTROL table]: `enterprise_rma`
 * Selecteer een [!UICONTROL column]: `date_requested`
@@ -158,15 +158,14 @@ Te maken kolommen
 * Formule: Herhalingsvolgordeningswaarschijnlijkheid
 * [!UICONTROL Formula]: `B / A`
 * 
-
-   [!UICONTROL Format]: `Percentage`
+  [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's order number`
 * 
-   [!UICONTROL Chart Type]: `Bar`
+  [!UICONTROL Chart Type]: `Bar`
 
 * **Gemiddelde tijd om terug te keren (alle tijd)**
 * Metrisch `A`: `Avg time between order and return`
@@ -174,10 +173,9 @@ Te maken kolommen
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-
-   [!UICONTROL Chart Type]: `Number`
+  [!UICONTROL Chart Type]: `Number`
 
 * **Percentage van bestellingen met een rendement**
 * Metrisch `A`: `Number of orders`
@@ -191,12 +189,11 @@ Te maken kolommen
 * Formule: % van bestellingen met rendement
 * [!UICONTROL Formula]: `B / A`
 * 
-
-   [!UICONTROL Format]: `Percentage`
+  [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Chart Type]: `Number - % of orders with return`
 
 * **Inkomsten per maand**
@@ -206,8 +203,7 @@ Te maken kolommen
 * [!UICONTROL Time period]: `All time`
 * [!UICONTROL Interval]: `By month`
 * 
-
-   [!UICONTROL Chart Type]: `Line`
+  [!UICONTROL Chart Type]: `Line`
 
 * **Klanten die een rendement hebben behaald en niet opnieuw zijn aangeschaft**
 * Metrisch `A`: `Number of orders with returns`
@@ -218,12 +214,11 @@ Te maken kolommen
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-   [!UICONTROL Group door]: `Customer_email`
+  [!UICONTROL Group door]: `Customer_email`
 * 
-
-   [!UICONTROL Chart Type]: `Table`
+  [!UICONTROL Chart Type]: `Table`
 
 * **Rendement per object**
 * Metrisch `A`: `Returned items` (Verbergen)
@@ -236,15 +231,14 @@ Te maken kolommen
 * [!UICONTROL Formula]: `Return %`
 * [!UICONTROL Formula]: `B / A`
 * 
-
-   [!UICONTROL Format]: `Percentage`
+  [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `product_sku AND/OR product_name`
 * 
-   [!UICONTROL Chart Type]: `Table`
+  [!UICONTROL Chart Type]: `Table`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 

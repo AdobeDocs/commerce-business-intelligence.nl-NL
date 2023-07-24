@@ -2,7 +2,9 @@
 title: quote_item, tabel
 description: Leer hoe u met de tabel quote_item werkt.
 exl-id: dad36e88-5986-4b52-8a0e-ac084fabb275
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -51,8 +53,8 @@ De `quote_item` tabel (`sales_flat_quote_item` op M1) bevat gegevens over elk a
 
 | **Metrische naam** | **Beschrijving** | **Constructie** |
 |---|---|---|
-| `Number of abandoned cart items` | Totale hoeveelheid aan winkelwagentjes toegevoegde artikelen die voldoen aan specifieke voorwaarden voor &quot;verlaten&quot; | `Operation: Sum`<br/>`Operand: qty`<br/>`Timestamp: Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, waarbij &quot;x&quot; overeenkomt met de verstreken tijd (in seconden) sinds het maken van een winkelwagentje waarna een winkelwagentje als verlaten wordt beschouwd |
-| `Abandoned cart item value` | Som van de totale inkomsten uit winkelwagentjes die voldoen aan specifieke voorwaarden voor &quot;verlaten&quot; winkels | `Operation: Sum`<br>`Operand: Cart item total value (qty * base_price)`<br>`Timestamp:` `Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, waarbij &quot;x&quot; overeenkomt met de verstreken tijd (in seconden) sinds het maken van een winkelwagentje waarna een winkelwagentje als verlaten wordt beschouwd |
+| `Number of abandoned cart items` | Totale hoeveelheid aan winkelwagentjes toegevoegde artikelen die voldoen aan specifieke voorwaarden voor &quot;verlaten&quot; | `Operation: Sum`<br/>`Operand: qty`<br/>`Timestamp: Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, waarbij &quot;x&quot; overeenkomt met de verstreken tijd (in seconden) sinds het maken van een winkelwagentje waarna een winkelwagentje als verlaten wordt beschouwd |
+| `Abandoned cart item value` | Som van de totale inkomsten uit winkelwagentjes die voldoen aan specifieke voorwaarden voor &quot;verlaten&quot; winkels | `Operation: Sum`<br>`Operand: Cart item total value (qty * base_price)`<br>`Timestamp:` `Cart creation date`<br>Filters:<br><br>- \[`A`\] `Cart is active? (1/0)` = 1<br>- \[`B`\] `Seconds since cart creation` > x, waarbij &quot;x&quot; overeenkomt met de verstreken tijd (in seconden) sinds het maken van een winkelwagentje waarna een winkelwagentje als verlaten wordt beschouwd |
 
 {style="table-layout:auto"}
 

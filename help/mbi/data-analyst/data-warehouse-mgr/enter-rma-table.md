@@ -2,7 +2,9 @@
 title: enterprise_rma-tabel
 description: Leer hoe u informatie over een specifieke retouraanvraag analyseert.
 exl-id: a19cbc9a-e34f-4f4e-820f-9e413d1a552d
-source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -44,10 +46,10 @@ Elke rij in de `enterprise_rma` table (vaak `magento_rma` in Adobe Commerce 2.x,
 
 | **Metrische naam** | **Beschrijving** | **Constructie** |
 |---|---|---|
-| `Number of returns` | The number of returns requested. | `Operation` kolom: `entity id`<br>`Operation`: `Count`<br>`Timestamp` Kolom: `date requested` |
-| `Total returned amount` | Het totale geretourneerde monetaire bedrag. | `Operation `Kolom: `Return's total value`<br>`Operation`: Som<br>`Timestamp` Kolom: gevraagde datum |
-| `Average returned amount` | Het gemiddelde monetaire bedrag dat is geretourneerd. | `Operation`` Column: Return's total value`<br>`Operation`: `Average`<br>`Timestamp` Kolom: `date requested` |
-| `Average time to return` | De gemiddelde tijd van orde aan terugkeer. | `Operation` Kolom: Seconden tussen bestelling is gemaakt op en retourdatum aangevraagd<br>`Operation`: `Average`<br>`Timestamp` Kolom: `date requested` |
+| `Number of returns` | The number of returns requested. | `Operation` kolom: `entity id`<br>`Operation`: `Count`<br>`Timestamp` Kolom: `date requested` |
+| `Total returned amount` | Het totale geretourneerde monetaire bedrag. | `Operation `Kolom: `Return's total value`<br>`Operation`: Som<br>`Timestamp` Kolom: gevraagde datum |
+| `Average returned amount` | Het gemiddelde monetaire bedrag dat is geretourneerd. | `Operation`` Column: Return's total value`<br>`Operation`: `Average`<br>`Timestamp` Kolom: `date requested` |
+| `Average time to return` | De gemiddelde tijd van orde aan terugkeer. | `Operation` Kolom: Seconden tussen bestelling is gemaakt op en retourdatum aangevraagd<br>`Operation`: `Average`<br>`Timestamp` Kolom: `date requested` |
 
 {style="table-layout:auto"}
 

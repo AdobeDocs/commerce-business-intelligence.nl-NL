@@ -2,9 +2,11 @@
 title: Gratis verzenddrempel
 description: Leer hoe u een dashboard instelt dat de prestaties van je gratis verzenddrempel bijhoudt.
 exl-id: a90ad89b-96d3-41f4-bfc4-f8c223957113
-source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
+role: Admin,  User
+feature: Data Warehouse Manager, Dashboards, Reports
+source-git-commit: 6bdbdbcc652d476fa2a22589ac99678d5855e6fe
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -33,9 +35,10 @@ Als u zich op de originele architectuur bevindt (bijvoorbeeld als u geen `Data W
 * **`Order subtotal (buckets)`** Oorspronkelijke architectuur: gemaakt door een analist als onderdeel van uw `[FREE SHIPPING ANALYSIS]` kaartje
 * **`Order subtotal (buckets)`** Nieuwe architectuur:
    * Zoals hierboven vermeld, leidt deze berekening tot emmers in toename met betrekking tot uw typische wortelgrootte. Als u een native subtotaal kolom hebt, zoals `base_subtotal`, die als basis voor deze nieuwe kolom kunnen worden gebruikt. Als dat niet het geval is, kan het een berekende kolom zijn die verzendingen en kortingen van inkomsten uitsluit.
-   >[!NOTE]
-   >
-   >De &quot;emmer&quot;grootte hangt van wat voor u als cliënt aangewezen is af. U kunt beginnen met uw `average order value` en maak enkele emmers kleiner dan of groter dan die hoeveelheid. Wanneer het bekijken van de berekening hieronder, ziet u hoe te om een deel van de vraag gemakkelijk te kopiëren, het uit te geven, en extra emmers tot stand te brengen. Het voorbeeld wordt uitgevoerd in stappen van 50.
+
+  >[!NOTE]
+  >
+  >De &quot;emmer&quot;grootte hangt van wat voor u als cliënt aangewezen is af. U kunt beginnen met uw `average order value` en maak enkele emmers kleiner dan of groter dan die hoeveelheid. Wanneer het bekijken van de berekening hieronder, ziet u hoe te om een deel van de vraag gemakkelijk te kopiëren, het uit te geven, en extra emmers tot stand te brengen. Het voorbeeld wordt uitgevoerd in stappen van 50.
 
    * `Column type - Same table, Column definition - Calculation, Column Inputs-` `base_subtotal`, of `calculated column`, `Datatype`: `Integer`
    * [!UICONTROL Calculation]: `case when A >= 0 and A<=200 then 0 - 200`
@@ -45,7 +48,6 @@ wanneer `A<301` en `A<= 350` dan `301 - 350`
 wanneer `A<351` en `A<=400` dan `351 - 400`
 wanneer `A<401` en `A<=450` dan `401 - 450`
 else &quot;over 450&quot; end
-
 
 
 ## Metrisch
@@ -64,75 +66,67 @@ Geen nieuwe metriek!!!
 * Metrisch `A`: `Average Order Value`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-
-   [!UICONTROL Chart Type]: `Scalar`
+  [!UICONTROL Chart Type]: `Scalar`
 
 * **Aantal orders per subtotaal emmer met verzendingsregel A**
    * [!UICONTROL Metric]: `Number of orders`
 
-   >[!NOTE]
-   >
-   >U kunt het staartuiteinde afsnijden door de bovenkant te tonen `X` `sorted by` `Order subtotal` (emmers) in de `Show top/bottom`.
+  >[!NOTE]
+  >
+  >U kunt het staartuiteinde afsnijden door de bovenkant te tonen `X` `sorted by` `Order subtotal` (emmers) in de `Show top/bottom`.
 
 * Metrisch `A`: `Number of orders`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Order subtotal (buckets)`
 * 
-
-   [!UICONTROL Chart Type]: `Column`
+  [!UICONTROL Chart Type]: `Column`
 
 * **Percentage van bestellingen per subtotaal met verzendregel A**
    * [!UICONTROL Metric]: `Number of orders`
 
    * [!UICONTROL Metric]: `Number of orders`
    * 
-      [!UICONTROL Group door]: `Independent`
+     [!UICONTROL Group door]: `Independent`
    * [!UICONTROL Formula]: `(A / B)`
    * 
-
-      [!UICONTROL Format]: `%`
+     [!UICONTROL Format]: `%`
 
 * Metrisch `A`: `Number of orders by subtotal (hide)`
 * Metrisch `B`: `Total number of orders (hide)`
 * [!UICONTROL Formula]: `% of orders`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Order subtotal (buckets)`
 * 
-
-   [!UICONTROL Chart Type]: `Line`
+  [!UICONTROL Chart Type]: `Line`
 
 * **Percentage van orders met een subtotaal dat de verzendingsregel A overschrijdt**
    * [!UICONTROL Metric]: `Number of orders`
    * 
-
-      [!UICONTROL Perspective]: `Cumulative`
+     [!UICONTROL Perspective]: `Cumulative`
 
    * [!UICONTROL Metric]: `Number of orders`
    * 
-
-      [!UICONTROL Group door]: `Independent`
+     [!UICONTROL Group door]: `Independent`
 
    * [!UICONTROL Formula]: `1- (A / B)`
    * 
-
-      [!UICONTROL Format]: `%`
+     [!UICONTROL Format]: `%`
 
 * Metrisch `A`: `Number of orders by subtotal`
 * Metrisch `B`: `Total number of orders (hide)`
 * [!UICONTROL Formula]: `% of orders`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Order subtotal (buckets)`
 * 
-
-   [!UICONTROL Chart Type]: `Line`
+  [!UICONTROL Chart Type]: `Line`
 
 
 Herhaal bovenstaande stappen en rapporten voor Verzending B en de tijdsperiode met verzendregel B.

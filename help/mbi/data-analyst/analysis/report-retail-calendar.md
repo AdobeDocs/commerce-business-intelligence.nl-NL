@@ -2,7 +2,9 @@
 title: Rapportage over een retailkalender
 description: Leer hoe u de structuur instelt voor het gebruik van een 4-5-4 handelskalender in uw [!DNL Commerce Intelligence] account.
 exl-id: 3754151c-4b0f-4238-87f2-134b8409e32b
-source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Warehouse Manager, Reports, Dashboards
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -49,18 +51,19 @@ U kunt [downloaden](../../assets/454-calendar.csv) a `.csv` versie van de 4-5-4 
       * [!UICONTROL Column type]: `Same table > Calculation`
       * [!UICONTROL Inputs]: `Date Retail`
       * 
-         [!UICONTROL Datatype]: `Datetime`
+        [!UICONTROL Datatype]: `Datetime`
       * [!UICONTROL Calculation]: `case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end`
 
-         >[!NOTE]
-         >
-         >De `now()` hierboven is specifiek voor PostSQL. Hoewel [!DNL Commerce Intelligence] de gegevenspakhuizen worden ontvangen op PostgreSQL, sommige kunnen op Redshift worden ontvangen. Als de bovenstaande berekening een fout retourneert, moet u mogelijk de functie Redshift gebruiken `getdate()` in plaats van `now()`.
+        >[!NOTE]
+        >
+        >De `now()` hierboven is specifiek voor PostSQL. Hoewel [!DNL Commerce Intelligence] de gegevenspakhuizen worden ontvangen op PostgreSQL, sommige kunnen op Redshift worden ontvangen. Als de bovenstaande berekening een fout retourneert, moet u mogelijk de functie Redshift gebruiken `getdate()` in plaats van `now()`.
+
    * **Huidig retailjaar** (Moet worden gemaakt door een ondersteuningsanalist)
       * [!UICONTROL Column type]: E`vent Counter`
       * [!UICONTROL Local Key]: `Current date`
       * [!UICONTROL Remote Key]: `Retail calendar.Date Retail`
       * 
-         [!UICONTROL Operation]: `Max`
+        [!UICONTROL Operation]: `Max`
       * [!UICONTROL Operation value]: `Year Retail`
    * **Opgenomen in het lopende detailhandelsjaar? (Ja/Nee)**
       * [!UICONTROL Column type]: `Same table > Calculation`
@@ -68,7 +71,7 @@ U kunt [downloaden](../../assets/454-calendar.csv) a `.csv` versie van de 4-5-4 
          * `A` - `Year Retail`
          * `B` - `Current retail year`
       * 
-         [!UICONTROL Datatype]: `String`
+        [!UICONTROL Datatype]: `String`
       * [!UICONTROL Calculation]: `case when A is null or B is null then null when A = B then 'Yes' else 'No' end`
    * **Opgenomen in het vorige detailhandelsjaar? (Ja/Nee)**
       * [!UICONTROL Column type]: `Same table > Calculation`
@@ -76,9 +79,8 @@ U kunt [downloaden](../../assets/454-calendar.csv) a `.csv` versie van de 4-5-4 
          * `A` - `Year Retail`
          * `B` - `Current retail year`
       * 
-         [!UICONTROL Datatype]: String
+        [!UICONTROL Datatype]: String
       * [!UICONTROL Calculation]: `case when A is null or B is null then null when (A = (B-1)) then 'Yes' else 'No' end`
-
 
 * **sales\_order** table
    * **Gemaakt\_at (kleinhandelsjaar)**
@@ -138,64 +140,62 @@ Opmerking: Voor deze analyse zijn geen nieuwe meetgegevens nodig. Zorg er echter
          * `Created\_at (retail Year) = 2015`
    * [!UICONTROL Time period]: `All time`
    * 
-      [!UICONTROL Interval]: `None`
+     [!UICONTROL Interval]: `None`
    * 
-      [!UICONTROL Group by]: `Created\_at` (retail week)
+     [!UICONTROL Group by]: `Created\_at` (retail week)
    * 
-      [!UICONTROL Chart type]: `Line`
+     [!UICONTROL Chart type]: `Line`
       * Uitschakelen `multiple Y-axes`
 
 * **Overzicht van de detailhandelkalender (huidig detailhandelsjaar per maand)**
    * Metrisch `A`: `Revenue`
       * 
-         [!UICONTROL Metric]: `Revenue`
+        [!UICONTROL Metric]: `Revenue`
       * [!UICONTROL Filter]:
          * 
-            [!UICONTROL Include current retail year?]: `Yes`
+           [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `B`: `Orders`
       * [!UICONTROL Metric]: `Number of orders`
       * [!UICONTROL Filter]:
          * 
-            [!UICONTROL Include current retail year?]: `Yes`
+           [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `C`: `Avg order value`
       * [!UICONTROL Metric]: `Avg order value`
       * [!UICONTROL Filter]:
          * 
-            [!UICONTROL Include current retail year?]: `Yes`
+           [!UICONTROL Include current retail year?]: `Yes`
    * [!UICONTROL Time period]: `All time`
    * 
-      [!UICONTROL Interval]: `None`
+     [!UICONTROL Interval]: `None`
    * 
-      [!UICONTROL Group by]: `Created\_at` (retail month)
+     [!UICONTROL Group by]: `Created\_at` (retail month)
    * 
-
-      [!UICONTROL Chart type]: `Line`
+     [!UICONTROL Chart type]: `Line`
 
 * **Overzicht van de detailhandelkalender (vorige detailhandelsjaar per maand)**
    * Metrisch `A`: `Revenue`
       * 
-         [!UICONTROL Metric]: `Revenue`
+        [!UICONTROL Metric]: `Revenue`
       * [!UICONTROL Filter]:
          * 
-            [!UICONTROL Include current retail year?]: `Yes`
+           [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `B`: `Orders`
       * [!UICONTROL Metric]: Aantal orders
       * [!UICONTROL Filter]:
          * 
-            [!UICONTROL Include current retail year?]: `Yes`
+           [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `C`: `Avg order value`
       * [!UICONTROL Metric]: `Avg order value`
       * [!UICONTROL Filter]:
          * 
-            [!UICONTROL Include current retail year?]: `Yes`
+           [!UICONTROL Include current retail year?]: `Yes`
    * [!UICONTROL Time period]: `All time`
    * 
-      [!UICONTROL Interval]: `None`
+     [!UICONTROL Interval]: `None`
    * 
-      [!UICONTROL Group by]: `Created\_at` (retail month)
+     [!UICONTROL Group by]: `Created\_at` (retail month)
    * 
-
-      [!UICONTROL Chart type]: `Line`
+     [!UICONTROL Chart type]: `Line`
 
 ## Volgende stappen
 

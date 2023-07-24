@@ -1,8 +1,10 @@
 ---
-title: Uw SQL-query's optimaliseren
-description: Leer hoe u uw SQL-query's optimaliseert.
+title: SQL-query's optimaliseren
+description: Leer hoe u SQL-query's optimaliseert.
 exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Integration, Data Import/Export, Data Warehouse Manager
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -11,11 +13,11 @@ ht-degree: 0%
 
 # SQL-query&#39;s optimaliseren
 
-De [!DNL SQL Report Builder] staat u toe om op die vragen op elk ogenblik te vragen en te herhalen. Dit is handig wanneer u een query moet wijzigen zonder te wachten tot een updatecyclus is voltooid voordat u een kolom of rapport realiseert dat u hebt gemaakt en dat moet worden bijgewerkt.
+De [!DNL SQL Report Builder] staat u toe om op die vragen op om het even welk bepaald ogenblik te vragen en te herhalen. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
 
-Voordat een query wordt uitgevoerd, [[!DNL Commerce Intelligence] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). De kosten nemen de tijdsduur en het aantal middelen in overweging die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen groter is dan [!DNL Commerce Intelligence] limieten, mislukt de query. Voor het opvragen van uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md)Adobe raadt het volgende aan, zodat u de meest gestroomlijnde query&#39;s kunt schrijven.
+Voordat een query wordt uitgevoerd, [[!DNL Commerce Intelligence] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen groter is dan [!DNL Commerce Intelligence] limieten, mislukt de query. Voor het opvragen van uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md)Adobe raadt het volgende aan, zodat u de meest gestroomlijnde query&#39;s kunt schrijven.
 
-## SELECT of Alle kolommen selecteren gebruiken
+## Alle kolommen selecteren of SELECT gebruiken
 
 Het selecteren van alle kolommen maakt niet voor een geschikte, gemakkelijk uitgevoerde vraag. Zoekopdrachten die worden gebruikt `SELECT *` kan behoorlijk wat tijd vergen om te lopen, vooral als uw lijst vele kolommen heeft.
 
@@ -41,7 +43,7 @@ Kijk hoe u een FULL OUTER JOIN vraag kunt herschrijven:
 
 {style="table-layout:auto"}
 
-Deze query&#39;s zijn in alle opzichten identiek, behalve het type JOIN dat ze gebruiken.
+Deze vragen zijn identiek op elke manier behalve het type van VERBINDING zij gebruiken.
 
 ## Meerdere verbindingen gebruiken
 
@@ -49,11 +51,11 @@ Terwijl u veelvoudige verbindingen in uw vraag kunt omvatten, herinner dat het d
 
 ## Filters gebruiken
 
-Gebruik waar mogelijk filters. `WHERE` en `HAVING` de componenten filteren uw resultaten en geven u slechts de gegevens u echt wilt.
+Gebruik filters waar mogelijk. `WHERE` en `HAVING` de clausules filteren uw resultaten en geven u slechts de gegevens u echt wilt.
 
 ## Filters gebruiken in JOIN-clausules
 
-Als u een filter gebruikt wanneer het uitvoeren van een verbinding, ben zeker om het op beide lijsten in toe te passen zich aansluit. Zelfs als het overtollig is, vermindert dit de computerkosten van de vraag en vermindert de uitvoeringstijd.
+Als u een filter gebruikt wanneer het uitvoeren van een verbinding, ben zeker om het op beide lijsten in toe te passen zich. Zelfs als het overtollig is, drukt dit de computerkosten van de vraag en vermindert de uitvoeringstijd.
 
 | **In plaats van dit...** | **Probeer dit!** |
 |-----|-----|
@@ -81,9 +83,9 @@ Om het simpelweg te zeggen: het systeem hoeft niet zo veel te verwerken wanneer 
 
 {style="table-layout:auto"}
 
-## VOLGORDE GEBRUIKEN OP
+## ORDE GEBRUIKEN DOOR
 
-`ORDER BY` is een dure functie in SQL en kan de kosten van een vraag beduidend verhogen. Als u een foutbericht ontvangt waarin staat dat de EXPLAIN-kosten van uw query te hoog zijn, probeert u alle `ORDER BY`is van uw query, tenzij vereist.
+`ORDER BY` is een dure functie in SQL en kan de kosten van een vraag beduidend verhogen. Als u een foutbericht ontvangt waarin wordt aangegeven dat de EXPLAIN-kosten van de query te hoog zijn, probeert u een `ORDER BY`s van uw vraag tenzij vereist.
 
 Dat wil niet zeggen dat `ORDER BY` niet kan worden gebruikt - alleen dat het alleen moet worden gebruikt wanneer dat nodig is.
 

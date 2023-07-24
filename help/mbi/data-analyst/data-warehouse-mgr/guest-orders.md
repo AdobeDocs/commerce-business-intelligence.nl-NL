@@ -2,7 +2,9 @@
 title: Gastorders
 description: Meer informatie over de gevolgen die gastorders hebben voor uw gegevens en over de opties die u op de juiste wijze moet gebruiken voor gastorders in uw [!DNL Commerce Intelligence] Data Warehouse.
 exl-id: cd5120ca-454c-4cf4-acb4-3aebe06cdc9a
-source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -21,13 +23,13 @@ In het typische handelsgegevensbestand, is er `orders` tabel die wordt gekoppeld
 
 * **Als alle klanten zijn geregistreerd** en gastorders niet zijn toegestaan, betekent dit dat alle records in de `orders` tabel bevat een waarde in het dialoogvenster `customer\_id` kolom. Dientengevolge, sluit elke orde zich aan bij terug naar `customers` tabel.
 
-   ![](../../assets/guest-orders-4.png)
+  ![](../../assets/guest-orders-4.png)
 
 * **Als gastorders zijn toegestaan**, betekent dit dat sommige orders geen waarde hebben in de `customer\_id` kolom. Alleen geregistreerde klanten krijgen een waarde voor de `customer\_id` kolom op de `orders` tabel. Klanten die niet zijn ingeschreven, ontvangen een `NULL` (of leeg) waarde voor deze kolom. Hierdoor hebben niet alle orderrecords overeenkomende records in de `customers` tabel.
 
-   >[!NOTE]
-   >
-   >Om het unieke individu te identificeren dat de orde maakte, moet er een ander uniek gebruikersattribuut naast zijn `customer\_id` aan een bestelling zijn gekoppeld. Het e-mailadres van de klant wordt doorgaans gebruikt.
+  >[!NOTE]
+  >
+  >Om het unieke individu te identificeren dat de orde maakte, moet er een ander uniek gebruikersattribuut naast zijn `customer\_id` aan een bestelling zijn gekoppeld. Het e-mailadres van de klant wordt doorgaans gebruikt.
 
 ## Hoe te om gastorden in de opstelling van de Data Warehouse rekenschap te geven
 

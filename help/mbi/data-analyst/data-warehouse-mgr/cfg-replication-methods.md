@@ -2,7 +2,9 @@
 title: Replicatiemethoden configureren
 description: Leer hoe de lijsten worden georganiseerd, en hoe het gedrag van de lijstgegevens u toestaat om de beste replicatiemethode voor uw lijsten te kiezen.
 exl-id: 83895c48-a6ec-4b01-9890-164e0b21dcbc
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Data Import/Export
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 0%
@@ -37,18 +39,18 @@ De `Modified At` De replicatiemethode gebruikt een datetime kolom - die wordt be
 
 Naast deze criteria beveelt Adobe aan **indexeren** de `datetime` kolom gebruikt voor `Modified At` replicatie, aangezien dit de replicatiesnelheid helpt optimaliseren.
 
-Wanneer de update wordt uitgevoerd, worden nieuwe of gewijzigde gegevens geïdentificeerd door te zoeken naar rijen met een waarde in de `datetime` kolom die is opgetreden na de meest recente update. Wanneer nieuwe rijen worden gedetecteerd, worden ze gerepliceerd naar uw data warehouse. Als er rijen in de [ Data Warehouse Manager ](../data-warehouse-mgr/tour-dwm.md) zijn, worden deze overschreven door de huidige database waarden.
+Wanneer de update wordt uitgevoerd, worden nieuwe of gewijzigde gegevens geïdentificeerd door te zoeken naar rijen met een waarde in het dialoogvenster `datetime` kolom die is opgetreden na de meest recente update. Wanneer nieuwe rijen worden ontdekt, worden zij herhaald aan uw Data Warehouse. Als er rijen voorkomen in het dialoogvenster [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), worden ze overschreven met de huidige databasewaarden.
 
-Een tabel kan bijvoorbeeld een kolom hebben met de naam `modified\_at` dat de laatste keer dat gegevens zijn gewijzigd, wordt aangegeven. Als de meest recente update van dinsdag om 12.00 uur is uitgevoerd, zoekt de update naar alle rijen met een `modified\_at` waarde die groter is dan dinsdag om 12.00 uur. Alle gedetecteerde rijen die sinds 12 uur op dinsdag zijn gemaakt of gewijzigd, worden gerepliceerd naar het Data Warehouse.
+Een tabel kan bijvoorbeeld een kolom met de naam `modified\_at` dat aangeeft wanneer de laatste gegevens zijn gewijzigd. Als de meest recente update dinsdag om 12.00 uur liep, zoekt de update naar alle rijen met een `modified\_at` waarde groter dan dinsdag om 12.00 uur. Alle ontdekte rijen die zijn gemaakt of gewijzigd sinds 12.00 uur op dinsdag, worden gerepliceerd naar de Data Warehouse.
 
 **Wist je dat?**
 Zelfs als uw database momenteel geen ondersteuning biedt voor een `Incremental` Replicatiemethode: [wijzigingen aanbrengen in uw database](../../best-practices/mod-db-inc-replication.md) dat het gebruik van `Modified At` of `Single Auto Incrementing PK`.
 
-`Modified At` niet alleen de meest ideale replicatiemethode is, het is ook het snelst. Deze methode produceert niet alleen merkbaar hoge snelheids snelheden met grote gegevenssets, maar het configureren van een recheck-optie hoeft ook niet te worden geconfigureerd. Andere methoden moeten een hele tabel doorlopen om wijzigingen te identificeren, zelfs als een klein gedeelte van de gegevens is gewijzigd. `Modified At` door deze kleine subset wordt alleen herhaald.
+`Modified At` is niet alleen de meest ideale replicatiemethode, maar ook de snelste. Deze methode veroorzaakt niet alleen merkbare snelheidsverhogingen met grote gegevensreeksen, het vereist ook het vormen van geen recheck optie. Andere methoden moeten een hele tabel doorlopen om wijzigingen te identificeren, zelfs als een kleine subset van gegevens is gewijzigd. `Modified At` Hiermee doorloopt u alleen die kleine subset.
 
-### Eén automatische incrementele primaire sleutel
+### Eén automatische verhogende primaire sleutel
 
-`Auto Incrementing` is een probleem dat opeenvolgend primaire sleutels aan rijen toewijst. Als een tabel `Auto Incrementing` en de hoogste primaire sleutel in de tabel 1.000 is, is de volgende primaire waarde 1.001 of hoger. Een tabel die geen gedrag gebruikt `Auto Incrementing` , kan een primaire-sleutelwaarde van minder dan 1.000 toewijzen of naar een veel groter getal gaan, maar dit wordt niet vaak gebruikt.
+`Auto Incrementing` is een gedrag dat opeenvolgende primaire sleutels aan rijen toewijst. Als een tabel `Auto Incrementing` en de hoogste primaire sleutel in de tabel is 1.000, dan is de volgende primaire waarde 1.001 of hoger. Een tabel die niet wordt gebruikt `Auto Incrementing` kan gedrag een primaire sleutelwaarde toewijzen die minder is dan 1.000 of naar een veel groter getal springen, maar dit wordt niet vaak gebruikt.
 
 Deze methode is ontworpen voor het repliceren van nieuwe gegevens uit tabellen die aan de volgende criteria voldoen:
 
@@ -124,15 +126,15 @@ Om omhoog te beëindigen, hebt u deze lijst samengebracht die de diverse replica
 
 | **`Method`** | **`Syncing New Data`** | **`Processing Rechecks on Large Data Sets`** | **`Handle Composite Keys?`** | **`Handle Non-Integer PKs?`** | **`Handle Non-Sequential PK Population?`** | **`Handle Row Deletion?`** |
 |-----|-----|-----|-----|-----|-----|-----|
-| `Auto-Incrementing Primary Key` | Sneller | Langzaam | Nee | Geen | Geen | Ja |
-| `Primary Key Batch Monitoring` | Langzaam | Langzaam | Yes | Yes | Yes | Yes |
-| `Modified At` | Fast | Fast | Ja | Ja | Ja | Nee |
+| `Auto-Incrementing Primary Key` | Sneller | Langzaam | Nee | Nee | Nee | Ja |
+| `Primary Key Batch Monitoring` | Langzaam | Langzaam | Ja | Ja | Ja | Ja |
+| `Modified At` | Sneller | Sneller | Ja | Ja | Ja | Nee |
 
 {style="table-layout:auto"}
 
 ## Gerelateerde documentatie
 
 * [Gegevens opnieuw controleren](../data-warehouse-mgr/cfg-data-rechecks.md)
-* [Uw database aanpassen voor ondersteuning ](../../best-practices/mod-db-inc-replication.md)
+* [De database aanpassen voor ondersteuning ](../../best-practices/mod-db-inc-replication.md)
 * [De database optimaliseren voor analyse](../../best-practices/opt-db-analysis.md)
-* [Update tijden beperken](../../best-practices/reduce-update-cycle-time.md)
+* [Bijwerktijden reduceren](../../best-practices/reduce-update-cycle-time.md)

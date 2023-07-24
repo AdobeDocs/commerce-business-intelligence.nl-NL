@@ -2,7 +2,9 @@
 title: Het effect van de coupon analyseren
 description: Leer hoe u de invloed van coupons op het aanschaffen en behouden van klanten analyseert.
 exl-id: b0619365-fa75-49b5-a393-87f3364a390f
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, User
+feature: Data Warehouse Manager, Reports
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '1359'
 ht-degree: 2%
@@ -122,10 +124,10 @@ Wat kan hieruit worden afgeleid? Ten eerste had de coupon &quot;20% korting&quot
 * het tijdstip van de dag/week/maand/jaar waarop de coupons werden aangeboden.
 * het seizoen waarin de coupons werden aangeboden , afhankelijk van de activiteit .
 
-   **Voorbeeld:** de coupon &quot; 20 % korting &quot; werd tijdens de zomermaanden aangeboden , maar de onderneming verkoopt winterkleding .
+  **Voorbeeld:** de coupon &quot; 20 % korting &quot; werd tijdens de zomermaanden aangeboden , maar de onderneming verkoopt winterkleding .
 * de beperkingen op de coupons.
 
-   **Voorbeeld:** de coupon &quot; 10 % korting &quot; wordt alleen aangeboden aan klanten die in dezelfde volgorde een winterjas kopen .
+  **Voorbeeld:** de coupon &quot; 10 % korting &quot; wordt alleen aangeboden aan klanten die in dezelfde volgorde een winterjas kopen .
 
 De **bruto-inkomsten** voor de coupon &quot;25% korting op $100 of meer&quot; is veel hoger dan de bruto-inkomsten voor de coupon &quot;$10 korting&quot;. De coupon &quot;$10 off&quot; heeft echter een veel grotere waarde **aantal bestellingen**. De **gemiddelde orderwaarde** biedt inzicht in deze verschillen. Hoewel de coupon &quot;25% korting op $100 of meer&quot; minder orders bevatte, is de gemiddelde orderwaarde meer dan driemaal die van de coupon &quot;$10 korting&quot;. Zo wordt een grotere bruto-opbrengst toegeschreven aan de coupon &quot;25% korting op $100 of meer&quot;.
 

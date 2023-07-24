@@ -2,7 +2,9 @@
 title: Gegevens opslaan in Adobe Commerce
 description: Leer hoe de gegevens worden geproduceerd, wat veroorzaakt dat een nieuwe rij wordt opgenomen, en hoe de acties in het gegevensbestand van Adobe Commerce worden geregistreerd.
 exl-id: 436ecdc1-7112-4dec-9db7-1f3757a2a938
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 3%
@@ -61,7 +63,7 @@ Kort na de toevoeging van de drie nieuwe producten, een nieuwe klant, `Sammy Cus
 
 Nu het aanmaken van de account is voltooid, `Sammy Customer` is klaar om een aankoop te beginnen. Op de website voegt de klant twee paren van de `Throwback Bellbottoms` en één `V-Neck T-Shirt` naar de wagen. Tevreden met de selecties, beweegt de klant zich aan controle en legt de orde voor, creërend de volgende ingang op [verkoop vlakke orde lijst](../data-warehouse-mgr/sales-flat-order-table.md):
 
-| **`entity id`** | **`customer id**`**`subtotal`****`created at`** |
+| **`entity id`** | **`customer id**` | **`subtotal`** | **`created at`** |
 |---|---|---|---|
 | 227 | 214 | 94.85 | 2016/09/23 15:41:39 |
 

@@ -2,7 +2,9 @@
 title: Basisanalyses begrijpen en bouwen
 description: Leer hoe u analyses van basisbeginselen begrijpt en bouwt.
 exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Warehouse Manager, Dashboards, Data Integration
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 0%
@@ -153,7 +155,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Interval]**: `By Month`
    * **[!UICONTROL Group By]**: `Customer's Order Number`selecteert u vervolgens `2` en `3`
 
-   ![](../../assets/2nd_and_3rd_purchases_last_year.png)
+  ![](../../assets/2nd_and_3rd_purchases_last_year.png)
 
 * **Voorbeeld 2 van rapport**: Aantal herhaalde klanten in de afgelopen jaren
    * **[!UICONTROL Metric]**: `Distinct Customers`
@@ -161,7 +163,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `Moving range > Last Year`
    * **[!UICONTROL Time Interval]**: `By Month`
 
-   ![Vorig jaar klanten herhalen](../../assets/Repeat_customers_last_year.png)<!--{: width="929"}-->
+  ![Vorig jaar klanten herhalen](../../assets/Repeat_customers_last_year.png)<!--{: width="929"}-->
 
 ### Bovenste klanten op levenslange aantal orders
 
@@ -174,7 +176,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Group By]**: `customer_email`
    * **[!UICONTROL Show Top/Bottom]**: Top 25 gesorteerd op bestellingen
 
-   ![De 25 belangrijkste klanten per bestelling](../../assets/Top_25_customers_by_lifetime_orders.png)<!--{: width="929"}-->
+  ![De 25 belangrijkste klanten per bestelling](../../assets/Top_25_customers_by_lifetime_orders.png)<!--{: width="929"}-->
 
 ### De hoogste klanten door levensinkomsten
 
@@ -187,7 +189,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Group By]**: `customer_email`
    * **[!UICONTROL Show Top Bottom]**: Top 25 gesorteerd op inkomsten uit levens
 
-   ![Top 25 van klanten op basis van inkomsten](../../assets/top_25_customers_by_lifetime_revneue.png)<!--{: width="929"}-->
+  ![Top 25 van klanten op basis van inkomsten](../../assets/top_25_customers_by_lifetime_revneue.png)<!--{: width="929"}-->
 
 ### Gemiddelde levensopbrengsten per cohort
 
@@ -202,7 +204,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Table]**: `Customer_entity`
    * **[!UICONTROL Perspective]**: Gecumuleerde gemiddelde waarde per cohortelid
 
-   ![Inkomsten uit overlevingstijd van klanten per cohort](../../assets/Avg_customer_lifetime_revenue_by_cohort.png)<!--{: width="929"}-->
+  ![Inkomsten uit overlevingstijd van klanten per cohort](../../assets/Avg_customer_lifetime_revenue_by_cohort.png)<!--{: width="929"}-->
 
 ### Klanten op basis van gebruik van coupons
 
@@ -218,7 +220,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time range]**: `All Time`
    * **[!UICONTROL Time interval]**: `By Month`
 
-   ![Klanten op basis van Coupon-gebruik](../../assets/Customers_by_coupon_usage.png)<!--{: width="929"}-->
+  ![Klanten op basis van Coupon-gebruik](../../assets/Customers_by_coupon_usage.png)<!--{: width="929"}-->
 
 * **Voorbeeld 2 van rapport**: Percentage klanten met coupon en zonder coupon per maand
    * **[!UICONTROL Metric A]**: `Non coupon customers` (metrische gegevens verbergen)
@@ -300,7 +302,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
    * **[!UICONTROL Time Interval]**: `By Month`
 
-   ![Geordende producten](../../assets/products_ordered_pic1.png)<!--{: width="929"}-->
+  ![Geordende producten](../../assets/products_ordered_pic1.png)<!--{: width="929"}-->
 
 * Combineer deze metrische waarde met het aantal orders om het aantal items per bestelling te berekenen. Voeg vervolgens couponcodes toe aan het rapport om te bepalen hoe uw promoties de grootte van winkelwagentjes beïnvloeden, of deel deze met nieuwe of herhaalde bestellingen om uw klantengedrag beter te begrijpen.
 * **Voorbeeld van rapport**: Producten per bestelling: eerste orde vs. herhalingsorden
@@ -337,7 +339,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Interval]**: `By Month`
    * **[!UICONTROL Perspective]**: `Amount Change vs Previous Year`
 
-   ![AOV](../../assets/aov_pic.png)<!--{: width="929"}-->
+  ![AOV](../../assets/aov_pic.png)<!--{: width="929"}-->
 
 ### Producten die het meest met coupons worden gekocht
 
@@ -351,7 +353,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Group By**]: `name` (of `SKU`of een andere productidentificatie)
    * **[!UICONTROL Show top/bottom]**: Top 25 gesorteerd op geordende producten
 
-   ![Producten met coupons](../../assets/prod_coupons_pic.png)<!--{: width="929"}-->
+  ![Producten met coupons](../../assets/prod_coupons_pic.png)<!--{: width="929"}-->
 
 ### Tijd tussen bestellingen
 
@@ -398,7 +400,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `1 Year Ago to 3 Months Ago`
    * **[!UICONTROL Time Interval]**: `By Day`
 
-   ![Advertentie-impressies](../../assets/ad_impressions.png)<!--{: width="929"}-->
+  ![Advertentie-impressies](../../assets/ad_impressions.png)<!--{: width="929"}-->
 
 ### Klikken-door-tarief (CTR)
 
@@ -482,7 +484,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
       * Voor metrisch `A`, selecteert u `Customer's first order's campaign`
       * Voor metrisch `B`, selecteert u `campaign`
 
-   ![Nieuwe gebruikers.](../../assets/New_Users_Last_Month.png)
+  ![Nieuwe gebruikers.](../../assets/New_Users_Last_Month.png)
 
 >[!NOTE]
 >

@@ -2,7 +2,9 @@
 title: Commerce Churn
 description: Leer hoe u de Koopprijs genereert en analyseert.
 exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
-source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Warehouse Manager, Reports
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 2%
@@ -55,9 +57,9 @@ Te maken kolommen
 * **Nieuwe klanten (op laatste besteldatum)**
    * Klanten die worden geteld
 
-   >[!NOTE]
-   >
-   >Deze maatstaf kan op uw account bestaan.
+  >[!NOTE]
+  >
+  >Deze maatstaf kan op uw account bestaan.
 
 * In de **`customer_entity`** table
 * Deze maatstaf voert een **Aantal**
@@ -75,7 +77,7 @@ Te maken kolommen
    * [!UICONTROL Metric]: Nieuwe klanten (op eerste besteldatum)
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
    * 
-      [!UICONTROL Perspective]: `Cumulative`
+     [!UICONTROL Perspective]: `Cumulative`
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]:
    * Seconden sinds laatste besteldatum van klant >= [Uw zelf-bepaalde grens voor gekochte klanten ]**`^`**
@@ -84,11 +86,10 @@ Te maken kolommen
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
    * 
-      [!UICONTROL Perspective]: Cumulative
+     [!UICONTROL Perspective]: Cumulative
    * [!UICONTROL Formula]: `(B / ((A + B) - C)`
    * 
-
-      [!UICONTROL Format]: Percentage
+     [!UICONTROL Format]: Percentage
 
 * *Metrisch `A`:`New customers cumulative`*
 * *Metrisch `B`:`Churned customers by last order date`*

@@ -2,7 +2,9 @@
 title: Marketing ROI
 description: Leer hoe u een dashboard instelt dat uw kanaalanalyse bijhoudt - inclusief ROI in geaggregeerde vorm en per campagne.
 exl-id: 5de83998-e6cf-478d-bb6a-7a3dc77c2c0c
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin,  User
+feature: Reports, Dashboards
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%
@@ -41,26 +43,25 @@ Te maken kolommen
       * Selecteer een definitie: `Joined Column`
       * [!UICONTROL Create Path]:
       * 
-         [!UICONTROL Many]: `sales_flat_order.increment_id`
+        [!UICONTROL Many]: `sales_flat_order.increment_id`
       * 
-
-         [!UICONTROL One]: `ecommerce####.transaction_id`
+        [!UICONTROL One]: `ecommerce####.transaction_id`
 
       * Selecteer een [!UICONTROL table]: `ecommerce####`
       * Selecteer een [!UICONTROL column]: `campaign`
       * [!UICONTROL Path]: `sales_flat_order.increment_id = ecommerce#####.transactionID`
+
    * **`Order's GA medium`**
       * Selecteer een definitie: Samengevoegde kolom
       * Selecteer een [!UICONTROL table]: `ecommerce####`
       * Selecteer een [!UICONTROL column]: `medium`
       * [!UICONTROL Path]: sales_flat_order.increment_id = e-commerce####.transactionId
+
    * **`Order's GA source`**
       * Selecteer een definitie: Samengevoegde kolom
       * Selecteer een [!UICONTROL table]: `ecommerce####`
       * Selecteer een [!UICONTROL column]: `source`
       * [!UICONTROL Path]: sales_flat_order.increment_id = e-commerce####.transactionId ^
-
-
 
 * **`customer_entity`** table
 * **`Customer's first order GA campaign`**
@@ -141,10 +142,9 @@ Te maken kolommen
 * Metrisch `A`: Advertentie-uitgaven
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-
-   [!UICONTROL Chart Type]: `Scalar`
+  [!UICONTROL Chart Type]: `Scalar`
 
 * **Klantenovernames toevoegen (altijd)**
    * [!UICONTROL Metric]: `New customers`
@@ -158,10 +158,9 @@ Te maken kolommen
 * Metrisch `A`: `Ad customer acquisitions`
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-
-   [!UICONTROL Chart Type]: `Scalar`
+  [!UICONTROL Chart Type]: `Scalar`
 
 * **Ad ROI**
    * [!UICONTROL Metric]: Advertentie-uitgaven
@@ -173,6 +172,7 @@ Te maken kolommen
       * `User's first order's source LIKE %fb%`
       * `User's first order's medium IN cpc, ppc`
       * Filterlogica: ([`A`] OF [`B`] OF [`C`]) EN [`D`]
+
    * [!UICONTROL Metric]: Gemiddelde inkomsten tijdens de levensduur
    * [!UICONTROL Filters]:
       * `User's first order's source LIKE %google%`
@@ -180,12 +180,10 @@ Te maken kolommen
       * `User's first order's source LIKE %fb%`
       * `User's first order's medium IN cpc, ppc`
       * Filterlogica: ([`A`] OF [`B`] OF [`C`]) EN [`D`]
+
    * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
    * 
-
-      [!UICONTROL Format]: `Percentage`
-
-
+     [!UICONTROL Format]: `Percentage`
 
 * Metrisch `A`: `Ad Spend (hide)`
 * Metrisch `B`: `Ad customer acquisitions (hide)`
@@ -193,23 +191,20 @@ Te maken kolommen
 * [!UICONTROL Formula]: `Ads ROI`
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-
-   [!UICONTROL Chart Type]: `Scalar`
+  [!UICONTROL Chart Type]: `Scalar`
 
 * **Orders op gr-medium**
    * 
-
-      [!UICONTROL Metric]: `Orders`
+     [!UICONTROL Metric]: `Orders`
 
 * Metrisch `A`: `Orders`
 * [!UICONTROL Time period]: `All time`
 * [!UICONTROL Interval]: `By Month`
 * [!UICONTROL Group by]: `Order's medium`
 * 
-
-   [!UICONTROL Chart Type]: `Area`
+  [!UICONTROL Chart Type]: `Area`
 
 * **ROI per campagne toevoegen**
    * [!UICONTROL Metric]: `Ad Spend`
@@ -221,6 +216,7 @@ Te maken kolommen
       * `User's first order's source LIKE %fb%`
       * `User's first order's medium IN cpc, ppc`
       * Filterlogica: ([`A`] OF [`B`] OF [`C`]) EN [`D`]
+
    * [!UICONTROL Metric]: Gemiddelde inkomsten tijdens de levensduur
    * [!UICONTROL Filters]:
       * `User's first order's source LIKE %google%`
@@ -228,6 +224,7 @@ Te maken kolommen
       * `User's first order's source LIKE %fb%`
       * `User's first order's medium IN cpc, ppc`
       * Filterlogica: ([`A`] OF [`B`] OF [`C`]) EN [`D`]
+
    * [!UICONTROL Metric]: Gemiddeld aantal orders gedurende de looptijd
    * [!UICONTROL Filters]:
       * `User's first order's source LIKE %google%`
@@ -235,20 +232,18 @@ Te maken kolommen
       * `User's first order's source LIKE %fb%`
       * `User's first order's medium IN cpc, ppc`
       * Filterlogica: ([`A`] OF [`B`] OF [`C`]) EN [`D`]
+
    * [!UICONTROL Formula]: `(A / B)`
    * 
-
-      [!UICONTROL Format]: `Currency`
+     [!UICONTROL Format]: `Currency`
 
    * [!UICONTROL Formula]: `(C - (A / B))`
    * 
-
-      [!UICONTROL Format]: `Currency`
+     [!UICONTROL Format]: `Currency`
 
    * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
    * 
-
-      [!UICONTROL Format]: `Percentage`
+     [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Metric]: `Ad Clicks`
 
@@ -256,39 +251,33 @@ Te maken kolommen
 
    * [!UICONTROL Formula]: `(H / I)`
    * 
-
-      [!UICONTROL Format]: `Percentage`
+     [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Formula]: `(A / H)`
    * 
-
-      [!UICONTROL Format]: `Currency`
-
-
-
+     [!UICONTROL Format]: `Currency`
 
 * Metrisch `A`: `Ad Spend` (verbergen)
 * Metrisch `B`: `Ad customer acquisitions`
 * Metrisch `C`: `Average LTV`
 * Metrisch `D`: `Average lifetime # of orders`
 * 
-   [!UICONTROL-formule]: `CAC`
+  [!UICONTROL-formule]: `CAC`
 * [!UICONTROL Formula]: `Avg return`
 * [!UICONTROL Formula]: `Ads ROI`
 * Metrisch `H`: `adClicks`
 * Metrisch `I`: `Impressions`
 * 
-   [!UICONTROL-formule]: `CTR`
+  [!UICONTROL-formule]: `CTR`
 * 
-   [!UICONTROL-formule]: `CPC`
+  [!UICONTROL-formule]: `CPC`
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-   [!UICONTROL Group door]: `campaign` (Gebruik de campagne &#39;First Order&#39; van de Klant voor niet-ad-uitgaventabelgegevens)
+  [!UICONTROL Group door]: `campaign` (Gebruik de campagne &#39;First Order&#39; van de Klant voor niet-ad-uitgaventabelgegevens)
 * 
-
-   [!UICONTROL Chart Type]: `Table`
+  [!UICONTROL Chart Type]: `Table`
 
 Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 

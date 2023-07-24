@@ -2,7 +2,9 @@
 title: Weergaven van Data Warehouse maken en gebruiken
 description: Leer over een methode om nieuwe gestreken lijsten tot stand te brengen door een bestaande lijst te wijzigen, of het samenvoegen van of het consolideren van veelvoudige lijsten samen door SQL te gebruiken.
 exl-id: 5aa571c9-7f38-462c-8f1b-76a826c9dc55
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 9%
@@ -136,7 +138,7 @@ In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te 
 
 SQL schrijven en maken `Data Warehouse Views` wordt niet meegeleverd bij Technische ondersteuning. De [Services-team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt wel hulp bij het oprichten van standpunten . Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
-Gewoonlijk wordt een nieuwe `Data Warehouse View` voor de consolidatie van 2-3 vergelijkbare gestructureerde tabellen is vijf uur aan diensttijd nodig, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte investeringen kunnen doen toenemen:
+Gewoonlijk wordt een nieuwe `Data Warehouse View` voor de consolidatie van 2-3 vergelijkbare gestructureerde tabellen is vijf uur aan diensttijd nodig, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
 
 * Consolidatie van meer dan drie tabellen in één weergave
 * Weergave van meerdere Data Warehouse maken

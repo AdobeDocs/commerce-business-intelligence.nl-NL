@@ -2,7 +2,9 @@
 title: Bepaal klantenkring
 description: Leer hoe u een dashboard instelt waarmee u het koor voor uw klanten van de transactie kunt definiëren.
 exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Warehouse Manager, Reports, Dashboards
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -68,29 +70,27 @@ Geen nieuwe metriek!
 
 * [!UICONTROL Formula]: Waarschijnlijk eerste herhalingsvolgorde
 * 
-   [!UICONTROL-formule]: `A/B`
+  [!UICONTROL-formule]: `A/B`
 * 
-
-   [!UICONTROL Format]: `Percent`
+  [!UICONTROL Format]: `Percent`
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-
-   [!UICONTROL Chart type]: `Scalar`
+  [!UICONTROL Chart type]: `Scalar`
 
 * **Herhaal de waarschijnlijkheid van de volgorde van maanden sinds de bestelling**
 * Metrisch A: Volgorde van maanden sinds vorige volgorde herhalen (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
 * 
-   [!UICONTROL Perspective]: `Cumulative`
+  [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
 * Metrisch B: Laatste bestellingen per maand sinds bestelling (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
 * 
-   [!UICONTROL Perspective]: `Cumulative`
+  [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
 * Metrisch C: Volgorde voor herhaalde herhalingen (verbergen)
@@ -98,33 +98,29 @@ Geen nieuwe metriek!
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
 * 
-
-   [!UICONTROL Group door]: `Independent`
+  [!UICONTROL Group door]: `Independent`
 
 * Metrisch D: Laatste bestellingen bij volledige uitvoering (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
 * 
-
-   [!UICONTROL Group door]: `Independent`
+  [!UICONTROL Group door]: `Independent`
 
 * [!UICONTROL Formula]: Waarschijnlijk eerste herhalingsvolgorde
 * 
-   [!UICONTROL-formule]: `(C-A)/(C+D-A-B)`
+  [!UICONTROL-formule]: `(C-A)/(C+D-A-B)`
 * 
-
-   [!UICONTROL Format]: `Percent`
+  [!UICONTROL Format]: `Percent`
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Months since previous order`
 * Boven weergeven.onder: Top 24 categorieën, gesorteerd op categorienaam
 
 * 
-
-   [!UICONTROL Chart type]: `Line`
+  [!UICONTROL Chart type]: `Line`
 
 Het waarschijnlijkheidsrapport voor de eerste herhalingsvolgorde vertegenwoordigt de Totaal aantal herhalingsorders / Totaal aantal bestellingen. Elke order is een mogelijkheid om een herhalingsbevel te geven; het aantal herhalingsorders is de subset van die welke daadwerkelijk worden uitgevoerd .
 

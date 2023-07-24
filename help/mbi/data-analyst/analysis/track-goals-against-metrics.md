@@ -2,7 +2,9 @@
 title: Doelstellingen bijhouden op basis van cijfers
 description: Leer hoe u een dashboard instelt waarmee u uw bedrijfsdoelstellingen kunt bijhouden op basis van uw feitelijke gegevens, zoals inkomsten, nieuwe geregistreerde gebruikers en bestellingen in de loop der tijd.
 exl-id: 9d621f40-f9c2-4310-bd96-a46ab7159930
-source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
+role: Admin, User
+feature: Data Warehouse Manager, Reports, Dashboards, Reports
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
@@ -54,51 +56,46 @@ Het is nuttig om een mengeling van statische waarden en visuele grafieken te heb
 * **Resterende inkomsten om doel te bereiken**
 * Metrisch `A`: `Revenue`
 * 
-
-   [!UICONTROL Metric]: `Revenue`
+  [!UICONTROL Metric]: `Revenue`
 
 * Metrisch `B`: `Target Revenue`
 * [!UICONTROL Metric]: `Monthly Revenue Target`
 
 * [!UICONTROL Formula]: `Revenue left to achieve target`
 * 
-   [!UICONTROL-formule]: `(B-A)`
+  [!UICONTROL-formule]: `(B-A)`
 * 
-
-   [!UICONTROL Format]: `Number`
+  [!UICONTROL Format]: `Number`
 
 * [!UICONTROL Time period]: (Welke relevante tijdsperiode u wilt gebruiken)
 * 
-   [!UICONTROL Interval]: `Month`
+  [!UICONTROL Interval]: `Month`
 * 
-
-   [!UICONTROL Chart Type]: `Scalar`
+  [!UICONTROL Chart Type]: `Scalar`
 
 * **Inkomstendoelstellingen**
 * Metrisch `A`: `Revenue`
 * 
-
-   [!UICONTROL Metric]: `Revenue`
+  [!UICONTROL Metric]: `Revenue`
 
 * Metrisch `B`: `Target Revenue`
 * [!UICONTROL Metric]: `Monthly Revenue Target`
 
 * Metrisch `C`: `Revenue (amount change since previous year)` (verbergen)
 * 
-   [!UICONTROL Metric]: `Revenue`
+  [!UICONTROL Metric]: `Revenue`
 * [!UICONTROL Perspective]: `Amount change vs. Previous year`
 
 * [!UICONTROL Formula]: (Deze maand vorig jaar)
 * 
-   [!UICONTROL-formule]: `(A-C)`
+  [!UICONTROL-formule]: `(A-C)`
 * 
-
-   [!UICONTROL Format]: `Currency`
+  [!UICONTROL Format]: `Currency`
 
 * Uitschakelen `Multiple Y-Axes`
 * [!UICONTROL Time period]: (Welke relevante tijdsperiode u wilt gebruiken)*
 * 
-   [!UICONTROL Interval]: `Month`
+  [!UICONTROL Interval]: `Month`
 * [!UICONTROL Chart Type]: `Line Chart`
 
 Zodra u de bovengenoemde rapporten voor opbrengstdoelstellingen hebt voltooid, kunt u identieke rapporten voor doelstellingen rond orden, geregistreerde rekeningen, of om het even welke andere waarden tot stand brengen u in uw doelstellingen uploadt dossier hebt omvat.

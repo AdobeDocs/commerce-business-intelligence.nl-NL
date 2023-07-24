@@ -2,7 +2,9 @@
 title: De activiteiten van de Website en de Conversietarieven van de Klant analyseren
 description: Leer hoe u een dashboard instelt waarmee uw websiteactiviteit (inclusief paginaweergaven, sessies en gebruikers) en de conversiesnelheid van uw klant in de loop van de tijd worden bijgehouden.
 exl-id: 2b57d5b3-3bbf-4ec9-86a6-9fa850c1c459
-source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
+role: Admin, User
+feature: Reports, Data Integration
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%

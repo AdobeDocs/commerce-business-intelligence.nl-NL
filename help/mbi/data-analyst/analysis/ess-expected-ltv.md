@@ -1,8 +1,10 @@
 ---
 title: Analyse van de verwachte levenwaarde (LTV) (basis)
-description: Leer hoe u analyses maakt om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen toeneemt.
+description: Leer hoe u analyses maakt om de levensduurwaarde van uw huidige klanten te begrijpen en hoe de levensduurwaarde met meer bestellingen toeneemt.
 exl-id: e6f02cf6-f542-4768-969c-3ec998a7caa9
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, User
+feature: Data Warehouse Manager, Reports
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -23,17 +25,16 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 * Navigeren naar **[!UICONTROL Manage Data > Metrics]**
    * Bestaande weergeven **[!UICONTROL Avg lifetime revenue]**.
 
-   >[!NOTE]
-   >
-   >De lijst deze metrisch wordt geconstrueerd (waarschijnlijk `customer_entity` of `sales_order` afhankelijk van de mogelijkheid van je winkel om uitchecken door gasten te accepteren.)
+  >[!NOTE]
+  >
+  >De lijst deze metrisch wordt geconstrueerd (waarschijnlijk `customer_entity` of `sales_order` afhankelijk van de mogelijkheid van je winkel om uitchecken door gasten te accepteren.)
 
    * Klikken **[!UICONTROL Create New Metric]** en selecteer de tabel hierboven.
    * Deze maatstaf voert een **Mediaan** op de `Customer's lifetime revenue` kolom, geordend door `created_at`.
       * [!UICONTROL Filters]:
          * Voeg de `Customers we count (Saved Filter Set)` (of `Registered accounts we count`)
+
    * Geef metrisch een naam, zoals `Median lifetime revenue`.
-
-
 
 ## Het dashboard maken
 
@@ -53,7 +54,7 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
    * [!UICONTROL Metric]: `Avg lifetime revenue`
    * [!UICONTROL Time period]: `All time`
    * 
-      [!UICONTROL Interval]: `None`
+     [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart Type]: `Number (scalar)`
 
 * **[!UICONTROL Average LTV (customers / non-guest checkout)]**
@@ -61,11 +62,11 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
       * Toevoegen [!UICONTROL filters]:
          * [`A`] `Customer's group code` **Niet gelijk aan** `Not Logged In`
          * [`B`] `Customer's lifetime number of orders` **Groter dan**`0`
+
    * [!UICONTROL Time period]: `All time`
    * 
-      [!UICONTROL Interval]: `None`
+     [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart Type]: `Number (scalar)`
-
 
 * **[!UICONTROL Average and Median LTV]**
    * Metrisch `1`: `Avg lifetime revenue`
@@ -73,7 +74,7 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
    * [!UICONTROL Time period]: `All time`
    * [!UICONTROL Interval]: `By Month`
    * 
-      [!UICONTROL Chart Type]: `Line`
+     [!UICONTROL Chart Type]: `Line`
    * Uitschakelen `Multiple Y-Axes`
 
 * **LTV op levensduuraantal orders**
@@ -81,14 +82,14 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
    * Metrisch `2`: `New customers`
    * [!UICONTROL Time period]: `All time`
    * 
-      [!UICONTROL Interval]: `None`
+     [!UICONTROL Interval]: `None`
    * [!UICONTROL Group by]: `Customer's lifetime number of orders`
    * 
+     [!UICONTROL Chart Type]: `Line`
 
-      [!UICONTROL Chart Type]: `Line`
-   >[!NOTE]
-   >
-   >Niet alle waarden toevoegen voor `Customer's lifetime number of orders`. In plaats daarvan, bekijk een punt waar het aantal Nieuwe Klanten een klein aantal bereikt en manueel het levenslevensaantal van elke Klant van ordewaarde aan dat punt toevoegen. Bijvoorbeeld, als er 200 klanten bij één orde zijn, 75 bij twee, 15 bij drie, en 3 bij vier, voeg toe *1, 2 en 3*.
+  >[!NOTE]
+  >
+  >Niet alle waarden toevoegen voor `Customer's lifetime number of orders`. In plaats daarvan, bekijk een punt waar het aantal Nieuwe Klanten een klein aantal bereikt en manueel het levenslevensaantal van elke Klant van ordewaarde aan dat punt toevoegen. Bijvoorbeeld, als er 200 klanten bij één orde zijn, 75 bij twee, 15 bij drie, en 3 bij vier, voeg toe *1, 2 en 3*.
 
 * Bestaande toevoegen [!UICONTROL Avg customer lifetime revenue by cohort] verslag.
 

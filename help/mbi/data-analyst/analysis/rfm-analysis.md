@@ -2,7 +2,9 @@
 title: Recente, Frequentie, Monetaire (RFM) Analyse
 description: Leer hoe te opstelling een dashboard dat u toestaat om uw klanten door hun recentie, frequentie, en monetaire rankings te segmenteren.
 exl-id: 8f0f08fd-710b-4810-9faf-3d0c3cc0a25d
-source-git-commit: 4cad1e05502630e13f7a2d341f263140a02b3d82
+role: Admin, User
+feature: Data Warehouse Manager, Reports, Dashboards
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 0%
@@ -41,19 +43,17 @@ Te maken kolommen
 * [!UICONTROL Filter]: `Orders we count`
 
 * 
-
-       Seconden sinds laatste besteldatum van klant
-   * [!UICONTROL Column type]: - &quot;Zelfde tabel > Leeftijd
+      Seconden sinds laatste besteldatum van klant
+  * [!UICONTROL Column type]: - &quot;Zelfde tabel > Leeftijd
 * Geselecteerd [!UICONTROL column]: `Customer's last order date`
 
 * (invoer) Verwijzing naar aantal
 * [!UICONTROL Column type]: `Same table > Calculation`
 * 
-   [!UICONTROL Inputs]: `entity_id`
+  [!UICONTROL Inputs]: `entity_id`
 * [!UICONTROL Calculation]: `**case when A is null then null else 1 end**`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 * **Telreferentie** tabel (dit is het bestand dat u hebt geüpload met het nummer &quot;1&quot;)
 * Aantal klanten
@@ -77,16 +77,14 @@ Te maken kolommen
 * [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue`, `Number of customers`
 * [!UICONTROL Calculation]: `case when A is null then null else (B-(A-1)) end`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 * Monetaire score van de klant (in percentielen)
 * [!UICONTROL Column type]: `Same table > Calculation`
 * [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue`, `Number of customers`
 * [!UICONTROL Calculation]: `Case when round((B-A+1)*100/B,0) <= 20 then 5 when round((B-A+1)*100/B,0) <= 40 then 4 when round((B-A+1)*100/B,0) <= 60 then 3 when round((B-A+1)*100/B,0) <= 80 then 2 when round((B-A+1)*100/B,0) <= 100 then 1 else 0 end`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 * (input) Rangorde volgens het aantal orders in de levensduur van de klant
 * [!UICONTROL Column type]: `Same table > Event Number`
@@ -95,7 +93,7 @@ Te maken kolommen
 
 * Rangschikking volgens levensduur van klant aantal orders
 * 
-   [!UICONTROL, kolomtype]: – "Zelfde tabel > Berekening"
+  [!UICONTROL, kolomtype]: – "Zelfde tabel > Berekening"
 * [!UICONTROL Inputs]: - **(input) Rangorde volgens het aantal orders in de levensduur van de klant**, **Aantal klanten**
 * [!UICONTROL Calculation]: - **case als A null is, dan null else (B-(A-1)) end**
 * [!UICONTROL Datatype]: - Geheel getal
@@ -105,8 +103,7 @@ Te maken kolommen
 * [!UICONTROL Inputs]: `(input) Ranking by customer lifetime number of orders`, `Number of customers`
 * [!UICONTROL Calculation]: `Case when round((B-A+1)*100/B,0) <= 20 then 5 when round((B-A+1)*100/B,0) <= 40 then 4 when round((B-A+1)*100/B,0) <= 60 then 3 when round((B-A+1)*100/B,0) <= 80 then 2 when round((B-A+1)*100/B,0) <= 100 then 1 else 0 end`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 * Volgorde door seconden sinds laatste de ordedatum van de klant
 * [!UICONTROL Column type]: `Same table > Event Number`
@@ -118,16 +115,14 @@ Te maken kolommen
 * [!UICONTROL Inputs]: `(input) Ranking by customer lifetime number of orders`, `Number of customers`
 * [!UICONTROL Calculation]: `Case when (A * 100/B,0) <= 20 then 5 when (A * 100/B,0) <= 40 then 4 when (A * 100/B,0) <= 60 then 3 when (A * 100/B,0) <= 80 then 2 when (A * 100/B,0) <= 100 then 1 else 0 end`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 * Recentiescore van de klant (in percentielen)
 * [!UICONTROL Column type]: `Same table > Calculation`
 * [!UICONTROL Inputs]: `Customer's recency score (by percentiles)`, `Customer's frequency score (by percentiles)`, `Customer's monetary score (by percentiles)`
 * [!UICONTROL Calculation]: `case when (A IS NULL or B IS NULL or C IS NULL) then null else concat(A,B,C) end`
 * 
-
-   [!UICONTROL Datatype]: String
+  [!UICONTROL Datatype]: String
 
 * **Telreferentie** table
 * [!UICONTROL Number of customers]: `(RFM > 0)`
@@ -147,8 +142,7 @@ Te maken kolommen
 * [!UICONTROL Inputs]: – `Customer's recency score (by percentiles)`, `Customer's frequency score (by percentiles)`, `Customer's monetary score (by percentiles)`
 * [!UICONTROL Calculation]: `case when (A IS NULL or B IS NULL or C IS NULL) then null else A+B+C end`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 * (input) Rangschikking op basis van de totale RFM-score van de klant
 * [!UICONTROL Column type]: `Same table > Event Number`
@@ -161,16 +155,14 @@ Te maken kolommen
 * [!UICONTROL Inputs]: `(input) Ranking by customer's overall RFM score`, `Number of customers (RFM > 0)`
 * [!UICONTROL Calculation]: `case when A is null then null else (B-(A-1)) end`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 * RFM-groep van de klant
 * [!UICONTROL Column type]: `Same table > Calculation`
 * [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue`, `Number of customers`
 * [!UICONTROL Calculation]: `Case when round(A * 100/B,0) <= 20 then '5. copper' when round(A * 100/B,0) <= 40 then '4. bronze' when round(A * 100/B,0) <= 60 then '3. silver' when round(A * 100/B,0)<= 80 then '2. gold' else '1. Platinum' end`
 * 
-
-   [!UICONTROL Datatype]: `Integer`
+  [!UICONTROL Datatype]: `Integer`
 
 >[!NOTE]
 >
@@ -193,14 +185,13 @@ Geen nieuwe metriek!
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * Diagram verbergen
 * [!UICONTROL Group by]: `Customer's RFM group`
 * 
-   [!UICONTROL Group door]: `Email`
+  [!UICONTROL Group door]: `Email`
 * 
-
-   [!UICONTROL Chart type]: `Table`
+  [!UICONTROL Chart type]: `Table`
 
 * **Klanten met vijf recentiescore**
 * Metrisch `A`: `New customers`
@@ -209,16 +200,15 @@ Geen nieuwe metriek!
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-   [!UICONTROL Chart Type]: `Scalar`
+  [!UICONTROL Chart Type]: `Scalar`
 * Diagram verbergen
 * 
-   [!UICONTROL Group door]: `Email`
+  [!UICONTROL Group door]: `Email`
 * [!UICONTROL Group by]: `Customer's RFM score (R+F+M)`
 * 
-
-   [!UICONTROL Chart type]: `Table`
+  [!UICONTROL Chart type]: `Table`
 
 * **Klanten met één recentiescore**
 * Metrisch `A`: `New customers`
@@ -227,15 +217,14 @@ Geen nieuwe metriek!
 
 * [!UICONTROL Time period]: `All time`
 * 
-   [!UICONTROL Interval]: `None`
+  [!UICONTROL Interval]: `None`
 * 
-   [!UICONTROL Chart Type]: `Scalar`
+  [!UICONTROL Chart Type]: `Scalar`
 * Diagram verbergen
 * 
-   [!UICONTROL Group door]: `Email`
+  [!UICONTROL Group door]: `Email`
 * [!UICONTROL Group by]: `Customer's RFM score (R+F+M)`
 * 
-
-   [!UICONTROL Chart type]: `Table`
+  [!UICONTROL Chart type]: `Table`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan als het bovengenoemde steekproefdashboard kijken, maar de drie geproduceerde lijsten zijn enkel voorbeelden van de types van klantensegmentatie u kunt uitvoeren.

@@ -2,7 +2,7 @@
 title: Gegevensvalidatie in Mixpanel
 description: Leer hoe u kunt bevestigen dat u alle gegevens hebt gesynchroniseerd die rechtstreeks beschikbaar zijn in het deelvenster Mixen.
 exl-id: d18ce954-26fe-4440-ad8b-4f266c007b2f
-source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
+source-git-commit: 903e839e8bd8a4e7b6d21b6a7ebcae49f2dfe6e4
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Wanneer [!DNL Adobe Commerce Intelligence] maakt eerst verbinding met uw [!DNL Mixpanel] gegevens, kan uw accountmanager of analist u vragen gegevens te exporteren van [!DNL Mixpanel] voor validatiedoeleinden. Zo kunt u bevestigen dat u alle gegevens hebt gesynchroniseerd die direct binnen beschikbaar zijn [!DNL Mixpanel].
 
-## Gegevensuitvoerproces: `Events`
+## Gegevensuitvoerproces: `Events`
 
 1. Bezoek uw `Segmentation` sectie en weergave `Your Top Events`.
 

@@ -2,7 +2,9 @@
 title: Gegevens standaardiseren met toewijzingstabellen
 description: Leer hoe u met toewijzingstabellen werkt.
 exl-id: e452ff87-f298-43d5-acc3-af58e53bd0bc
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 0%
@@ -64,7 +66,7 @@ Als u de opdracht `joined` navigeer naar de tabel waarnaar het veld wordt verpla
    * Op de `One` zijde, selecteer `mapping` en de `Primary key` kolom. In dit geval selecteert u de optie `state_input` uit de `mapping_state` tabel.
    * Hier is een blik op wat de weg als kijkt:
 
-      ![](../../assets/State_Mapping_Path.png)
+     ![](../../assets/State_Mapping_Path.png)
 
 1. Klik op **[!UICONTROL Save]** om het pad te maken.
 1. Het pad wordt mogelijk niet direct na het opslaan gevuld. Als dit gebeurt, klikt u op de knop `Path` en selecteer het pad dat u hebt gemaakt.

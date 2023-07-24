@@ -2,7 +2,9 @@
 title: Tabelrelaties begrijpen en evalueren
 description: Leer hoe u begrijpt hoeveel mogelijke exemplaren in een tabel tot een entiteit in een andere tabel kunnen behoren.
 exl-id: e7256f46-879a-41da-9919-b700f2691013
-source-git-commit: 2db58f4b612fda9bdb2570e582fcde89ddc18154
+role: Admin, Data Architect, Data Engineer, User
+feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
+source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 0%
@@ -120,7 +122,7 @@ Wanneer tabellen worden gekoppeld met een `Foreign key` die verwijzen naar een `
 Als één van beiden van het volgende waar is, is de verhouding `many-to-many`:
 
 * `Non-primary key` kolommen worden gebruikt om twee tabellen te koppelen
-   ![](../../assets/many-to-many1.png)
+  ![](../../assets/many-to-many1.png)
 * Deel van een samenstelling `primary key` wordt gebruikt om twee tabellen te koppelen
 
 ![](../../assets/many-to-mnay2.png)
