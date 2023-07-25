@@ -2,7 +2,9 @@
 title: Formulas
 description: Leer hoe u formules kunt gebruiken.
 exl-id: b6432d93-739f-410c-b732-e09a278f8dae
-source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -49,7 +51,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    * In de `Enter your Formula` invoervak, typ `A/B`.
 
-      Dit deelt de opbrengst door producten die door het aantal nieuwe klanten worden bevolen.
+     Dit deelt de opbrengst door producten die door het aantal nieuwe klanten worden bevolen.
 
    * Set `Select format` tot `123Number`.
 
@@ -71,11 +73,11 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    * Kies in de kalenders het datumbereik.
 
-      In dit voorbeeld is het feestseizoen van `November 1` doorheen `December 31`.
+     In dit voorbeeld is het feestseizoen van `November 1` doorheen `December 31`.
 
    * Onder `Select Time Interval`kiest u `Day`.
 
-      ![Vast datumbereik](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range.png)
+     ![Vast datumbereik](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range.png)
 
    * Klik op **[!UICONTROL Apply]**.
 

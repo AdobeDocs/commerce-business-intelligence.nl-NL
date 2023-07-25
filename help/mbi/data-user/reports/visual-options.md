@@ -2,7 +2,9 @@
 title: Visualisatieopties in Visual Report Builder
 description: Leer hoe te om de opties van de Visualisatie in Visual Report Builder te gebruiken.
 exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
-source-git-commit: df81d2b036d00cd53274ec1ae22031dbf06cc948
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '1533'
 ht-degree: 0%
@@ -77,7 +79,7 @@ Om een rapport als lijngrafiek te bewaren, pas het rapport aan `Type` tot `Chart
 
 ## `Bar`
 
-`Bar` in grafieken worden uw gegevens weergegeven als een reeks horizontale balken. Deze diagrammen zijn het meest geschikt voor het weergeven van de algemene prestaties van een beperkt aantal metriek of groep op basis van waarden. Bijvoorbeeld, zou een bar grafiek kunnen worden gebruikt om de opbrengst per opslag te vergelijken:
+`Bar` in grafieken worden uw gegevens weergegeven als een reeks horizontale balken. Deze diagrammen zijn het meest geschikt voor het weergeven van de algehele prestaties van een beperkt aantal metriek of groep op basis van waarden. Bijvoorbeeld, zou een bar grafiek kunnen worden gebruikt om de opbrengst per opslag te vergelijken:
 
 ![](../../assets/blobid2.png)
 

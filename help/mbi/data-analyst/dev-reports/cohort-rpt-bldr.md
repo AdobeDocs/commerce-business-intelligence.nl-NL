@@ -2,7 +2,9 @@
 title: Cohort Report Builder
 description: Leer over de analyse van gebruikersgroepen die gelijkaardige kenmerken over hun levenscycli delen.
 exl-id: d80c5389-7256-40e0-86e0-49903113f93d
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -181,7 +183,7 @@ In dit voorbeeld hebt u de opdracht `Revenue` metrisch, groepeerde uw cohorts do
 
 ### Ik wil gemiddeld weten hoeveel bestellingen een gebruiker maakt op verschillende punten in zijn leven.
 
-!![Average number of orders users make at different points in their lifetimes](../../assets/cohort2.gif
+(../../assets/cohort2.gif
 
 In dit voorbeeld hebt u de `Number of orders` metrisch, groepeerde uw cohorts door `customer's first order date`en bevat de acht meest recente cohorten (gedefinieerd in de `Time Period` ) in de analyse. Als u het gemiddelde aantal bestellingen voor elke cohort wilt zien, hebt u de opdracht `perspective` tot `Average Value per Cohort Member`.
 

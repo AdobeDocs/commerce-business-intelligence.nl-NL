@@ -2,7 +2,9 @@
 title: Verschillen tussen SQL en de Manager van de Data Warehouse
 description: Leer de verschillen tussen SQL en de Manager van de Data Warehouse.
 exl-id: 31dd7a04-5c03-4399-b67e-f51703eb9fea
-source-git-commit: 6b1bd96a0f9ae8bda3ae8db8ca78ad655079f2a4
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%

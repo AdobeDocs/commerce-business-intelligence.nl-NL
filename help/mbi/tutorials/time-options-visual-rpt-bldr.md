@@ -2,7 +2,9 @@
 title: De Opties van de Tijd van het gebruik in Visuele Report Builder
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '1267'
 ht-degree: 0%
@@ -82,6 +84,7 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
    * `Time Interval`: instellen op `None`.
 
    * `Time Range`: instellen op `From 14 Months Ago To 13 Months Ago` door eerst te klikken **[!UICONTROL Custom]** dan **[!UICONTROL Moving Range]**. Gebruik de velden en vervolgkeuzelijsten boven aan het menu om het bereik in te stellen. Op die manier kunnen we de inkomsten van de vorige maand zien, maar in het voorgaande jaar.
+
    Maak zich geen zorgen als metrisch uit het rapport verdwijnt - plaatsend een onafhankelijke tijdoptie verbergt automatisch metrisch van het rapport. Klik op **[!UICONTROL Show]** naast de metrische waarde.
 
    ![](../assets/Different_Time_Ranges.gif)
@@ -95,8 +98,6 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
    ![](../assets/TO4.png)
 
    * Wijzig de naam van de metriek. In het voorbeeld is de eerste metrische waarde `Revenue - 2015` en de tweede `Revenue - 2014`.
-
-
 
 Een ander veelvoorkomend gebruik van aangepaste `Time Options` wordt gebruikt om de leverweken te bepalen. Vooral tijdens de vakantieperiode of een speciale promotieperiode, kunt u punten overwegen die in de afgelopen week, maand, en vorige promotieperiode worden verkocht om geïnformeerde aankoopbesluiten te nemen.
 
@@ -129,13 +130,13 @@ Als u de formules wilt maken, klikt u op **[!UICONTROL Add Formula]**. Voer de o
 * Voor de `last 7 days time period`, enter `D / A` in de `Formula` veld.
 * Voor de `last 28 days time period`, enter `D / (B/4)` in de `Formula` veld.
 
-   >[!NOTE]
-   >
-   >Het is belangrijk dat u de geselecteerde tijdbereiken hier normaliseert. Breek 28 dagen in vier weken in dit voorbeeld. U moet mogelijk verschillende logica op de formule toepassen.
+  >[!NOTE]
+  >
+  >Het is belangrijk dat u de geselecteerde tijdbereiken hier normaliseert. Breek 28 dagen in vier weken in dit voorbeeld. U moet mogelijk verschillende logica op de formule toepassen.
 
 * Voor de `last promo period`, enter `D / C` in de `Formula` veld.
 
-   ![](../assets/Different_Time_Ranges_2.png)
+  ![](../assets/Different_Time_Ranges_2.png)
 
 * Pas ten slotte het rapport aan door de metriek te verbergen en een `SKU` of een vergelijkbare dimensie `Group By`.
 

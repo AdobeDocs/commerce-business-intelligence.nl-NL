@@ -2,7 +2,9 @@
 title: MySQL verbinden via een directe verbinding
 description: Leer hoe u verbinding maakt [!DNL MongoDB] via directe verbinding.
 exl-id: 53765844-c9bb-4a16-b00c-ce9672f87415
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 0%
@@ -58,7 +60,7 @@ Voer de volgende gegevens in op deze pagina, te beginnen met de `Database Connec
 * `Port`: De poort van MySQL op uw server (`3306` standaard)
 * `Host`: Standaard is dit localhost. In het algemeen is het de bind-adrewaarde voor uw [!DNL MySQL] server, die standaard `127.0.0.1 (localhost)`, maar ook een lokaal netwerkadres (bijvoorbeeld `192.168.0.1`) of het openbare IP-adres van uw server.
 
-   U vindt de waarde in uw `my.cnf` bestand (bevindt zich in `/etc/my.cnf`) onder de regel die leest `\[mysqld\]`. Als de bind-adreslijn uit in dat dossier wordt becommentarieerd, wordt uw server beveiligd van buitenverbindingspogingen.
+  U vindt de waarde in uw `my.cnf` bestand (bevindt zich in `/etc/my.cnf`) onder de regel die leest `\[mysqld\]`. Als de bind-adreslijn uit in dat dossier wordt becommentarieerd, wordt uw server beveiligd van buitenverbindingspogingen.
 
 Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
 

@@ -2,7 +2,9 @@
 title: Connect PostgreSQL via SSH Tunnel
 description: Leer hoe te om uw gegevensbestand PostgreSQL met de Intelligentie van de Handel via een tunnel van SSH te verbinden.
 exl-id: da610988-21c1-4f5f-b4e2-e2deb175a2aa
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -15,8 +17,8 @@ Als u verbinding wilt maken met uw [!DNL PostgreSQL] database naar [!DNL Commerc
 
 1. [De [!DNL Commerce Intelligence] openbare sleutel](#retrieve)
 1. [Toegang tot de [!DNL Commerce Intelligence] IP-adres](#allowlist)
-1. [Een [!DNL Linux] gebruiker voor [!DNL Commerce Intelligence] ](#linux)
-1. [Een [!DNL PostgreSQL] gebruiker voor [!DNL Commerce Intelligence] ](#postgres)
+1. [Een [!DNL Linux] gebruiker voor [!DNL Commerce Intelligence]](#linux)
+1. [Een [!DNL PostgreSQL] gebruiker voor [!DNL Commerce Intelligence]](#postgres)
 1. [Voer de verbinding en gebruikersgegevens in [!DNL Commerce Intelligence]](#finish)
 
 ## De [!DNL Commerce Intelligence] [!DNL public key] {#retrieve}

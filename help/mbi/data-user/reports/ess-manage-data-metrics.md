@@ -2,7 +2,9 @@
 title: Metrisch maken
 description: Leer hoe u metriek kunt gebruiken om grafieken te maken.
 exl-id: d4c25546-3c51-4d32-b9d8-c424ec103be5
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Reports
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -45,12 +47,12 @@ Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspa
       * `Median` - Deze bewerking berekent de mediaan van de waarden in de gegevenskolom
       * `First and Third Quartiles` - Deze bewerkingen berekenen respectievelijk het 25e en 75e percentiel van de kolomwaarden van de gegevens
       * `Tenth and Ninetieth Percentiles` - Deze bewerkingen berekenen respectievelijk het tiende en het negentigste percentiel van de waarden van de gegevenskolom
+
    * Kies een kolom waarop de bewerking moet worden uitgevoerd. Bijvoorbeeld, als u uw totale opbrengst wilde vinden, zou u een summiere verrichting op uitvoeren `order total` kolom.
 
-      Als u een bestaande metrische waarde bewerkt, kunt u ook [veranderen de operationele lijst van metrisch](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in deze afdeling.
+     Als u een bestaande metrische waarde bewerkt, kunt u ook [veranderen de operationele lijst van metrisch](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in deze afdeling.
 
    * Kies een datumdimensie die kan worden gebruikt om metrisch te trenderen. Bijvoorbeeld: `order date`.
-
 
 ## Filters toevoegen {#filters}
 

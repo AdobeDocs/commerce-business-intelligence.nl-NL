@@ -2,7 +2,9 @@
 title: Dashboards
 description: Leer hoe u een dashboard maakt en gebruikt.
 exl-id: a872344b-ac66-41eb-a471-5a69f8802527
-source-git-commit: 3bf4829543579d939d959753eb3017364c6465bd
+role: Admin, Data Architect, Data Engineer, User
+feature: Commerce Tables, Data Warehouse Manager, Dashboards
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 0%
@@ -41,14 +43,13 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
    * Als u een `Group` Voer voor het dashboard de naam van de groep in.
 
-      Bijvoorbeeld, als uw installatie van de Handel veelvoudige opslagmeningen heeft, zou u een Groep voor elke archiefmening kunnen creëren.
+     Bijvoorbeeld, als uw installatie van de Handel veelvoudige opslagmeningen heeft, zou u een Groep voor elke archiefmening kunnen creëren.
 
    * Klikken **[!UICONTROL Create]**.
 
    ![naam dashboard](../../assets/magento-bi-dashboard-create-name.png)
 
    * De naam van het nieuwe dashboard wordt in de linkerbovenhoek weergegeven. Klik op de pijl omlaag (![](../../assets/magento-bi-btn-down.png)) om de opties weer te geven. Als u een groep hebt gemaakt, wordt het nieuwe dashboard onder de groep in de lijst weergegeven.
-
 
 ### Een rapport toevoegen
 
@@ -58,7 +59,7 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
    * Klik in de dashboardkoptekst op **[!UICONTROL Add Report]**.
 
-      ![Rapport toevoegen](../../assets/magento-bi-dashboard-create-add-report.png)
+     ![Rapport toevoegen](../../assets/magento-bi-dashboard-create-add-report.png)
 
 1. Klikken **[!UICONTROL Create Report]** om de **[!UICONTROL Report Builder Options]**.
 
@@ -107,6 +108,7 @@ Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op ee
       * `View`
       * `Edit`
       * `None`
+
    1. Klik op **[!UICONTROL OK]** om het machtigingsniveau voor elke gebruiker bij te werken.
 
    1. Als u het machtigingsniveau van een individu wilt wijzigen, zoekt u de gebruiker in de lijst naar een ander machtigingsniveau. De wijziging wordt automatisch opgeslagen.

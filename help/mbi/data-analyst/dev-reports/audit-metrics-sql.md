@@ -2,7 +2,9 @@
 title: Werken met SQL Report Builder
 description: Leer hoe te om gegevens en metriek te controleren gebruikend SQL Report Builder zodat u de resultaten met de gegevens van uw lokale gegevensbestand kunt vergelijken.
 exl-id: d1d9e099-4138-43e6-aaec-6f15ebc5c4d4
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+role: Admin, Data Architect, Data Engineer, User
+feature: Reports, Data Warehouse Manager, SQL Report Builder
+source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
