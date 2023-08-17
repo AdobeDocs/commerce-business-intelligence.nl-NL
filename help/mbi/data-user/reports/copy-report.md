@@ -13,8 +13,8 @@ ht-degree: 0%
 
 # Een kopie van een rapport maken
 
-Vaak wilt u vergelijkbare gedefinieerde diagrammen maken waarbij u slechts één element wilt wijzigen, zoals het bewerken van een filter of het wijzigen van de `group by`.
+Vaak wilt u vergelijkbare gedefinieerde grafieken maken waarin u slechts één element wilt wijzigen, zoals een filter bewerken of het `group by`.
 
-In deze gevallen start u de `Chart Editor` en klik op **[!UICONTROL Save As]** in de rechterbovenhoek. Hiermee wordt uw bestaande diagram gerepliceerd en toegevoegd aan het huidige dashboard met de nieuwe naam die u selecteert, en kunt u de instellingen van het nieuwe diagram direct bewerken.
+In deze gevallen start u de `Chart Editor` en klik op **[!UICONTROL Save As]** in de rechterbovenhoek Hiermee wordt uw bestaande diagram gerepliceerd en toegevoegd aan het huidige dashboard met de nieuwe naam die u selecteert, en kunt u de instellingen van het nieuwe diagram direct bewerken.
 
 ![](../../assets/create-report-copy.png)

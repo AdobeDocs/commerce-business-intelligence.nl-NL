@@ -17,9 +17,9 @@ Dit onderwerp schetst het doel en het gebruik van `Sequential Comparison` bereke
 
 **Toelichting**
 
-De `Sequential Comparison` kolomtype: Hiermee wordt het verschil tussen opeenvolgende gebeurtenissen gevonden. Het meest voorkomende type `Sequential Comparison` de kolom is `Seconds since previous order` kolom. Er zijn drie invoeren nodig voor deze kolom:
+De `Sequential Comparison` kolomtype: zoekt naar het verschil tussen opeenvolgende gebeurtenissen. Het meest gangbare type `Sequential Comparison` de kolom is `Seconds since previous order` kolom. Er zijn drie invoeren nodig voor deze kolom:
 
-1. `Event Owner`: Deze invoer bepaalt de entiteit waarvoor de rijen zijn gegroepeerd. In het dialoogvenster `Seconds since previous order` kolom, is de gebeurteniseigenaar de klant, omdat u het aantal seconden sinds de vorige orde van de zelfde klant wilt vinden.
+1. `Event Owner`: Deze invoer bepaalt de entiteit waarvoor rijen zijn gegroepeerd. In het dialoogvenster `Seconds since previous order` kolom, is de gebeurteniseigenaar de klant, omdat u het aantal seconden sinds de vorige orde van de zelfde klant wilt vinden.
 1. `Event Date`: Deze invoer dwingt de volgorde van gebeurtenissen af. In het geval van `Seconds since previous order`moet de kolom met het tijdstempel van de volgorde `Event Date`. Deze invoer is altijd een tijdstempel.
 1. `Value to Compare`: Deze invoer is de werkelijke waarde die moet worden vergeleken. De waarde van de vorige rij wordt afgetrokken van de waarde van de huidige rij. Daarom wordt een kolom die het tijdverschil tussen opeenvolgende orders van een klant vindt, aangeroepen `Seconds since previous order`. Deze invoer hoeft geen tijdstempel te zijn. Een niet-tijdstempelvoorbeeld is het verschil in orderwaarde tussen opeenvolgende orders van een klant te vinden.
 
@@ -37,7 +37,7 @@ In het bovenstaande voorbeeld: `Seconds since owner's previous event` is de `Seq
 
 Voor dit berekende kolomtype heeft de rij die overeenkomt met de eerste gebeurtenis van de eigenaar een `NULL` waarde.
 
-**mechanisch**
+**Mechanica**
 
 Om een **Gebeurtenisnummer** kolom:
 

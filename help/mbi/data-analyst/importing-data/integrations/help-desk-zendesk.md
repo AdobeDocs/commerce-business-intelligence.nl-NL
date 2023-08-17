@@ -1,5 +1,5 @@
 ---
-title: Helpdesk-rapporten voor Zendesk
+title: Rapportage van helpdesk voor Zendesk
 description: Meer informatie over uw meest gewaardeerde verwijzingskanalen.
 exl-id: b6142ef2-2be8-401f-ac35-f86fc68d204e
 role: Admin, Data Architect, Data Engineer, User

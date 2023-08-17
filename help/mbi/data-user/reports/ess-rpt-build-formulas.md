@@ -17,9 +17,9 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
 ![Verkoop vakantie in dashboard](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)
 
-## Stap 1: Het basisrapport maken
+## Stap 1: Maak het basisrapport
 
-1. Kies in het menu de optie `Report Builder`.
+1. Kies in het menu `Report Builder`.
 
 1. Klikken **[!UICONTROL Add Metric]** en kies eerste metrisch voor het rapport.
 
@@ -29,7 +29,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    In dit voorbeeld wordt `New Customers` wordt metrisch gebruikt.
 
-1. Klik in de zijbalk op **[!UICONTROL Details]** om informatie over elke metrische waarde weer te geven.
+1. Klik in de zijbalk op **[!UICONTROL Details]** om informatie over elke metrisch te tonen.
 
    ![Ontvangsten per bestelde producten](../../assets/magento-bi-report-builder-revenue-by-products.png)
 
@@ -65,7 +65,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    ![Rapport met formule](../../assets/magento-bi-report-builder-revenue-by-products-formula-report.png)
 
-## Stap 3: Datumbereik toevoegen
+## Stap 3: Een datumbereik toevoegen
 
 1. Klikken **[!UICONTROL Date Range]** in de rechterbovenhoek.
 
@@ -75,7 +75,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
      In dit voorbeeld is het feestseizoen van `November 1` doorheen `December 31`.
 
-   * Onder `Select Time Interval`kiest u `Day`.
+   * Onder `Select Time Interval`, kiest u `Day`.
 
      ![Vast datumbereik](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range.png)
 
@@ -85,7 +85,7 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    ![Vast datumbereik](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range-report.png)
 
-## Stap 4: Het rapport opslaan
+## Stap 4: Sla het rapport op
 
 In deze stap, slaat u het rapport als grafiek en ook als lijst op.
 
@@ -99,7 +99,7 @@ In deze stap, slaat u het rapport als grafiek en ook als lijst op.
 
    * Kies de optie `Dashboard` waar het verslag beschikbaar moet zijn.
 
-   * Klikken **[!UICONTROL Save to Dashboard]**.
+   * Klik op **[!UICONTROL Save to Dashboard]**.
 
 1. Klik op de rapporttitel en wijzig de naam. Voor dit voorbeeld wordt de rapporttitel gewijzigd in `2017 Holiday Sales Data`.
 
@@ -111,10 +111,10 @@ In deze stap, slaat u het rapport als grafiek en ook als lijst op.
 
    * Kies de optie `Dashboard` waar het verslag beschikbaar moet zijn.
 
-   * Klikken **[!UICONTROL Save a Copy to Dashboard]**.
+   * Klik op **[!UICONTROL Save a Copy to Dashboard]**.
 
 1. Voer een van de volgende handelingen uit om de rapporten in het dashboard weer te geven:
 
    * Klikken **[!UICONTROL Go to Dashboard]** in het bericht boven aan de pagina.
 
-   * Kies in het menu de optie **[!UICONTROL Dashboards]**. Klik op de naam van het huidige dashboard om de lijst weer te geven. Klik vervolgens op de naam van het dashboard waar het rapport is opgeslagen.
+   * Kies in het menu **[!UICONTROL Dashboards]**. Klik de naam van het huidige dashboard om de lijst te tonen. Klik vervolgens op de naam van het dashboard waar het rapport is opgeslagen.

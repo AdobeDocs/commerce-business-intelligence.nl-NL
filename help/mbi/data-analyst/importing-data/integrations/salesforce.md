@@ -28,7 +28,7 @@ Uw [!DNL Salesforce] Met gegevens beschikt u over een reeks analyses, variërend
 1. Als u de opdracht [!DNL Salesforce] kunt u integreren in uw account, naar het `Connections` pagina onder **[!UICONTROL Manage Data** > **Connections]**.
 1. Klikken **[!UICONTROL Add a Data Source]**, die op de rechterkant van het scherm boven de lijst van Gegevensbronnen wordt gevestigd.
 1. Klik op de knop [!DNL Salesforce] pictogram.
-1. Klikken **[!UICONTROL Connect to Salesforce]**.
+1. Klik op **[!UICONTROL Connect to Salesforce]**.
 1. Voer uw [!DNL Salesforce] referenties en klik op **[!UICONTROL Login to Salesforce]**.
 
 ## Verwante:

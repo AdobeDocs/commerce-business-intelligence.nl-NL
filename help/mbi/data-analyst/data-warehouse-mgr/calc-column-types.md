@@ -19,9 +19,9 @@ ht-degree: 0%
 * [Handmatige verwijzingskaart](#map)
 * [Geavanceerde berekende kolommen](#advanced)
 
-Binnen de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md)kunt u kolommen maken om uw gegevens te vergroten en te optimaliseren voor analyse. [Deze functionaliteit](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van de Data Warehouse te selecteren en te klikken **[!UICONTROL Create New Column]**.
+Binnen de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md)kunt u kolommen maken om uw gegevens te vergroten en te optimaliseren voor analyse. [Deze functionaliteit](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van de Data Warehouse te selecteren en **[!UICONTROL Create New Column]**.
 
-Dit onderwerp beschrijft de types van kolommen die u met de Manager van de Data Warehouse kunt tot stand brengen. Het omvat ook de beschrijving, een visuele doorloop van die kolom, en een [referentiekaart](#map) van alle inputs die nodig zijn om een kolom te maken. U kunt op drie manieren berekende kolommen maken:
+Dit onderwerp beschrijft de types van kolommen die u met de Manager van de Data Warehouse kunt tot stand brengen. Het omvat ook de beschrijving, een visuele doorloop van die kolom, en een [referentiekaart](#map) van alle inputs die nodig zijn om een kolom te maken. Er zijn drie manieren om berekende kolommen te maken:
 
 1. [Dezelfde tabel berekende kolommen](#sametable)
 1. [Een-op-veel berekende kolommen](#onetomany)
@@ -55,9 +55,9 @@ Voor handelscliënten, `base\_currency\_code` in het veld worden doorgaans nativ
 
 ### Samengevoegde kolom {#joined}
 
-Een bij elkaar gevoegde kolom verplaatst een kenmerk van de ene tabel naar een andere locatie *tot* de vele tabel. Het klassieke voorbeeld van één/vele is klanten (één) en orden (vele).
+Een bij elkaar gevoegde kolom verplaatst een attribuut op de ene tabel *tot* de vele tabel. Het klassieke voorbeeld van één/vele is klanten (één) en orden (vele).
 
-In het onderstaande voorbeeld wordt `Customer's group\_id` dimensie wordt samengevoegd tot `orders` tabel.
+In het onderstaande voorbeeld wordt `Customer's group\_id` dimensie wordt samengevoegd tot de `orders` tabel.
 
 ![](../../assets/joined_column.gif)
 
@@ -87,9 +87,9 @@ Dit kan worden gebruikt om klant-vlakke dimensies tot stand te brengen zoals `Cu
 
 ### Exists {#exists}
 
-Een berekende kolom is een binaire test die de aanwezigheid van een verslag aan de vele kant bepaalt. Met andere woorden, de nieuwe kolom retourneert een `1` als het pad ten minste één rij in elke tabel met elkaar verbindt, en `0` als er geen verbinding kan worden gemaakt.
+Een berekende kolom is een binaire test die de aanwezigheid van een verslag aan de vele kant bepaalt. Met andere woorden, de nieuwe kolom retourneert een `1` als het pad ten minste één rij in elke tabel verbindt, en `0` als er geen verbinding kan worden gemaakt.
 
-Dit soort dimensie kan bijvoorbeeld bepalen of een klant ooit een bepaald product heeft gekocht. Een verbinding tussen een `customers` tabel en `orders` tabel, een filter voor een specifiek product, een dimensie `Customer has purchased Product X?` kan worden gebouwd.
+Dit soort dimensie kan bijvoorbeeld bepalen of een klant ooit een bepaald product heeft aangeschaft. Een verbinding tussen een `customers` tabel en `orders` tabel, een filter voor een specifiek product, een dimensie `Customer has purchased Product X?` kan worden gebouwd.
 
 ## Handmatige verwijzingskaart {#map}
 
@@ -101,7 +101,7 @@ Als u moeite hebt zich te herinneren wat alle input wanneer het creëren van een
 
 In uw vraag om vragen over uw zaken te analyseren en te beantwoorden, kunt u een situatie ontmoeten waarin u niet de nauwkeurige kolom kunt bouwen u wilt.
 
-Adobe raadt aan de [Geavanceerde berekende kolomtypen](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) gids om te zien welk soort kolommen het de steunteam van de Adobe kan bouwen. Dat onderwerp behandelt ook de info die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
+Om een snelle ommekeer te waarborgen, beveelt de Adobe aan de [Geavanceerde berekende kolomtypen](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) gids om te zien welk soort kolommen het team van de steun van de Adobe kan bouwen. Dat onderwerp behandelt ook de info die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
 
 ## Gerelateerde documentatie
 

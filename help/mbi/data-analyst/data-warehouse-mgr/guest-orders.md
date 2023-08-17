@@ -25,7 +25,7 @@ In het typische handelsgegevensbestand, is er `orders` tabel die wordt gekoppeld
 
   ![](../../assets/guest-orders-4.png)
 
-* **Als gastorders zijn toegestaan**, betekent dit dat sommige orders geen waarde hebben in de `customer\_id` kolom. Alleen geregistreerde klanten krijgen een waarde voor de `customer\_id` kolom op de `orders` tabel. Klanten die niet zijn ingeschreven, ontvangen een `NULL` (of leeg) waarde voor deze kolom. Hierdoor hebben niet alle orderrecords overeenkomende records in de `customers` tabel.
+* **Als gastorders zijn toegestaan**, betekent dit dat sommige orders geen waarde hebben in de `customer\_id` kolom. Alleen geregistreerde klanten krijgen een waarde voor de `customer\_id` kolom op de `orders` tabel. Klanten die niet zijn ingeschreven, ontvangen een `NULL` (of leeg) waarde voor deze kolom. Hierdoor hebben niet alle orderrecords overeenkomende records in het dialoogvenster `customers` tabel.
 
   >[!NOTE]
   >
@@ -35,7 +35,7 @@ In het typische handelsgegevensbestand, is er `orders` tabel die wordt gekoppeld
 
 Typisch, neemt de Ingenieur van de Verkoop die uw rekening uitvoert gastorden in overweging wanneer het bouwen van de stichting van uw Data Warehouse.
 
-De meest optimale manier om voor gastorden rekenschap te geven is alle klant-vlakke metriek op het `orders` tabel. Bij deze installatie wordt een unieke klant-id gebruikt die alle klanten hebben, inclusief gasten (doorgaans wordt de e-mail van de klant gebruikt). Hierbij worden de registratiegegevens van de `customers` tabel. Met deze optie worden alleen klanten die minstens één aankoop hebben gedaan opgenomen in rapporten op klantniveau. Geregistreerde gebruikers die nog geen aankoop hebben gedaan, worden niet opgenomen. Met deze optie `New customer` metrisch is gebaseerd op de eerste de ordedatum van de klant in `orders` tabel.
+De meest optimale manier om voor gastorden rekenschap te geven is alle klant-vlakke metriek op het `orders` tabel. Bij deze installatie wordt een unieke klant-id gebruikt die alle klanten hebben, inclusief gasten (doorgaans wordt de e-mail van de klant gebruikt). Hierbij worden de registratiegegevens van de `customers` tabel. Met deze optie worden alleen klanten die ten minste één aankoop hebben gedaan, opgenomen in rapporten op klantniveau. Geregistreerde gebruikers die nog geen aankoop hebben gedaan, worden niet opgenomen. Met deze optie `New customer` metrisch is gebaseerd op de eerste de ordedatum van de klant in `orders` tabel.
 
 U kunt zien dat de `Customers we count` filter dat in dit type opstelling wordt geplaatst heeft een filter voor `Customer's order number = 1`.
 

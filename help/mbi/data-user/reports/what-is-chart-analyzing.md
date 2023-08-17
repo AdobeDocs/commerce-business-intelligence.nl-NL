@@ -1,6 +1,6 @@
 ---
 title: Informatie over grafiekgegevens
-description: Leer hoe te om de opties van de Visualisatie in Visual Report Builder te gebruiken.
+description: Leer hoe te om de opties van de Visualisatie in de Visuele Report Builder te gebruiken.
 exl-id: 865efc8b-1e1a-4033-9e42-cbd03b220260
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration

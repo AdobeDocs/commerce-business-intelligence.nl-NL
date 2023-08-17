@@ -25,6 +25,6 @@ In bepaalde gevallen, kunt u besluiten om de gegevenslijst te veranderen die met
 
    ![](../../assets/change-metrics-2.png)
 
-1. Als de nieuwe tabel geen overeenkomende kolom bevat, kunt u **maken in uw datatabel** of [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als het een berekeningskolom of -dimensie betreft, gemaakt door [!DNL Commerce Intelligence]. U kunt ook **de dimensie verwijderen uit de metrische**. Om een afmeting te schrappen die u niet meer nodig hebt, ga eenvoudig terug naar de metrische redacteur en selecteer welke afmetingen onder te schrappen `Dimensions`.
+1. Als de nieuwe tabel geen overeenkomende kolom bevat, kunt u **maken in uw datatabel** of [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als het een berekeningskolom of -dimensie betreft, gemaakt door [!DNL Commerce Intelligence]. U kunt **de dimensie verwijderen uit de metrische**. Om een afmeting te schrappen die u niet meer nodig hebt, ga eenvoudig terug naar de metrische redacteur en selecteer welke afmetingen onder te schrappen `Dimensions`.
 
    ![](../../assets/change-metrics-3.png)

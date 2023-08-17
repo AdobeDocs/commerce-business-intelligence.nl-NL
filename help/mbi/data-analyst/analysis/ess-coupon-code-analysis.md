@@ -31,9 +31,9 @@ Eerst een opmerking over hoe couponcodes worden bijgehouden. Als een klant een c
 
 De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de volgende stappen:
 
-* Navigeren naar **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
+* Ga naar **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
 
-* Selecteer `sales_order`.
+* Selecteer de `sales_order`.
 * Deze maatstaf voert een **Som** op de **base_korting_amount** kolom, geordend door **created_at**.
    * [!UICONTROL Filters]:
       * Voeg de `Orders we count` (Opgeslagen filterset)
@@ -44,7 +44,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 ## Het dashboard maken
 
 * Zodra metrisch is gecreeerd:
-   * Navigeren naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
+   * Ga naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
    * Geef het dashboard een naam, zoals `_Coupon Analysis_`.
 
 * Hier maakt u alle rapporten en voegt u deze toe.
@@ -55,7 +55,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 
 >[!NOTE]
 >
->De [!UICONTROL Time Period]** voor elk rapport wordt vermeld als `All-time`. U kunt dit aanpassen aan uw analysebehoeften. Adobe raadt alle rapporten op dit dashboard aan dezelfde periode te bestrijken, zoals `All time`, `Year-to-date`, of `Last 365 days`.
+>De [!UICONTROL Time Period]** voor elk rapport wordt vermeld als `All-time`. U kunt dit aanpassen aan uw analysebehoeften. Adobe beveelt alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time`, `Year-to-date`, of `Last 365 days`.
 
 * **Orders met coupons**
    * 
@@ -97,7 +97,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
-* **Gemiddelde inkomsten tijdens de levensduur: Door coupon aangekochte klanten**
+* **Gemiddelde inkomsten tijdens de levensduur: door coupon aangekochte klanten**
    * [!UICONTROL Metric]: `Avg lifetime revenue`
       * Filter toevoegen:
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
@@ -107,7 +107,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
-* **Gemiddelde inkomsten tijdens de levensduur: Klanten zonder coupon**
+* **Gemiddelde inkomsten tijdens de levensduur: Aan klanten zonder coupon verworven inkomsten**
    * [!UICONTROL Metric]: `Avg lifetime revenue`
       * Filter toevoegen:
          * [A] `Customer's first order's coupon_code` **IS**`[NULL]`
@@ -157,7 +157,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
      [!UICONTROL Chart type]: `Table`
 
 * **Gemiddelde levensopbrengsten per coupon voor eerste bestelling**
-   * [!UICONTROL Metric]:**Gem. inkomsten**
+   * [!UICONTROL Metric]:**Gem. levenslange inkomsten**
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS**`[NULL]`
 

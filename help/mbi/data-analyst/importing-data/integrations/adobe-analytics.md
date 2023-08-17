@@ -43,17 +43,17 @@ De volgende informatie is nodig om verbinding te maken:
 
 1. Ga naar de `Integrations` pagina onder **[!DNL Manage Data** > **Integrations]**.
 
-1. Klikken **[!UICONTROL Add an Integration]**.
+1. Klik op **[!UICONTROL Add an Integration]**.
 
 1. Klik op de knop **[!UICONTROL Adobe Analytics]** pictogram voor toegang tot de pagina waarmee u toestemming kunt geven voor [!DNL Adobe Analytics] accountverbinding.
 
-1. Klikken **[!UICONTROL Authorize with Adobe Analytics]**.
+1. Klik op **[!UICONTROL Authorize with Adobe Analytics]**.
 
 1. Voer uw [!DNL Adobe Analytics] referenties. Nadat de autorisatie is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence].
 
 1. Een lijst met beschikbare rapportsuites wordt weergegeven. Selecteer de rapportsuite waaruit u de gegevens wilt importeren en klik op **[!UICONTROL Continue]**.
 
-1. Het selectiescherm voor maateenheden en afmetingen wordt weergegeven. Selecteer minstens één metrische en minstens één afmeting, tot een gecombineerd totaal van 25 metriek en afmetingen. Zoek op naam of rol om uw componenten te vinden, dan checkboxes te selecteren. Klikken **[!UICONTROL Continue]**.
+1. Het selectiescherm voor maateenheden en afmetingen wordt weergegeven. Selecteer minstens één metrische en minstens één afmeting, tot een gecombineerd totaal van 25 metriek en afmetingen. Zoek op naam of rol om uw componenten te vinden, dan checkboxes te selecteren. Klik op **[!UICONTROL Continue]**.
 
 1. De geselecteerde rapportsuite wordt in een tabel weergegeven. Klikken **[!UICONTROL Save]** om uw selectie te bevestigen.
 

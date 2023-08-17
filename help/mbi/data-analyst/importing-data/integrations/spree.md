@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Uw [!DNL Spree] gegevens naar [!DNL Commerce Intelligence] laat u deze vragen en meer beantwoorden .
 
-De [!DNL Spree] database is gebaseerd op [!DNL PostgreSQL], kunt u er verbinding mee maken [!DNL Commerce Intelligence] met de [dezelfde stappen als voor een normale [!DNL Postgres] verbinding](../integrations/postgresql.md).
+De [!DNL Spree] database is gebaseerd op [!DNL PostgreSQL]kunt u verbinding maken met [!DNL Commerce Intelligence] met de [dezelfde stappen als voor een normale [!DNL Postgres] verbinding](../integrations/postgresql.md).
 
 ## Gerelateerde documentatie
 

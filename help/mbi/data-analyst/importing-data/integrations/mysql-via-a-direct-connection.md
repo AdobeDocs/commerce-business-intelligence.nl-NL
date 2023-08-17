@@ -32,7 +32,7 @@ Dit onderwerp loopt u door het rechtstreeks verbinden van uw [!DNL MySQL] databa
 
 ## Toegang tot de [!DNL Commerce Intelligence] IP-adressen {#allowlist}
 
-De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze zijn `54.88.76.97` en `34.250.211.151`, maar het is ook [!DNL MySQL] aanmeldingspagina:
+De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze zijn `54.88.76.97` en `34.250.211.151`, maar het is ook [!DNL MySQL] pagina met referenties:
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
@@ -44,13 +44,13 @@ De eenvoudigste manier om een `MySQL` gebruiker voor [!DNL Commerce Intelligence
     GRANT SELECT ON *.* TO 'magentobi'@'<Commerce Intelligence IP address>' IDENTIFIED BY '<secure password>';
 ```
 
-Als u deze gebruiker toegang wilt ontzeggen tot gegevens in specifieke databases, tabellen of kolommen, kunt u in plaats daarvan `GRANT` vragen die alleen toegang geven tot de gegevens die u toestaat.
+Als u deze gebruiker toegang wilt ontzeggen tot gegevens in specifieke databases, tabellen of kolommen, kunt u in plaats daarvan `GRANT` query&#39;s die alleen toegang geven tot de gegevens die u toestaat.
 
 **Voer de query GRANT voor alle vereiste IP&#39;s opnieuw uit met dezelfde gebruiker en hetzelfde wachtwoord.**
 
 ## Verbindingsgegevens invoeren in inlichtingen over handel
 
-Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de [!DNL MySQL] aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** klikt u op de knop [!DNL MySQL] pictogram. Vergeet niet de `Encrypted` schakelen naar `Yes`.
+Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de [!DNL MySQL] aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en klik vervolgens op de knop [!DNL MySQL] pictogram. Vergeet niet de `Encrypted` schakelen naar `Yes`.
 
 Voer de volgende gegevens in op deze pagina, te beginnen met de `Database Connection` sectie:
 
@@ -60,9 +60,9 @@ Voer de volgende gegevens in op deze pagina, te beginnen met de `Database Connec
 * `Port`: De poort van MySQL op uw server (`3306` standaard)
 * `Host`: Standaard is dit localhost. In het algemeen is het de bind-adrewaarde voor uw [!DNL MySQL] server, die standaard `127.0.0.1 (localhost)`, maar ook een lokaal netwerkadres (bijvoorbeeld `192.168.0.1`) of het openbare IP-adres van uw server.
 
-  U vindt de waarde in uw `my.cnf` bestand (bevindt zich in `/etc/my.cnf`) onder de regel die leest `\[mysqld\]`. Als de bind-adreslijn uit in dat dossier wordt becommentarieerd, wordt uw server beveiligd van buitenverbindingspogingen.
+  De waarde is te vinden in uw `my.cnf` bestand (bevindt zich in `/etc/my.cnf`) onder de regel die leest `\[mysqld\]`. Als de bind-adreslijn uit in dat dossier wordt becommentarieerd, wordt uw server beveiligd van buitenverbindingspogingen.
 
-Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
+Klik op **[!UICONTROL Save & Test]** om de installatie te voltooien.
 
 ## Gerelateerde documentatie
 

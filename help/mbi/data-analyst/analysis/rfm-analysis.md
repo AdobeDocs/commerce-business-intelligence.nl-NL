@@ -21,13 +21,13 @@ Dit onderwerp toont aan hoe te opstelling een dashboard dat u toestaat om uw kla
 
 ![](../../assets/blobid0.png)
 
-De RFM-analyse kan alleen worden geconfigureerd als u beschikt over [!DNL Adobe Commerce Intelligence] Pro-abonnement op de nieuwe architectuur (bijvoorbeeld als u de `Data Warehouse Views` optie onder de `Manage Data` ). Deze kolommen kunnen worden gemaakt op basis van de **[!DNL Manage Data > Data Warehouse]** pagina. Hieronder vindt u gedetailleerde instructies.
+De RFM-analyse kan alleen worden geconfigureerd als u beschikt over de [!DNL Adobe Commerce Intelligence] Pro-abonnement op de nieuwe architectuur (bijvoorbeeld als u de `Data Warehouse Views` optie onder de `Manage Data` ). Deze kolommen kunnen worden gemaakt op basis van de **[!DNL Manage Data > Data Warehouse]** pagina. Hieronder vindt u gedetailleerde instructies.
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat alleen een primaire sleutel met de waarde één bevat. Hierdoor kunnen enkele noodzakelijke berekende kolommen voor de analyse worden gemaakt.
 
-U kunt dit [artikel](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken.
+U kunt dit [artikel](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om uw bestand op te maken.
 
 ## Berekende kolommen
 
@@ -91,7 +91,7 @@ Te maken kolommen
 * [!UICONTROL Event owner]: `(input) reference for count`
 * [!UICONTROL Event rank]: `Customer's lifetime number of orders`
 
-* Rangschikking volgens levensduur van klant aantal orders
+* Rangschikking volgens het aantal orders in de levensduur van de klant
 * 
   [!UICONTROL, kolomtype]: – "Zelfde tabel > Berekening"
 * [!UICONTROL Inputs]: - **(input) Rangorde volgens het aantal orders in de levensduur van de klant**, **Aantal klanten**
@@ -144,13 +144,13 @@ Te maken kolommen
 * 
   [!UICONTROL Datatype]: `Integer`
 
-* (input) Rangschikking op basis van de totale RFM-score van de klant
+* (input) Rangschikking volgens de algemene RFM-score van de klant
 * [!UICONTROL Column type]: `Same table > Event Number`
 * [!UICONTROL Event owner]: `(input) reference for count`
 * [!UICONTROL Event rank]: `Customer's recency score (R+F+M)`
 * [!UICONTROL Filter]: `Customer's RFM score (by percentile)` Niet gelijk aan 000
 
-* Rangschikking op basis van de totale RFM-score van de klant
+* Rangschikking volgens totale RFM-score van de klant
 * [!UICONTROL Column type]: `Same table > Calculation`
 * [!UICONTROL Inputs]: `(input) Ranking by customer's overall RFM score`, `Number of customers (RFM > 0)`
 * [!UICONTROL Calculation]: `case when A is null then null else (B-(A-1)) end`

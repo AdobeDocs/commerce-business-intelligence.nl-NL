@@ -22,7 +22,7 @@ ht-degree: 0%
 
 [!DNL Commerce Intelligence], een kernvermogen van [!DNL Adobe Commerce]biedt informatie over beste praktijken in meerdere gegevensbronnen, waardoor handelaren wetenschappelijke gegevensgestuurde beslissingen kunnen nemen en duidelijke en geïnformeerde acties kunnen ondernemen. Automatiseer uw rapporteringsproces en transformeer de manier u bedrijfsbesluiten neemt en over teams samenwerkt. Neem het giswerk uit uw besluitvorming met [!DNL Commerce Intelligence].
 
-Verbind, consolideer, en transformeer uw gegevens. Visualiseer, analyseer, en krijg diep en actionable inzicht in de gegevens van uw zaken. Aangepaste metriek en rapporten maken zonder formele training van de Commerce Intelligence. Hierdoor kan uw hele team gegevensgestuurd zijn zonder de gebruikelijke technische problemen. Het staat u ook toe om de inbegrepen dashboards te gebruiken om een diepgaand inzicht in uw bedrijfsprestaties te geven.
+Verbind, consolideer, en transformeer uw gegevens. Visualiseer, analyseer, en krijg diep en actionable inzicht in de gegevens van uw zaken. Aangepaste metriek en rapporten maken zonder formele training voor de handelsinformatie. Hierdoor kan uw hele team gegevensgestuurd zijn zonder de gebruikelijke technische problemen. Het staat u ook toe om de inbegrepen dashboards te gebruiken om een diepgaand inzicht in uw bedrijfsprestaties te geven.
 
 Standaarddashboards zijn onder andere marketinginvesteringsrendement, de waarde van de levensduur van de klant, de segmentering van de klant, de KPI&#39;s van de uitvoerder en de investeerder, de analyse van de cohort en de analyse van de koophandel.
 

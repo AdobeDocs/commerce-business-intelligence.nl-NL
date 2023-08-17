@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Naamrapporten en -elementen
 
-Voordat u aan de slag gaat met het [!DNL Adobe Commerce Intelligence]Adobe wil wat geheimen delen om te slagen. Het is belangrijk om te weten hoe u metriek, filters, enzovoort kunt maken, maar al uw werk kan onverwacht zijn als u niet kunt vinden wat u nodig hebt of als er dubbelzinnigheid is.
+Voordat u aan de slag gaat met het [!DNL Adobe Commerce Intelligence]Adobe wil een paar geheimen delen om succes te boeken. Het is belangrijk om te weten hoe u metriek, filters, enzovoort kunt maken, maar al uw werk kan onophoudelijk zijn als u niet kunt vinden wat u nodig hebt of als er dubbelzinnigheid is.
 
 ## Waarom is nomenclatuur belangrijk? {#why}
 
 De manier u uw berekende kolommen, metriek, en rapporten noemt dicteert het gemak waarin de verschillende gebruikers door uw kunnen navigeren [!DNL Commerce Intelligence] account. Houd bij de naamgeving van deze functies rekening met de volgende drie instellingen:
 
-* **DUIDELIJKHEID** - Je kan dus in één oogopslag zien wat een rapport toont, wat een metrisch doet, enzovoort.
-* **CONSISTENTIE** - zodat u (en het Adobe-ondersteuningsteam) eenvoudig elementen en rapporten in uw account kunt vinden en begrijpen.
+* **DUIDELIJK** - Je kan dus in één oogopslag zien wat een rapport toont, wat een metrisch doet, enzovoort.
+* **CONSISTENTIE** - zodat u (en het ondersteuningsteam van de Adobe) eenvoudig elementen en rapporten in uw account kunt vinden en begrijpen.
 * **GELOOFWAARDIGHEID** - Om andere gegevensgestuurde elementen te inspireren en te versterken [!DNL Commerce Intelligence] gebruikers, moet u vertrouwen in hoe zij de gegevens begrijpen en gebruiken!
 
 Lees verder voor beproefde en ware nomenclatuurtips!
@@ -37,7 +37,7 @@ Ontvangsten
 Dat is onduidelijk en zegt ons niet veel.
 
 **Goede voorbeelden:**
-Inkomsten (totaal basisbedrag + kosten) Verzendland van gebruiker
+Ontvangsten (totaal basisbedrag + kosten) Verzendland van gebruiker
 
 Deze voorbeelden zijn specifiek, wat de kans op verwarring vermindert.
 
@@ -79,7 +79,7 @@ De dashboards zouden op manieren moeten worden genoemd die thematisch de rapport
 
 Als het dashboard daarentegen een plaats is waar u experimenteert met verschillende rapporten, kunt u het een naam geven **Sandbox van uw naam** u weet dus dat de verslagen in kwestie concepten zijn .
 
-## Dimension (Berekende kolommen) {#dimensions}
+## Dimensionen (berekende kolommen) {#dimensions}
 
 Nieuwe naamgeving [afmetingen](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), is het zeer nuttig om deze formule te volgen: **(Entiteit) + (Nde) + (tijdkader) + (berekening) + (opmerkingen)**. Bijvoorbeeld:
 
@@ -103,4 +103,4 @@ Ontvangsten (verscheept\_at) (gemaakt\_at)
 
 ## Omloop omhoog {#wrapup}
 
-Door de stijl- en naamconventies in een vroeg stadium te definiëren, kunt u uw werk sneller uitvoeren [!DNL Commerce Intelligence] account. Denk aan de drie CS&#39;s: duidelijkheid, consistentie en geloofwaardigheid.
+Door de stijl- en naamconventies in een vroeg stadium te definiëren, kunt u uw werk sneller uitvoeren [!DNL Commerce Intelligence] account. Denk aan de drie Cs: duidelijkheid, consistentie en geloofwaardigheid.

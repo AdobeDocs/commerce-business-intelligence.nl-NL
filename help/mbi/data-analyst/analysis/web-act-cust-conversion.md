@@ -29,7 +29,7 @@ Deze inzameling van rapporten wordt gebouwd gebruikend het volgende:
 
 * Metriek die automatisch worden gegenereerd wanneer u uw [!DNL Google AdWords] data
 * Standaardwaarden die al beschikbaar moeten zijn voor uw account, zoals `Number of orders` en `New users`
-* Dimension die zijn gemaakt toen u uw [!DNL Google Analytics Ecommerce] gegevens aan uw gegevensbestand, zoals de utm bron van de orde en het utm middel van de orde. Neem contact op met het ondersteuningsteam als deze velden momenteel niet beschikbaar zijn in uw account
+* Dimensionen die zijn gemaakt bij het aansluiten bij uw [!DNL Google Analytics Ecommerce] gegevens aan uw gegevensbestand, zoals de utm bron van de orde en het utm middel van de orde. Neem contact op met het ondersteuningsteam als deze velden momenteel niet beschikbaar zijn in uw account
 
 ## Uw rapporten samenstellen
 
@@ -86,12 +86,12 @@ Deze inzameling van rapporten wordt gebouwd gebruikend het volgende:
    * Wijzig de naam van de metrisch door op de naam van de metrische methode te klikken en deze aan te roepen `Number of first orders`en klik vervolgens op **[!UICONTROL Hide]**
 
 * `Number of orders`
-   * **[!UICONTROL Hide]** de
+   * **[!UICONTROL Hide]** de metrieke
 
 * `Users`
-   * **[!UICONTROL Hide]** de
+   * **[!UICONTROL Hide]** de metrieke
    * De tijdsperiode wijzigen in `24 months ago to now`en pas het tijdsinterval aan `by month`.
-   * Voeg de volgende formules toe door te klikken **[!UICONTROL Formula]**.
+   * De volgende formules toevoegen door op **[!UICONTROL Formula]**.
    * A/D en klik vervolgens op **[!UICONTROL Apply]**
    * De naam van de formule wijzigen `Registration conversion`
    * B/D en klik vervolgens op **[!UICONTROL Apply]**

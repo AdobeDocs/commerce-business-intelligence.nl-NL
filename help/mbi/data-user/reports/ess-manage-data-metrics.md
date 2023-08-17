@@ -17,23 +17,23 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
 
-Een metrisch is een meting. In SQL en gegevensbestandstructuren, is metrisch als een opgeslagen vraag over een veranderlijke periode.
+Een metrische waarde is een maat. In SQL en gegevensbestandstructuren, is metrisch als een opgeslagen vraag over een veranderlijke periode.
 
-In [!DNL Commerce Intelligence], kunt u metriek gebruiken aan [grafieken maken](../../data-user/reports/ess-rpt-build-visual.md). Bijvoorbeeld de metrische `revenue` het totale aantal orders. De metrische `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
+In [!DNL Commerce Intelligence], kunt u metriek gebruiken aan [grafieken maken](../../data-user/reports/ess-rpt-build-visual.md). De metrische `revenue` het totale aantal orders. De metrische `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
 
-Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [gefilterd of gesegmenteerd](../../best-practices/segment-filter.md) naar verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van klanten, ingedeeld naar geslacht - in dit geval, `average customer revenue per order` is het metrisch en het geslacht is de groepering.
+Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [gefilterd of gesegmenteerd](../../best-practices/segment-filter.md) naar verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van de klant, ingedeeld naar geslacht - in dit geval, `average customer revenue per order` is het metrisch en het geslacht is de groepering.
 
 ## De metrische waarde definiëren {#define}
 
-1. Klik op **[!UICONTROL Data** > **Metrics]**.
+1. Als u metrische gegevens wilt maken, klikt u op **[!UICONTROL Data** > **Metrics]**.
 
-1. Klikken **[!UICONTROL Create New Metric]**.
+1. Klik op **[!UICONTROL Create New Metric]**.
 
 1. Klik in het vervolgkeuzemenu op de tabel die de native of berekende kolom bevat die u voor de metrische waarde wilt gebruiken.
 
-1. Geef de metrische waarde een naam.
+1. Geef de metrische naam.
 
-   Adobe adviseert een naam die, in een oogopslag, u vertelt wat metrisch is. Bijvoorbeeld: `Average Order Revenue`.
+   De Adobe adviseert een naam die, in een blik, u vertelt wat metrisch is. Bijvoorbeeld: `Average Order Revenue`.
 
 1. De volgende stap is te bepalen wat uw metrisch doet. Definieer met behulp van de vervolgkeuzemenu&#39;s de bewerking van de meting, en `operation` en een `date` dimensie:
 
@@ -43,7 +43,7 @@ Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspa
       * `Min` - Min retourneert de minimumwaarde van een specifieke gegevenskolom
       * `Sum` - Met deze bewerking worden de waarden van een specifieke gegevenskolom samengevat
       * `Average` - Deze bewerking berekent het gemiddelde van de waarden in de gegevenskolom
-      * `Count Distinct Value` - Hiermee wordt het unieke aantal waarden in een specifieke gegevenskolom geteld
+      * `Count Distinct Value` - Dit telt het unieke aantal waarden in een specifieke gegevenskolom
       * `Median` - Deze bewerking berekent de mediaan van de waarden in de gegevenskolom
       * `First and Third Quartiles` - Deze bewerkingen berekenen respectievelijk het 25e en 75e percentiel van de kolomwaarden van de gegevens
       * `Tenth and Ninetieth Percentiles` - Deze bewerkingen berekenen respectievelijk het tiende en het negentigste percentiel van de waarden van de gegevenskolom
@@ -52,7 +52,7 @@ Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspa
 
      Als u een bestaande metrische waarde bewerkt, kunt u ook [veranderen de operationele lijst van metrisch](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in deze afdeling.
 
-   * Kies een datumdimensie die kan worden gebruikt om metrisch te trenderen. Bijvoorbeeld: `order date`.
+   * Kies een datumdimensie die kan worden gebruikt om metrisch te trenderen. Bijvoorbeeld, `order date`.
 
 ## Filters toevoegen {#filters}
 
@@ -66,9 +66,9 @@ De `Filter Logic` is waar u kunt verder bepalen hoe metrisch zich zou moeten ged
 * &quot;\[`A`\] en \[`B`\]&quot; staat alleen gegevens toe die aan beide filters voldoen \[`A`\] en \[`B`\]
 * &quot;(\[`A`\] en \[`B`\]) OF \[`C`\]&quot; staat alleen gegevens toe die aan beide filters voldoen \[`A`\] en \[`B`\] of filter \[`C`\] alleen
 
-## Dimension toevoegen {#dimensions}
+## Dimensionen toevoegen {#dimensions}
 
-De [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) alle beschikbare gegevensafmetingen voor filteren of groeperen; standaard worden alle beschikbare gegevenskolommen weergegeven als afmetingen. Als u doorgaat met het voorbeeld, als u uw inkomsten wilt segmenteren op verwijzingsbron, kunt u dat hier doen.
+De [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) toont alle beschikbare gegevensafmetingen voor het filtreren of groeperen; door gebrek, zijn alle beschikbare gegevenskolommen vermeld als afmetingen. Als u doorgaat met het voorbeeld, als u uw inkomsten wilt segmenteren op verwijzingsbron, kunt u dat hier doen.
 
 Naast het weergeven van alle beschikbare gegevenskolommen als afmetingen, [!DNL Commerce Intelligence] Gecontroleerd bij welke kolommen gegroepeerd kunnen worden. *Gegevens segmenteren of groeperen in rapporten*, moeten kolommen worden gemarkeerd als gegroepeerd.
 

@@ -41,11 +41,11 @@ Hier kunt u een weergave maken door de voorbeeldinstructies hieronder te volgen:
 
    >[!NOTE]
    >
-   >Uw query moet verwijzen naar specifieke kolomnamen. Het gebruik van de `*`niet toegestaan om alle kolommen te selecteren.
+   >Uw query moet verwijzen naar specifieke kolomnamen. Het gebruik van `*`niet toegestaan om alle kolommen te selecteren.
 
 1. Als u klaar bent, klikt u op **[!UICONTROL Save]** om de weergave op te slaan. Je weergave bevat tijdelijk een `Pending` status tot deze wordt verwerkt door de volgende volledige updatecyclus, waarna de status verandert in `Active`. Nadat uw weergave door een update is verwerkt, kunt u deze gebruiken in rapporten.
 
-Het is belangrijk om te vermelden dat na sparen, de onderliggende vraag wordt gebruikt om een te produceren `Data Warehouse View` kan niet worden bewerkt. Als u de structuur van een `Data Warehouse View`, moet u een mening tot stand brengen en manueel om het even welke berekende kolommen, metriek, of rapporten van de originele mening aan nieuwe migreren. Wanneer de migratie is voltooid, kunt u de oorspronkelijke weergave veilig verwijderen. Omdat `Data Warehouse Views` zijn niet bewerkbaar, raadt Adobe aan dat u de uitvoer van de query test met de opdracht `SQL Report Builder` voordat u de query opslaat als weergave Data Warehouse.
+Het is belangrijk om te vermelden dat na sparen, de onderliggende vraag wordt gebruikt om een te produceren `Data Warehouse View` kan niet worden bewerkt. Als u de structuur van een `Data Warehouse View`, moet u een mening tot stand brengen en manueel om het even welke berekende kolommen, metriek, of rapporten van de originele mening aan nieuwe migreren. Wanneer de migratie is voltooid, kunt u de oorspronkelijke weergave veilig verwijderen. Omdat `Data Warehouse Views` zijn niet bewerkbaar, raadt de Adobe u aan de uitvoer van uw query te testen met de opdracht `SQL Report Builder` voordat u de query opslaat als weergave Data Warehouse.
 
 ## Voorbeeld: [!DNL Facebook] en [!DNL Google AdWords] data
 

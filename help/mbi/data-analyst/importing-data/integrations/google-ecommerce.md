@@ -19,15 +19,15 @@ ht-degree: 0%
 
 ![](../../../assets/google-ecommerce-logo.png)
 
-U hebt gestage stroom van verkeer en orden, wat betekent u effectief bereikend en klanten verwerft. Maar wat zijn uw meest waardevolle verwijzingskanalen? Wat is de gemiddelde levenwaarde van klanten die van één bron tegenover een andere worden verworven? Door de brongegevens van uw bestelling met elkaar te verbinden vanuit [!DNL Google ECommerce] tot [!DNL Commerce Intelligence]kunt u analyses maken die u helpen uw [meest waardevolle afzetkanalen](../../../data-analyst/analysis/most-value-source-channel.md).
+U hebt gestage stroom van verkeer en orden, wat betekent u effectief bereikend en klanten verwerft. Maar wat zijn uw meest waardevolle verwijzingskanalen? Wat is de gemiddelde levenwaarde van klanten die van één bron tegenover een andere worden verworven? Door de brongegevens van uw order aan te sluiten vanuit [!DNL Google ECommerce] tot [!DNL Commerce Intelligence]kunt u analyses maken die u helpen uw [meest waardevolle afzetkanalen](../../../data-analyst/analysis/most-value-source-channel.md).
 
 Ga aan de slag met je [!DNL Google ECommerce] inloggegevens [!DNL Commerce Intelligence]:
 
 1. Ga naar de `Connections` pagina onder **[!UICONTROL Admin** > **Connections]**.
 
-1. Klikken **[!UICONTROL Add a New Source]**, die zich aan de rechterkant van het scherm boven het `Data Sources` tabel.
+1. Klikken **[!UICONTROL Add a New Source]**, die zich rechts boven het scherm bevinden `Data Sources` tabel.
 
-1. Klik op de knop [!DNL Google ECommerce] pictogram. Hierdoor wordt het [!DNL Google ECommerce] aanmeldingspagina.
+1. Klik op de knop [!DNL Google ECommerce] pictogram. Hierdoor wordt het [!DNL Google ECommerce] pagina met referenties.
 
 1. Voer uw [!DNL Google Analytics] referenties. Als het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence].
 
@@ -54,7 +54,7 @@ Om een bepaalde website te identificeren [!DNL Google Analytics] Profiel-id:
 ## Verbinding verbreken [!DNL Google ECommerce] van [!DNL Commerce Intelligence] {#disconnect}
 
 1. Bezoek uw [!DNL Google Analytics] [accountinstellingen](https://www.google.com/account/about/?hl=en) pagina.
-1. Onder de `Security` sectie, klikt u op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
+1. Onder de `Security` sectie, klikken **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
 1. Klikken **[!UICONTROL revoke access]** naast [!DNL Commerce Intelligence].
 
 ## Verwante:

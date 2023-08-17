@@ -23,6 +23,6 @@ Als de [!DNL Adobe Commerce] database is gebaseerd op MySQL, kunt u er verbindin
 
 ## Verwante informatie
 
-* [Verwachte handelsgegevens](../integrations/magento-data.md)
+* [Verwachte gegevens over handel](../integrations/magento-data.md)
 * [Aanbevolen gegevensafmetingen voor segmentatie en filteren](../../../best-practices/segment-filter.md)
 * [Wat zijn uw waardevolste aanschafbronnen en kanalen?](../../analysis/most-value-source-channel.md)

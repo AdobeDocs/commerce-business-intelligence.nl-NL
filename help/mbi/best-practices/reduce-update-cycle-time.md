@@ -19,13 +19,13 @@ Veel factoren kunnen een reeds lange updatetijd vergroten. Bepaalde replicatieme
 
 ## Frequentie voor opnieuw controleren verlagen
 
-In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld in een **orders** tabel kan een kolom met de naam **status**. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde kunnen bevatten `pending`. De volgorde wordt overgenomen in uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) met `pending` waarde.
+In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. In een **orders** tabel kan een kolom met de naam **status**. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde kunnen bevatten `pending`. De volgorde wordt overgenomen in uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md) met `pending` waarde.
 
-Wijzigbare kolommen moeten [opnieuw gecontroleerd op bijgewerkte waarden](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) na verloop van tijd. Standaard, [!DNL Commerce Intelligence] controleert deze kolommen tijdens elke update opnieuw, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en worden herhaald, kan het negatief uw updatetijd beïnvloeden. In plaats van tijdens elke update opnieuw te controleren, raadt Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
+Wijzigbare kolommen moeten [opnieuw gecontroleerd op bijgewerkte waarden](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) na verloop van tijd. Standaard, [!DNL Commerce Intelligence] controleert deze kolommen tijdens elke update opnieuw, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en worden herhaald, kan het negatief uw updatetijd beïnvloeden. In plaats van tijdens elke update opnieuw te controleren, raadt de Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
 
 ## Methoden voor incrementele replicatie gebruiken
 
-Zoals hierboven vermeld, zijn lange updatetijden rechtstreeks gecorreleerd aan hoeveel gegevens opnieuw moeten worden gecontroleerd en worden gerepliceerd. [Incrementele replicatiemethoden](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) kan de hoeveelheid gegevens die tijdens de updatecyclus wordt verwerkt sterk verminderen. Waar mogelijk, adviseert Adobe het gebruiken van deze methodes of het wijzigen van uw gegevensbestand om een stijgende methode te steunen.
+Zoals hierboven vermeld, zijn lange updatetijden rechtstreeks gecorreleerd aan hoeveel gegevens opnieuw moeten worden gecontroleerd en worden gerepliceerd. [Incrementele replicatiemethoden](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) kan de hoeveelheid gegevens die tijdens de updatecyclus wordt verwerkt sterk verminderen. Waar mogelijk raadt de Adobe u aan deze methoden te gebruiken of uw database te wijzigen ter ondersteuning van een incrementele methode.
 
 ## Ongebruikte grafieken verwijderen uit dashboards
 

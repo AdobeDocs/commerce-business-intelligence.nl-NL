@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # `sales_order_item` Tabel
 
-De `sales_order_item` tabel (`sales_flat_order_item` op M1) bevat gegevens over alle producten die in een bestelling zijn aangeschaft. Elke rij vertegenwoordigt een unieke `sku` opgenomen in een bestelling. De hoeveelheid eenheden die voor een specifieke `sku` wordt het vaakst vertegenwoordigd door `qty_ordered` veld.
+De `sales_order_item` tabel (`sales_flat_order_item` op M1) bevat gegevens over alle producten die in een bestelling zijn aangeschaft. Elke rij vertegenwoordigt een unieke `sku` opgenomen in een bestelling. De hoeveelheid eenheden die voor een specifieke `sku` wordt meestal vertegenwoordigd door `qty_ordered` veld.
 
 ## Producttypen
 
@@ -21,7 +21,7 @@ De `sales_order_item` legt details vast op alle [productsoorten](https://experie
 
 Neem bijvoorbeeld een configureerbaar product, zoals een t-shirt. Wanneer een klant uitcheckt, selecteert hij of zij opties om de kleur en de grootte te wijzigen. Als de klant een kleur selecteert van `blue`en een grootte van `small`, kopen ze uiteindelijk een eenvoudig product zoals `t-shirt-blue-small` die betrekking heeft op het moederproduct van `t-shirt`.
 
-Wanneer een configureerbaar product in een orde wordt omvat, worden twee rijen geproduceerd in `sales_order_item` tabel: een voor de [eenvoudig](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-simple.html) `sku` en één voor de [configureerbaar](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html) bovenliggend element. Deze twee records in de `sales_order_item` de lijst kan met elkaar door het volgende verbinden worden verwant:
+Wanneer een configureerbaar product in een orde wordt omvat, worden twee rijen geproduceerd in `sales_order_item` tabel: één voor de [eenvoudig](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-simple.html) `sku` en één voor de [configureerbaar](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/types/product-create-configurable.html) bovenliggend. Deze twee records in de `sales_order_item` de lijst kan met elkaar door het volgende verbinden worden verwant:
 
 * (eenvoudig) `sales_order_item.parent_item_id` => (configureerbaar) `sales_order_item.item_id`
 
@@ -38,7 +38,7 @@ Daarom is het mogelijk om op het eenvoudige niveau of op het configureerbare niv
 | `order_id` | `Foreign key` in verband met de `sales_order` tabel. Verbinden met `sales_order.entity_id` om orderkenmerken te bepalen die aan het orderitem zijn gekoppeld. |
 | `parent_item_id` | `Foreign key` die een eenvoudig product met zijn ouderbundel of configureerbaar product verbindt. Verbinden met `sales_order_item.item_id` om de kenmerken van het bovenliggende product te bepalen die aan het eenvoudige product zijn gekoppeld. Voor bovenliggende orderitems (d.w.z. bundel- of configureerbare producttypen) wordt de `parent_item_id` is `NULL`. |
 | `product_id` | `Foreign key` in verband met de `catalog_product_entity` tabel. Verbinden met `catalog_product_entity.entity_id` om productkenmerken te bepalen die aan het orderitem zijn gekoppeld. |
-| `product_type` | Soort product dat is verkocht. Potentieel [productsoorten](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) omvatten: eenvoudig, configureerbaar, gegroepeerd, virtueel, bundel en downloadbaar. |
+| `product_type` | Soort product dat is verkocht. Potentieel [productsoorten](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) include: eenvoudig, configureerbaar, gegroepeerd, virtueel, bundel en downloadbaar. |
 | `qty_ordered` | Hoeveelheid eenheden die op het moment van verkoop in het winkelwagentje voor het desbetreffende orderartikel zijn opgenomen. |
 | `sku` | Unieke id voor het orderitem dat is aangeschaft. |
 | `store_id` | `Foreign key` in verband met de `store` tabel. Verbinden met `store.store_id` om te bepalen welke de opslagmening van de Handel verbonden aan het ordepunt. |
@@ -52,7 +52,7 @@ Daarom is het mogelijk om op het eenvoudige niveau of op het configureerbare niv
 | `Customer's email` | E-mailadres van de klant die de bestelling plaatst. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `customer_email` veld. |
 | `Customer's lifetime number of orders` | Totaal aantal orders geplaatst door deze klant. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `Customer's lifetime number of orders` veld. |
 | `Customer's lifetime revenue` | Som totaal van opbrengsten voor alle orders geplaatst door deze klant. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `Customer's lifetime revenue` veld. |
-| `Customer's order number` | Volgorde in volgorde voor bestelling van deze klant. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `Customer's order number` veld. |
+| `Customer's order number` | Volgorde voor de orde van deze klant. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `Customer's order number` veld. |
 | `Order item total value (quantity * price)` | Totale waarde van een orderitem op het moment van verkoop na [catalogusprijsregels, gedifferentieerde kortingen en speciale prijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) worden toegepast en voordat eventuele belastingen, verzendkosten of winkelkortingen worden toegepast. Berekend door vermenigvuldigen van `qty_ordered` door de `base_price`. |
 | `Order's coupon_code` | Coupon toegepast op de bestelling. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `coupon_code` veld. |
 | `Order's increment_id` | Unieke id van de bestelling. Berekend door verbinding `sales_order_item.order_id` tot `sales_order.entity_id` en de `increment_id` veld. |

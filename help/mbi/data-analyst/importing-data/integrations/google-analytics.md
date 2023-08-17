@@ -1,6 +1,6 @@
 ---
-title: Google Analytics verbinden
-description: Leer Google Analytics te verbinden met [!DNL Commerce Intelligence].
+title: Googles Analytics verbinden
+description: Leer Googles Analytics te verbinden met [!DNL Commerce Intelligence].
 exl-id: 10e813f1-0306-4bdd-8222-e6364ac624de
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -27,7 +27,7 @@ Ga aan de slag met je [!DNL Google Analytics] inloggegevens [!DNL Commerce Intel
 
 1. Klikken **[!UICONTROL Add Integration]**, die zich aan de rechterkant van het scherm bevindt.
 
-1. Klik op de knop [!DNL Google Analytics] pictogram. Hierdoor wordt het [!DNL Google Analytics] aanmeldingspagina.
+1. Klik op de knop [!DNL Google Analytics] pictogram. Hierdoor wordt het [!DNL Google Analytics] pagina met referenties.
 
 1. Voer uw [!DNL Google Analytics] referenties. Als het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence].
 

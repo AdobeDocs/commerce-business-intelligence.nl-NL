@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Rapportage over een Retail-agenda
 
-In dit onderwerp wordt getoond hoe u de structuur instelt voor het gebruik van een [4-5-4 retailkalender](https://nrf.com/resources/4-5-4-calendar) binnen uw [!DNL Adobe Commerce Intelligence] account. De visuele rapportbouwer verstrekt ongelooflijk flexibele tijdwaaiers, intervallen, en onafhankelijke montages. Al deze instellingen werken echter met de traditionele maandkalender.
+Dit onderwerp toont aan hoe te opstelling de structuur om te gebruiken [4-5-4 retailkalender](https://nrf.com/resources/4-5-4-calendar) binnen uw [!DNL Adobe Commerce Intelligence] account. De visuele rapportbouwer verstrekt ongelooflijk flexibele tijdwaaiers, intervallen, en onafhankelijke montages. Al deze instellingen werken echter met de traditionele maandkalender.
 
 Omdat veel klanten hun kalender veranderen om winkels of boekhoudingsdata te gebruiken, illustreren de onderstaande stappen hoe te met uw gegevens te werken en rapporten tot stand te brengen gebruikend detailhandelsdata. Hoewel de onderstaande instructies verwijzen naar de kalender 4-5-4 Retail, kunt u deze wijzigen voor elke specifieke kalender die uw team gebruikt, of het nu om een financieel of gewoon een aangepast tijdkader gaat.
 
@@ -121,17 +121,17 @@ U kunt [downloaden](../../assets/454-calendar.csv) a `.csv` versie van de 4-5-4 
 
 ## Metrisch
 
-Opmerking: Voor deze analyse zijn geen nieuwe meetgegevens nodig. Zorg er echter voor dat u [voeg de nieuwe kolommen toe u in de verkoop \_orde lijst als afmetingen bouwde](../data-warehouse-mgr/manage-data-dimensions-metrics.md) voor alle metriek op de verkoop \_ordetabel alvorens aan de rapporten verder te gaan.
+Opmerking: er zijn geen nieuwe meetgegevens nodig voor deze analyse. Zorg er echter voor dat u [voeg de nieuwe kolommen toe u in de verkoop \_orde lijst als afmetingen bouwde](../data-warehouse-mgr/manage-data-dimensions-metrics.md) voor alle metriek op de verkoop \_ordetabel alvorens aan de rapporten verder te gaan.
 
 ## Rapporten
 
 * **Wekelijkse bestellingen - retailkalender (YoY)**
    * Metrisch `A`: `2017`
-      * [!UICONTROL Metric]: Aantal orders
+      * [!UICONTROL Metric]: Aantal bestellingen
       * [!UICONTROL Filter]:
          * Gemaakt\_at (kleinhandelsjaar) = 2017
    * Metrisch `B`: `2016`
-      * [!UICONTROL Metric]: Aantal orders
+      * [!UICONTROL Metric]: Aantal bestellingen
       * [!UICONTROL Filter]:
          * Gemaakt\_at (kleinhandelsjaar) = 2016
    * Metrisch `C`: `2015`
@@ -180,7 +180,7 @@ Opmerking: Voor deze analyse zijn geen nieuwe meetgegevens nodig. Zorg er echter
          * 
            [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `B`: `Orders`
-      * [!UICONTROL Metric]: Aantal orders
+      * [!UICONTROL Metric]: Aantal bestellingen
       * [!UICONTROL Filter]:
          * 
            [!UICONTROL Include current retail year?]: `Yes`

@@ -7,25 +7,25 @@ feature: Commerce Tables, Data Warehouse Manager, Dashboards
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Een diagram permanent verwijderen
 
-Zelfs als u [een diagram verwijderen uit het dashboard](../../data-user/dashboards/remove-charts-dashboard.md), bestaat het nog steeds in uw [!DNL Commerce Intelligence] account.
+Zelfs als u [een diagram verwijderen uit het dashboard](../../data-user/dashboards/remove-charts-dashboard.md), bestaat het nog steeds in [!DNL Commerce Intelligence] account.
 
 Een diagram permanent verwijderen:
 
 1. Klikken **[!UICONTROL Account Setting]** in de zijbalk.
 
-1. Klikken **[!UICONTROL Charts]**.
+1. Klik op **[!UICONTROL Charts]**.
 
 1. De grafieken u (op gebruikerstoestemmingen en grafiekbezit worden gebaseerd) vertoning op de rechterkant van het scherm kunt schrappen dat.
 
 1. Klik checkbox naast de grafieklijn die u wilt schrappen.
 
-1. Klikken **[!UICONTROL Delete Selected]**.
+1. Klik op **[!UICONTROL Delete Selected]**.
 
    >[!NOTE]
    >

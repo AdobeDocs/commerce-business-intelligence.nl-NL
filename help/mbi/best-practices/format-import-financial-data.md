@@ -36,7 +36,7 @@ Een tweedimensionale tabel afvlakken met een [!DNL Excel] draaitabel:
 1. Schakel de kolom- en rijvelden uit in de veldlijst.
 1. Dubbelklik op de resulterende numerieke waarde om de samengevoegde brongegevens in een nieuw blad weer te geven.
    ![](../../mbi/assets/pivot-table-double-click.png)
-1. Opslaan als een `CSV` bestand.
+1. Opslaan als `CSV` bestand.
 
 ## Omloop omhoog
 

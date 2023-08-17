@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Verwacht [!DNL Facebook Ads] data
 
-Nadat u [heeft uw [!DNL Facebook Ads] account](../integrations/facebook-ads.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
+Nadat u [heeft uw [!DNL Facebook Ads] account](../integrations/facebook-ads.md), kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
-Dit onderwerp geeft u een kort overzicht van de lijsten Adobe adviseert u met uw Data Warehouse synchroniseren. Dit benadrukt slechts de kernlijsten, aangezien er vrij een paar subtables zijn.
+Dit onderwerp geeft u een kort overzicht van de lijsten Adobe adviseert u aan uw Data Warehouse synchroniseren. Dit benadrukt slechts de kernlijsten, aangezien er vrij een paar subtables zijn.
 
-## Kerntabellen en campagnemetabellen
+## Kern- en campagnemetabellen
 
 Deze lijsten bevatten gegevens over kern en campagnecomponenten.
 
@@ -35,7 +35,7 @@ In deze tabel worden alle advertenties in een [!DNL Facebook Ads] account. Kolom
 
 ### [`facebook _adcreative_ (account-id)`](https://developers.facebook.com/docs/marketing-api/reference/ad-creative)
 
-In deze tabel worden creatieve elementen vastgelegd die worden gebruikt in [!DNL Facebook Ads]. Creatieve producten bevatten waar nodig creatieve namen, beschrijvingen en relevante URL&#39;s voor afbeeldingen.
+In deze tabel worden de creatieve elementen vastgelegd die worden gebruikt in [!DNL Facebook Ads]. Creatieve producten bevatten waar nodig creatieve namen, beschrijvingen en relevante URL&#39;s voor afbeeldingen.
 
 ## Gesegmenteerde campagnemetabellen
 

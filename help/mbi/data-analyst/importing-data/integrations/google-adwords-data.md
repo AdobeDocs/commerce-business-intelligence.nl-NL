@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Verwacht [!DNL Google Adwords] data
 
-Na [u hebt verbinding gemaakt met uw [!DNL Google Adwords] account](../integrations/google-adwords.md)kunt u de [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
+Na [u hebt verbinding gemaakt met [!DNL Google Adwords] account](../integrations/google-adwords.md), kunt u de [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
 Daar, merkt u twee lijsten beschikbaar voor replicatie in uw Data Warehouse:
 
@@ -77,7 +77,7 @@ De `adwords` tabel bevat de volgende kolommen:
 | `keyword` | Het sleutelwoord van de campagne |
 | `adContent` | De eerste regel van de tekst voor de online campagne |
 | `adDestinationUrl` | De URL waaraan de [!DNL Adwords] doorverwezen verkeer |
-| `adGroup` | De naam van de [!DNL Adwords] ad-groep |
+| `adGroup` | De naam van [!DNL Adwords] ad-groep |
 
 {style="table-layout:auto"}
 

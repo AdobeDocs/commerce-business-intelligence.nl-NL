@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris en instructies bevat voor klanten op zowel de oudere architectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** -menu. Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
 
-## Kolommen die moeten worden bijgehouden:
+## Te traceren kolommen:
 
 ### Kolommen voor het bijhouden van instructies
 

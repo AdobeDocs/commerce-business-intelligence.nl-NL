@@ -22,13 +22,13 @@ ht-degree: 0%
    >
    >Als u de factureringsgegevens van uw account wilt weergeven, toevoegen of wijzigen, moet u beschikken over `Billing` machtigingen. [Machtigingen worden per gebruiker ingesteld](../../administrator/user-management/user-management.md) wanneer gebruikersaccounts worden gemaakt. Indien nodig `Billing` neemt u contact op met de beheerder van uw account.
 
-1. Klikken **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
 De nieuwe gebruiker wordt een e-mail met login en wachtwoorddetails verzonden.
 
 >[!NOTE]
 >
->De nieuwe gebruiker heeft standaard geen dashboards. Adobe raadt u aan [delen](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk.
+>De nieuwe gebruiker heeft standaard geen dashboards. Adobe beveelt aan [delen](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk.
 
 ## Uw e-mailadres of wachtwoord bijwerken
 

@@ -17,13 +17,13 @@ Wanneer u een tunnel van SSH aan uw server creeert, is er geen behoefte aan [!DN
 
 Mogelijk hebt u de naam als uitgangspunt genomen, maar een beperkte schaal wordt gebruikt om een omgeving in te stellen die beter wordt bestuurd dan de standaardshell. Het belangrijkste aan dit type shell is dat beperkte shell gebruikers tot systeemfuncties kunnen toegang hebben of om het even welk soort wijzigingen maken.
 
-De [!DNL Commerce Intelligence Linux] gebruiker, moet u twee dingen doen:
+Om de [!DNL Commerce Intelligence Linux] gebruiker, moet u twee dingen doen:
 
 1. Wijzig de omgevingsvariabele PATH in de lege tekenreeks. Dit betekent dat de gebruiker geen toegang heeft tot systeem uitvoerbare bestanden.
 
 1. Zorg ervoor dat shell wordt uitgevoerd `bash -r`
 
-Beide kunnen binnen `authorized_keys` bestand in de woning van de gebruiker `dir/.ssh` als onderdeel van de opdracht die wordt uitgevoerd wanneer de gebruiker zich aanmeldt. Het ziet er ongeveer als volgt uit:
+Beide kunnen worden uitgevoerd binnen de `authorized_keys` bestand in de woning van de gebruiker `dir/.ssh` als onderdeel van de opdracht die wordt uitgevoerd wanneer de gebruiker zich aanmeldt. Het ziet er ongeveer als volgt uit:
 
 ```bash
 ... other keys ...

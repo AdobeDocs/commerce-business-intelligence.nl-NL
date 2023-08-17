@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# klant_entiteitstabel
+# customer_entity-tabel
 
 De `customer_entity` de tabel bevat een overzicht van alle geregistreerde accounts . Een account wordt beschouwd als geregistreerd als ze zich aanmelden voor een account, ongeacht of ze ooit een aankoop hebben voltooid. Elke rij komt overeen met één unieke geregistreerde account, zoals die door de `entity_id`.
 
@@ -33,12 +33,12 @@ Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaats
 
 | **Kolomnaam** | **Beschrijving** |
 |---|---|
-| `Customer's first 30 day revenue` | Totaal van de inkomsten voor alle orders die door deze klant binnen 30 dagen na de eerste besteldatum van de klant zijn geplaatst. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en de `base_grand_total` veld voor alle orders `sales_order.Seconds between customer's first order date and this order` ≤ 2592000, het aantal seconden in 30 dagen |
+| `Customer's first 30 day revenue` | Totaal van de inkomsten voor alle orders die door deze klant binnen 30 dagen na de eerste besteldatum van de klant zijn geplaatst. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en de `base_grand_total` veld voor alle orders waar `sales_order.Seconds between customer's first order date and this order` ≤ 2592000, het aantal seconden in 30 dagen |
 | `Customer's first order date` | Tijdstempel van de eerste volgorde die door deze klant is geplaatst. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en het minimum `sales_order`.`created_at` value |
 | `Customer's first order's billing region` | Factureringsgebied verbonden aan de eerste orde van de klant. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en de `Billing address region` waar `sales_order.Customer's order number` = 1 |
 | `Customer's first order's coupon_code` | Couponcode die is gekoppeld aan de eerste bestelling van de klant. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en de `sales_order.coupon_code` waar `sales_order.Customer's order number` = 1 |
 | `Customer's group code` | Groepsnaam van de geregistreerde klant. Berekend door verbinding `customer_entity.group_id` tot `customer_group`.`customer_group_id` en de `customer_group_code` field |
-| `Customer's lifetime number of coupons` | Het totale aantal coupons dat wordt toegepast op alle orders die door deze klant worden geplaatst. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en tellen van het aantal orders waarbij `sales_order.coupon_code` is niet `NULL` |
+| `Customer's lifetime number of coupons` | Het totale aantal coupons dat op alle door deze klant geplaatste orders wordt toegepast. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en tellen van het aantal orders waarbij de `sales_order.coupon_code` is niet `NULL` |
 | `Customer's lifetime number of orders` | Totaal aantal orders geplaatst door deze klant. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en het aantal rijen tellen in de `sales_order` table |
 | `Customer's lifetime revenue` | Som totaal van opbrengsten voor alle orders geplaatst door deze klant. Berekend door verbinding `customer_entity.entity_id` tot `sales_order.customer_id` en de `base_grand_total` veld voor alle orders geplaatst door deze klant |
 | `Seconds since customer's first order date` | Verstreken tijd tussen de eerste besteldatum van de klant en nu. Berekend door aftrekken `Customer's first order date` vanuit de tijdstempel van de server op het moment dat de query wordt uitgevoerd, geretourneerd als een geheel getal van seconden |
@@ -59,7 +59,7 @@ Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaats
 
 {style="table-layout:auto"}
 
-## Vreemde sleutelpaden verbinden
+## Vreemde sleutel die Wegen verbindt
 
 `customer_group`
 

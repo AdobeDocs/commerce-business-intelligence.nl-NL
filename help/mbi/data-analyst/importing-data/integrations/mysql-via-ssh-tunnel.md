@@ -40,7 +40,7 @@ De `public key` wordt gebruikt om de [!DNL Commerce Intelligence] `Linux` gebrui
 1. Ga naar **[!UICONTROL Manage Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]**.
 1. Klik op de knop `MySQL` pictogram.
 1. Na de `MySQL credentials` pagina wordt geopend, stelt u de `Encrypted` schakelen naar `Yes`. Dit toont de de opstellingsvorm van SSH.
-1. De `public key` bevindt zich onder dit formulier.
+1. De `public key` onder dit formulier.
 
 Laat deze pagina gedurende de zelfstudie open - u hebt deze nodig in de volgende sectie en aan het einde.
 
@@ -56,7 +56,7 @@ De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf u
 
 Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt) gegevens in real time bevat. U kunt [deze gebruiker beperken](../../../administrator/account-management/restrict-db-access.md) op elke gewenste manier, zolang het recht behoudt om verbinding te maken met het `MySQL` server.
 
-1. Als u de nieuwe gebruiker wilt toevoegen, voert u de volgende opdrachten als hoofdmap uit op uw [!DNL Linux] server:
+1. Als u de nieuwe gebruiker wilt toevoegen, voert u de volgende opdrachten als basis uit op uw [!DNL Linux] server:
 
 ```bash
         adduser rjmetric -p<password>
@@ -64,7 +64,7 @@ Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt
         mkdir /home/rjmetric/.ssh
 ```
 
-1. Onthoud de `public key` bent u opgehaald in de eerste sectie? Om ervoor te zorgen dat de gebruiker toegang heeft tot de database, moet u de sleutel importeren in `authorized\_keys`.
+1. De `public key` bent u opgehaald in de eerste sectie? Om ervoor te zorgen dat de gebruiker toegang heeft tot de database, moet u de sleutel importeren in `authorized\_keys`.
 
    Kopieer de hele sleutel naar de `authorized\_keys` bestand als volgt:
 
@@ -83,7 +83,7 @@ Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt
 
 >[!IMPORTANT]
 >
->Als de `sshd\_config` het bestand dat aan de server is gekoppeld, is niet ingesteld op de standaardoptie. Alleen bepaalde gebruikers hebben toegang tot de server. Hierdoor wordt een verbinding met [!DNL Commerce Intelligence]. In deze gevallen is het nodig om een opdracht als `AllowUsers` de `rjmetric` gebruikerstoegang tot de server.
+>Als de `sshd\_config` het bestand dat aan de server is gekoppeld, is niet ingesteld op de standaardoptie. Alleen bepaalde gebruikers hebben toegang tot de server. Hierdoor wordt een verbinding met [!DNL Commerce Intelligence]. In deze gevallen is het nodig om een opdracht als `AllowUsers` de `rjmetric` toegang tot de server.
 
 ## Een [!DNL MySQL] gebruiker voor [!DNL Commerce Intelligence] {#mysql}
 
@@ -99,16 +99,16 @@ Om deze gebruiker tot gegevens in specifieke gegevensbestanden, lijsten, of kolo
 
 ## De verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence] {#finish}
 
-Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de `MySQL credentials` pagina geopend? Indien niet, ga naar **[!UICONTROL Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en de [!DNL MySQL] pictogram. Vergeet niet de instelling van de `Encrypted` schakelen naar `Yes`.
+Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de `MySQL credentials` pagina geopend? Indien niet, ga naar **[!UICONTROL Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en vervolgens de [!DNL MySQL] pictogram. Vergeet niet de instelling van de `Encrypted` schakelen naar `Yes`.
 
 Voer de volgende gegevens in op deze pagina, te beginnen met de `Database Connection` sectie:
 
 * `Username`: De gebruikersnaam voor de [!DNL Commerce Intelligence] [!DNL MySQL] user
 * `Password`: Het wachtwoord voor de [!DNL Commerce Intelligence] [!DNL MySQL] user
-* `Port`: [!DNL MySQL] poort op de server (standaard 3306)
+* `Port`: [!DNL MySQL] poort op uw server (standaard 3306)
 * `Host` Standaard is dit localhost. In het algemeen is het de bind-adrewaarde voor uw [!DNL MySQL] server, die standaard `127.0.0.1 (localhost)`, maar ook een lokaal netwerkadres (bijvoorbeeld `192.168.0.1`) of het openbare IP-adres van uw server.
 
-  U vindt de waarde in uw `my.cnf` bestand (bevindt zich in `/etc/my.cnf`) onder de regel die leest `\[mysqld\]`. Als de bind-adreslijn uit in dat dossier wordt becommentarieerd, wordt uw server beveiligd van buitenverbindingspogingen.
+  De waarde is te vinden in uw `my.cnf` bestand (bevindt zich in `/etc/my.cnf`) onder de regel die leest `\[mysqld\]`. Als de bind-adreslijn uit in dat dossier wordt becommentarieerd, wordt uw server beveiligd van buitenverbindingspogingen.
 
 In de `SSH Connection` sectie:
 
@@ -116,7 +116,7 @@ In de `SSH Connection` sectie:
 * `Username`: De gebruikersnaam voor de [!DNL Commerce Intelligence] SSH ([!DNL Linux]) gebruiker
 * `SSH Port`: SSH-poort op uw server (standaard 22)
 
-Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
+Klik op **[!UICONTROL Save & Test]** om de installatie te voltooien.
 
 ## Verwante:
 

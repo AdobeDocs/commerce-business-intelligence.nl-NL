@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Uw [!DNL WooCommerce] gegevens naar [!DNL Commerce Intelligence] laat u deze vragen en meer beantwoorden .
 
-De [!DNL WooCommerce] database is gebaseerd op [!DNL MySQL], kunt u er verbinding mee maken [!DNL Commerce Intelligence] via een [directe verbinding](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [via een `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md). Adobe raadt u aan de SSH-methode te gebruiken, omdat deze het veiligst is.
+De [!DNL WooCommerce] database is gebaseerd op [!DNL MySQL]kunt u verbinding maken met [!DNL Commerce Intelligence] via een [directe verbinding](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [via een `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md). De Adobe adviseert gebruikend de methode SSH, aangezien het het veiligst is.
 
 ## Verwante:
 

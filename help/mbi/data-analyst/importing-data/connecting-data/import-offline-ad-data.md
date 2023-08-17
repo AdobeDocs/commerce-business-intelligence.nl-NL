@@ -17,7 +17,7 @@ Door uw advertentieuitgaven te uploaden, kunt u het rendement van de campagne me
 
 ## Reclamegegevens uploaden
 
-De eerste stap bij het analyseren en uitgeven van gegevens is het krijgen van de gegevens. Aangezien u met de meeste advertentieplatforms rapporten kunt exporteren, raadt Adobe u aan de onbewerkte gegevens te exporteren van uw advertentieplatform en deze rechtstreeks te uploaden naar [!DNL Commerce Intelligence] zonder enige manipulatie. U kunt bewerkingen uitvoeren op de gegevens in uw Data Warehouse, zodat het niet nodig is om uw inspanningen te verdubbelen.
+De eerste stap bij het analyseren en uitgeven van gegevens is het krijgen van de gegevens. Aangezien u met de meeste advertentieplatforms rapporten kunt exporteren, kunt u het beste de onbewerkte gegevens exporteren vanaf uw advertentieplatform en deze rechtstreeks uploaden naar [!DNL Commerce Intelligence] zonder enige manipulatie. U kunt bewerkingen uitvoeren op de gegevens in uw Data Warehouse, zodat het niet nodig is om uw inspanningen te verdubbelen.
 
 Nadat u de advertentie hebt geëxporteerd, kunt u de opdracht [`File Upload` functie](../connecting-data/using-file-uploader.md) om de gegevens in uw Data Warehouse te brengen. U kunt nieuwe gegevens uploaden naar hetzelfde [!DNL Commerce Intelligence] tabel in de tijd.
 

@@ -7,7 +7,7 @@ feature: Data Warehouse Manager, Reports
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Hieronder vindt u de stappen voor het maken van analyses om de levensduurwaarde 
 ## Een metrisch object maken
 
 De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de volgende stappen:
-* Navigeren naar **[!UICONTROL Manage Data > Metrics]**
+* Ga naar **[!UICONTROL Manage Data > Metrics]**
    * Bestaande weergeven **[!UICONTROL Avg lifetime revenue]**.
 
   >[!NOTE]
@@ -39,7 +39,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 ## Het dashboard maken
 
 Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
-* Navigeren naar **[!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
+* Ga naar **[!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
 * Geef het dashboard een naam, zoals `Expected LTV`.
 
 * Hier maakt u alle rapporten en voegt u deze toe.
@@ -48,7 +48,7 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard maken** door dit te doen :
 
 >[!NOTE]
 >
->Aan **[!UICONTROL Time Period:]** wordt de termijn voor elk verslag als volgt vermeld: `All-time`. U kunt dit aanpassen aan uw analysebehoeften. Adobe raadt alle rapporten op dit dashboard aan dezelfde periode te bestrijken, zoals `All time`, `Year-to-date`, of `Last 365 days`.
+>Aan **[!UICONTROL Time Period:]** wordt de termijn voor elk verslag als volgt vermeld: `All-time`. U kunt dit aanpassen aan uw analysebehoeften. Adobe beveelt alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time`, `Year-to-date`, of `Last 365 days`.
 
 * **[!UICONTROL Average LTV (all)]**
    * [!UICONTROL Metric]: `Avg lifetime revenue`

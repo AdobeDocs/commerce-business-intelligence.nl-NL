@@ -1,5 +1,5 @@
 ---
-title: Basisanalyses begrijpen en bouwen
+title: Basisanalysemogelijkheden begrijpen en bouwen
 description: Leer hoe u analyses van basisbeginselen begrijpt en bouwt.
 exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
 role: Admin, Data Architect, Data Engineer, User
@@ -32,44 +32,44 @@ Waarschijnlijk verschillen de namen van de tabellen die in deze voorbeelden word
 
 Deze lijst bevat de belangrijkste informatie over elke klant, zoals een unieke klant - identiteitskaart, e-mailadres, etc. De onderstaande voorbeelden worden gebruikt **[!UICONTROL customer_entity]** als de naam van een voorbeeldklantentabel.
 
-Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen alle beheerders in uw account ze maken. Bovendien moet u ervoor zorgen dat deze afmetingen gegroepeerd zijn voor alle toepasselijke meetgegevens.
+Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen alle beheerders in uw account ze maken. Bovendien moet u ervoor zorgen dat deze afmetingen gegroepeerd zijn voor alle toepasselijke metriek.
 
-**Dimension**
+**Dimensionen**
 
 * **[!UICONTROL Entity_id]**: Een unieke id voor elke klant. Dit kan ook een uniek klantnummer of een e-mailadres van een klant zijn en moet fungeren als referentietoets voor de tabel van uw bestelling.
 * **[!UICONTROL Created_at]**: De datum waarop de account van de klant is gemaakt en aan uw database is toegevoegd.
 * **[!UICONTROL Customer's lifetime revenue]**: De totale levensinkomsten die door een klant worden gegenereerd.
 * **[!UICONTROL Customer's first 30-day revenue]**: Het totale bedrag aan inkomsten dat een klant in de eerste 30 dagen heeft gegenereerd.
-* **[!UICONTROL Customer's lifetime number of orders]**: Het aantal orders die door een klant gedurende hun leven worden geplaatst.
+* **[!UICONTROL Customer's lifetime number of orders]**: Het aantal orders dat door een klant tijdens hun leven wordt geplaatst.
 * **[!UICONTROL Customer's lifetime number of coupons]**: Het totale aantal coupons dat een klant gedurende zijn levensduur gebruikt.
 * **[!UICONTROL Customer's first order date]**: De datum van de eerste bestelling van een klant. Dit kan anders zijn dan de created_at datum als een klant geen orde op het tijdstip van hun verwezenlijking plaatste.
 
 **Accepteer je gastorders?**
 
-*In dat geval bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om ervoor te zorgen dat alle klanten bij de analyses van uw klanten worden betrokken.*
+*Als dat het geval is, bevat deze tabel mogelijk niet al uw klanten. Contact opnemen met de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om ervoor te zorgen dat alle klanten bij de analyses van uw klanten worden betrokken.*
 
-*Weet u niet zeker of u gastorders accepteert? Zie [dit onderwerp](../data-warehouse-mgr/guest-orders.md) voor meer informatie!*
+*Weet u niet zeker of u gastorders accepteert? Zie [dit onderwerp](../data-warehouse-mgr/guest-orders.md) voor meer informatie*
 
 ## Orderentabel
 
-In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze tabel bevatten basisinformatie over elke bestelling, zoals de id van de bestelling, de aanmaakdatum, de status, de id van de klant die de bestelling heeft geplaatst, enzovoort. De onderstaande voorbeelden worden gebruikt **[!UICONTROL sales_flat_order]** als de naam van een tabel met voorbeeldorders.
+In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze lijst bevatten basisinformatie over elke orde, zoals identiteitskaart van de orde, creatieve datum, status, identiteitskaart van de klant die de orde plaatste, etc. De onderstaande voorbeelden worden gebruikt **[!UICONTROL sales_flat_order]** als de naam van een tabel met voorbeeldorders.
 
-**Dimension**
+**Dimensionen**
 
-* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit wordt vaak gebruikt om informatie tussen de klant en orden lijsten te bewegen. In deze voorbeelden verwacht u customer_id op **[!UICONTROL sales_flat_order]** tabel die moet worden uitgelijnd met de **[!UICONTROL entitiy_id]** op de **[!UICONTROL customer_entity]** tabel.
-* **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
+* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit wordt vaak gebruikt om informatie tussen de klant en ordentabellen te bewegen. In deze voorbeelden verwacht u de customer_id op de **[!UICONTROL sales_flat_order]** tabel voor uitlijnen met de **[!UICONTROL entitiy_id]** op de **[!UICONTROL customer_entity]** tabel.
+* **[!UICONTROL Created_at]**: De datum waarop de order is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
-* **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam op uw `Customers` tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar als dit de 15e bestelling van de klant was, staat in deze kolom &quot;15&quot; voor deze bestelling. Als deze dimensie niet bestaat op uw `Customers` tabel, vraag de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
-* **[!UICONTROL Customer's order number (previous-current)]**: Een aaneenschakeling van twee waarden in de **[!UICONTROL Customer's order number]** kolom. Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
-* **[!UICONTROL Coupon_code]**: Geeft aan welke coupons zijn gebruikt voor elke bestelling.
-* **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.
+* **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam op de knop `Customers` tabel.
+* **[!UICONTROL Customer's order number]**: Het volgordenummer van de klant dat aan de order is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze dimensie niet bestaat op uw `Customers` tabel, vraag de [ondersteuningsteam](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number (previous-current)]**: Een samenvoeging van twee waarden in de **[!UICONTROL Customer's order number]** kolom. Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
+* **[!UICONTROL Coupon_code]**: geeft aan welke coupons zijn gebruikt voor elke bestelling.
+* **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen de bestellingen van een klant.
 
 ## Tabel met volgordeitems
 
-In deze tabel vertegenwoordigt elke rij één object dat is verkocht. Deze tabel bevat informatie over de objecten die in elke bestelling worden verkocht, zoals het referentienummer van de bestelling, het productnummer, de hoeveelheid, enzovoort. De onderstaande voorbeelden worden gebruikt `sales_flat_order_item` als de naam van een tabel met items in de voorbeeldvolgorde.
+In deze tabel staat elke rij voor één object dat is verkocht. Deze tabel bevat informatie over de objecten die in elke bestelling worden verkocht, zoals het referentienummer van de bestelling, het productnummer, de hoeveelheid, enzovoort. De onderstaande voorbeelden worden gebruikt `sales_flat_order_item` als de naam van een tabel met items in de voorbeeldvolgorde.
 
-**Dimension**
+**Dimensionen**
 
 * **[!UICONTROL Item_id]**: De unieke id voor elke rij in de tabel.
 * **[!UICONTROL Order_id]**: De referentiesleutel voor uw `Orders` tabel die aangeeft welke items in dezelfde volgorde zijn aangeschaft. Als een volgorde meerdere items bevat, wordt deze waarde herhaald.
@@ -81,26 +81,26 @@ In deze tabel vertegenwoordigt elke rij één object dat is verkocht. Deze tabel
 
 Deze tabel wordt gebruikt voor het beheer van uw abonnementsgegevens, zoals de abonnements-id, het e-mailadres van de abonnee, de startdatum van het abonnement enzovoort.
 
-**Dimension**
+**Dimensionen**
 
-* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit is een gemeenschappelijke manier om een weg tussen de lijst van Klanten en de lijst van Orden te bouwen. In deze voorbeelden verwacht u customer_id op **sales_flat_order** tabel die moet worden uitgelijnd met de `entitiy_id` op de `customer_entity` tabel.
+* **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit is een gemeenschappelijke manier om een weg tussen de lijst van Klanten en de lijst van Orden te bouwen. In deze voorbeelden verwacht u de customer_id op de **sales_flat_order** tabel voor uitlijnen met de `entitiy_id` op de `customer_entity` tabel.
 * **[!UICONTROL Start date]**: De datum waarop het abonnement van een klant is gestart.
 
 ## Tabel met marketinguitgaven
 
 Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook], [!DNL Google AdWords]of andere bronnen in uw analyses. Als u meerdere marketinguitgavenbronnen hebt, neemt u contact op met de [Managed Services Team](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij het instellen van een geconsolideerde tabel voor uw marketingcampagnes.
 
-**Dimension**
+**Dimensionen**
 
 * **[!UICONTROL Spend]**: De totale advertentie-uitgaven. In [!DNL Facebook]Dit zou de uitgavenkolom zijn in de `facebook_ads_insights_####` tabel. Voor [!DNL Google AdWords]is dit `adCost` in de `campaigns####` tabel.
 * De `####` die aan elk van deze tabellen wordt toegevoegd, heeft betrekking op de specifieke account-id voor uw [!DNL Facebook] of [!DNL Google AdWords] account.
 * **[!UICONTROL Clicks]**: Het totale aantal klikken. In [!DNL Facebook], dit zou de klikkolom in zijn `facebook_ads_insights_####` tabel. In [!DNL Google AdWords], dit zou de kolom adClicks in `campaigns####` tabel.
-* **[!UICONTROL Impressions]**: The total number of impressions. In [!DNL Facebook], zou dit de indruk zijn in de `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit zou de indruk wekken dat `campaigns####` tabel.
+* **[!UICONTROL Impressions]**: Het totale aantal afbeeldingen. In [!DNL Facebook], zou dit de indruk zijn in de `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit zou de indruk wekken dat `campaigns####` tabel.
 * **[!UICONTROL Campaign]**: Het totale aantal klikken. In [!DNL Facebook], dit zou de kolom campagne_name in `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit zou de campagnekolom zijn in het dialoogvenster `campaigns####` tabel.
-* **[!UICONTROL Date]**: Het tijdstip en de datum waarop de activiteit (uitgeven, klikken of indrukken) voor een bepaalde campagne is opgetreden. In [!DNL Facebook]is dit `date_start` in de `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit is de datumkolom in het dialoogvenster `campaigns####` tabel.
-* **[!UICONTROL Customer's first order's source]**: De bron van de bestelling van de eerste bestelling van de klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
+* **[!UICONTROL Date]**: De tijd en datum waarop de activiteit (doorbrengen, klikken of indrukken) voor een bepaalde campagne is opgetreden. In [!DNL Facebook]is dit `date_start` in de `facebook_ads_insights_####` tabel. In [!DNL Google AdWords]Dit is de datumkolom in het dialoogvenster `campaigns####` tabel.
+* **[!UICONTROL Customer's first order's source]**: De bron van de opdracht van de eerste bestelling van een klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
 * **[!UICONTROL Customer's first order's medium]**: Het medium van de bestelling van de eerste bestelling van de klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
-* **[!UICONTROL Customer's first order's campaign]**: De campagne van de bestelling van de eerste bestelling van een klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
+* **[!UICONTROL Customer's first order's campaign]**: De campagne van de orde van de eerste orde van een klant. Controleer eerst of u een kolom met de naam `customer's first order's source` in uw account. Als deze kolom niet wordt weergegeven, kunt u met deze instructies de gewenste kolom maken.
 
 ## Algemene rapporten en maatstaven
 
@@ -115,7 +115,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 ### Nieuwe gebruikers
 
 * **Beschrijving**: Een telling van het totale aantal nieuw verworven gebruikers over een bepaalde periode. `New Users` verschilt van `Unique Customers`, omdat `New Users` heeft het tijdstempel dat een account is gemaakt met uw service (dit betekent niet dat ze noodzakelijkerwijs een bestelling plaatsen), terwijl `Unique Customers` ten minste één bestelling hebben geplaatst.
-* **Metrische definitie**: Deze maatstaf voert een **Aantal** van `entity_id` van `customer_entity` tabel geordend door `created_at`.
+* **Metrische definitie**: Deze metrische methode voert een **Aantal** van `entity_id` van `customer_entity` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Aantal nieuwe gebruikers dat vorige maand is gemaakt
    * **[!UICONTROL Metric]**: `New Users`
    * **[!UICONTROL Time Range]**: `Last Month`
@@ -126,7 +126,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 ### Unieke klanten
 
 * **Beschrijving**: Een telling van het totale aantal afzonderlijke klanten over een bepaalde periode. Dit verschilt van `New Users`, omdat deze alleen klanten volgt die minstens één bestelling hebben geplaatst. Een verschillend rapport van de klant volgt slechts één keer een klant in een bepaald tijdinterval. Als u het tijdsinterval instelt op `By Day` en een klant op die dag meer dan één aankoop doet, wordt de klant slechts één keer meegeteld. Als je een totaal aantal aankopen in het algemeen wilt zien, kijk dan naar `Number of Orders`.
-* **Metrische definitie**: Deze maatstaf voert een **Verschil aantal** van `customer_id` van `sales_flat_order` tabel geordend door `created_at`.
+* **Metrische definitie**: Deze metrische methode voert een **Verschil aantal** van `customer_id` van `sales_flat_order` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Afzonderlijke klanten per week in de afgelopen 90 dagen
    * **[!UICONTROL Metric]**: `Distinct Customers`
    * **[!UICONTROL Time Range]**: `Moving range > Last 90 Days`
@@ -136,8 +136,8 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Nieuwe abonnees
 
-* **Beschrijving**: Een telling van het totale aantal nieuwe abonnees dat over een bepaalde periode is verworven.
-* **Metrische definitie**: Deze maatstaf voert een **Verschil aantal** van `customer_id` van `subscriptions` tabel geordend door `start_date`.
+* **Beschrijving**: Een telling van het totale aantal nieuwe abonnees dat gedurende een bepaalde periode is verworven.
+* **Metrische definitie**: Deze metrische methode voert een **Verschil aantal** van `customer_id` van `subscriptions` tabel geordend door `start_date`.
 * **Voorbeeld van rapport**: Dit jaar op maand nieuwe abonnees
    * **[!UICONTROL Metric]**: `New Subscribers`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 0 Days Ago`
@@ -147,9 +147,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Klanten herhalen
 
-* **Beschrijving**: Het totale aantal klanten dat meer dan één bestelling over een periode heeft geplaatst. In een rapport van herhaalde klanten, kunt u gebruiken `Distinct Customers` de `Customer's Order Number` dimensie van uw `orders` tabel.
+* **Beschrijving**: Het totale aantal klanten dat meer dan één bestelling over een periode heeft geplaatst. In een rapport van herhaalde klanten, kunt u `Distinct Customers` en de `Customer's Order Number` dimensie van uw `orders` tabel.
 * **Metrisch gebruikt**: `Distinct Customers`
-* **Voorbeeld van rapport**: Aantal tweede en derde aankopen vorig jaar
+* **Voorbeeld van rapport**: Aantal vorig jaar geplaatste 2e en 3e aankopen
    * **[!UICONTROL Metric]**: `Distinct Customers`
    * **[!UICONTROL Time Range]**: `Moving Range > Last Year`
    * **[!UICONTROL Time Interval]**: `By Month`
@@ -157,7 +157,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
   ![](../../assets/2nd_and_3rd_purchases_last_year.png)
 
-* **Voorbeeld 2 van rapport**: Aantal herhaalde klanten in de afgelopen jaren
+* **Voorbeeld 2 van rapport**: Het aantal herhaalde klanten in de afgelopen jaren
    * **[!UICONTROL Metric]**: `Distinct Customers`
    * **[!UICONTROL Filters]**: `Customer's Order Number Greater Than 1`
    * **[!UICONTROL Time Range]**: `Moving range > Last Year`
@@ -167,14 +167,14 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Bovenste klanten op levenslange aantal orders
 
-* **Beschrijving**: Een lijst van de hoogste klanten die op hun totaal aantal orden wordt gebaseerd. Dit biedt je een directe lijst van je meest voorkomende kopers.
+* **Beschrijving**: Een lijst met de belangrijkste klanten op basis van hun totale aantal bestellingen. Dit biedt je een directe lijst van je meest voorkomende kopers.
 * **Metrisch gebruikt**: `Orders`
-* **Voorbeeld van rapport**: De 25 belangrijkste klanten volgens het aantal bestellingen tijdens hun levensduur
+* **Voorbeeld van rapport**: Top 25 klanten volgens levensduuraantal bestellingen
    * **[!UICONTROL Metric]**: `Orders`
    * **[!UICONTROL Time Range]**: `All Time`
    * **[!UICONTROL Time Interval]**: `None`
    * **[!UICONTROL Group By]**: `customer_email`
-   * **[!UICONTROL Show Top/Bottom]**: Top 25 gesorteerd op bestellingen
+   * **[!UICONTROL Show Top/Bottom]**: bovenste 25, gesorteerd op bestellingen
 
   ![De 25 belangrijkste klanten per bestelling](../../assets/Top_25_customers_by_lifetime_orders.png)<!--{: width="929"}-->
 
@@ -182,33 +182,33 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 * **Beschrijving**: Een lijst van de hoogste klanten die op levensinkomsten worden gebaseerd.
 * **Metrisch gebruikt**: `Average Lifetime Revenue`
-* **Voorbeeld van rapport**: De 25 meest klanten met inkomsten uit levenstijd
+* **Voorbeeld van rapport**: Top 25 van klanten met inkomsten uit levenstijd
    * **[!UICONTROL Metric]**: `Average Lifetime Revenue`
    * **[!UICONTROL Time Range]**: `All time`
    * **[!UICONTROL Time Interval]**: `None`
    * **[!UICONTROL Group By]**: `customer_email`
-   * **[!UICONTROL Show Top Bottom]**: Top 25 gesorteerd op inkomsten uit levens
+   * **[!UICONTROL Show Top Bottom]**: Top 25 gesorteerd op LiveTime-inkomsten
 
   ![Top 25 van klanten op basis van inkomsten](../../assets/top_25_customers_by_lifetime_revneue.png)<!--{: width="929"}-->
 
 ### Gemiddelde levensopbrengsten per cohort
 
-* **Beschrijving**: De [gemiddelde levensduuropbrengsten van verschillende cohorten](../dev-reports/lifetime-rev-cohort-analysis.md) van gebruikers in de loop van de tijd om de best presterende cohorten te identificeren. Cohorts worden gegroepeerd op een gemeenschappelijke datum, zoals de eerste besteldatum of de aanmaakdatum.
+* **Beschrijving**: Bijhouden van de [gemiddelde levensduuropbrengsten van verschillende cohorten](../dev-reports/lifetime-rev-cohort-analysis.md) van gebruikers in de loop van de tijd om de best presterende cohorten te identificeren. Cohorts worden gegroepeerd op een gemeenschappelijke datum, zoals de eerste besteldatum of de aanmaakdatum.
 * **Metrisch gebruikt**: `Revenue`
 * **Voorbeeld van rapport**: Gemiddelde inkomsten uit levensduur van klanten per cohort
    * **[!UICONTROL Metric]**: `Revenue`
    * **[!UICONTROL Cohort Date]**: `Customer's first order date`
    * **[!UICONTROL Time Interval]**: `Month`
-   * **[!UICONTROL Time Period]**: Verhuisset cohorten van de meest recente acht cohorten met ten minste vier maanden gegevens
+   * **[!UICONTROL Time Period]**: Verplaatsen van cohorten van de meest recente acht cohorten met ten minste vier maanden gegevens
    * **[!UICONTROL Duration]**: `12 Month(s)`
    * **[!UICONTROL Table]**: `Customer_entity`
-   * **[!UICONTROL Perspective]**: Gecumuleerde gemiddelde waarde per cohortelid
+   * **[!UICONTROL Perspective]**: Gecumuleerde gemiddelde waarde per cohortlid
 
   ![Inkomsten uit overlevingstijd van klanten per cohort](../../assets/Avg_customer_lifetime_revenue_by_cohort.png)<!--{: width="929"}-->
 
 ### Klanten op basis van gebruik van coupons
 
-* **Beschrijving**: Een aantal klanten die een coupon-/disconteringscode hebben gebruikt. Dit kan u helpen een duidelijk beeld van uw kortingzoekers tegenover volledige kopers te krijgen.
+* **Beschrijving**: Een aantal klanten die een coupon-/kortingscode hebben gebruikt. Dit kan u helpen een duidelijk beeld van uw kortingzoekers tegenover volledige kopers te krijgen.
 * **Metrisch gebruikt**: `New Users`
 * **Voorbeeld van rapport**: Klanten met coupon en zonder coupon per maand
    * **[!UICONTROL Metric A]**: `Non coupon customers`
@@ -216,7 +216,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Filters]**: Levensduur van de klant Aantal bestellingen groter dan 0 en levenslange aantal coupons gelijk aan 0 van de klant
    * **[!UICONTROL Metric B]**: `Coupon customers`
    * **[!UICONTROL Metric]**: `New Users`
-   * **[!UICONTROL Filters]**: Het aantal bestellingen van klanten dat langer is dan 0 en het levenslange aantal coupons van de klant dat groter is dan 0
+   * **[!UICONTROL Filters]**: Klanten met een levenslange levensduur van meer dan 0 bestellingen en een levenslange levensduur van de klant van meer dan 0 coupons
    * **[!UICONTROL Time range]**: `All Time`
    * **[!UICONTROL Time interval]**: `By Month`
 
@@ -241,9 +241,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Gemiddelde eerste 30-daagse inkomsten
 
-* **Beschrijving**: Het gemiddelde van het bedrag van inkomsten dat klanten binnen hun eerste 30 dagen als klant hebben gegenereerd.
-* **Metrische beschrijving**: Deze maatstaf voert een **Gemiddeld** van `Customer's First 30 Day Revenue` van `customer_entity` tabel geordend door `created_at`.
-* **Beschrijving van rapport**: Het gemiddelde van de eerste 30 dagen van de klant
+* **Beschrijving**: Het gemiddelde van de inkomsten die klanten binnen de eerste 30 dagen als klant hebben gegenereerd.
+* **Metrische beschrijving**: Deze metrische methode voert een **Gemiddeld** van `Customer's First 30 Day Revenue` van `customer_entity` tabel geordend door `created_at`.
+* **Beschrijving van rapport**: All-time gemiddelde van de eerste 30-daagse inkomsten van de klant
 * **[!UICONTROL Metric]**: `Average First 30 Day Revenue`
 * **[!UICONTROL Time Range]**: `All Time`
 * **[!UICONTROL Time Interval]**: `None`
@@ -252,9 +252,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Gemiddelde omzet tijdens de levensduur van de klant
 
-* **Beschrijving**: Het gemiddelde bedrag van opbrengst die door uw klanten over hun leven wordt geproduceerd.
-* **Metrische beschrijving**: Deze maatstaf voert een **Gemiddeld** van de `Customer's Lifetime Revenue` kolom op de `customer_entity` op basis van de `created_at`.
-* **Beschrijving van rapport**: Gemiddelde over de gehele levensduur van de klant
+* **Beschrijving**: De gemiddelde opbrengst die door uw klanten over hun leven wordt geproduceerd.
+* **Metrische beschrijving**: Deze metrische methode voert een **Gemiddeld** van de `Customer's Lifetime Revenue` kolom op de `customer_entity` op basis van de `created_at`.
+* **Beschrijving van rapport**: All-time gemiddelde van de levenslange inkomsten van de klant
    * **[!UICONTROL Metric]**: `Average Customer Lifetime Revenue`
    * **[!UICONTROL Time Range]**: `All Time`
    * **[!UICONTROL Time Interval]**: `None`
@@ -265,9 +265,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Ontvangsten
 
-* **Beschrijving**: De maatstaf van de opbrengst toont de totale opbrengst die over een gekozen tijdspanne wordt verdiend.
+* **Beschrijving**: De maatstaf van de inkomsten geeft de totale inkomsten weer die gedurende een gekozen tijdsperiode zijn verdiend.
 * Deze maatstaf voert een **som** van `grand_total` van `sales_flat_order` tabel geordend door `created_at`.
-* **Voorbeeld van rapport**: Ontvangsten per maand, YTD
+* **Voorbeeld van rapport**: Inkomsten per maand, YTD
    * **[!UICONTROL Metric]**: `Revenue`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
    * **Tijdinterval**: `By Month`
@@ -281,7 +281,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 ### Orders
 
 * **Beschrijving**: Een telling van het totale aantal orders over een bepaalde periode. Een orderrapport volgt veranderingen in ordervolume die door nieuw productdienstenaanbod, promoties, of om het even wat worden veroorzaakt die (of) transactievolume kunnen verhogen of verminderen. U kunt deze metrisch vaak door sommige variabelen willen segmenteren om uw vragen te beantwoorden.
-* **Metrische definitie**: Deze maatstaf voert een **Aantal** van `entity_id` van `sales_flat_order` tabel geordend door `created_at`.
+* **Metrische definitie**: Deze metrische methode voert een **Aantal** van `entity_id` van `sales_flat_order` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Orders per maand, YTD
    * **[!UICONTROL Metric]**: `number of orders`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
@@ -295,8 +295,8 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Geordende producten
 
-* **Beschrijving**: De geordende metrische producten vertellen u de hoeveelheid punten die over een specifieke tijdspanne worden verkocht.
-* **Metrische definitie**: Deze maatstaf voert een **som** van `qty_ordered` van `sales_flat_order_item` tabel geordend door `created_at`.
+* **Beschrijving**: De geordende metrische producten geven aan hoeveel objecten gedurende een bepaalde periode zijn verkocht.
+* **Metrische definitie**: Deze metrische methode voert een **som** van `qty_ordered` van `sales_flat_order_item` tabel geordend door `created_at`.
 * **Voorbeeld van rapport**: Objecten verkocht per maand, YTD
    * **[!UICONTROL Metric]**: `Products ordered`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
@@ -304,18 +304,18 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
   ![Geordende producten](../../assets/products_ordered_pic1.png)<!--{: width="929"}-->
 
-* Combineer deze metrische waarde met het aantal orders om het aantal items per bestelling te berekenen. Voeg vervolgens couponcodes toe aan het rapport om te bepalen hoe uw promoties de grootte van winkelwagentjes beïnvloeden, of deel deze met nieuwe of herhaalde bestellingen om uw klantengedrag beter te begrijpen.
-* **Voorbeeld van rapport**: Producten per bestelling: eerste orde vs. herhalingsorden
-   * **[!UICONTROL Metric A]**: Geordende producten: eerste opdracht
+* Combineer deze metrische waarde met het aantal orders om het aantal items per bestelling te berekenen. Voeg vervolgens couponcodes toe aan het rapport om te bepalen hoe uw promoties de grootte van winkelwagentjes beïnvloeden of deel deze met nieuwe of herhaalde bestellingen om het gedrag van uw klanten beter te begrijpen.
+* **Voorbeeld van rapport**: Producten per bestelling: eerste bestelling versus herhaalde bestellingen
+   * **[!UICONTROL Metric A]**: Geordende producten: eerste volgorde
       * **[!UICONTROL Metric]**: `Products ordered`
       * **[!UICONTROL Filter]**: `Customer's order number = 1`
-   * **[!UICONTROL Metric B]**: Bestellingen: eerste opdracht
+   * **[!UICONTROL Metric B]**: Bestellingen: eerste volgorde
       * **[!UICONTROL Metric]**: `Orders`
       * **[!UICONTROL Filter]**: `Customer's order number = 1`
-   * **[!UICONTROL Metric C]**: Geordende producten: herhalingsorders
+   * **[!UICONTROL Metric C]**: Geordende producten: herhaalde opdrachten
       * **[!UICONTROL Metric]**: `Products ordered`
       * **[!UICONTROL Filter]**: `Customer's order number > 1`
-   * **[!UICONTROL Metric D]**: Bestellingen: Volgorde herhalen
+   * **[!UICONTROL Metric D]**: Orders: bestellingen herhalen
       * **[!UICONTROL Metric]**: `Orders`
       * **[!UICONTROL Filter]**: `Customer's order number > 1`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
@@ -331,9 +331,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Gemiddelde orderwaarde
 
-* **Beschrijving**: De gemiddelde waarde van de orders over een periode bijhouden. Met deze maatstaf kunt u snel bepalen hoe uw gemiddelde orderwaarde (AOV) is gewijzigd als gevolg van uw marketinginspanningen, productaanbod en/of andere wijzigingen in uw bedrijf.
-* **Metrische definitie**: Deze maatstaf voert een **gemiddelde** van `grand_total` van `sales_flat_order` tabel geordend door `created_at`.
-* **Voorbeeld van rapport**: AOV vs. vorig jaar, YTD
+* **Beschrijving**: Volg de gemiddelde waarde van de orders die over een periode zijn geplaatst. Met deze maatstaf kunt u snel bepalen hoe uw gemiddelde orderwaarde (AOV) is gewijzigd als gevolg van uw marketinginspanningen, productaanbod en/of andere wijzigingen in uw bedrijf.
+* **Metrische definitie**: Deze metrische methode voert een **gemiddelde** van `grand_total` van `sales_flat_order` tabel geordend door `created_at`.
+* **Voorbeeld van rapport**: AOV versus vorig jaar, YTD
    * **[!UICONTROL Metric]**: `Average order value`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
    * **[!UICONTROL Time Interval]**: `By Month`
@@ -341,11 +341,11 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
   ![AOV](../../assets/aov_pic.png)<!--{: width="929"}-->
 
-### Producten die het meest met coupons worden gekocht
+### Producten die het meest met coupons worden aangeschaft
 
 * **Beschrijving**: Dit rapport geeft inzicht in welke producten worden verkocht wanneer je aanbiedingen of coupons aanbiedt.
 * **Metrisch gebruikt**: Geordende producten
-* **Voorbeeld van rapport**: Producten die het meest met coupons worden gekocht
+* **Voorbeeld van rapport**: Producten die het meest met coupons zijn gekocht
    * **[!UICONTROL Metric]**: `Products ordered`
    * **[!UICONTROL Filter]**: `Order's coupon_code Is Not \[NULL\]`
    * **[!UICONTROL Time Range]**: `All-Time`
@@ -358,7 +358,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 ### Tijd tussen bestellingen
 
 * **Beschrijving**: Test uw veronderstellingen en verwachtingen over de aankoopcycli van uw klanten met een **tijd tussen bestellingen** analyse die het gemiddelde (of mediaan!) bekijkt tijdsduur tussen aankopen. In de onderstaande grafiek ziet u dat uw beste klanten - die meer dan drie bestellingen plaatsen - hun tweede aankoop binnen minder dan zes maanden doen. Klanten die geen vierde bestelling hebben geplaatst, wachten veertien maanden voordat ze een tweede aankoop doen.
-* **Metrische definitie**: Deze maatstaf voert een **gemiddelde** van `Time since previous order` van `sales_flat_order` geordend door `created_at`.
+* **Metrische definitie**: Deze metrische methode voert een **gemiddelde** van `Time since previous order` van `sales_flat_order` geordend door `created_at`.
 * **Voorbeeld van rapport**:
    * **Metrisch 1**: ≤ 3 orders
       * **[!UICONTROL Metric]**: `Average time between orders`
@@ -382,7 +382,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 * **Beschrijving**: U kunt uw marketinguitgaven analyseren over verschillende tijdsperioden en intervallen, via campagnes of advertentiesets of andere segmentaties.
 * **Metrische definitie**: Deze metrisch voert een Som op de uitgavenkolom in uit `Marketing Spend` tabel geordend door de `date` kolom.
-* **Voorbeeld van rapport**: Toegestane uitgaven per campagne
+* **Voorbeeld van rapport** Betreft: Uitgaven per campagne
    * **[!UICONTROL Metric]**: `Ad spend`
    * **[!UICONTROL Time Range]**: `All-Time`
    * **[!UICONTROL Time Interval]**: `None`
@@ -392,9 +392,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Afbeeldingen toevoegen en klikken
 
-* **Beschrijving**: Naast het analyseren en uitgeven, kunt u uw beelden analyseren en klikken.
-* **Metrische definitie**: Deze metrisch voert een Som op de impressies (of klikt) kolom in uit `Marketing Spend` tabel geordend door de datumkolom.
-* **Voorbeeld van rapport**: Afbeeldingen toevoegen en klikken op dag
+* **Beschrijving**: Naast analyses en uitgaven kunt u ook uw advertenties analyseren en klikken.
+* **Metrische definitie**: Deze metrische code voert een som uit op de impressiekolom (of klikt) in de `Marketing Spend` tabel geordend door de datumkolom.
+* **Voorbeeld van rapport**: Voeg impressies toe en klik op dag
    * **[!UICONTROL Metric A]**: `Ad impressions`
    * **[!UICONTROL Metric B]**: `Ad clicks`
    * **[!UICONTROL Time Range]**: `1 Year Ago to 3 Months Ago`
@@ -402,16 +402,16 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
   ![Advertentie-impressies](../../assets/ad_impressions.png)<!--{: width="929"}-->
 
-### Klikken-door-tarief (CTR)
+### Doorklikken-tarief (CTR)
 
-* **Beschrijving**: Met behulp van de bovenstaande afbeeldingen en met de muis kunt u de klikdoorloop door verschillende campagnes in de loop der tijd analyseren.
-* **Voorbeeld van rapport**: CTR via campagne
+* **Beschrijving**: Met de bovenstaande advertenties en met de hierboven gemaakte metriek kunt u de doorklikfrequentie analyseren door verschillende campagnes in de loop van de tijd.
+* **Voorbeeld van rapport** Betreft: CTR per campagne
    * **[!UICONTROL Metric A]**: `Ad impressions`
    * **[!UICONTROL Metric B]**: `Ad clicks`
    * **[!UICONTROL Time Range]**:`All-Time`
    * **[!UICONTROL Time Interval]**: `None`
    * **[!UICONTROL Formula]**: `B/A`
-   * Selecteer `%` optie.
+   * Selecteer de `%` -optie.
    * **[!UICONTROL Group By]**: `campaign`
 
 >[!NOTE]
@@ -429,7 +429,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `All-Time`
    * **[!UICONTROL Time Interval]**: `None`
    * **[!UICONTROL Formula]**: `A/B`
-   * Selecteer `currency` option
+   * Selecteer de `currency` option
    * **[!UICONTROL Group By]**: `campaign`
 
 >[!NOTE]
@@ -471,7 +471,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Aanschafkosten (CAC) of kostprijs per aankoop (CPA)
 
-* **Beschrijving**: Eén manier om de kosten van een campagne te analyseren, is door alle kosten toe te wijzen aan alleen de klanten die u via de campagne hebt aangeschaft.
+* **Beschrijving**: Een manier om de kosten van een campagne te analyseren, is door alle kosten toe te wijzen aan alleen de klanten die u via de campagne hebt aangeschaft.
 * **Voorbeeld van rapport**: CAC via campagne
    * **[!UICONTROL Metric A]**: `New customers`
    * **[!UICONTROL Filter]**: `Customer's first order's medium IN ppc`
@@ -479,7 +479,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `All-Time`
    * **[!UICONTROL Time Interval]**: `None`
    * **[!UICONTROL Formula]**: `B/A`
-   * Selecteer `currency` option
+   * Selecteer de `currency` option
    * **[!UICONTROL Group By]**:
       * Voor metrisch `A`, selecteert u `Customer's first order's campaign`
       * Voor metrisch `B`, selecteert u `campaign`
@@ -488,7 +488,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 >[!NOTE]
 >
->U kunt **titel** de formule als `CTR`, en **verbergen** alle meetwaarden. Ook uitchecken [dit artikel](../analysis/roi-ad-camp.md) voor meer informatie .
+>U kunt **titel** de formule als `CTR`, en **verbergen** alle meetwaarden. Ook, uitchecken [dit artikel](../analysis/roi-ad-camp.md) voor meer informatie .
 
 ![CAC 1](../../assets/New_Users_Last_Month.png)
 
@@ -499,7 +499,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 * **Beschrijving**: Naast het analyseren van het aantal klanten die door elke campagne worden verworven, kunt u de gemiddelde levenopbrengst van deze klanten analyseren. Zo kunt u beter identificeren:
    * Als bepaalde campagnes een groot aantal klanten aantrekken, maar die klanten hebben een lage levenwaarde.
    * Als bepaalde campagnes een laag volume van klanten aantrekken, maar die klanten hebben een hoge levenwaarde.
-* **Voorbeeld van rapport**: Voeg eerst de `New customers` metrisch. Voeg vervolgens de `Average lifetime revenue` metrisch. Selecteer het gewenste tijdframe en kies de optie `interval` als `None`. Tot slot selecteert u `group by` optie als`Customer's first order's campaign`.
+* **Voorbeeld van rapport**: Voeg eerst de opdracht `New customers` metrisch. Voeg vervolgens de `Average lifetime revenue` metrisch. Selecteer het gewenste tijdframe en kies de optie `interval` als `None`. Tot slot selecteert u `group by` optie als`Customer's first order's campaign`.
    * **[!UICONTROL Metric A]**: `New Customers`
    * **[!UICONTROL Filter A]**: `Customer's first order's source` LIKE &#39;%google%&#39;
    * **[!UICONTROL Filter B]**: `Customer's first order's medium IN ppc`
@@ -518,8 +518,8 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Rendement van investeringen (ROI)
 
-* **Beschrijving**: Één manier om ROI door campagne te berekenen is door alle orden te analyseren die door de campagne worden geplaatst. Nochtans, analyseert een alternatieve methode de levenwaarde van klanten die door een campagne worden verworven. Om ROI te analyseren, is het belangrijk dat de campagnemenamen over uw uitgavengegevens en transactionele gegevens verenigbaar zijn. Als u het volgende rapport maakt en er geen ROI-waarden zijn vanwege niet-overeenkomende campagnemenamen, moet u mogelijk naar de [UTM-tags](../../best-practices/utm-tagging-google.md) u hebt geïmplementeerd.
-* **Voorbeeld van rapport**: ROI per campagne
+* **Beschrijving**: Een manier om ROI door campagne te berekenen is door alle orders te analyseren die door de campagne worden geplaatst. Nochtans, analyseert een alternatieve methode de levenwaarde van klanten die door een campagne worden verworven. Om ROI te analyseren, is het belangrijk dat de campagnemenamen over uw uitgavengegevens en transactionele gegevens verenigbaar zijn. Als u het volgende rapport maakt en er geen ROI-waarden zijn vanwege niet-overeenkomende campagnemenamen, moet u mogelijk naar de [UTM-tags](../../best-practices/utm-tagging-google.md) u hebt geïmplementeerd.
+* **Voorbeeld van rapport** Betreft: ROI per campagne
    * **[!UICONTROL Metric A]**: `New Customers`
    * **[!UICONTROL Filter A]**: `Customer's first order's source` LIKE &#39;%google%&#39;
    * **[!UICONTROL Filter B]**: `Customer's first order's medium IN ppc`
@@ -530,14 +530,14 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `All-Time`
    * **[!UICONTROL Time Interval]**: `None`
    * **[!UICONTROL Formula]**: `(B-(C/A))/(C/A)`
-   * Selecteer `% `option
+   * Selecteer de `% `option
    * **[!UICONTROL Group By]**:
       * Voor metrisch `A` en `B`, selecteert u `Customer's first order's campaign`
       * Voor metrisch `C`, selecteert u `campaign`
 
 >[!NOTE]
 >
->U kunt de formule een titel geven als &quot;ROI&quot; en alle metriek verbergen. Bovendien kunt u de filters in de metriek aanpassen om alternatieve bronnen en media te analyseren. Ook uitchecken [dit onderwerp](../analysis/roi-ad-camp.md) voor meer informatie over CAC, LTV, en ROI.
+>U kunt de formule een titel geven als &quot;ROI&quot; en alle metriek verbergen. Bovendien kunt u de filters in de metriek aanpassen om alternatieve bronnen en media te analyseren. Ook, uitchecken [dit onderwerp](../analysis/roi-ad-camp.md) voor meer informatie over CAC, LTV, en ROI.
 
 ![ROI 1](../../assets/ROI_1.png)<!--{: width="929"}-->
 

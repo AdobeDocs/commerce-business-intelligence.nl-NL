@@ -29,7 +29,7 @@ Nadat u de antwoorden op het bovenstaande hebt, moet u het type migratie kennen.
 
 ## Migreren naar een nieuwe database met hetzelfde schema {#sameschema}
 
-Wanneer het voorleggen van het verzoek, laat ons weten dat het gegevensbestandschema niet verandert en dat de verbinding reeds opstelling is in [!DNL Adobe Commerce Intelligence].
+Wanneer het voorleggen van het verzoek, laat ons weten dat het gegevensbestandschema niet verandert en dat de verbinding reeds opstelling in [!DNL Adobe Commerce Intelligence].
 
 Als de database een nieuwe naam heeft, neemt u deze op in de aanvraag zodat de dashboards correct kunnen worden gemigreerd.
 
@@ -49,7 +49,7 @@ Als u zich comfortabel voelt het aanpassen zelf, volg deze instructies en maak d
 
 1. Maak in een spreadsheet een tab voor elke tabel die naar de nieuwe database moet worden gemigreerd.
 
-1. Maak op elk tabblad een kolom voor alle bestaande kolommen die moeten worden gemigreerd. Adobe raadt aan het item een naam te geven, zoals `Existing column name`.
+1. Maak op elk tabblad een kolom voor alle bestaande kolommen die moeten worden gemigreerd. Adobe raadt aan het item een soortgelijke naam te geven `Existing column name`.
 
 1. U moet ook een andere kolom voor de kolomequivalenten in het nieuwe gegevensbestand in elk lusje van het spreadsheet maken. Adobe raadt aan de kolom een naam te geven, zoals `New column name`.
 

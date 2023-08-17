@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Doelstellingen bijhouden op basis van prestatiemetriek
+# Doelstellingen bijhouden op basis van prestatiewaarden
 
 De meeste klanten willen hun **bedrijfsdoelstellingen**, maar dit is niet mogelijk in [!DNL Adobe Commerce Intelligence]. Dit onderwerp toont aan hoe te opstelling een dashboard dat u zal helpen uw bedrijfsdoelstellingen tegen uw daadwerkelijke gegevens volgen - met inbegrip van opbrengst, nieuwe geregistreerde gebruikers, en orden in tijd. U leert ook hoe u de prestaties van jaar tot jaar kunt vergelijken, allemaal in een dashboard als dit:
 
@@ -23,7 +23,7 @@ Voordat u aan de slag gaat, moet u de [uploader bestand](../importing-data/conne
 
 U moet eerst een bestand uploaden dat specifieke dagelijkse/maandelijkse/driemaandelijkse doelstellingen voor uw bedrijf bevat.
 
-U kunt de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken. De gemeenschappelijkste doelstellingen die de cliënten binnen volgen [!DNL Commerce Intelligence] inclusief bestellingen, inkomsten en nieuwe geregistreerde accounts.
+U kunt de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om uw bestand op te maken. De gemeenschappelijkste doelstellingen die de cliënten binnen volgen [!DNL Commerce Intelligence] inclusief bestellingen, inkomsten en nieuwe geregistreerde accounts.
 
 ![](../../assets/Goals-_Excel.png)
 
@@ -67,7 +67,7 @@ Het is nuttig om een mengeling van statische waarden en visuele grafieken te heb
 * 
   [!UICONTROL Format]: `Number`
 
-* [!UICONTROL Time period]: (Welke relevante tijdsperiode u wilt gebruiken)
+* [!UICONTROL Time period]: (Ongeacht de relevante tijdsperiode die u wilt gebruiken)
 * 
   [!UICONTROL Interval]: `Month`
 * 

@@ -21,7 +21,7 @@ Bestaande grafieken kunnen aan dashboards worden toegevoegd gebruikend [!UICONTR
 
 ## Een diagram toevoegen
 
-1. Klikken **[!UICONTROL Add Report]**. Een lijst met bestaande grafieken.
+1. Klik op **[!UICONTROL Add Report]**. Een lijst met bestaande grafieken.
 
 1. Zoek naar of klik de naam van de grafiek u wilt toevoegen.
 

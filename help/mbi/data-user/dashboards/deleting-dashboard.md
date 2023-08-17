@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Dashboards
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,11 +21,11 @@ Als u wilt voorkomen dat de dashboardlijst te onoverzichtelijk wordt, kunt u een
 
 ## Het dashboard verwijderen via het dialoogvenster `Account Settings` page {#account}
 
-1. Klikken **[!UICONTROL Account Settings** > **Dashboards]**.
+1. Klik op **[!UICONTROL Account Settings** > **Dashboards]**.
 
 1. Klik in de lijst met dashboards op het dashboard dat u wilt verwijderen.
 
-1. Klikken **[!UICONTROL Delete Dashboard]**.
+1. Klik op **[!UICONTROL Delete Dashboard]**.
 
 Voorbeeld:
 
@@ -33,9 +33,9 @@ Voorbeeld:
 
 ## Het dashboard verwijderen via het dialoogvenster `Dashboard Options` menu {#do}
 
-1. Klik op de knop **[!UICONTROL Dashboard Options]** aan de bovenkant van het scherm.
+1. Klik op de knop **[!UICONTROL Dashboard Options]** boven aan het scherm.
 
-1. Klik in het vervolgkeuzemenu op **[!UICONTROL Delete]**.
+1. Klik in de vervolgkeuzelijst op **[!UICONTROL Delete]**.
 
 1. Klik wanneer u wordt gevraagd om te bevestigen **[!UICONTROL Delete]**.
 

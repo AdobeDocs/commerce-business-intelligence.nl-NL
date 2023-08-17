@@ -1,6 +1,6 @@
 ---
 title: Filtersets maken voor metriek
-description: Leer hoe u opgeslagen filtersets maakt en deze op de metriek toepast.
+description: Leer hoe u opgeslagen filtersets maakt en toepast op de metriek.
 exl-id: 6ef8b67c-bebd-45eb-bca7-95832ec34fc8
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
@@ -37,7 +37,7 @@ Zie de [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowled
 
    Als u bijvoorbeeld alleen orders met de status &quot;complete&quot; wilt opnemen in uw `Total number of orders` metrisch, zou u een filter toepassen dat alle orden sluit die status = niet hebben `complete`.
 
-1. Controleer de filterlogica en of de ronde haakjes en operatoren correct zijn geplaatst: bijvoorbeeld: `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
+1. Controleer de filterlogica en of de ronde haakjes en operatoren correct zijn geplaatst: bijvoorbeeld `\[A\] AND \[B\]; (\[A\] OR \[B\]) AND \[C\]`.
 
    Een onjuist filter is vaak de oorzaak van gegevensdiscrepanties tussen [!DNL Commerce Intelligence] rapporten en de verwachte resultaten.
 

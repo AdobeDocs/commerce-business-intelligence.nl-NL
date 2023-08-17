@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Dashboards
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereisten [Beheer](../../administrator/user-management/user-management.md) of `Standard` machtigingen om deze functies uit te voeren. Als je een `Standard` gebruiker, u ook nodig hebt `Edit` machtigingen voor het dashboard.
+>Vereisten [Beheerder](../../administrator/user-management/user-management.md) of `Standard` machtigingen om deze functies uit te voeren. Als je een `Standard` gebruiker, u ook nodig hebt `Edit` machtigingen voor het dashboard.
 
 Soms passen namen gewoon niet meer. De naam van een dashboard wijzigen gaat snel en eenvoudig.
 
@@ -25,7 +25,7 @@ Soms passen namen gewoon niet meer. De naam van een dashboard wijzigen gaat snel
 
 1. Voer desgevraagd de nieuwe naam voor het dashboard in.
 
-1. Klikken **[!UICONTROL Save Changes]**.
+1. Klik op **[!UICONTROL Save Changes]**.
 
 Voorbeeld:
 

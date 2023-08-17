@@ -1,5 +1,5 @@
 ---
-title: De Opties van de Tijd van het gebruik in Visuele Report Builder
+title: De Opties van de Tijd van het gebruik in de Visuele Report Builder
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
 role: Admin, Data Architect, Data Engineer, User
@@ -41,22 +41,22 @@ Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijke
 1. Klikken **[!UICONTROL Duplicate]** om een kopie van de metrische waarde te maken.
 1. Klik op de algemene **[!UICONTROL Time Range]** optie, dan **[!UICONTROL Moving Time Range]**. Stel deze in op `Last Year`.
 1. Klik op de algemene **[!UICONTROL Time Interval]** en instellen op `Monthly`.
-1. Report Builder voegt automatisch een tweede Y-as toe voor een tweede meting. Schakel de optie `Multiple Y-Axes` doos.
+1. Met Report Builder wordt automatisch een tweede Y-as toegevoegd voor een tweede meting. Hef de selectie van `Multiple Y-Axes` doos.
 1. Vervolgens past u een onafhankelijke `Time Interval` naar de eerste metrieke waarde. Klikken **[!UICONTROL Time Options]** (klokpictogram) rechts van `first Revenue metric`.
 1. Klikken **[!UICONTROL Time Options]** in het uitgebreide venster dat boven het rapport wordt weergegeven.
 1. Stel in de vervolgkeuzelijst het volgende in:
 
-   * `Time Interval`: instellen op `None`.
+   * `Time Interval`: stel deze in op `None`.
 
-   * `Time Range`: instellen op `Last Year` door eerst te klikken **[!UICONTROL Custom]** vervolgens **[!UICONTROL Moving Range]** en tot slot de `Last Year` optie.
+   * `Time Range`: stel deze in op `Last Year` door eerst te klikken **[!UICONTROL Custom]** vervolgens **[!UICONTROL Moving Range]** en tot slot de `Last Year` -optie.
 
    * Klikken **[!UICONTROL Apply]** om de interval- en bereikinstellingen op te slaan. Dit leidt tot een metrisch die de totale inkomsten voor het vorige jaar berekent. Vervolgens gebruikt u deze metrische waarde als noemer in een formule.
 
-   * Om het percentage van opbrengst voor elke maand te zien, moet u een formule aan het rapport toevoegen. Klikken **[!UICONTROL Add Formula]**.
+   * Om het percentage van opbrengst voor elke maand te zien, moet u een formule aan het rapport toevoegen. Klik op **[!UICONTROL Add Formula]**.
 
    * Enter `B/A` in het veld Formulier en selecteer `% Percent` in de vervolgkeuzelijst naast het tekstveld. Deze formule verdeelt het bedrag van de ontvangsten van een bepaalde maand van het afgelopen jaar door het totale bedrag van de inkomsten van het afgelopen jaar.
 
-   * Klikken **[!UICONTROL Apply Changes]**.
+   * Klik op **[!UICONTROL Apply Changes]**.
 
    * Verberg beide invoermeetgegevens en wijzig de naam van de formule.
 
@@ -81,9 +81,9 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
 1. Klikken **[!UICONTROL Time Options]** in het uitgebreide venster dat boven het rapport wordt weergegeven.
 1. Stel in de vervolgkeuzelijst het volgende in:
 
-   * `Time Interval`: instellen op `None`.
+   * `Time Interval`: stel deze in op `None`.
 
-   * `Time Range`: instellen op `From 14 Months Ago To 13 Months Ago` door eerst te klikken **[!UICONTROL Custom]** dan **[!UICONTROL Moving Range]**. Gebruik de velden en vervolgkeuzelijsten boven aan het menu om het bereik in te stellen. Op die manier kunnen we de inkomsten van de vorige maand zien, maar in het voorgaande jaar.
+   * `Time Range`: stel deze in op `From 14 Months Ago To 13 Months Ago` door eerst te klikken **[!UICONTROL Custom]** dan **[!UICONTROL Moving Range]**. Gebruik de velden en vervolgkeuzelijsten boven aan het menu om het bereik in te stellen. Op die manier kunnen we de inkomsten van de vorige maand zien, maar in het voorgaande jaar.
 
    Maak zich geen zorgen als metrisch uit het rapport verdwijnt - plaatsend een onafhankelijke tijdoptie verbergt automatisch metrisch van het rapport. Klik op **[!UICONTROL Show]** naast de metrische waarde.
 
@@ -114,18 +114,18 @@ Herinner me om de tijdwaaiers aan te plaatsen wat u wanneer het bouwen van dit r
 1. Klikken **[!UICONTROL Time Options]** in het uitgebreide venster dat boven het rapport wordt weergegeven.
 1. Stel in de vervolgkeuzelijst het volgende in:
 
-   * `Time Interval`: instellen op `None`.
-   * `Time Range`: instellen op `From 29 days to 1 day ago` door eerst te klikken **[!UICONTROL Custom]** vervolgens **[!UICONTROL Moving Range]**. Gebruik de velden en vervolgkeuzelijsten boven aan het menu om het bereik in te stellen.
+   * `Time Interval`: stel deze in op `None`.
+   * `Time Range`: stel deze in op `From 29 days to 1 day ago` door eerst te klikken **[!UICONTROL Custom]** vervolgens **[!UICONTROL Moving Range]**. Gebruik de velden en vervolgkeuzelijsten boven aan het menu om het bereik in te stellen.
    * Klikken **[!UICONTROL Apply]** om de interval- en bereikinstellingen op te slaan.
    * Dupliceer de `Items sold last 28 days` metrisch en open nieuwe metrisch `Time Options`. Stel de opties als volgt in:
 
-      * `Time Interval`: dit als `None`.
-      * `Time Range`: dit wijzigen in het datumbereik dat overeenkomt met de aanbieding waarin je bent geïnteresseerd door op **[!UICONTROL Specific Date Range]** en vervolgens de passende data in te voeren.
+      * `Time Interval`: laat dit als volgt `None`.
+      * `Time Range`: wijzig dit in het datumbereik dat overeenkomt met de aanbieding waarin u bent geïnteresseerd door op **[!UICONTROL Specific Date Range]** en vervolgens de passende data in te voeren.
       * De naam van de metrisch wijzigen `Items sold during last promotion` of iets dergelijks.
       * Voeg uw `Units on hand` metrisch.
       * Vervolgens moet u de berekeningen toevoegen die ons de weken tonen, rekening houdend met de verkooptrends, voor de tijdsperioden (`last 7 days`, `last 28 days`, en `last promo` punt) die u in het rapport opneemt. Dit moet u voor elke tijdsperiode doen.
 
-Als u de formules wilt maken, klikt u op **[!UICONTROL Add Formula]**. Voer de onderstaande formules in en klik op **[!UICONTROL Apply Changes]** wanneer gereed. Herhaal dit voor elk van de drie tijdsperioden:
+Klik op **[!UICONTROL Add Formula]**. Voer de onderstaande formules in en klik op **[!UICONTROL Apply Changes]** wanneer gereed. Herhaal dit voor elk van de drie tijdsperioden:
 
 * Voor de `last 7 days time period`, enter `D / A` in de `Formula` veld.
 * Voor de `last 28 days time period`, enter `D / (B/4)` in de `Formula` veld.

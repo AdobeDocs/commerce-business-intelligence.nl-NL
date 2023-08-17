@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Filters
 
-Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die worden gebruikt om een rapport te produceren. Elk filter is een expressie die een kolom uit de bijbehorende tabel, een operator en een waarde bevat. Bijvoorbeeld om slechts herhaalde klanten te omvatten, zou u een filter kunnen tot stand brengen dat slechts klanten omvat die meer dan één orde hebben geplaatst. U kunt meerdere filters gebruiken met logische `AND/OR` om logica aan het rapport toe te voegen.
+Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die worden gebruikt om een rapport te produceren. Elk filter is een expressie die een kolom uit de bijbehorende tabel, een operator en een waarde bevat. Bijvoorbeeld om slechts herhaalde klanten te omvatten, zou u een filter kunnen tot stand brengen dat slechts klanten omvat die meer dan één orde hebben geplaatst. Meerdere filters kunnen worden gebruikt met logische `AND/OR` om logica aan het rapport toe te voegen.
 
 >[!TIP]
 >
@@ -31,7 +31,7 @@ Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die word
 
    ![Filter toevoegen](../../assets/magento-bi-report-builder-filter-add.png)
 
-1. Klikken **[!UICONTROL Add Filter]**.
+1. Klik op **[!UICONTROL Add Filter]**.
 
    Filters worden alfabetisch genummerd en het eerste is `[A]`. De eerste twee delen van het filter zijn vervolgkeuzemogelijkheden en het derde deel is een waarde.
 

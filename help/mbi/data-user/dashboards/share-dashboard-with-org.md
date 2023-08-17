@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Het is gemakkelijk ervoor te zorgen dat elke gebruiker toegang tot essentiële bedrijfsdashboards in heeft [!DNL Adobe Commerce Intelligence]. Het delen van Universal dashboard vergemakkelijkt meer samenwerking en transparantie in uw organisatie door één enkele &quot;bron van waarheid&quot;te verstrekken.
 
-1. Als u uw collega&#39;s uw inzichten wilt laten zien, klikt u op **[!UICONTROL Share this Dashboard]** boven aan het scherm.
+1. Om uw inzichten aan uw medewerkers te tonen, klik **[!UICONTROL Share this Dashboard]** boven aan het scherm.
 
 1. De lijst met gebruikers wordt weergegeven. De allereerste gebruiker in de lijst zal uw organisatie zijn. Klik op het selectievakje naast de naam ervan.
 
 1. Niveau instellen van `Permissions` u wilt dat andere gebruikers - `View`, `Edit`, of `None`.
 
-1. Klikken **[!UICONTROL Save Changes]**.
+1. Klik op **[!UICONTROL Save Changes]**.
 
    Indien `Permissions` is ingesteld op `View` of `Edit` en gebruikers zoeken naar het dashboard , wordt het dashboard weergegeven in de zoekresultaten.
 

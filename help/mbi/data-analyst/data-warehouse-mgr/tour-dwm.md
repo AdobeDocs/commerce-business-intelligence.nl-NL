@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md)
 
-De Manager van de Data Warehouse, die door te klikken wordt betreden **[!UICONTROL Manage Data > Data Warehouse]**, is het portaal voor uw [!DNL Adobe Commerce Intelligence] Data Warehouse. Gebruikend de Manager van de Data Warehouse, kunt u lijst en kolomsync montages beheren, neer in het schema van een lijst boren, en berekende kolommen tot stand brengen in rapporten te gebruiken.
+De Manager van de Data Warehouse, betreden door te klikken **[!UICONTROL Manage Data > Data Warehouse]**, is het portaal voor uw [!DNL Adobe Commerce Intelligence] Data Warehouse. Gebruikend de Manager van de Data Warehouse, kunt u lijst en kolomsync montages beheren, neer in het schema van een lijst boren, en berekende kolommen tot stand brengen in rapporten te gebruiken.
 
 Dit onderwerp omvat:
 
@@ -61,7 +61,7 @@ De Manager van de Data Warehouse geeft u niet alleen de capaciteit om uw gegeven
 1. Controleer of de `Primary Key` kolommen - deze kolommen hebben een sleutelsymbool naast de kolomnaam. A `Primary Key` is vereist om gegevens correct te synchroniseren in de Data Warehouse.
 
    Als u een tabel synchroniseert die rechtstreeks afkomstig is uit uw database, is het mogelijk dat `Primary Keys` mag niet worden aangegeven. In dit geval neemt u contact op met de databasebeheerder om te vragen of een primaire sleutel of sleutels aan de tabel moet worden toegevoegd.
-1. Als u klaar bent, klikt u op de knop ![knop](../../assets/button.png) knop.
+1. Klik op de knop ![knop](../../assets/button.png) knop.
 
 A *Succes!* berichtweergaven en de status verandert in `Pending` voor de geselecteerde kolommen. Nadat de volgende volledige update is voltooid, zijn de nieuw gesynchroniseerde tabellen en kolommen beschikbaar voor gebruik in rapporten. U kunt ook nieuwe [replicatiemethoden](./cfg-replication-methods.md) na de eerste synchronisatie.
 
@@ -79,7 +79,7 @@ Om ervoor te zorgen dat dit gebeurt, selecteert u de optie `Save and Sync Data I
 
 Uw Data Warehouse ontdekt automatisch geen nieuwe bronnen, lijsten, of kolommen het ogenblik zij worden toegevoegd. Een synchronisatieproces loopt door de week om nieuwe toevoegingen te vinden en hen ter beschikking te stellen, maar u kunt een structuursynchronisatie dwingen als u tot onlangs toegevoegde lijsten en kolommen wilt toegang hebben alvorens het proces loopt.
 
-Onder de zoekbalk in de tabellijst bevindt zich een `Check for new tables and columns` koppeling. Als u op deze koppeling klikt, wordt het proces voor het synchroniseren van de structuur geforceerd gestart. nieuwe toevoegingen zijn doorgaans na 10 minuten beschikbaar. Vernieuw de pagina om de nieuwe bron, tabel of kolom te zien.
+Onder de zoekbalk in de tabellijst bevindt zich een `Check for new tables and columns` koppeling. Als u op deze koppeling klikt, wordt de structuursynchronisatie geforceerd gestart. Nieuwe toevoegingen zijn doorgaans na 10 minuten beschikbaar. Vernieuw de pagina om de nieuwe bron, tabel of kolom te zien.
 
 ## Berekende kolommen maken {#calculated}
 

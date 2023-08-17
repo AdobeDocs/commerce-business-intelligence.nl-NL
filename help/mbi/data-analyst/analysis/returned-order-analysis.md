@@ -155,7 +155,7 @@ Te maken kolommen
    * `Is customer's last order? (1=yes/0=no) = 0`
    * `Order contains a return? (1=yes/0=No) = 1`
 
-* Formule: Herhalingsvolgordeningswaarschijnlijkheid
+* Formule: waarschijnlijkheid van herhalingsvolgorde
 * [!UICONTROL Formula]: `B / A`
 * 
   [!UICONTROL Format]: `Percentage`
@@ -220,9 +220,9 @@ Te maken kolommen
 * 
   [!UICONTROL Chart Type]: `Table`
 
-* **Rendement per object**
+* **Retourneringspercentage per object**
 * Metrisch `A`: `Returned items` (Verbergen)
-* [!UICONTROL Metric]: Teruggestuurde objecten
+* [!UICONTROL Metric]: geretourneerde objecten
 
 * Metrisch `B`: `Items sold` (Verbergen)
 * [!UICONTROL Metric]: `Number of orders`

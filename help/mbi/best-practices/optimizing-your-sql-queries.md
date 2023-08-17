@@ -15,13 +15,13 @@ ht-degree: 0%
 
 De [!DNL SQL Report Builder] staat u toe om op die vragen op om het even welk bepaald ogenblik te vragen en te herhalen. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
 
-Voordat een query wordt uitgevoerd, [[!DNL Commerce Intelligence] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen groter is dan [!DNL Commerce Intelligence] limieten, mislukt de query. Voor het opvragen van uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md)Adobe raadt het volgende aan, zodat u de meest gestroomlijnde query&#39;s kunt schrijven.
+Voordat een query wordt uitgevoerd, [[!DNL Commerce Intelligence] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen groter is dan [!DNL Commerce Intelligence] limieten, mislukt de query. Voor het opvragen van uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md)Om ervoor te zorgen dat u de meest gestroomlijnde query&#39;s schrijft, raadt de Adobe het volgende aan.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 
 Het selecteren van alle kolommen maakt niet voor een geschikte, gemakkelijk uitgevoerde vraag. Zoekopdrachten die worden gebruikt `SELECT *` kan behoorlijk wat tijd vergen om te lopen, vooral als uw lijst vele kolommen heeft.
 
-Daarom raadt Adobe u aan het gebruik van `SELECT *` waar mogelijk en neem alleen de kolommen op die u nodig hebt:
+Daarom wordt u door de Adobe aangeraden het gebruik van `SELECT *` waar mogelijk en neem alleen de kolommen op die u nodig hebt:
 
 | **In plaats van dit...** | **Probeer dit!** |
 |-----|-----|
@@ -47,7 +47,7 @@ Deze vragen zijn identiek op elke manier behalve het type van VERBINDING zij geb
 
 ## Meerdere verbindingen gebruiken
 
-Terwijl u veelvoudige verbindingen in uw vraag kunt omvatten, herinner dat het de kosten van de vraag kan drijven omhoog. Om te voorkomen dat de kostendrempel wordt overschreden, raadt Adobe aan waar mogelijk meerdere verbindingen te vermijden.
+Terwijl u veelvoudige verbindingen in uw vraag kunt omvatten, herinner dat het de kosten van de vraag kan drijven omhoog. Om te voorkomen dat de kostendrempel wordt overschreden, beveelt de Adobe aan waar mogelijk meerdere verbindingen te vermijden.
 
 ## Filters gebruiken
 
@@ -75,7 +75,7 @@ Gebruiken `EXISTS` versus `IN` is afhankelijk van het type resultaten dat u wilt
 
 Wanneer `IN` de vragen worden in werking gesteld, moet het systeem subquery eerst verwerken (de `IN` (instructie), dan de volledige query op basis van de relatie die is opgegeven in de `IN` instructie. `EXISTS` is veel efficiënter omdat de vraag niet door veelvoudige tijden moet worden in werking gesteld - een waar/valse waarde is teruggekeerd terwijl het controleren van de verhouding die in de vraag wordt gespecificeerd.
 
-Om het simpelweg te zeggen: het systeem hoeft niet zo veel te verwerken wanneer het `EXISTS`.
+Om het simpel te zeggen: het systeem hoeft niet zo veel te verwerken als bij gebruik `EXISTS`.
 
 | **In plaats van dit...** | **Probeer dit!** |
 |-----|-----|

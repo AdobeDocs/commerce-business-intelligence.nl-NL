@@ -131,7 +131,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 * De tabel waarop u deze kolom wilt maken
 * De kolom met het transactiebedrag die u wilt converteren
 * De kolom die de valuta aangeeft waarin de gegevens zijn opgenomen (doorgaans een ISO-code).
-* De voorkeursrapportagevaluta
+* De voorkeursrapporteringsvaluta
 
 [Terug naar boven](#top)
 

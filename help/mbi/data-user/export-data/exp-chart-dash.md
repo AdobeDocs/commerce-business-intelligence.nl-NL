@@ -24,4 +24,4 @@ Selecteer een van de volgende opties:
 
 U kunt ook de [tabel en kolommen die u wilt opnemen in het exporteren](../../tutorials/export-raw-data.md).
 
-Als u een diagram wilt opnemen in een presentatie of document, kunt u het diagram exporteren als een afbeelding in de PNG-, PDF- of SVG-indeling. Klik op het tandwielpictogram in de rechterbovenhoek van een diagram. Selecteer `Enlarge` in het vervolgkeuzemenu en klik vervolgens op **[!UICONTROL Download]** om de uitvoer te voltooien.
+Als u een diagram wilt opnemen in een presentatie of document, kunt u het diagram exporteren als een afbeelding in de PNG-, PDF- of SVG-indeling. Klik op het tandwielpictogram in de rechterbovenhoek van een diagram. Selecteer de `Enlarge` in het vervolgkeuzemenu en klik vervolgens op **[!UICONTROL Download]** om de uitvoer te voltooien.

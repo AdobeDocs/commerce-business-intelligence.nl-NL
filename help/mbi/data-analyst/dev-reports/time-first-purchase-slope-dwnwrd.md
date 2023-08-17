@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gemiddelde tijd tot eerste aankooprapport
 
-Vele klanten van Adobe hebben metrisch en grafiek genoemd `Average time to first purchase`, waarin de gemiddelde tijd tussen de registratiedatum van een groep gebruikers en de eerste aankoopdatum wordt weergegeven. De gegevens slinken bijna altijd naar beneden naarmate de tijd dichter bij het heden komt.
+Vele klanten van de Adobe hebben metrisch en grafiek genoemd `Average time to first purchase`, waarin de gemiddelde tijd tussen de registratiedatum van een groep gebruikers en de eerste aankoopdatum wordt weergegeven. De gegevens slinken bijna altijd naar beneden naarmate de tijd dichter bij het heden komt.
 
 ![gemiddelde tijd tot eerste bestelling](../../assets/average-time-to-first-order.png)
 
@@ -21,7 +21,7 @@ Dit komt omdat deze nieuwere klanten nog niet de gelegenheid hebben gehad om aan
 
 Er zijn een paar andere mogelijke manieren om naar deze metrische methode te kijken die minder vooroordelen introduceert. Onderzoek één voorbeeld.
 
-## Voorbeeld: Een `cohort` analyse van eerste bestellingen
+## Voorbeeld: Een voorbeeld uitvoeren `cohort` analyse van eerste bestellingen
 
 U kunt een grafiek op uw hebben `Users` dashboard benoemd `Time to first order cohort`. In dit rapport worden de `Distinct buyers` metrisch, groepeert gebruikers door `cohort` weken of maanden van registratie, en toont de verhouding (tussen `0` en `1`) van gebruikers die in de volgende weken of maanden na registratie voor het eerst een aankoop hebben gedaan.
 

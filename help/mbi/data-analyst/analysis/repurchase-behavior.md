@@ -24,11 +24,11 @@ Onder klanten die een *specifiek item*,
 
 ## Aanbevolen meetwaarden
 
-Bij het samenstellen van analyses van de terugkoopactiviteiten van klanten raadt Adobe u aan de volgende meetwaarden te gebruiken:
+Bij het samenstellen van analyses van de terugkoopactiviteiten van klanten raadt de Adobe u aan de volgende meetwaarden te gebruiken:
 
 ### Herhalingsvolgordeningswaarschijnlijkheid
 
-Deze maatregel wordt gedefinieerd als het totale aantal herhalingsorders, als percentage van het totale aantal bestellingen. Met andere woorden, dit is de waarschijnlijkheid dat een orde door een andere orde wordt gevolgd. Deze maatregel identificeert punten die klanten waarschijnlijk zullen aansporen om terug naar uw opslag te komen.
+Deze maatregel wordt gedefinieerd als het totale aantal herhalingsorders, als percentage van het totale aantal bestellingen. Met andere woorden, dit is de waarschijnlijkheid dat een orde door een andere orde wordt gevolgd. Deze maatregel identificeert punten die klanten waarschijnlijk zullen ertoe aanzetten om terug naar uw opslag te komen.
 
 ### Gemiddeld aantal geplaatste orders
 
@@ -42,11 +42,11 @@ Deze metrisch staat u toe om te begrijpen of klanten die specifieke punten kopen
 
 Deze maatregel toont de het bestellen frequentie van de klant, of de tijd het voor de klant neemt om opnieuw te bestellen. Als de tijd tot de volgende bestelling korter is voor een bepaald artikel in vergelijking met andere objecten, is het raadzaam dat de kopers van dit object sneller terugkeren.
 
-## Voorbeeld van vandaag: koffieproducten
+## Het voorbeeld van vandaag: koffieproducten
 
 Houd bovenstaande cijfers in gedachten en bekijk een voorbeeld met koffieproducten.
 
-| **Productnaam** | **Herhalingsvolgordeningswaarschijnlijkheid** | **Gemiddeld aantal orders tijdens de levensduur** | **Gem. inkomsten** | **Mediane tijd tot volgende bestelling** |
+| **Productnaam** | **Herhalingsvolgordeningswaarschijnlijkheid** | **Gemiddeld aantal orders tijdens de levensduur** | **Gem. levenslange inkomsten** | **Mediane tijd tot volgende bestelling** |
 |-----|-----|-----|-----|-----|
 | Koffiebrouwerij voor één beker | 94.98% | 7.92 | $549.82 | 57,01 dagen |
 | Koffiecapsules | 93.82% | 8.68 | $479.98 | 63,48 dagen |

@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Wisselfrequentie
 
-Dit onderwerp demonstreert hoe u een **kromtrekken** voor uw **handelsklanten**. In tegenstelling tot SaaS of traditionele abonnementsbedrijven, hebben de handelklanten typisch geen beton **&quot;churn event&quot;** om u te tonen dat zij niet meer aan uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
+Dit onderwerp demonstreert hoe u een **kromtrekken** voor uw **handelsklanten**. In tegenstelling tot SaaS of traditionele abonnementsbedrijven hebben commerciële klanten gewoonlijk geen beton **&quot;churn event&quot;** om u te tonen dat zij niet meer aan uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
 
 ![](../../assets/Churn_rate_image.png)
 

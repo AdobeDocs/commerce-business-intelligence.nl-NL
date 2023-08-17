@@ -36,10 +36,10 @@ De tabel bevat de volgende kolommen:
 | `_updated_at` | Deze kolom bevat de laatste keer dat de gegevensrij is bijgewerkt. Het wordt gemaakt door [!DNL Commerce Intelligence]. |
 | `start_date` | Begindatum van de opgenomen gegevens voor de rij. `start_date` is altijd 00:00 van dezelfde dag binnen één rij. |
 | `end_date` | Einddatum van opgenomen gegevens voor de rij. `end_date` is altijd 23:59 van dezelfde dag binnen één rij. |
-| `page_views` | Geselecteerde metrisch: Het totale aantal paginaweergaven voor de opgegeven tijdsperiode. |
-| `page` | Geselecteerde afmeting: Afzonderlijke paginanamen met bijgehouden weergaven. |
+| `page_views` | Geselecteerde metrische waarde: het totale aantal paginaweergaven voor de opgegeven tijdsperiode. |
+| `page` | Geselecteerde dimensie: afzonderlijke paginanamen met bijgehouden weergaven. |
 
-Bepaal welke van de geselecteerde metriek en afmetingen gegevens beschikbaar hebben in uw [!DNL Commerce Intelligence] tabel met *synchroniseren* of *unsync* opties in het dialoogvenster `Data Warehouse` pagina. Kolommen die momenteel niet worden gesynchroniseerd, worden grijs weergegeven. Als u stopt met het synchroniseren van een kolom, kunt u deze later opnieuw synchroniseren.
+Bepaal welke van de geselecteerde metriek en afmetingen gegevens beschikbaar hebben in uw [!DNL Commerce Intelligence] tabel met de *synchroniseren* of *unsync* in de `Data Warehouse` pagina. Kolommen die momenteel niet worden gesynchroniseerd, worden grijs weergegeven. Als u stopt met het synchroniseren van een kolom, kunt u deze later opnieuw synchroniseren.
 
 ## Huidige beperkingen
 

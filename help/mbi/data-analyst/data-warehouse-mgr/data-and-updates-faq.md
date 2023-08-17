@@ -17,18 +17,18 @@ ht-degree: 0%
 * [Wat is het verschil tussen een regelmatige en gedwongen update?](#regularforcedupdates)
 * [Waarom duurt de updatecyclus lang?](#updatecycletime)
 * [Kan ik op de hoogte worden gesteld wanneer een updatecyclus is voltooid?](#notifyupdate)
-* [Waarom [!DNL Google ECommerce] andere gegevens dan mijn database?](#ecommdatabase)
+* [Waarom is [!DNL Google ECommerce] andere gegevens dan mijn database?](#ecommdatabase)
 * [Hoe los ik een gegevensdiscrepantie problemen op?](#datadiscrepancy)
 
 ## Waarom zijn mijn gegevens gewijzigd? {#datachange}
 
 De waarden van de grafiek kunnen door de dag veranderen toe te schrijven aan nieuwe gegevens die aan uw Data Warehouse worden gesynchroniseerd. Ook kunnen waarden voor bestaande gegevenskolommen veranderen als gevolg van [hercontroles](../data-warehouse-mgr/cfg-data-rechecks.md). Een nieuwe controle is een proces dat op veranderde waarden in gegevenskolommen zoals een ordestatus zoekt die zich van `open` tot `shipped`.
 
-Er zijn een paar verschillende manieren [om de status van uw updatecyclus te controleren](../../best-practices/check-update-cycle.md), afhankelijk van de machtigingsinstellingen van de gebruiker.
+Er zijn een paar verschillende manieren [om de status van uw updatecyclus te controleren](../../best-practices/check-update-cycle.md), afhankelijk van de instellingen voor gebruikersmachtigingen.
 
 ## Wat is het verschil tussen een regelmatige en gedwongen update? {#regularforcedupdates}
 
-Normale updates zijn **gepland** processen terwijl geforceerde updates **handmatige processen die door u zijn gestart**. Als u brainstormuren hebt (of een periode waarin [!DNL Commerce Intelligence] moet uw gegevens niet bijwerken), door een update te forceren wordt een cyclus gestart die niet voldoet aan de beperkingen van de uitvalperiode.
+Normale updates zijn **gepland** processen terwijl gedwongen updates **handmatige processen die door u zijn gestart**. Als u brainstormuren hebt (of een periode waarin [!DNL Commerce Intelligence] moet uw gegevens niet bijwerken), door een update te forceren wordt een cyclus gestart die niet voldoet aan de beperkingen van de uitvalperiode.
 
 ## Waarom duurt de updatecyclus lang? {#updatecycletime}
 
@@ -38,7 +38,7 @@ Talrijke factoren kunnen aan een reeds lange updatetijd toevoegen. Bepaalde [rep
 
 Als er een update wordt uitgevoerd, staat er een koppeling op het tabblad `Connections` pagina die u kunt gebruiken om een e-mailbericht aan te vragen zodra de cyclus is voltooid.
 
-## Waarom[!DNL Google ECommerce]andere gegevens dan mijn database? {#ecommdatabase}
+## Waarom is[!DNL Google ECommerce]andere gegevens dan mijn database? {#ecommdatabase}
 
 Verschillen tussen [!DNL Google Analytics] en uw database kan om verschillende redenen ontstaan. Het volgen wordt niet correct toegelaten, gebruikers die incognito bezoeken, en gebeurtenissen klikken die niet correct werken zijn slechts een paar voorbeelden. Als uw inkomsten en bestellingen er niet goed uitzien, [zie dit onderwerp](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) om een probleem te diagnostiseren.
 

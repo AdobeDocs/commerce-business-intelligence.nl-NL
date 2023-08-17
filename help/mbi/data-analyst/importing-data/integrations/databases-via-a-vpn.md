@@ -13,27 +13,27 @@ ht-degree: 0%
 
 # Databanken verbinden via VPN
 
-Terwijl Adobe aanbeveelt dat u uw databases aansluit met behulp van een `SSH tunnel`kunt u ook een gecodeerde `VPN` verbinding om de zaken veilig te houden. A `VPN` kan voor om het even welk van uw gegevensbestandintegratie worden gebruikt en, om dingen eenvoudig te houden, is het proces enkel het zelfde als vestiging `SSH tunnel`:
+Terwijl de Adobe adviseert dat u uw gegevensbestanden verbindt gebruikend `SSH tunnel`kunt u ook een gecodeerde `VPN` verbinding om de zaken veilig te houden. A `VPN` kan voor om het even welk van uw gegevensbestandintegratie worden gebruikt en, om dingen eenvoudig te houden, is het proces enkel het zelfde als vestiging `SSH tunnel`:
 
 1. [Een [!DNL Commerce Intelligence] databasegebruiker](#database)
 1. [Een [!DNL Commerce Intelligence] VPN-gebruiker](#vpn)
 1. [Toegang tot de [!DNL Commerce Intelligence] IP-adres](#allowlist)
 1. [Ga de verbinding en de gebruikersinfo van VPN in de Intelligentie van de Handel](#finish)
 
-Naast gegevensbestandgeloofsbrieven, moet u geloofsbrieven voor een gebruiker van VPN ingaan om dingen omhoog te verpakken. Om het even welke gebruiker van VPN werkt, maar Adobe adviseert u tot een [!DNL Commerce Intelligence] -gebruiker, omdat u de gebruikers op uw account gemakkelijker kunt volgen.
+Naast gegevensbestandgeloofsbrieven, moet u geloofsbrieven voor een gebruiker van VPN ingaan om dingen omhoog te verpakken. Om het even welke gebruiker van VPN werkt, maar de Adobe adviseert u creeert een [!DNL Commerce Intelligence] -gebruiker, omdat u de gebruikers van uw account dan gemakkelijker kunt volgen.
 
 ## Databasegebruikers maken voor [!DNL Commerce Intelligence] {#database}
 
 Het proces voor het maken van een databasegebruiker is afhankelijk van het databasetype waarmee u verbinding maakt. Klik op de onderstaande koppelingen om de instructies voor elk databasetype weer te geven.
 
-* [Microsoft SQL](../integrations/microsoft-sql-server.md)
+* [MICROSOFT SQL](../integrations/microsoft-sql-server.md)
 * [MongoDB](../integrations/databases-via-a-vpn.md)
 * [MySQL](../integrations/mysql-via-a-direct-connection.md)
 * [PostgreSQL](../integrations/postgresql.md)
 
 ## Een `VPN` gebruiker voor [!DNL Commerce Intelligence] {#vpn}
 
-Zoals eerder vermeld, zijn alle geldige `VPN` gebruiker werkt - maar Adobe raadt u aan een gebruiker alleen te maken voor [!DNL Commerce Intelligence] gebruik.
+Zoals eerder vermeld, zijn alle geldige `VPN` gebruiker werkt - maar de Adobe raadt u aan om een gebruiker tot stand te brengen slechts voor [!DNL Commerce Intelligence] gebruik.
 
 ## Toegang tot de [!DNL Commerce Intelligence] IP-adressen {#allowlist}
 
@@ -55,15 +55,15 @@ Voer de volgende gegevens in op deze pagina, te beginnen met de `Database Connec
    * `MySQL`: `3306`
    * `PostgreSQL`: `5432`
 * `Host`: Standaard is dit localhost `127.0.0.1`, maar het kan ook het openbare IP-adres van uw server of een lokaal netwerkadres van uw server zijn.
-* `Database Name (optional)`: Als u slechts toegang tot één gegevensbestand hebt toegestaan (dit wordt gespecificeerd tijdens de stap van de gegevensbestandgebruiker creeert), ga hier de naam van dat gegevensbestand in.
+* `Database Name (optional)`: Als u alleen toegang hebt verleend tot één database (dit wordt opgegeven tijdens de stap voor het maken van de databasegebruiker), voert u hier de naam van die database in.
 
 Onder de `Encryption Connection` sectie:
 
 * `Encryption Type`: Stel deze in op `Cisco IPsec VPN`
-* `Gateway Address`: Het IP adres van de server van VPN
+* `Gateway Address`: Het IP-adres van de VPN-server
 * `Group Name`: De naam van de groep die wordt gebruikt voor groepsverificatie
-* `Group Secret`: Het wachtwoord dat overeenkomt met de groep.
+* `Group Secret`: Het wachtwoord voor de groep.
 * `Username`: De [!DNL Commerce Intelligence] `VPN` gebruikersnaam
 * `Password`: De [!DNL Commerce Intelligence] `VPN` gebruikerswachtwoord
 
-Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
+Klik op **[!UICONTROL Save & Test]** om de installatie te voltooien.

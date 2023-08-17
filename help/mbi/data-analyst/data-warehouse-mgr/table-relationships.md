@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Tabelrelaties begrijpen en evalueren
 
-Wanneer u de relatie tussen twee gegeven tabellen beoordeelt, moet u begrijpen hoeveel mogelijke voorvallen in een tabel tot een entiteit in een andere tabel kunnen behoren, en omgekeerd. Gebruik bijvoorbeeld een `users` tabel en `orders` tabel. In dit geval wilt u weten hoeveel **orders** een gegeven **user** heeft geplaatst en hoeveel mogelijk **gebruikers** een **bestellen** kan tot behoren.
+Wanneer u de relatie tussen twee gegeven tabellen beoordeelt, moet u begrijpen hoeveel mogelijke voorvallen in een tabel tot een entiteit in een andere tabel kunnen behoren, en omgekeerd. Gebruik bijvoorbeeld een `users` tabel en een `orders` tabel. In dit geval wilt u weten hoeveel **orders** een gegeven **user** heeft geplaatst en hoeveel mogelijk **gebruikers** een **bestellen** kan tot behoren.
 
 Inzicht in relaties is van essentieel belang voor het behoud van gegevensintegriteit, omdat dit van invloed is op de nauwkeurigheid van uw [berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md) en [afmetingen](../data-warehouse-mgr/manage-data-dimensions-metrics.md). Zie voor meer informatie [relatietypen](#types) en [hoe te om de lijsten in uw Data Warehouse te evalueren.](#eval)
 
@@ -43,7 +43,7 @@ In een `one-to-many` relatie, een record in tabel `A` kan mogelijk tot meerdere 
 
 In een `many-to-many` relatie, een record in tabel `B` kan mogelijk tot meerdere records in de tabel behoren `A`. En vice versa, een verslag in lijst `A` kan mogelijk tot verscheidene verslagen in Lijst behoren `B`.
 
-Denk na over de relatie tussen **producten** en **categorieën**: een product kan tot veel categorieën behoren en een categorie kan veel producten bevatten .
+Denk na over de relatie tussen **producten** en **categorieën**: een product kan tot veel categorieën behoren en een categorie kan veel producten bevatten.
 
 ![](../../assets/many-to-many.png)
 
@@ -61,7 +61,7 @@ Wanneer u bijvoorbeeld nadenkt over gebruikers en bestellingen, moet u rekening 
 
 Deze methode gebruiken:
 
-1. Identificeer de entiteit die in elke tabel wordt beschreven. **Tip: het is meestal een zelfstandig naamwoord**. De `user` en `orders` in tabellen worden gebruikers en bestellingen expliciet beschreven.
+1. Identificeer de entiteit die in elke tabel wordt beschreven. **Tip: het is meestal een zelfstandig naamwoord**. Bijvoorbeeld de `user` en `orders` in tabellen worden gebruikers en bestellingen expliciet beschreven.
 
 1. Identificeer een of meer werkwoorden die beschrijven hoe deze entiteiten op elkaar inwerken. Wanneer gebruikers bijvoorbeeld met bestellingen vergelijken, plaatsen gebruikers bestellingen. In de andere richting zijn de bestellingen &quot;van&quot; gebruikers.
 
@@ -111,7 +111,7 @@ Bijvoorbeeld een `users` de tabel kan de meeste gebruikerskenmerken (zoals de na
 
 >[!NOTE]
 >
->Accepteert u gastorders? Zie [Gastbestellingen](../data-warehouse-mgr/guest-orders.md) om te leren hoe de gastorden uw lijstverhoudingen kunnen beïnvloeden.
+>Accepteer je gastorders? Zie [Gastbestellingen](../data-warehouse-mgr/guest-orders.md) om te leren hoe de gastorden uw lijstverhoudingen kunnen beïnvloeden.
 
 Wanneer tabellen worden gekoppeld met een `Foreign key` die verwijzen naar een `primary key`, deze instelling beschrijft een `one-to-many` relatie. De ene kant is de tabel met de `primary key` en de vele kanten zijn de tabel met de `foreign key`.
 

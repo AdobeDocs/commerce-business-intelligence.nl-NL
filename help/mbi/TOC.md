@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# [!DNL Commerce Intelligence] Handboek {#mbi}
+# [!DNL Commerce Intelligence] Gebruikershandleiding {#mbi}
 
-- [[!DNL Commerce Intelligence] Handboek](guide-overview.md)
+- [[!DNL Commerce Intelligence] Gebruikershandleiding](guide-overview.md)
 - [[!DNL Commerce Intelligence] Inleiding](getting-started/getting-started.md)
 - Aan de slag {#start}
    - [Onboarding](getting-started/onboarding.md)
@@ -70,9 +70,9 @@ ht-degree: 0%
       - [[!DNL sales_order_item]](data-analyst/data-warehouse-mgr/sales-flat-order-item-table.md)
       - [[!DNL quote]](data-analyst/data-warehouse-mgr/sales-flat-quote-table.md)
       - [[!DNL quote_item]](data-analyst/data-warehouse-mgr/sales-flat-quote-item-table.md)
-   - SQL Report Builder {#sql}
+   - SQL-Report Builder {#sql}
       - [Met de [!DNL Cohort Report Builder]](data-analyst/dev-reports/cohort-rpt-bldr.md)
-      - [Met de [!DNL Cohort Report Builder] voor niet-datumgebaseerde cohorten](data-analyst/dev-reports/cohort-rpt-non-date-based.md)
+      - [Met de [!DNL Cohort Report Builder] voor Cohorts op basis van niet-datum](data-analyst/dev-reports/cohort-rpt-non-date-based.md)
       - [Een kwalitatieve cohortanalyse maken](data-analyst/dev-reports/create-qual-cohort-analysis.md)
       - [Speciale filteroperatoren verkennen](data-analyst/dev-reports/explr-special-filter-ops.md)
       - [De resultaten van mijn query exporteren](data-analyst/dev-reports/export-query-results.md)
@@ -131,7 +131,7 @@ ht-degree: 0%
    - Database-integratie {#integration}
       - [Verbinding maken [!DNL Amazon RDS]](data-analyst/importing-data/integrations/amazon-rds.md)
       - [Verbinding maken met databases via VPN](data-analyst/importing-data/integrations/databases-via-a-vpn.md)
-      - [Maak verbinding met [!DNL MySQL Database] tot [!DNL Commerce Intelligence]](data-analyst/importing-data/integrations/db-to-mbi.md)
+      - [Maak verbinding met uw [!DNL MySQL Database] tot [!DNL Commerce Intelligence]](data-analyst/importing-data/integrations/db-to-mbi.md)
       - [Adobe Commerce verbinden](data-analyst/importing-data/integrations/magento.md)
       - [Verwachte handelsgegevens](data-analyst/importing-data/integrations/magento-data.md)
       - [Verbinding maken [!DNL Microsoft SQL Server]](data-analyst/importing-data/integrations/microsoft-sql-server.md)
@@ -165,7 +165,7 @@ ht-degree: 0%
       - [Jaar-over-jaar, maand-over-maand, week-over-week](data-analyst/analysis/year-month-week.md)
       - [Prestaties van vakantieseizoenen analyseren](data-analyst/analysis/holiday-season-perf.md)
       - [Herhalingskansingsverlies en -koeling analyseren](data-analyst/analysis/repeat-decay-churn.md)
-      - [Een basisanalyse maken en begrijpen](data-analyst/analysis/basic-analytics.md)
+      - [Een basisanalyse begrijpen en opbouwen](data-analyst/analysis/basic-analytics.md)
       - [Uw meest waardevolle marketingbronnen en -kanalen identificeren](data-analyst/analysis/most-value-source-channel.md)
       - [Begrijpen [!DNL Google Analytics] UTM-toewijzing](data-analyst/analysis/utm-attributes.md)
       - [De inventarisniveaus analyseren](data-analyst/analysis/analyze-inventory-level.md)
@@ -212,14 +212,14 @@ ht-degree: 0%
       - [Gegevens delen](data-user/export-data/share-data.md)
       - [Grafiekgegevens exporteren](data-user/export-data/exp-chart-dash.md)
       - [Geautomatiseerde e-mailoverzichten](data-user/export-data/email-summaries.md)
-- Aanbevolen werkwijzen {#best-practices}
+- Aanbevolen procedures {#best-practices}
    - Werken met gegevens {#data}
       - [Werken met gegevens](best-practices/work-data.md)
       - [UTM-codering in [!DNL Google Analytics]](best-practices/utm-tagging-google.md)
       - [Financiële gegevens opmaken en importeren](best-practices/format-import-financial-data.md)
-      - [Aanbevolen Dimension van Gegevens voor Segmentatie en Filtreren](best-practices/segment-filter.md)
+      - [Aanbevolen Dimensionen van Gegevens voor Segmentatie en Filtreren](best-practices/segment-filter.md)
       - [De status van de updatecyclus controleren](best-practices/check-update-cycle.md)
-      - [De tijd van de updatecyclus verminderen](best-practices/reduce-update-cycle-time.md)
+      - [De tijd van de updatecyclus verkorten](best-practices/reduce-update-cycle-time.md)
       - [Uw database aanpassen om incrementele replicatie te ondersteunen](best-practices/mod-db-inc-replication.md)
       - [Uw database optimaliseren voor analyse](best-practices/opt-db-analysis.md)
       - [Optimaliseren [!DNL SQL] Zoekopdrachten](best-practices/optimizing-your-sql-queries.md)

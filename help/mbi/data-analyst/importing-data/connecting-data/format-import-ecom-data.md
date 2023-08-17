@@ -43,7 +43,7 @@ De `order_detail / items` de lijst zou één rij voor elk verschillend punt in e
 | `Product ID` | De id van het product. |
 | `Product name` | De naam van het product. |
 | `Product's unit price` | De prijs voor één eenheid van het product. |
-| `Quantity` | De hoeveelheid van het product in de bestelling. |
+| `Quantity` | De hoeveelheid product in de bestelling. |
 
 ## `Customers` table {#customerstable}
 

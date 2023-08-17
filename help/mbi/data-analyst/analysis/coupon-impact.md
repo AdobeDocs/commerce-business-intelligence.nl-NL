@@ -73,7 +73,7 @@ Evenzo is het aantal herhaalde opdrachten met een coupon hoger voor aankopen zon
 
 ## Percentage herhalingsopdrachten met coupon
 
-Klanten die geen coupon hebben, hebben een veel lager percentage van herhaalde opdrachten met een coupon dan klanten die een coupon hebben verkregen. Voor klanten met coupon geldt dus dat bijna de helft van herhaalde opdrachten een coupon heeft. In dit voorbeeld doen klanten die coupon hebben gekocht vaak herhaalde aankopen met coupons.
+Klanten die geen coupon hebben verkregen, hebben een veel lager percentage van herhaalde opdrachten met een coupon dan klanten die een coupon hebben verkregen. Voor klanten met coupon geldt dus dat bijna de helft van herhaalde opdrachten een coupon heeft. In dit voorbeeld doen klanten die coupon hebben gekocht vaak herhaalde aankopen met coupons.
 
 ## Details van eerste bestelling van couponaankopen analyseren {#firstorder}
 
@@ -147,7 +147,7 @@ Nu u de bestellingen zelf hebt bekeken, bekijkt u de klanten die coupons gebruik
 
 U ziet dat het aantal eerste opdrachten hetzelfde is als het aantal klanten voor elke coupon. Dit is logisch omdat elke klant slechts één eerste bestelling kan hebben.
 
-Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot;. Deze klanten hebben echter de laagste **gemiddelde levensduuraantal orders** en **gemiddelde levensduurinkomsten**; Doorgaans doen de meeste klanten die coupon hebben, geen herhaalde opdrachten. Bovendien hebben klanten de coupon &quot;25% korting op $100 of hoger&quot; gekocht **gemiddelde levensduuraantal orders** en vervolgens hoger **gemiddelde levensduurinkomsten**. Over het algemeen komen gebruikers die via deze coupon zijn aangeschaft, doorgaans terug en doen ze meer herhaalde aankopen.
+Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot;. Deze klanten hebben echter de laagste **gemiddelde levensduuraantal orders** en **gemiddelde levensduurinkomsten** Doorgaans voeren de meeste klanten met coupon geen herhaalde opdrachten uit. Bovendien hebben klanten de coupon &quot;25% korting op $100 of hoger&quot; gekocht **gemiddelde levensduuraantal orders** en vervolgens hoger **gemiddelde levensduurinkomsten**. Over het algemeen komen gebruikers die via deze coupon zijn aangeschaft, gewoonlijk terug en doen ze meer herhaalde aankopen.
 
 ## Omloop omhoog {#wrapup}
 

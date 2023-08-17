@@ -25,7 +25,7 @@ Ga aan de slag met je [!DNL Google Adwords] inloggegevens [!DNL Commerce Intelli
 
 1. Ga naar de `Connections` pagina onder **Gegevens beheren > Integraties**.
 1. Klikken **Integratie toevoegen**, rechtsboven in het scherm.
-1. Klik op de knop **[!DNL Google Adwords]** pictogram. Hierdoor wordt het [!DNL Google Adwords] aanmeldingspagina.
+1. Klik op de knop **[!DNL Google Adwords]** pictogram. Hierdoor wordt het [!DNL Google Adwords] pagina met referenties.
 1. Voer uw [!DNL Google Analytics] referenties. Nadat het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence].
 1. Een lijst met profiel-id&#39;s. Controleer de profielen waarmee u verbinding wilt maken [!DNL Commerce Intelligence].
 
@@ -39,7 +39,7 @@ Als u meerdere profielen hebt en hulp nodig hebt bij het identificeren van welke
 
 U hebt mogelijk meerdere websites verbonden met één [!DNL Google Analytics] eigen rekening [!DNL Google Analytics] Profiel-id. In dit geval kunt u al uw profiel-id&#39;s opnemen in [!DNL Commerce Intelligence]. Controleer de profiel-id&#39;s die u wilt opnemen tijdens de stap voor profielselectie.
 
-**De Google Analytics-id van een bepaalde website identificeren:**
+**De profiel-id van een bepaalde Google Analytics van een website identificeren:**
 
 1. Aanmelden [!DNL Google Analytics]
 1. Ga naar de specifieke website [!DNL Google Analytics] dashboard
@@ -50,8 +50,8 @@ U hebt mogelijk meerdere websites verbonden met één [!DNL Google Analytics] ei
 ## Verbinding verbreken [!DNL Google Adwords]
 
 1. Bezoek uw [!DNL Google] [accountinstellingen](https://www.google.com/account/about/?hl=en) pagina.
-1. Onder de `Security` sectie, klikt u op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
-1. Klikken **[!UICONTROL revoke access]**.
+1. Onder de `Security` sectie, klikken **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
+1. Klik op **[!UICONTROL revoke access]**.
 
 ## Verwante
 

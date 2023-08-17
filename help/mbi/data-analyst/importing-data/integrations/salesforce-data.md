@@ -1,6 +1,6 @@
 ---
 title: Salesforce-gegevens verwacht
-description: Meer informatie over ondersteunde en niet-ondersteunde objecten in Salesforce-gegevens.
+description: Leer over gesteunde en niet gesteunde voorwerpen in gegevens Salesforce.
 exl-id: 6625349f-2ec0-402d-8635-889a1f29811c
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -19,7 +19,7 @@ Na de [[!DNL Salesforce] instellen](../integrations/salesforce.md) is volledig, 
 >
 >De structuur (kolommen) van elke tabel is afhankelijk van de velden in het object.
 
-Als u een lijst met objecten beschikbaar wilt maken voor uw organisatie, raadpleegt u de [!DNL Salesforce] [Een lijst met objecten-documentatie ophalen](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_describeGlobal.htm). Als u een lijst met objecten hebt, checkt u de [Sectie Betrekkingsdiagram voor entiteiten (ERD)](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_erd_knowledge.htm) van [!DNL Salesforce] documentatie om te zien hoe de entiteiten op elkaar betrekking hebben.
+Raadpleeg de klasse [!DNL Salesforce] [Een lijst met objecten-documentatie ophalen](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/dome_describeGlobal.htm). Als u een lijst met objecten hebt, checkt u de [Sectie Betrekkingsdiagram voor entiteiten (ERD)](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_erd_knowledge.htm) van [!DNL Salesforce] documentatie om te zien hoe de entiteiten op elkaar betrekking hebben.
 
 ## Niet-ondersteunde objecten
 

@@ -1,6 +1,6 @@
 ---
-title: Repliceren van Google Analytics-kanalen met behulp van aankoopbronnen
-description: Leer hoe u kanalen van Google Analytics repliceert met behulp van aankoopbronnen.
+title: Repliceren van Google Analytics-kanalen met behulp van acquisitiebronnen
+description: Leer hoe u kanalen van Googles Analytics repliceert met behulp van aankoopbronnen.
 exl-id: e7248fe4-94db-4cdf-8f58-1f65061a207d
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
@@ -19,7 +19,7 @@ Het creëren van douanesegmenten om te zien hoe het verschillende verkeer preste
 
 ## Waarom zie ik mijn `channels` in Commerce Intelligence? {#nochannels}
 
-`Channels` zijn eenvoudige, geaggregeerde emmers van gegevens. Om uw verwervingen in de emmers van het Kanaal te sorteren, [!DNL Google] stelt verschillende regels en definities in met behulp van specifieke parameters: een combinatie van verwervingen [Bron](https://support.google.com/analytics/answer/1033173?hl=en) (de oorsprong van uw verkeer) en aankoop [Normaal](https://support.google.com/analytics/answer/6099206?hl=en) (de algemene categorie van de bron).
+`Channels` zijn eenvoudige, geaggregeerde emmers van gegevens. Om uw verwervingen in de emmers van het Kanaal te sorteren, [!DNL Google] stelt afzonderlijke regels en definities in met behulp van specifieke parameters: een combinatie van aankopen [Bron](https://support.google.com/analytics/answer/1033173?hl=en) (de oorsprong van uw verkeer) en aankoop [Normaal](https://support.google.com/analytics/answer/6099206?hl=en) (de algemene categorie van de bron).
 
 Terwijl het hebben van deze emmers u kan helpen om te begrijpen waar uw verkeer uit komt, worden deze gegevens niet geëtiketteerd door kanaal maar door een combinatie Bron en Normaal. Omdat [!DNL Google] verzendt kanaalinformatie als twee afzonderlijke gegevenspunten, de kanaalgroepen verschijnen niet automatisch binnen [!DNL Commerce Intelligence].
 
@@ -30,7 +30,7 @@ Standaard, [!DNL Google] stelt acht verschillende kanalen in. De regels die bepa
 | **Kanaal** | **Wat is het?** | **Hoe wordt het gemaakt?** |
 |---|---|---|
 | Direct | Iedereen die rechtstreeks op uw site komt. | Bron = `Direct`<br>AND Medium = `(not set); OR Medium = (none)` |
-| Organic Search | Verkeer dat in onbetaalde zoekmachines op organische wijze is gerangschikt. | Normaal = `organic` |
+| Organic Search | Verkeer dat in onbetaalde zoekmachines op een organische positie is geplaatst. | Normaal = `organic` |
 | Verwijzing | Verkeer dat afkomstig is van een externe koppeling die geen Organic Search is of van websites die geen sociale netwerken zijn. | Normaal = `referral` |
 | Betaalde zoekopdracht | Verkeer dat een UTM-trackingcode heeft waarvan het medium &quot;cpc&quot;, &quot;ppc&quot; of &quot;paidsearch&quot; is EN een advertentienetwerk is dat niet overeenkomt met &quot;Content&quot;. | Normaal = `^(cpc|ppc|paidsearch)$`<br>AND ADD Distribution Network ≠ `Content` |
 | Sociaal | Verwijzingsverkeer dat uit om het even welk van ongeveer komt [400 sociale netwerken](https://www.annielytics.com/blog/analytics/sites-google-analytics-includes-in-social-reports/) en zijn niet gecodeerd als advertenties. | Verwijzing naar sociale bron = `Yes`<br>OR Normaal = `^(social|social-network|social-media|sm|social network|social media)$` |
@@ -44,7 +44,7 @@ Standaard, [!DNL Google] stelt acht verschillende kanalen in. De regels die bepa
 
 Nu u weet dat kanalen slechts combinaties van bronnen en media zijn, is het een gemakkelijk proces in drie stappen om deze groeperingen in uw Data Warehouse opnieuw te maken.
 
-1. **Uw[!DNL Google ECommerce]integratie**
+1. **Schakel uw[!DNL Google ECommerce]integratie**
 
    [Indien ingeschakeld](../importing-data/integrations/google-ecommerce.md), zorg ervoor dat [synchroniseren](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) de **medium** en **bron** velden in uw Data Warehouse. Nadat dit wordt voltooid, zullen de gemiddelde en bronverwervingsgegevens in uw Data Warehouse worden gebracht.
 

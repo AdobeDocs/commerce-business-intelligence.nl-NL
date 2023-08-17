@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Rapport voor waarschijnlijkheid van bestelling herhalen
 
-## Wanneer is `Incremental Event Probability` perspectief beschikbaar?
+## Wanneer is het `Incremental Event Probability` perspectief beschikbaar?
 
 De `incremental event probability` perspectief is alleen beschikbaar wanneer filters afmetingen gebruiken die gelijk zijn voor alle bestellingen (bijvoorbeeld `gender`, gebruikers `age` of van gebruikers `source`).
 
 Dit is omdat dit perspectief afhankelijk is van een dimensie die `User's order number` voor segmentatie, die de aankopen van een gebruiker (bijvoorbeeld, eerste, tweede, en 3de orden van John) nummert.
 
-Als u een filter hebt toegevoegd dat een dimensie gebruikt die niet gelijk is voor alle orders (bijvoorbeeld `Order's Region`), de `User's order number` de dimensie zou niet langer accuraat zijn . Dit is omdat het geen rekening voor specifieke gebieden wanneer het nummeren van de orden van een gebruiker (bijvoorbeeld, zijn de eerste, tweede, derde orden van John nog het zelfde, ongeacht hun regio).
+Als u een filter hebt toegevoegd dat een dimensie gebruikt die niet gelijk is voor alle orders (bijvoorbeeld `Order's Region`), `User's order number` de dimensie zou niet langer accuraat zijn . Dit is omdat het geen rekening voor specifieke gebieden wanneer het nummeren van de orden van een gebruiker (bijvoorbeeld, zijn de eerste, tweede, derde orden van John nog het zelfde, ongeacht hun regio).
 
 ## Het veranderen van een orde-specifieke afmeting in een gebruiker-specifieke afmeting
 
@@ -29,7 +29,7 @@ Als u zo&#39;n nieuwe dimensie wilt creëren, [contactondersteuning](https://exp
 
 ## Herhalingswaarschijnlijkheid van orders met verschillende kenmerken vergelijken
 
-Om het aantal herhaalde aankopen voor verschillende ordekenmerken (bijvoorbeeld, orde te vergelijken `region`), raadt Adobe aan een grafiek te maken die lijkt op `Users by lifetime number of orders`. Hier ziet u het aantal gebruikers dat 1, 2, 3,... het levenslevensaantal orden, en voeg de filter van het ordeniveau toe. (Met andere woorden, dit kan u tonen of de gebruikers meer of minder herhaalde aankopen in één regio of een andere. maken)
+Om het aantal herhaalde aankopen voor verschillende ordekenmerken (bijvoorbeeld, orde te vergelijken `region`), raadt Adobe aan een grafiek te maken die lijkt op `Users by lifetime number of orders`. Dit toont u het aantal gebruikers dat 1, 2, 3,... levenslevensaantal orden maakte, en voegt de filter van het ordeniveau toe. (Met andere woorden, dit kan u tonen of de gebruikers meer of minder herhaalde aankopen in één regio of een andere. maken)
 
 De getallen waaruit een dergelijk diagram bestaat, kunnen vervolgens worden geëxporteerd naar Excel om de waarschijnlijkheidsverhouding van de herhaalde volgorde te berekenen. De waarschijnlijkheid van klanten die `(x)` bestellingen `(x+1)` bestellingen, eenvoudig` divide the number of people who've made at least (x+1) purchases by the number of people who have made at least (x)` aankopen.
 

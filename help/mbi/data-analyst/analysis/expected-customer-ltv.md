@@ -144,7 +144,7 @@ Overige diagramdetails
 * [!UICONTROL Cohort date]: `Customer's first order date`
 * [!UICONTROL Perspective]: `Average value per cohort member`
 
-**Gecumuleerde BG-inkomsten per maand per cohort**
+**Gecumuleerde inkomsten per maand per cohort**
 
 * Metrisch `A`: `Revenue`
 * 

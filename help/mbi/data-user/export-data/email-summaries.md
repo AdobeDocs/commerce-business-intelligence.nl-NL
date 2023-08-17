@@ -30,7 +30,7 @@ E-mailoverzichten zijn een krachtig communicatiemiddel waarmee u de status en tr
 
 1. Voer een naam in voor het overzicht.
 
-   Kies een naam die aangeeft wat in het overzicht staat. Bijvoorbeeld: `AOV Comparison`.
+   Kies een naam die aangeeft wat in het overzicht staat. Bijvoorbeeld, `AOV Comparison`.
 
 1. In de `Choose Content` selecteert u de rapporten die u in het overzicht wilt opnemen.
 
@@ -38,7 +38,7 @@ E-mailoverzichten zijn een krachtig communicatiemiddel waarmee u de status en tr
 
    >[!NOTE]
    >
-   >`Cohort` rapporten zijn alleen beschikbaar als u de nieuwe architectuur gebruikt.
+   >`Cohort` de rapporten zijn slechts beschikbaar als u de nieuwe architectuur gebruikt.
 
 1. (Optioneel) Selecteer `Send Email To Me` als u het e-mailbericht wilt ontvangen.
 
@@ -52,11 +52,11 @@ In de `Set when to send the Email Summary` kunt u opgeven wanneer u de e-mailsam
 * `Once`
 * `Repeating`
 
-### E-mailoverzicht opslaan om op een latere datum te verzenden
+### E-mailoverzicht opslaan om op een latere datum te worden verzonden
 
 1. Selecteren `Manual` van de `Set when to send the Email Summary` veld.
 
-1. Klikken **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
    Hiermee slaat u de samenvatting op in de lijst met e-mailoverzichten.
 
@@ -84,7 +84,7 @@ In de `Set when to send the Email Summary` kunt u opgeven wanneer u de e-mailsam
 
 ## Bestaande e-mailoverzicht wijzigen
 
-Nadat u een e-mailoverzicht hebt gemaakt en opgeslagen, gaat u `Email Summaries` wordt een lijst met alle opgeslagen samenvattingen weergegeven. U kunt uitvouwen (`+`) voor meer informatie. De kolommen in deze weergave zijn:
+Nadat u een e-mailoverzicht hebt gemaakt en opgeslagen, gaat u `Email Summaries` wordt een lijst met alle opgeslagen samenvattingen weergegeven. U kunt uitbreiden (`+`) voor meer informatie. De kolommen in deze weergave zijn:
 
 * `Email Name` - Naam van de e-mailsamenvatting
 * `Content` - Type inhoud in het overzicht, zoals de namen van rapporten. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met geldige gegevens bevat, raadpleegt u [Uw accountinstellingen beheren](../../administrator/account-management/managing-account-settings.md).

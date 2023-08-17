@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Importeren [!DNL CJ Affiliate] data
 
-Om te importeren [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Adobe Commerce Intelligence]volgt u gewoon de onderstaande stappen en voegt u het resulterende bestand toe aan een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html). Adobe zal de datatabel voor uw account instellen en u kunt gegevens onafhankelijk blijven uploaden.
+Om te importeren [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Adobe Commerce Intelligence]volgt u gewoon de onderstaande stappen en voegt u het resulterende bestand toe aan een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html). Met Adobe wordt de datatabel voor uw account ingesteld en kunt u gegevens onafhankelijk blijven uploaden.
 
 ## Exporteren [!DNL CJ Affiliate] Gegevens
 
-1. In uw [!DNL CJ Affiliate] account, ga naar `Reports` tab.
+1. In uw [!DNL CJ Affiliate] account, ga naar de `Reports` tab.
 
 1. In de `Performance` tab, selecteert u `Report Options`.
 
@@ -25,7 +25,7 @@ Om te importeren [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Ado
 
 1. Selecteren `Run Report`.
 
-1. In de `File Format` vervolgkeuzelijst, selecteren `CSV`.  Klikken **[!UICONTROL Download]**.
+1. In de `File Format` vervolgkeuzelijst, selecteren `CSV`.  Klik op **[!UICONTROL Download]**.
 
    ![cj-filiaalgegevens exporteren](../../../assets/export-an-individual-order-2.jpg)<!--{:.zoom}-->
 

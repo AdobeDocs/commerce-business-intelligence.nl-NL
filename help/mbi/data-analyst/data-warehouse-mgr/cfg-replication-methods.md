@@ -21,11 +21,11 @@ Wanneer nieuwe tabellen worden gesynchroniseerd in het dialoogvenster [Data Ware
 
 `Replication` de methoden vallen onder drie groepen - `Incremental`, `Full Table`, en `Paused`.
 
-[**[!UICONTROL Incremental Replication]**](#incremental) betekent dat [!DNL Commerce Intelligence] Hiermee kopieert u alleen nieuwe of bijgewerkte gegevens bij elke replicatiepoging. Aangezien deze methoden de latentie aanzienlijk verkleinen, wordt u aangeraden deze zo veel mogelijk te gebruiken.
+[**[!UICONTROL Incremental Replication]**](#incremental) betekent dat [!DNL Commerce Intelligence] Hiermee kopieert u alleen nieuwe of bijgewerkte gegevens bij elke replicatiepoging. Aangezien deze methoden de latentie aanzienlijk verkleinen, wordt het aanbevolen deze zo veel mogelijk te gebruiken.
 
-[**[!UICONTROL Full Table Replication]**](#fulltable) betekent dat [!DNL Commerce Intelligence] repliceert de volledige inhoud van een lijst op elke replicatiepoging. Vanwege de mogelijk grote hoeveelheid gegevens die moet worden gerepliceerd, kunnen deze methoden de latentie en updatetijden verhogen. Als een lijst om het even welke timestamped of datetime kolommen bevat, adviseert Adobe het gebruiken van een Incrementele methode in plaats daarvan.
+[**[!UICONTROL Full Table Replication]**](#fulltable) betekent dat [!DNL Commerce Intelligence] repliceert de volledige inhoud van een lijst op elke replicatiepoging. Vanwege de mogelijk grote hoeveelheid gegevens die moet worden gerepliceerd, kunnen deze methoden de latentie en updatetijden verhogen. Als een lijst om het even welke timestamped of datetime kolommen bevat, adviseert de Adobe gebruikend een Incrementele methode in plaats daarvan.
 
-**[!UICONTROL Paused]** Hiermee wordt aangegeven dat de replicatie voor de tabel wordt gestopt of gepauzeerd. [!DNL Commerce Intelligence] niet controleert op nieuwe of bijgewerkte gegevens tijdens een updatecyclus; dit betekent dat geen gegevens van een lijst worden herhaald die dit als zijn Methode van de Replicatie heeft.
+**[!UICONTROL Paused]** Hiermee wordt aangegeven dat de replicatie voor de tabel wordt gestopt of gepauzeerd. [!DNL Commerce Intelligence] controleert niet nieuwe of bijgewerkte gegevens tijdens een updatecyclus; dit betekent dat geen gegevens van een lijst worden herhaald die dit als zijn Methode van de Replicatie heeft.
 
 ## Incrementele replicatiemethoden {#incremental}
 
@@ -37,25 +37,25 @@ De `Modified At` De replicatiemethode gebruikt een datetime kolom - die wordt be
 * de `datetime` de kolom is nooit null;
 * rijen worden niet uit de tabel verwijderd
 
-Naast deze criteria beveelt Adobe aan **indexeren** de `datetime` kolom gebruikt voor `Modified At` replicatie, aangezien dit de replicatiesnelheid helpt optimaliseren.
+Naast deze criteria beveelt de Adobe aan **indexeren** de `datetime` kolom gebruikt voor `Modified At` replicatie, aangezien dit de replicatiesnelheid helpt optimaliseren.
 
 Wanneer de update wordt uitgevoerd, worden nieuwe of gewijzigde gegevens geïdentificeerd door te zoeken naar rijen met een waarde in het dialoogvenster `datetime` kolom die is opgetreden na de meest recente update. Wanneer nieuwe rijen worden ontdekt, worden zij herhaald aan uw Data Warehouse. Als er rijen voorkomen in het dialoogvenster [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), worden ze overschreven met de huidige databasewaarden.
 
-Een tabel kan bijvoorbeeld een kolom met de naam `modified\_at` dat aangeeft wanneer de laatste gegevens zijn gewijzigd. Als de meest recente update dinsdag om 12.00 uur liep, zoekt de update naar alle rijen met een `modified\_at` waarde groter dan dinsdag om 12.00 uur. Alle ontdekte rijen die zijn gemaakt of gewijzigd sinds 12.00 uur op dinsdag, worden gerepliceerd naar de Data Warehouse.
+Een tabel kan bijvoorbeeld een kolom hebben met de naam `modified\_at` dat aangeeft wanneer de laatste gegevens zijn gewijzigd. Als de meest recente update dinsdag om 12.00 uur liep, zoekt de update naar alle rijen met een `modified\_at` waarde groter dan dinsdag om 12.00 uur. Alle ontdekte rijen die zijn gemaakt of gewijzigd sinds 12.00 uur op dinsdag, worden gerepliceerd naar de Data Warehouse.
 
 **Wist je dat?**
 Zelfs als uw database momenteel geen ondersteuning biedt voor een `Incremental` Replicatiemethode: [wijzigingen aanbrengen in uw database](../../best-practices/mod-db-inc-replication.md) dat het gebruik van `Modified At` of `Single Auto Incrementing PK`.
 
 `Modified At` is niet alleen de meest ideale replicatiemethode, maar ook de snelste. Deze methode veroorzaakt niet alleen merkbare snelheidsverhogingen met grote gegevensreeksen, het vereist ook het vormen van geen recheck optie. Andere methoden moeten een hele tabel doorlopen om wijzigingen te identificeren, zelfs als een kleine subset van gegevens is gewijzigd. `Modified At` Hiermee doorloopt u alleen die kleine subset.
 
-### Eén automatische verhogende primaire sleutel
+### Eén automatische incrementele primaire sleutel
 
 `Auto Incrementing` is een gedrag dat opeenvolgende primaire sleutels aan rijen toewijst. Als een tabel `Auto Incrementing` en de hoogste primaire sleutel in de tabel is 1.000, dan is de volgende primaire waarde 1.001 of hoger. Een tabel die niet wordt gebruikt `Auto Incrementing` kan gedrag een primaire sleutelwaarde toewijzen die minder is dan 1.000 of naar een veel groter getal springen, maar dit wordt niet vaak gebruikt.
 
 Deze methode is ontworpen voor het repliceren van nieuwe gegevens uit tabellen die aan de volgende criteria voldoen:
 
 * `single-column primary key`; en
-* `primary key` datatype is `integer`; en
+* `primary key` datatype `integer`; en
 * `auto incrementing` waarden van primaire sleutels.
 
 Wanneer een tabel wordt gebruikt `Single Auto Incrementing Primary Key` replicatie, worden de nieuwe gegevens ontdekt door naar primaire zeer belangrijke waarden te zoeken die hoger zijn dan de huidige hoogste waarde in uw Data Warehouse. Als de hoogste waarde voor de primaire sleutel in de Data Warehouse bijvoorbeeld 500 is, zoekt de volgende update naar rijen met de primaire sleutel waarden 501 of hoger.
@@ -97,7 +97,7 @@ Deze methode is bedoeld voor het repliceren van gegevens uit tabellen die aan de
 * samengestelde sleutels (meerdere kolommen die de primaire sleutel vormen) - houd er rekening mee dat kolommen die in een samengestelde primaire sleutel worden gebruikt nooit null-waarden kunnen hebben; of
 * waarden voor één kolom, gehele getallen, niet automatisch incrementele primaire sleutels.
 
-Deze methode is niet ideaal, omdat het ongelooflijk langzaam is door de hoeveelheid verwerking die moet plaatsvinden om partijen te onderzoeken en veranderingen te vinden. Adobe raadt u aan deze methode alleen te gebruiken als het niet mogelijk is de benodigde wijzigingen aan te brengen ter ondersteuning van de andere replicatiemethoden. Verwacht dat de updatetijden zullen stijgen als deze methode moet worden gebruikt.
+Deze methode is niet ideaal, omdat het ongelooflijk langzaam is door de hoeveelheid verwerking die moet plaatsvinden om partijen te onderzoeken en veranderingen te vinden. Adobe raadt u aan deze methode alleen te gebruiken als het niet mogelijk is de benodigde wijzigingen aan te brengen om de andere replicatiemethoden te ondersteunen. Verwacht dat de updatetijden zullen stijgen als deze methode moet worden gebruikt.
 
 ## Replicatiemethoden instellen
 
@@ -112,9 +112,9 @@ De methodes van de replicatie worden geplaatst op een lijst-door-lijst basis. Om
    >
    >**Voor sommige incrementele methoden moet u een`Replication Key`**. [!DNL Commerce Intelligence] zal deze sleutel gebruiken om te bepalen waar de volgende updatecyclus zou moeten beginnen.
    >
-   >Als u bijvoorbeeld de opdracht `modified at` methode voor uw `orders` tabel, moet u een `date column` als replicatietoets. Er kunnen verschillende opties voor replicatietoetsen bestaan, maar u selecteert `created at`of de tijd waarop de bestelling is gemaakt. Als de laatste updatecyclus op 12-1-2015 00 is gestopt:10:00, de volgende cyclus zou beginnen gegevens te repliceren met een `created at` datum groter dan deze.
+   >Als u bijvoorbeeld de opdracht `modified at` methode `orders` tabel, moet u een `date column` als replicatietoets. Er kunnen verschillende opties voor replicatietoetsen bestaan, maar u selecteert `created at`of de tijd waarop de bestelling is gemaakt. Als de laatste updatecyclus op 12-1-2015 00 is gestopt:10:00, de volgende cyclus zou beginnen gegevens te repliceren met een `created at` datum groter dan deze.
 
-1. Als u klaar bent, klikt u op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
 Kijk naar het hele proces:
 
@@ -134,7 +134,7 @@ Om omhoog te beëindigen, hebt u deze lijst samengebracht die de diverse replica
 
 ## Gerelateerde documentatie
 
-* [Gegevens opnieuw controleren](../data-warehouse-mgr/cfg-data-rechecks.md)
+* [Hercontroles van gegevens](../data-warehouse-mgr/cfg-data-rechecks.md)
 * [De database aanpassen voor ondersteuning ](../../best-practices/mod-db-inc-replication.md)
 * [De database optimaliseren voor analyse](../../best-practices/opt-db-analysis.md)
 * [Bijwerktijden reduceren](../../best-practices/reduce-update-cycle-time.md)

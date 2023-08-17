@@ -1,6 +1,6 @@
 ---
-title: Verwachte Google Analytics
-description: Leer om met uw metriek van Google Analytics in wisselwerking te staan.
+title: Gegevens van Googles Analytics verwacht
+description: Leer om met uw Googles Analytics metriek in wisselwerking te staan.
 exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Nadat u een [!DNL Google Analytics] integratie, kunt u met uw [!DNL Google Analytics] cijfers *onmiddellijk in het`Visual Report Builder`*. Wanneer u de `Visual Report Builder`, als u op **[!UICONTROL Add a Metric]**, een reeks meetgegevens van uw [!DNL Google Analytics] wordt weergegeven in een vervolgkeuzelijst direct onder de meetwaarden in de Data Warehouse.
 
-De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report Builder` vraagt gegevens van [!DNL Google Analytics] *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek waartoe u toegang kunt hebben, precies is gedefinieerd zoals ze zich bevinden in [!DNL Google Analytics]en dat deze waarden niet *gehuisvest* in uw [!DNL Commerce Intelligence] account - wordt alleen visueel weergegeven in uw rapporten.
+De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report Builder` verzoekt om gegevens van [!DNL Google Analytics] *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek waartoe u toegang kunt hebben, precies is gedefinieerd zoals ze zich bevinden in [!DNL Google Analytics]en dat deze waarden niet *gehuisvest* in uw [!DNL Commerce Intelligence] account - wordt alleen visueel weergegeven in uw rapporten.
 
-+++Ondersteunde metriek en Dimension (Google Analytics 3 of Universal Analytics)
++++Ondersteunde metriek en Dimensionen (Googles Analytics 3 of Universal Analytics)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 
 {style="table-layout:auto"}
 
-## Ondersteunde Dimension
+## Ondersteunde Dimensionen
 
 | [!DNL Commerce Intelligence] Weergavenaam | [!DNL Google Analytics] Naam/formule | Groeperen? |
 | --- | --- | --- |
@@ -154,7 +154,7 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 
 +++
 
-+++Ondersteunde Dimension en metriek (Google Analytics 4)
++++Ondersteunde metriek en Dimensionen (Googles Analytics 4)
 
 [!DNL Google Analytics] integratie in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [Data API v1 (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1).
 
@@ -162,6 +162,6 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 >
 > De inlichtingen van de Handel steunt niet de volgende dimensies: `cohort`, `cohortNthDay`, `cohortNthMonth`, en `cohortNthWeek`.
 >
->U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer meetgegevens die u gebruikt in het dialoogvenster `Visual Report Builder`. U kunt de [GA4-Dimension &amp; Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
+>U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer meetgegevens die u gebruikt in het dialoogvenster `Visual Report Builder`. U kunt de [GA4-Dimensionen &amp; Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
 
 +++

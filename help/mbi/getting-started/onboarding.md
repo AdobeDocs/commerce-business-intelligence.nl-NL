@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Onboarding [!DNL Adobe Commerce Intelligence]
 
-Vragen over instapkaarten `store` en `database` zorgen ervoor dat u de rapportage correct instelt. Met deze antwoorden levert Adobe uw rapporten die precies op de opstelling van uw opslag worden aangepast.
+Vragen over instapkaarten `store` en `database` zorgen ervoor dat u de rapportage correct instelt. Met deze antwoorden, levert de Adobe uw rapporten die precies aan de opstelling van uw opslag worden aangepast.
 
 ## Opslaginstellingen
 
@@ -21,11 +21,11 @@ Vragen over instapkaarten `store` en `database` zorgen ervoor dat u de rapportag
 
 - `Timezone` - Selecteer de `timezone` dat u graag uw rapportage wilt ontvangen.
 
-- `Currency` - Selecteer de `currency` dat uw winkel wordt geopend.
+- `Currency` - Selecteer de `currency` dat uw winkel actief is in.
 
 - `Your week starts on...` - Selecteer de dag van de week die u het begin van de week in uw rapporten wilt zijn.
 
-- *Welke versie van Handel gebruikt u?* - Selecteer de `currency` dat uw winkel wordt geopend.
+- *Welke versie van Handel gebruikt u?* - Selecteer de `currency` dat uw winkel actief is in.
 
 - *Is uw winkel gevestigd in de Europese Unie?* - Als u `Yes` op deze vraag plaatst Adobe uw Data Warehouse en al uw gegevens in de Europese Unie, overeenkomstig de GDPR.
 

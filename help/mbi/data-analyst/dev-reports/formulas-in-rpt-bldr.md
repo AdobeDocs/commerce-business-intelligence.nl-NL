@@ -21,11 +21,11 @@ In de `Report Builder`, `formula` is slechts een combinatie van één of meerder
 
 ![](../../assets/formula-example.png)
 
-In dit voorbeeld gebruikt u een `Number of orders metric (A)` en `Distinct buyers metric (B)`en het doel is de vraag te beantwoorden: wat is het gemiddelde aantal bestellingen dat mijn kopers maandelijks maken ? De parameters van de formule zijn:
+In dit voorbeeld gebruikt u een `Number of orders metric (A)` en `Distinct buyers metric (B)`en het doel is de vraag te beantwoorden: wat is het gemiddelde aantal bestellingen dat mijn kopers elke maand maken? De parameters van de formule zijn:
 
-* `Definition`: Hier past u wiskunde op de inputmetriek toe. In dit voorbeeld geeft het delen van het aantal orders door het aantal afzonderlijke kopers het gemiddelde aantal orders aan. Daarom is de definitie (A/B).
+* `Definition`: Hier past u berekeningen toe op de invoermeetgegevens. In dit voorbeeld geeft het delen van het aantal orders door het aantal afzonderlijke kopers het gemiddelde aantal orders aan. Daarom is de definitie (A/B).
 
-* `Format`: Retourneert uw formule een getal, een tijdsperiode of een valutabedrag? Naast de definitie van de formule is een vervolgkeuzelijst, die u kunt gebruiken om de indeling van de geretourneerde waarde op te geven. In dit geval is het een getal.
+* `Format`: Geeft uw formule een getal, een tijdsperiode of een valutabedrag? Naast de definitie van de formule is een vervolgkeuzelijst, die u kunt gebruiken om de indeling van de geretourneerde waarde op te geven. In dit geval is het een getal.
 
 * `Miscellaneous`: De tijdstempel, groeperingen, perspectieven en filters van de formule worden allemaal overgeërfd door de invoermeetgegevens. Er is hier niets te doen!
 
@@ -39,11 +39,11 @@ Nu u de grondbeginselen hebt behandeld, bekijk een paar voorbeelden.
 
 In dit voorbeeld hebt u de opdracht `Revenue` en `Revenue (first time orders)` metriek. Door de `Revenue (first time orders)(B)` metrisch met de `Revenue metric (A)` en het plaatsen van het terugkeerformaat aan `Percent`, kunt u het percentage van opbrengst vinden dat aan eerste orde kan worden toegeschreven.
 
-### Voorbeeld: Ik wil weten wat de gemiddelde inkomsten per bestelling zijn wanneer ik doe en geen `promo code`.
+### Voorbeeld: ik wil weten wat de gemiddelde inkomsten per bestelling zijn wanneer ik doe en geen aanbod doe `promo code`.
 
 ![Het gebruiken van formules om de gemiddelde opbrengst per orde met en zonder bevorderingscodes te vinden](../../assets/promo_code.gif)
 
-In dit voorbeeld hebt u de opdracht `Revenue` en `Number of orders` metriek. Het antwoord op deze vraag bestaat uit twee stappen: opdelen `Revenue (A)` door de `Number of orders (B)` en het plaatsen van het terugkeerformaat aan `Currency`. Vervolgens hebt u alleen het resultaat van de formule toegestaan (`Avg. Revenue per order`) om de resultaten weer te geven en te groeperen met `Promo code`.
+In dit voorbeeld hebt u de opdracht `Revenue` en `Number of orders` metriek. Het antwoord op deze vraag bestaat uit twee stappen - verdeeld `Revenue (A)` door de `Number of orders (B)` en het plaatsen van het terugkeerformaat aan `Currency`. Vervolgens hebt u alleen het resultaat van de formule toegestaan (`Avg. Revenue per order`) om de resultaten weer te geven en te groeperen met `Promo code`.
 
 ### Voorbeeld: Ik wil de distributie van de UTM-bronnen van mijn nieuwe klanten kennen.
 
@@ -53,16 +53,16 @@ Het vinden van het antwoord op deze vraag omvat een paar stappen:
 
 1. Eerst hebt u de `New Customers` metrisch, en dan gegroepeerd door `utm_source - all`. Dit is metrisch `A`, of `New Customers (grouped)`.
 
-1. Vervolgens hebt u het `New Customers (grouped)` en instellen dat een onafhankelijke dimensie wordt gebruikt. Metrisch `B` - `New customers (ungrouped)` - het totale aantal nieuwe klanten.
+1. Vervolgens hebt u het `New Customers (grouped)` en instellen op een onafhankelijke dimensie. Metrisch `B` - `New customers (ungrouped)` - het totale aantal nieuwe klanten.
 
-1. Nadat u beide metriek hebt verborgen, stelt u de definitie van de formule in op `A/B`. Hiermee verdeelt u de `New customers (grouped)` door de `New Customers (ungrouped)`.
+1. Nadat u beide metriek hebt verborgen, stelt u de formule in op `A/B`. Hiermee verdeelt u de `New customers (grouped)` door de `New Customers (ungrouped)`.
 
-1. Vervolgens stelt u de resultaatindeling in op `Percent`.
+1. Vervolgens stelt u de indeling van de resultaten in op `Percent`.
 
 In dit voorbeeld hebt u de opdracht `Stacked Columns` perspectief om de resultaten per maand weer te geven. Op die manier kunnen we de verdeling van nieuwe klanten per maand vergelijken.
 
 ## Omloop {#wrapup}
 
-Merkte u in de bovenstaande voorbeelden op dat de formule `timestamp`, `groupings`, `perspectives`, en `filters` worden overgeërfd van zijn inputmetriek? Houd er rekening mee dat formules kunnen worden gebruikt `perspectives` en [onafhankelijke tijdopties](../../tutorials/time-options-visual-rpt-bldr.md){: target=&quot;_blank&quot;}, net als metriek.
+Merkte u in de bovenstaande voorbeelden op dat de formule `timestamp`, `groupings`, `perspectives`, en `filters` worden overgeërfd van zijn inputmetriek? Houd er rekening mee dat formules kunnen worden gebruikt `perspectives` en [onafhankelijke tijdopties](../../tutorials/time-options-visual-rpt-bldr.md){: target=&quot;_blank&quot;}, net als metriek kan.
 
 Als u nog vragen hebt over het gebruik van formules in het dialoogvenster `Report Builder`, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

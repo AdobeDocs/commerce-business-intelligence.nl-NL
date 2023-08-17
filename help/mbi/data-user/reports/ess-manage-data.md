@@ -17,7 +17,7 @@ Met Gegevens beheren hebt u toegang tot verschillende functies voor het beheer v
 
 ## Toegang tot [!DNL Manage Data]:
 
-1. Klik in het menu op **[!DNL Manage Data]**.
+1. Klik op **[!DNL Manage Data]**.
 
 1. Kies in de zijbalk het gewenste onderwerp onder de volgende koppen:
 

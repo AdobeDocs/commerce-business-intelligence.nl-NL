@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Opgenomen dashboards
 
-[!DNL Adobe] aanbiedingen `eCommerce` en `SaaS` Startpakketten. Deze pakketten, die door Adobe analisten worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
+[!DNL Adobe] aanbiedingen `eCommerce` en `SaaS` Startpakketten. Deze pakketten, die door analisten van de Adobe worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
 
 >[!NOTE]
 >
@@ -37,11 +37,11 @@ Zie voor meer informatie over cohorts [Cohortanalyse uitvoeren](../../data-analy
 
 Als u momenteel de bron van de gebruikersverwerving niet bijhoudt, zie [Overzicht van gegevens van de aanschafbron van gebruikers bijhouden](../../data-analyst/analysis/google-track-user-acq.md).
 
-## E-mailoverzicht
+## Overzicht van e-mail
 
 De `Email Summary` dashboard bevat een voorbeeldset grafieken die kunnen worden gebruikt in een geautomatiseerde dagelijkse e-mailsamenvatting. Zie [maken, geautomatiseerde e-mailoverzichten](../../data-user/export-data/email-summaries.md) voor meer informatie over het configureren van e-mailoverzichten.  
 
-## Bewaring gezondheid
+## Retentie gezondheid
 
 De `Retention health` dashboard onthult het herhaalde aankoopgedrag van uw gebruikersbasis.
 
@@ -95,6 +95,6 @@ Met de gereedschappen voor het exporteren van gegevens is het eenvoudig [e-maill
 
 De `User activity` het dashboard omvat grafieken die gebruikers door diverse gegevens, met inbegrip van verwervingsbron, demografie, en gemiddelde eerste keer aan orde segmenteren. Het omvat ook de analyse van de gebruikerscohort, met inbegrip van de algemene gemiddelde levensinkomsten door de registratiemaand van gebruikers.
 
-De `% of cohort members who have purchased` grafiek is waardevol, omdat het de omzettingsverhouding (van 0 door 1) van gebruikers toont die wordt gebaseerd op wanneer zij registreren (elke lijn vertegenwoordigt een cohort van gebruikers). Het toont ook wanneer ze hun eerste aankoop doen (bijvoorbeeld in maand 1, 2, 3... na registratie). Dit kan u tonen dat 10% van gebruikers in maand 1 activeerde, terwijl dit aantal in maand 2, 3, 4.. groeit. en kan later plateau worden.
+De `% of cohort members who have purchased` grafiek is waardevol, omdat het de omzettingsverhouding (van 0 door 1) van gebruikers toont die wordt gebaseerd op wanneer zij registreren (elke lijn vertegenwoordigt een cohort van gebruikers). Het toont ook wanneer zij hun eerste aankoop (bijvoorbeeld in maand 1, 2, 3... na registratie) maken. Dit kan u aantonen dat 10% van gebruikers geactiveerd in maand 1, terwijl dit aantal groeit in maand 2, 3, 4.. en kan later plateau.
 
 Doorgaans worden de lijnen in dit diagram horizontaal na een bepaalde periode. Dit wijst erop dat weinig extra cohort leden organisch na dat punt omzetten - de meeste gebruikers die een aankoop gaan maken hebben reeds dit gedaan. Op dit moment is het zeer onwaarschijnlijk dat deze leden zich zonder tussenkomst tot de kopers zullen wenden. [Het bereiken van naar hen met aangepaste promoties of gerichte e-mails is een manier met weinig risico om deze populatie snel om te zetten.](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/)

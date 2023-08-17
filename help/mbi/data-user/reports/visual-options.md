@@ -1,6 +1,6 @@
 ---
-title: Visualisatieopties in Visual Report Builder
-description: Leer hoe te om de opties van de Visualisatie in Visual Report Builder te gebruiken.
+title: Visualisatieopties in de Visuele Report Builder
+description: Leer hoe te om de opties van de Visualisatie in de Visuele Report Builder te gebruiken.
 exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
@@ -37,7 +37,7 @@ De [!DNL Commerce Intelligence] [!DNL Visual Report Builder] biedt twaalf versch
 
 ![](../../assets/blobid0.png)
 
-Om een rapport als scalar te bewaren, vorm uw filters en tijdmontages, dan klik **[!UICONTROL Save]** of **[!UICONTROL Update]** in de rechterbovenhoek van het rapport. Onder de `Type` kiest u Nummer: Metrische naam om het rapport op te slaan als de waarde die op de linkerzijbalk wordt weergegeven.
+Om een rapport als scalar te bewaren, vorm uw filters en tijdmontages, dan klik **[!UICONTROL Save]** of **[!UICONTROL Update]** in de rechterbovenhoek van het rapport. Onder de `Type` Klik op het vervolgkeuzemenu Getal: metrische naam om het rapport op te slaan als de waarde die op de linkerzijbalk wordt weergegeven.
 
 ![](../../assets/blobid1.png)
 
@@ -85,7 +85,7 @@ Om een rapport als lijngrafiek te bewaren, pas het rapport aan `Type` tot `Chart
 
 Elke afzonderlijke metrische combinatie, groep door, en tijdintervalcombinatie wordt getoond als zijn eigen bar. Als u twee metriek met één hebt `group by`, met drie verschillende `group by` waarden, uw rapport bevat zes aparte balken.
 
-Als u een rapport wilt opslaan als staafdiagram, past u het rapport aan `Type` tot `Chart` en selecteert u de `Bar` zoals hieronder weergegeven:
+Om een rapport als staafdiagram te bewaren, pas het rapport aan `Type` tot `Chart` en selecteert u de `Bar` zoals hieronder weergegeven:
 
 ![](../../assets/blobid3.png)
 
@@ -103,7 +103,7 @@ Het rapport hieronder bevat bijvoorbeeld twee identieke inkomstenmetriek met é�
 
 Zorg ervoor dat de `Multiple Y-Axes` Schakel deze optie uit als u een rapport wilt instellen zoals hierboven beschreven.
 
-Als u een rapport wilt opslaan als een gestapeld staafdiagram, past u het rapport aan `Type` tot `Chart` en selecteer de optie van de gestapelde bar van de rapportbouwer:
+Om een rapport als gestapeld staafdiagram te bewaren, pas het rapport aan `Type` tot `Chart` en selecteer de optie van de gestapelde bar van de rapportbouwer:
 
 ![](../../assets/blobid5.png)
 
@@ -131,7 +131,7 @@ Kolomrapporten kunnen worden opgeslagen door het rapport te wijzigen `Type` tot 
 
 `Stacked column` rapporten zijn bijna identiek aan kolomgrafieken, behalve de gelijkaardige kolommen worden gestapeld bovenop elkaar zodat de totale hoogte de som waarden vertegenwoordigt. De gestapelde kolommen worden opnieuw het best visualiseerd met een beperkt aantal metriek of groepsbys.
 
-Het gebruiken van de zelfde rapportconfiguratie zoals die in wordt beschreven `Column` in de bovenstaande sectie ziet een rapport met twee inkomstenmetriek (voor het eerst gefilterd en herhaald) er als volgt uit met een gestapelde kolomvisualisatie:
+Het gebruiken van de zelfde rapportconfiguratie zoals die in `Column` in de bovenstaande sectie ziet een rapport met twee inkomstenmetriek (voor het eerst gefilterd en herhaald) er als volgt uit met een gestapelde kolomvisualisatie:
 
 ![](../../assets/blobid8.png)
 
@@ -164,7 +164,7 @@ Om een rapport als cirkeldiagram te bewaren, plaats het rapport `Type` tot `Char
 
 ## `Area`
 
-`Area` grafieken zijn bijna identiek aan gestapelde kolomgrafieken, behalve de kolommen ononderbroken worden getoond. Net als bij gestapelde kolommen kunnen vlakgrafieken het best worden weergegeven met een beperkt aantal groepsvakken of metriek.
+`Area` grafieken zijn bijna identiek aan gestapelde kolomgrafieken, behalve de kolommen onophoudelijk worden getoond. Net als bij gestapelde kolommen kunnen vlakgrafieken het best worden weergegeven met een beperkt aantal groepsvakken of metriek.
 
 Hetzelfde voorbeeld uit het dialoogvenster `stacked column` in het onderstaande rapport wordt de eerste keer versus de tweede keer de opbrengst weergegeven met de gebiedsgrafiek visualisatie:
 
@@ -184,7 +184,7 @@ Als u een rapport wilt opslaan als een vlakdiagram, past u de `Type` tot `Chart`
 
 ![](../../assets/blobid4.png)
 
-In een trechter-rapport wordt de relatieve waarde van een bepaalde trede van de trechter weerspiegeld door de hoogte van de trede. De rapportconfiguratie bepaalt de orde waarin de stappen worden getoond. Er zijn twee manieren om een kanaalrapport te vormen:
+In een trechter-rapport wordt de relatieve waarde van een bepaalde stap van de trechter weerspiegeld door de hoogte van de stap. De rapportconfiguratie bepaalt de orde waarin de stappen worden getoond. Er zijn twee manieren om een kanaalrapport te vormen:
 
 * `Single metric with one group by`: - De volgorde van de stappen die wordt bepaald door de instelling Boven/Onder tonen van de groep door. Standaard worden treekstappen weergegeven op volgorde van de hoogste naar de laagste waarde, maar u kunt ze ook alfabetisch sorteren op naam.
 

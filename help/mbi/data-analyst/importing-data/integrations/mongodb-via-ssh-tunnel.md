@@ -17,13 +17,13 @@ Als u verbinding wilt maken met uw [!DNL MongoDB] database naar [!DNL Commerce I
 
 1. [De [!DNL Commerce Intelligence] openbare sleutel](#retrieve)
 1. [Toegang tot de [!DNL Commerce Intelligence] IP-adres](#allowlist)
-1. [Een Linux-gebruiker maken voor de handelsinlichtingen](#linux)
+1. [Een Linux-gebruiker maken voor de handelsinlichtingendienst](#linux)
 1. [Een [!DNL MongoDB] gebruiker for Commerce Intelligence](#mongodb)
 1. [Voer de verbinding en gebruikersgegevens in [!DNL Commerce Intelligence]](#finish)
 
 >[!NOTE]
 >
->Vanwege de technische aard van deze installatie, raadt Adobe u aan om een lus uit te voeren in een ontwikkelaar om u te helpen als u dit nog niet eerder hebt gedaan.
+>Vanwege de technische aard van deze installatie, raadt de Adobe u aan om een lus uit te voeren in een ontwikkelaar om u te helpen als u dit nog niet eerder hebt gedaan.
 
 ## De [!DNL Commerce Intelligence] openbare sleutel {#retrieve}
 
@@ -31,8 +31,8 @@ De `public key` wordt gebruikt om de [!DNL Commerce Intelligence] `Linux` gebrui
 
 1. Ga naar **[!UICONTROL Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]**.
 1. Klik op de knop [!DNL MONGODB] pictogram.
-1. Na de [!DNL MongoDB] aanmeldingspagina wordt geopend, wijzigt u de `Encrypted` schakelen naar `Yes`. Dit toont de de opstellingsvorm van SSH.
-1. De `public key` bevindt zich onder dit formulier.
+1. Na de [!DNL MongoDB] aanmeldingspagina wordt geopend, de `Encrypted` schakelen naar `Yes`. Dit toont de de opstellingsvorm van SSH.
+1. De `public key` onder dit formulier.
 
 Laat deze pagina gedurende de zelfstudie open - u hebt deze nodig in de volgende sectie en aan het einde.
 
@@ -42,7 +42,7 @@ Als u een beetje verloren bent, is hier hoe te door te navigeren [!DNL Commerce 
 
 ## Toegang tot de [!DNL Commerce Intelligence] IP-adres {#allowlist}
 
-De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze zijn `54.88.76.97` en `34.250.211.151`, maar het is ook [!DNL MongoDB] aanmeldingspagina:
+De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze zijn `54.88.76.97` en `34.250.211.151`, maar het is ook [!DNL MongoDB] pagina met referenties:
 
 ![MBI_Allow_Access_IPs.png](../../../assets/MBI_allow_access_IPs.png)
 
@@ -50,11 +50,11 @@ De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf u
 
 >[!IMPORTANT]
 >
->Als de `sshd_config` het bestand dat aan de server is gekoppeld, is niet ingesteld op de standaardoptie. Alleen bepaalde gebruikers hebben toegang tot de server. Hierdoor wordt een verbinding met [!DNL Commerce Intelligence]. In deze gevallen is het nodig om een opdracht als `AllowUsers` de `rjmetric` gebruikerstoegang tot de server.
+>Als de `sshd_config` het bestand dat aan de server is gekoppeld, is niet ingesteld op de standaardoptie. Alleen bepaalde gebruikers hebben toegang tot de server. Hierdoor wordt een verbinding met [!DNL Commerce Intelligence]. In deze gevallen is het nodig om een opdracht als `AllowUsers` de `rjmetric` toegang tot de server.
 
 Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt) gegevens in real time bevat. U kunt deze gebruiker op elke gewenste manier beperken zolang deze het recht behoudt om verbinding te maken met de [!DNL MongoDB] server.
 
-Als u de nieuwe gebruiker wilt toevoegen, voert u de volgende opdrachten als hoofdmap uit op uw `Linux` server:
+Als u de nieuwe gebruiker wilt toevoegen, voert u de volgende opdrachten als basis uit op uw `Linux` server:
 
 ```bash
     adduser rjmetric -p
@@ -62,7 +62,7 @@ Als u de nieuwe gebruiker wilt toevoegen, voert u de volgende opdrachten als hoo
     mkdir /home/rjmetric/.ssh
 ```
 
-Onthoud de `public key` bent u opgehaald in de eerste sectie? Om ervoor te zorgen dat de gebruiker toegang heeft tot de database, moet u de sleutel importeren in `authorized_keys`. Kopieer de hele sleutel naar de `authorized_keys` bestand als volgt:
+De `public key` bent u opgehaald in de eerste sectie? Om ervoor te zorgen dat de gebruiker toegang heeft tot de database, moet u de sleutel importeren in `authorized_keys`. Kopieer de hele sleutel naar de `authorized_keys` bestand als volgt:
 
 ```bash
     touch /home/rjmetric/.ssh/authorized_keys
@@ -78,11 +78,11 @@ Om te beëindigen creërend de gebruiker, verander de toestemmingen op de /home/
 
 ## Een [!DNL Commerce Intelligence] [!DNL MongoDB] user {#mongodb}
 
-[!DNL MongoDB] servers hebben twee uitvoeringsmodi - [met de optie &quot; auth &quot;](#auth) `(mongod -- auth)` en één zonder [is de standaardinstelling](#default). De stappen voor het maken van een [!DNL MongoDB] afhankelijk van de modus die de server gebruikt. Controleer de modus voordat u verdergaat.
+[!DNL MongoDB] servers hebben twee uitvoeringsmodi - [met de optie &quot; auth &quot;](#auth) `(mongod -- auth)` en één zonder [is de standaardwaarde](#default). De stappen voor het maken van [!DNL MongoDB] de gebruiker varieert afhankelijk van de modus die de server gebruikt. Controleer de modus voordat u verdergaat.
 
 ### Als uw server de `Auth` Optie: {#auth}
 
-Wanneer u verbinding maakt met meerdere databases, kunt u de gebruiker toevoegen door u aan te melden [!DNL MongoDB] als een beheerder en de volgende opdrachten uitvoeren.
+Wanneer u verbinding maakt met meerdere databases, kunt u de gebruiker toevoegen door u aan te melden [!DNL MongoDB] als een beheerder gebruiker en het uitvoeren van de volgende bevelen.
 
 >[!NOTE]
 >
@@ -126,23 +126,23 @@ Om uw [!DNL MongoDB] de server aan een verschillend adres, pas de gegevensbestan
 
 ## De verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence] {#finish}
 
-Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de [!DNL MongoDB] aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Data > Connections]** en klik op **[!UICONTROL Add New Data Source]** en de [!DNL MongoDB] pictogram. Vergeet niet de `Encrypted` schakelen naar `Yes`.
+Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de [!DNL MongoDB] aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Data > Connections]** en klik op **[!UICONTROL Add New Data Source]** en vervolgens de [!DNL MongoDB] pictogram. Vergeet niet de `Encrypted` schakelen naar `Yes`.
 
 Voer de volgende gegevens in op deze pagina, te beginnen met de `Database Connection` sectie:
 
 * `Host`: `127.0.0.1`
 * `Username`: De [!DNL Commerce Intelligence] [!DNL MongoDB] username (moet `rjmetric`)
 * `Password`: De [!DNL Commerce Intelligence] [!DNL MongoDB] password
-* `Port`: De poort van MongoDB op uw server (`27017` standaard)
-* `Database Name` (Optioneel): Als u slechts toegang tot één gegevensbestand hebt toegestaan, specificeer hier de naam van dat gegevensbestand.
+* `Port`: MongoDB-poort op uw server (`27017` standaard)
+* `Database Name` (Optioneel): als u slechts toegang tot één database hebt toegestaan, geeft u hier de naam van die database op.
 
 Onder de `SSH Connection` sectie:
 
-* `Remote Address`: Het IP adres of hostname van de server u in zult SSH
+* `Remote Address`: Het IP-adres of de hostnaam van de server waarin u SSH wilt plaatsen
 * `Username`: De [!DNL Commerce Intelligence] Linux (SSH)-gebruikersnaam (moet ook Jometrisch zijn)
-* `SSH Port`: De haven van SSH op uw server (22 door gebrek)
+* `SSH Port`: De SSH-poort op uw server (standaard ingesteld op 22)
 
-Als u klaar bent, klikt u op **[!UICONTROL Save Test]** om de installatie te voltooien.
+Klik op **[!UICONTROL Save Test]** om de installatie te voltooien.
 
 ### Verwante
 

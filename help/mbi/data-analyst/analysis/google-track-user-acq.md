@@ -1,5 +1,5 @@
 ---
-title: Google Analytics - het Overzicht van de Gegevens van de Bron van de Aankoop van de Gebruiker van het spoor
+title: Googles Analytics - het Overzicht van de Gegevens van de Bron van de Aankoop van de Gebruiker van het spoor
 description: Leer hoe u uw gegevens kunt segmenteren op basis van de aankoopbron van de gebruiker.
 exl-id: 2ce3e4f9-4741-4ada-b822-ec6a5ca94497
 role: Admin, User
@@ -35,7 +35,7 @@ In dit onderwerp wordt uitgelegd hoe u het bestand opslaat [!DNL Google Analytic
 
 #### Waarom?
 
-Als u alleen naar de standaardinstelling kijkt [!DNL Google Analytics] conversie- en acquisitiemetriek, u krijgt niet het hele beeld. Terwijl het zien van het aantal omzettingen van organisch onderzoek tegenover betaalde onderzoek interessant is, wat kunt u met die informatie doen? Moet je meer geld uitgeven aan betaalde zoekopdrachten? Dat hangt af van de waarde van klanten die uit dat kanaal komen, wat niet iets Google Analytics verstrekt is.
+Als u alleen naar de standaardinstelling kijkt [!DNL Google Analytics] conversie- en acquisitiemetriek, u krijgt niet het hele beeld. Terwijl het zien van het aantal omzettingen van organisch onderzoek tegenover betaalde onderzoek interessant is, wat kunt u met die informatie doen? Moet je meer geld uitgeven aan betaalde zoekopdrachten? Dat hangt van de waarde van klanten af die uit dat kanaal komen, wat niet iets Googles Analytics verstrekt.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Deze code is omgezet in een [PHP-bibliotheek gehost op github](https://github.co
 
 De geretourneerde `$data` array is een kaart van de keys `source`, `medium`, `term`, `content`, `campaign`, `gclid`en hun respectieve waarden.
 
-Adobe raadt u aan een tabel met de naam toe te voegen aan uw database, bijvoorbeeld `user_referral`, met de volgende kolommen: `id INT PRIMARY KEY, user_id INT NOT NULL, source VARCHAR(255), medium VARCHAR(255), term VARCHAR(255), content VARCHAR(255), campaign VARCHAR(255), gclid VARCHAR(255)`. Wanneer een gebruiker zich aanmeldt, haalt u de verwijzingsinformatie op en slaat u deze op in deze tabel.
+Adobe raadt u bijvoorbeeld aan een tabel met de naam van de database toe te voegen. `user_referral`, met de volgende kolommen: `id INT PRIMARY KEY, user_id INT NOT NULL, source VARCHAR(255), medium VARCHAR(255), term VARCHAR(255), content VARCHAR(255), campaign VARCHAR(255), gclid VARCHAR(255)`. Wanneer een gebruiker zich aanmeldt, haalt u de verwijzingsinformatie op en slaat u deze op in deze tabel.
 
 #### Hoe deze gegevens te gebruiken
 

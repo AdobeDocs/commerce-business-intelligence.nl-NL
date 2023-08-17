@@ -43,7 +43,7 @@ Als u een toewijzingstabel wilt maken, moet u een spreadsheet met twee kolommen 
 
 Voer in de eerste kolom de waarden in die in de database zijn opgeslagen met **slechts één waarde per rij**. Bijvoorbeeld: `pa` en `PA` kan zich niet op dezelfde regel bevinden - elke invoer moet een eigen rij hebben. Zie hieronder voor een voorbeeld.
 
-Voer in de tweede kolom in wat deze waarden zijn **moeten**. Als u wilt doorgaan met het voorbeeld met de factureringsstatus `pa`, `PA`, `Pennsylvania`, en `pennsylvania` eenvoudig `PA`, voert u in `PA` in deze kolom voor elke invoerwaarde.
+Voer in de tweede kolom in wat deze waarden zijn **moeten**. Als u wilt doorgaan met het voorbeeld met de factureringsstatus `pa`, `PA`, `Pennsylvania`, en `pennsylvania` eenvoudigweg `PA`, voert u in `PA` in deze kolom voor elke invoerwaarde.
 
 ![](../../assets/Mapping_table_examples.jpg)
 
@@ -55,7 +55,7 @@ In dit voorbeeld wordt de kolom verplaatst die u in het dialoogvenster `mapping_
 
 Als u de opdracht `joined` navigeer naar de tabel waarnaar het veld wordt verplaatst in Beheer Data Warehouse. In dit voorbeeld is dit `customer_address` tabel.
 
-1. Klikken **[!UICONTROL Create a Column]**.
+1. Klik op **[!UICONTROL Create a Column]**.
 1. Selecteren `Joined Column` van de `Definition` vervolgkeuzelijst.
 1. Geef de kolom een naam die het van het `state` in uw database. De kolom een naam geven `billing state (mapped)` zodat kunt u zien welke kolom aan gebruik wanneer het segmenteren in de rapportbouwer.
 1. Het pad dat u nodig hebt om de tabellen met elkaar te verbinden, bestaat niet. U moet dus een pad maken. Klikken **[!UICONTROL Create new path]**  in de `Select a table and column` vervolgkeuzelijst.
@@ -63,7 +63,7 @@ Als u de opdracht `joined` navigeer naar de tabel waarnaar het veld wordt verpla
    Als u niet zeker bent wat de lijstverhouding is of hoe te om de primaire en buitenlandse sleutels behoorlijk te bepalen, controleer [de zelfstudie](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) voor wat hulp.
 
    * Op de `Many` Selecteer de tabel waarnaar u het veld verplaatst (voor ons is dit `customer_address`) en de `Foreign Key` kolom, of `state` in het voorbeeld.
-   * Op de `One` zijde, selecteer `mapping` en de `Primary key` kolom. In dit geval selecteert u de optie `state_input` uit de `mapping_state` tabel.
+   * Op de `One` zijde, selecteer `mapping` en de `Primary key` kolom. In dit geval selecteert u de optie `state_input` kolom van de `mapping_state` tabel.
    * Hier is een blik op wat de weg als kijkt:
 
      ![](../../assets/State_Mapping_Path.png)

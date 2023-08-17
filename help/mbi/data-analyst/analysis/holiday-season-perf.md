@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Voor uw bedrijf, zouden de vakanties één van de drukste tijden van het jaar kunnen zijn. Voor detailhandelaren met een grote Amerikaanse klantenbasis beslaat het vakantieseizoen gewoonlijk de maanden tussen Thanksgiving en het Nieuwjaar.
 
-De ruiten kunnen op elk moment van het jaar worden ervaren; als uw bedrijf bijvoorbeeld korte of poolbenodigdheden verkoopt , kan het zijn dat u tijdens de zomer een haast hebt . In dit onderwerp worden analyses besproken die u helpen uw hoge seizoenen over verschillende jaren te vergelijken.
+De ruiten kunnen op om het even welk punt tijdens het jaar worden ervaren; bijvoorbeeld, als uw zaken korte of pool leveranties verkoopt, zou u een spruw tijdens de zomer kunnen ervaren. In dit onderwerp worden analyses besproken die u helpen uw hoge seizoenen over verschillende jaren te vergelijken.
 
 ## Aanbevolen meetwaarden
 
@@ -29,13 +29,13 @@ Om u te helpen begrijpen hoe het groeipatroon van dit jaar zich verhoudt tot voo
 
 Deze maatregel toont de algemene gemiddelde ordewaarde tijdens uw vakantieseizoenen.
 
-## Voorbeeld: Inkomsten dagvakantieseizoen
+## Voorbeeld: Dagelijkse inkomsten uit vakantieseizoen
 
 Nu u weet welke metriek moet worden geanalyseerd, bekijkt u sommige gegevens van steekproefopbrengst tijdens de maanden van het vakantieseizoen van november en December voor zowel 2014 als 2015.
 
 ![Ontvangsten per feestdag voor 2014 en 2015](../../assets/Analyzing_holiday_season.png)
 
-In dit voorbeeld zijn er twee grote inkomstenspikes voor 2014 en 2015: deze stijgingen vallen samen met Black Vrijdag en Cyber Maandag. Let op: de pieken zijn niet op dezelfde dag voor 2014 en 2015. De reden hiervoor is dat de zwarte vrijdag op 27 november voor 2014 en 28 november voor 2015 is gevallen. Op dezelfde manier was Cyber maandag 30 november voor 2014 en 1 december voor 2015.
+In dit voorbeeld zijn er twee grote inkomstenspikes voor 2014 en 2015: deze stijgingen vallen samen met Zwarte Vrijdag en Cyber Maandag. Let op: de pieken zijn niet op dezelfde dag voor 2014 en 2015. De reden hiervoor is dat de zwarte vrijdag op 27 november voor 2014 en 28 november voor 2015 is gevallen. Op dezelfde manier was Cyber maandag 30 november voor 2014 en 1 december voor 2015.
 
 Bovendien zijn de inkomsten voor 2015 op 19 december sterk gestegen, wat in 2014 niet het geval is. Het is mogelijk dat een verkoop werd aangeboden op deze zaterdag die het voorgaande jaar niet beschikbaar was.
 

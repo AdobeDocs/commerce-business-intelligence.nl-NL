@@ -49,7 +49,7 @@ Gebruikersmachtigingen kunnen op twee manieren worden gewijzigd: voor alle gebru
 
 1. *Om de toestemmingen van alle gebruikers te veranderen,* het vervolgkeuzemenu gebruiken naast het dialoogvenster `Set all users' permissions to…` label.
 
-1. *Om de machtigingen van een individuele gebruiker te wijzigen,* Gebruik het vervolgkeuzemenu naast de naam van de gebruiker om het gewenste toegangsniveau in te stellen.
+1. *De machtigingen van een individuele gebruiker wijzigen* Gebruik het vervolgkeuzemenu naast de naam van de gebruiker om het gewenste toegangsniveau in te stellen.
 
 ## Het standaarddashboard wijzigen {#default}
 
@@ -57,7 +57,7 @@ Zo wijzigt u het standaarddashboard voor de account:
 
 1. Klik op de naam van het dashboard dat u als standaard wilt gebruiken.
 
-1. Klikken **[!UICONTROL Make Default]**.
+1. Klik op **[!UICONTROL Make Default]**.
 
 ## Dashboards verwijderen {#delete}
 
@@ -65,4 +65,4 @@ Een dashboard verwijderen:
 
 1. Klik op de naam van het dashboard dat u wilt verwijderen.
 
-1. Klikken **[!UICONTROL Delete Dashboard]**.
+1. Klik op **[!UICONTROL Delete Dashboard]**.

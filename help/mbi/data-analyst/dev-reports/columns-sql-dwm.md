@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Verschillen tussen [!DNL SQL] en [!DNL Data Warehouse Manager]
 
-Er zijn twee belangrijke verschillen tussen kolommen die zijn gemaakt in het dialoogvenster [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) en die zijn gemaakt met de [[!DNL Data Warehouse Manager]](../data-warehouse-mgr/creating-calculated-columns.md). De ene is afhankelijk van updatecycli en de andere is hoe kolommen worden opgeslagen in uw account.
+Er zijn twee belangrijke verschillen tussen kolommen die zijn gemaakt in het dialoogvenster [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) en de methoden die zijn gemaakt met de [[!DNL Data Warehouse Manager]](../data-warehouse-mgr/creating-calculated-columns.md). De ene is afhankelijk van updatecycli en de andere is hoe kolommen worden opgeslagen in uw account.
 
-## Kolommen in de [!DNL SQL Report Builder]
+## Kolommen in het dialoogvenster [!DNL SQL Report Builder]
 
 Kolommen zijn niet afhankelijk van updatecycli. U hoeft dus niet langer te wachten tot de kolommen zijn voltooid voordat u de kolom kunt doorlopen. Als u een fout maakt, hebt u slechts enkele toetsaanslagen nodig om deze te corrigeren. Er wordt niet meer gewacht tot twee updates zijn voltooid voordat u weer aan de slag kunt.
 

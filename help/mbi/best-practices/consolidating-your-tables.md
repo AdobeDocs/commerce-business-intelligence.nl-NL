@@ -17,7 +17,7 @@ Als u veelvoudige opslagfronten of op veelvoudige markten in werking stelt, kunt
 
 U hebt bijvoorbeeld een `orders` tabel voor `Market A`en een soortgelijke `orders` tabel voor `Market B`. [!DNL Commerce Intelligence] U kunt beide tabellen samenvoegen en u kunt de gegevens van de samengestelde volgorde bekijken vanuit beide `Market A` en `B`, naast segmentering door specifieke markt.
 
-Voor consolidatie van tabellen is het nodig dat invoertabellen **op vergelijkbare wijze gestructureerd**. Met andere woorden, alle inputlijsten moeten de gegevenskolommen bevatten die in de geconsolideerde lijst worden vereist.
+Voor de consolidatie van tabellen die moeten werken, moeten invoertabellen **op vergelijkbare wijze gestructureerd**. Met andere woorden, alle inputlijsten moeten de gegevenskolommen bevatten die in de geconsolideerde lijst worden vereist.
 
 In dit onderwerp worden enkele van de meest gebruikte gevallen voor geconsolideerde tabellen en de volgende stappen voor het maken van uw eigen tabellen besproken.
 
@@ -37,7 +37,7 @@ Vele bedrijven hebben hun gegevensbestanden in één keer of een andere refactor
 
 ### Gebeurtenissen combineren voor actieve gebruikersanalyse
 
-Stel je een website voor waar gebruikers verschillende dingen kunnen doen: neem een enquête, speel een spel, koop een aankoop, raadpleeg een vriend enzovoort. Meestal wordt elk van deze gebeurtenissen in een eigen tabel opgeslagen. Dit maakt het moeilijk om te analyseren hoeveel afzonderlijke gebruikers in een bepaalde periode ten minste één actie van welke aard dan ook hebben ondernomen.
+Stel je een website voor waar gebruikers verschillende dingen kunnen doen: een enquête houden, een spel spelen, een aankoop doen, een vriend doorverwijzen enzovoort. Meestal wordt elk van deze gebeurtenissen in een eigen tabel opgeslagen. Dit maakt het moeilijk om te analyseren hoeveel afzonderlijke gebruikers in een bepaalde periode ten minste één actie van welke aard dan ook hebben ondernomen.
 
 U kunt geconsolideerde tabellen gebruiken om één uniforme lijst van alle gebruikers te maken en wanneer een van deze gebeurtenissen heeft plaatsgevonden. U kunt dan vragen op de geconsolideerde lijst in werking stellen om zulk een analyse gemakkelijk te leiden.
 

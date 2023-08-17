@@ -40,16 +40,16 @@ Aan de slag.
 
    ![](../../../assets/create-mbi-mysql-user-cpanel.png)
 
-1. Klikken **[!UICONTROL Create User]**.
+1. Klik op **[!UICONTROL Create User]**.
 1. Nu u de gebruiker hebt gecreeerd, moet u het aan een gegevensbestand associëren. Ga terug naar de `Add New User` sectie - zie de montages voor `Add User to Database?` Dat is wat u nodig hebt.
 1. In de `User` Selecteer de gebruiker die u hebt gemaakt in het vervolgkeuzemenu van deze sectie.
 1. In de `Database` vervolgkeuzelijst van deze sectie, selecteer de database waarmee u verbinding wilt maken [!DNL Commerce Intelligence].
-1. Klikken **[!UICONTROL Add]**.
+1. Klik op **[!UICONTROL Add]**.
 1. Schakel het selectievakje naast `SELECT` - dit alles [!DNL Commerce Intelligence] moet verbinding maken met uw database.
 
 ## De verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence] {#finish}
 
-Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de [!DNL MySQL] aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Manage Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en de [!DNL MySQL] pictogram.
+Als u de inhoud wilt samenvoegen, moet u de verbinding en gebruikersgegevens invoeren in [!DNL Commerce Intelligence]. Heb je de [!DNL MySQL] aanmeldingspagina geopend? Indien niet, ga naar **[!UICONTROL Manage Data** > **Connections]** en klik op **[!UICONTROL Add New Data Source]** en vervolgens de [!DNL MySQL] pictogram.
 
 Voer de volgende gegevens in op deze pagina in het dialoogvenster `Database Connection` sectie:
 
@@ -62,10 +62,10 @@ Als u een [`SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md), moet u de ver
 
 * `Connection Type`: Stel deze in op `SSH Tunnel`
 * `Remote Address`: Het IP-adres of de hostnaam van de server [!DNL Commerce Intelligence] wordt
-* `Username`: De gebruikersnaam voor de [!DNL Commerce Intelligence] `SSH (Linux)` gebruiker, zie [instructies](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) over hoe dit moet gebeuren, als u dat nog niet hebt gedaan)
+* `Username`: De gebruikersnaam voor de [!DNL Commerce Intelligence] `SSH (Linux)` gebruiker, zie [instructies](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) over hoe dit te doen, als u nog niet hebt)
 * `SSH Port`: SSH-poort op uw server (`22` standaard)
 
-Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
+Klik op **[!UICONTROL Save & Test]** om de installatie te voltooien.
 
 ## Verwante:
 

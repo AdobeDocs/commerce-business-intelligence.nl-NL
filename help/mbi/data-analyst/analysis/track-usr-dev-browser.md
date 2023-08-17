@@ -1,5 +1,5 @@
 ---
-title: Google Analytics - Gebruikersapparaat en browsergegevens bijhouden in uw database
+title: Googles Analytics - Gebruikersapparaat en browsergegevens bijhouden in uw database
 description: Leer hoeveel gebruikers zich daadwerkelijk aanmelden via mobiele apparaten en hoe dat de levensduurwaarde van deze gebruikers beïnvloedt.
 exl-id: 57b1bc45-b139-4370-86ea-2fbd021aa14d
 role: Admin, User
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Google Analytics] Tekstspatiëring
 
-Met [!UICONTROL Google Analytics] u [bron-informatie opslaan](../analysis/google-track-user-acq.md) om te begrijpen waar uw meest waardevolle gebruikers vandaan komen. Dit onderwerp bespreekt het platform (bijvoorbeeld, apparaat of browser) uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
+Met [!UICONTROL Google Analytics] u kunt [bron-informatie opslaan](../analysis/google-track-user-acq.md) om te begrijpen waar uw meest waardevolle gebruikers vandaan komen. Dit onderwerp bespreekt het platform (bijvoorbeeld, apparaat of browser) uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
 
 ## Gebruikersapparaat en browsergegevens opslaan
 
@@ -41,11 +41,11 @@ Deze gegevens zijn voor elke server toegankelijk wanneer een aanvraag wordt inge
 
 Er zijn een aantal bibliotheken om u te helpen parseren `User-Agent` in componenten zoals besturingssysteem, apparaat, enzovoort. Zie de [ua-parser-project](https://github.com/tobie/ua-parser) voor meer informatie.
 
-Met deze nieuwe informatie kunt u beter begrijpen hoe gebruikers toegang krijgen tot uw site. Vervolgens kunt u hun ervaring aanpassen of marketingcampagnes voor bepaalde groepen maken.
+Met deze nieuwe informatie kunt u beter begrijpen hoe gebruikers toegang krijgen tot uw site. Vervolgens kunt u hun ervaring op maat maken of marketingcampagnes voor bepaalde groepen maken.
 
 ## Verwante
 
-* [Referentiebron voor bestelling volgen via [!DNL Google Anaytics] E-commerce](../importing-data/integrations/google-ecommerce.md)
+* [Referentiebron voor bestelling volgen via [!DNL Google Anaytics] Elektronische handel](../importing-data/integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../analysis/google-track-user-acq.md)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../analysis/most-value-source-channel.md)
 * [Verbind uw [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)

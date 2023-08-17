@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # quote_item, tabel
 
-De `quote_item` tabel (`sales_flat_quote_item` op M1) bevat gegevens over elk artikel dat aan een winkelwagentje is toegevoegd, ongeacht of het winkelwagentje is verlaten of in een aankoop is omgezet. Elke rij staat voor één winkelwagentje. Vanwege de mogelijke grootte van deze tabel, raadt Adobe u aan om regelmatig records te verwijderen als aan bepaalde criteria wordt voldaan, bijvoorbeeld als er niet-omgezette winkelwagentjes ouder zijn dan 60 dagen.
+De `quote_item` tabel (`sales_flat_quote_item` op M1) bevat gegevens over elk artikel dat aan een winkelwagentje is toegevoegd, ongeacht of het winkelwagentje is verlaten of in een aankoop is omgezet. Elke rij staat voor één winkelwagentje. Vanwege de mogelijke grootte van deze tabel, raadt de Adobe u regelmatig aan om records te verwijderen als aan bepaalde criteria wordt voldaan, bijvoorbeeld als er niet-omgezette winkelwagentjes zijn die ouder zijn dan 60 dagen.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ De `quote_item` tabel (`sales_flat_quote_item` op M1) bevat gegevens over elk a
 | `name` | Tekstnaam van het orderitem |
 | `parent_item_id` | `Foreign key` die een eenvoudig product met zijn ouderbundel of configureerbaar product verbindt. Verbinden met `quote_item.item_id` om de kenmerken van het bovenliggende product te bepalen die aan het eenvoudige product zijn gekoppeld. Voor bovenliggende winkelwagentjes (d.w.z. bundel- of configureerbare producttypen): `parent_item_id` is `NULL` |
 | `product_id` | `Foreign key` in verband met de `catalog_product_entity` tabel. Verbinden met `catalog_product_entity.entity_id` om productkenmerken te bepalen die aan het orderitem zijn gekoppeld |
-| `product_type` | Type product dat aan het karretje is toegevoegd. Potentieel [productsoorten](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) omvatten: eenvoudig, configureerbaar, gegroepeerd, virtueel, bundel en downloadbaar |
+| `product_type` | Type product dat aan het karretje is toegevoegd. Potentieel [productsoorten](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) include: eenvoudig, configureerbaar, gegroepeerd, virtueel, bundel en downloadbaar |
 | `qty` | Hoeveelheid eenheden in het winkelwagentje voor het desbetreffende winkelwagentje |
 | `quote_id` | `Foreign key` in verband met de `quote` tabel. Verbinden met `quote.entity_id` om de kenmerken van het winkelwagentje te bepalen |
 | `sku` | Unieke identificatiecode voor het winkelwagentje |
@@ -41,7 +41,7 @@ De `quote_item` tabel (`sales_flat_quote_item` op M1) bevat gegevens over elk a
 
 | **Kolomnaam** | **Beschrijving** |
 |---|---|
-| `Cart creation date` | Tijdstempel die is gekoppeld aan de aanmaakdatum van het winkelwagentje. Berekend door verbinding `quote_item.quote_id` tot `quote.entity_id` en de `created_at` tijdstempel |
+| `Cart creation date` | Tijdstempel die is gekoppeld aan de aanmaakdatum van de wagen. Berekend door verbinding `quote_item.quote_id` tot `quote.entity_id` en de `created_at` tijdstempel |
 | `Cart is active? (1/0)` | Een Booleaans veld dat &quot;1&quot; retourneert als het winkelwagentje door een klant is gemaakt en nog niet is omgezet in een bestelling. Retourneert &quot;0&quot; voor omgezette winkelwagentjes of winkelwagentjes die via de beheerder zijn gemaakt. Berekend door verbinding `quote_item.quote_id` tot `quote.entity_id` en de `is_active` field |
 | `Cart item total value (qty * base_price)` | Totale waarde van een artikel op het moment dat het item aan een winkelwagentje werd toegevoegd, na [catalogusprijsregels, gedifferentieerde kortingen en speciale prijzen](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) worden toegepast en voordat eventuele belastingen, verzendkosten of winkelkortingen worden toegepast. Berekend door vermenigvuldigen van `qty` door de `base_price` |
 | `Seconds since cart creation` | Verlopen tijd tussen de aanmaakdatum van de wagen en nu. Berekend door verbinding `quote_item.quote_id` tot `quote.entity_id` en de `Seconds since cart creation` field |
@@ -58,7 +58,7 @@ De `quote_item` tabel (`sales_flat_quote_item` op M1) bevat gegevens over elk a
 
 {style="table-layout:auto"}
 
-## Vreemde sleutelpaden verbinden
+## Vreemde sleutel die Wegen verbindt
 
 `catalog_product_entity`
 

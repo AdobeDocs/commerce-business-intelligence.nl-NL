@@ -17,7 +17,7 @@ Om een volledig beeld te krijgen van uw campagnepogingen, kunt u uw invoeren [!D
 
 ## Gegevens voor openen exporteren {#opens}
 
-1. Nadat u zich hebt aangemeld [!DNL Mailchimp], ga naar de `Campaigns` tab.
+1. Na aanmelden [!DNL Mailchimp], ga naar de `Campaigns` tab.
 
    ![import mailchimp 1](../../../assets/import-mailchimp-1.png)
 

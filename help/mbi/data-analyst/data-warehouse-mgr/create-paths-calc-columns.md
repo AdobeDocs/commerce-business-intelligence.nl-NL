@@ -1,6 +1,6 @@
 ---
 title: Paden voor berekende kolommen maken of verwijderen
-description: Leer hoe u een pad definieert waarin wordt beschreven hoe de tabel waarop u een kolom maakt, verwant is aan de tabel waaruit u gegevens aan het ophalen bent.
+description: Leer hoe u een pad definieert waarin wordt beschreven hoe de tabel waarin u een kolom maakt, verwant is aan de tabel waaruit u gegevens aan het ophalen bent.
 exl-id: 734a8046-8058-4f03-93a2-8d59b9be6d2d
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager
@@ -33,8 +33,8 @@ Tabellen kunnen op drie manieren met elkaar worden verbonden:
 | **`Relationship Type`** | **`Example`** |
 |-----|-----|
 | **`one-to-one`** | De relatie tussen personen en rijbewijsnummers. Een persoon kan slechts één rijbewijsnummer hebben en een rijbewijsnummer behoort slechts tot één persoon. |
-| **`one-to-many`** | De relatie tussen bestellingen en items - een bestelling kan veel items bevatten, maar een item behoort tot één bestelling. In dit geval is de tabel met bestellingen de ene zijde en is de tabel met items de vele zijden. |
-| **`many-to-many`** | De relatie tussen producten en categorieën: een product kan tot veel categorieën behoren en een categorie kan veel producten bevatten . |
+| **`one-to-many`** | De relatie tussen orders en items - een order kan veel items bevatten, maar een item behoort tot één bestelling. In dit geval is de tabel met bestellingen de ene zijde en is de tabel met items de vele zijden. |
+| **`many-to-many`** | Het verband tussen producten en categorieën: een product kan tot vele categorieën behoren, en een categorie kan vele producten bevatten. |
 
 {style="table-layout:auto"}
 
@@ -44,7 +44,7 @@ Wanneer een verband tussen twee lijsten wordt begrepen, kan het worden gebruikt 
 
 A `Primary Key` is een onveranderlijke kolom of een reeks kolommen die unieke waarden binnen een lijst veroorzaakt. Wanneer een klant bijvoorbeeld een bestelling maakt op een website, wordt een nieuwe rij toegevoegd aan de `orders` tafel in uw winkelwagentje, met een nieuwe `order_id`. Dit `order_id` staat zowel de klant als de zaken toe om de vooruitgang van die specifieke orde te volgen. Omdat volgorde-id uniek is, is dit doorgaans de `Primary Key` van een `orders` tabel.
 
-A `Foreign Key` is een kolom die binnen een lijst wordt gecreeerd die met verbindt `Primary Key` kolom van een andere tabel. Met Buitenlandse sleutels worden verwijzingen tussen tabellen gemaakt, zodat analisten records gemakkelijk kunnen opzoeken en koppelen. Zeg u wilde weten welke orden tot elk van uw klanten behoorden. De `customer id` kolom (`Primary Key` van de `customers` de `order_id` kolom (`Foreign Key` in de `customers` tabel, verwijzen naar de `Primary Key` van de `orders` tabel ) stelt ons in staat deze informatie te koppelen en te analyseren . Wanneer u een pad maakt, wordt u gevraagd om beide `Primary Key` en `Foreign Key`.
+A `Foreign Key` is een kolom die binnen een lijst wordt gecreeerd die met verbindt `Primary Key` kolom van een andere tabel. Met Buitenlandse sleutels worden verwijzingen tussen tabellen gemaakt, zodat analisten records gemakkelijk kunnen opzoeken en koppelen. Zeg u wilde weten welke orden tot elk van uw klanten behoorden. De `customer id` kolom (`Primary Key` van de `customers` en de `order_id` kolom (`Foreign Key` in de `customers` tabel, verwijzen naar de `Primary Key` van de `orders` tabel ) stelt ons in staat deze informatie te koppelen en te analyseren . Wanneer u een pad maakt, wordt u gevraagd om beide `Primary Key` en `Foreign Key`.
 
 ## Een pad maken {#createpath}
 
@@ -52,18 +52,18 @@ Wanneer u een kolom in de Data Warehouse maakt, moet u het pad definiëren dat i
 
 De relatie gebruiken tussen **klanten** en **orders** om u te tonen hoe het wordt gedaan. Omlaag gebroken:
 
-* De relatie is `one-to-many` - een klant kan vele bestellingen hebben, maar een bestelling kan slechts één klant hebben. Dit vertelt ons de richting van de verhouding, of waar de berekende kolom zou moeten worden gecreeerd. In dit geval betekent het informatie van de `orders` de tabel kan in `customers` tabel.
+* De relatie is `one-to-many` - een klant kan vele bestellingen hebben, maar een bestelling kan slechts één klant hebben. Dit vertelt ons de richting van de verhouding, of waar de berekende kolom zou moeten worden gecreeerd. In dit geval betekent het informatie van de `orders` de tabel kan in de `customers` tabel.
 * De `primary key` u wilt gebruiken is `customers.customerid`of de `customer ID` in de `customers` tabel.
 * De `foreign key` u wilt gebruiken is `orders.customerid`of de `customer ID` in de `orders` tabel.
 
 U kunt nu het pad maken.
 
-1. Klikken **[!UICONTROL Data > Data Warehouse]**.
-1. Klik in de tabellijst op de tabel waarin u de kolom wilt maken. In dit voorbeeld is het `customers` tabel.
-1. Het tabelschema wordt weergegeven. Klikken **[!UICONTROL Create New Column]**.
+1. Klik op **[!UICONTROL Data > Data Warehouse]**.
+1. Klik in de tabellijst op de tabel waarin u de kolom wilt maken. In dit voorbeeld is het de `customers` tabel.
+1. Het tabelschema wordt weergegeven. Klik op **[!UICONTROL Create New Column]**.
 1. Geef uw kolom bijvoorbeeld een naam, `Customer's orders`.
 1. Selecteer de definitie voor de kolom. Kijk uit de [Berekende kolomhulplijn](../data-warehouse-mgr/creating-calculated-columns.md) voor een handig bedriegblad.
-1. In de [!UICONTROL Select table and column] vervolgkeuzelijst, klikt u op de knop **[!UICONTROL Create new path]** optie.
+1. In de [!UICONTROL Select table and column] klikt u op de knop **[!UICONTROL Create new path]** -optie.
 
    ![Paden maken voor de modale berekende kolommen](../../assets/Creating_Paths_modal.png)
 
@@ -89,7 +89,7 @@ Als u geen berekende kolom kunt maken vanwege een of meer van de bovenstaande be
 
 ## Een berekend kolompad verwijderen {#delete}
 
-Een onjuist pad in de Data Warehouse gemaakt? Of misschien doe je een beetje lentesreiniging en wil je opruimen? Als u een pad van uw account moet verwijderen, kunt u [stuur een kaartje naar Adobe-ondersteuningsanalisten](../../guide-overview.md#Submitting-a-Support-Ticket). **Zorg ervoor dat u de naam van het pad opneemt!**
+Een onjuist pad in de Data Warehouse gemaakt? Of misschien doe je een beetje lentesreiniging en wil je opruimen? Als u een pad van uw account moet verwijderen, kunt u [stuur een kaartje naar de analisten van de steun van de Adobe](../../guide-overview.md#Submitting-a-Support-Ticket). **Zorg ervoor dat u de naam van het pad opneemt!**
 
 ## Omloop {#wrapup}
 

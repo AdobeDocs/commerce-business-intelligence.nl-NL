@@ -21,7 +21,7 @@ De `Modified At` de methode, die de meest ideale replicatiemethode is, gebruikt 
 
 Als uw tabel geen `datetime` kolom, kunt u een index toevoegen `modified at` kolom. Null-waarden zijn niet toegestaan in een `modified at` kolom. Controleer of de kolom voor elke rij is gevuld.
 
-Om ervoor te zorgen dat `Modified At` de methode werkt zoals bedoeld, kunt u geen rijen uit de tabel verwijderen. In plaats daarvan moet u de rij als ongeldig markeren door een `deleted` aan de tabel. Deze kolom retourneert een `1` als de rij ongeldig is en `0` anders. U kunt deze kolom dan gebruiken om ongeldige rijen uit te filteren wanneer u metriek en rapporten bouwt.
+Om de `Modified At` de methode werkt zoals bedoeld, kunt u geen rijen uit de tabel verwijderen. In plaats daarvan moet u de rij als ongeldig markeren door een `deleted` aan de tabel. Deze kolom retourneert een `1` als de rij ongeldig is en `0` anders. U kunt deze kolom dan gebruiken om ongeldige rijen uit te filteren wanneer u metriek en rapporten bouwt.
 
 ## Wijzigingen voor de enkelvoudige sneltoets
 

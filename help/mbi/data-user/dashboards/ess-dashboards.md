@@ -21,7 +21,7 @@ Het is gemakkelijk om een rapport te creëren, het aan een dashboard toe te voeg
 
 ## Dashboards maken {#createdash}
 
-Dashboards zijn scherpe, op thema&#39;s gebaseerde emmers voor de analyses u in de Report Builder creeert. Op deze manier kunt u uw team aanmoedigen om samen te werken en één bron van waarheid in uw organisatie te onderhouden.
+Dashboards zijn scherpe, op thema&#39;s gebaseerde emmers voor de analyses u in de Reporten Builder creeert. Op deze manier kunt u uw team aanmoedigen om samen te werken en één bron van waarheid in uw organisatie te onderhouden.
 
 *Als u een beheerder of een standaardgebruiker bent*, kunt u een dashboard maken door op de knop `Dashboard Options` vervolgkeuzelijst en kiezen `Create New dashboard`.
 
@@ -37,15 +37,15 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
    ![Dashboard maken](../../assets/magento-bi-dashboard-create.png)
 
-1. Klikken **[!UICONTROL Create Dashboard]**. Voer vervolgens de volgende handelingen uit:
+1. Klik op **[!UICONTROL Create Dashboard]**. Voer vervolgens de volgende handelingen uit:
 
    * Voer een `Name` voor uw dashboard.
 
-   * Als u een `Group` Voer voor het dashboard de naam van de groep in.
+   * Een `Group` Voer voor het dashboard de naam van de groep in.
 
      Bijvoorbeeld, als uw installatie van de Handel veelvoudige opslagmeningen heeft, zou u een Groep voor elke archiefmening kunnen creëren.
 
-   * Klikken **[!UICONTROL Create]**.
+   * Klik op **[!UICONTROL Create]**.
 
    ![naam dashboard](../../assets/magento-bi-dashboard-create-name.png)
 
@@ -55,7 +55,7 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
 1. Voer een van de volgende handelingen uit om een rapport toe te voegen:
 
-   * Klik op de knop **[!UICONTROL Add a report]** verschijnt op de pagina.
+   * Klik op de knop **[!UICONTROL Add a report]** verschijnt.
 
    * Klik in de dashboardkoptekst op **[!UICONTROL Add Report]**.
 
@@ -77,7 +77,7 @@ In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren
 
 ### Uw dashboards delen {#sharingdash}
 
-Omhoog schalen [!DNL Commerce Intelligence] gedurende uw hele organisatie en voor waardevolle inzichten raadt Adobe u aan dashboards te delen die u maakt met andere teamleden. *U kunt dashboards delen u bezit* door op de knop `Share Dashboard` boven aan de pagina.
+Omzetten in werkelijke schaal [!DNL Commerce Intelligence] gedurende uw hele organisatie en voor waardevolle inzichten moedigt de Adobe u aan dashboards te delen die u met andere teamleden maakt. *U kunt dashboards delen u bezit* door op de knop `Share Dashboard` boven aan de pagina.
 
 Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op een individuele basis toewijzen, betekenend kunt u beslissen wie uw rapporten kan bekijken en uitgeven.
 
@@ -109,7 +109,7 @@ Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op ee
       * `Edit`
       * `None`
 
-   1. Klik op **[!UICONTROL OK]** om het machtigingsniveau voor elke gebruiker bij te werken.
+   1. Klik wanneer u om bevestiging wordt gevraagd op **[!UICONTROL OK]** om het machtigingsniveau voor elke gebruiker bij te werken.
 
    1. Als u het machtigingsniveau van een individu wilt wijzigen, zoekt u de gebruiker in de lijst naar een ander machtigingsniveau. De wijziging wordt automatisch opgeslagen.
 
@@ -119,4 +119,4 @@ Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op ee
 
    **`Remove`**
 
-   1. Als u het dashboard wilt verwijderen, klikt u op **[!UICONTROL Delete Dashboard]**.
+   1. Klik op **[!UICONTROL Delete Dashboard]**.

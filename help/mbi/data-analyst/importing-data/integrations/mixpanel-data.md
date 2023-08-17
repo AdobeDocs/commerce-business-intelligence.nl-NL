@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Verwacht [!DNL Mixpanel] data
 
-Na [u hebt verbinding gemaakt met uw [!DNL Mixpanel] account](../integrations/mixpanel.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
+Na [u hebt verbinding gemaakt met [!DNL Mixpanel] account](../integrations/mixpanel.md), kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
-Dit onderwerp verkent de belangrijkste gegevenslijsten die u van kunt invoeren [!DNL Mixpanel] in uw [!DNL Commerce Intelligence] account. De volgende tabellen worden na verbinding met de Data Warehouse gemaakt [!DNL Mixpanel]. Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen in de kolom Tabelnaam.
+Dit onderwerp verkent de belangrijkste gegevenslijsten die u van kunt invoeren [!DNL Mixpanel] in uw [!DNL Commerce Intelligence] account. De volgende tabellen worden in uw Data Warehouse gemaakt nadat u verbinding hebt gemaakt [!DNL Mixpanel]. Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen in de kolom Tabelnaam.
 
 >[!NOTE]
 >
->Vanwege de beperkingen van de [!DNL Mixpanel] API, historische gegevens - gegevens ouder dan zeven (7) dagen vanaf de datum van verbinding aan [!DNL Commerce Intelligence] - niet wordt gerepliceerd.
+>Vanwege de beperkingen van de [!DNL Mixpanel] API, historische gegevens - gegevens ouder dan zeven (7) dagen vanaf de datum van verbinding aan [!DNL Commerce Intelligence] - niet wordt herhaald.
 
 | **Tabelnaam** | **Beschrijving** |
 |-----|-----|

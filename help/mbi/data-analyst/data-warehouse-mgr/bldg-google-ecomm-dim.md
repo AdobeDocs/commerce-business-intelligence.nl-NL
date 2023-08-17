@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Opbouwen [!DNL Google ECommerce] Dimension
+# Opbouwen [!DNL Google ECommerce] Dimensionen
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Met de vermelde afmetingen kunt u analyses maken die [belangrijke vragen beantwo
 
 ## Voorwaarden en overzicht
 
-Als u de afmetingen in dit onderwerp wilt maken, hebt u een [!DNL Google ECommerce] tabel `orders` en een `customers` tabel. Deze tabellen moeten [gesynchroniseerd met uw Data Warehouse](../../data-analyst/data-warehouse-mgr/tour-dwm.md) voordat de afmetingen kunnen worden opgebouwd. Tabellen die worden gesynchroniseerd, worden weergegeven in het dialoogvenster `Synced Tables` van de `Data Warehouse Manager`.
+Als u de afmetingen in dit onderwerp wilt maken, hebt u een [!DNL Google ECommerce] tabel, en `orders` en een `customers` tabel. Deze tabellen moeten [gesynchroniseerd met uw Data Warehouse](../../data-analyst/data-warehouse-mgr/tour-dwm.md) voordat de afmetingen kunnen worden opgebouwd. Tabellen die worden gesynchroniseerd, worden weergegeven in het dialoogvenster `Synced Tables` van de `Data Warehouse Manager`.
 
 Hier volgt een snelle blik bij het synchroniseren van lijsten en kolommen als u een verfrisser nodig hebt:
 
@@ -57,18 +57,18 @@ Als u dimensies wilt maken, opent u het dialoogvenster [Data Warehouse Manager](
 In dit voorbeeld wordt het **Bestelling [!DNL Google Analytics] Bron** dimensie.
 
 1. Klik in de lijst met tabellen in de Data Warehouse op de tabel (in dit geval `orders`) die uw bestelgegevens bevat.
-1. Klikken **[!UICONTROL Create a Column]**.
+1. Klik op **[!UICONTROL Create a Column]**.
 1. Geef de kolom een naam.
 1. Selecteren `Joined Column` van de [vervolgkeuzelijst voor definities](../data-warehouse-mgr/calc-column-types.md). Dit voorbeeld werkt met een [één-op-één relatie](../data-warehouse-mgr/table-relationships.md), overeenkomstig de `eCommerce.transactionID` kolom naar exact één rij van de `orders` tabel.
 1. Vervolgens moet u het pad definiëren, of de manier waarop de tabel en kolom worden verbonden. Klik op de knop `Select a table and column` vervolgkeuzelijst.
-1. Het pad dat u nodig hebt, is niet beschikbaar. U moet dus een nieuw pad maken. Klikken **[!UICONTROL Create new Path]**.
+1. Het pad dat u nodig hebt, is niet beschikbaar. U moet dus een nieuw pad maken. Klik op **[!UICONTROL Create new Path]**.
 1. In het venster dat wordt weergegeven, stelt u de `Many` zijde naar `orders.order\_id`of de kolom in de `orders` tabel die de volgorde-id bevat.
-1. Op de `One` zijde, zoek de `Google ECommerce` tabel, en stel vervolgens de kolom in op `transactionID`.
+1. Op de `One` zijde, zoek de `Google ECommerce` tabel, dan de kolom instellen op `transactionID`.
 
    ![](../../assets/google-ecommerce-table.png)
 
 1. Klikken **[!UICONTROL Save]** om het pad te maken.
-1. Nadat het pad is toegevoegd, klikt u op de knop **[!UICONTROL Select table and column]** weer neerzetten.
+1. Nadat het pad is toegevoegd, klikt u op **[!UICONTROL Select table and column]** weer neerzetten.
 1. Zoek de `ECommerce` en klik vervolgens op de knop `Source` kolom. Hierdoor worden de orders aan de broninformatie gekoppeld.
 1. Als u weer in het tabelschema bent, klikt u op **[!UICONTROL Save]** opnieuw om de dimensie te creëren.
 
@@ -83,14 +83,14 @@ Probeer het daarna opnieuw **Bestelling [!DNL Google Analytics] medium** en `cam
 In dit voorbeeld wordt het **Eerste bestelling van de klant [!DNL Google Analytics] bron** dimensie.
 
 1. Klik in de lijst met tabellen in de Data Warehouse op de tabel (in dit geval `customers`) die uw klantgegevens bevat.
-1. Klikken **[!UICONTROL Create a Column]**.
+1. Klik op **[!UICONTROL Create a Column]**.
 1. Geef de kolom een naam.
 1. Selecteer in dit voorbeeld de optie `is MAX` van de [vervolgkeuzelijst voor definities](../../data-analyst/data-warehouse-mgr/calc-column-types.md). De `is MIN` definitie kan ook werken als deze wordt toegepast op een tekstkolom met slechts één mogelijke waarde. Het belangrijkste onderdeel is ervoor te zorgen dat er juiste filters worden ingesteld, wat u later doet.
 1. Klik op de knop **[!UICONTROL Select a table and column]** vervolgkeuzelijst en selecteert u de `orders` tabel, dan de `Order's [!DNL Google Analytics] source` kolom.
-1. Klikken **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 1. Als u weer in het tabelschema bent, klikt u op de knop `Options` vervolgkeuzelijst, vervolgens `Filters`.
-1. Klikken **[!UICONTROL Add Filter Set]** en selecteer vervolgens de `Orders we count` set. U wilt alleen orders opnemen in de orders die u telt en waarvoor een filterset is ingesteld, zodat het belangrijk is dat deze filterset is geselecteerd.
-1. Klikken **[!UICONTROL Add Filter]**. U wilt de eerste bestelling van de klant vinden [!DNL Google Analytics] bron, dus moet u een filter toevoegen:
+1. Klikken **[!UICONTROL Add Filter Set]** en selecteert u vervolgens de `Orders we count` set. U wilt alleen orders opnemen in de orders die u telt en waarvoor een filterset is ingesteld, zodat het belangrijk is dat deze filterset is geselecteerd.
+1. Klik op **[!UICONTROL Add Filter]**. U wilt de eerste bestelling van de klant vinden [!DNL Google Analytics] bron, dus moet u een filter toevoegen:
 
    _orders.bestelnummer van de klant = 1
 
@@ -99,14 +99,14 @@ In dit voorbeeld wordt het **Eerste bestelling van de klant [!DNL Google Analyti
 
 Probeer het daarna opnieuw **Eerste bestelling van de klant [!DNL Google Analytics] medium** en `campaign`. Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als je vastzit, kun je uitchecken [het einde van dit artikel](#stuck) om te zien wat anders is.
 
-### Bonus: Orders table, round 2
+### Bonus: Orders table, rond 2
 
-U kunt hier stoppen als u wilt, maar deze sectie maakt verdere analyse mogelijk door de **Eerste bestelling van de klant [!DNL Google Analytics] afmetingen** u in [laatste sectie](#customers) in de `orders` tabel. Door de afmetingen in deze sectie te maken, kunt u alle op uw `orders` tabel - `Revenue`, `Number of orders`, `Distinct buyers`, enzovoort, het gebruik van de [!DNL Google Analytics] kenmerken van de eerste bestelling van een klant.
+U kunt hier stoppen als u wilt, maar deze sectie maakt verdere analyse mogelijk door de **Eerste bestelling van de klant [!DNL Google Analytics] afmetingen** u in [laatste sectie](#customers) in de `orders` tabel. Door de afmetingen in deze sectie te maken, kunt u alle op uw `orders` tabel - `Revenue`, `Number of orders`, `Distinct buyers`, enzovoort, de [!DNL Google Analytics] kenmerken van de eerste bestelling van een klant.
 
 In dit voorbeeld wordt de `Customer's first order's [!DNL Google Analytics] source` de `orders` tabel.
 
 1. Klik in de lijst met tabellen in de Data Warehouse op de tabel (in dit geval `orders`) die uw bestelgegevens bevat.
-1. Klikken **[!UICONTROL Create a Column]**.
+1. Klik op **[!UICONTROL Create a Column]**.
 1. Geef de kolom een naam.
 1. Selecteren `Joined Column` in het keuzemenu met definities. Hiermee voegt u de klantdimensies die u in de vorige sectie hebt gemaakt, toe aan de `orders` tabel.
 1. Klik op de knop **[!UICONTROL Select a table and column]** vervolgkeuzelijst, selecteert u vervolgens de `customers` en de `Customer's first order's [!DNL Google Analytics] source` kolom.
@@ -117,18 +117,18 @@ Hier is een blik op het hele proces:
 
 ![](../../assets/help_center2.gif)
 
-Voltooien door deel te nemen aan de `Customer's first order's` medium en `campaign` de `orders` tabel. Sluit zich aan bij de dimensies, en als er problemen zijn, dan controleer uit [het einde van het artikel](#stuck) als u hulp nodig hebt.
+Voltooien door deel te nemen aan de `Customer's first order's` medium en `campaign` de afmetingen van de `orders` tabel. Sluit zich aan bij de dimensies, en als er problemen zijn, dan controleer uit [het einde van het artikel](#stuck) als u hulp nodig hebt.
 
 ### Omloop omhoog
 
 U hebt de afmetingen gemaakt, wat betekent dat u nu krachtige analyses kunt maken die de prestaties van de verschillende kanalen en campagnes volgen. Vergeet niet dat de **nieuwe kolommen zijn pas beschikbaar nadat de volgende update is voltooid**.
 
-Sommige populairdere dimensies komen voor in dit onderwerp, maar de lucht is de grens - probeer zelf te creëren of voel ons vrij om ons te pingelen als u hulp met het onderzoeken van andere opties wilt. 
+Sommige populairdere dimensies worden in dit onderwerp behandeld, maar de lucht is de grens - probeer creërend uw of voel vrij om ons te pingelen als u met het onderzoeken van andere opties wilt helpen. 
 
 ### Aanvullende opmerkingen
 
-**`Orders`tabel #1**: Wanneer u het `Order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 12 zijn geselecteerd. In dit voorbeeld was de kolom `Source`.
+**`Orders`tabel #1**: Als u het dialoogvenster `Order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 12 zijn geselecteerd. In dit voorbeeld was de kolom `Source`.
 
-**`Customers`table**: Wanneer u het `Customer's first order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Order's [!DNL Google Analytics]` bron.
+**`Customers`table**: Als u het dialoogvenster `Customer's first order's [!DNL Google Analytics]` medium en `campaign` Het verschil is de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Order's [!DNL Google Analytics]` bron.
 
-**`Orders`tabel #2**: Wanneer u de `Customer's first order's [!DNL Google Analytics]` medium en `campaign` kolommen naar de `orders` In de tabel is het verschil de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Customer's first order's [!DNL Google Analytics]` bron.
+**`Orders`tabel #2**: Wanneer u het dialoogvenster `Customer's first order's [!DNL Google Analytics]` medium en `campaign` kolommen naar de `orders` In de tabel is het verschil de kolommen die in stap 5 zijn geselecteerd. In dit voorbeeld was de kolom `Customer's first order's [!DNL Google Analytics]` bron.

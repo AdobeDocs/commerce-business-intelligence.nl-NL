@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Filteren in dashboard-breed
 
-Met het filter voor het hele dashboard kunt u bulkbewerkingen uitvoeren van alle rapporten op een specifiek dashboard. U kunt dezelfde analyse snel bekijken over verschillende tijdsperiodes of voor verschillende winkels. U kunt de prestaties van een vorig jaar, maand, of week per opslag gemakkelijk vergelijken. U kunt een volledig dashboard bijwerken om een nieuw gelanceerde campagne aan te passen.
+Met het filter voor het hele dashboard kunt u bulkbewerkingen uitvoeren van alle rapporten op een specifiek dashboard. U kunt dezelfde analyse snel bekijken over verschillende tijdsperiodes of voor verschillende winkels. U kunt de prestaties van een vorig jaar, een maand, of een week per opslag gemakkelijk vergelijken. U kunt een volledig dashboard bijwerken om een nieuw gelanceerde campagne aan te passen.
 
 ## Datumfilters
 
@@ -21,7 +21,7 @@ Als u het datumbereik of interval van rapporten op een dashboard wilt wijzigen, 
 
 U kunt ervoor kiezen om gegevens weer te geven met een `Fixed Date Range` of diverse vooraf berekende `Moving Date Ranges`:
 
-![datumbereiken verplaatsen](../../assets/moving_date_ranges.png)
+![bewegende datumbereiken](../../assets/moving_date_ranges.png)
 
 De `Last Full...` verplaatsingsbereikopties vertegenwoordigen het laatst voltooide bereik, terwijl `This...` Dit is het huidige bereik dat wordt uitgevoerd. Als het bijvoorbeeld juni is, wordt de `Last Full Month` is _1 mei - 31 mei_, terwijl `This Month` is _1 juni - Nu_.
 
@@ -53,4 +53,4 @@ Wanneer u een winkel in het menu `Store Filter`blijft de selectie behouden wanne
 
 ## Filters voor gedeelde dashboards
 
-Voor gedeelde dashboards, als één gebruiker de datumfilter vormt, zien andere gebruikers met toegang tot het dashboard dat de zelfde toegepaste filter. In dit geval is het opslagfilter echter niet van toepassing. Als de eigenaar van het dashboard het opslagfilter configureert en het dashboard deelt, blijft het geconfigureerde opslagfilter niet beschikbaar voor een andere gebruiker. Een gebruiker moet beschikken over [toegang bewerken](../../data-user/dashboards/share-dashboard-with-users.md) naar een dashboard om de dashboardfilters aan te passen.
+Voor gedeelde dashboards, als één gebruiker de datumfilter vormt, zien andere gebruikers met toegang tot het dashboard dat de zelfde toegepaste filter. In dit geval is het opslagfilter echter niet van toepassing. Als de eigenaar van het dashboard het opslagfilter configureert en het dashboard deelt, blijft het geconfigureerde opslagfilter niet beschikbaar voor een andere gebruiker. Een gebruiker moet [toegang bewerken](../../data-user/dashboards/share-dashboard-with-users.md) naar een dashboard om de dashboardfilters aan te passen.

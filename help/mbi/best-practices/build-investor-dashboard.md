@@ -72,7 +72,7 @@ Met de [Verrijkingsdiensten handelsgegevens](https://business.adobe.com/products
 
 * Duidelijk en beknopt gebruiken [naamgevingsconventie](../best-practices/naming-elements.md)
 * Het dashboard delen met beleggers
-* Of verzend het via **[!UICONTROL Automated email summary]**(../data-user/export-data/email-summaries.md)
+* Of verzend het via **[!UICONTROL Automated email summary]**../data-user/export-data/email-summaries.md)
 * Maak slechts één dashboard. Dit maakt de inhoud gemakkelijker te onderhouden en u weet precies wat uw investeerders bekijken.
 
 Bewust uw rapporten en let op details. Na voltooiing ziet het dashboard er ongeveer als volgt uit:

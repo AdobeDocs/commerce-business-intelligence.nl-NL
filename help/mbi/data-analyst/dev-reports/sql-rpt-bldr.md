@@ -1,6 +1,6 @@
 ---
 title: De SQL-Report Builder gebruiken
-description: Leer de in- en uiteinden van het gebruik van de SQL-Report Builder.
+description: Leer de in- en uitgangen van de SQL-Report Builder.
 exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Zie de [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) voor meer informatie.
 
-[!DNL SQL], of Gestructureerde Taal van de Vraag, is een programmeertaal die wordt gebruikt om met gegevensbestanden te communiceren. In [!DNL Commerce Intelligence], [!DNL SQL] wordt gebruikt om, gegevens van uw Data Warehouse te vragen of terug te winnen. Kijk naar de rapporten op je dashboard - achter de schermen wordt elk van hen aangedreven door een [!DNL SQL] query.
+[!DNL SQL], of Structured Query Language, is een programmeertaal die wordt gebruikt om te communiceren met databases. In [!DNL Commerce Intelligence], [!DNL SQL] wordt gebruikt om, gegevens van uw Data Warehouse te vragen of terug te winnen. Kijk naar de rapporten op je dashboard - achter de schermen wordt elk van hen aangedreven door een [!DNL SQL] query.
 
 U kunt de [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) om uw Data Warehouse direct te vragen, bekijk de resultaten, en zet hen in een grafiek om. U kunt een rapport maken met de [!DNL SQL Report Builder] door te klikken **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]**.
 
@@ -27,7 +27,7 @@ Zie de [trainingsvideo](https://experienceleague.adobe.com/docs/commerce-knowled
 
 De [!DNL SQL Report Builder] staat u toe om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een grafiek. Het beste onderdeel over het gebruik [!DNL SQL] om rapporten te bouwen is dat u niet op updatecycli hoeft te wachten om op kolommen te herhalen u creeert. Als de resultaten niet goed lijken, kunt u de vraag snel uitgeven en opnieuw uitvoeren tot de dingen uw verwachtingen aanpassen.
 
-Dit onderwerp loopt u door het gebruiken van [!DNL SQL Report Builder]. Nadat je je weg hebt weten, kun je de [!DNL SQL] voor een zelfstudie over visualisaties of optimaliseer enkele query&#39;s die u hebt geschreven.
+Dit onderwerp bespreekt u gebruikend het [!DNL SQL Report Builder]. Nadat je je weg hebt weten, kun je de [!DNL SQL] voor een zelfstudie over visualisaties of optimaliseer enkele query&#39;s die u hebt geschreven.
 
 Omvat in dit artikel:
 
@@ -59,7 +59,7 @@ Na de [richtlijnen voor queryoptimalisatie](../../best-practices/optimizing-your
 
 >[!IMPORTANT]
 >
->**Metrisch in [!DNL SQL] rapporten** - Wanneer u metrisch in een SQL- rapport opneemt, `current definition` van de metrische waarde wordt gebruikt.
+>**Metrische gegevens in [!DNL SQL] rapporten** - Wanneer u metrisch in een SQL- rapport opneemt, `current definition` van de metrische waarde wordt gebruikt.
 
 Als metrisch in de toekomst wordt bijgewerkt, het SQL- rapport *niet* de wijzigingen weerspiegelen. De wijzigingen worden pas van kracht nadat u het rapport handmatig hebt bewerkt.
 
@@ -71,9 +71,9 @@ U kunt de zijbalk ook gebruiken in het dialoogvenster [!DNL SQL] editor om metri
 
 >[!NOTE]
 >
->Alle [SELECT, functie](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), of elke functie die geen gegevens muteert, die wordt ondersteund door PostgreSQL, wordt ondersteund in de SQL-Report Builder. Dit omvat, maar is niet beperkt tot, AVG, COUNT, COUNT DISTINCT, MIN/MAX en SUM.
+>Alle [SELECT, functie](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), of elke functie die geen gegevens muteert, die wordt ondersteund door PostSQL, wordt ondersteund in de SQL-Report Builder. Dit omvat, maar is niet beperkt tot, AVG, COUNT, COUNT DISTINCT, MIN/MAX en SUM.
 
-Ook alle `JOIN` type wordt ondersteund, maar Adobe raadt u aan alleen BINNER JOIN te gebruiken omdat dit de goedkoopste `JOIN` typen.
+Ook alle `JOIN` type wordt ondersteund, maar de Adobe raadt alleen het gebruik van INNER JOIN aan omdat dit de goedkoopste `JOIN` typen.
 
 ## De query uitvoeren en de resultaten weergeven {#runquery}
 
@@ -93,17 +93,17 @@ Als u een visualisatie wilt maken met uw queryresultaten, klikt u op de knop **[
 
 * De `Series`of de kolom die u wilt meten, zoals **Objecten verkocht**.
 * De `Category`of de kolom die u wilt gebruiken om uw gegevens te segmenteren, zoals **aankoopbron**.
-* De `Labels`, of waarden voor de X-as.
+* De `Labels`, of X-aswaarden.
 
 Hieronder volgt een kort overzicht van hoe het visualisatieproces eruitziet:
 
 ![](../../assets/SQL_RB_viz_overview.gif)
 
-Voor een gedetailleerde doorloop van hoe te om een visualisatie tot stand te brengen, verwijs naar [Visualisaties maken op basis van de zelfstudie SQL-query&#39;s](../../tutorials/create-visuals-from-sql.md){: target=&quot;_blank&quot;}.
+Voor een gedetailleerde doorloop van hoe u een visualisatie maakt, raadpleegt u de [Visualisaties maken op basis van de zelfstudie SQL-query&#39;s](../../tutorials/create-visuals-from-sql.md){: target=&quot;_blank&quot;}.
 
 ## Het rapport opslaan {#save}
 
-Voordat u uw werk kunt opslaan, moet u het rapport een naam geven. Vergeet niet de [richtlijnen voor aanbevolen procedures voor naamgeving](../../best-practices/naming-elements.md){: target=&quot;_blank&quot;} en kies iets dat duidelijk laat zien wat het rapport is!
+Voordat u uw werk kunt opslaan, moet u het rapport een naam geven. Vergeet niet de opdracht [richtlijnen voor aanbevolen procedures voor naamgeving](../../best-practices/naming-elements.md){: target=&quot;_blank&quot;} en kies iets dat duidelijk laat zien wat het rapport is!
 
 Klikken **[!UICONTROL Save]** in de rechterbovenhoek van het [!DNL SQL] editor en selecteer het rapport `Type` (`Chart` of `Table`). Als u de tekst wilt laten omlopen, selecteert u het dashboard waarin u het rapport wilt opslaan en klikt u op **[!UICONTROL Save to Dashboard]**.
 
@@ -113,7 +113,7 @@ Klikken **[!UICONTROL Save]** in de rechterbovenhoek van het [!DNL SQL] editor e
 
 #### [!DNL SQL Report Builder]
 
-[[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) geeft u de macht om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een rapport. Gebruiken [!DNL SQL] staat u ook toe [te gebruiken [!DNL SQL] functies die niet beschikbaar zijn](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in de `Visual` of `Cohort` Report Builder, zodat u meer controle hebt over uw gegevens.
+[[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) geeft u de macht om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een rapport. Gebruiken [!DNL SQL] staat u ook toe [te gebruiken [!DNL SQL] functies die niet beschikbaar zijn](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in de `Visual` of `Cohort` Reporten Builder, waardoor u meer controle hebt over uw gegevens.
 
 Berekende kolommen gemaakt met [!DNL SQL] zijn niet afhankelijk van updatecycli, wat betekent dat u deze kunt doorlopen zoals u wilt en de resultaten direct kunt zien.
 
@@ -125,7 +125,7 @@ Berekende kolommen gemaakt met [!DNL SQL] zijn niet afhankelijk van updatecycli,
 |---|---|
 | Tussentijdse/gevorderde analisten | Beginners - u moet het weten [!DNL SQL]. |
 | De [!DNL SQL] wreed | Eenvoudige analyses - het schrijven van een vraag kan meer werk dan het eenvoudig gebruiken van [!UICONTROL Visual Report Builder]. |
-| Berekende kolommen voor eenmalig gebruik samenstellen | Delen met anderen - overweeg uw publiek: begrijpen ze [!DNL SQL]? Zo niet, dan kunnen ze verward worden door de manier waarop het rapport is opgebouwd. |
+| Berekende kolommen voor eenmalig gebruik samenstellen | Delen met anderen - Overweeg uw publiek: begrijpen ze [!DNL SQL]? Zo niet, dan kunnen ze verward worden door de manier waarop het rapport is opgebouwd. |
 | Gegevens met `one-to-many` relaties |  |
 | Een nieuwe kolom of analyse testen |  |
 
@@ -137,7 +137,7 @@ Verbindingsproblemen kunnen ook tot discrepanties leiden. Ga naar de `Connection
 
 Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn.
 
-#### Verwijdert een [!DNL SQL] het rapport ook de onderliggende kolommen van mijn Data Warehouse schrapt?
+#### Verwijdert een [!DNL SQL] ook de onderliggende kolommen uit mijn Data Warehouse verwijderen?
 
 Nee, u verliest geen kolommen van uw Data Warehouse, ongeacht hoe u ze hebt gemaakt.
 
@@ -157,7 +157,7 @@ In tegenstelling tot [!DNL Visual Report Builder]de [[!DNL Cohort Report Builder
 | **Dit is perfect voor...** | **Dat is niet zo geweldig voor...** |
 |---|---|
 | Tussentijdse/gevorderde analisten | Beginners - u hebt praktische cohorten nodig. |
-| Gedragstrends in de loop der tijd identificeren | Kwalitatieve analyse - het kan [gedaan](../dev-reports/create-qual-cohort-analysis.md), maar vereist hulp van Adobe. |
+| Gedragstrends in de loop der tijd identificeren | Kwalitatieve analyse - het kan [gedaan](../dev-reports/create-qual-cohort-analysis.md), maar vereist hulp van de Adobe. |
 
 ## Vragen opnieuw samenstellen na de updatecyclus
 
@@ -173,4 +173,4 @@ U hoeft uw query&#39;s niet opnieuw samen te stellen. Rapporten gemaakt met de [
 
 ## Omloop {#wrapup}
 
-Als u iets een beetje uitdagender wilt proberen, waarom probeert niet het schrijven van een vraag die voor visualisatie wordt geoptimaliseerd? Kijk uit de [Visualisaties maken van [!DNL SQL] naslaggids](../../tutorials/create-visuals-from-sql.md){: target=&quot;_blank&quot;} om aan de slag te gaan.
+Als u iets een beetje uitdagender wilt proberen, waarom probeert niet het schrijven van een vraag die voor visualisatie wordt geoptimaliseerd? Kijk uit de [Visualisaties maken van [!DNL SQL] naslaggids](../../tutorials/create-visuals-from-sql.md){: target=&quot;_blank&quot;} aan de slag.

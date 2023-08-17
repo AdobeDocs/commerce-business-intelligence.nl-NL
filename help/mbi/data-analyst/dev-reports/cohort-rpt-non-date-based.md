@@ -1,5 +1,5 @@
 ---
-title: Cohort Report Builder voor Cohorts zonder datumbasis
+title: Cohort-Report Builder voor niet-datumgebaseerde cohorten
 description: Leer gebruikers te groeperen door een gelijkaardige activiteit of een attribuut.
 exl-id: c7b85ce9-113c-4ffc-855f-3d53fe2347d8
 role: Admin, Data Architect, Data Engineer, User
@@ -23,11 +23,11 @@ Dit is geen uitgebreide lijst, maar er zijn enkele potentiële analyses die met 
 * Klanten wier eerste aankoop in de VS en Canada is gedaan, analyseren
 * Kijken naar het gedrag van klanten die via verschillende advertentiecampagnes zijn aangeschaft
 
-## Uw analyse maken
+## Hoe te om Uw Analyse te creëren
 
 1. Klikken **[!UICONTROL Report Builder]** op de linkertab of **[!UICONTROL Add Report** > **Create Report]** in een dashboard.
 
-1. In de `Report Builder Selection` scherm, klikken **[!UICONTROL Create Report]** naast de `Visual Report Builder` optie.
+1. In de `Report Builder Selection` scherm, klikken **[!UICONTROL Create Report]** naast de `Visual Report Builder` -optie.
 
 ### Metrisch toevoegen
 
@@ -39,7 +39,7 @@ Nu ben je in de `Report Builder`voegt u de metrische waarde toe waarop u de anal
 
 ### Schakelen `Metric View` tot `Cohort`
 
-![1-schakelbare metrische weergave voor cohort](../../assets/1-toggle-metric-view-to-cohort.png)
+![In-/uitschakelen van metrische weergave voor cohort](../../assets/1-toggle-metric-view-to-cohort.png)
 
 Dit opent omhoog een nieuw venster waar u de details van het Rapport van het Cohort kunt vormen.
 

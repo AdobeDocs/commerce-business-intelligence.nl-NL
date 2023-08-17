@@ -24,17 +24,17 @@ Je hebt je onderzoek gedaan, je hebt je advertenties gemaakt, je hebt je campagn
 Uw [!DNL Facebook Ad] gegevens naar [!DNL Commerce Intelligence] is een eenvoudig proces in drie stappen:
 
 1. [Toevoegen [!DNL Facebook] als gegevensbron in [!DNL Commerce Intelligence]](#stepone)
-1. [Toestaan [!DNL Commerce Intelligence] toegang tot uw [!DNL Facebook Ads] data](#steptwo)
+1. [Toestaan [!DNL Commerce Intelligence] toegang tot [!DNL Facebook Ads] data](#steptwo)
 1. [Selecteren [!DNL Facebook Ads] Rekeningen voor het aantrekken van gegevens](#stepthree)
 
 ## Toevoegen [!DNL Facebook] als gegevensbron in [!DNL Commerce Intelligence] {#stepone}
 
-1. Als u de opdracht [!DNL Facebook] integratie met uw [!DNL Commerce Intelligence]account, naar de `Connections` pagina onder **[!UICONTROL Manage Data** > **Integrations]**.
-1. Klikken **[!UICONTROL Add Integration]**, rechts.
+1. Als u de opdracht [!DNL Facebook] integratie met uw [!DNL Commerce Intelligence]account, navigeer naar de `Connections` pagina onder **[!UICONTROL Manage Data** > **Integrations]**.
+1. Klikken **[!UICONTROL Add Integration]**, aan de rechterkant.
 1. Klik op de knop [!DNL Facebook] pictogram. Hierdoor wordt het dialoogvenster [!DNL Facebook] machtigingspagina.
-1. Klikken **[!UICONTROL Authorize]**.
+1. Klik op **[!UICONTROL Authorize]**.
 
-## Toestaan [!DNL Commerce Intelligence] toegang tot uw [!DNL Facebook Ads] data {#steptwo}
+## Toestaan [!DNL Commerce Intelligence] toegang tot [!DNL Facebook Ads] data {#steptwo}
 
 Na klikken **[!DNL Facebook Authorize]**, wordt een klein pop-upvenster weergegeven:
 
@@ -48,9 +48,9 @@ U voert een reeks stappen uit om [!DNL Commerce Intelligence] toegang te krijgen
 
    ![](../../../assets/Facebook_Ad_Accounts.png)
 
-1. Klikken **[!UICONTROL Save Connections]**.
+1. Klik op **[!UICONTROL Save Connections]**.
 
-   Als de verbinding is gelukt, kunt u *Verbinding gelukt!* wordt boven aan de pagina weergegeven.
+   Als de verbinding is gelukt, kunt u een *Verbinding gelukt!* wordt boven aan de pagina weergegeven.
 
 ## Wat nu? {#next}
 

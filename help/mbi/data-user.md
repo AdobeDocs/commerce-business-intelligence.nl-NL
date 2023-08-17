@@ -17,7 +17,7 @@ U gebruikt gegevens om zakelijke beslissingen te nemen. U kunt rapporten en dash
 
 In dit gedeelte wordt getoond hoe u:
 * gegevens verkrijgen en weergeven in [!DNL Commerce Intelligence] rapporten en dashboards gebruiken
-* deze gegevens via e-mail en `.csv` bestanden
+* deze gegevens via e-mail met belanghebbenden delen en `.csv` bestanden
 
 ## Verwante
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevenscontroles configureren
 
-In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld in een `orders` tabel kan een kolom met de naam `status`. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde kunnen bevatten _hangend_. De volgorde wordt overgenomen in uw [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) met `pending` waarde.
+In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. In een `orders` tabel kan een kolom met de naam `status`. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde kunnen bevatten _hangend_. De volgorde wordt overgenomen in uw [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) met `pending` waarde.
 
 De status van de orde kan veranderen alhoewel zij niet altijd in a zijn `pending` status. Uiteindelijk kan het worden `complete` of `cancelled`. Om ervoor te zorgen dat uw Data Warehouse deze wijziging synchroniseert, moet de kolom opnieuw worden gecontroleerd op nieuwe waarden.
 
@@ -46,7 +46,7 @@ Frequentieopties zijn:
 * `monthly` - opnieuw controleren vindt plaats na 21.00 uur vrijdag update elke vier weken voor uw aangegeven tijdzone
 * `once` - komt slechts in de volgende update voor (a-off verfrist zich)
 
-Adobe raadt aan een `daily`, `weekly`, of `monthly` in plaats van elke update opnieuw controleren.
+Aangezien de updatetijden aan hoeveel gegevens moeten worden gecorreleerd, beveelt de Adobe aan een `daily`, `weekly`, of `monthly` in plaats van elke update opnieuw controleren.
 
 ## Hercontrolefrequenties beheren {#manage}
 
@@ -58,7 +58,7 @@ Als u de frequentie voor het opnieuw controleren wilt wijzigen, klikt u op het s
 
 Soms ziet u `Paused` in de `Changes?` kolom. Deze waarde wordt weergegeven wanneer de tabel [replicatiemethode](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) is ingesteld op `Paused`.
 
-[!DNL Adobe] U wordt aangeraden deze kolommen te reviseren om de updates te optimaliseren en ervoor te zorgen dat de verwisselbare kolommen opnieuw worden gecontroleerd. Als de frequentie voor het opnieuw controleren van een kolom hoog is gezien hoe vaak de gegevens veranderen, adviseert Adobe het verminderen van het om uw updates te optimaliseren.
+[!DNL Adobe] U wordt aangeraden deze kolommen te reviseren om de updates te optimaliseren en ervoor te zorgen dat de verwisselbare kolommen opnieuw worden gecontroleerd. Als de frequentie voor het opnieuw controleren van een kolom hoog is gezien hoe vaak de gegevens veranderen, adviseert de Adobe het te verminderen om uw updates te optimaliseren.
 
 Neem contact met ons op met vragen of vraag naar de huidige replicatiemethoden of hercontroles.
 

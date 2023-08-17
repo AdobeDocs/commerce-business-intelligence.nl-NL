@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een diagram verwijderen uit een dashboard
 
-Als u een diagram wilt verwijderen uit een dashboard, klikt u op het gereedschap (![](../../assets/gear-icon.png)) in de rechterbovenhoek van het diagram en klik op **[!UICONTROL Remove from Dashboard]**.
+Als u een diagram wilt verwijderen uit een dashboard, klikt u op het tandwieltje (![](../../assets/gear-icon.png)) in de rechterbovenhoek van het diagram en klik op **[!UICONTROL Remove from Dashboard]**.
 
 >[!NOTE]
 >

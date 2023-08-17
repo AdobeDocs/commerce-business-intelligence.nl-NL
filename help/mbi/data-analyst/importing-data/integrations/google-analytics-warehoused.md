@@ -1,5 +1,5 @@
 ---
-title: Connect Google Analytics gehuisvest
+title: Connect-Googles Analytics gedraaid
 description: Leer hoe bezoekers uw site gebruiken, welke inhoud aantrekkelijk is, waar bezoekers vertrekken en meer.
 exl-id: b9879399-9e1a-4f36-b510-8426ebc83aeb
 role: Admin, Data Architect, Data Engineer, User
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 [!DNL Google Analytics] is de meest gebruikte webanalysedienst op internet. Implementatie [!DNL Google Analytics] op uw website kunt u bijhouden hoe bezoekers uw site gebruiken, welke inhoud aantrekkelijk is, waar bezoekers vertrekken en nog veel meer. [!DNL Google Analytics Warehoused] is een afzonderlijke integratie van uw bestaande [!DNL Google Analytics] integratie. Het maakt een betere analyse mogelijk omdat het [!DNL Google Analytics] gegevens in uw Data Warehouse, die anders is dan de live feed van de bestaande [!DNL Google Analytics] integratie. Deze gegevens analyseren in [!DNL Commerce Intelligence], en andere gegevens, verbetert de algehele gezondheid en bruikbaarheid van uw site.
 
-## Verschil tussen GA gehuisvest en Levende Integratie
+## Verschil tussen GA gehuisvest en Live integratie
 
-De belangrijkste differentiator is dat één integratie wordt opgeslagen ([!DNL Google Analytics Warehoused]) en de andere is niet ([!DNL Google Analytics Live]). In het geval van [!DNL Google Analytics Warehoused]kunt u uw [!DNL Google Analytics] gegevens en biedt u de mogelijkheid om [!DNL Google Analytics] en andere gegevensbronnen om inzichtelijke rapportage te maken.
+De belangrijkste differentiator is dat één integratie wordt opgeslagen ([!DNL Google Analytics Warehoused]) en de andere is niet ([!DNL Google Analytics Live]). In het geval van [!DNL Google Analytics Warehoused]kunt u uw [!DNL Google Analytics] gegevens en biedt u de mogelijkheid [!DNL Google Analytics] en andere gegevensbronnen om inzichtelijke rapportage te maken.
 
 Kijk naar [!DNL Google Analytics] advertentiecampagnes voor een voorbeeld van wat vanuit een manipulatiestandpunt kan worden gedaan. Stel dat u voor het vierde kwartaal meerdere advertentiecampagnes met verschillende namen hebt gehad. De campagnes waren het resultaat van een specifiek marketinginitiatief. Met opgeslagen gegevens, kunt u een kolom tot stand brengen die de campagnemenamen in kwestie vindt en de vierde kwartaalinitiatiefnaam van terugkeert `Operation Dumbo`.
 
-Met het combinatieaspect [!DNL Google Analytics] gegevens die met het oog op de uitvoering van analyses aan andere gegevens moeten worden toegevoegd. Neem bijvoorbeeld `Total Time On Site By Ad Campaign` gegevens van [!DNL Google Analytics] en doe mee `Total Spent Per Campaign` gegevens van [!DNL Facebook Ads] om een volledig beeld te krijgen van hoeveel betrokkenheid u kost.
+Met het combinatieaspect [!DNL Google Analytics] gegevens die met het oog op de uitvoering van analyses aan andere gegevens moeten worden toegevoegd. Neem bijvoorbeeld `Total Time On Site By Ad Campaign` gegevens van [!DNL Google Analytics] en doe mee met `Total Spent Per Campaign` gegevens van [!DNL Facebook Ads] om een volledig beeld te krijgen van hoeveel betrokkenheid u kost.
 
 Met de [!DNL Google Analytics Live] integratie daarentegen , elke [!DNL Google Analytics] grafiek is als een kleine silo die niet in uw Data Warehouse wordt opgeslagen.
 
@@ -39,7 +39,7 @@ Met de [!DNL Google Analytics Live] integratie daarentegen , elke [!DNL Google A
 
 1. Ga naar de `Connections` pagina onder **[!UICONTROL Admin** > **Integrations]**.
 1. Klikken **[!UICONTROL Add an Integration]** aan de rechterkant.
-1. Klik op de knop [!DNL Google Analytics Warehoused] pictogram. Hierdoor wordt het [!DNL Google Analytics] aanmeldingspagina.
+1. Klik op de knop [!DNL Google Analytics Warehoused] pictogram. Hierdoor wordt het [!DNL Google Analytics] pagina met referenties.
 1. Voer uw [!DNL Google Analytics] referenties. Nadat het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence].
 1. Een lijst met profiel-id&#39;s. Controleer de profielen waarmee u verbinding wilt maken [!DNL Commerce Intelligence]. Als u meerdere profielen hebt en hulp nodig hebt bij het identificeren van welke profielen, raadpleegt u het dialoogvenster Meerdere verbindingen [!DNL Google Analytics] in de onderstaande sectie Profielen.
 

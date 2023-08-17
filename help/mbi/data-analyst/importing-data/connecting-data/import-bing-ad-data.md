@@ -22,8 +22,8 @@ Als u uw [!DNL Bing Ads] gegevens die u nodig hebt [!DNL Bing Ads Editor] geïns
 ## [!DNL Bing Ads] Gegevens exporteren
 
 1. In de `Browser` deelvenster van [!DNL Bing Ads Editor], klikt u met de rechtermuisknop op de campagne of ad-group die u wilt exporteren en klikt u op **[!UICONTROL Export]**.
-1. In de `Export` dialoogvenster, klikt u op **[!UICONTROL Export]**.
+1. In de `Export` klikt u op **[!UICONTROL Export]**.
 1. In de `Save As` klikt u op de map waarin u het exportbestand wilt opslaan.
 1. In de `File name` kiest u een naam voor het exporteren van uw bestand.
-1. Klikken **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 1. Nadat het bestand is gedownload,  [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om voor uw rekening een eerste upload uit te voeren en de noodzakelijke achterste-eindafmetingen in te stellen.

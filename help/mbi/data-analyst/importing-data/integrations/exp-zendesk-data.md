@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Verwacht [!DNL Zendesk] data
 
-Na [u hebt verbinding gemaakt met uw [!DNL Zendesk] account](../integrations/zendesk.md)kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
+Na [u hebt verbinding gemaakt met [!DNL Zendesk] account](../integrations/zendesk.md), kunt u de [Data Warehouse Manager](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
 
 Dit onderwerp verkent de belangrijkste gegevenslijsten die u van kunt invoeren [!DNL Zendesk] in [!DNL Adobe Commerce Intelligence], inclusief koppelingen naar aanvullende documentatie over [!DNL Zendesk] gegevens.
 

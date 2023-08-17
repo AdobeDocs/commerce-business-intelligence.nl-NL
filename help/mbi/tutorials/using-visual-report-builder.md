@@ -21,17 +21,17 @@ De [[!DNL Visual Report Builder]](../data-user/reports/ess-rpt-build-visual.md) 
 
 ## Stap 1: Een rapport maken
 
-Als u een rapport wilt gaan maken, klikt u op **[!UICONTROL Report Builder]** op de zijbalk of **[!UICONTROL Add Report]** boven aan een dashboard. Wanneer de `Report Builder` pagina wordt weergegeven, klikt u op de knop **[!UICONTROL Visual Report Builder]** optie.
+Als u een rapport wilt gaan maken, klikt u op **[!UICONTROL Report Builder]** op de zijbalk of **[!UICONTROL Add Report]** boven aan een dashboard. Wanneer de `Report Builder` pagina wordt weergegeven, klikt u op de knop **[!UICONTROL Visual Report Builder]** -optie.
 
-Als u een rapport wilt bewerken dat is gemaakt in het dialoogvenster [!DNL Visual Report Builder]klikt u op het tandwielpictogram (Opties) rechtsboven in een diagram en klikt u vervolgens op **[!UICONTROL Edit]**.
+Een rapport bewerken dat is gemaakt in het dialoogvenster [!DNL Visual Report Builder]klikt u op het tandwielpictogram (Opties) rechtsboven in een diagram en klikt u vervolgens op **[!UICONTROL Edit]**.
 
 ## Stap 2: Metrisch toevoegen
 
-De eerste stap bij het maken van een analyse is het selecteren van [de](../data-user/reports/ess-manage-data-metrics.md) om te analyseren. Terwijl de metriek door gebrek alfabetisch vermeld zijn, kunt u hen door de lijst ook groeperen die metrisch bevoegdheden.
+De eerste stap bij het maken van een analyse is het selecteren van [de metrieke](../data-user/reports/ess-manage-data-metrics.md) analyseren. Terwijl de metriek door gebrek alfabetisch vermeld zijn, kunt u hen door de lijst ook groeperen die metrisch bevoegdheden.
 
 U kunt extra metriek toevoegen nadat aanvankelijke metrisch wordt geselecteerd en alle metriek op één enkel rapport bedekken of multi-metrische berekeningen uitvoeren door formules toe te voegen.
 
-## Stap 3: Toevoegen `Formulas`
+## Stap 3: toevoegen `Formulas`
 
 `Formulas` worden toegevoegd aan rapporten door op **[!UICONTROL Add Formula]**, die net boven de lijst van metriek in het rapport wordt gevestigd. In de [formule-editor](../data-analyst/dev-reports/formulas-in-rpt-bldr.md), kan om het even welke metriek inbegrepen in het rapport als input worden gebruikt. De basis wiskundige exploitanten worden gebruikt om de verschillende metriek te manipuleren.
 
@@ -39,7 +39,7 @@ Stel dat u een rapport wilt maken waarin de gemiddelde inkomsten per bestelling 
 
 ![](../assets/ave-rev-per-order.png)
 
-## Stap 4: De instelling `Time Period` en `Interval of Analysis` {#time}
+## Stap 4: Het plaatsen van `Time Period` en `Interval of Analysis` {#time}
 
 Aan nul binnen op een bepaalde rektijd, kunt u de tijdspanne voor de analyse plaatsen. U kunt ook tijdintervallen kiezen om de gegevens te segmenteren (bijvoorbeeld op jaar, op kwartaal of op maand). Gebruik de menu&#39;s in de rechterbovenhoek van het diagram om de tijdsperiode en het interval in te stellen.
 
@@ -47,13 +47,13 @@ Aan nul binnen op een bepaalde rektijd, kunt u de tijdspanne voor de analyse pla
 
 Wanneer het plaatsen van een specifieke datumwaaier voor de tijdspanne, zorg ervoor dat de begindatum bij het begin van het interval is en de einddatum aan het eind van uw interval is.
 
-Stel bijvoorbeeld een tijdsperiode in van `January 1st` tot `March 1st` en kiest u een `monthly` interval toont `March` als datapoint, maar elke dag negeren `March` behalve `March 1`. In dat geval moet u uw `Time Period` van `January 1 to March 31`.
+Stel bijvoorbeeld een tijdsperiode in van `January 1st` tot `March 1st` en een `monthly` interval toont `March` als datapoint, maar elke dag negeren `March` behalve `March 1`. In dat geval moet u uw `Time Period` van `January 1 to March 31`.
 
 ## Stap 5: `Group by` / `Segmenting the Analysis` {#groupby}
 
-[Uw metriek segmenteren door een gegevensdimensie](../best-practices/segment-filter.md)klikt u op de knop **[!UICONTROL Group by]** aan de linkerbovenhoek van het diagram. Dit onthult een dropdown met alle beschikbare afmetingen van eerste metrisch inbegrepen in de lijst.
+[Uw metriek segmenteren door een gegevensdimensie](../best-practices/segment-filter.md)klikt u op de knop **[!UICONTROL Group by]** aan de linkerbovenhoek van het diagram. Dit onthult een dropdown met inbegrip van alle beschikbare afmetingen van eerste metrisch inbegrepen in de lijst.
 
-U kunt `None` om te voorkomen dat een metrisch wordt gesegmenteerd. Bijvoorbeeld, zou u metrisch kunnen willen die totale opbrengst zonder wordt gesegmenteerd terugkeert, terwijl het hebben van een andere opbrengst metrisch die door gebied wordt gesegmenteerd.
+U kunt `None` om te voorkomen dat een metrische waarde wordt gesegmenteerd. Bijvoorbeeld, zou u metrisch kunnen willen die totale opbrengst zonder wordt gesegmenteerd terugkeert, terwijl het hebben van een andere opbrengst metrisch die door gebied wordt gesegmenteerd.
 
 Ga terug naar uw gemiddelde opbrengst per ordevoorbeeld en plaats de Groep door aan bevorderingscode. Dit toont u de gemiddelde opbrengst per orde voor orden zowel met als zonder een bevorderingscode.
 
@@ -73,7 +73,7 @@ Voor elke metrische waarde die aan de analyse wordt toegevoegd, kunt u filters t
 
 `Filters` de gegevensset in de analyse te beperken. Filters zijn bijvoorbeeld handig bij het evalueren van afzonderlijke verwervingskanalen en het verwijderen van uitschieters.
 
-Naast de vervolgkeuzemenu&#39;s en het tekstvak kunt u ook speciale filteroperatoren gebruiken, zoals `LIKE` of `IN` om filters te maken.
+Naast de vervolgkeuzemenu&#39;s en het tekstvak kunt u ook speciale filteroperatoren zoals `LIKE` of `IN` om filters te maken.
 
 Het gebruik van jokertekens (`%` of `_`) met `LIKE` instructies wordt ondersteund. De `%` jokerteken komt overeen met meerdere tekens, terwijl `_` komt alleen overeen met een enkel teken. Bijvoorbeeld:
 
@@ -87,13 +87,13 @@ Door meerdere filters toe te voegen, kunt u de gegevens in de grafiek strak behe
 
 ### `Perspectives`
 
-`Perspectives` Hiermee kunt u eenvoudig schakelen tussen verschillende weergaven van uw gegevens. Bekijk wat beschikbaar is:
+`Perspectives` Hiermee kunt u eenvoudig schakelen tussen verschillende weergaven van uw gegevens. Kijk wat er beschikbaar is:
 
 - `Standard perspective`: Het standaardperspectief toont u het resultaat voor de passende datum op x-as (bijvoorbeeld opbrengst in Januari). Dit is het perspectief dat u in uw Gemiddelde opbrengst per ordevoorbeeld gebruikt.
 
 ![](../assets/Standard.png)
 
-- `Amount` OF `Percent Change` versus `Previous Period` perspectief: Dit perspectief toont de hoeveelheid of de percentageverandering van één interval aan volgende en is nuttig om de snelheid van verandering in snel-veranderende metriek te meten. Er is ook een perspectief om het interval te vergelijken met dezelfde periode vorig jaar om de groei van jaar tot jaar te laten zien.
+- `Amount` OF `Percent Change` versus `Previous Period` perspectief: Dit perspectief toont de hoeveelheid of het percentage verandering van één interval aan volgende en is nuttig om de snelheid van verandering in snel veranderende metriek te meten. Er is ook een perspectief om het interval te vergelijken met dezelfde periode vorig jaar om de groei van jaar tot jaar te laten zien.
 
 ![](../assets/Amt_or_Percent_Change.png)
 
@@ -105,13 +105,13 @@ Door meerdere filters toe te voegen, kunt u de gegevens in de grafiek strak behe
 
 ![](../assets/Percent_of_First_Value.png)
 
-- `Rolling averages window perspective`: Het het rollen perspectief van het middelvenster van gemiddelden toont de het rollen gemiddelde waarde van metrisch over de gespecificeerde tijdwaaier. Het interval moet het zelfde zijn als het interval dat op het rapportniveau wordt geplaatst. Bijvoorbeeld, als het rapport het laatste volledige kwart van Ontvangsten door week toont, kunt u het het rollen gemiddelde tijdwaaier van het venster aan vier weken plaatsen. Dit betekent dat de eerste drie waarden null zijn en de vierde waarde het gemiddelde van de eerste vier weken van Ontvangsten vertegenwoordigt. Voor de duidelijkheid moet u de optie `Multiple Y-Axes` Schakel het selectievakje in als u dezelfde metrische waarde met een voortschrijdend gemiddelde weergeeft, zoals in het onderstaande voorbeeld.
+- `Rolling averages window perspective`: In het perspectief van het venster met rolgemiddelden wordt de voortschrijdende gemiddelde waarde van een metrisch over het opgegeven tijdbereik weergegeven. Het interval moet het zelfde zijn als het interval dat op het rapportniveau wordt geplaatst. Bijvoorbeeld, als het rapport het laatste volledige kwart van Ontvangsten door week toont, kunt u het het rollen gemiddelde tijdwaaier van het venster aan vier weken plaatsen. Dit betekent dat de eerste drie waarden null zijn en de vierde waarde het gemiddelde van de eerste vier weken van Ontvangsten vertegenwoordigt. Voor de duidelijkheid moet u de optie `Multiple Y-Axes` Schakel het selectievakje in als u dezelfde metrische waarde met een voortschrijdend gemiddelde weergeeft, zoals in het onderstaande voorbeeld.
 
 ![](../assets/rolling_avg_window.png)
 
 ### Opties voor metrische specifieke tijd
 
-Er zijn twee opties voor metriek die in rapporten worden gebruikt: zij kunnen zich in de loop van de tijd , al dan niet volgens de globale tijdopties ontwikkelen , die hen als scalair aantal zullen tonen .
+Er zijn twee opties voor metriek die in rapporten worden gebruikt: zij kunnen zich in tijd volgens de globale tijdopties, of niet ontwikkelen, die hen als scalair aantal zullen tonen.
 
 Een metrisch tijdinterval wijzigen in `None` retourneert een `scalar` getal, dat nuttig is bij het maken van formules waarbij een tijdtrending-metrische waarde wordt gedeeld door een `scalar` getal. U kunt ook het tijdbereik van het dialoogvenster `scalar` metrisch aan een tijdwaaier onafhankelijk van dat voor het rapport.
 

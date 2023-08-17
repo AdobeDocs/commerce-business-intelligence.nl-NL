@@ -35,12 +35,12 @@ Tevreden met alle montages voor `Throwback Bellbottoms`, klikt de werknemer **[!
 | 206 | 4 | 8 | Pants11 | 2016/09/22 09:18:17 |
 | 207 | 4 | 12 | Shirts6 | 2016/09/22 09:24:02 |
 
-* `entity_id` - Dit is de primaire sleutel van de `catalog_product_entity` tabel, dat wil zeggen dat elke rij van de tabel een andere rij moet hebben `entity_id`. Elk `entity_id` in deze tabel kan slechts aan één product worden gekoppeld en elk product kan slechts aan één product worden gekoppeld `entity_id`
+* `entity_id` - Dit is de primaire sleutel van de `catalog_product_entity` tabel: elke rij van de tabel moet een andere tabel hebben `entity_id`. Elk `entity_id` in deze tabel kan slechts aan één product worden gekoppeld en elk product kan slechts aan één product worden gekoppeld `entity_id`
    * De bovenste regel van de bovenstaande tabel, `entity_id` = 205, is de nieuwe rij die voor &quot;Throwback Bellbottoms wordt gecreeerd.&quot; Waar `entity_id` = 205 komt voor in het handelsplatform, verwijst het naar het product &quot;Throwback Bellbottoms&quot;.
 * `entity_type_id` - De handel heeft veelvoudige categorieën voorwerpen (zoals klanten, adressen, en producten om een paar te noemen), en deze kolom wordt gebruikt om de categorie te wijzen waarin deze bepaalde rij valt.
-   * Dit is het `catalog_product_entity` tabel, heeft elke rij hetzelfde entiteitstype: product. In Adobe Commerce `entity_type_id` voor product is 4 , en daarom hebben alle drie de nieuwe producten voor deze kolom het rendement 4 gecreëerd.
-* `attribute_set_id` - De reeksen van Attributen worden gebruikt om producten te identificeren die het zelfde van beschrijvers hebben.
-   * De bovenste twee rijen van de tabel zijn de `Throwback Bellbottoms` en `Straight Leg Jeans` producten, die allebei een broek zijn. Deze producten zouden dezelfde beschrijvingen hebben (bijvoorbeeld naam, inseam, waistline) en daarom dezelfde `attribute_set_id`. de derde post, `V-Neck T-Shirt` heeft een andere `attribute_set_id` omdat het niet dezelfde beschrijvingen zou hebben als de broek; overhemden hebben geen golflengte of inseams .
+   * Dit is het `catalog_product_entity` elke rij heeft hetzelfde entiteitstype: product. In Adobe Commerce `entity_type_id` voor product is 4 , en daarom hebben alle drie de nieuwe producten voor deze kolom het rendement 4 gecreëerd.
+* `attribute_set_id` - Kenmerksets worden gebruikt om producten te identificeren die hetzelfde zijn als beschrijvende elementen.
+   * De bovenste twee rijen van de tabel zijn de `Throwback Bellbottoms` en `Straight Leg Jeans` producten, die allebei een broek zijn. Deze producten zouden dezelfde beschrijvingen hebben (bijvoorbeeld naam, inseam, waistline) en daarom dezelfde `attribute_set_id`. de derde post, `V-Neck T-Shirt` heeft een andere `attribute_set_id` omdat het niet dezelfde beschrijvingen zou hebben als de broek; hemden hebben geen golflengte of inseams.
 * `sku` - Dit zijn unieke waarden die door de gebruiker aan elk product worden toegewezen bij het maken van een product in Adobe Commerce.
 * `created_at` - Deze kolom retourneert de tijdstempel van het tijdstip waarop elk product is gemaakt
 

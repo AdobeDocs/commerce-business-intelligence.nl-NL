@@ -15,6 +15,6 @@ ht-degree: 0%
 
 Als u het wachtwoord opnieuw wilt instellen, klikt u op **[!UICONTROL Reset Password]** onder het wachtwoordveld op uw [!DNL Adobe Commerce Intelligence] aanmeldpagina. Voer het e-mailadres voor de gebruikersaccount in en er wordt een e-mail verzonden met een koppeling om het wachtwoord opnieuw in te stellen.
 
-U kunt ook uw wachtwoord wijzigen in [!DNL Commerce Intelligence] door **[!UICONTROL Personal Settings]** pagina.
+U kunt ook uw wachtwoord wijzigen in [!DNL Commerce Intelligence] door de **[!UICONTROL Personal Settings]** pagina.
 
 Als u uw wachtwoord opnieuw instelt en buiten uw account blijft, volgt u [deze tips](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.html) om het probleem te helpen aanwijzen.

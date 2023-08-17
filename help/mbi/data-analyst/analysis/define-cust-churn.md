@@ -28,13 +28,13 @@ Te maken kolommen
 * Selecteer een definitie: `Count`
 * Selecteer een [!UICONTROL table]: `sales_flat_order`
 * Selecteer een [!UICONTROL column]: **`entity_id`**
-* [!UICONTROL Path]: sales_flat_order.customer_id = customer_entiteit.entiteit_id
+* [!UICONTROL Path]: verkoop_flat_order.customer_id = customer_entiteit.entiteit_id
 * [!UICONTROL Filter]:
 * Orders die worden geteld
 
 * `sales_flat_order` table
 * `Customer's lifetime number of orders`
-* Selecteer een definitie: Samengevoegde kolom
+* Een definitie selecteren: samengevoegde kolom
 * Selecteer een [!UICONTROL table]: `customer_entity`
 * Selecteer een [!UICONTROL column]: `Customer's lifetime number of orders`
 * [!UICONTROL Path]: `sales_flat_order.customer_id = customer_entity.entity_id`
@@ -61,14 +61,14 @@ Geen nieuwe metriek!
 ## Rapporten
 
 * **Waarschijnlijk eerste herhalingsvolgorde**
-* Metrisch A: Volgorde voor herhalingen bij alle tijd
+* Metrisch A: Volgorde bij herhaling tijdens de hele tijd
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
-* Metrisch B: Volgorde in alle tijd
-* [!UICONTROL Metric]: Aantal orders
+* Metrisch B: Voltijdorders
+* [!UICONTROL Metric]: Aantal bestellingen
 
-* [!UICONTROL Formula]: Waarschijnlijk eerste herhalingsvolgorde
+* [!UICONTROL Formula]: waarschijnlijkheid van eerste herhalingsvolgorde
 * 
   [!UICONTROL-formule]: `A/B`
 * 
@@ -81,7 +81,7 @@ Geen nieuwe metriek!
   [!UICONTROL Chart type]: `Scalar`
 
 * **Herhaal de waarschijnlijkheid van de volgorde van maanden sinds de bestelling**
-* Metrisch A: Volgorde van maanden sinds vorige volgorde herhalen (verbergen)
+* Metrisch A: Volgorde van maanden sinds vorige orde (huid) herhalen
 * [!UICONTROL Metric]: `Number of orders`
 * 
   [!UICONTROL Perspective]: `Cumulative`
@@ -93,21 +93,21 @@ Geen nieuwe metriek!
   [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
-* Metrisch C: Volgorde voor herhaalde herhalingen (verbergen)
+* Metrisch C: Alle-tijd herhalingsorders (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
 * 
   [!UICONTROL Group door]: `Independent`
 
-* Metrisch D: Laatste bestellingen bij volledige uitvoering (verbergen)
+* Metrisch D: All-time last orders (hide)
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
 * 
   [!UICONTROL Group door]: `Independent`
 
-* [!UICONTROL Formula]: Waarschijnlijk eerste herhalingsvolgorde
+* [!UICONTROL Formula]: waarschijnlijkheid van eerste herhalingsvolgorde
 * 
   [!UICONTROL-formule]: `(C-A)/(C+D-A-B)`
 * 
@@ -117,18 +117,18 @@ Geen nieuwe metriek!
 * 
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Months since previous order`
-* Boven weergeven.onder: Top 24 categorieën, gesorteerd op categorienaam
+* Bovenkant weergeven.Onder: bovenste 24 categorieën, gesorteerd op categorienaam
 
 * 
   [!UICONTROL Chart type]: `Line`
 
-Het waarschijnlijkheidsrapport voor de eerste herhalingsvolgorde vertegenwoordigt de Totaal aantal herhalingsorders / Totaal aantal bestellingen. Elke order is een mogelijkheid om een herhalingsbevel te geven; het aantal herhalingsorders is de subset van die welke daadwerkelijk worden uitgevoerd .
+Het waarschijnlijkheidsrapport voor de eerste herhalingsvolgorde vertegenwoordigt de Totaal aantal herhalingsorders / Totaal aantal bestellingen. Elke order is een kans om een herhalingsvolgorde te maken; het aantal herhalingsorders is de subset van de orders die daadwerkelijk worden uitgevoerd.
 
 De formule die u gebruikt, vereenvoudigt (Totaal aantal herhaalde orders die na X maanden zijn uitgevoerd)/ (Totaal aantal orders die minstens X maanden oud zijn). Het toont ons dat historisch gezien, aangezien het X maanden sinds een orde is geweest, er een Y% kans is dat de gebruiker een andere orde plaatst.
 
-Nadat u het dashboard hebt opgebouwd, wordt de meest voorkomende vraag gesteld: Hoe gebruik ik dit om een kanteldrempel te bepalen?
+Zodra u uw dashboard hebt opgebouwd, de gemeenschappelijkste vraag is: Hoe gebruik ik dit om een kindrempelwaarde te bepalen?
 
-**Er is geen &quot;één goed antwoord&quot;.** Adobe raadt echter aan het punt te zoeken waar de lijn de waarde kruist die de helft is van de waarschijnlijkheid bij eerste herhaling. Dit is het punt waar u kunt zeggen &quot;Als een gebruiker een herhalingsorde gaat maken, zouden zij het waarschijnlijk tegen nu hebben gedaan.&quot; Uiteindelijk is het doel de drempel te selecteren waar het zinvol is om over te schakelen van &quot;retentie&quot; naar &quot;reactivering&quot;.
+**Er is geen &quot;één goed antwoord&quot; op.** Adobe raadt echter aan het punt te zoeken waar de lijn de waarde kruist die de helft is van de waarschijnlijkheid bij eerste herhaling. Dit is het punt waar u kunt zeggen &quot;Als een gebruiker een herhalingsorde gaat maken, zouden zij het waarschijnlijk tegen nu hebben gedaan.&quot; Uiteindelijk is het doel de drempel te selecteren waar het zinvol is om over te schakelen van &quot;retentie&quot; naar &quot;reactivering&quot;.
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan lijken op de afbeelding boven aan de pagina
 

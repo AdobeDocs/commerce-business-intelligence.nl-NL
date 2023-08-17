@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Coupongebruik
 
-Vraag je je ooit af hoe het aanbieden van coupons je je bedrijf beïnvloedt? Wilt u weten welke coupons de prestaties helpen of schaden? In dit onderwerp worden analyses besproken die u een goed beeld geven van het gebruik van de coupon van uw klanten door de volgende vragen te beantwoorden:
+Heb je je ooit afgevraagd hoe het aanbieden van coupons je je bedrijf beïnvloedt? Wilt u weten welke coupons de prestaties ten goede komen of schaden? In dit onderwerp worden analyses besproken die u een goed beeld geven van het gebruik van de coupon van uw klanten door de volgende vragen te beantwoorden:
 
 * Hoeveel klanten gebruiken coupons?
 * Hoeveel coupons worden gebruikt?
@@ -101,7 +101,7 @@ Terwijl de **brutokortingen** voor alle drie de coupons is het aantal orders voo
 
 **Bruto- en netto-inkomsten** Geef een algemeen overzicht van de totale waarde van de aan elke coupon gekoppelde orders. Dit totaalbeeld geeft echter geen inzicht in de verschillende gedragingen met betrekking tot elke coupon. Als u eenmaal per bestelling kijkt, ziet u dat de coupon voor &quot;10% korting&quot; een hoge waarde heeft **gemiddelde nettoorder** waarde, die op zijn beurt weer leidt tot de hoge **netto-inkomsten**.
 
-Anderzijds heeft de coupon &quot;10% korting&quot; een hoge gemiddelde discontowaarde ($25,01), maar de laagste **gedisconteerd percentage**. Dit is logisch als je de gemiddelde nettoorderwaarde van $225,08 opneemt. De coupon &quot;10% korting&quot; heeft een kleine procentuele korting op een grote gemiddelde nettoorderwaarde, dus de gemiddelde orderkorting is een groot bedrag.
+Anderzijds heeft de coupon &quot;10% korting&quot; een hoge gemiddelde discontowaarde ($25,01), maar de laagste **gedisconteerd**. Dit is logisch als je de gemiddelde nettoorderwaarde van $225,08 opneemt. De coupon &quot;10% korting&quot; heeft een kleine procentuele korting op een grote gemiddelde nettoorderwaarde, dus de gemiddelde orderkorting is een groot bedrag.
 
 Kijk naar de **afzonderlijke kopers** en **gemiddelde levensduurinkomsten** voor elke coupon. De coupon &quot;10% korting&quot; heeft hetzelfde aantal orders als afzonderlijke kopers. Dit kan het gevolg zijn van het feit dat elke klant beperkt is tot één coupon. Anderzijds hebben de coupons &quot;$20 van $100 of meer&quot; en &quot;$10 korting&quot; minder duidelijke kopers dan het aantal orders, wat betekent dat sommige klanten deze coupons meerdere keren hebben gebruikt.
 

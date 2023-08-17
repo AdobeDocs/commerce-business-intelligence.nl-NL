@@ -25,7 +25,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 1. Ga naar **[!UICONTROL Manage Data > Metrics]**.
 
-1. Klikken **[!UICONTROL Add Dimensions To Metric(s)]**.
+1. Klik op **[!UICONTROL Add Dimensions To Metric(s)]**.
 
 1. Kies de tabel die de afmetingen bevat.
 
@@ -35,7 +35,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 1. Als u door om het even welke gegevensdimensies op rapporten wilt segmenteren of groeperen, zorg ervoor om erop te wijzen zij zijn _Groeperen_.
 
-1. Klikken **[!UICONTROL Add]**.
+1. Klik op **[!UICONTROL Add]**.
 
 ## Afmetingen van meerdere meeteenheden verwijderen
 
@@ -43,19 +43,19 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 1. Ga naar **[!UICONTROL Data > Metrics]**.
 
-1. Klikken **[!UICONTROL Remove Dimensions From Metric(s)]**.
+1. Klik op **[!UICONTROL Remove Dimensions From Metric(s)]**.
 
 1. Kies de tabel die de afmetingen bevat.
 
 1. Selecteer de afmetingen die u links wilt verwijderen en de afmetingen die u wilt verwijderen aan de rechterkant.
 
-1. Klikken **[!UICONTROL Remove]**.
+1. Klik op **[!UICONTROL Remove]**.
 
 1. Als de afmetingen in gebruik zijn in rapporten, wordt een waarschuwing weergegeven met de lijst met grafieken die de afmetingen gebruiken. Klikken **[!UICONTROL Delete]** om de gecontroleerde afmetingen en al hun afhankelijke personen, met inbegrip van rapporten te schrappen.
 
 ## Dimensies beheren in metriek
 
-**Dimensies toevoegen in metrisch:**
+**Dimensies toevoegen in metrische vorm:**
 
 1. Ga naar **[!UICONTROL Data > Metrics]**.
 
@@ -78,7 +78,7 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 >[!NOTE]
 >
->Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in uw Data Warehouse. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze afmetingen. Om de gegevenskolom te verwijderen waarvan een afmeting beantwoordt aan [!DNL Commerce Intelligence], maakt u de gegevenskolom eenvoudig ongedaan via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
+>Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in uw Data Warehouse. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze dimensies. Om de gegevenskolom te verwijderen waarvan een afmeting beantwoordt aan [!DNL Commerce Intelligence], maakt u de gegevenskolom eenvoudig ongedaan via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
 
 ## Gerelateerde documentatie
 

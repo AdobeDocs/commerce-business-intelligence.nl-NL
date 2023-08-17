@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # SQL-query&#39;s vertalen in Commerce Intelligence
 
-ooit vroeg zich af hoe SQL-query&#39;s vertaald worden in de [berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md), [cijfers](../../data-user/reports/ess-manage-data-metrics.md), en [rapporten](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL Commerce Intelligence]? Als u een zware SQL-gebruiker bent, begrijpen hoe SQL wordt vertaald in [!DNL Commerce Intelligence] biedt u de mogelijkheid om slimmer te werken in de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) en het beste uit de [!DNL Commerce Intelligence] platform.
+ooit vroeg zich af hoe SQL-query&#39;s vertaald worden in de [berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md), [cijfers](../../data-user/reports/ess-manage-data-metrics.md), en [rapporten](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL Commerce Intelligence]? Als u een zware SQL-gebruiker bent, begrijpen hoe SQL wordt vertaald in [!DNL Commerce Intelligence] biedt u de mogelijkheid om slimmer te werken in de [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md) en het beste uit de [!DNL Commerce Intelligence] platform.
 
 Aan het einde van dit onderwerp vindt u een **vertaalmatrix** voor SQL-queryclausules en [!DNL Commerce Intelligence] elementen.
 
@@ -75,27 +75,27 @@ De query voor deze aggregatie kan er ongeveer als volgt uitzien:
 
 Deze instelling instellen in [!DNL Commerce Intelligence] vereist het gebruik van uw manager van de Data Warehouse, waar u een weg tussen uw bouwt `orders` en `customers` tabel maakt vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
 
-Kijk hoe u een nieuw pad kunt instellen tussen de `customers` en `orders`. Het uiteindelijke doel is om een nieuwe samengevoegde kolom te maken in de `customers` tabel, dus navigeer eerst naar de `customers` tabel in uw Data Warehouse en klik vervolgens op **[!UICONTROL Create a Column** > ** Een definitie selecteren **> **SUM]**.
+Kijk hoe u een nieuw pad kunt instellen tussen de `customers` en `orders`. Het uiteindelijke doel is om een nieuwe samengevoegde kolom te maken in de `customers` tabel, ga dus eerst naar de `customers` tabel in uw Data Warehouse en klik vervolgens op **[!UICONTROL Create a Column** > ** Een definitie selecteren **> **SUM]**.
 
 Vervolgens moet u de brontabel selecteren. Als er een pad naar uw `orders` in de vervolgkeuzelijst. Als u echter een nieuw pad maakt, klikt u op **[!UICONTROL Create new path]** en u ziet hieronder het scherm:
 
 ![Nieuw pad maken](../../assets/Create_new_path.png)
 
-Hier moet u zorgvuldig het verband tussen de twee lijsten overwegen u probeert om zich aan te sluiten. In dit geval kunnen er `Many` orders gekoppeld aan `One` de `orders` tabel staat in de lijst `Many` aan de `customers` tabel geselecteerd op `One` zijde.
+Hier moet u zorgvuldig het verband tussen de twee lijsten overwegen u probeert om zich aan te sluiten. In dit geval kunnen er `Many` orders gekoppeld aan `One` de klant `orders` tabel staat in de lijst `Many` aan de `customers` tabel geselecteerd op `One` zijde.
 
 >[!NOTE]
 >
->In [!DNL Commerce Intelligence], `path` is gelijk aan `Join` in SQL.
+>In [!DNL Commerce Intelligence], `path` is gelijk aan een `Join` in SQL.
 
 Als het pad eenmaal is opgeslagen, kunt u het `Customer LTV` kolom! Zie hieronder:
 
 ![](../../assets/Customer_LTV.gif)
 
-Nu hebt u de nieuwe `Customer LTV` kolom in uw `customers` tabel, kunt u een [metrische aggregatie](#aggregate) deze kolom gebruiken (bijvoorbeeld om de gemiddelde LTV per klant te vinden). U kunt ook `group by` of `filter` door de berekende kolom in een rapport gebruikend bestaande metriek die op wordt voortgebouwd `customers` tabel.
+Nu hebt u de nieuwe `Customer LTV` kolom in uw `customers` tabel, kunt u een [metrische aggregatie](#aggregate) deze kolom gebruiken (bijvoorbeeld om de gemiddelde LTV per klant te vinden). U kunt `group by` of `filter` door de berekende kolom in een rapport gebruikend bestaande metriek die op de `customers` tabel.
 
 >[!NOTE]
 >
->Voor de laatste kolom moet u altijd een nieuwe berekende kolom maken [de dimensie toevoegen aan bestaande metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) voordat het beschikbaar is als een `filter` of `group by`.
+>Voor de laatste kolom moet u altijd een nieuwe berekende kolom maken [de dimensie toevoegen aan bestaande metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) voordat het beschikbaar is als `filter` of `group by`.
 
 Zie [berekende kolommen maken](../data-warehouse-mgr/creating-calculated-columns.md) met uw Data Warehouse Manager.
 
@@ -119,7 +119,7 @@ Begin met de onderstaande query:
 >
 >Het enige verschil met de query waarmee u eerder bent begonnen, is de toevoeging van de &#39;coupon\_code&#39; als groep door._
 
-Hetzelfde gebruiken `Total Revenue` Metrisch die u eerder creeerde, bent u nu bereid om uw rapport van opbrengst te creëren die door couponcode wordt gesegmenteerd! Kijk hieronder naar de gif die toont hoe te opstelling dit visuele rapport die gegevens van september tot november bekijkt:
+Hetzelfde gebruiken `Total Revenue` Metrisch die u eerder creeerde, bent u nu bereid om uw rapport van opbrengst tot stand te brengen die door couponcode wordt gesegmenteerd! Kijk hieronder naar de gif die toont hoe te opstelling dit visuele rapport die gegevens van september tot november bekijkt:
 
 ![Opbrengsten per couponcode](../../assets/Revenue_by_coupon_code.gif)
 
@@ -145,7 +145,7 @@ Neem een stap terug en bekijk de algemene vraag voor `Average order value`:
 | `email NOT LIKE '%@magento.com'` | Metrisch `filter` |
 | `AND created_at < '2016-12-01'`<br><br>`AND created_at >= '2016-09-01'` | Metrische tijdstempel (en tijdbereik van rapportage) |
 
-Stel nu dat u al metriek hebt ingesteld voor het berekenen van de `Total Revenue` en `Number of orders`. Aangezien deze maatstaven bestaan, kunt u de `Report Builder` en een berekening op aanvraag maken met behulp van de `Formula` functie:
+Stel nu dat u al metriek hebt ingesteld om de `Total Revenue` en `Number of orders`. Aangezien deze metriek bestaan, kunt u eenvoudig openen `Report Builder` en een berekening op aanvraag maken met de `Formula` functie:
 
 ![AOV forumula](../../assets/AOV_forumula.gif)
 

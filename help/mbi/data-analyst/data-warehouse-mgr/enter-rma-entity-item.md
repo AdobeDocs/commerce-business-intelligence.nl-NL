@@ -40,7 +40,7 @@ Elke rij in de `enterprise_rma_item_entity` table (vaak `magento_rma_item_entity
 |---|---|
 | `Return date\_requested` | Dit is de datum die de klant om het terugkomen vroeg. |
 | `Item price` | De prijs van het object. |
-| `Return item's total value (qty\_returned * price)` | Dit is de totale monetaire waarde van de items die worden geretourneerd. Dit wordt gebruikt om het totale opbrengstbedrag op het `enterprise\_rma` tabel. |
+| `Return item's total value (qty\_returned * price)` | Dit is de totale monetaire waarde van de geretourneerde items. Dit wordt gebruikt om het totale opbrengstbedrag op het `enterprise\_rma` tabel. |
 
 {style="table-layout:auto"}
 
@@ -48,8 +48,8 @@ Elke rij in de `enterprise_rma_item_entity` table (vaak `magento_rma_item_entity
 
 | **Metrische naam** | **Beschrijving** | **Constructie** |
 |---|---|---|
-| `Number of items returned` | Het aantal geretourneerde items. | Bewerkingskolom: hoeveelheid geretourneerd<br>Bewerking: Som<br>Tijdstempelkolom: Datum van terugkeer aangevraagd |
-| `Returned items' total value` | Het geldbedrag dat is geretourneerd. | Bewerkingskolom: Totale waarde van retourpost (geretourneerde hoeveelheid * prijs)<br>Bewerking: Som<br>Tijdstempelkolom: Datum van terugkeer aangevraagd |
+| `Number of items returned` | Het aantal geretourneerde items. | Bewerkingskolom: hoeveelheid geretourneerd<br>Bewerking: som<br>Tijdstempelkolom: Retourdatum aangevraagd |
+| `Returned items' total value` | Het geldbedrag dat is geretourneerd. | Bewerking kolom: Totale waarde van retourpost (geretourneerde hoeveelheid * prijs)<br>Bewerking: som<br>Tijdstempelkolom: Retourdatum aangevraagd |
 
 {style="table-layout:auto"}
 

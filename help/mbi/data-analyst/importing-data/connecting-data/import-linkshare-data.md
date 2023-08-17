@@ -1,13 +1,13 @@
 ---
 title: Koppelingsgegevens importeren
-description: Leer linkshare-gegevens importeren in [!DNL Commerce Intelligence].
+description: Leren werken met het importeren van Linkshare-gegevens in [!DNL Commerce Intelligence].
 exl-id: 1c2025a6-746c-4929-bbb1-62af1afcbc49
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -30,13 +30,13 @@ Om uw [!DNL Linkshare] gegevens in [!DNL Adobe Commerce Intelligence]U moet twee
 
 1. Wis de `Compare Year-Over-Year Data` selectievakje.
 
-1. Onder `Data Type`, selecteert u `Transaction Date`.
+1. Selecteer onder `Data Type` de optie `Transaction Date`.
 
    ![importeren\_linkshare\_data.png](../../../assets/importing_linkshare_data.png)
 
-1. Klikken **[!UICONTROL View Report]**.
+1. Klik op **[!UICONTROL View Report]**.
 
-1. Klikken **[!UICONTROL Download]**.
+1. Klik op **[!UICONTROL Download]**.
 
    Op dit moment kan een `.csv` en gedownload.
 

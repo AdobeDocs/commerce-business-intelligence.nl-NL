@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u [!DNL _Weergaven Data Warehouse_] sectie beschikbaar na het selecteren [!DNL Manage Data] van de hoofdwerkbalk.
+>Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u de [!DNL _Weergaven Data Warehouse_] sectie beschikbaar na het selecteren [!DNL Manage Data] van de hoofdwerkbalk.
 
 De rapportbouwer staat u toe om tendensen in tijd gemakkelijk te zien en perspectief voor tijdsperioden te veranderen u kunt willen vergelijken. Dit onderwerp toont hoe te opstelling een dashboard om een niveau dieper te gaan om u toe te staan om rapporten voor week over week, maand over maand en jaar over jaaranalyse te creëren.
 
@@ -59,7 +59,7 @@ Geen.
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Time options]: `Time range (Custom)`: `2 years ago to 1 year ago`
 
-   * [!UICONTROL Show top/bottom]: Top 100% gesorteerd op **`created_at (month-day)`***
+   * [!UICONTROL Show top/bottom]: bovenste 100%, gesorteerd op **`created_at (month-day)`***
 
 * Metrisch `A`: `This year`
 * Metrisch `B`: `Last year`
@@ -76,7 +76,7 @@ Geen.
    * [!UICONTROL Metric]: `Number of orders`
    * Tijdopties: `Time range (Custom)`: `2 months ago to 1 month ago`
 
-   * Boven/onder tonen: Top 100% gesorteerd op **`created_at (day of month)`***
+   * Boven/onder tonen: Boven 100% gesorteerd op **`created_at (day of month)`***
 
 * Metrisch `A`: Deze maand*
 * Metrisch `B`: Vorige maand*
@@ -87,13 +87,13 @@ Geen.
 * 
   [!UICONTROL Chart Type]: Line
 
-* **WoW-diagram**
+* **W-diagram**
    * [!UICONTROL Metric]: `Number of orders`
 
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Time options]: `Time range (Custom)`: `2 weeks ago to 1 week ago`
 
-   * [!UICONTROL Show top/bottom]: Top 100% gesorteerd op `created_at (day of week)`
+   * [!UICONTROL Show top/bottom]: bovenste 100%, gesorteerd op `created_at (day of week)`
 
 * Metrisch `A`: `This week`
 * Metrisch `B`: `Last week`
@@ -110,7 +110,7 @@ Geen.
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Time options]: `Time range (Custom)`: `2 days ago to 1 day ago`
 
-   * [!UICONTROL Show top/bottom]: Top 100% gesorteerd op `created_at (hour of day)`
+   * [!UICONTROL Show top/bottom]: bovenste 100%, gesorteerd op `created_at (hour of day)`
 
 * Metrisch `A`: `Today`
 * Metrisch B: `Yesterday`

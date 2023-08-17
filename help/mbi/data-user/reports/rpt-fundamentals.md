@@ -49,8 +49,8 @@ Op een hoger niveau, moet u weten waar te om deze gegevens in het gegevensbestan
 
 Op een meer korrelig niveau, moet u de nauwkeurige gegevensgebieden identificeren die voor deze analyse worden gebruikt:
 
-* De gegevenslijst en de kolom die de registratiedatum van een klant bevatten: bijvoorbeeld `user.created\_at`
-* De gegevenstabel en de kolom die een aankoopdatum bevatten: bijvoorbeeld `order.created\_at`
+* De datatabel en de kolom die de registratiedatum van een klant bevatten: bijvoorbeeld `user.created\_at`
+* De gegevenstabel en de kolom die een aankoopdatum bevatten, bijvoorbeeld `order.created\_at`
 
 ## Gegevenskolommen maken voor analyse
 
@@ -58,13 +58,13 @@ Naast de bovenstaande native gegevenskolommen hebt u ook een set berekende gegev
 
 * `Customer's first purchase date` die een specifieke gebruiker terugkeert `MIN(order.created_at`)
 
-Dat wordt dan gebruikt om tot stand te brengen:
+Dat wordt vervolgens gebruikt om:
 
-* `Time between a customer's registration date and first purchase date`, die de tijd retourneert die een specifieke gebruiker heeft tussen de registratie en de eerste aankoopdatum verstreken. Dit is de basis voor metrisch later.
+* `Time between a customer's registration date and first purchase date`, die de tijd retourneert die een specifieke gebruiker heeft tussen de registratie en de eerste aankoopdatum. Dit is de basis voor metrisch later.
 
 Beide velden moeten op gebruikersniveau worden gemaakt (bijvoorbeeld op de `user` tabel). Hierdoor kan de gemiddelde analyse door de gebruikers worden genormaliseerd (met andere woorden, de noemer in deze gemiddelde berekening is het aantal gebruikers).
 
-Dit is waar [!DNL Commerce Intelligence] stappen in! U kunt uw [!DNL Commerce Intelligence] Data Warehouse om de bovenstaande kolommen te maken. Neem contact op met het team van Adobe-analisten en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt ook de opdracht [Kolomeditor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
+Hier [!DNL Commerce Intelligence] stappen in! U kunt uw [!DNL Commerce Intelligence] Data Warehouse om de bovenstaande kolommen te maken. Neem contact op met de analist van de Adobe en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt ook de opdracht [Kolomeditor](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 Het is aan te raden te vermijden dat u deze berekende gegevensvelden rechtstreeks in uw database maakt, aangezien dit een onnodige belasting voor uw productieservers betekent.
 
@@ -94,7 +94,7 @@ Ga gewoon naar elk dashboard en [een rapport maken](../../data-user/reports/ess-
 
 ### `Visual Report Builder` {#visualrb}
 
-[De `Visual Report Builder`](../../data-user/reports/ess-rpt-build-visual.md) is de eenvoudigste manier om uw gegevens te visualiseren. Als u niet vertrouwd met SQL bent of u een rapport wilt snel tot stand brengen, is Visual Report Builder uw beste weddenschap. Met slechts een paar klikken, kunt u metriek toevoegen, uw gegevens segmenteren, en rapporten tot stand brengen aan over uw organisatie. Deze optie is ideaal voor zowel beginners als deskundigen, aangezien hiervoor geen technische expertise vereist is.
+[De `Visual Report Builder`](../../data-user/reports/ess-rpt-build-visual.md) is de eenvoudigste manier om uw gegevens te visualiseren. Als u niet vertrouwd met SQL bent of u een rapport wilt snel tot stand brengen, is de Visuele Report Builder uw beste weddenschap. Met slechts een paar klikken, kunt u metriek toevoegen, uw gegevens segmenteren, en rapporten tot stand brengen aan over uw organisatie. Deze optie is ideaal voor zowel beginners als deskundigen, aangezien hiervoor geen technische expertise vereist is.
 
 |  |  |
 |--- |--- |
@@ -107,11 +107,11 @@ Ga gewoon naar elk dashboard en [een rapport maken](../../data-user/reports/ess-
 
 #### Beschrijvingen toevoegen aan rapporten
 
-Bij het maken van rapporten die worden gedeeld met andere teamleden, raadt Adobe aan beschrijvingen toe te voegen waarmee andere gebruikers uw analyse beter kunnen begrijpen.
+Wanneer het creëren van rapporten die met andere leden van uw team worden gedeeld, adviseert de Adobe beschrijvingen toe te voegen die andere gebruikers toestaan om uw analyse beter te begrijpen.
 
 1. Klikken **[!UICONTROL i]** boven aan een rapport.
 1. Voer in het tekstvak een beschrijving in.
-1. Klikken **[!UICONTROL Save Description]**.
+1. Klik op **[!UICONTROL Save Description]**.
 
 Zie hieronder:
 
@@ -121,7 +121,7 @@ Zie hieronder:
 
 Wilt u een rapport opnemen in een presentatie of document? Elk rapport kan als een afbeelding worden opgeslagen (in de PNG-, PDF- of SVG-indeling) met de opdracht `Report Options` in de rechterbovenhoek van elk rapport.
 
-1. Klik op het tandwielpictogram in de rechterbovenhoek van een willekeurig rapport.
+1. Klik op het tandwielpictogram in de rechterbovenhoek van een rapport.
 1. Selecteer in het vervolgkeuzemenu de optie `Enlarge`.
 1. Wanneer het rapport wordt vergroot, klikt u op **[!UICONTROL Download]** in de rechterbovenhoek van het rapport.
 1. Selecteer de gewenste afbeeldingsindeling in het vervolgkeuzemenu. Het downloaden begint direct.

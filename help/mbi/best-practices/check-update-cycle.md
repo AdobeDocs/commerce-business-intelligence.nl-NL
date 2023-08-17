@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Voortgang van cyclus bijwerken
 
-Wanneer u zich aanmeldt bij uw [!DNL Adobe Commerce Intelligence] dashboard, er zijn verscheidene manieren om de status van uw laatste updatecyclus te controleren. Het hangt allemaal af van het type [gebruikersmachtigingen](../administrator/user-management/user-management.md) dat hebt u.
+Wanneer u zich aanmeldt bij [!DNL Adobe Commerce Intelligence] dashboard, er zijn verscheidene manieren om de status van uw laatste updatecyclus te controleren. Het hangt allemaal af van het type [gebruikersmachtigingen](../administrator/user-management/user-management.md) dat hebt u.
 
 ## Waarom zou ik de status van de Update Cycle controleren?
 

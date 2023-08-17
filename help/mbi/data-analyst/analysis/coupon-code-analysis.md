@@ -75,7 +75,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
          * `A`: `Orders we count`
          * `B`: `Customer's order number = 1`
 
-   * **Levenslang aantal gebruikte coupons van de klant**
+   * **Levenslang aantal gebruikte coupons van klant**
       * [!UICONTROL Column type]: `Many to One => COUNT`
       * [!UICONTROL Path]: `sales\_flat\_order.customer\_id = customer\_entity.entity\_id`
       * [!UICONTROL Filter]:
@@ -128,7 +128,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
    * **De eerste bestelling van de klant is voorzien van een coupon? (Coupon/Geen coupon)** **-** gemaakt door analist als onderdeel van uw \[COUPON ANALYSE\]-ticket
    * **Het coupon van de eerste bestelling van de klant**{:}**-** gemaakt door analist als onderdeel van uw \[COUPON ANALYSE\]-ticket
 
-* **Levenslang aantal gebruikte coupons van de klant**{:}**-** gemaakt door analist als onderdeel van uw \[COUPON ANALYSE\]-ticket
+* **Levenslang aantal gebruikte coupons van klant**{:}**-** gemaakt door analist als onderdeel van uw \[COUPON ANALYSE\]-ticket
 * **Klanten die geld aankopen of klanten die geen coupon kopen**
    * [!UICONTROL Column type]: `Same Table => CALCULATION`
    * [!UICONTROL Inputs]:
@@ -159,7 +159,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 ## Metrisch
 
-* **Koopkorting**
+* **Bedrag aan couponkorting**
    * `Orders we count`
    * `Order has coupon applied? (Coupon/No coupon)= Coupon`
 
@@ -208,7 +208,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * **Gemiddelde inkomsten tijdens de levensduur: Coupon Acq. (leeftijd van 90+ dagen)**
    * [!UICONTROL Metric]: `Average lifetime revenue`
    * [!UICONTROL Filter]:
-      * De eerste bestelling van de klant bevatte een coupon (Coupon/No Coupon) = Coupon
+      * De eerste bestelling van de klant bevatte een coupon (coupon/Geen coupon) = Coupon
 
 * Metrisch `A`: `Average lifetime revenue (at least 3 months age)`
 * [!UICONTROL Time period]: `X years ago to 90 days ago`
@@ -244,14 +244,14 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 >
 >Als u veel couponcodes hebt, zoals veel clients doen, wilt u een Top/Bottom toepassen, zoals Top 10, gesorteerd op Gem. levenslange inkomsten
 
-* **Waarschijnlijk herhalingsvolgorde: Overnames van coupons**
+* **Waarschijnlijk herhalingsbestelling: couponaankopen**
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Filter]:
-      * De eerste bestelling van de klant bevatte een coupon (Coupon/No Coupon) = Coupon
+      * De eerste bestelling van de klant bevatte een coupon (coupon/Geen coupon) = Coupon
 
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Filter]:
-      * De eerste bestelling van de klant bevatte een coupon (Coupon/No Coupon) = Coupon
+      * De eerste bestelling van de klant bevatte een coupon (coupon/Geen coupon) = Coupon
       * Is de laatste bestelling van de klant? = Nee
    * 
      [!UICONTROL-formule]: `B/A`
@@ -268,7 +268,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * [!UICONTROL Group by]: `Customer's order number`
 * [!UICONTROL Chart type]: `Bar chart`
 
-* **Herhalingsvolgorde: Niet-couponaankopen**
+* **Herhalingswaarschijnlijkheid van bestelling: Niet-couponaankopen**
    * [!UICONTROL Metric]: `Number of orders`
    * [!UICONTROL Filter]:
       * De eerste bestelling van de klant bevatte een coupon (Coupon/No Coupon) = Geen coupon
@@ -370,7 +370,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * bestelnummer van de klant = 1
       * Aantal opdrachten met deze coupon > 10
 
-   * [!UICONTROL Formula]: `B-C` (indien C negatief is); B+C (als C positief is)
+   * [!UICONTROL Formula]: `B-C` (als C negatief is); B+C (als C positief is)
    * 
      [!UICONTROL-indeling]: `Currency`
 

@@ -37,7 +37,7 @@ In het bovenstaande voorbeeld wordt de kolom `Owner's event number` is een `Even
 
 Houd bijvoorbeeld rekening met alle rijen waarin `owner_id = A`. De eerste rij in de tabel is de oudste tijdstempel voor deze eigenaar, gevolgd door de derde rij in de tabel, gevolgd door de vierde rij in de tabel.
 
-**mechanisch**
+**Mechanica**
 
 Hier volgen enkele instructies voor het maken van een `Event Number` kolom:
 
@@ -47,12 +47,12 @@ Hier volgen enkele instructies voor het maken van een `Event Number` kolom:
 
 1. Klikken **[!UICONTROL Create a Column]** en kiest u `EVENT_NUMBER (…)` kolomtype: onder de `Same Table` sectie.
 
-1. De eerste vervolgkeuzelijst `Event Owner` geeft de entiteit aan waarvoor de rang moet worden bepaald. Wanneer `Customer's order number`, een klant-id zoals `customer_id` of `customer_email` zou `Event Owner`.
+1. De eerste vervolgkeuzelijst `Event Owner` geeft de entiteit aan waarvoor de rang moet worden bepaald. Wanneer een `Customer's order number`, een klant-id zoals `customer_id` of `customer_email` zou `Event Owner`.
 
-1. De tweede vervolgkeuzelijst `Event Rank` Hiermee geeft u de kolom op die de volgorde afdwingt waarmee de positie van de rij wordt bepaald. Wanneer `Customer's order number`de `created_at` timestamp zou `Event Rank`.
+1. De tweede vervolgkeuzelijst `Event Rank` Hiermee geeft u de kolom op die de volgorde afdwingt waarmee de positie van de rij wordt bepaald. Wanneer een `Customer's order number`de `created_at` timestamp zou `Event Rank`.
 
 1. Onder de `Options` In het vervolgkeuzemenu kunt u filters toevoegen om te voorkomen dat rijen in overweging worden genomen. De uitgesloten rijen hebben een `NULL` waarde voor deze kolom.
 
-1. Geef een naam op voor de kolom en klik op **[!UICONTROL Save]**.
+1. Geef de kolom een naam en klik op **[!UICONTROL Save]**.
 
 1. De kolom is beschikbaar voor gebruik _onmiddellijk._

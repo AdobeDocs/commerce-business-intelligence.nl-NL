@@ -27,4 +27,4 @@ Als u de dashboards van die gebruiker slechts nodig hebt in een verschillend geb
 
 1. Gebruik het verwijderde e-mailadres van de gebruiker om een nieuwe gebruiker te maken [!DNL Commerce Intelligence] gebruiker.
 1. [Ondersteuning op de hoogte stellen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) nadat u de gebruiker hebt gemaakt. Met Ondersteuning worden de dashboards naar uw account overgebracht.
-1. Nadat de Steun van Adobe u van de overdracht op de hoogte brengt, kunt u de gebruiker opnieuw schrappen.
+1. Nadat de Steun van de Adobe u van de overdracht op de hoogte brengt, kunt u de gebruiker opnieuw schrappen.

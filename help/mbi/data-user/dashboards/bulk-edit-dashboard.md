@@ -7,7 +7,7 @@ feature: Commerce Tables, Data Warehouse Manager, Dashboards
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Dit gezegd hebbende, bedenk dit - *Moeten deze veranderingen permanent zijn?* Al
 
 1. In de `Replace With` veld, typt u de woorden of tekens die in de plaats moeten komen van `Find` veld.
 
-1. Klikken **[!UICONTROL Update Reports]**.
+1. Klik op **[!UICONTROL Update Reports]**.
 
 Voorbeeld:
 
@@ -51,7 +51,7 @@ Voorbeeld:
 
 1. Typ de woorden of tekens die u aan uw diagrammen wilt toevoegen.
 
-1. Klikken **[!UICONTROL Update Reports]**.
+1. Klik op **[!UICONTROL Update Reports]**.
 
 Voorbeeld:
 
@@ -65,7 +65,7 @@ Voorbeeld:
 
 1. Nieuwe instellen `Start/End Date` en `Time Interval`. U kunt deze velden ook ongewijzigd laten.
 
-1. Klikken **[!UICONTROL Update Reports]**.
+1. Klik op **[!UICONTROL Update Reports]**.
 
 Voorbeeld:
 

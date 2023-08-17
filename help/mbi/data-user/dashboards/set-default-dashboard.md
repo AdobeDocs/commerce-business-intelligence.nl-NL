@@ -19,7 +19,7 @@ Het standaarddashboard is het eerste dashboard dat u bij het openen ziet [!DNL C
 
 1. Klikken **[!UICONTROL Make Default]** in de vervolgkeuzelijst.
 
-1. Klik op **[!UICONTROL Yes]** om het standaarddashboard te wijzigen.
+1. Wanneer de bevestigingsprompt wordt weergegeven, klikt u op **[!UICONTROL Yes]** om het standaarddashboard te wijzigen.
 
 Dit is nu uw nieuwe standaarddashboard.
 

@@ -27,7 +27,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [!DNL [Facebook Ads]]
 
 **Oorspronkelijke architectuur:** Om uw uitgaven uit diverse bronnen samen te brengen, zoals [!DNL Facebook Ads] of [!DNL Google Adwords], raadt Adobe aan een **geconsolideerde tabel** van al je advertentie-uitgaven. U hebt een analist nodig om deze stap voor u te voltooien. Als dat niet het geval is, [een supportverzoek indienen](../../guide-overview.md#Submitting-a-Support-Ticket) met het onderwerp `[MARKETING ROI ANALYSIS]`en een analist maakt deze tabel.
 
-**Nieuwe architectuur:** U kunt het voorbeeld volgen in [Deze analysebibliotheek](../../data-analyst/data-warehouse-mgr/create-dw-views.md) onderwerp. De geconsolideerde Lijsten zijn nu genoemd geworden Mening van de Data Warehouse over de nieuwe architectuur.
+**Nieuwe architectuur:** U kunt in [deze analysebibliotheek](../../data-analyst/data-warehouse-mgr/create-dw-views.md) onderwerp. De geconsolideerde Lijsten zijn nu genoemd geworden Mening van de Data Warehouse over de nieuwe architectuur.
 
 ## Berekende kolommen
 
@@ -55,7 +55,7 @@ Te maken kolommen
       * Selecteer een definitie: Samengevoegde kolom
       * Selecteer een [!UICONTROL table]: `ecommerce####`
       * Selecteer een [!UICONTROL column]: `medium`
-      * [!UICONTROL Path]: sales_flat_order.increment_id = e-commerce####.transactionId
+      * [!UICONTROL Path]: sales_flat_order.increment_id = ecommerce####.transactionId
 
    * **`Order's GA source`**
       * Selecteer een definitie: Samengevoegde kolom
@@ -77,7 +77,7 @@ Te maken kolommen
    * Selecteer een definitie: `Max`
    * Selecteer een [!UICONTROL table]: `sales_flat_order`
    * Selecteer een [!UICONTROL column]: `Order's GA source`
-   * [!UICONTROL Path]: sales_flat_order.customer_id = customer_entiteit.entiteit_id
+   * [!UICONTROL Path]: verkoop_flat_order.customer_id = customer_entiteit.entiteit_id
    * [!UICONTROL Filter]:
       * `Orders we count`
       * `Customer's order number = 1`
@@ -225,7 +225,7 @@ Te maken kolommen
       * `User's first order's medium IN cpc, ppc`
       * Filterlogica: ([`A`] OF [`B`] OF [`C`]) EN [`D`]
 
-   * [!UICONTROL Metric]: Gemiddeld aantal orders gedurende de looptijd
+   * [!UICONTROL Metric]: Gemiddeld aantal orders tijdens de levensduur
    * [!UICONTROL Filters]:
       * `User's first order's source LIKE %google%`
       * `User's first order's source LIKE %facebook%`

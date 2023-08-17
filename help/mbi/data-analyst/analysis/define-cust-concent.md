@@ -21,7 +21,7 @@ Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-ca
 
 U moet eerst een bestand uploaden dat alleen een primaire sleutel met de waarde één bevat. Hierdoor kunnen enkele noodzakelijke berekende kolommen voor de analyse worden gemaakt.
 
-U kunt [het uploader van het bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om het bestand op te maken.
+U kunt [de bestandsuploader](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om uw bestand op te maken.
 
 ## Berekende kolommen
 
@@ -55,7 +55,7 @@ Te maken kolommen
 * Eigenaar van gebeurtenis - `Number of customers`
 * Status van gebeurtenis - `Customer's lifetime revenue`
 
-* Inkomenspercentiel van de klant
+* Inkomstenpercentage van de klant
 * [!UICONTROL Column type]: – `Same table > Calculation`
 * [!UICONTROL Inputs]: – `(input) Ranking by customer lifetime revenue`, `Number of customers`
 * [!UICONTROL Calculation]: - **case when A is null then null else (A/B)* 100 einde **
@@ -73,7 +73,7 @@ Te maken kolommen
 * Gebeurtenisrack - `Customer's lifetime revenue`
 * Filter - `Customer's order number = 1`
 
-* Inkomenspercentiel van de klant
+* Inkomstenpercentage van de klant
 * [!UICONTROL Column type]: – `Same table > Calculation`
 * [!UICONTROL Inputs]: – `(input) Ranking by customer lifetime revenue`, `Number of customers`
 * [!UICONTROL Calculation]: - **case when A is null then null else (A/B)* 100 einde **
@@ -81,7 +81,7 @@ Te maken kolommen
 
 >[!NOTE]
 >
->De gebruikte percentielen zijn zelfs splitsingen van klanten, die het xth percentiel van uw klantenbasis vertegenwoordigen. Elke klant wordt geassocieerd met een geheel van 1 tot 100, dat van als hun levenopbrengst kan worden gedacht *rangschikken*. Bijvoorbeeld als het opbrengstpercentiel van de Klant voor een specifieke klant is **5**, bevindt deze klant zich in de ***vijfde percentiel*** van alle klanten in termen van levensinkomsten.
+>De gebruikte percentielen zijn zelfs splitsingen van klanten, die het xth percentiel van uw klantenbasis vertegenwoordigen. Elke klant wordt geassocieerd met een geheel van 1 tot 100, dat van als hun levenopbrengst kan worden gedacht *rangschikken*. Bijvoorbeeld als het inkomstenpercentiel van de klant voor een specifieke klant is **5**, bevindt deze klant zich in de ***vijfde percentiel*** van alle klanten in termen van levensinkomsten.
 
 ## Metrisch
 
@@ -93,7 +93,7 @@ Te maken kolommen
 
 ## Rapporten
 
-* **Concentratie van de klant**
+* **Klantenconcentratie**
 * [!UICONTROL Metric]: `Total customer lifetime value`
 * [!UICONTROL Filter]: `Customer's revenue percentile IS NOT NULL`
 

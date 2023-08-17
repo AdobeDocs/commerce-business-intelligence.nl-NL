@@ -23,19 +23,19 @@ Met [!DNL Mixpanel]kunt u analyseren hoe gebruikers door uw websites en apps nav
 
 Uw [!DNL Mixpanel] gegevens naar [!DNL Commerce Intelligence] een eenvoudig proces in drie stappen:
 
-1. [Open de [!DNL Mixpanel] aanmeldingspagina in [!DNL Commerce Intelligence]](#stepone)
-1. [Uw [!DNL Mixpanel] API-referenties](#steptwo)
+1. [Open de [!DNL Mixpanel] pagina met referenties in [!DNL Commerce Intelligence]](#stepone)
+1. [Uw gegevens ophalen [!DNL Mixpanel] API-referenties](#steptwo)
 1. [Voer uw [!DNL Mixpanel] API-referenties in [!DNL Commerce Intelligence]](#stepthree)
 
 Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen, één voor [!DNL Commerce Intelligence] en de andere [!DNL Mixpanel] account.
 
-## Het openen van de [!DNL Mixpanel] aanmeldingspagina {#stepone}
+## Het openen van de [!DNL Mixpanel] pagina met referenties {#stepone}
 
 Aan de slag:
 
 1. Ga naar de `Connections` pagina onder **[!DNL Manage Data** > **Connections]**.
 
-1. Klikken **[!UICONTROL Add a New Source]**, die zich aan de rechterkant van het scherm boven het `Data Sources` tabel.
+1. Klikken **[!UICONTROL Add a New Source]**, die zich rechts boven het scherm bevinden `Data Sources` tabel.
 
 1. Klik op de knop [!DNL Mixpanel] en wordt de pagina met referenties geopend.
 
@@ -55,12 +55,12 @@ Als u zich niet hebt aangemeld bij uw [!DNL Mixpanel] nog, doe dit en doe dan he
 
 Houd dit open, u hebt het nodig om dit op te pakken.
 
-## Uw [!DNL Mixpanel] API-referenties in [!DNL Commerce Intelligence] {#stepthree}
+## Het ingaan van uw [!DNL Mixpanel] API-referenties in [!DNL Commerce Intelligence] {#stepthree}
 
-1. Kopieer de `API Key` en `Secret` in de [!DNL Mixpanel] aanmeldingspagina in [!DNL Commerce Intelligence].
+1. De `API Key` en `Secret` in de [!DNL Mixpanel] pagina met referenties in [!DNL Commerce Intelligence].
 1. Klikken **[!UICONTROL Connect to Mixpanel]** om de installatie te voltooien.
 
-Als de verbinding is gelukt, kunt u _Succes!_ wordt boven aan de pagina weergegeven.
+Als de verbinding is gelukt, kunt u een _Succes!_ wordt boven aan de pagina weergegeven.
 
 ### Verwante
 

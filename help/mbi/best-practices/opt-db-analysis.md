@@ -39,11 +39,11 @@ Als u een record bijwerkt door een handeling van een gebruiker, moet u de inform
 
 Als de waarden van rijen van een tabel in de loop der tijd veranderen, bijvoorbeeld **order\_status** wijzigingen van`processing` tot `complete`, omvat een **bijgewerkt\_op** kolom om op te nemen wanneer de recentste verandering voorkomt. Zorg ervoor dat een **bijgewerkt\_op** Deze waarde is beschikbaar wanneer u de nieuwe gegevensrij voor het eerst invoegt, wanneer de **bijgewerkt\_op** datum komt overeen met de **gemaakt\_op** datum.
 
-Naast optimalisering voor analyse, **bijgewerkt\_op** ook kunt u kolommen gebruiken [Incrementele replicatiemethoden](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), waardoor de duur van de updatecycli kan worden verkort.
+Naast optimalisering voor analyse, **bijgewerkt\_op** ook kunt u kolommen gebruiken [Methoden voor incrementele replicatie](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), waardoor de duur van de updatecycli kan worden verkort.
 
 ## Ophaalbron van gebruiker opslaan
 
-Een van de meest voorkomende fouten is de [aankoopbron gebruiker](../data-analyst/analysis/google-track-user-acq.md) (UAS) die niet in het operationele gegevensbestand wordt opgeslagen. In de meeste situaties waarin dit een probleem is, wordt UAS alleen gevolgd [!DNL Google Analytics] of een ander hulpprogramma voor webanalyse. Hoewel deze hulpmiddelen waardevol kunnen zijn, zijn er enkele nadelen om UAS in hen uitsluitend op te slaan; U kunt bijvoorbeeld geen gegevens op gebruikersniveau uit deze gereedschappen extraheren. Wanneer dat mogelijk is, is het meestal een moeilijk proces. Het zou gemakkelijk moeten zijn om deze informatie te krijgen en het met gegevens uit andere bronnen, zoals gedragsinformatie en transactionele informatie te combineren die ook in uw gegevensbestand wordt opgeslagen.
+Een van de meest voorkomende fouten is de [aankoopbron voor gebruiker](../data-analyst/analysis/google-track-user-acq.md) (UAS) die niet in het operationele gegevensbestand wordt opgeslagen. In de meeste situaties waarin dit een probleem is, wordt de UAS alleen gevolgd [!DNL Google Analytics] of een ander hulpprogramma voor webanalyse. Hoewel deze gereedschappen waardevol kunnen zijn, zijn er enkele nadelen om UAS uitsluitend in de gereedschappen op te slaan. U kunt bijvoorbeeld geen gegevens op gebruikersniveau uit deze gereedschappen extraheren. Wanneer dat mogelijk is, is het meestal een moeilijk proces. Het zou gemakkelijk moeten zijn om deze informatie te krijgen en het met gegevens uit andere bronnen, zoals gedragsinformatie en transactionele informatie te combineren die ook in uw gegevensbestand wordt opgeslagen.
 
 Het opslaan van UAS in uw eigen gegevensbestand is vaak de grootste verbetering die een online zaken aan zijn analytische mogelijkheden kan maken. Dit staat voor de analyse van verkoop, gebruikersovereenkomst, terugbetalingsperioden, waarde van het klantenleven, prijs, en andere kritieke metriek door UAS toe. [Deze gegevens zijn van cruciaal belang wanneer u bepaalt waar u marketingmiddelen wilt investeren](../data-analyst/analysis/most-value-source-channel.md).
 
@@ -55,14 +55,14 @@ Te veel bedrijven richten zich uitsluitend op het vinden van kanalen die nieuwe 
 
 A [primaire sleutel](https://en.wikipedia.org/wiki/Unique_key) is een onveranderlijke kolom (of een reeks kolommen) die unieke waarden binnen een lijst veroorzaakt. Primaire toetsen zijn ongelooflijk belangrijk, omdat ze ervoor zorgen dat uw tabellen correct worden gerepliceerd in [!DNL Commerce Intelligence].
 
-Gebruik bij het bouwen van primaire sleutels een gegevenstype voor gehele getallen voor de kolom die automatisch wordt verhoogd. Adobe raadt u aan zoveel mogelijk het gebruik van meerdere primaire kolomsleutels te vermijden.
+Gebruik bij het bouwen van primaire sleutels een gegevenstype voor gehele getallen voor de kolom die automatisch wordt verhoogd. Adobe raadt u aan om waar mogelijk meerdere kolommen met de primaire sleutel te gebruiken.
 
 Als uw tabel een SQL-weergave is, voegt u een kolom toe die als primaire sleutel kan fungeren. [!DNL Commerce Intelligence] kan deze kolom automatisch identificeren als een primaire sleutel.
 
 ### Een gegevenstype toewijzen aan uw gegevenskolom
 
-Als een gegevenskolom geen toegewezen [gegevenstype](https://en.wikipedia.org/wiki/Data_type), [!DNL Commerce Intelligence] geeft een schatting van het gegevenstype dat moet worden gebruikt. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het de steunteam van Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
+Als er geen gegevenskolom is toegewezen [gegevenstype](https://en.wikipedia.org/wiki/Data_type), [!DNL Commerce Intelligence] geeft een schatting van het gegevenstype dat moet worden gebruikt. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het team van de steun van de Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
 
 ### Voeg prefixen aan uw Lijsten van Gegevens toe als u veelvoudige Gegevensbestanden hebt
 
-Als er meerdere databases zijn verbonden met [!DNL Commerce Intelligence]Adobe raadt u aan voorvoegsels aan uw tabellen toe te voegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden waar metrische gegevens of gegevensafmetingen vandaan komen.
+Als er meerdere databases zijn verbonden met [!DNL Commerce Intelligence]Adobe raadt u aan voorvoegsels aan uw tabellen toe te voegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden van waar metrische gegevens of gegevensdimensies vandaan komen.

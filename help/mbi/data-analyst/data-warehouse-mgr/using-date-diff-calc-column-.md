@@ -33,9 +33,9 @@ A `date difference` de berekende kolom kan worden gebruikt om metrisch tot stand
 
 In het bovenstaande voorbeeld wordt `Date Difference` de kolom is `Seconds between timestamp_2 and timestamp_1` kolom. Het voert de berekening uit `timestamp_2 minus timestamp_1`.
 
-**mechanisch**
+**Mechanica**
 
-In de volgende stappen wordt beschreven hoe u een `Date Difference` kolom.
+De volgende stappen beschrijven hoe u een `Date Difference` kolom.
 
 1. Ga naar de **[!DNL Manage Data > Data Warehouse]** pagina.
 1. Navigeer naar de tabel waarop u deze kolom wilt maken.
@@ -45,7 +45,7 @@ In de volgende stappen wordt beschreven hoe u een `Date Difference` kolom.
    * Selecteren `Ending DATETIME` kolom > Kies het einddatumveld. Dit is doorgaans de gebeurtenis die later plaatsvindt
    * Selecteren `Starting DATETIME` kolom** > Kies het begindatumveld. Dit is doorgaans de gebeurtenis die eerder plaatsvindt
 
-1. Geef een naam op voor de kolom en klik op **[!UICONTROL Save]**.
+1. Geef de kolom een naam en klik op **[!UICONTROL Save]**.
 1. De kolom is beschikbaar voor gebruik *onmiddellijk*.
 
 Als voorbeeld wordt het volgende voorbeeld geconfigureerd om het `Seconds between order date and customer's creation date`:

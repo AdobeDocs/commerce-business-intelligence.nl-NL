@@ -5,7 +5,7 @@ source-wordcount: '431'
 ht-degree: 0%
 
 ---
-# Gedragscode Adobe
+# Gedragscode van de Adobe
 
 ## Onze belofte
 
@@ -18,7 +18,7 @@ Voorbeelden van gedrag dat bijdraagt tot het maken van een positieve omgeving zi
 * Het gebruiken van verwelkomings en inclusieve taal
 * Naleving van verschillende standpunten en ervaringen
 * Erg vriendelijk constructieve kritiek te aanvaarden
-* Focus op wat het beste is voor de gemeenschap
+* Focussen op wat het beste is voor de gemeenschap
 * Empathie tonen ten opzichte van andere leden van de gemeenschap
 
 Voorbeelden van onacceptabel gedrag van deelnemers zijn:
@@ -37,7 +37,7 @@ Projectbeheerders hebben het recht en de verantwoordelijkheid om opmerkingen, ve
 
 ## Toepassingsgebied
 
-Deze gedragscode is zowel van toepassing binnen projectruimten als in openbare ruimten wanneer een individu het project of zijn gemeenschap vertegenwoordigt. Voorbeelden van het vertegenwoordigen van een project of gemeenschap zijn het gebruik van een officieel e-mailadres voor een project, het posten via een officiële sociale-mediaaccount of het optreden als een aangewezen vertegenwoordiger tijdens een online- of offline-evenement. De representatie van een project kan nader worden omschreven en verduidelijkt door projectbeheerders.
+Deze gedragscode is zowel van toepassing binnen projectruimten als in openbare ruimten wanneer een individu het project of zijn gemeenschap vertegenwoordigt. Voorbeelden van het vertegenwoordigen van een project of gemeenschap zijn het gebruik van een officieel e-mailadres voor een project, het posten via een officiële sociale-mediaaccount of het optreden als een aangestelde vertegenwoordiger tijdens een online- of offlineevenement. De representatie van een project kan nader worden omschreven en verduidelijkt door de projectbeheerders.
 
 ## Handhaving
 

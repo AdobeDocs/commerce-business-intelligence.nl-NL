@@ -80,7 +80,7 @@ Hier is een visuele analyse:
 
 De analyse van de levenopbrengst die vroeger werd behandeld laat u de gemiddelde levenopbrengst van gebruikers bekijken die uit verschillende bronnen worden verworven, maar wat met totale levensinkomsten? Dit rapport staat u toe om te identificeren hoeveel algemene opbrengstgebruikers die tijdens een specifieke tijd en van een specifieke bron registreren produceren.
 
-Als u dit rapport wilt maken in de Report Builder, voegt u de opdracht `Revenue by user registration date` metrisch. Als u [gemaakt met deze metrisch](../../data-user/reports/ess-manage-data-metrics.md) al hebt, kunt u dit doen door de `Revenue` metrisch en veranderende `time stamp` aan `creation date`. Voer de volgende handelingen uit nadat u de metrische waarde hebt toegevoegd:
+Als u dit rapport wilt maken in de Report Builder, voegt u de opdracht `Revenue by user registration date` metrisch. Als u [gemaakt met deze metrisch](../../data-user/reports/ess-manage-data-metrics.md) al hebt, kunt u dit doen door de `Revenue` metrisch en veranderend `time stamp` aan `creation date`. Voer de volgende handelingen uit nadat u de metrische waarde hebt toegevoegd:
 
 1. Stel de [!UICONTROL Time Period] aan de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Time Interval] naar maandelijks.

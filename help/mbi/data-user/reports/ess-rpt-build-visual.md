@@ -1,6 +1,6 @@
 ---
-title: Visual Report Builder
-description: Leer hoe te om Visual Report Builder te gebruiken.
+title: Visuele Report Builder
+description: Leer hoe te om Visuele Report Builder te gebruiken.
 exl-id: 1101f43d-e014-4df2-be21-12d90a9d8a56
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
@@ -23,11 +23,11 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
 1. Onder [!UICONTROL Visual Report Builder], klikt u op **[!UICONTROL Create Report]** en voer de volgende handelingen uit:
 
-   * Klikken **[!UICONTROL Add Metric]**.
+   * Klik op **[!UICONTROL Add Metric]**.
 
      De beschikbare metriek kan alfabetisch of door lijst worden vermeld.
 
-     ![Visual Report Builder](../../assets/magento-bi-visual-report-builder-add-metric.png)
+     ![Visuele Report Builder](../../assets/magento-bi-visual-report-builder-add-metric.png)
 
    * Kies de optie [metrisch](../../data-user/reports/ess-manage-data-metrics.md) dat beschrijft de reeks gegevens die u voor het rapport wilt gebruiken.
 
@@ -35,7 +35,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      Het overzicht op de linkerzijde toont de naam van huidige metrisch, die door het resultaat van om het even welke berekeningen op kolomgegevens wordt gevolgd die in metrisch worden gespecificeerd. In dit voorbeeld geeft het overzicht het totale aantal klanten weer.
 
-     ![Visual Report Builder](../../assets/magento-bi-report-builder-untitled.png)
+     ![Visuele Report Builder](../../assets/magento-bi-report-builder-untitled.png)
 
 1. Houd de muisaanwijzer boven elk gegevenspunt op de regel in het diagram. Elk gegevenspunt toont het totale aantal nieuwe klanten die zich tijdens die maand hebben aangemeld.
 
@@ -43,7 +43,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    **`Group By`**
 
-   De `Group By` Met besturingselementen kunt u meerdere afmetingen per groep of segment toevoegen. Dimension zijn kolommen in de tabel die kunnen worden gebruikt om de gegevens te groeperen.
+   De `Group By` Met besturingselementen kunt u meerdere afmetingen per groep of segment toevoegen. Dimensionen zijn kolommen in de tabel die kunnen worden gebruikt om de gegevens te groeperen.
 
    * Kies een van de beschikbare afmetingen in de lijst met `Group By` opties.
 
@@ -55,7 +55,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    * Klikken **[!UICONTROL Apply]** om Group By detail te sluiten.
 
-     ![Meerdere Dimension](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
+     ![Meerdere Dimensionen](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
 
    * Houd de muisaanwijzer boven een paar gegevenspunten op elke regel om het aantal klanten te zien dat de coupon tijdens het plaatsen van de eerste bestelling heeft gebruikt.
 
@@ -80,7 +80,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
    * Breng de volgende wijzigingen aan:
 
       * Als u wilt inzoomen voor een betere weergave, wijzigt u het datumbereik in `Last Full Quarter`.
-      * Onder `Select Time Interval`kiest u `Week`.
+      * Onder `Select Time Interval`, kiest u `Week`.
       * Klik op **[!UICONTROL Save]**.
 
      Het verslag bevat nu alleen de gegevens voor het laatste kwartaal, per week.
@@ -106,15 +106,15 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      {style="table-layout:auto"}
 
-1. Om het verslag `title`, vervangt de `Untitled Report` tekst boven aan de pagina met een beschrijvende titel.
+1. Om het verslag `title`, vervangt `Untitled Report` tekst boven aan de pagina met een beschrijvende titel.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** en voer de volgende handelingen uit:
 
-   * Voor `Type`, accepteert u de standaardinstelling, `Chart`.
+   * Voor `Type`, de standaardinstelling accepteren, `Chart`.
 
    * Kies de optie `Dashboard` waar het verslag beschikbaar moet zijn.
 
-   * Klikken **[!UICONTROL Save to Dashboard]**.
+   * Klik op **[!UICONTROL Save to Dashboard]**.
 
      ![Opslaan naar dashboard](../../assets/magento-bi-report-builder-save-to-dashboard.png)
 
@@ -122,6 +122,6 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    * Klikken **[!UICONTROL Go to Dashboard]** in het bericht boven aan de pagina.
 
-   * Kies in het menu de optie `Dashboards` en klik op de naam van het huidige dashboard om de lijst weer te geven. Klik vervolgens op de naam van het dashboard waar het rapport is opgeslagen.
+   * Kies in het menu `Dashboards` en klik op de naam van het huidige dashboard om de lijst weer te geven. Klik vervolgens op de naam van het dashboard waar het rapport is opgeslagen.
 
      ![Rapport in dashboard](../../assets/magento-bi-report-builder-my-dashboard.png)

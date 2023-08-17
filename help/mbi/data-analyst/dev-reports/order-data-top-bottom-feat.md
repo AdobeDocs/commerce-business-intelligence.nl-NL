@@ -17,7 +17,7 @@ U kunt meer doen in het dialoogvenster `Visual Report Builder` dan maakt u analy
 
 Dit soort het sorteren en het opdracht geven tot van gegevens kan in rapporten worden gedaan die zowel `Group By` en `Time Interval of None`. Wanneer beide elementen in een rapport zijn opgenomen, `Show Top/Bottom` boven de voorvertoning van het diagram. Met deze functie kunt u de bovenste (hoogste tot laagste) en onderste (laagste tot hoogste) gegevenspunten weergeven op basis van de parameters die u instelt.
 
-![Toon Hoogste/Onderste eigenschap in Visuele Report Builder.](../../assets/Show_Top_Bottom.png)
+![Toon Hoogste/Onderste eigenschap in de Visuele Report Builder.](../../assets/Show_Top_Bottom.png)
 
 ## Hoe gebruik ik dit? {#how}
 
@@ -41,9 +41,9 @@ Bijvoorbeeld, als u de vijf verwijzingsbronnen wilde tonen die de meeste opbreng
 
 Het gebruiken van deze eigenschap wordt gecompliceerd wanneer tHere meer dan één metrisch in een rapport is omdat elke metrisch slechts door zich of door één van de groeperingen kan worden gesorteerd.
 
-Stel dat u een rapport hebt gemaakt met beide `Revenue` en `Number of orders` metriek, gegroepeerd op verwijzingsbron. `Revenue` kan alleen worden gesorteerd op `Revenue` of de verwijzingsbron en `Number of orders` kan alleen worden gesorteerd op `Number of orders` of de verwijzingsbron.
+Stel dat u een rapport hebt gemaakt met beide `Revenue` en `Number of orders` metriek, gegroepeerd op verwijzingsbron. `Revenue` kan alleen worden gesorteerd op `Revenue` of de verwijzingsbron `Number of orders` kan alleen worden gesorteerd op `Number of orders` of verwijzing.
 
-Dit betekent dat u de `Revenue` alleen bovenaan `5` bronnen die inkomsten genereren, kunt u het aantal bestellingen niet ook aan de bovenkant tonen `5` inkomstengenererende verwijzingsbronnen. Eenvoudig gezegd: wanneer er veelvoudige metriek zijn, is de beste weddenschap om elke metrisch door het groeperen te sorteren.
+Dit betekent dat terwijl u de `Revenue` alleen bovenaan `5` bronnen die inkomsten genereren, kunt u het aantal bestellingen niet ook aan de bovenkant tonen `5` inkomstengenererende verwijzingsbronnen. Eenvoudig gezet: wanneer er veelvoudige metriek zijn, is de beste weddenschap om elke metrisch door het groeperen te sorteren.
 
 Hieronder ziet u een voorbeeld van een grafiek die de `Revenue` op zichzelf metrisch in plaats van door het groeperen. Zoals u kunt zien, creeerde het sorteren metrisch door het groeperen geen vreemd (en uiteindelijk onnuttig) rapport:
 

@@ -1,5 +1,5 @@
 ---
-title: MongoDB-gegevensmodellering
+title: MongoDB-gegevensmodellen
 description: Leer hoe u gegevenspatronen kunt vermijden die een probleem vormen.
 exl-id: 556c854b-5d7c-4f72-8ed7-5bc08d9ee5b9
 role: Admin, Data Architect, Data Engineer, User
@@ -7,7 +7,7 @@ feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce 
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
 source-wordcount: '129'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Wanneer [!DNL Adobe Commerce Intelligence] pulls in [!DNL MongoDB] gegevens, die gegevens worden omgezet in een relationeel model.
 
-Het slechte nieuws: Hoewel de meeste gegevenspatronen geen probleem vormen, zijn er een aantal die niet worden ondersteund door [!DNL Commerce Intelligence]vanwege de vertaling naar een relationeel model.
+Het slechte nieuws: hoewel de meeste gegevenspatronen geen probleem vormen, zijn er een paar die niet worden ondersteund door [!DNL Commerce Intelligence]vanwege de vertaling naar een relationeel model.
 
-Het goede nieuws: Al deze patronen kunnen worden vermeden.
+Het goede nieuws: al deze patronen kunnen worden vermeden.
 
 ## Subgeneste arrays {#subnested}
 
@@ -43,7 +43,7 @@ Als de verzameling er als volgt uitziet: [!DNL Commerce Intelligence] dupliceert
 
 ## Toetsen voor variabele objecten {#varobjectkeys}
 
-Verzamelingen die objecten met variabele-objectsleutels bevatten, worden niet gerepliceerd in [!DNL Commerce Intelligence]. Bijvoorbeeld:
+Verzamelingen met objecten met variabele-objectsleutels worden niet gerepliceerd in [!DNL Commerce Intelligence]. Bijvoorbeeld:
 
 ```bash
     {
