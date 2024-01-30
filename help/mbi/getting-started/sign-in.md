@@ -4,9 +4,9 @@ description: Meer informatie over aanmelden bij je Commerce Intelligence-account
 exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: Accounts
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 988a7bee27a0c381d1c84db960e978ca73eb3615
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 # Toegang tot uw geactiveerde [!DNL Adobe Commerce Intelligence] account
 
 Nadat u uw [!DNL Commerce Intelligence] account of [on-premise of cloud](../getting-started/onpremise-activation.md) en hebben samengewerkt met uw accountteam voor Adobe om de configuratiestappen af te ronden, kunt u zich nu aanmelden bij uw account.
-
-U kunt zich aanmelden met uw [!DNL Adobe ID] of uw [!DNL Commerce Intelligence] e-mailadres en wachtwoord.
-
-![aanmelden](../assets/sign-in.png)
 
 ## Meld u aan met uw [!DNL Adobe ID]
 
