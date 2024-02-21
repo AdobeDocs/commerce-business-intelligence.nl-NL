@@ -4,7 +4,7 @@ description: Leren gebruiken [!DNL Commerce Intelligence] -functies beschikbaar 
 breadcrumb-title: Handboek voor informatie over handel
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: Business Performance
-source-git-commit: 903e839e8bd8a4e7b6d21b6a7ebcae49f2dfe6e4
+source-git-commit: 2433a614e9858684842804a0ae29fb67f0d41ead
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 ---
 
 
-# [!DNL Commerce Intelligence] Gebruikershandleiding {#mbi}
+# [!DNL Commerce Intelligence] Handboek {#mbi}
 
-- [[!DNL Commerce Intelligence] Gebruikershandleiding](guide-overview.md)
+- [[!DNL Commerce Intelligence] Handboek](guide-overview.md)
 - [[!DNL Commerce Intelligence] Inleiding](getting-started/getting-started.md)
 - Aan de slag {#start}
    - [Onboarding](getting-started/onboarding.md)
@@ -57,10 +57,10 @@ ht-degree: 0%
       - [Gegevens standaardiseren met toewijzingstabellen](data-analyst/data-warehouse-mgr/stndrd-data-map-tables.md)
       - [SQL-query&#39;s omzetten in [!DNL Commerce Intelligence] rapporten](data-analyst/dev-reports/sql-queries-reports.md)
       - [Tabelrelaties begrijpen en evalueren](data-analyst/data-warehouse-mgr/table-relationships.md)
-      - [Het berekende datumverschil gebruiken](data-analyst/data-warehouse-mgr/using-date-diff-calc-column-.md)
+      - [Het berekende datumverschil gebruiken](data-analyst/data-warehouse-mgr/using-date-diff-calc-column.md)
       - [Werken met Dashboard Breed filteren](data-analyst/data-warehouse-mgr/using-dshbrd-wide-filter-date-ranges.md)
       - [De berekende kolom Gebeurtenisnummer gebruiken](data-analyst/data-warehouse-mgr/using-event-num-calc-column.md)
-      - [De berekende kolom Opeenvolgende vergelijking gebruiken](data-analyst/data-warehouse-mgr/using-seq-comp-calc-column-.md)
+      - [De berekende kolom Opeenvolgende vergelijking gebruiken](data-analyst/data-warehouse-mgr/using-seq-comp-calc-column.md)
    - Gemeenschappelijke handelstabellen {#tables}
       - [Inleiding](data-analyst/data-warehouse-mgr/common-mage-tables.md)
       - [[!DNL customer_entity]](data-analyst/data-warehouse-mgr/cust-ent-table.md)
