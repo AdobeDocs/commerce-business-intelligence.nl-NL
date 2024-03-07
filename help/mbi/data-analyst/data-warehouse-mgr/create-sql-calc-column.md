@@ -4,9 +4,9 @@ description: Leer hoe u geavanceerde kolommen kunt maken in de vorm van SQL-bere
 exl-id: f16e4ee4-ed73-4ddb-b701-1fe3db14346a
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, SQL Report Builder, Commerce Tables
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 8090c2e0f17f0e8d3bdec668ce546206bf024691
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Van hieruit kunt u een `Calculation` kolom door de onderstaande stappen te volge
    * `Integer` - Het gehele getal
    * `Decimal(10,2)` - een decimaal getal met 10 totale cijfers, waarvan 2 rechts van het decimaalteken
    * `String` - Elk type tekst of reeks tekens die niet-getallen gebruiken
-   * `Datetime` - yyyy-MM-dd hh:mm:ss-indeling
+   * `Datetime` - `yyyy-MM-dd hh:mm:ss` format
 
 1. Klik op **[!UICONTROL test column]**. Hierdoor wordt een lijst met vijf testwaarden gegenereerd voor elk van uw inputs en wordt het resultaat van de logica uit stap 6 voor elke set testwaarden weergegeven. Als een gedeelte van de SQL een fout genereert, wordt het juiste foutbericht geretourneerd. Voorbeeldresultaten kunnen alleen worden gegenereerd als alle invoerkolommen native velden zijn. Als om het even welke inputkolommen worden berekend kolommen, moet u de resultaten bevestigen door de kolom aan metrisch toe te voegen en in de Visuele Report Builder te bekijken
 
