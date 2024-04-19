@@ -4,9 +4,9 @@ description: Meer informatie over het analyseren van de prestaties van je coupon
 exl-id: f6565e33-18ee-4f85-ade0-fd361854475b
 role: Admin, User
 feature: Data Warehouse Manager, Reports
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: d8fc96a58b72c601a5700f35ea1f3dc982d76571
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -507,3 +507,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
 Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+
+>[!NOTE]
+>
+>Vanaf Adobe Commerce 2.4.7 kunnen klanten de **quote_coupons** en **sales_order_coupons** tabellen om inzicht te krijgen in hoe klanten meerdere coupons gebruiken.
+
+![](../../assets/multicoupon_relationship_tables.png)

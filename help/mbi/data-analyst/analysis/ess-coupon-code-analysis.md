@@ -4,9 +4,9 @@ description: Meer informatie over de couponprestaties van uw bedrijf is een inte
 exl-id: 0d486259-b210-42ae-8f79-cd91cc15c2c2
 role: Admin, User
 feature: Data Warehouse Manager, Reports
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: d8fc96a58b72c601a5700f35ea1f3dc982d76571
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -23,15 +23,19 @@ Dit onderwerp documenteert de stappen die worden vereist om deze analyse tot sta
 
 Eerst een opmerking over hoe couponcodes worden bijgehouden. Als een klant een coupon op een bestelling heeft toegepast, gebeuren er drie dingen:
 
-* Een korting wordt weerspiegeld in de `base_grand_total` hoeveelheid (uw `Revenue` metrisch in de inlichtingen van de Handel)
+* Een korting wordt weerspiegeld in de `base_grand_total` hoeveelheid (uw `Revenue` metrisch in Commerce Intelligence)
 * De couponcode wordt opgeslagen in het dialoogvenster `coupon_code` veld. Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
 * Het gedisconteerde bedrag wordt opgeslagen in `base_discount_amount`. Afhankelijk van uw configuratie kan deze waarde negatief of positief lijken.
+
+Vanaf Commerce 2.4.7 kan een klant meer dan één couponcode op een bestelling toepassen. In dit geval:
+
+* Alle toegepaste couponcodes worden opgeslagen in de `coupon_code` veld `sales_order_coupons`. De eerste toegepaste couponcode wordt ook opgeslagen in het dialoogvenster `coupon_code` veld `sales_order`. Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
 
 ## Een metrisch object maken
 
 De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de volgende stappen:
 
-* Ga naar **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
+* Navigeren naar **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
 
 * Selecteer de `sales_order`.
 * Deze maatstaf voert een **Som** op de **base_korting_amount** kolom, geordend door **created_at**.
@@ -44,7 +48,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 ## Het dashboard maken
 
 * Zodra metrisch is gecreeerd:
-   * Ga naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
+   * Navigeren naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
    * Geef het dashboard een naam, zoals `_Coupon Analysis_`.
 
 * Hier maakt u alle rapporten en voegt u deze toe.
@@ -196,3 +200,9 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
    * [!UICONTROL Chart type]: `Stacked Column`
 
 Na het bouwen van de rapporten, verwijs naar het beeld bij de bovenkant van dit onderwerp voor hoe u de rapporten op uw dashboard kunt organiseren.
+
+>[!NOTE]
+>
+>Vanaf Adobe Commerce 2.4.7 kunnen klanten de **quote_coupons** en **sales_order_coupons** tabellen om inzicht te krijgen in hoe klanten meerdere coupons gebruiken.
+
+![](../../assets/multicoupon_relationship_tables.png)
