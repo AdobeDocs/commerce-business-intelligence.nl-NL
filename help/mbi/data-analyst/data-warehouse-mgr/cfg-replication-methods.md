@@ -6,88 +6,88 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Data Import/Export
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
 
 # Replicatiemethoden configureren
 
-`Replication` methoden en [hercontroles](../data-warehouse-mgr/cfg-data-rechecks.md) worden gebruikt om nieuwe of bijgewerkte gegevens in uw gegevensbestandlijsten te identificeren. Een juiste instelling is van cruciaal belang voor zowel de nauwkeurigheid van de gegevens als de geoptimaliseerde updatetijden. Dit onderwerp concentreert zich op replicatiemethodes.
+`Replication` de methodes en [ hercontroles ](../data-warehouse-mgr/cfg-data-rechecks.md) worden gebruikt om nieuwe of bijgewerkte gegevens in uw gegevensbestandlijsten te identificeren. Een juiste instelling is van cruciaal belang voor zowel de nauwkeurigheid van de gegevens als de geoptimaliseerde updatetijden. Dit onderwerp concentreert zich op replicatiemethodes.
 
-Wanneer nieuwe tabellen worden gesynchroniseerd in het dialoogvenster [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), wordt automatisch een replicatiemethode gekozen voor de tabel. Het begrip van de diverse replicatiemethodes, hoe de lijsten worden georganiseerd, en hoe het gedrag van de lijstgegevens u toestaat om de beste replicatiemethode voor uw lijsten te kiezen.
+Wanneer de nieuwe lijsten in de [ Manager van de Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) worden gesynchroniseerd, wordt een replicatiemethode automatisch gekozen voor de lijst. Het begrip van de diverse replicatiemethodes, hoe de lijsten worden georganiseerd, en hoe het gedrag van de lijstgegevens u toestaat om de beste replicatiemethode voor uw lijsten te kiezen.
 
 ## Wat zijn de replicatiemethoden?
 
-`Replication` de methoden vallen onder drie groepen - `Incremental`, `Full Table`, en `Paused`.
+`Replication` -methoden vallen in drie groepen: `Incremental` , `Full Table` en `Paused` .
 
-[**[!UICONTROL Incremental Replication]**](#incremental) betekent dat [!DNL Commerce Intelligence] Hiermee kopieert u alleen nieuwe of bijgewerkte gegevens bij elke replicatiepoging. Aangezien deze methoden de latentie aanzienlijk verkleinen, wordt het aanbevolen deze zo veel mogelijk te gebruiken.
+[**[!UICONTROL Incremental Replication]**](#incremental) betekent dat in [!DNL Commerce Intelligence] alleen nieuwe of bijgewerkte gegevens worden gerepliceerd bij elke replicatiepoging. Aangezien deze methoden de latentie aanzienlijk verkleinen, wordt het aanbevolen deze zo veel mogelijk te gebruiken.
 
-[**[!UICONTROL Full Table Replication]**](#fulltable) betekent dat [!DNL Commerce Intelligence] repliceert de volledige inhoud van een lijst op elke replicatiepoging. Vanwege de mogelijk grote hoeveelheid gegevens die moet worden gerepliceerd, kunnen deze methoden de latentie en updatetijden verhogen. Als een lijst om het even welke timestamped of datetime kolommen bevat, adviseert de Adobe gebruikend een Incrementele methode in plaats daarvan.
+[**[!UICONTROL Full Table Replication]**](#fulltable) betekent dat [!DNL Commerce Intelligence] de volledige inhoud van een tabel dupliceert bij elke replicatiepoging. Vanwege de mogelijk grote hoeveelheid gegevens die moet worden gerepliceerd, kunnen deze methoden de latentie en updatetijden verhogen. Als een lijst om het even welke timestamped of datetime kolommen bevat, adviseert de Adobe gebruikend een Incrementele methode in plaats daarvan.
 
-**[!UICONTROL Paused]** Hiermee wordt aangegeven dat de replicatie voor de tabel wordt gestopt of gepauzeerd. [!DNL Commerce Intelligence] controleert niet nieuwe of bijgewerkte gegevens tijdens een updatecyclus; dit betekent dat geen gegevens van een lijst worden herhaald die dit als zijn Methode van de Replicatie heeft.
+**[!UICONTROL Paused]** geeft aan dat replicatie voor de tabel is gestopt of gepauzeerd. [!DNL Commerce Intelligence] controleert niet op nieuwe of bijgewerkte gegevens tijdens een updatecyclus; dit betekent dat geen gegevens van een lijst worden herhaald die dit als zijn Methode van de Replicatie heeft.
 
 ## Incrementele replicatiemethoden {#incremental}
 
 ### Gewijzigd bij (meest ideaal)
 
-De `Modified At` De replicatiemethode gebruikt een datetime kolom - die wordt bevolkt wanneer een rij wordt gecreeerd en dan bijgewerkt wanneer de gegevens veranderen - om gegevens te vinden om te herhalen. Deze methode is ontworpen voor het werken met tabellen die aan de volgende criteria voldoen:
+De `Modified At` replicatiemethode gebruikt een datetime kolom - die wordt bevolkt wanneer een rij wordt gecreeerd en dan bijgewerkt wanneer de gegevens veranderen - om te herhalen gegevens te vinden. Deze methode is ontworpen voor het werken met tabellen die aan de volgende criteria voldoen:
 
-* bevat een `datetime` kolom die aanvankelijk wordt gevuld wanneer een rij wordt gecreeerd en bijgewerkt wanneer de rij wordt gewijzigd;
-* de `datetime` de kolom is nooit null;
+* bevat een `datetime` -kolom die aanvankelijk wordt gevuld wanneer een rij wordt gemaakt en die wordt bijgewerkt wanneer de rij wordt gewijzigd;
+* de `datetime` -kolom is nooit null;
 * rijen worden niet uit de tabel verwijderd
 
-Naast deze criteria beveelt de Adobe aan **indexeren** de `datetime` kolom gebruikt voor `Modified At` replicatie, aangezien dit de replicatiesnelheid helpt optimaliseren.
+Naast die criteria, adviseert de Adobe **indexerend** de `datetime` kolom die voor `Modified At` replicatie wordt gebruikt, aangezien dit hulp replicatiesnelheid optimaliseert.
 
-Wanneer de update wordt uitgevoerd, worden nieuwe of gewijzigde gegevens geïdentificeerd door te zoeken naar rijen met een waarde in het dialoogvenster `datetime` kolom die is opgetreden na de meest recente update. Wanneer nieuwe rijen worden ontdekt, worden zij herhaald aan uw Data Warehouse. Als er rijen voorkomen in het dialoogvenster [Data Warehouse Manager](../data-warehouse-mgr/tour-dwm.md), worden ze overschreven met de huidige databasewaarden.
+Wanneer de update wordt uitgevoerd, worden nieuwe of gewijzigde gegevens geïdentificeerd door te zoeken naar rijen met een waarde in de kolom `datetime` die na de meest recente update is opgetreden. Wanneer nieuwe rijen worden ontdekt, worden zij herhaald aan uw Data Warehouse. Als om het even welke rijen in de [ Manager van de Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) bestaan, worden zij met de huidige gegevensbestandwaarden beschreven.
 
-Een tabel kan bijvoorbeeld een kolom hebben met de naam `modified\_at` dat aangeeft wanneer de laatste gegevens zijn gewijzigd. Als de meest recente update dinsdag om 12.00 uur liep, zoekt de update naar alle rijen met een `modified\_at` waarde groter dan dinsdag om 12.00 uur. Alle ontdekte rijen die zijn gemaakt of gewijzigd sinds 12.00 uur op dinsdag, worden gerepliceerd naar de Data Warehouse.
+Een tabel kan bijvoorbeeld een kolom met de naam `modified\_at` hebben die de laatste keer aangeeft dat gegevens zijn gewijzigd. Als de meest recente update dinsdag om 12.00 uur liep, zoekt de update naar alle rijen met een `modified\_at` waarde groter dan dinsdag 12.00 uur. Alle ontdekte rijen die zijn gemaakt of gewijzigd sinds 12.00 uur op dinsdag, worden gerepliceerd naar de Data Warehouse.
 
-**Wist je dat?**
-Zelfs als uw database momenteel geen ondersteuning biedt voor een `Incremental` Replicatiemethode: [wijzigingen aanbrengen in uw database](../../best-practices/mod-db-inc-replication.md) dat het gebruik van `Modified At` of `Single Auto Incrementing PK`.
+**Wist u het?**
+Zelfs als uw gegevensbestand momenteel geen `Incremental` methode van de Replicatie kan steunen, kunt u veranderingen in uw gegevensbestand [ kunnen aanbrengen ](../../best-practices/mod-db-inc-replication.md) die gebruik van `Modified At` of `Single Auto Incrementing PK` zou toelaten.
 
-`Modified At` is niet alleen de meest ideale replicatiemethode, maar ook de snelste. Deze methode veroorzaakt niet alleen merkbare snelheidsverhogingen met grote gegevensreeksen, het vereist ook het vormen van geen recheck optie. Andere methoden moeten een hele tabel doorlopen om wijzigingen te identificeren, zelfs als een kleine subset van gegevens is gewijzigd. `Modified At` Hiermee doorloopt u alleen die kleine subset.
+`Modified At` is niet alleen de meest ideale replicatiemethode, maar ook de snelste. Deze methode veroorzaakt niet alleen merkbare snelheidsverhogingen met grote gegevensreeksen, het vereist ook het vormen van geen recheck optie. Andere methoden moeten een hele tabel doorlopen om wijzigingen te identificeren, zelfs als een kleine subset van gegevens is gewijzigd. `Modified At` doorloopt alleen die kleine subset.
 
 ### Eén automatische incrementele primaire sleutel
 
-`Auto Incrementing` is een gedrag dat opeenvolgende primaire sleutels aan rijen toewijst. Als een tabel `Auto Incrementing` en de hoogste primaire sleutel in de tabel is 1.000, dan is de volgende primaire waarde 1.001 of hoger. Een tabel die niet wordt gebruikt `Auto Incrementing` kan gedrag een primaire sleutelwaarde toewijzen die minder is dan 1.000 of naar een veel groter getal springen, maar dit wordt niet vaak gebruikt.
+`Auto Incrementing` is een gedrag dat achtereenvolgens primaire sleutels aan rijen toewijst. Als een tabel `Auto Incrementing` is en de hoogste primaire sleutel in de tabel 1000 is, is de volgende primaire waarde 1001 of hoger. Een tabel die het gedrag `Auto Incrementing` niet gebruikt, kan een waarde voor de primaire sleutel toewijzen die lager is dan 1000 of naar een veel groter getal springen, maar dit wordt niet vaak gebruikt.
 
 Deze methode is ontworpen voor het repliceren van nieuwe gegevens uit tabellen die aan de volgende criteria voldoen:
 
-* `single-column primary key`; en
-* `primary key` datatype `integer`; en
+* `single-column primary key` en
+* `primary key` datatype is `integer` ; en
 * `auto incrementing` waarden van primaire sleutels.
 
-Wanneer een tabel wordt gebruikt `Single Auto Incrementing Primary Key` replicatie, worden de nieuwe gegevens ontdekt door naar primaire zeer belangrijke waarden te zoeken die hoger zijn dan de huidige hoogste waarde in uw Data Warehouse. Als de hoogste waarde voor de primaire sleutel in de Data Warehouse bijvoorbeeld 500 is, zoekt de volgende update naar rijen met de primaire sleutel waarden 501 of hoger.
+Wanneer een tabel gebruikmaakt van `Single Auto Incrementing Primary Key` -replicatie, worden nieuwe gegevens gedetecteerd door te zoeken naar waarden voor primaire sleutels die hoger zijn dan de huidige hoogste waarde in de Data Warehouse. Als de hoogste waarde voor de primaire sleutel in de Data Warehouse bijvoorbeeld 500 is, zoekt de volgende update naar rijen met de primaire sleutel waarden 501 of hoger.
 
 ### Datum toevoegen
 
-De `Add Date` methodefuncties die vergelijkbaar zijn met de `Single Auto Incrementing Primary Key` methode. In plaats van een geheel getal voor de primaire sleutel van de tabel te gebruiken, gebruikt deze methode een `timestamped` te controleren op nieuwe rijen.
+De methode `Add Date` werkt ongeveer op dezelfde manier als de methode `Single Auto Incrementing Primary Key` . In plaats van een geheel getal voor de primaire sleutel van de tabel te gebruiken, gebruikt deze methode een kolom `timestamped` om te controleren op nieuwe rijen.
 
-Wanneer een tabel `Add Date` replicatie, worden de nieuwe gegevens ontdekt door timestamped waarden te zoeken die groter zijn dan de recentste datum die aan uw Data Warehouse wordt gesynchroniseerd. Bijvoorbeeld, als een laatste update op 20/12/2015 09 liep:00:00, worden rijen met een tijdstempel die groter is dan dit, gemarkeerd als nieuwe gegevens en gerepliceerd.
+Wanneer een tabel replicatie met `Add Date` gebruikt, worden nieuwe gegevens gedetecteerd door te zoeken naar waarden met een tijdstempel die groter zijn dan de laatste datum die is gesynchroniseerd met uw Data Warehouse. Bijvoorbeeld, als een update het laatst op 20/12/2015 09 :00: 00 liep, om het even welke rijen met een timestamp groter dan dit zullen als nieuwe gegevens worden gemerkt en worden herhaald.
 
 >[!NOTE]
 >
->In tegenstelling tot `Modified At` methode, `Add Date` controleert bestaande rijen niet op bijgewerkte informatie - het kijkt slechts naar nieuwe rijen uit.
+>In tegenstelling tot de methode `Modified At` controleert `Add Date` bestaande rijen niet op bijgewerkte informatie - het kijkt slechts naar nieuwe rijen uit.
 
 ## Volledige tabelreplicatiemethoden {#fulltable}
 
 ### Volledige tabel
 
-`Full table` de replicatie verfrist de volledige lijst wanneer de nieuwe rijen worden ontdekt. Dit is verreweg de minst efficiënte replicatiemethode, omdat alle gegevens tijdens elke update moeten worden opnieuw verwerkt, veronderstellend er nieuwe rijen zijn.
+Met `Full table` vernieuwt u de volledige tabel wanneer nieuwe rijen worden gedetecteerd. Dit is verreweg de minst efficiënte replicatiemethode, omdat alle gegevens tijdens elke update moeten worden opnieuw verwerkt, veronderstellend er nieuwe rijen zijn.
 
-Nieuwe rijen worden ontdekt door uw gegevensbestand bij het begin van het synchronisatieproces te vragen en het aantal rijen te tellen. Als uw lokale database meer rijen bevat dan [!DNL Commerce Intelligence]Dan wordt de tabel vernieuwd. Als het aantal rijen identiek is of als [!DNL Commerce Intelligence] contains *meer* De tabel wordt overgeslagen als de lokale database geen rijen bevat.
+Nieuwe rijen worden ontdekt door uw gegevensbestand bij het begin van het synchronisatieproces te vragen en het aantal rijen te tellen. Als uw lokale database meer rijen bevat dan [!DNL Commerce Intelligence] , wordt de tabel vernieuwd. Als de rijtellingen identiek zijn, of als [!DNL Commerce Intelligence] *meer* rijen dan uw lokaal gegevensbestand bevat, dan wordt de lijst overgeslagen.
 
-Dit brengt het belangrijke punt aan de orde dat **`Full Table`replicatie is niet compatibel wanneer:**
+Dit werpt het belangrijke punt op dat replicatie in **`Full Table`niet compatibel is wanneer:**
 
 * er tussen volgende updatecycli meer rijen worden verwijderd dan in uw lokale databasetabel zijn gemaakt, of
 * kolomwaarden worden gewijzigd, maar er worden geen extra rijen gemaakt
 
-In beide bovengenoemde scenario&#39;s `Full Table` de replicatie ontdekt geen veranderingen en uw gegevens worden versleten. Door de inefficiëntie van deze replicatiemethode en de hierboven vermelde vereisten, `Full Table` replicatie wordt alleen aanbevolen als laatste redmiddel.
+In beide bovenstaande scenario&#39;s worden door `Full Table` -replicatie geen wijzigingen gedetecteerd en worden uw gegevens verouderd. Vanwege de inefficiëntie van deze replicatiemethode en de hierboven vermelde vereisten wordt `Full Table` -replicatie alleen aanbevolen als laatste redmiddel.
 
 ### Batch primaire sleutel
 
-Wanneer een tabel `Primary Key Batch` (PK-batch), worden nieuwe gegevens gedetecteerd door rijen binnen bereiken, of batches, van primaire-sleutelwaarden te tellen. Terwijl u typisch denkt dat dit met gehelen wordt gebruikt, zelfs kunnen de tekstwaarden op een manier worden bevolen die het systeem toestaat om constante waaiers te bepalen.
+Wanneer een tabel `Primary Key Batch` (PK-batch) gebruikt, worden nieuwe gegevens gedetecteerd door rijen binnen bereiken, of batches, van waarden voor primaire sleutels te tellen. Terwijl u typisch denkt dat dit met gehelen wordt gebruikt, zelfs kunnen de tekstwaarden op een manier worden bevolen die het systeem toestaat om constante waaiers te bepalen.
 
 Bijvoorbeeld, zeg dat een update looppas en een rijtelling voor de waaier van sleutels van 1 tot 100 uitvoert. In deze update zoekt en registreert het systeem 37 rijen. In de volgende update wordt opnieuw een rijtelling uitgevoerd voor het bereik 1-100 en worden 41 rijen gevonden. Omdat er een verschil is in het aantal rijen in vergelijking met de laatste update, inspecteert het systeem die waaier (of partij) meer in detail.
 
@@ -101,20 +101,20 @@ Deze methode is niet ideaal, omdat het ongelooflijk langzaam is door de hoeveelh
 
 ## Replicatiemethoden instellen
 
-De methodes van de replicatie worden geplaatst op een lijst-door-lijst basis. Om een replicatiemethode voor een lijst te plaatsen, hebt u nodig [`Admin`](../../administrator/user-management/user-management.md) machtigingen zodat u toegang hebt tot Data Warehouse Manager.
+De methodes van de replicatie worden geplaatst op een lijst-door-lijst basis. Als u een replicatiemethode voor een tabel wilt instellen, hebt u [`Admin`](../../administrator/user-management/user-management.md) -machtigingen nodig, zodat u toegang kunt krijgen tot Data Warehouse Manager.
 
-1. Eenmaal in Beheer Data Warehouse selecteert u de tabel in het menu `Synced Tables` om het schema van de tabel weer te geven.
+1. Selecteer de tabel in de lijst `Synced Tables` in Beheer Data Warehouse om het tabelschema weer te geven.
 1. De huidige replicatiemethode wordt vermeld onder de lijstnaam. Klik op de koppeling om deze te wijzigen.
-1. Klik in het pop-upvenster dat wordt weergegeven op het keuzerondje naast een van de twee `Incremental` of `Full Table` replicatie om een replicatietype te selecteren.
-1. Klik op de knop **[!UICONTROL Replication Method]** vervolgkeuzelijst om een methode te selecteren. Bijvoorbeeld: `Paused` of `Modified At`.
+1. Klik in het pop-upvenster dat wordt weergegeven op het keuzerondje naast `Incremental` of `Full Table` replicatie om een replicatietype te selecteren.
+1. Klik vervolgens op het vervolgkeuzemenu **[!UICONTROL Replication Method]** om een methode te selecteren. Bijvoorbeeld `Paused` of `Modified At` .
 
    >[!NOTE]
    >
-   >**Voor sommige incrementele methoden moet u een`Replication Key`**. [!DNL Commerce Intelligence] zal deze sleutel gebruiken om te bepalen waar de volgende updatecyclus zou moeten beginnen.
+   >**sommige Incrementele methodes vereisen u om a`Replication Key`** te plaatsen. [!DNL Commerce Intelligence] gebruikt deze sleutel om te bepalen waar de volgende updatecyclus moet beginnen.
    >
-   >Als u bijvoorbeeld de opdracht `modified at` methode `orders` tabel, moet u een `date column` als replicatietoets. Er kunnen verschillende opties voor replicatietoetsen bestaan, maar u selecteert `created at`of de tijd waarop de bestelling is gemaakt. Als de laatste updatecyclus op 12-1-2015 00 is gestopt:10:00, de volgende cyclus zou beginnen gegevens te repliceren met een `created at` datum groter dan deze.
+   >Als u bijvoorbeeld de methode `modified at` voor uw `orders` -tabel wilt gebruiken, moet u een `date column` als replicatietoets instellen. Er kunnen verschillende opties voor replicatietoetsen bestaan, maar u selecteert `created at` of het tijdstip waarop de volgorde is gemaakt. Als de laatste updatecyclus bij 12/1/2015 00 :10: 00 werd tegengehouden, zou de volgende cyclus beginnen herhalend gegevens met een `created at` datum groter dan dit.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** als u klaar bent.
 
 Kijk naar het hele proces:
 

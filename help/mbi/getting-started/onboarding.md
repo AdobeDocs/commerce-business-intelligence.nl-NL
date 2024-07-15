@@ -1,6 +1,6 @@
 ---
 title: Onboarding Adobe Commerce Intelligence
-description: Meer informatie over het instappen van Adobe Commerce Intelligence.
+description: Meer weten over instapweigering met Adobe Commerce Intelligence?
 exl-id: e0cce957-af2c-4514-9afd-c9aaa651a4f0
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Onboarding [!DNL Adobe Commerce Intelligence]
 
-Vragen over instapkaarten `store` en `database` zorgen ervoor dat u de rapportage correct instelt. Met deze antwoorden, levert de Adobe uw rapporten die precies aan de opstelling van uw opslag worden aangepast.
+De onopscheppingsvragen met betrekking tot `store` en `database` montages zorgen ervoor dat u opstelling uw rapportering correct. Met deze antwoorden, levert de Adobe uw rapporten die precies aan de opstelling van uw opslag worden aangepast.
 
 ## Opslaginstellingen
 
-- *Accepteert je winkel het uitchecken van gasten?* - Selecteer **ja** als u klanten toestaat een aankoop te doen in uw winkel zonder zich te registreren voor een account.
+- *Accepteert uw opslag gastcontrole?* - selecteer **ja** als u klanten toestaat om een aankoop van uw opslag te maken zonder voor een rekening te registreren.
 
-- `Timezone` - Selecteer de `timezone` dat u graag uw rapportage wilt ontvangen.
+- `Timezone` - Selecteer de `timezone` waarin u uw rapportage wilt weergeven.
 
-- `Currency` - Selecteer de `currency` dat uw winkel actief is in.
+- `Currency` - Selecteer de `currency` waarin uw winkel werkt.
 
 - `Your week starts on...` - Selecteer de dag van de week die u het begin van de week in uw rapporten wilt zijn.
 
-- *Welke versie van Handel gebruikt u?* - Selecteer de `currency` dat uw winkel actief is in.
+- *Welke versie van Commerce gebruikt u?* - Selecteer de `currency` waarin uw winkel werkt.
 
-- *Is uw winkel gevestigd in de Europese Unie?* - Als u `Yes` op deze vraag plaatst Adobe uw Data Warehouse en al uw gegevens in de Europese Unie, overeenkomstig de GDPR.
+- *Is uw winkel gevestigd in de Europese Unie?* - Als u `Yes` op deze vraag beantwoordt, host Adobe uw Data Warehouse en al uw gegevens in de Europese Unie, conform de GDPR.
 
 ## Database-instellingen
 
-- `Database name` - Wat is de *naam van de [!DNL MySQL] database* waar uw transactiegegevens van de Handel verblijven?
+- `Database name` - wat is de *naam van het [!DNL MySQL] gegevensbestand* waar uw de transactionele gegevens van Commerce verblijven?
 
-- `Table prefix (optional)` - Zijn de lijsten in uw gegevensbestand van de Handel door om het even wat (bijvoorbeeld `store_`)? Dit is normaal gesproken niet het geval, maar het is een aanpassing die kan worden gemaakt.
+- `Table prefix (optional)` - Zijn de tabellen in uw Commerce-database door iets toegevoegd (bijvoorbeeld `store_` )? Dit is normaal gesproken niet het geval, maar het is een aanpassing die kan worden gemaakt.

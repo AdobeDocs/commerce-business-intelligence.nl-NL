@@ -19,41 +19,41 @@ ht-degree: 0%
 * [[!DNL Microsoft SQL]](../integrations/microsoft-sql-server.md)
 * [[!DNL PostgreSQL]](../integrations/postgresql.md)
 
-De stappen voor het verbinden van uw [!DNL RDS] -instantie variëren, afhankelijk van het type database dat u gebruikt en of u een gecodeerde verbinding gebruikt (zoals een [`SSH tunnel for MySQL`](../integrations/mysql-via-ssh-tunnel.md)), maar hier zijn de grondbeginselen.
+De stappen voor het verbinden van uw [!DNL RDS] -instantie variëren, afhankelijk van het type database dat u gebruikt en of u een gecodeerde verbinding gebruikt (zoals een [`SSH tunnel for MySQL`](../integrations/mysql-via-ssh-tunnel.md) ), maar dit zijn de basisbeginselen.
 
-## Autoriseren [!DNL Commerce Intelligence] om toegang te krijgen tot uw database
+## Autoriseren [!DNL Commerce Intelligence] voor toegang tot uw database
 
-Op de pagina met referenties (**[!UICONTROL Manage Data** > **Integrations]**) voor elke database, ziet u een vak met de IP-adressen die u moet machtigen om R te verbinden[!DNL RDS] tot [!DNL Commerce Intelligence]: `54.88.76.97` en `34.250.211.151`. Hier is een blik op `MySQL credentials` pagina, waar u het IP adresvakje benadrukte:
+Op de geloofsbrieven pagina (**[!UICONTROL Manage Data** > **Integrations]**) voor elke gegevensbestand, ziet u een doos die de IP adressen bevat u moet machtigen om R [!DNL RDS] aan [!DNL Commerce Intelligence] te verbinden: `54.88.76.97` en `34.250.211.151`. Hier is een blik op de `MySQL credentials` pagina, waar u het IP adresvakje benadrukte:
 
 ![](../../../assets/RDS_IP.png)
 
-Voor [!DNL Commerce Intelligence] om verbinding te maken met uw [!DNL RDS] instantie, moet u deze IP adressen aan de aangewezen groep van de gegevensbestandveiligheid via de het beheersconsole van AWS toevoegen. Deze IP adressen kunnen aan een bestaande groep worden toegevoegd of u kunt tot één leiden - het belangrijke ding is dat de groep wordt gemachtigd om tot de instantie toegang te hebben u met wilt verbinden [!DNL Commerce Intelligence].
+[!DNL Commerce Intelligence] kan alleen verbinding maken met uw [!DNL RDS] -instantie als u deze IP-adressen via de AWS-beheerconsole toevoegt aan de betreffende beveiligingsgroep van de database. Deze IP-adressen kunnen worden toegevoegd aan een bestaande groep of u kunt een groep maken. Het belangrijkste is dat de groep gemachtigd is om toegang te krijgen tot de instantie waarmee u verbinding wilt maken [!DNL Commerce Intelligence] .
 
-Wanneer u het gereedschap [!DNL Commerce Intelligence] IP adressen, zorg ervoor u toevoegt `/32` aan het einde van het adres dat moet worden aangegeven aan [!DNL Amazon] dat het een nauwkeurig IP adres is. Maakt u zich geen zorgen; de interface van AWS maakt duidelijk dat dit vereist is.
+Wanneer u de [!DNL Commerce Intelligence] IP-adressen toevoegt, moet u een `/32` aan het einde van het adres toevoegen om aan [!DNL Amazon] aan te geven dat het een exact IP-adres is. Maakt u zich geen zorgen; de interface van AWS maakt duidelijk dat dit vereist is.
 
-## Een `Linux` gebruiker voor [!DNL Commerce Intelligence] {#linux}
+## Een `Linux` gebruiker voor [!DNL Commerce Intelligence] maken {#linux}
 
 >[!NOTE]
 >
->Deze stap is alleen vereist als u een gecodeerde verbinding gebruikt. Voor instructies op hoe te om dit te doen, verwijs naar het opstellingsonderwerp voor het gegevensbestand u gebruikt (bv: MySQL). De `Linux` gebruiker stelt ons in staat een `SSH tunnel`, de veiligste methode om gegevens via internet te verzenden.
+>Deze stap is alleen vereist als u een gecodeerde verbinding gebruikt. Voor instructies op hoe te om dit te doen, verwijs naar het opstellingsonderwerp voor het gegevensbestand u gebruikt (bv: MySQL). De gebruiker van `Linux` staat ons toe om een `SSH tunnel` tot stand te brengen, die de veiligste methode is om gegevens over Internet te verzenden.
 
 ## Een databasegebruiker maken voor [!DNL Commerce Intelligence]
 
-Dit is het deel van het proces waar, afhankelijk van het gegevensbestand u gebruikt, de stappen variëren. Het idee is echter hetzelfde: u maakt een gebruiker voor [!DNL Commerce Intelligence] die wordt gebruikt voor toegang tot uw database. Instructies voor het maken van een database [!DNL Commerce Intelligence] De gebruiker kan in het opstellingsonderwerp voor het gegevensbestand worden gevonden u gebruikt.
+Dit is het deel van het proces waar, afhankelijk van het gegevensbestand u gebruikt, de stappen variëren. Het idee is echter hetzelfde als wanneer u een gebruiker voor [!DNL Commerce Intelligence] maakt die wordt gebruikt om toegang te krijgen tot uw database. Instructies voor het creëren van een gegevensbestand [!DNL Commerce Intelligence] gebruiker kunnen in het opstellingsonderwerp voor het gegevensbestand worden gevonden u gebruikt.
 
 ## Verbindingsgegevens invoeren in [!DNL Commerce Intelligence]
 
-Nadat u [!DNL Commerce Intelligence] toegang tot uw instantie en creeerde een gebruiker voor ons, het laatste ding u moet doen is de verbindingsinfo in ingaan [!DNL Commerce Intelligence].
+Nadat u [!DNL Commerce Intelligence] toegang tot uw instantie hebt verleend en een gebruiker voor ons hebt gemaakt, moet u de verbindingsgegevens in [!DNL Commerce Intelligence] invoeren.
 
-De referentiepagina&#39;s voor `MySQL`, `Microsoft SQL`, en `PostgreSQL` zijn toegankelijk via de `Integrations` pagina (**[!UICONTROL Manage Data** > **Integrations]**) door op **[!UICONTROL Add Integration]**. Wanneer de lijst met integraties wordt weergegeven, klikt u op het pictogram voor de database die u gebruikt om naar de pagina met referenties te gaan. Neem contact op met het accountteam van de Adobe als u momenteel geen toegang hebt tot de gewenste .
+De referentiepagina&#39;s voor `MySQL` , `Microsoft SQL` en `PostgreSQL` zijn toegankelijk via de `Integrations` pagina (**[!UICONTROL Manage Data** > **Integrations]**) door op **[!UICONTROL Add Integration]** te klikken. Wanneer de lijst met integraties wordt weergegeven, klikt u op het pictogram voor de database die u gebruikt om naar de pagina met referenties te gaan. Neem contact op met het accountteam van de Adobe als u momenteel geen toegang hebt tot de gewenste .
 
 Als u de verbinding wilt maken, hebt u de volgende informatie nodig:
 
-* Het openbare adres van uw RDS-instantie: dit vindt u in het [!DNL AWS] beheerconsole.
-* De poort die uw database-instantie gebruikt: sommige databases hebben een standaardpoort, die automatisch de `Port` veld. Deze informatie kan ook in de opstellingsdocumentatie voor het gegevensbestand worden gevonden.
-* De gebruikersnaam en het wachtwoord van de gebruiker waarvoor u hebt gemaakt [!DNL Commerce Intelligence].
+* Het openbare adres van uw RDS-instantie: dit vindt u in de [!DNL AWS] -beheerconsole.
+* De poort die uw database-instantie gebruikt: sommige databases hebben een standaardpoort die het veld `Port` automatisch vult. Deze informatie kan ook in de opstellingsdocumentatie voor het gegevensbestand worden gevonden.
+* De gebruikersnaam en het wachtwoord van de gebruiker die u voor [!DNL Commerce Intelligence] hebt gemaakt.
 
-Als u een gecodeerde verbinding gebruikt, wijzigt u de instelling `Encrypted` schakelen op de pagina met databasereferenties naar `Yes`. Er wordt een extra formulier weergegeven voor het instellen van de codering:
+Als u een gecodeerde verbinding gebruikt, wijzigt u de schakeloptie `Encrypted` op de pagina met databasereferenties in `Yes` . Er wordt een extra formulier weergegeven voor het instellen van de codering:
 
 ![](../../../assets/sql-integration-encrypted-yes.png)
 

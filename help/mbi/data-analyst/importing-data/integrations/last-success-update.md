@@ -6,29 +6,29 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
-# Resultaten van databases vs [!DNL SQL Editor] Resultaten
+# Resultaten database versus [!DNL SQL Editor] resultaten
 
-U bent misschien nieuwsgierig naar de `Last successful update began` veld bevindt zich in uw `Integrations` pagina:
+Mogelijk bent u nieuwsgierig wat het veld `Last successful update began` in de `Integrations` -pagina staat:
 
-![Last_success_update.png](../../../assets/Last_successful_update.png)
+![ Last_success_update.png ](../../../assets/Last_successful_update.png)
 
-## Begrijp het `timestamp` field
+## Het veld `timestamp` begrijpen
 
-Het laat het begin zien `timestamp` (in de tijdzone die op uw account is ingesteld) van de _laatste voltooide updatecyclus_ op uw account.
+Het toont het begin `timestamp` (in timezone die op uw rekening wordt geplaatst) van de _laatste succesvolle updatecyclus_ op uw rekening.
 
-- Als een van de gesynchroniseerde tabellen tijdens de laatste updatecyclus een probleem heeft aangetroffen, is deze tijdstempel *niet bijgewerkt*.
-- Er kunnen zich dus gevallen voordoen waarin de verslagen met nieuwe gegevens zijn bijgewerkt, maar de *Laatste succesvolle update is gestart* is nog steeds achterop.
+- Als om het even welke gesynchroniseerde lijsten een kwestie tijdens de laatste updatecyclus tegenkwamen, wordt dit timestamp niet bijgewerkt **.
+- Vandaar, kunnen er gevallen zijn wanneer de rapporten met nieuwe gegevens zijn bijgewerkt, maar de *Laatste succesvolle update begon* is nog achterblijvend.
 
 ## Identificeer het &quot;echte&quot;laatste gegevenspunt
 
-Het meest recente gegevenspunt voor een bepaalde integratie wordt bepaald door de `Last Data Point Received` tijdstempel rechts van elke integratie. Die timestamp verwijst naar het laatste punt waarop uw Data Warehouse met succes gegevenspunten van die bron ontving, of het een gegevensbestand, API, of derdenintegratie was.
+Het meest recente gegevenspunt voor een bepaalde integratie wordt bepaald door de `Last Data Point Received` tijdstempel rechts van elke integratie. Die timestamp verwijst naar het laatste punt waarop uw Data Warehouse met succes gegevenspunten van die bron ontving, of het een gegevensbestand, API, of derdenintegratie was.
 
-Controleren op versheid van gegevens van *specifieke tabellen*, raadt Adobe u aan snel [[!DNL SQL] verslag](../../dev-reports/sql-rpt-bldr.md) die een `MAX(timestamp)` op de belangrijkste tabel van uw account. Deze tijdstempel vergelijken met de `Last Data Point` Hiermee wordt aangegeven of de uitgave van invloed is op de gehele account of op een subset van de tabellen. De Adobe beveelt aan dit voor drie tot vier belangrijke, algemeen gebruikte lijsten te doen.
+Om voor versheid van gegevens van *specifieke lijsten* te controleren, adviseert de Adobe het creëren van een snel [[!DNL SQL]  rapport ](../../dev-reports/sql-rpt-bldr.md) dat a `MAX(timestamp)` op de belangrijkste lijst op uw rekening uitvoert. Wanneer u deze tijdstempel vergelijkt met de `Last Data Point` , wordt aangegeven of de uitgave van invloed is op de gehele account of op een subset van de tabellen. De Adobe beveelt aan dit voor drie tot vier belangrijke, algemeen gebruikte lijsten te doen.
 
-- Als de `MAX(timestamp)` waarden zijn recenter dan `Last Data Point Received`, betekent dit dat een subset van de tabellen werd beïnvloed, maar dat de updatecyclus van de gehele account stabiel is.
-- Als de `MAX(timestamp)` waarden zijn gelijk aan of eerder `Last Data Point Received`, betekent dit dat de updatecyclus van de account is beïnvloed. In deze situatie [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+- Als de `MAX(timestamp)` -waarden recenter zijn dan `Last Data Point Received` , heeft dit invloed op een subset van de tabellen, maar is de updatecyclus van de account in zijn geheel stabiel.
+- Als de `MAX(timestamp)` -waarden gelijk zijn aan of voor `Last Data Point Received` , heeft dit invloed op de updatecyclus van de account. In deze situatie, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

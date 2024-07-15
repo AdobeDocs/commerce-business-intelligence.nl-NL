@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Gegevens opmaken en importeren
 
-Als u een integratie gebruikt die momenteel niet door wordt gesteund [!DNL Adobe Commerce Intelligence]kunt u de [Bestanden uploaden, functie](using-file-uploader.md) om uw gegevens in uw Data Warehouse te krijgen. Dit onderwerp behandelt de ideale gegevensformaten die voor het uploaden van elektronische handelsgegevens moeten worden gebruikt.
+Als u een integratie gebruikt die momenteel niet door [!DNL Adobe Commerce Intelligence] wordt gesteund, kunt u nog het [ Dossier gebruiken uploadt eigenschap ](using-file-uploader.md) om uw gegevens in uw Data Warehouse te krijgen. Dit onderwerp behandelt de ideale gegevensformaten die voor het uploaden van elektronische handelsgegevens moeten worden gebruikt.
 
 ## `Orders` table
 
-De `orders` de tabel moet één rij bevatten voor elke transactie die de onderneming heeft uitgevoerd. Mogelijke kolommen zijn:
+De tabel `orders` moet één rij bevatten voor elke transactie die het bedrijf heeft uitgevoerd. Mogelijke kolommen zijn:
 
 | Kolomnaam | Beschrijving |
 |----|----|
@@ -25,7 +25,7 @@ De `orders` de tabel moet één rij bevatten voor elke transactie die de onderne
 | `Customer` | De klant die de bestelling heeft geplaatst. |
 | `Order total` | Het totaal van de bestelling. Dit kan een op berekening gebaseerde kolom zijn, waarbij waarden in andere kolommen - zoals subtotaal en verzendkosten - het totaal voor deze kolom vormen. |
 | `Currency` | De valuta waarin de bestelling is betaald. Vermeld indien van toepassing. |
-| ` Order status` | De status van de order, zoals `In Progress`, `Refunded`, of `Complete`. De waarde van deze kolom verandert (als niet volledig). Nieuwe en bijgewerkte gegevens kunnen worden geïmporteerd met de opdracht [Gegevensfunctie toevoegen](../../../data-analyst/importing-data/connecting-data/using-file-uploader.md) op de `File Uploads` pagina. |
+| ` Order status` | De status van de volgorde, zoals `In Progress` , `Refunded` of `Complete` . De waarde van deze kolom verandert (als niet volledig). De nieuwe en bijgewerkte gegevens kunnen worden ingevoerd gebruikend [ voegt de eigenschap van Gegevens ](../../../data-analyst/importing-data/connecting-data/using-file-uploader.md) op de `File Uploads` pagina toe. |
 | `Acquisition/marketing channel` | Het aankoop- of marketingkanaal waar de klant die de order heeft geplaatst, naar werd verwezen. |
 | `Order datetime` | De datum en tijd waarop de order is gemaakt. |
 | `Order updated at` | De datum en het tijdstip waarop de laatste wijziging in de orderrecord is aangebracht. |
@@ -34,7 +34,7 @@ De `orders` de tabel moet één rij bevatten voor elke transactie die de onderne
 
 ## `Order detail/items` table {#itemstable}
 
-De `order_detail / items` de lijst zou één rij voor elk verschillend punt in elke orde moeten bevatten. Mogelijke kolommen zijn:
+De tabel `order_detail / items` moet één rij bevatten voor elk afzonderlijk item in elke volgorde. Mogelijke kolommen zijn:
 
 | Kolomnaam | Beschrijving |
 |----|----|
@@ -47,7 +47,7 @@ De `order_detail / items` de lijst zou één rij voor elk verschillend punt in e
 
 ## `Customers` table {#customerstable}
 
-De `customers` de lijst zou één rij voor elke klantenrekening moeten bevatten. Mogelijke kolommen zijn:
+De tabel `customers` moet één rij bevatten voor elke klantenaccount. Mogelijke kolommen zijn:
 
 | Kolomnaam | Beschrijving |
 |----|----|
@@ -60,7 +60,7 @@ De `customers` de lijst zou één rij voor elke klantenrekening moeten bevatten.
 
 ## `Subscription payments` table
 
-De `subscriptions` de tabel moet één rij bevatten voor elke abonnementsbetaling. Mogelijke kolommen zijn:
+De tabel `subscriptions` moet één rij bevatten voor elke abonnementsbetaling. Mogelijke kolommen zijn:
 
 | Kolomnaam | Beschrijving |
 |----|----|

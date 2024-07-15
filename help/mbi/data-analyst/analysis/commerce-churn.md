@@ -1,6 +1,6 @@
 ---
 title: Commerce Churn
-description: Leer hoe u de Koopprijs genereert en analyseert.
+description: Leer hoe u uw Commerce-wisselkoers kunt genereren en analyseren.
 exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Warehouse Manager, Reports
@@ -13,11 +13,11 @@ ht-degree: 2%
 
 # Wisselfrequentie
 
-Dit onderwerp demonstreert hoe u een **kromtrekken** voor uw **handelsklanten**. In tegenstelling tot SaaS of traditionele abonnementsbedrijven hebben commerciële klanten gewoonlijk geen beton **&quot;churn event&quot;** om u te tonen dat zij niet meer aan uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
+Dit onderwerp toont aan hoe te om het tarief van de a **kurn** voor uw **commerciële klanten** te berekenen. In tegenstelling tot SaaS of traditionele abonnementsbedrijven, hebben de handelklanten typisch geen concrete **&quot;koordgebeurtenis&quot;** om u te tonen dat zij niet meer op uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
 
 ![](../../assets/Churn_rate_image.png)
 
-Veel klanten willen hulp bij het conceptualiseren van wat **tijdframe** zij moeten op basis van hun gegevens gebruiken . Als u historisch klantengedrag wilt gebruiken om dit te bepalen **churn timeframe**, kan het zijn dat u zich vertrouwd wilt maken met de [churn definiëren](../analysis/define-cust-churn.md) onderwerp. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
+Vele klanten willen hulp in beginnen te conceptualiseren wat **timeframe** zij zouden moeten gebruiken gebaseerd op hun gegevens. Als u historisch klantengedrag wilt gebruiken om dit **koele timeframe** te bepalen, kunt u zich met [ willen vertrouwd maken bepalend koor ](../analysis/define-cust-churn.md) onderwerp. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
 
 ## Berekende kolommen
 
@@ -37,50 +37,50 @@ Te maken kolommen
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Metrisch
 
-* **Nieuwe klanten (op eerste besteldatum)**
+* **Nieuwe klanten (door eerste ordedatum)**
    * Klanten die worden geteld
 
 >[!NOTE]
 >
 >Deze maatstaf kan op uw account bestaan.
 
-* In de **`customer_entity`** table
-* Deze maatstaf voert een **Aantal**
-* Op de **`entity_id`** kolom
-* Besteld door de **`Customer's first order date`** tijdstempel
+* In de tabel **`customer_entity`**
+* Deze metrisch voert a **Telling** uit
+* Op de kolom **`entity_id`**
+* Besteld door de **`Customer's first order date`** timestamp
 * [!UICONTROL Filter]:
 
-* **Nieuwe klanten (op laatste besteldatum)**
+* **Nieuwe klanten (door laatste ordedatum)**
    * Klanten die worden geteld
 
   >[!NOTE]
   >
   >Deze maatstaf kan op uw account bestaan.
 
-* In de **`customer_entity`** table
-* Deze maatstaf voert een **Aantal**
-* Op de **`entity_id`** kolom
-* Besteld door de **`Customer's last order date`** tijdstempel
+* In de tabel **`customer_entity`**
+* Deze metrisch voert a **Telling** uit
+* Op de kolom **`entity_id`**
+* Besteld door de **`Customer's last order date`** timestamp
 * [!UICONTROL Filter]:
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
-* **Wisselfrequentie**
+* **Tarief van de Knevel**
    * [!UICONTROL Metric]: Nieuwe klanten (op eerste besteldatum)
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
    * 
      [!UICONTROL Perspective]: `Cumulative`
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]:
-   * Seconden sinds laatste besteldatum van klant >= [Uw zelf-bepaalde grens voor gekochte klanten ]**`^`**
+   * Seconden sinds laatste de ordedatum van de klant >= [ Uw zelf-bepaalde grens voor gekochte klanten ]**`^`**
    * `Lifetime number of orders Greater Than 0`
 
    * [!UICONTROL Metric]: `New customers (by last order date)`
@@ -103,9 +103,9 @@ Hieronder vindt u een aantal gangbare conversies voor maanden > seconden, maar g
 
 | **Maanden** | **Seconden** |
 |---|---|
-| 3 | 7,776,000 |
-| 6 | 15,552,000 |
-| 9 | 23,328,000 |
-| 12 | 31,104,000 |
+| 3 | 7.776.000 |
+| 6 | 15.552.000 |
+| 9 | 23.328.000 |
+| 12 | 31.104.000 |
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.

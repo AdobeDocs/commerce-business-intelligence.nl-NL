@@ -13,20 +13,20 @@ ht-degree: 0%
 
 # Gegevensvalidatie in [!DNL Mixpanel]
 
-Wanneer [!DNL Adobe Commerce Intelligence] maakt eerst verbinding met uw [!DNL Mixpanel] gegevens, kan uw accountmanager of analist u vragen gegevens te exporteren van [!DNL Mixpanel] voor validatiedoeleinden. Zo kunt u bevestigen dat u alle gegevens hebt gesynchroniseerd die direct binnen beschikbaar zijn [!DNL Mixpanel].
+Wanneer [!DNL Adobe Commerce Intelligence] voor het eerst verbinding maakt met uw [!DNL Mixpanel] -gegevens, kan uw accountmanager of analist u vragen om voor validatiedoeleinden gegevens te exporteren van [!DNL Mixpanel] . Zo kunt u bevestigen dat u alle gegevens hebt gesynchroniseerd die direct binnen [!DNL Mixpanel] beschikbaar zijn.
 
 ## Gegevensuitvoerproces: `Events`
 
-1. Bezoek uw `Segmentation` sectie en weergave `Your Top Events`.
+1. Ga naar de `Segmentation` -sectie en bekijk `Your Top Events` .
 
    ![](../../../assets/your-top-events.png)
 
-1. Selecteren `Past 96 Hours` voor het tijdbereik
+1. `Past 96 Hours` selecteren voor het tijdbereik
 
    ![](../../../assets/past-96-hours.png)
 
-1. De rol aan het laag-juiste gedeelte van het rapport en voert a uit `.csv` bestand:
+1. Blader naar het gedeelte rechtsonder in het rapport en exporteer een `.csv` -bestand:
 
    ![](../../../assets/export-csv-mixpanel.png)
 
-1. Verzend de `.csv` bestand naar de accountmanager of -analist waarmee u werkt aan dit validatieproces.
+1. Verzend het `.csv` -bestand naar de accountmanager of analist waarmee u werkt aan dit validatieproces.

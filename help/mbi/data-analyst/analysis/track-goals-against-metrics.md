@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Doelstellingen bijhouden op basis van prestatiewaarden
 
-De meeste klanten willen hun **bedrijfsdoelstellingen**, maar dit is niet mogelijk in [!DNL Adobe Commerce Intelligence]. Dit onderwerp toont aan hoe te opstelling een dashboard dat u zal helpen uw bedrijfsdoelstellingen tegen uw daadwerkelijke gegevens volgen - met inbegrip van opbrengst, nieuwe geregistreerde gebruikers, en orden in tijd. U leert ook hoe u de prestaties van jaar tot jaar kunt vergelijken, allemaal in een dashboard als dit:
+De meeste cliënten zouden hun **bedrijfsdoelstellingen** willen volgen, maar realiseren niet dit in [!DNL Adobe Commerce Intelligence] mogelijk is. Dit onderwerp toont aan hoe te opstelling een dashboard dat u zal helpen uw bedrijfsdoelstellingen tegen uw daadwerkelijke gegevens volgen - met inbegrip van opbrengst, nieuwe geregistreerde gebruikers, en orden in tijd. U leert ook hoe u de prestaties van jaar tot jaar kunt vergelijken, allemaal in een dashboard als dit:
 
 ![](../../assets/Goals-_dashboard_2.png)
 
-Voordat u aan de slag gaat, moet u de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en zorg ervoor u uw bedrijfsdoelstellingen voor een bepaalde periode hebt bepaald.
+Alvorens begonnen te worden, zou u [ dossier uploader ](../importing-data/connecting-data/using-file-uploader.md) moeten herzien en ervoor zorgen u uw bedrijfsdoelstellingen voor een bepaalde periode hebt bepaald.
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat specifieke dagelijkse/maandelijkse/driemaandelijkse doelstellingen voor uw bedrijf bevat.
 
-U kunt de [uploader bestand](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om uw bestand op te maken. De gemeenschappelijkste doelstellingen die de cliënten binnen volgen [!DNL Commerce Intelligence] inclusief bestellingen, inkomsten en nieuwe geregistreerde accounts.
+U kunt [ dossier uploader ](../importing-data/connecting-data/using-file-uploader.md) en het beeld gebruiken hieronder om uw dossier te formatteren. De gemeenschappelijkste doelstellingen die cliënten in [!DNL Commerce Intelligence] volgen omvatten Orders, Ontvangsten, en Nieuwe geregistreerde rekeningen.
 
 ![](../../assets/Goals-_Excel.png)
 
@@ -31,29 +31,29 @@ U kunt de [uploader bestand](../importing-data/connecting-data/using-file-upload
 
 Creeer één nieuwe metrisch voor elk doel. Als u bijvoorbeeld doelstellingen voor maandelijkse inkomsten en bestellingen uploadt, moet u twee nieuwe metriek maken:
 
-* **Maandelijkse inkomstendoelstelling**
-* In de **`Monthly goals`** table
-* Deze maatstaf voert een **Som**
-* Op de **`Revenue target`** kolom
-* Besteld door de **`Month`** tijdstempel
+* **Maandelijks opbrengstdoel**
+* In de tabel **`Monthly goals`**
+* Deze metrisch voert a **Som** uit
+* Op de kolom **`Revenue target`**
+* Besteld door de **`Month`** timestamp
 
-* **Doel van maandelijkse bestellingen**
-* In de **`Monthly goals`** table
-* Deze maatstaf voert een **Som**
-* Op de **`Orders target`** kolom
-* Besteld door de **`Month`** tijdstempel
+* **Maandelijks doel van orden**
+* In de tabel **`Monthly goals`**
+* Deze metrisch voert a **Som** uit
+* Op de kolom **`Orders target`**
+* Besteld door de **`Month`** timestamp
 
-* **Doel van maandelijkse nieuwe geregistreerde accounts**
-* In de **`Monthly goals`** table
-* Deze maatstaf voert een **Som**
-* Op de **`New registered accounts target`** kolom
-* Besteld door de **`Month`** tijdstempel
+* **Maandelijks nieuw geregistreerd rekeningendoel**
+* In de tabel **`Monthly goals`**
+* Deze metrisch voert a **Som** uit
+* Op de kolom **`New registered accounts target`**
+* Besteld door de **`Month`** timestamp
 
 ## Rapporten
 
 Het is nuttig om een mengeling van statische waarden en visuele grafieken te hebben wanneer het analyseren van uw doelstellingen. Hieronder staan drie voorbeeldrapporten waarmee u uw inkomstenprestaties kunt gaan volgen.
 
-* **Resterende inkomsten om doel te bereiken**
+* **Ontvangsten verlaten om doel** te bereiken
 * Metrisch `A`: `Revenue`
 * 
   [!UICONTROL Metric]: `Revenue`
@@ -67,13 +67,13 @@ Het is nuttig om een mengeling van statische waarden en visuele grafieken te heb
 * 
   [!UICONTROL Format]: `Number`
 
-* [!UICONTROL Time period]: (Ongeacht de relevante tijdsperiode die u wilt gebruiken)
+* [!UICONTROL Time period]: (Welke relevante tijdsperiode u ook wilt)
 * 
   [!UICONTROL Interval]: `Month`
 * 
   [!UICONTROL Chart Type]: `Scalar`
 
-* **Inkomstendoelstellingen**
+* **de doelstellingen van de Inkomsten**
 * Metrisch `A`: `Revenue`
 * 
   [!UICONTROL Metric]: `Revenue`
@@ -81,7 +81,7 @@ Het is nuttig om een mengeling van statische waarden en visuele grafieken te heb
 * Metrisch `B`: `Target Revenue`
 * [!UICONTROL Metric]: `Monthly Revenue Target`
 
-* Metrisch `C`: `Revenue (amount change since previous year)` (verbergen)
+* Metrisch `C`: `Revenue (amount change since previous year)` (hide)
 * 
   [!UICONTROL Metric]: `Revenue`
 * [!UICONTROL Perspective]: `Amount change vs. Previous year`
@@ -92,8 +92,8 @@ Het is nuttig om een mengeling van statische waarden en visuele grafieken te heb
 * 
   [!UICONTROL Format]: `Currency`
 
-* Uitschakelen `Multiple Y-Axes`
-* [!UICONTROL Time period]: (Welke relevante tijdsperiode u wilt gebruiken)*
+* `Multiple Y-Axes` uitschakelen
+* [!UICONTROL Time period]: (Welke relevante tijdsperiode u wilt)*
 * 
   [!UICONTROL Interval]: `Month`
 * [!UICONTROL Chart Type]: `Line Chart`

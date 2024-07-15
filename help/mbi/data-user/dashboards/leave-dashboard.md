@@ -13,8 +13,8 @@ ht-degree: 0%
 
 # Een dashboard verlaten (delen)
 
-Teams wijzigen? In het midden van de lente schoonmaken [!DNL Commerce Intelligence] account? Als u uzelf van een dashboard wilt verlaten of niet wilt delen, klikt u op **[!UICONTROL Shared]** boven aan het scherm als u op het dashboard wilt gaan. Klikken **[!UICONTROL Leave this Dashboard]** om uzelf te verwijderen.
+Teams wijzigen? In het midden van de lente schoonmaakt u uw [!DNL Commerce Intelligence] account? Als u uzelf wilt verlaten of niet wilt delen vanaf een dashboard, klikt u op **[!UICONTROL Shared]** boven aan het scherm terwijl u het dashboard wilt verlaten. Klik op **[!UICONTROL Leave this Dashboard]** om uzelf te verwijderen.
 
 Voorbeeld:
 
-![dashboard verlaten](../../assets/Leave_Dashboard.gif)
+![ verlaten dashboard ](../../assets/Leave_Dashboard.gif)

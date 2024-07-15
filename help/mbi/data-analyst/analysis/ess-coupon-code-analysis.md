@@ -23,43 +23,43 @@ Dit onderwerp documenteert de stappen die worden vereist om deze analyse tot sta
 
 Eerst een opmerking over hoe couponcodes worden bijgehouden. Als een klant een coupon op een bestelling heeft toegepast, gebeuren er drie dingen:
 
-* Een korting wordt weerspiegeld in de `base_grand_total` hoeveelheid (uw `Revenue` metrisch in Commerce Intelligence)
-* De couponcode wordt opgeslagen in het dialoogvenster `coupon_code` veld. Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
-* Het gedisconteerde bedrag wordt opgeslagen in `base_discount_amount`. Afhankelijk van uw configuratie kan deze waarde negatief of positief lijken.
+* Een korting wordt weerspiegeld in de waarde `base_grand_total` (uw `Revenue` -metrische waarde in Commerce Intelligence)
+* De couponcode wordt opgeslagen in het veld `coupon_code` . Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
+* Het gedisconteerde bedrag wordt opgeslagen in `base_discount_amount` . Afhankelijk van uw configuratie kan deze waarde negatief of positief lijken.
 
 Vanaf Commerce 2.4.7 kan een klant meer dan één couponcode op een bestelling toepassen. In dit geval:
 
-* Alle toegepaste couponcodes worden opgeslagen in de `coupon_code` veld `sales_order_coupons`. De eerste toegepaste couponcode wordt ook opgeslagen in het dialoogvenster `coupon_code` veld `sales_order`. Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
+* Alle toegepaste couponcodes worden opgeslagen in het veld `coupon_code` van `sales_order_coupons` . De eerste couponcode die wordt toegepast, wordt ook opgeslagen in het veld `coupon_code` van `sales_order` . Als dit veld NULL (leeg) is, is er geen coupon aan de order gekoppeld.
 
 ## Een metrisch object maken
 
 De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de volgende stappen:
 
-* Navigeren naar **[!UICONTROL Manage Data > Metrics > Create New Metric]**.
+* Navigeer naar **[!UICONTROL Manage Data > Metrics > Create New Metric]** .
 
-* Selecteer de `sales_order`.
-* Deze maatstaf voert een **Som** op de **base_korting_amount** kolom, geordend door **created_at**.
+* Selecteer de `sales_order` .
+* Dit metrisch voert a **Som** op de **base_disconto_amount** kolom uit, die door **wordt bevolen created_at**.
    * [!UICONTROL Filters]:
-      * Voeg de `Orders we count` (Opgeslagen filterset)
+      * De `Orders we count` (Opgeslagen filterset) toevoegen
       * Voeg het volgende toe:
          * `coupon_code`**IS NIET**`[NULL]`
-      * Geef metrisch een naam, zoals `Coupon discount amount`.
+      * Geef de metrische waarde een naam, zoals `Coupon discount amount`.
 
 ## Het dashboard maken
 
 * Zodra metrisch is gecreeerd:
-   * Navigeren naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
-   * Geef het dashboard een naam, zoals `_Coupon Analysis_`.
+   * Navigeer naar [!UICONTROL Dashboards > Dashboard Options > Create New Dashboard]**.
+   * Geef het dashboard een naam, bijvoorbeeld `_Coupon Analysis_` .
 
 * Hier maakt u alle rapporten en voegt u deze toe.
 
 ## Rapporten samenstellen
 
-* **Nieuwe rapporten:**
+* **Nieuwe Rapporten:**
 
 >[!NOTE]
 >
->De [!UICONTROL Time Period]** voor elk rapport wordt vermeld als `All-time`. U kunt dit aanpassen aan uw analysebehoeften. Adobe beveelt alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time`, `Year-to-date`, of `Last 365 days`.
+>De [!UICONTROL Time Period]** voor elk rapport wordt weergegeven als `All-time` . U kunt dit aanpassen aan uw analysebehoeften. Adobe raadt alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time` , `Year-to-date` of `Last 365 days` .
 
 * **Orders met coupons**
    * 
@@ -83,7 +83,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]:`Number (scalar)`
 
-* **Netto-inkomsten uit orders met coupons**
+* **Netto opbrengst van orden met coupons**
    * 
      [!UICONTROL Metric]: `Revenue`
       * Filter toevoegen:
@@ -94,14 +94,14 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
-* **Kortingen op coupons**
+* **Kortingen van coupons**
    * [!UICONTROL Metric]: `Coupon discount amount`
    * [!UICONTROL Time period]: `All time`
    * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
-* **Gemiddelde inkomsten tijdens de levensduur: door coupon aangekochte klanten**
+* **Gemiddelde levensinkomsten: Coupon verworven klanten**
    * [!UICONTROL Metric]: `Avg lifetime revenue`
       * Filter toevoegen:
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
@@ -111,17 +111,17 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
-* **Gemiddelde inkomsten tijdens de levensduur: Aan klanten zonder coupon verworven inkomsten**
+* **Gemiddelde levensinkomsten: Niet-coupon verworven klanten**
    * [!UICONTROL Metric]: `Avg lifetime revenue`
       * Filter toevoegen:
-         * [A] `Customer's first order's coupon_code` **IS**`[NULL]`
+         * [ A ] `Customer's first order's coupon_code` **IS**`[NULL]`
 
    * [!UICONTROL Time period]: `All time`
    * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
-* **Gebruiksgegevens van coupon (eerste bestellingen)**
+* **het gebruiksdetails van de coupon (eerste tijdorden)**
    * Metrisch `1`: `Orders`
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS NIET**`[NULL]`
@@ -132,7 +132,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [`A`] `coupon_code` **IS NIET**`[NULL]`
          * [`B`] `Customer's order number` **Gelijk aan** `1`
 
-      * Naam wijzigen:  `Net revenue`
+      * Naam wijzigen: `Net revenue`
 
    * Metrisch `3`: `Coupon discount amount`
       * Filter toevoegen:
@@ -144,7 +144,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
       * 
         [!UICONTROL Format]: `Currency`
 
-   * Formule maken:**% verdisconteerd**
+   * Create formule:**% disconted**
       * Formule: `(C / (B - C))`
       * 
         [!UICONTROL Format]: `Percentage`
@@ -160,8 +160,8 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
    * 
      [!UICONTROL Chart type]: `Table`
 
-* **Gemiddelde levensopbrengsten per coupon voor eerste bestelling**
-   * [!UICONTROL Metric]:**Gem. levenslange inkomsten**
+* **Gemiddelde levensinkomsten door eerste orde coupon**
+   * [!UICONTROL Metric]:**Gem levensopbrengst**
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS**`[NULL]`
 
@@ -170,7 +170,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
-* **Gebruiksgegevens van coupon (eerste bestellingen)**
+* **het gebruiksdetails van de coupon (eerste tijdorden)**
    * [!UICONTROL Metric]: `Avg lifetime revenue`
       * Filter toevoegen:
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
@@ -182,7 +182,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
    * 
      [!UICONTROL Chart type]: **Column**
 
-* **Nieuwe klanten door middel van couponaankopen/aankopen zonder coupon**
+* **Nieuwe klanten door coupon/niet-coupon verwerving**
    * Metrisch `1`: `New customers`
       * Filter toevoegen:
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
@@ -203,6 +203,6 @@ Na het bouwen van de rapporten, verwijs naar het beeld bij de bovenkant van dit 
 
 >[!NOTE]
 >
->Vanaf Adobe Commerce 2.4.7 kunnen klanten de **quote_coupons** en **sales_order_coupons** tabellen om inzicht te krijgen in hoe klanten meerdere coupons gebruiken.
+>Vanaf Adobe Commerce 2.4.7, kunnen de klanten **quote_coupons** en **sales_order_coupons** lijsten gebruiken om inzicht op te krijgen hoe de klant veelvoudige coupons gebruikt.
 
 ![](../../assets/multicoupon_relationship_tables.png)

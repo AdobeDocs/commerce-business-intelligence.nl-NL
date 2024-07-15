@@ -6,7 +6,7 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '149'
 ht-degree: 1%
 
 ---
@@ -15,37 +15,37 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Vereisten [Beheerdersmachtigingen](../../../administrator/user-management/user-management.md).
+>Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
 ![](../../../assets/stripe-logo.png)
 
-[!DNL Stripe] kunt u de betaling- en factuurgegevens van uw bedrijf beheren en bijhouden. Uw [!DNL Stripe] account aan [!DNL Commerce Intelligence] is een eenvoudig proces in twee stappen:
+Met [!DNL Stripe] kunt u de betalings- en factuurgegevens van uw bedrijf beheren en bijhouden. Het verbinden van uw [!DNL Stripe] account met [!DNL Commerce Intelligence] is een eenvoudig proces in twee stappen:
 
-1. [Toevoegen [!DNL Stripe] als gegevensbron in [!DNL Commerce Intelligence]](#stepone)
-1. [Toestaan [!DNL Commerce Intelligence] toegang tot [!DNL Stripe] Gegevens](#steptwo)
+1. [Voeg  [!DNL Stripe]  als gegevensbron in  [!DNL Commerce Intelligence] toe](#stepone)
+1. [Toestaan  [!DNL Commerce Intelligence]  toegang tot uw  [!DNL Stripe]  Gegevens](#steptwo)
 
-## Toevoegen [!DNL Stripe] als gegevensbron {#stepone}
+## [!DNL Stripe] toevoegen als gegevensbron {#stepone}
 
-1. Ga naar de `Connections` pagina onder **[!UICONTROL Admin** > **Connections]**.
-1. Klikken **[!UICONTROL Add a Data Source]**, die zich rechts boven het scherm bevinden `Data Sources` tabel.
-1. Klik op de knop [!DNL Stripe] pictogram. Hierdoor wordt het dialoogvenster `[!DNL Stripe] authorization` pagina.
+1. Ga naar de pagina `Connections` onder **[!UICONTROL Admin** > **Connections]** .
+1. Klik op **[!UICONTROL Add a Data Source]** rechts van het scherm boven de `Data Sources` -tabel.
+1. Klik op het pictogram [!DNL Stripe] . Hierdoor wordt de pagina `[!DNL Stripe] authorization` weergegeven.
 1. Klik op **[!UICONTROL Connect with Stripe]**.
 
-## Toestaan [!DNL Commerce Intelligence] toegang tot [!DNL Stripe] data {#steptwo}
+## Toegang van [!DNL Commerce Intelligence] tot uw [!DNL Stripe] -gegevens toestaan {#steptwo}
 
-Na klikken **[!UICONTROL Connect with Stripe]**, wordt er een pagina met toegangsverzoeken weergegeven.
+Nadat u op **[!UICONTROL Connect with Stripe]** hebt geklikt, wordt een pagina met toegangsverzoeken weergegeven.
 
 1. Klik op **[!UICONTROL Sign in with Stripe to Continue]**.
 
-1. Voer uw gegevens in en klik op **[!UICONTROL Sign in to your account]**.
+1. Voer uw referenties in en klik op **[!UICONTROL Sign in to your account]** .
 
-1. Uw referenties worden gevalideerd en u wordt teruggestuurd naar [!DNL Commerce Intelligence].
+1. Uw referenties worden gevalideerd en u wordt teruggestuurd naar [!DNL Commerce Intelligence] .
 
-1. Als de verbinding is gelukt, kunt u een *Verbinding gelukt!* verschijnt boven aan het scherm.
+1. Als de verbinding succesvol is, succesvol a *Verbinding!* wordt boven in het scherm weergegeven.
 
 ## Verwante:
 
-De [[!DNL Stripe] API-documentatie](https://stripe.com/docs/api) kan een nuttig middel zijn om meer te leren over hoe [!DNL Stripe] is geïntegreerd met [!DNL Commerce Intelligence].
+De [[!DNL Stripe]  API Documentatie ](https://stripe.com/docs/api) kan een nuttig middel zijn om meer over te leren hoe [!DNL Stripe] met [!DNL Commerce Intelligence] wordt geïntegreerd.
 
-* [Verwacht [!DNL Stripe] data](../integrations/stripe-data.md)
-* [Integraties opnieuw verifiëren](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [Verwachte  [!DNL Stripe]  gegevens](../integrations/stripe-data.md)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

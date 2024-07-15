@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit is alleen beschikbaar voor clients die zich op de `Pro` de nieuwe architectuur plannen en gebruiken. U bevindt zich op de nieuwe architectuur als u de `Data Warehouse Views` sectie beschikbaar na het selecteren `Manage Data` van de hoofdwerkbalk.
+>Dit is alleen beschikbaar voor clients die op het `Pro` -plan staan en de nieuwe architectuur gebruiken. U bevindt zich op de nieuwe architectuur als u de sectie `Data Warehouse Views` beschikbaar hebt nadat u `Manage Data` hebt geselecteerd op de hoofdwerkbalk.
 
-Uw [!DNL Zendesk] gegevens met uw transactionele gegevensbestand is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop of klantensuccesteams in wisselwerking staan. Het helpt u ook weten welk type klanten uw steunplatform gebruiken. In dit onderwerp wordt getoond hoe u een dashboard kunt instellen om gedetailleerde rapporten over uw [!DNL Zendesk] prestaties en tijd in uw transactieklanten.
+Het consolideren van uw [!DNL Zendesk] -gegevens met uw transactiedatabank is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop- of klantsuccesteams communiceren. Het helpt u ook weten welk type klanten uw steunplatform gebruiken. In dit onderwerp ziet u hoe u een dashboard instelt voor gedetailleerde rapporten over de prestaties en de tijd van [!DNL Zendesk] in uw klanten van een transactie.
 
-Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../integrations/zendesk.md). Deze analyse bevat [geavanceerd berekende kolommen](../../data-warehouse-mgr/adv-calc-columns.md).
+Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../integrations/zendesk.md) . Deze analyse bevat [ geavanceerde berekende kolommen ](../../data-warehouse-mgr/adv-calc-columns.md).
 
 <!-- Getting Started -->
 
@@ -80,11 +80,11 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
    * 
       * `Column type` - `Same Table > Calculation`
 
-      * `Input columns` - `role`, `email`
+      * `Input columns` - `role` , `email`
 
-      * `SQL Calculation` `- case when `A` is not `null` and `A!=`end-user` dan `Yes` wanneer `B` is niet `null` en `B` leuk `%@magento.com` dan `Yes` else `No` end
+      * `SQL Calculation` `- case when ` A ` is not ` ongeldig ` and ` A!=`end-user` dan `Yes` when `B` is not `null` and `B` like `%@magento.com` then `Yes` else `No` end
 
-      * Vervangen `@magento.com` met uw domein
+      * Vervang `@magento.com` door uw domein
 
       * `Datatype` - `String`
 
@@ -198,7 +198,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 
       * `Calculation` - `to_char(A,'D')||'. '||to_char(A,'Day')`
 
-     *`Datatype` – `String`
+     *`Datatype` - `String`
 
 * **`customer_entity`** table
    * Selecteer een definitie: `Count`
@@ -221,7 +221,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 
       * `Calculation` - `case when A>0 then 'Yes' else 'No' end`
 
-      * `Datatype` – `String`
+      * `Datatype` - `String`
 
 * **`[!DNL Zendesk] Tickets`** table
    * Selecteer een definitie: `Joined Column`
@@ -236,54 +236,54 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 * **[!DNL Zendesk]Nieuwe tickets**
    * `Tickets we count`
 
-* In de **`[!DNL Zendesk] tickets`** table
-* Deze maatstaf voert een **Aantal**
-* Op de **`id`** kolom
-* Besteld door de **`created_at`** tijdstempel
+* In de tabel **`[!DNL Zendesk] tickets`**
+* Deze metrisch voert a **Telling** uit
+* Op de kolom **`id`**
+* Besteld door de **`created_at`** timestamp
 * [!UICONTROL Filter]:
 
 * **[!DNL Zendesk]Opgeslagen tickets**
    * `Tickets we count`
    * status IN `closed, solved`
 
-* In de **`[!DNL Zendesk] tickets`** table
-* Deze maatstaf voert een **Aantal**
-* Op de **`id`** kolom
-* Besteld door de **`created_at`** tijdstempel
+* In de tabel **`[!DNL Zendesk] tickets`**
+* Deze metrisch voert a **Telling** uit
+* Op de kolom **`id`**
+* Besteld door de **`created_at`** timestamp
 * [!UICONTROL Filter]:
 
 * **[!DNL Zendesk]Afzonderlijke gebruikers die tickets aanvragen**
    * `Tickets we count`
 
-* In de **`[!DNL Zendesk] tickets`** table
-* Deze maatstaf voert een **Verschil aantal**
-* Op de **`requester_id`** kolom
-* Besteld door de **`created_at`** tijdstempel
+* In de tabel **`[!DNL Zendesk] tickets`**
+* Deze metrisch voert a **Afzonderlijke Telling** uit
+* Op de kolom **`requester_id`**
+* Besteld door de **`created_at`** timestamp
 * [!UICONTROL Filter]:
 
-* **[!DNL Zendesk]Gemiddelde/mediane resolutietijd van tickets**
+* **[!DNL Zendesk]Gemiddelde/mediane resolutietijd voor tickets**
    * `Tickets we count`
    * status IN `closed, solved`
 
-* In de **`[!DNL Zendesk] tickets`** table
-* Deze maatstaf voert een **Gemiddelde (of Mediaan)**
-* Op de **`Seconds to resolution`** kolom
-* Besteld door de **`created_at`** tijdstempel
+* In de tabel **`[!DNL Zendesk] tickets`**
+* Deze metrisch voert een **Gemiddelde (of Mediaan)** uit
+* Op de kolom **`Seconds to resolution`**
+* Besteld door de **`created_at`** timestamp
 * [!UICONTROL Filter]:
 
-* **[!DNL Zendesk]Gemiddelde/mediane tijd tot eerste respons**
+* **[!DNL Zendesk]Gemiddelde/mediane tijd tot eerste reactie**
    * Tickets die worden geteld
    * status IN gesloten, opgeloste
 
-* In de **`[!DNL Zendesk] tickets`** table
-* Deze maatstaf voert een **Gemiddelde (of Mediaan)**
-* Op de **`Seconds to first response`** kolom
-* Besteld door de **`created_at`** tijdstempel
+* In de tabel **`[!DNL Zendesk] tickets`**
+* Deze metrisch voert een **Gemiddelde (of Mediaan)** uit
+* Op de kolom **`Seconds to first response`**
+* Besteld door de **`created_at`** timestamp
 * [!UICONTROL Filter]:
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ### Rapporten
 

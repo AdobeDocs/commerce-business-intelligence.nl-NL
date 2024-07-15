@@ -6,14 +6,14 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Import/Export
 source-git-commit: ddda796c9f32d22b1d679fc245eb11b92cd491cf
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Nieuwe architectuur
 
-[!DNL Adobe Commerce Intelligence] Product- en technische teams hebben zich het afgelopen jaar geconcentreerd op het mogelijk maken van de meest ingrijpende, hoogst gevraagde verbeteringen. de Adobe is blij om de beschikbaarheid van een nieuwe [!DNL Commerce Intelligence] productarchitectuur die deze verbeteringen werkelijkheid maakt.
+[!DNL Adobe Commerce Intelligence] Product- en engineeringteams hebben zich het afgelopen jaar geconcentreerd op het mogelijk maken van de meest verstrekkende, hoogst gevraagde verbeteringen. De Adobe is verheugd om aan te kondigen dat er een nieuwe [!DNL Commerce Intelligence] -productarchitectuur beschikbaar is die deze verbeteringen werkelijkheid maakt.
 
 ## Voordelen van nieuwe architectuur
 
@@ -45,7 +45,7 @@ Wanneer dit volledig is, weet u welke gegevens u aan synchronisatie aan de nieuw
 
 ### Help opvragen
 
-De [!DNL Adobe Commerce Intelligence] [Services-team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) kan uw herimplementatie voor extra kosten uitvoeren. Neem contact op met uw [Accountteam Adobe](../../guide-overview.md#Submitting-a-Support-Ticket) en zijn voorbereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
+Het [!DNL Adobe Commerce Intelligence] [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) kan uw re-implementatie voor extra kosten uitvoeren. Contacteer uw [ Team van de Rekening van de Adobe ](../../guide-overview.md#Submitting-a-Support-Ticket) en ben bereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
 
 ### Blijven werken met bestaande architectuur
 

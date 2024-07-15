@@ -6,7 +6,7 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Warehouse Manager, Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Dit onderwerp toont aan hoe te opstelling een dashboard dat u helpt karn voor uw
 
 ![](../../assets/churn-deashboard.png)
 
-Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Berekende kolommen
 
@@ -28,7 +28,7 @@ Te maken kolommen
 * Selecteer een definitie: `Count`
 * Selecteer een [!UICONTROL table]: `sales_flat_order`
 * Selecteer een [!UICONTROL column]: **`entity_id`**
-* [!UICONTROL Path]: verkoop_flat_order.customer_id = customer_entiteit.entiteit_id
+* [!UICONTROL Path]: verkoop_flat_order.customer_id = customer_entity.entity_id
 * [!UICONTROL Filter]:
 * Orders die worden geteld
 
@@ -44,11 +44,11 @@ Te maken kolommen
 * Selecteer een definitie: `Age`
 * Selecteer een [!UICONTROL column]: `created_at`
 
-* **`Customer's order number`** wordt gemaakt door een analist als onderdeel van uw **[CHURN DEFINIËREN]** kaartje
-* **`Is customer's last order`** wordt gemaakt door een analist als onderdeel van uw **[CHURN DEFINIËREN]** kaartje
-* **`Seconds since previous order`** wordt gemaakt door een analist als onderdeel van uw **[CHURN DEFINIËREN]** kaartje
-* **`Months since order`** wordt gemaakt door een analist als onderdeel van uw **[CHURN DEFINIËREN]** kaartje
-* **`Months since previous order`** wordt gemaakt door een analist als onderdeel van uw **[CHURN DEFINIËREN]** kaartje
+* **`Customer's order number`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Is customer's last order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Seconds since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Months since order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Months since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
 
 ## Metrisch
 
@@ -56,17 +56,17 @@ Geen nieuwe metriek!
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
-* **Waarschijnlijk eerste herhalingsvolgorde**
+* **Aanvankelijke waarschijnlijkheid van de herhalingsorde**
 * Metrisch A: Volgorde bij herhaling tijdens de hele tijd
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
 * Metrisch B: Voltijdorders
-* [!UICONTROL Metric]: Aantal bestellingen
+* [!UICONTROL Metric]: aantal bestellingen
 
 * [!UICONTROL Formula]: waarschijnlijkheid van eerste herhalingsvolgorde
 * 
@@ -80,7 +80,7 @@ Geen nieuwe metriek!
 * 
   [!UICONTROL Chart type]: `Scalar`
 
-* **Herhaal de waarschijnlijkheid van de volgorde van maanden sinds de bestelling**
+* **Herhaal orde kansingsmaanden sinds orde**
 * Metrisch A: Volgorde van maanden sinds vorige orde (huid) herhalen
 * [!UICONTROL Metric]: `Number of orders`
 * 
@@ -128,8 +128,8 @@ De formule die u gebruikt, vereenvoudigt (Totaal aantal herhaalde orders die na 
 
 Zodra u uw dashboard hebt opgebouwd, de gemeenschappelijkste vraag is: Hoe gebruik ik dit om een kindrempelwaarde te bepalen?
 
-**Er is geen &quot;één goed antwoord&quot; op.** Adobe raadt echter aan het punt te zoeken waar de lijn de waarde kruist die de helft is van de waarschijnlijkheid bij eerste herhaling. Dit is het punt waar u kunt zeggen &quot;Als een gebruiker een herhalingsorde gaat maken, zouden zij het waarschijnlijk tegen nu hebben gedaan.&quot; Uiteindelijk is het doel de drempel te selecteren waar het zinvol is om over te schakelen van &quot;retentie&quot; naar &quot;reactivering&quot;.
+**Er is geen &quot;één juist antwoord&quot;op dit.** Adobe raadt echter aan het punt te zoeken waar de lijn de waarde kruist die de helft is van de waarschijnlijkheid van de eerste herhaling. Dit is het punt waar u kunt zeggen &quot;Als een gebruiker een herhalingsorde gaat maken, zouden zij het waarschijnlijk tegen nu hebben gedaan.&quot; Uiteindelijk is het doel de drempel te selecteren waar het zinvol is om over te schakelen van &quot;retentie&quot; naar &quot;reactivering&quot;.
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan lijken op de afbeelding boven aan de pagina
 
-Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

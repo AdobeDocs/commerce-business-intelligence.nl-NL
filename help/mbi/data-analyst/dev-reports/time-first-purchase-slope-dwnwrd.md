@@ -6,25 +6,25 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
 source-git-commit: 330832e2668024b00edb2b7c49b92bb042bd004a
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Gemiddelde tijd tot eerste aankooprapport
 
-Vele klanten van de Adobe hebben metrisch en grafiek genoemd `Average time to first purchase`, waarin de gemiddelde tijd tussen de registratiedatum van een groep gebruikers en de eerste aankoopdatum wordt weergegeven. De gegevens slinken bijna altijd naar beneden naarmate de tijd dichter bij het heden komt.
+Veel klanten van de Adobe hebben een metrisch en grafiek genoemd `Average time to first purchase`, die de gemiddelde tijd tussen een groep de registratiedatum van gebruikers en eerste aankoopdatum toont. De gegevens slinken bijna altijd naar beneden naarmate de tijd dichter bij het heden komt.
 
-![gemiddelde tijd tot eerste bestelling](../../assets/average-time-to-first-order.png)
+![ gemiddelde tijd aan eerste orde ](../../assets/average-time-to-first-order.png)
 
 Dit komt omdat deze nieuwere klanten nog niet de gelegenheid hebben gehad om aankopen te genereren die meer dan een maand na hun datum van toetreding zijn gedaan. Omdat gebruikers die nooit een aankoop hebben gedaan helemaal niet worden opgenomen (totdat ze wel een aankoop doen), is dit een nadeel voor nieuwere groepen klanten.
 
 Er zijn een paar andere mogelijke manieren om naar deze metrische methode te kijken die minder vooroordelen introduceert. Onderzoek één voorbeeld.
 
-## Voorbeeld: Een voorbeeld uitvoeren `cohort` analyse van eerste bestellingen
+## Voorbeeld: een `cohort` analyse van eerste bestellingen uitvoeren
 
-U kunt een grafiek op uw hebben `Users` dashboard benoemd `Time to first order cohort`. In dit rapport worden de `Distinct buyers` metrisch, groepeert gebruikers door `cohort` weken of maanden van registratie, en toont de verhouding (tussen `0` en `1`) van gebruikers die in de volgende weken of maanden na registratie voor het eerst een aankoop hebben gedaan.
+U kunt een grafiek op uw `Users` dashboard hebben genoemd `Time to first order cohort`. Dit rapport gebruikt `Distinct buyers` metrisch, groepeert gebruikers door `cohort` weken of maanden van registratie, en toont de verhouding (tussen `0` en `1`) van gebruikers die een eerste aankoop in de volgende weken of maanden na registratie maakten.
 
-In de kaart kan worden vermeld dat voor gebruikers die in december 2014 zijn geregistreerd, `0.56` (of `56%`) heeft bij maand 2 een eerste bestelling uitgevoerd (bijvoorbeeld januari 2015).
+In het diagram kan worden weergegeven dat voor gebruikers die in december 2014 zijn geregistreerd, `0.56` (of `56%`) een eerste bestelling per maand 2 heeft uitgevoerd (bijvoorbeeld januari 2015).
 
 Deze cohortanalyse is een goede indicator van het activeringspercentage van de gebruiker in de loop der tijd. Als dit diagram begint met afvlakken of plateau en u nog steeds niet bijna 100% omzet in kopers, kan het tijd zijn om de resterende gebruikers via e-mailcampagnes te activeren.

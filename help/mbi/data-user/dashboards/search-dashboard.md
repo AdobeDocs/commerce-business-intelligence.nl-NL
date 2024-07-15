@@ -13,22 +13,22 @@ ht-degree: 0%
 
 # Zoeken naar een dashboard
 
-In dit onderwerp ziet u hoe u de [[!DNL Global Search] functie](#global) om naar dashboards en hoe te te zoeken [dashboards van andere gebruikers](#other).
+Dit onderwerp toont u hoe te om de [[!DNL Global Search]  eigenschap ](#global) te gebruiken om dashboards te zoeken en hoe te naar [ dashboards zoeken die door andere gebruikers ](#other) worden bezeten.
 
 ## Globaal zoeken {#global}
 
-De [!DNL Global Search] kunt u zoeken naar dashboards en deze selecteren.
+Met het menu [!DNL Global Search] kunt u zoeken naar dashboards en deze selecteren.
 
-* *Een lijst met uw bestaande dashboards weergeven*, klikt u op het dashboard.
+* *om een lijst van uw bestaande dashboards* te bekijken, klik het dashboard.
 
-* *Zoeken naar een dashboard* Typ bepaalde zoekcriteria in de zoekbalk nadat u op het vervolgkeuzemenu van het dashboard hebt geklikt. Als een dashboard aan de criteria voldoet, wordt het eerst in de lijst weergegeven.
+* *om naar een dashboard* te zoeken, type in sommige onderzoekscriteria in de onderzoeksbar na het klikken van dropdown van het dashboard. Als een dashboard aan de criteria voldoet, wordt het eerst in de lijst weergegeven.
 
 Voorbeeld:
 
-![algemene zoekactie dashboard](../../assets/dboard-global-search.gif)
+![ dashboard globaal onderzoek ](../../assets/dboard-global-search.gif)
 
 ## Dashboards zoeken die eigendom zijn van andere gebruikers {#other}
 
-Op zoek naar een dashboard dat eigendom is van een andere gebruiker? Als het dashboard door anderen kan worden bekeken, kunt u naar het zoeken door te klikken **[!UICONTROL Find]** in de `Dashboard Options` vervolgkeuzelijst.
+Op zoek naar een dashboard dat eigendom is van een andere gebruiker? Als het dashboard door anderen kan worden bekeken, kunt u het zoeken door **[!UICONTROL Find]** in het `Dashboard Options` dropdown te klikken.
 
-![dashboards zoeken](../../assets/find-dboards-other-owners.png)
+![ vind dashboards ](../../assets/find-dboards-other-owners.png)

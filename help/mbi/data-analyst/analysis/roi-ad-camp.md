@@ -6,21 +6,21 @@ role: Admin, User
 feature: Data Warehouse Manager, Reports, Campaigns
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
-# Reclamecampagnes en investeringsrendement
+# Advertising-campagnes en ROI
 
-[!DNL Adobe Commerce Intelligence] staat u toe gemakkelijk [Gegevens over advertentiekosten en inkomstengegevens combineren](../../data-analyst/importing-data/integrations/google-adwords.md) uit uw database. Dit helpt u identificeren welke campagnes het hoogste rendement op investering (ROI) hebben. In dit onderwerp worden enkele verschillende methoden voor het evalueren van de prestaties van uw campagne besproken.
+[!DNL Adobe Commerce Intelligence] staat u toe om [ gemakkelijk te trouwen de gegevens van de reclamekosten en opbrengst ](../../data-analyst/importing-data/integrations/google-adwords.md) van uw gegevensbestand. Dit helpt u identificeren welke campagnes het hoogste rendement op investering (ROI) hebben. In dit onderwerp worden enkele verschillende methoden voor het evalueren van de prestaties van uw campagne besproken.
 
 ## Vereisten
 
 * Je gegevens over advertentiekosten importeren:
-   * [Verbind uw [!DNL Google AdWords] tot [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Hierdoor worden uw [!DNL Adwords] uitgeven in [!DNL Commerce Intelligence]
-   * [Andere gegevens over advertentiekosten uploaden](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt aanbevolen voor kanalen zonder directe aansluiting op [!DNL Commerce Intelligence]
-   * Als u kostengegevens uit meerdere bronnen importeert, kunt u [consolideren](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence]. Eenvoudig [een ondersteuningsticket indienen](../../guide-overview.md#Submitting-a-Support-Ticket).
+   * [ verbind uw  [!DNL Google AdWords]  met  [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] besteedt in [!DNL Commerce Intelligence]
+   * [ uploadt andere reclame kostengegevens ](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt geadviseerd voor kanalen zonder een directe schakelaar aan [!DNL Commerce Intelligence]
+   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [ ](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Kanaalgegevens van verwervingskanalen bijhouden](../analysis/google-track-user-acq.md)
 
 ## Aankoopcampagnes voor gebruikers
@@ -31,7 +31,7 @@ Campagnes die gericht zijn op gebruikersverwerving kunnen vanuit vele perspectie
 1. De omrekeningskoers van registratie tot aankoop van campagnes
 1. Het rendement van campagnes op basis van de gemiddelde levensduur van de gebruiker (LTV)
 
-De bovenstaande analyses (1) en (2) worden in een aparte zelfstudie besproken op [uw belangrijkste marketingkanalen identificeren](../analysis/most-value-source-channel.md). Hier, onderzoekt u analyse (3) om campagne ROI in tijd te meten. Hiermee wordt beantwoord of gebruikers die zijn aangeschaft tijdens een bepaalde campagne voldoende inkomsten hebben gegenereerd om de aanschafkosten te dekken.
+Analyseert (1) en (2) hierboven worden verkend in een afzonderlijk leerprogramma op [ identificerend uw hoogste marketing kanalen ](../analysis/most-value-source-channel.md). Hier, onderzoekt u analyse (3) om campagne ROI in tijd te meten. Hiermee wordt beantwoord of gebruikers die zijn aangeschaft tijdens een bepaalde campagne voldoende inkomsten hebben gegenereerd om de aanschafkosten te dekken.
 
 >[!NOTE]
 >
@@ -41,51 +41,51 @@ De bovenstaande analyses (1) en (2) worden in een aparte zelfstudie besproken op
 
 **1. Begin door een grafiek te creëren die uw Advertentiekosten door Campagnes segmenteert:**
 
-1. Een [!UICONTROL Metric] dat de uitgaven in de loop der tijd
+1. Maak een [!UICONTROL Metric] die uw uitgaven in de loop van de tijd opsomt
 1. Ga naar [!UICONTROL Data > Metrics]
-1. Selecteren `Add New Metric` en selecteert u de [!DNL `Adwords...`] tabel die uw [!DNL AdWords] kostengegevens.
-1. Geef in de metrische editor uw metrische waarde een naam (bijvoorbeeld [!UICONTROL AdWord Cost])
-1. Voer met behulp van de dropdowns een **Som** op de `adCost` in de [!DNL Adwords...] tabel (Wijzigen) die is geordend door de `date` kolom.
+1. Selecteer `Add New Metric` en selecteer de [!DNL `Adwords...`] -tabel die uw [!DNL AdWords] kostengegevens opneemt.
+1. Geef uw metrische waarde in de metrische editor een naam (bijvoorbeeld [!UICONTROL AdWord Cost] )
+1. Gebruikend dropdowns, voer a **Som** op de `adCost` kolom in de [!DNL Adwords...] lijst (Verandering) uit die door de `date` kolom wordt bevolen.
    ![](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
-1. Klikken `Back to Metric List` bovenaan en ga naar een dashboard.
+1. Klik op `Back to Metric List` bovenaan en ga naar een willekeurig dashboard.
 
 1. Een rapport maken dat segmenten via campagnes doorgeven
 1. Klik in een dashboard op [!UICONTROL Add Report > Create report]
-1. Selecteer de [!UICONTROL Adword Cost] de zojuist gemaakte metrische waarde
-1. Stel de [!UICONTROL Time period] tot `All-time`, en [!UICONTROL Interval] tot `None`
-1. Onder de `Group by` tab, toevoegen `campaign` als [!UICONTROL grouping field]en klik op `Add All` in de doos.
-1. Dit rapport laat uw hele tijd zien [!DNL AdWords] kosten via campagnes
+1. Selecteer de metrische waarde die u net hebt gemaakt. [!UICONTROL Adword Cost]
+1. Stel de waarden [!UICONTROL Time period] in op `All-time` en [!UICONTROL Interval] op `None`
+1. Voeg onder het tabblad `Group by` `campaign` as [!UICONTROL grouping field] toe en klik op `Add All` in het vak.
+1. In dit rapport worden uw kosten voor de hele tijd [!DNL AdWords] via campagnes getoond
 
 **2. Creeer een rapport dat nieuwe gebruikers door campagnes telt:**
 
 1. Klik in een dashboard op **[!UICONTROL Add Report > Create report]**
-1. Selecteer de `New users` metrisch die het aantal nieuwe geregistreerde gebruikers in tijd telt
-1. Stel de [!UICONTROL Time period] tot `All-time`, en [!UICONTROL Interval] tot `None`
-1. Onder de `Group by` tab, toevoegen `campaign` als `grouping field`en klik op **`Add All`** in het vak
+1. Selecteer `New users` die het aantal nieuwe geregistreerde gebruikers in tijd telt
+1. Stel de waarden [!UICONTROL Time period] in op `All-time` en [!UICONTROL Interval] op `None`
+1. Voeg onder het tabblad `Group by` `campaign` as `grouping field` toe en klik op **`Add All`** in het vak
 1. In dit rapport worden uw geregistreerde gebruikers tijdens de hele periode via campagnes weergegeven
 
 **3. Creeer een rapport dat gemiddelde gebruiker LTV door campagnes segmenteert:**
 
 1. Klik in een dashboard op **[!UICONTROL Add Report > Create report]**
-1. Selecteer de `Average lifetime revenue` Metrisch die de inkomsten van een gemiddelde gebruiker tijdens zijn leven berekent
-1. Stel de [!UICONTROL Time period] tot `All-time`, en [!UICONTROL Interval] tot `None`
-1. Onder de `Group by` tab, toevoegen `campaign` of `utm\_campaign` als [!UICONTROL grouping field]en klik op `Add All` in het vak
+1. Selecteer de `Average lifetime revenue` -maatstaf die de inkomsten van een gemiddelde gebruiker berekent
+1. Stel de waarden [!UICONTROL Time period] in op `All-time` en [!UICONTROL Interval] op `None`
+1. Voeg onder het tabblad `Group by` `campaign` of `utm\_campaign` toe als [!UICONTROL grouping field] en klik op `Add All` in het vak
 1. Dit rapport toont uw gemiddelde opbrengst van het gebruikersleven door campagnes
 
-**Tot slot moet u het ROI van de campagne berekenen door deze drie analyses samen te brengen in één verslag:**
+**tot slot, bereken campagne ROI door deze drie analyses in één rapport samen te brengen:**
 
 1. Klik in een dashboard op **[!UICONTROL Add Report > Create new report]**
-1. Voeg toe als invoer en gebruik de drie bovenstaande maatstaven. Elke letter wordt toegewezen (bijvoorbeeld\[`A`\], \[`B`\] en \[`C`\])
-1. [!UICONTROL Cost]: Voeg de kosten van de metrische Advertentiewoorden toe - dit is variabele \[A\]. Dit brengt kosten door campagnes terug.
-1. [!UICONTROL Users]: Voeg de metrische nieuwe gebruikers toe - dit is variabele \[B\]. Hierdoor wordt het aantal gebruikers via campagnes geretourneerd.
-1. [!UICONTROL LTV]: Voeg de gemiddelde omzet van Levensduur metrisch toe - dit is variabele \[`C`\]. Dit retourneert LTV via campagnes.
+1. Voeg toe als invoer en gebruik de drie bovenstaande maatstaven. Aan elk is een letter toegewezen (bijvoorbeeld \[`A`\], \[`B`\] en \[`C`\])
+1. [!UICONTROL Cost]: voeg de kosten voor de metrische Advertentiewoorden toe. Dit is een variabele \[A\]. Dit brengt kosten door campagnes terug.
+1. [!UICONTROL Users]: voeg de metrische nieuwe gebruikers toe - dit is variabele \[B\]. Hierdoor wordt het aantal gebruikers via campagnes geretourneerd.
+1. [!UICONTROL LTV]: voeg de metrische gemiddelde opbrengst van de Levensduur toe - dit is veranderlijke \ [`C` \]. Dit retourneert LTV via campagnes.
 
 1. Klik op het pictogram Verbergen naast het woord Grafiek zodat u zich op de tabel kunt concentreren
-1. Nu gebruiken `Add Formula` om deze cijfers als volgt te combineren:
-1. [!UICONTROL ROI]: Voer de formule in `(\[C\]-\[A\]/\[B\])/(\[A\]/\[B\])`, als \[`A`\] staat voor `Ad Cost by Campaigns`, \[`B`\] staat voor `New users by campaigns`, en \[`C`\] `LTV by campaigns`. Dit geeft de verhouding tussen (gemiddelde LTV van gebruikers - gemiddelde kostprijs per aankoop) / (gemiddelde kostprijs per aankoop)
-1. [!UICONTROL Avg Return per User]: Voer de formule in **\[`C`\]-(\[`A`\]/\[`B`\])**. Dit geeft de gemiddelde marge voor een gebruiker terug door (gemiddelde LTV-gebruiker) te berekenen - (gemiddelde kosten per aankoop).
-1. [!UICONTROL CPA]: Voer de formule in **`\[A\]/\[B\]`**. Dit retourneert de werkelijke kosten van de campagne per aankoop.
-1. Andere mogelijke meetgegevens die moeten worden opgenomen van [!DNL AdWords] gegevens omvatten sommen  `Impressions` en `adClicks` (van [!DNL AdWords] gegevens), samen met het totaal `number of orders` via een bepaalde campagne.
+1. Gebruik `Add Formula` nu om deze cijfers als volgt te combineren:
+1. [!UICONTROL ROI]: Voer de formule `(\[C\]-\[A\]/\[B\])/(\[A\]/\[B\])` in als \[`A`\] `Ad Cost by Campaigns` vertegenwoordigt, \[`B`\] `New users by campaigns` vertegenwoordigt en \[`C`\] `LTV by campaigns`. Dit geeft de verhouding tussen (gemiddelde LTV van gebruikers - gemiddelde kostprijs per aankoop) / (gemiddelde kostprijs per aankoop)
+1. [!UICONTROL Avg Return per User]: Ga de formule **\ in \ [`C` \] - (\ [`A` \]/\ [`B` \])**. Dit geeft de gemiddelde marge voor een gebruiker terug door (gemiddelde LTV-gebruiker) te berekenen - (gemiddelde kosten per aankoop).
+1. [!UICONTROL CPA]: voer de formule in **`\[A\]/\[B\]`** . Dit retourneert de werkelijke kosten van de campagne per aankoop.
+1. Andere mogelijke meetgegevens die van [!DNL AdWords] gegevens kunnen worden opgenomen, zijn sommen `Impressions` en `adClicks` (van [!DNL AdWords] data), samen met het totaal `number of orders` dat via een bepaalde campagne is gemaakt.
 1. Het kan ook interessant zijn om het rendement van investeringen te berekenen op basis van LTV 30 dagen en 90 dagen nadat een gebruiker zich heeft geregistreerd of een eerste aankoop doet.
 
 1. Voel vrij om uw metriek en formules te klikken en te slepen om de kolommen van uw rapport te herschikken
@@ -99,7 +99,7 @@ Gebruikt u productspecifieke advertenties? Als dat het geval is, kunt u de ROI o
 >
 >In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door ervan uit te gaan dat alle kosten werden besteed aan het genereren van aankopen, maakt het resulterende rendement van investeringen het worstcasescenario (hoogste kosten per aankoop). U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die 10 nieuwe gebruikers en 10 aankopen genereerde, zijn uw werkelijke kosten per aankoop $1. Onder de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.
 
-Voordat u begint, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de volgende afmetingen aan uw lijst van lijnpunten ( te verbinden`sales\_flat\_order\_item, order\_item`):
+Alvorens u begint, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
 
 * De bron van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de bron van de gebruiker aansluit)
 * De campagne van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich aansluit bij gebruikerscampagne)
@@ -108,33 +108,33 @@ Voordat u begint, [een ondersteuningsticket indienen](https://experienceleague.a
 **1. Begin nu door een grafiek te creëren die opbrengst per campagne voor specifiek product(en) terugkeert:**
 
 1. Klik in een dashboard op **[!UICONTROL Add Report > Create new report]**
-1. Selecteer de `Revenue by items` metrisch die opbrengst op het niveau van lijnpunten berekent
-1. Stel de [!UICONTROL Time period] tot `All-time`, en [!UICONTROL Interval] tot `None`
-1. Onder de `Filter by` tab, toevoegen `product name 'IN'` Product `A`, Product `B`, Product `C`, ...&quot; en alle productnamen waarop uw campagne betrekking heeft, met een komma van elkaar gescheiden (bijvoorbeeld `product name 'IN' yellow t-shirt`, `red t-shirt, blue t-shirt`)
-1. Onder de `Group by` tab, toevoegen `order's campaign` of `order's utm\_campaign` als `grouping` en klik op **[!UICONTROL Add All]** in het vak
+1. Selecteer `Revenue by items` metrisch die opbrengst op het niveau van lijnpunten berekent
+1. Stel de waarden [!UICONTROL Time period] in op `All-time` en [!UICONTROL Interval] op `None`
+1. Voeg onder het tabblad `Filter by` `product name 'IN'` Product `A` , Product `B` , Product `C` ...&quot; toe en voeg alle productnamen toe die voor uw campagne zijn bedoeld, gescheiden door een komma (bijvoorbeeld `product name 'IN' yellow t-shirt` , `red t-shirt, blue t-shirt` )
+1. Voeg onder de tab `Group by` `order's campaign` of `order's utm\_campaign` toe als `grouping` veld en klik op **[!UICONTROL Add All]** in het vak
 1. In dit verslag worden de inkomsten voor specifieke producten via campagnes weergegeven
 
 **2. Om ROI te berekenen, combineert u opnieuw metriek in één rapport:**
 
 1. Klik in een dashboard op **[!UICONTROL Add Report > Create new report]**
-1. Voeg de `Revenue by items` metrisch, die het filter en de groep door richtingen van de campagne voor specifiek(e) product(en) rapport hierboven volgen en klikken **[!UICONTROL Hide]** onder de scalaire waarde van metrisch
-1. Voeg nu de [!DNL AdWords Cost] metrisch, die het filter en de groep door richtingen van metrisch volgen `Ad cost by campaigns` rapport dat u in het `User acquisition campaigns` sectie hierboven; klik vervolgens op **[!UICONTROL Hide]** onder de scalaire waarde van metrisch
+1. Voeg de `Revenue by items` -metrische waarde toe, waarbij u het filter en de groep op aanwijzingen van de campagne voor het/de specifieke product(en)-rapport hierboven volgt en op **[!UICONTROL Hide]** onder de scalaire waarde van de meting klikt
+1. Voeg nu de metrische waarde [!DNL AdWords Cost] toe, die het filter en de groep op richtingen van het `Ad cost by campaigns` rapport volgt u in de `User acquisition campaigns` sectie hierboven verkende; dan klik **[!UICONTROL Hide]** onder de scalaire waarde van metrisch
 1. Voeg formules toe met deze meetwaarden:
-1. [!UICONTROL ROI]: Voer de formule in `\[A\]/\[B\]`, als `\[A\]` representeren `Revenue per campaign for specific product(s)` en `\[B\]` representeren `Ad cost by campaigns`. Hiermee wordt de verhouding tussen (inkomsten voor specifieke producten) en (campagnekosten) gegeven
-1. [!UICONTROL Return]: Voer de formule in `\[A\]-\[B\]`. Dit geeft de gemiddelde marge voor een gebruiker door te berekenen (gemiddelde LTV-gebruiker) - (gemiddelde kostprijs per aankoop)
-1. (Optioneel) [!UICONTROL Revenue]: Verberg de `Revenue by items` Metrisch om de opbrengsten voor specifieke producten per campagne te zien
-1. (Optioneel) [!UICONTROL Cost]: Verberg de `AdWords Cost` metrisch om de kosten van campagnes te zien
+1. [!UICONTROL ROI]: voer de formule `\[A\]/\[B\]` in als `\[A\]` `Revenue per campaign for specific product(s)` en `\[B\]` `Ad cost by campaigns` vertegenwoordigt. Hiermee wordt de verhouding tussen (inkomsten voor specifieke producten) en (campagnekosten) gegeven
+1. [!UICONTROL Return]: voer de formule in `\[A\]-\[B\]` . Dit geeft de gemiddelde marge voor een gebruiker door te berekenen (gemiddelde LTV-gebruiker) - (gemiddelde kostprijs per aankoop)
+1. (Optioneel) [!UICONTROL Revenue]: maak de `Revenue by items` -meting zichtbaar om de inkomsten voor specifieke producten per campagne weer te geven
+1. (Optioneel) [!UICONTROL Cost]: maak de `AdWords Cost` -metrische informatie zichtbaar om de kosten voor campagnes te zien
 
 1. Geef uw rapport een naam en zorg ervoor het als lijst bewaart
 
-**3. Herhaal stap 1 en 2 voor elk van uw geadverteerde producten of productgroep(en).**
+**3. Herhaal stap 1 en 2 hierboven voor elk van uw geadverteerde producten of productgroep(en).**
 
 ## Gerelateerde documentatie
 
-* [Referentiebron voor bestelling volgen via [!DNL Google Analytics] Elektronische handel](../importing-data/integrations/google-ecommerce.md)
+* [De verwijzingsbron van de orde van het spoor via  [!DNL Google Analytics]  E-Commerce](../importing-data/integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../analysis/google-track-user-acq.md)
 * [Gebruikersapparaat, browser en besturingssysteemgegevens bijhouden in uw database](../analysis/track-usr-dev-browser.md)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../analysis/most-value-source-channel.md)
-* [Verbind uw [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)
-* [Hoe werkt [!DNL Google Analytics] UTM-toewijzingswerk?](../analysis/utm-attributes.md)
-* [Vijf aanbevolen procedures voor UTM-tags in [!DNL Google Analytics]](../../best-practices/utm-tagging-google.md)
+* [Verbind uw  [!DNL Google Adwords]  rekening](../importing-data/integrations/google-adwords.md)
+* [Hoe werkt  [!DNL Google Analytics]  UTM attributie?](../analysis/utm-attributes.md)
+* [Vijf beste praktijken voor het etiketteren UTM in  [!DNL Google Analytics]](../../best-practices/utm-tagging-google.md)

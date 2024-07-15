@@ -6,7 +6,7 @@ role: Admin, User
 feature: Accounts
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,22 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereisten [Beheerdersmachtigingen.](../../administrator/user-management/user-management.md)
+>Vereist [ toestemmingen Admin.](../../administrator/user-management/user-management.md)
 
-In uw [!DNL Commerce Intelligence] -account, kunt u uw accountinstellingen aanpassen voor uw Data Warehouse. U kunt deze openen door de naam van uw organisatie te selecteren in de rechterbovenhoek van een scherm en vervolgens **[!UICONTROL Account Settings]** in de vervolgkeuzelijst.
+In uw [!DNL Commerce Intelligence] -account kunt u de accountinstellingen voor uw Data Warehouse aanpassen. U kunt deze openen door de naam van uw organisatie te selecteren in de rechterbovenhoek van een scherm en vervolgens **[!UICONTROL Account Settings]** te kiezen in het vervolgkeuzemenu.
 
-* **[!UICONTROL Client Name:]** Deze instelling wordt in de rechterbovenhoek van alle dashboards en elders in uw account weergegeven. Als u wilt wijzigen **[!UICONTROL "Vandelay Industries Co., Ltd]** alleen **[!UICONTROL "Vandelay]** Dat is de juiste weg.
+* **[!UICONTROL Client Name:]** Deze instelling wordt in de rechterbovenhoek van alle dashboards en elders in uw account weergegeven. Als u **[!UICONTROL "Vandelay Industries Co., Ltd]** wilt wijzigen in **[!UICONTROL "Vandelay]** , doet u dat op deze manier.
 
-* **[!UICONTROL Currency:]** Dit is het *standaardvaluta* voor alle monetaire waarden in uw account. Telkens wanneer een decimale of valutawaarde in uw Data Warehouse wordt gesynchroniseerd, bepaalt deze instelling het symbool dat voor die waarde in uw rapporten wordt geplaatst.
+* **[!UICONTROL Currency:]** Dit is de *standaardmunt* voor alle monetaire waarden in uw rekening. Telkens wanneer een decimale of valutawaarde in uw Data Warehouse wordt gesynchroniseerd, bepaalt deze instelling het symbool dat voor die waarde in uw rapporten wordt geplaatst.
 
-* **[!UICONTROL Blackout Hours:]** Deze instelling zorgt ervoor dat uw Data Warehouse tijdens de geselecteerde uren van de dag geen toegang heeft tot de verbonden databases. Alle uren worden uitgedrukt bij nul-uur en in Oost StandaardTijd (EST). Als u bijvoorbeeld niet wilt dat uw productiedatabase wordt geopend tussen de uren 9:00 uur EST en 1:00 uur EST, moet u de volgende array met cijfers typen: **9, 10, 11, 12**.
+* **[!UICONTROL Blackout Hours:]** Deze instelling zorgt ervoor dat de Data Warehouse tijdens de geselecteerde uren van de dag geen toegang heeft tot de verbonden databases. Alle uren worden uitgedrukt bij nul-uur en in Oost StandaardTijd (EST). Bijvoorbeeld, als u uw productiegegevensbestand niet tussen de uren van 9:00 a.m. EST en 1:00 p.m. EST wilt worden betreden, zou u de volgende serie van cijfers moeten typen: **9, 10, 11, 12**.
 
-* **[!UICONTROL Forced update hours:]** Deze instelling zorgt ervoor dat er automatisch een update van de Data Warehouse in uw account wordt gestart *gedurende de uren* u hebt opgegeven. Net als bij de zwartwerktijden zijn deze ook in ET. Als u bijvoorbeeld wilt dat updates van de Data Warehouse automatisch beginnen bij **middernacht** en **middag** EST, zou u de volgende serie van cijfers moeten typen: **0,12**.
+* **[!UICONTROL Forced update hours:]** Dit het plaatsen zorgt ervoor dat een update van de Data Warehouse automatisch in uw rekening *tijdens de uren* begint u hebt gespecificeerd. Net als bij de zwartwerktijden zijn deze ook in ET. Bijvoorbeeld, als u de updates van de Data Warehouse automatisch bij **middernacht** en **12} Midden** EST wilt beginnen, zou u de volgende serie van cijfers moeten typen: **0, 12**.
 
-* **[!UICONTROL Send email summaries if the data has not updated yet:]** Met deze optie worden situaties beheerd waarin een e-mailoverzicht wordt verzonden *vóór de gegevens in een van haar verslagen* wordt vernieuwd. Als u **Nee**, uw account slaat het verzenden van het e-mailbericht op het geplande tijdstip over. In plaats daarvan verzendt uw account de gegevens nadat deze zijn bijgewerkt. Als u **[!UICONTROL Yes]**, verzendt uw account de e-mail, bevat een bericht waarin wordt uitgelegd dat de gegevens niet zijn opgeslagen en verzendt een andere e-mail zodra uw gegevens zijn bijgewerkt.
+* **[!UICONTROL Send email summaries if the data has not updated yet:]** Deze optie beheert situaties wanneer een e-mailsamenvatting *moet verzenden alvorens de gegevens in één van zijn rapporten* worden verfrist. Als u **Nr** kiest, slaat uw rekening het verzenden van e-mail op zijn geplande tijd over. In plaats daarvan verzendt uw account de gegevens nadat deze zijn bijgewerkt. Als u **[!UICONTROL Yes]** kiest, verzendt uw account de e-mail, bevat het een bericht waarin wordt uitgelegd dat de gegevens niet zijn opgeslagen en wordt een e-mail verzonden zodra uw gegevens zijn bijgewerkt.
 
-* **[!UICONTROL Enable data updates:]** Met deze optie zorgt u ervoor dat gegevensupdates op uw account worden uitgevoerd. Als u de instelling wijzigt in **[!UICONTROL No]**, gegevenssyncs en kolomberekeningen worden gestopt in uw account.
+* **[!UICONTROL Enable data updates:]** Met deze optie zorgt u ervoor dat gegevensupdates op uw account worden uitgevoerd. Als u de instelling wijzigt in **[!UICONTROL No]** , worden de gegevenssynchronisatie en de kolomberekeningen gestopt in uw account.
 
 >[!NOTE]
 >
->Zorg ervoor dat u **[!UICONTROL Save Customizations]** nadat u wijzigingen hebt aangebracht.
+>Selecteer **[!UICONTROL Save Customizations]** nadat u wijzigingen hebt aangebracht.

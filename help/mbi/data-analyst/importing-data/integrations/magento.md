@@ -15,14 +15,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereisten [Beheerdersmachtigingen](../../../administrator/user-management/user-management.md).
+>Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Uw [!DNL Adobe Commerce] gegevens naar [!DNL Commerce Intelligence] kunt u deze vragen en meer beantwoorden.
+Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Door uw [!DNL Adobe Commerce] -gegevens aan te sluiten op [!DNL Commerce Intelligence] kunt u deze vragen en meer beantwoorden.
 
-Als de [!DNL Adobe Commerce] database is gebaseerd op MySQL, kunt u er verbinding mee maken [!DNL Commerce Intelligence] via een [directe verbinding](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [via een SSH-tunnel](../integrations/mysql-via-ssh-tunnel.md). De methode SSH wordt geadviseerd omdat het het veiligst is.
+Aangezien het [!DNL Adobe Commerce] gegevensbestand op MySQL gebaseerd is, kunt u het met [!DNL Commerce Intelligence] door a [ directe verbinding ](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [ via een tunnel van SSH ](../integrations/mysql-via-ssh-tunnel.md) verbinden. De methode SSH wordt geadviseerd omdat het het veiligst is.
 
 ## Verwante informatie
 
-* [Verwachte gegevens over handel](../integrations/magento-data.md)
+* [Commerce-gegevens verwacht](../integrations/magento-data.md)
 * [Aanbevolen gegevensafmetingen voor segmentatie en filteren](../../../best-practices/segment-filter.md)
 * [Wat zijn uw waardevolste aanschafbronnen en kanalen?](../../analysis/most-value-source-channel.md)

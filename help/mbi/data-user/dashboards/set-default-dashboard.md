@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # Een standaarddashboard instellen
 
-Het standaarddashboard is het eerste dashboard dat u bij het openen ziet [!DNL Commerce Intelligence].
+Het standaarddashboard is het eerste dashboard dat u ziet bij het openen van [!DNL Commerce Intelligence] .
 
-1. Klik op **[!UICONTROL Dashboard Options]** boven aan het scherm.
+1. Klik in het dashboard op **[!UICONTROL Dashboard Options]** boven aan het scherm.
 
-1. Klikken **[!UICONTROL Make Default]** in de vervolgkeuzelijst.
+1. Klik op **[!UICONTROL Make Default]** in de vervolgkeuzelijst.
 
-1. Wanneer de bevestigingsprompt wordt weergegeven, klikt u op **[!UICONTROL Yes]** om het standaarddashboard te wijzigen.
+1. Wanneer de bevestigingsvraag wordt weergegeven, klikt u op **[!UICONTROL Yes]** om het standaarddashboard te wijzigen.
 
 Dit is nu uw nieuwe standaarddashboard.
 
 Voorbeeld:
 
-![standaarddashboard](../../assets/default_dashboard.gif)
+![ standaarddashboard ](../../assets/default_dashboard.gif)

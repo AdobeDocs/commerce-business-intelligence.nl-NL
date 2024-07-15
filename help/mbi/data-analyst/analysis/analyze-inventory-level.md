@@ -6,14 +6,14 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Dashboards, Reports
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Inventarisniveaus analyseren
 
-In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris en instructies bevat voor klanten op zowel de oudere architectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet beschikt over de **[!UICONTROL Data Warehouse Views]** optie onder de **[!UICONTROL Manage Data]** -menu. Als u zich op de oudere architectuur bevindt, dient u een [nieuwe supportaanvraag](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in _Berekende kolommen_ onderstaande instructies.
+In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris en instructies bevat voor klanten op zowel de oudere architectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet over de optie **[!UICONTROL Data Warehouse Views]** in het menu **[!UICONTROL Manage Data]** beschikt. Als u op de erfenisarchitectuur bent, voorlegt a [ nieuw steunverzoek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in de _Berekende kolommen_ hieronder instructies bereikt.
 
 ## Te traceren kolommen:
 
@@ -41,7 +41,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
       * [!UICONTROL Filters]:
-         * [A] `Ordered products we count`
+         * [ A ] `Ordered products we count`
 
    * **`Product's first order date`**
       * [!UICONTROL Column type]: `Many to One`
@@ -50,7 +50,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
       * [!UICONTROL Filters]:
-         * [A] `Ordered products we count`
+         * [ A ] `Ordered products we count`
 
    * **`Seconds since product's most recent order date`**
       * [!UICONTROL Column type]: `Same Table`
@@ -65,13 +65,13 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `qty_ordered`
       * [!UICONTROL Filters]:
-         * [A] `Ordered products we count`
+         * [ A ] `Ordered products we count`
 
    * **`Avg products sold per week (all time)`**
       * [!UICONTROL Column type]: `Same Table`
       * 
         [!UICONTROL Column equation]: `CALCULATION`
-      * [!UICONTROL Column] inputs:
+      * [!UICONTROL Column] invoer:
          * A: `Product's lifetime number of items sold`
          * B: `Product's first order date`
       * 
@@ -112,7 +112,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Column type]: `Same Table`
       * 
         [!UICONTROL Column equation]: `CALCULATION`
-      * [!UICONTROL Column] inputs:
+      * [!UICONTROL Column] invoer:
          * A: `qty`
          * B: `Avg products sold per week (all time)`
       * 
@@ -131,7 +131,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
       * [!UICONTROL Filters]:
-         * [A] `Ordered products we count`
+         * [ A ] `Ordered products we count`
 
    * **`Product's first order date`**
       * [!UICONTROL Column type]: `Many to One`
@@ -140,13 +140,13 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
       * [!UICONTROL Filters]:
-         * [A] `Ordered products we count`
+         * [ A ] `Ordered products we count`
 
    * **`Seconds since product's most recent order date`**
       * [!UICONTROL Column type]: `Same Table`
       * 
         [!UICONTROL Column equation]: `AGE`
-      * Selecteer de kolom DATETIME: **`Product's most recent order date`**
+      * Selecteer DATETIME-kolom: **`Product's most recent order date`**
 
    * **`Product's lifetime number of items sold`**
       * [!UICONTROL Column type]: `Many to One`
@@ -155,10 +155,10 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * [!UICONTROL Path]: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
       * Selecteer een [!UICONTROL column]: **`qty_ordered`**
       * [!UICONTROL Filters]:
-         * [A] `Ordered products we count`
+         * [ A ] `Ordered products we count`
 
    * **`Avg products sold per week (all time)`**
-      * Gemaakt door een analist wanneer u uw **[INVENTARISCHE ANALYSE]** supportverzoek
+      * Gemaakt door een analist wanneer u uw **[INVENTORY ANALYSE]** steunverzoek voorlegt
 
 * **[!UICONTROL cataloginventory_stock_item]** tabel:
    * **`Sku`**
@@ -190,7 +190,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
       * Selecteer een [!UICONTROL column]: `Avg products sold per week (all time)`
 
    * **`Weeks on hand`**
-      * Gemaakt door een analist wanneer u uw **[!UICONTROL INVENTORY ANALYSIS]** supportverzoek
+      * Gemaakt door een analist wanneer u een **[!UICONTROL INVENTORY ANALYSIS]** -supportverzoek indient
 
 +++
 
@@ -200,9 +200,9 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
 * **[!UICONTROL cataloginventory_stock_item]** tabel:
    * **`Inventory on hand`**: deze metrische waarde voert een
-      * **Som** op de
+      * **Som** op
       * **`qty`** kolom geordend door de
-      * [Geen] kolom
+      * [ niets ] kolom
 
 ## Rapporten
 
@@ -221,7 +221,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 * **`Inventory with less than 2 weeks on hand (order now)`**
    * [!UICONTROL Metric]: `Inventory on hand`
       * [!UICONTROL Filters]:
-         * [A] `Weeks on hand` `< 2`
+         * [ A ] `Weeks on hand` `< 2`
 
    * [!UICONTROL Time period]: `All time`
    * Tijdinterval: `None`
@@ -233,7 +233,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 * **`Inventory with more than 26 weeks on hand (put on sale)`**
    * [!UICONTROL Metric]: `Inventory on hand`
       * [!UICONTROL Filters]:
-         * [A] `Weeks on hand` `> 26`
+         * [ A ] `Weeks on hand` `> 26`
 
    * [!UICONTROL Time period]: `All time`
    * Tijdinterval: `None`
@@ -242,4 +242,4 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
    * 
      [!UICONTROL Chart type]: `Table`
 
-Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

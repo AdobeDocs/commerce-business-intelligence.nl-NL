@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Consolideer uw tabellen
 
-Als u veelvoudige opslagfronten of op veelvoudige markten in werking stelt, kunt u gelijkaardige gegevensbestanden hebben die afzonderlijk worden opgeslagen. In [!DNL Adobe Commerce Intelligence]Het is echter eenvoudig vergelijkbare tabellen uit verschillende databases samen te voegen.
+Als u veelvoudige opslagfronten of op veelvoudige markten in werking stelt, kunt u gelijkaardige gegevensbestanden hebben die afzonderlijk worden opgeslagen. In [!DNL Adobe Commerce Intelligence] is het eenvoudig om vergelijkbare tabellen uit verschillende databases samen te voegen.
 
-U hebt bijvoorbeeld een `orders` tabel voor `Market A`en een soortgelijke `orders` tabel voor `Market B`. [!DNL Commerce Intelligence] U kunt beide tabellen samenvoegen en u kunt de gegevens van de samengestelde volgorde bekijken vanuit beide `Market A` en `B`, naast segmentering door specifieke markt.
+U hebt bijvoorbeeld een `orders` tabel voor `Market A` en een vergelijkbare `orders` tabel voor `Market B` . Met [!DNL Commerce Intelligence] kunt u beide tabellen samenvoegen en de gegevens van de geaggregeerde volgorde van zowel `Market A` als `B` bekijken. Daarnaast kunt u de tabellen segmenteren op basis van specifieke markten.
 
-Voor de consolidatie van tabellen die moeten werken, moeten invoertabellen **op vergelijkbare wijze gestructureerd**. Met andere woorden, alle inputlijsten moeten de gegevenskolommen bevatten die in de geconsolideerde lijst worden vereist.
+Voor consolidatie van lijsten aan het werk, moeten de inputlijsten **zo ook gestructureerd** zijn. Met andere woorden, alle inputlijsten moeten de gegevenskolommen bevatten die in de geconsolideerde lijst worden vereist.
 
 In dit onderwerp worden enkele van de meest gebruikte gevallen voor geconsolideerde tabellen en de volgende stappen voor het maken van uw eigen tabellen besproken.
 
@@ -29,7 +29,7 @@ In het volgende gedeelte wordt besproken wanneer het aangewezen is geconsolideer
 
 Als u uw producten onder verschillende merken en websites verkoopt, is het waarschijnlijk dat de tabellen voor elk merk of website op dezelfde manier zijn gestructureerd.
 
-U hebt bijvoorbeeld een `orders` tabel voor website `A` en een aparte, maar vergelijkbare `orders` tabel voor website `B`. In deze situatie kan het nuttig zijn de `orders` tabellen van website `A` en `B`. Hier kunt u kijken naar de geconsolideerde inkomsten en het aantal bestellingen van websites `A` en `B`, naast het segmenteren van metriek door deze twee websites.
+U hebt bijvoorbeeld een `orders` tabel voor websites `A` en een aparte, maar vergelijkbare `orders` tabel voor websites `B` . In dit geval kan het handig zijn om de `orders` tabellen van website `A` en `B` te consolideren. Hier kunt u kijken naar de geconsolideerde inkomsten en het aantal bestellingen van websites `A` en `B` . Bovendien kunt u metingen segmenteren voor deze twee websites.
 
 ### Oudere gegevens integreren
 
@@ -45,8 +45,8 @@ Zoals met alle andere lijsten in uw Data Warehouse, kunt u extra kolommen toevoe
 
 ## Een geconsolideerde tabel maken, weergeven of bijwerken
 
-Als u een geconsolideerde tabel aan uw Data Warehouse wilt toevoegen, neemt u contact op met [!DNL Commerce Intelligence] [ondersteuning](../guide-overview.md#Submitting-a-Support-Ticket).
+Als u in het toevoegen van een geconsolideerde lijst aan uw Data Warehouse geinteresseerd bent, contacteer [!DNL Commerce Intelligence] [ steun ](../guide-overview.md#Submitting-a-Support-Ticket).
 
 >[!NOTE]
 >
->Omdat geconsolideerde tabellen niet kunnen worden weergegeven in het dialoogvenster `Data Warehouse Manager`, kunt u deze tabellen alleen weergeven en bijwerken via [!DNL Commerce Intelligence] ondersteuning.
+>Omdat geconsolideerde tabellen niet kunnen worden weergegeven in de `Data Warehouse Manager` , kan het weergeven en bijwerken van deze tabellen alleen worden uitgevoerd door [!DNL Commerce Intelligence] -ondersteuning.

@@ -17,4 +17,4 @@ Een van de belangrijkste aspecten van elk bedrijf van welke omvang dan ook is de
 
 In deze sectie, leert u over de levenswaarde van uw huidige klanten en voorspelt hoe de levenwaarde met meer orden stijgt.
 
-Zie ook: [Analyse van de verwachte levensduur (LTV) (basis)](../../data-analyst/analysis/ess-expected-ltv.md)
+Zie ook: [ Verwachte Analyse van de Waarde van het LTV (basis) ](../../data-analyst/analysis/ess-expected-ltv.md)

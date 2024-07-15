@@ -6,8 +6,8 @@ role: Admin, User
 feature: Data Warehouse Manager, Reports
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 2%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Analyseren hoe klanten uw coupons gebruiken, kan uw bedrijf veel inzicht geven. 
 * Hoe verschillen de gemiddelde levensduuropbrengsten tussen klanten die coupon hebben gekregen en klanten die niet via coupons zijn aangekocht?
 * Doen klanten die zijn aangeschaft met coupons, herhaaldelijk aankopen met coupons?
 
-Beantwoord deze vragen door zich te concentreren op [vergelijking van door coupons verkregen klanten met klanten die geen coupon hebben verkregen](#compare), [analyse van gegevens van eerste bestellingen uit couponaankopen](#firstorder), en [kijken naar de kenmerken van klanten die coupons in hun eerste bestelling gebruiken.](#attributes)
+Beantwoord deze vragen door zich op [ te concentreren het vergelijken van coupon-verworven klanten aan niet-coupon verworven klanten ](#compare), [ het analyseren van eerste ordedetails van couponverwervingen ](#firstorder), en [ het bekijken van de attributen van klanten die coupons in hun eerste orde gebruiken.](#attributes)
 
 Aan de slag!
 
@@ -46,10 +46,10 @@ Dit toont het aantal herhaalde opdrachten met een coupon en het percentage herha
 
 Bekijk een aantal voorbeeldgegevens voor de aanschaf van coupons versus niet-couponaanschaf:
 
-| **Klantenovername** | **Aantal nieuwe klanten** | **Gemiddelde inkomsten tijdens de levensduur** | **Aantal herhalingsorders** | **Aantal herhaalde opdrachten met coupon** | **% van herhaalde opdrachten met coupon** |
+| **de acquisitie van de Klant** | **Aantal nieuwe klanten** | **Gemiddelde levensinkomsten** | **Aantal herhalingsorden** | **Aantal herhalingsorden met coupon** | **% van herhaalde opdrachten met coupon** |
 |-----|-----|-----|-----|-----|-----|
-| Coupon | 1,206 | $356.91 | 2,570 | 1,248 | 48.56% |
-| Geen coupon | 11,561 | $498.30 | 20,145 | 3,251 | 16.14% |
+| Coupon | 1.206 | $ 356,91 | 2.570 | 1.248 | 48,56% |
+| Geen coupon | 11.561 | $ 498,30 | 20.145 | 3.251 | 16,14% |
 
 {style="table-layout:auto"}
 
@@ -77,7 +77,7 @@ Klanten die geen coupon hebben verkregen, hebben een veel lager percentage van h
 
 ## Details van eerste bestelling van couponaankopen analyseren {#firstorder}
 
-Deze sectie richt zich slechts op **eerste opdrachten uit hoofde van couponaankopen, gesegmenteerd met coupon.** Gebruik deze meetgegevens in uw analyse:
+Deze sectie richt zich slechts op **eerste orden van couponverwervingen, die door coupon worden gesegmenteerd.** Gebruik deze meetgegevens in uw analyse:
 
 ### Aantal orders/klanten
 
@@ -109,11 +109,11 @@ Deze metrische hulp evalueert de loyaliteit en gemiddelde opbrengst die door kla
 
 Kijk nu naar een voorbeeld met drie verschillende coupons die worden gebruikt voor de eerste bestelling van klanten:
 
-| **Coupon** | **Eerste bestellingen (FTO)** | **Bruto-inkomsten van de FTO** | **Kortingen toegepast op FTO** | **Netto-inkomsten van de FTO** | **Gemiddelde bestelwaarde voor FTO** |
+| **Coupon** | **Eerste tijdorden (FTO)** | **Bruto opbrengst van FTO** | **Kortingen die op FTO** worden toegepast | **Netto opbrengst van FTO** | **Gemiddelde ordewaarde voor FTO** |
 |-----|-----|-----|-----|-----|-----|
-| **25% korting op $100 of meer** | 56 | $8,531.04 | $2,132.76 | $6,398.28 | $152.34 |
-| **$10 korting** | 87 | $3,707.07 | $426.10 | $3,280.97 | $42.61 |
-| **20% korting** | 145 | $10,975.05 | $2,195.01 | $8,780.04 | $75.69 |
+| **25% van $100 of meer** | 56 | $ 8.531,04 | $ 2.132,76 | $ 6.398,28 | $ 152,34 |
+| **$10 off** | 87 | $ 3.707,07 | $ 426,10 | $ 3.280,97 | $ 42,61 |
+| **20% weg** | 145 | $ 10.975,05 | $ 2.195,01 | $ 8.780,04 | $ 75,69 |
 
 {style="table-layout:auto"}
 
@@ -124,31 +124,31 @@ Wat kan hieruit worden afgeleid? Ten eerste had de coupon &quot;20% korting&quot
 * het tijdstip van de dag/week/maand/jaar waarop de coupons werden aangeboden.
 * het seizoen waarin de coupons werden aangeboden , afhankelijk van de activiteit .
 
-  **Voorbeeld:** de coupon &quot; 20 % korting &quot; werd tijdens de zomermaanden aangeboden , maar de onderneming verkoopt winterkleding .
+  **Voorbeeld:** de &quot;20% korting&quot;coupon werd aangeboden tijdens de zomermaanden, maar de zaken verkopen winterkleding.
 * de beperkingen op de coupons.
 
-  **Voorbeeld:** de coupon &quot; 10 % korting &quot; wordt alleen aangeboden aan klanten die in dezelfde volgorde een winterjas kopen .
+  **Voorbeeld:** de &quot;10% korting&quot;coupon wordt slechts aangeboden aan klanten die een winterjas in de zelfde orde kopen.
 
-De **bruto-inkomsten** voor de coupon &quot;25% korting op $100 of meer&quot; is veel hoger dan de bruto-inkomsten voor de coupon &quot;$10 korting&quot;. De coupon &quot;$10 off&quot; heeft echter een veel grotere waarde **aantal bestellingen**. De **gemiddelde orderwaarde** biedt inzicht in deze verschillen. Hoewel de coupon &quot;25% korting op $100 of meer&quot; minder orders bevatte, is de gemiddelde orderwaarde meer dan driemaal die van de coupon &quot;$10 korting&quot;. Zo wordt een grotere bruto-opbrengst toegeschreven aan de coupon &quot;25% korting op $100 of meer&quot;.
+De **bruto opbrengst** voor de &quot;25% van $100 of meer&quot;coupon is veel hoger dan de bruto opbrengst voor &quot;$10 van&quot;coupon. Nochtans, heeft &quot;$10 van&quot;coupon een veel groter **aantal orden**. Het analyseren van de **gemiddelde ordewaarde** verstrekt inzicht in deze verschillen. Hoewel de coupon &quot;25% korting op $100 of meer&quot; minder orders bevatte, is de gemiddelde orderwaarde meer dan driemaal die van de coupon &quot;$10 korting&quot;. Zo wordt een grotere bruto-opbrengst toegeschreven aan de coupon &quot;25% korting op $100 of meer&quot;.
 
-De **kortingen** en **netto-inkomsten** voor de coupons &quot;25% korting op $100 of meer&quot; en &quot;20% korting&quot; ligt de waarde dichtbij. Hoewel de gemiddelde orderwaarde voor &quot;25% korting op $100 of meer&quot; bijna tweemaal de gemiddelde orderwaarde voor &quot;20% korting&quot; is, heeft de laatste coupon iets minder dan driemaal het aantal orders.
+De **kortingen** en **netto opbrengst** voor &quot;25% van $100 of meer&quot;en &quot;20% van&quot;coupons zijn dicht in waarde. Hoewel de gemiddelde orderwaarde voor &quot;25% korting op $100 of meer&quot; bijna tweemaal de gemiddelde orderwaarde voor &quot;20% korting&quot; is, heeft de laatste coupon iets minder dan driemaal het aantal orders.
 
 ## Attributen van klanten die coupons gebruiken in hun eerste bestelling {#attributes}
 
 Nu u de bestellingen zelf hebt bekeken, bekijkt u de klanten die coupons gebruiken in hun eerste bestellingen:
 
-| **Eerste bestelbon van klant** | **Aantal klanten** | **Gemiddeld aantal orders gedurende de looptijd** | **Gemiddelde inkomsten tijdens de levensduur** |
+| **de eerste orde van de Klant coupon** | **Aantal klanten** | **Gemiddeld levenslevensaantal orden** | **Gemiddelde levensinkomsten** |
 |-----|-----|-----|-----|
-| **25% korting op $100 of meer** | 56 | 2.8 | $554.54 |
-| **$10 korting** | 87 | 1.9 | $115.50 |
-| **20% korting** | 145 | 1.3 | $103.75 |
+| **25% van $100 of meer** | 56 | 2,8 | $ 554,54 |
+| **$10 off** | 87 | 1,9 | $ 115,50 |
+| **20% weg** | 145 | 1,3 | $ 103,75 |
 
 {style="table-layout:auto"}
 
 U ziet dat het aantal eerste opdrachten hetzelfde is als het aantal klanten voor elke coupon. Dit is logisch omdat elke klant slechts één eerste bestelling kan hebben.
 
-Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot;. Deze klanten hebben echter de laagste **gemiddelde levensduuraantal orders** en **gemiddelde levensduurinkomsten** Doorgaans voeren de meeste klanten met coupon geen herhaalde opdrachten uit. Bovendien hebben klanten de coupon &quot;25% korting op $100 of hoger&quot; gekocht **gemiddelde levensduuraantal orders** en vervolgens hoger **gemiddelde levensduurinkomsten**. Over het algemeen komen gebruikers die via deze coupon zijn aangeschaft, gewoonlijk terug en doen ze meer herhaalde aankopen.
+Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot;. Nochtans, hebben deze klanten het laagste **gemiddelde levenaantal orden** en **gemiddelde levenopbrengst**; over het algemeen, maken de meeste coupon-verworven klanten geen herhalingsorden. Voorts verwierven de klanten door &quot;25% van $100 of meer&quot;couponaandrijving hoger **gemiddeld levenaantal orden** en beurtelings, hogere **gemiddelde levenopbrengst**. Over het algemeen komen gebruikers die via deze coupon zijn aangeschaft, gewoonlijk terug en doen ze meer herhaalde aankopen.
 
 ## Omloop omhoog {#wrapup}
 
-Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp bij dit soort vragen: [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp met deze soorten vragen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

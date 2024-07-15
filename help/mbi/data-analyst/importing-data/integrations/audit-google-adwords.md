@@ -6,23 +6,23 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
-# Audit [!DNL Google Adwords] data
+# [!DNL Google Adwords] gegevens controleren
 
-Iets vreemds gevonden in [[!DNL Google Adwords]](../integrations/google-adwords.md)? Om de kwestie te identificeren, moet u uw gegevens onderzoeken. Dit kan worden gedaan door uw [!DNL Google Adwords] gegevens naar een `.csv` bestand.
+Iets vreemd gevonden in [[!DNL Google Adwords]](../integrations/google-adwords.md) ? Om de kwestie te identificeren, moet u uw gegevens onderzoeken. Dit kan door uw [!DNL Google Adwords] gegevens naar een `.csv` dossier te exporteren.
 
-1. De gratis [[!DNL Google Adwords] Editor](https://ads.google.com/home/tools/ads-editor/) toepassing.
+1. De download en installeert de vrije [[!DNL Google Adwords]  toepassing van de Redacteur ](https://ads.google.com/home/tools/ads-editor/).
 
-1. Nadat de installatie is voltooid, selecteert u `Add Count` in de `Add/manage accounts` deelvenster.
+1. Selecteer `Add Count` in het deelvenster `Add/manage accounts` nadat de installatie is voltooid.
 
-1. Voer uw [!DNL Google Adwords] accountgegevens.
+1. Voer uw [!DNL Google Adwords] -accountgegevens in.
 
-1. Nadat uw account is toegevoegd aan [!DNL Google Adwords] Editor, selecteer **[!UICONTROL File** > ** Werkblad exporteren (CSV)**> **Hele account exporteren]**
+1. Nadat uw rekening aan [!DNL Google Adwords] Redacteur wordt toegevoegd, uitgezochte **[!UICONTROL File** > ** Spreadsheet van de Uitvoer (CSV) **> **Gehele Rekening van de Uitvoer]**
 
-Dit bouwt een `.csv` bestand met alle gegevens die in uw huidige [!DNL Google Adwords] account. Op dit punt dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (zorg dat u dit bestand bijvoegt!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het met de [!DNL Commerce Intelligence] team via [!DNL Dropbox] of [!DNL Google Drive].
+Hiermee wordt een `.csv` -bestand gemaakt dat alle informatie bevat die is opgeslagen in uw huidige [!DNL Google Adwords] -account. Op dit punt, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (ben zeker om dit dossier vast te maken!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het bestand via [!DNL Dropbox] of [!DNL Google Drive] met het team van [!DNL Commerce Intelligence] .
 
-Voor meer informatie over [!DNL Google Adwords] `.csv` bestand export, raadpleeg de officiële [[!DNL Google Adwords] documentatie](https://support.google.com/google-ads/editor/answer/38657?hl=en).
+Voor meer informatie over [!DNL Google Adwords] `.csv` dossieruitvoer, verwijs naar de officiële [[!DNL Google Adwords]  documentatie ](https://support.google.com/google-ads/editor/answer/38657?hl=en).

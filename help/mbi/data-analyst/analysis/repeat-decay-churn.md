@@ -6,7 +6,7 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Warehouse Manager, Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Dit onderwerp verkent de analyses die u kunnen helpen de volgende vragen beantwo
 
 ## Aanbevolen meetwaarden
 
-Bij het analyseren van recidiefwaarschijnlijkheidsverlies en -kromme kunt u het volgende gebruiken ([of gebouw](../../data-user/reports/ess-manage-data-metrics.md)) deze cijfers:
+Wanneer het analyseren van herhalingswaarschijnlijkheidsdaling en kurn, denk na gebruikend ([ of bouwend ](../../data-user/reports/ess-manage-data-metrics.md)) deze metriek:
 
 ### Waarschijnlijk eerste herhalingsvolgorde
 
@@ -33,7 +33,7 @@ Deze maatregel wordt gedefinieerd als het totale aantal herhalingsorders, als pe
 
 Deze maatregel toont de waarschijnlijkheid aan dat een gebruiker opnieuw bestelt gezien het aantal maanden dat sinds zijn laatste orde is verstreken. De formule die wordt gebruikt om dit metrisch te produceren vereenvoudigt aan:
 
-![Herhalingskansingsformule](../../assets/Repeat_probability_formula.png)
+![ Herhaal kansingsformule ](../../assets/Repeat_probability_formula.png)
 
 Afhankelijk van uw bedrijfsmodel kan de waarschijnlijkheid van de herhalingsbestelling onmiddellijk afnemen nadat een klant een bestelling plaatst en in de daaropvolgende maanden verder afneemt, of kan de waarschijnlijkheid seizoensgebonden variaties en pieken aantonen.
 
@@ -43,7 +43,7 @@ Met een goed begrip van het percentage klanten dat herhaalde aankopen moet doen 
 
 Kijk naar de herhalingswaarschijnlijkheidsdaling voor een typisch e-commerce bedrijf.
 
-![Met de waarschijnlijkheid van een eerste herhalingsvolgorde wordt de volgorde in maanden sinds de order herhaald.](../../assets/Order_probability_reports.png)
+![ de Aanvankelijke waarschijnlijkheid van de herhalingsorde herhaalt orde bepaalde maanden sinds orde.](../../assets/Order_probability_reports.png)
 
 ### Waarschijnlijk eerste herhalingsvolgorde
 
@@ -78,7 +78,7 @@ Nadat u de bovenstaande analyse hebt gemaakt en een drempelwaarde voor het aanta
 
 Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. Wilt u meer weten? Bekijk deze zelfstudie om het levenslange aankoopgedrag van klanten te verkennen op basis van specifieke producten die ze hebben aangeschaft.
 
-Deze beste praktijken worden verstrekt door [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [Contact opnemen met ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor meer informatie.
+Deze best practices worden geleverd door [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor meer info.
 
 ### Verwante
 

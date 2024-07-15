@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Factuurgegevens
 
-Als u de factureringsgegevens van uw account wilt weergeven, toevoegen of wijzigen, moet u beschikken over `Billing` machtigingen. [Machtigingen worden per gebruiker ingesteld](../../administrator/user-management/user-management.md) wanneer gebruikersaccounts worden gemaakt. Indien nodig `Billing` neemt u contact op met de beheerder van uw account.
+U moet `Billing` machtigingen hebben om de factureringsgegevens van uw account te bekijken, toe te voegen of te wijzigen. [ de Toestemmingen worden geplaatst op een gebruiker-door-gebruiker basis ](../../administrator/user-management/user-management.md) wanneer de gebruikersrekeningen worden gecreeerd. Neem contact op met de beheerder van uw account als u `Billing` -machtigingen nodig hebt.

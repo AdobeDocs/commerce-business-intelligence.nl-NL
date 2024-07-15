@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Met Gegevens beheren hebt u toegang tot verschillende functies voor het beheer van integratie, rapporten en diagramgegevens, dashboards en exporteren.
 
-## Toegang tot [!DNL Manage Data]:
+## Ga als volgt te werk om [!DNL Manage Data] te openen:
 
-1. Klik op **[!DNL Manage Data]**.
+1. Klik in het menu op **[!DNL Manage Data]** .
 
 1. Kies in de zijbalk het gewenste onderwerp onder de volgende koppen:
 
@@ -25,4 +25,4 @@ Met Gegevens beheren hebt u toegang tot verschillende functies voor het beheer v
    * `Manage Data`
    * `Export Data`
 
-   ![Gegevens beheren](../../assets/magento-bi-manage-data.png)<!--{: .zoom}-->
+   ![ beheert Gegevens ](../../assets/magento-bi-manage-data.png)<!--{: .zoom}-->

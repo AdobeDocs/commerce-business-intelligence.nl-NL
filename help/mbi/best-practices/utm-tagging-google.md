@@ -6,39 +6,39 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
 
 # UTM-tracking
 
-`UTM` het volgen is een etiketteringsovereenkomst voor URLs die u toelaat om te analyseren waar uw gebruikers komen van. Als u de URL&#39;s bekijkt waarop u klikt in de meeste marketingadvertenties in e-mail- of banneradvertenties, ziet u UTM-codering. Het zijn die lange verbindingen die eindigen met dingen als `utm\_source` en `utm\_medium`.
+`UTM` tracking is een coderingsconventie voor URL&#39;s waarmee u kunt analyseren waar uw gebruikers vandaan komen. Als u de URL&#39;s bekijkt waarop u klikt in de meeste marketingadvertenties in e-mail- of banneradvertenties, ziet u UTM-codering. Het zijn die lange links die eindigen met dingen als `utm\_source` en `utm\_medium` .
 
-[!DNL Google Analytics] gebruik `UTM` labelen om te weten waar uw verkeer vandaan komt. Een deel van deze informatie is afkomstig uit de [HTTP-referentie](https://en.wikipedia.org/wiki/HTTP_referer) maar de rest moet je zelf bevoorraden `UTM` parameters. Wanneer u `google adwords` of `email marketing`, betekent het `UTM` De parameters die van de originele verbinding worden geregistreerd klikken en dan opgeslagen in de koekjes van gebruikers. Van daaruit, [!DNL Google Analytics] gebruikt die gegevens aan [attribuut interessants gedrag](../data-analyst/analysis/google-track-user-acq.md) op uw site. Als u begrijpt wat die parameters zijn, kunt u beter begrijpen hoe u UTM-tags het beste kunt instellen en gebruiken.
+[!DNL Google Analytics] gebruikt `UTM` -tags om te weten waar uw verkeer vandaan komt. Sommige van deze informatie komt uit de [ verwijzer van HTTP ](https://en.wikipedia.org/wiki/HTTP_referer) maar de rest van het u moet van `UTM` parameters voorzien. Wanneer u `google adwords` of `email marketing` ziet, betekent dit dat de `UTM` -parameters worden opgenomen via de oorspronkelijke klik op de koppeling en vervolgens worden opgeslagen in de cookies van de gebruiker. Van daar, [!DNL Google Analytics] gebruikt dat gegevens aan [ attribuut interessant gedrag ](../data-analyst/analysis/google-track-user-acq.md) op uw plaats. Als u begrijpt wat die parameters zijn, kunt u beter begrijpen hoe u UTM-tags het beste kunt instellen en gebruiken.
 
 ## Aanbevolen procedures voor UTM-tags
 
-De volgende lijst maakt een lijst van de vijf belangrijkste dingen om te herinneren wanneer vestiging uw URLs met `UTM` labelen.
+De volgende lijst bevat een overzicht van de vijf belangrijkste zaken die u moet onthouden wanneer u URL&#39;s instelt met `UTM` -tags.
 
 ### 1. Doel is elke URL waarop u het plaatsen van uw site kunt controleren, van tags te voorzien
 
-Telkens als u mensen vraagt om een verbinding te klikken, zou u opstelling moeten zijn `UTM` labelen. Hieronder vallen al uw e-mailkoppelingen (uw e-mailservicebureau kan uw URL&#39;s mogelijk automatisch coderen), koppelingen, drukartikelen en blogberichten.
+Telkens wanneer u mensen vraagt om op een koppeling te klikken, moet u `UTM` -tags instellen. Hieronder vallen al uw e-mailkoppelingen (uw e-mailservicebureau kan uw URL&#39;s mogelijk automatisch coderen), koppelingen, drukartikelen en blogberichten.
 
 ### 2. Maak een URL met een gereedschap
 
-`UTM`URL&#39;s met codes kunnen omslachtig zijn. Gebruik een gereedschap in plaats van ze langer te typen [zoals dit](https://support.google.com/analytics/answer/1033867?hl=en) om u te helpen. Zo weet u zeker dat u alle nuttige parameters aan de URL wilt toevoegen en dat u de URL voor kopiëren en plakken meteen uit de URL wilt halen. Voor het beheren van sociale koppelingen, gereedschappen zoals [!DNL Hootsuite] bevat de optie om aangepaste URL-parameters toe te voegen aan al uw koppelingen.
+URL&#39;s met `UTM` -tags kunnen omslachtig zijn. In plaats van het proberen om hen uit lange weg te typen, gebruik een hulpmiddel [ als dit ](https://support.google.com/analytics/answer/1033867?hl=en) om u te helpen. Zo weet u zeker dat u alle nuttige parameters aan de URL wilt toevoegen en dat u de URL voor kopiëren en plakken meteen uit de URL wilt halen. Voor het beheer van sociale koppelingen bevat gereedschap zoals [!DNL Hootsuite] de optie om aangepaste URL-parameters toe te voegen aan al uw koppelingen.
 
 ### 3. Zorg ervoor dat de parameterwaarden hoofdlettergevoelig zijn
 
-Het is belangrijk te onthouden dat de tag `utm\_source=adwords` is een andere tag dan `utm\_source=Adwords`. Overweeg om alles in kleine letters te maken.
+Het is belangrijk om te onthouden dat de tag `utm\_source=adwords` een andere tag is dan `utm\_source=Adwords` . Overweeg om alles in kleine letters te maken.
 
 ### 4. Sla de UTM-parameterwaarden op in uw database
 
-Telkens wanneer een transactie of gebeurtenis gebeurt, wilt u de prestaties van uw marketing activiteiten evalueren. U kunt dit doen door de waarden van de UTM-parameterwaarden van de [[!DNL Google Analytics] cookie in uw database](../data-analyst/analysis/google-track-user-acq.md).
+Telkens wanneer een transactie of gebeurtenis gebeurt, wilt u de prestaties van uw marketing activiteiten evalueren. U kunt dit doen door de waarden van de UTM parameterwaarden van het [[!DNL Google Analytics]  koekje in uw gegevensbestand ](../data-analyst/analysis/google-track-user-acq.md) te lezen.
 
 ### 5. Denk na over de naam van campagnes
 
 Als u wilt bijhouden hoe uw marketinginspanningen in de loop der tijd verbeteren, moet u op de hoogte zijn van uw naamgevingsconventies. Houd het eenvoudig en minimaliseer het zoveel mogelijk. Gecompliceerde naamgevingssystemen zijn moeilijker te onderhouden.
 
-Zodra u deze gegevens in uw gegevensbestand vangt, kunt u de prestaties van uw marketing en reclame door verfijnde analyse evalueren met inbegrip van [Levensduur van klant](../data-analyst/analysis/ess-expected-ltv.md), [Aankooptarieven herhalen](../data-analyst/analysis/repurchase-behavior.md), en [Gemiddelde bestelwaarde](../data-analyst/analysis/basic-analytics.md).
+Zodra u deze gegevens in uw gegevensbestand vangt, kunt u de prestaties van uw marketing en reclame door verfijnde analyse met inbegrip van [ Waarde van het Levensduur van de Klant ](../data-analyst/analysis/ess-expected-ltv.md) evalueren, [ de Tarieven van de Aankoop van de Herhaal ](../data-analyst/analysis/repurchase-behavior.md), en [ Gemiddelde Waarde van de Orde ](../data-analyst/analysis/basic-analytics.md).

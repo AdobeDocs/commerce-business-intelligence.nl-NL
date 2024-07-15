@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # [!DNL MongoDB] Gegevensmodellering
 
-Wanneer [!DNL Adobe Commerce Intelligence] pulls in [!DNL MongoDB] gegevens, die gegevens worden omgezet in een relationeel model.
+Wanneer [!DNL Adobe Commerce Intelligence] gegevens [!DNL MongoDB] ophaalt, worden die gegevens omgezet in een relationeel model.
 
-Het slechte nieuws: hoewel de meeste gegevenspatronen geen probleem vormen, zijn er een paar die niet worden ondersteund door [!DNL Commerce Intelligence]vanwege de vertaling naar een relationeel model.
+Het slechte nieuws: hoewel de meeste gegevenspatronen geen probleem vormen, zijn er een paar die niet door [!DNL Commerce Intelligence] worden ondersteund, vanwege de vertaling naar een relationeel model.
 
 Het goede nieuws: al deze patronen kunnen worden vermeden.
 
 ## Subgeneste arrays {#subnested}
 
-Als de verzameling er als volgt uitziet: [!DNL Commerce Intelligence] dupliceert alleen de gegevens in de itemarray. Gegevens uit de subitems-array worden niet opgehaald.
+Als uw verzameling er net als in het onderstaande voorbeeld uitziet, worden de gegevens in de itemarray in [!DNL Commerce Intelligence] alleen gerepliceerd. Gegevens uit de subitems-array worden niet opgehaald.
 
 ```bash
     {
@@ -43,7 +43,7 @@ Als de verzameling er als volgt uitziet: [!DNL Commerce Intelligence] dupliceert
 
 ## Toetsen voor variabele objecten {#varobjectkeys}
 
-Verzamelingen met objecten met variabele-objectsleutels worden niet gerepliceerd in [!DNL Commerce Intelligence]. Bijvoorbeeld:
+Verzamelingen die objecten met variabele-objectsleutels bevatten, worden niet gerepliceerd in [!DNL Commerce Intelligence] . Bijvoorbeeld:
 
 ```bash
     {

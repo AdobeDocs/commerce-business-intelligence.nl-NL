@@ -6,14 +6,14 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Business Performance, Data Integration, Data Import/Export, Data Warehouse Manager
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
 
 # Uw database optimaliseren
 
-Het belangrijkste voordeel van het gebruik van een operationele database voor [!DNL Adobe Commerce Intelligence] niets hoeft te worden opgebouwd of gewijzigd om gegevens te verzamelen. Waardevolle informatie is er al. U hoeft deze alleen maar te ontgrendelen.
+Het belangrijkste voordeel van het gebruik van een operationele database voor [!DNL Adobe Commerce Intelligence] is dat er niets hoeft te worden gemaakt of gewijzigd om gegevens te verzamelen. Waardevolle informatie is er al. U hoeft deze alleen maar te ontgrendelen.
 
 Dit onderwerp bevat een aantal aanbevelingen om u te helpen uw gegevensbestand voor analyse optimaliseren en actionable inzichten van ruwe gegevens trekken.
 
@@ -35,17 +35,17 @@ Gebruikend login data als voorbeeld, slaan vele bedrijven de laatste login datum
 
 Als u een record bijwerkt door een handeling van een gebruiker, moet u de informatie over een eerdere of aparte handeling van de gebruiker over het algemeen niet overschrijven.
 
-## Inclusief `Updated_at` Kolommen voor gegevens die in de loop der tijd zijn bijgewerkt
+## Inclusief `Updated_at` kolommen voor gegevens die in de loop der tijd zijn bijgewerkt
 
-Als de waarden van rijen van een tabel in de loop der tijd veranderen, bijvoorbeeld **order\_status** wijzigingen van`processing` tot `complete`, omvat een **bijgewerkt\_op** kolom om op te nemen wanneer de recentste verandering voorkomt. Zorg ervoor dat een **bijgewerkt\_op** Deze waarde is beschikbaar wanneer u de nieuwe gegevensrij voor het eerst invoegt, wanneer de **bijgewerkt\_op** datum komt overeen met de **gemaakt\_op** datum.
+Als de rijen van een lijst veranderende waarden in tijd zullen hebben, bijvoorbeeld, **orde \_status** veranderingen van `processing` in `complete`, omvat een **bijgewerkte \_at** kolom om te registreren wanneer de recentste verandering voorkomt. Zorg ervoor dat een **bijgewerkte \_bij** waarde beschikbaar is wanneer eerst het opnemen van de nieuwe gegevensrij, wanneer de **bijgewerkte \_bij** datum aan **gecreeerd \_bij** datum beantwoordt.
 
-Naast optimalisering voor analyse, **bijgewerkt\_op** ook kunt u kolommen gebruiken [Methoden voor incrementele replicatie](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md), waardoor de duur van de updatecycli kan worden verkort.
+Naast het optimaliseren voor analyse, **bijgewerkt \_bij** kolommen staat u ook toe om [ de Incrementele methodes van de Replicatie ](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) te gebruiken, die de lengte van uw updatecycli kunnen helpen verkorten.
 
-## Ophaalbron van gebruiker opslaan
+## Ophaalservice Source van winkelgebruiker
 
-Een van de meest voorkomende fouten is de [aankoopbron voor gebruiker](../data-analyst/analysis/google-track-user-acq.md) (UAS) die niet in het operationele gegevensbestand wordt opgeslagen. In de meeste situaties waarin dit een probleem is, wordt de UAS alleen gevolgd [!DNL Google Analytics] of een ander hulpprogramma voor webanalyse. Hoewel deze gereedschappen waardevol kunnen zijn, zijn er enkele nadelen om UAS uitsluitend in de gereedschappen op te slaan. U kunt bijvoorbeeld geen gegevens op gebruikersniveau uit deze gereedschappen extraheren. Wanneer dat mogelijk is, is het meestal een moeilijk proces. Het zou gemakkelijk moeten zijn om deze informatie te krijgen en het met gegevens uit andere bronnen, zoals gedragsinformatie en transactionele informatie te combineren die ook in uw gegevensbestand wordt opgeslagen.
+Één van de gemeenschappelijkste fouten is de [ bron van de gebruikersverwerving ](../data-analyst/analysis/google-track-user-acq.md) (UAS) niet die in het operationele gegevensbestand wordt opgeslagen. In de meeste situaties waarin dit een probleem is, worden UAS alleen bijgehouden via [!DNL Google Analytics] of een ander hulpprogramma voor webanalyse. Hoewel deze gereedschappen waardevol kunnen zijn, zijn er enkele nadelen om UAS uitsluitend in de gereedschappen op te slaan. U kunt bijvoorbeeld geen gegevens op gebruikersniveau uit deze gereedschappen extraheren. Wanneer dat mogelijk is, is het meestal een moeilijk proces. Het zou gemakkelijk moeten zijn om deze informatie te krijgen en het met gegevens uit andere bronnen, zoals gedragsinformatie en transactionele informatie te combineren die ook in uw gegevensbestand wordt opgeslagen.
 
-Het opslaan van UAS in uw eigen gegevensbestand is vaak de grootste verbetering die een online zaken aan zijn analytische mogelijkheden kan maken. Dit staat voor de analyse van verkoop, gebruikersovereenkomst, terugbetalingsperioden, waarde van het klantenleven, prijs, en andere kritieke metriek door UAS toe. [Deze gegevens zijn van cruciaal belang wanneer u bepaalt waar u marketingmiddelen wilt investeren](../data-analyst/analysis/most-value-source-channel.md).
+Het opslaan van UAS in uw eigen gegevensbestand is vaak de grootste verbetering die een online zaken aan zijn analytische mogelijkheden kan maken. Dit staat voor de analyse van verkoop, gebruikersovereenkomst, terugbetalingsperioden, waarde van het klantenleven, prijs, en andere kritieke metriek door UAS toe. [ Dit gegeven is cruciaal wanneer het beslissen waar te om marketing middelen ](../data-analyst/analysis/most-value-source-channel.md) te investeren.
 
 Te veel bedrijven richten zich uitsluitend op het vinden van kanalen die nieuwe gebruikers tegen de laagste kosten voorzien. Als u de kwaliteit van gebruikers die via elk kanaal zijn opgehaald niet bijhoudt, loopt u het risico gebruikers aan te trekken die geen bedrijfswaarde genereren.
 
@@ -53,7 +53,7 @@ Te veel bedrijven richten zich uitsluitend op het vinden van kanalen die nieuwe 
 
 ### Primaire sleutel instellen
 
-A [primaire sleutel](https://en.wikipedia.org/wiki/Unique_key) is een onveranderlijke kolom (of een reeks kolommen) die unieke waarden binnen een lijst veroorzaakt. Primaire toetsen zijn ongelooflijk belangrijk, omdat ze ervoor zorgen dat uw tabellen correct worden gerepliceerd in [!DNL Commerce Intelligence].
+A [ primaire sleutel ](https://en.wikipedia.org/wiki/Unique_key) is een onveranderlijke kolom (of reeks kolommen) die unieke waarden binnen een lijst veroorzaakt. Primaire toetsen zijn ongelooflijk belangrijk, omdat ze ervoor zorgen dat uw tabellen correct worden gerepliceerd in [!DNL Commerce Intelligence] .
 
 Gebruik bij het bouwen van primaire sleutels een gegevenstype voor gehele getallen voor de kolom die automatisch wordt verhoogd. Adobe raadt u aan om waar mogelijk meerdere kolommen met de primaire sleutel te gebruiken.
 
@@ -61,8 +61,8 @@ Als uw tabel een SQL-weergave is, voegt u een kolom toe die als primaire sleutel
 
 ### Een gegevenstype toewijzen aan uw gegevenskolom
 
-Als er geen gegevenskolom is toegewezen [gegevenstype](https://en.wikipedia.org/wiki/Data_type), [!DNL Commerce Intelligence] geeft een schatting van het gegevenstype dat moet worden gebruikt. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het team van de steun van de Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
+Als een gegevenskolom geen toegewezen [ gegevenstype ](https://en.wikipedia.org/wiki/Data_type) heeft, [!DNL Commerce Intelligence] gokt welk gegevenstype aan gebruik. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het team van de steun van de Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
 
 ### Voeg prefixen aan uw Lijsten van Gegevens toe als u veelvoudige Gegevensbestanden hebt
 
-Als er meerdere databases zijn verbonden met [!DNL Commerce Intelligence]Adobe raadt u aan voorvoegsels aan uw tabellen toe te voegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden van waar metrische gegevens of gegevensdimensies vandaan komen.
+Als er meerdere databases zijn verbonden met [!DNL Commerce Intelligence] , kunt u het beste voorvoegsels aan tabellen toevoegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden van waar metrische gegevens of gegevensdimensies vandaan komen.

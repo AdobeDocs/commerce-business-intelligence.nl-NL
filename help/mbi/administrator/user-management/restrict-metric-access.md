@@ -15,21 +15,21 @@ ht-degree: 0%
 
 Naast het plaatsen van de niveaus van de gebruikerstoestemming, kunt u toegang tot metriek op een gebruiker-door-gebruiker basis ook beperken. Bijvoorbeeld, als u uw boekhoudingsafdeling toegang tot opbrengst-verwante metriek maar niet gebruiker-verwervingsmetriek wilt hebben, kunt u toegang tot die metriek beperken.
 
-In dergelijke gevallen raadt de Adobe aan om de account van die gebruiker in te stellen op **[[!UICONTROL Standard]](../../administrator/user-management/user-management.md)**. **[!UICONTROL Standard]** de toestemmingen zouden aan gebruikers moeten worden gegeven die metriek, berekende kolommen, integraties, of gebruikers niet hoeven tot stand te brengen of te veranderen, maar zij hebben toegang tot gegevens in de Data Warehouse nodig. Als u de toegang tot gegevens volledig wilt beperken, gebruikt u de **[!UICONTROL Read Only]** in plaats daarvan machtigingen.
+In dergelijke gevallen raadt de Adobe aan het account van die gebruiker in te stellen op **[[!UICONTROL Standard]](../../administrator/user-management/user-management.md)** . **[!UICONTROL Standard]** de toestemmingen zouden aan gebruikers moeten worden gegeven die metriek, berekende kolommen, integraties, of gebruikers niet te hoeven tot stand te brengen of te veranderen, maar zij hebben toegang tot gegevens in de Data Warehouse nodig. Als u de toegang tot gegevens volledig wilt beperken, gebruikt u in plaats daarvan de **[!UICONTROL Read Only]** -machtigingen.
 
-Nadat u het machtigingsniveau hebt ingesteld, kunt u de metriek selecteren als **[!UICONTROL Standard]** kan de gebruiker toegang krijgen door het volgende te doen:
+Nadat u het machtigingsniveau hebt ingesteld, kunt u de meetgegevens selecteren waartoe een **[!UICONTROL Standard]** -gebruiker toegang heeft door het volgende te doen:
 
-1. Ga naar **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]**.
+1. Ga naar **[!UICONTROL Account Settings]** > **[!UICONTROL Manage Users]** .
 1. Selecteer de gewenste gebruikersaccount.
-1. De **[!UICONTROL Metrics]** wordt een lijst weergegeven met beschikbare maatstaven. Controleer de meetgegevens waartoe de gebruiker toegang moet hebben en hef de selectie op van de gegevens waartoe de gebruiker geen toegang mag hebben.
-1. [!DNL Adobe Commerce Intelligence] Hiermee slaat u de wijzigingen automatisch op. Als de wijziging is gelukt, [!DNL Commerce Intelligence] displays **[!UICONTROL Saved!]** boven aan de pagina.
+1. Op het tabblad **[!UICONTROL Metrics]** wordt een lijst met beschikbare maatstaven weergegeven. Controleer de meetgegevens waartoe de gebruiker toegang moet hebben en hef de selectie op van de gegevens waartoe de gebruiker geen toegang mag hebben.
+1. [!DNL Adobe Commerce Intelligence] slaat de wijzigingen automatisch op. Als de wijziging is gelukt, wordt [!DNL Commerce Intelligence] boven aan de pagina **[!UICONTROL Saved!]** weergegeven.
 
 >[!NOTE]
 >
->Alle gebruikers met **[!UICONTROL Standard]** rechten hebben toegang tot alle gegevens in de Data Warehouse via Data Export, naast alle gegevens van [!DNL Google Analytics].
+>Alle gebruikers met **[!UICONTROL Standard]** -machtigingen hebben toegang tot alle gegevens in de Data Warehouse via Gegevens exporteren, naast alle gegevens uit [!DNL Google Analytics] .
 
-U kunt toegang tot metrisch ook beperken door metrisch uit te geven en **[!UICONTROL Standard]** gebruikers selecteren in het dialoogvenster **[[!UICONTROL User Rights]](../../data-user/reports/ess-manage-data-metrics.md)** sectie.
+U kunt de toegang tot metrische informatie ook beperken door metrisch te bewerken en **[!UICONTROL Standard]** gebruikers te selecteren in de sectie **[[!UICONTROL User Rights]](../../data-user/reports/ess-manage-data-metrics.md)** .
 
 >[!NOTE]
 >
->Als u een metrische waarde dupliceert, [!DNL Commerce Intelligence] kopieert de gebruikerstoestemmingen die in originele metrisch worden geplaatst.
+>Als u een metrische waarde dupliceert, kopieert [!DNL Commerce Intelligence] de gebruikersmachtigingen die in de oorspronkelijke metrische waarde zijn ingesteld.

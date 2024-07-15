@@ -13,29 +13,29 @@ ht-degree: 0%
 
 # [!DNL Visual Report Builder]
 
-[!DNL Visual Report Builder] maakt het gemakkelijk om snelle rapporten tot stand te brengen die op vooraf bepaalde metriek worden gebaseerd. Elke metrisch omvat een vraag die de reeks gegevens voor het rapport bepaalt.
+Met [!DNL Visual Report Builder] kunt u eenvoudig snelle rapporten maken op basis van vooraf gedefinieerde cijfers. Elke metrisch omvat een vraag die de reeks gegevens voor het rapport bepaalt.
 
 Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brengen, groepeert de gegevens door een extra afmeting, plaatst het datum en tijdinterval, verandert het grafiektype, en bewaart het rapport aan een dashboard.
 
 ## Een eenvoudig rapport maken:
 
-1. In de [!DNL Commerce Intelligence] menu, klikt u op **[!UICONTROL Report Builder]**.
+1. Klik in het menu [!DNL Commerce Intelligence] op **[!UICONTROL Report Builder]** .
 
-1. Onder [!UICONTROL Visual Report Builder], klikt u op **[!UICONTROL Create Report]** en voer de volgende handelingen uit:
+1. Klik onder [!UICONTROL Visual Report Builder] op **[!UICONTROL Create Report]** en voer de volgende handelingen uit:
 
    * Klik op **[!UICONTROL Add Metric]**.
 
      De beschikbare metriek kan alfabetisch of door lijst worden vermeld.
 
-     ![Visuele Report Builder](../../assets/magento-bi-visual-report-builder-add-metric.png)
+     ![ Visuele Report Builder ](../../assets/magento-bi-visual-report-builder-add-metric.png)
 
-   * Kies de optie [metrisch](../../data-user/reports/ess-manage-data-metrics.md) dat beschrijft de reeks gegevens die u voor het rapport wilt gebruiken.
+   * Kies metrisch [ ](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
 
-     De `New Customers` Metrisch die in dit voorbeeld wordt gebruikt telt alle klanten, en sorteert de lijst door de datum de klant die voor een rekening wordt aangemeld. Het eerste rapport bevat een eenvoudige lijngrafiek, gevolgd door de tabel met gegevens.
+     De metrische waarde `New Customers` die in dit voorbeeld wordt gebruikt telt alle klanten, en sorteert de lijst door de datum de klant die voor een rekening wordt aangemeld. Het eerste rapport bevat een eenvoudige lijngrafiek, gevolgd door de tabel met gegevens.
 
      Het overzicht op de linkerzijde toont de naam van huidige metrisch, die door het resultaat van om het even welke berekeningen op kolomgegevens wordt gevolgd die in metrisch worden gespecificeerd. In dit voorbeeld geeft het overzicht het totale aantal klanten weer.
 
-     ![Visuele Report Builder](../../assets/magento-bi-report-builder-untitled.png)
+     ![ Visuele Report Builder ](../../assets/magento-bi-report-builder-untitled.png)
 
 1. Houd de muisaanwijzer boven elk gegevenspunt op de regel in het diagram. Elk gegevenspunt toont het totale aantal nieuwe klanten die zich tijdens die maand hebben aangemeld.
 
@@ -43,51 +43,51 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    **`Group By`**
 
-   De `Group By` Met besturingselementen kunt u meerdere afmetingen per groep of segment toevoegen. Dimensionen zijn kolommen in de tabel die kunnen worden gebruikt om de gegevens te groeperen.
+   Met het besturingselement `Group By` kunt u meerdere afmetingen per groep of segment toevoegen. Dimensionen zijn kolommen in de tabel die kunnen worden gebruikt om de gegevens te groeperen.
 
-   * Kies een van de beschikbare afmetingen in de lijst met `Group By` opties.
+   * Kies een van de beschikbare afmetingen in de lijst met `Group By` -opties.
 
      In dit voorbeeld heeft het systeem vijf couponcodes gevonden die door klanten werden gebruikt bij het plaatsen van hun eerste bestelling.
 
-     ![Groeperen op](../../assets/magento-bi-report-builder-group-by-dimensions.png)
+     ![ Groep door ](../../assets/magento-bi-report-builder-group-by-dimensions.png)
 
-     De `Group By` Elke coupon die door klanten wordt gebruikt, wordt in detail weergegeven. De coupons die zijn gebruikt om de eerste bestelling te plaatsen, zijn gemarkeerd met een selectievakje. Het diagram bevat nu meerdere gekleurde lijnen die elke coupon vertegenwoordigen die voor een eerste bestelling is gebruikt. De legenda heeft een kleurcode die overeenkomt met elke gegevensrij.
+     In `Group By` worden alle coupons weergegeven die door klanten worden gebruikt. De coupons die zijn gebruikt om de eerste bestelling te plaatsen, zijn gemarkeerd met een selectievakje. Het diagram bevat nu meerdere gekleurde lijnen die elke coupon vertegenwoordigen die voor een eerste bestelling is gebruikt. De legenda heeft een kleurcode die overeenkomt met elke gegevensrij.
 
-   * Klikken **[!UICONTROL Apply]** om Group By detail te sluiten.
+   * Klik op **[!UICONTROL Apply]** om het venster Groeperen op detail te sluiten.
 
-     ![Meerdere Dimensionen](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
+     ![ Veelvoudige Dimensionen ](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
 
    * Houd de muisaanwijzer boven een paar gegevenspunten op elke regel om het aantal klanten te zien dat de coupon tijdens het plaatsen van de eerste bestelling heeft gebruikt.
 
    * De tabel met gegevens heeft nu een extra dimensie, met een kolom voor elke maand en een rij voor elke couponcode.
 
-     ![Groeperen op tabelgegevens](../../assets/magento-bi-report-builder-group-by-table-data.png)
+     ![ Groep door de Gegevens van de Lijst ](../../assets/magento-bi-report-builder-group-by-table-data.png)
 
-   * Klik op Omwisselen (![](../../assets/magento-bi-btn-transpose.png)) in de rechterbovenhoek van de tabel om de richting van de gegevens te wijzigen.
+   * Klik op het besturingselement Omwisselen (![](../../assets/magento-bi-btn-transpose.png)) in de rechterbovenhoek van de tabel om de richting van de gegevens te wijzigen.
 
      De as van de gegevens wordt gespiegeld en de tabel heeft nu een kolom voor elke couponcode en een rij voor elke maand. Deze richting is misschien beter leesbaar.
 
-     ![Omgezette gegevens](../../assets/magento-bi-report-builder-group-by-table-data-transposed.png)
+     ![ Omgezette Gegevens ](../../assets/magento-bi-report-builder-group-by-table-data-transposed.png)
 
    **`Date Range`**
 
-   De `Date Range` De controle toont de huidige montages van het datumwaaier en tijdinterval, en wordt gevestigd net boven de grafiek aan het recht.
+   Het besturingselement `Date Range` geeft het huidige datumbereik en de instellingen voor het tijdinterval weer en bevindt zich vlak boven het diagram rechts.
 
-   * Klik op de knop `Date Range` besturingselement, dat in dit voorbeeld is ingesteld op `All-Time by Month`.
+   * Klik op het besturingselement `Date Range` , dat in dit voorbeeld is ingesteld op `All-Time by Month` .
 
-     ![Datumbereik](../../assets/magento-bi-report-builder-date-range.png)
+     ![ de Waaier van de Datum ](../../assets/magento-bi-report-builder-date-range.png)
 
    * Breng de volgende wijzigingen aan:
 
-      * Als u wilt inzoomen voor een betere weergave, wijzigt u het datumbereik in `Last Full Quarter`.
-      * Onder `Select Time Interval`, kiest u `Week`.
-      * Klik op **[!UICONTROL Save]**.
+      * Als u wilt inzoomen voor een betere weergave, wijzigt u het datumbereik in `Last Full Quarter` .
+      * Kies onder `Select Time Interval` de optie `Week` .
+      * Klik op **[!UICONTROL Save]** als de bewerking is voltooid.
 
      Het verslag bevat nu alleen de gegevens voor het laatste kwartaal, per week.
 
-     ![Rapport voor vorige kwartaal per week](../../assets/magento-bi-report-builder-date-range-quarter-by-week-chart.png)
+     ![ Rapport voor Laatste Kwartaal door Week ](../../assets/magento-bi-report-builder-date-range-quarter-by-week-chart.png)
 
-   **Type diagram**
+   **Type van Grafiek**
 
    * Klik op de besturingselementen in de rechterbovenhoek om het beste diagram voor de gegevens te zoeken.
 
@@ -106,22 +106,22 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      {style="table-layout:auto"}
 
-1. Om het verslag `title`, vervangt `Untitled Report` tekst boven aan de pagina met een beschrijvende titel.
+1. Als u het rapport een `title` wilt geven, vervangt u de `Untitled Report` -tekst boven aan de pagina door een beschrijvende titel.
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** en voer de volgende handelingen uit:
 
-   * Voor `Type`, de standaardinstelling accepteren, `Chart`.
+   * Accepteer de standaardinstelling `Chart` voor `Type` .
 
-   * Kies de optie `Dashboard` waar het verslag beschikbaar moet zijn.
+   * Kies de locatie `Dashboard` waar het rapport beschikbaar moet zijn.
 
    * Klik op **[!UICONTROL Save to Dashboard]**.
 
-     ![Opslaan naar dashboard](../../assets/magento-bi-report-builder-save-to-dashboard.png)
+     ![ sparen aan Dashboard ](../../assets/magento-bi-report-builder-save-to-dashboard.png)
 
 1. Voer een van de volgende handelingen uit om de grafiek in een dashboard weer te geven:
 
-   * Klikken **[!UICONTROL Go to Dashboard]** in het bericht boven aan de pagina.
+   * Klik op **[!UICONTROL Go to Dashboard]** in het bericht boven aan de pagina.
 
-   * Kies in het menu `Dashboards` en klik op de naam van het huidige dashboard om de lijst weer te geven. Klik vervolgens op de naam van het dashboard waar het rapport is opgeslagen.
+   * Kies `Dashboards` in het menu en klik op de naam van het huidige dashboard om de lijst weer te geven. Klik vervolgens op de naam van het dashboard waar het rapport is opgeslagen.
 
-     ![Rapport in dashboard](../../assets/magento-bi-report-builder-my-dashboard.png)
+     ![ Rapport in Dashboard ](../../assets/magento-bi-report-builder-my-dashboard.png)

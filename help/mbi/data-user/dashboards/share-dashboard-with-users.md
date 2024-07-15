@@ -13,34 +13,34 @@ ht-degree: 0%
 
 # Dashboards delen met andere gebruikers
 
-Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [[!DNL Adobe] beveelt aan](../../best-practices/share-dashboard-best-practice.md){: target=&quot;_blank&quot;} die u toekent `Edit` rechten voor een paar gebruikers om onbedoelde wijzigingen tot een minimum te beperken.
+Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [[!DNL Adobe]  adviseert ](../../best-practices/share-dashboard-best-practice.md) {: target= &quot;_blank&quot;} dat u `Edit` rechten aan uitgezochte enkelen verleent om toevallige veranderingen te minimaliseren.
 
 >[!NOTE]
 >
->Als het dashboard u deelt rapporten bevat die met metriek worden gebouwd dat een specifieke gebruiker geen toegang tot heeft, tonen de rapporten `Error Loading Data` bericht. Als u de gegevens aan de specifieke gebruiker wilt verschijnen, en [beheerder](../../administrator/user-management/user-management.md) moet toegang verlenen tot alle metriek die in die rapporten worden gebruikt.
+>Als het dashboard dat u deelt rapporten bevat die zijn gebouwd met metriek die een specifieke gebruiker geen toegang tot heeft, tonen de rapporten een `Error Loading Data` bericht. Als u de gegevens aan de specifieke gebruiker wilt verschijnen, moet een [ admin gebruiker ](../../administrator/user-management/user-management.md) toegang tot alle metriek verlenen die in die rapporten wordt gebruikt.
 
 ## Een dashboard delen
 
-1. Klikken **[!UICONTROL Share Dashboard]** boven aan het scherm.
+1. Klik op **[!UICONTROL Share Dashboard]** boven aan het scherm.
 
-   Een lijst met alle gebruikers in uw [!DNL Commerce Intelligence] account wordt weergegeven.
+   Er wordt een lijst weergegeven met alle gebruikers in uw [!DNL Commerce Intelligence] -account.
 
 1. Als u een gebruiker wilt selecteren om het dashboard mee te delen, schakelt u het selectievakje links van de naam in.
 
-   Klik op **[!UICONTROL Select]** en selecteert u `Everyone` of `None`, respectievelijk.
+   Als u alle gebruikers wilt selecteren/deselecteren, klikt u op **[!UICONTROL Select]** en selecteert u respectievelijk `Everyone` of `None` .
 
 1. De toestemmingen kunnen op een gebruiker-door-gebruiker basis of en masse worden geplaatst.
 
-   *Afzonderlijke machtigingen instellen*, klikt u op **[!UICONTROL None]** rechts van de gebruikersnaam. Selecteer in dit vervolgkeuzemenu het type machtigingen dat de gebruiker moet hebben.
+   *om individuele toestemmingen* te plaatsen, klik **[!UICONTROL None]** rechts van de naam van de gebruiker. Selecteer in dit vervolgkeuzemenu het type machtigingen dat de gebruiker moet hebben.
 
-   *Machtigingen en masse instellen*, klikt u op **[!UICONTROL Set Permissions]**. Selecteer in dit vervolgkeuzemenu het type machtigingen dat de geselecteerde gebruikers moeten hebben.
+   *om toestemmingen en masse* te plaatsen, klik **[!UICONTROL Set Permissions]**. Selecteer in dit vervolgkeuzemenu het type machtigingen dat de geselecteerde gebruikers moeten hebben.
 
    >[!NOTE]
    >
-   >U kunt deze functie ook gebruiken om eerder ingestelde machtigingen bij te werken. Als u bijvoorbeeld het dashboard niet meer met iemand wilt delen, stelt u de machtigingen in op `None`.
+   >U kunt deze functie ook gebruiken om eerder ingestelde machtigingen bij te werken. Als u bijvoorbeeld wilt stoppen met het delen van het dashboard met iemand, stelt u de machtigingen in op `None` .
 
-1. Klik op **[!UICONTROL Save Changes]**. De geselecteerde gebruikers ontvangen een e-mail met een uitnodiging om het dashboard te bekijken.
+1. Klik op **[!UICONTROL Save Changes]** om het dashboard te delen. De geselecteerde gebruikers ontvangen een e-mail met een uitnodiging om het dashboard te bekijken.
 
 Voorbeeld:
 
-![deeldashboard](../../assets/Share_Dashboards.gif)
+![ aandeel dashboard ](../../assets/Share_Dashboards.gif)

@@ -6,40 +6,40 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# Verwacht [!DNL Google Adwords] data
+# [!DNL Google Adwords] gegevens verwacht
 
-Na [u hebt verbinding gemaakt met [!DNL Google Adwords] account](../integrations/google-adwords.md), kunt u de [Data Warehouse Manager](../../data-warehouse-mgr/tour-dwm.md) relevante gegevensvelden voor analyse gemakkelijk te volgen.
+Nadat [ u uw  [!DNL Google Adwords]  rekening ](../integrations/google-adwords.md) hebt verbonden, kunt u de [ Manager van de Data Warehouse ](../../data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
 Daar, merkt u twee lijsten beschikbaar voor replicatie in uw Data Warehouse:
 
 * `campaigns[account-id]`
 * `adwords[account-id]`
 
-De `campaigns` table *moet standaard worden gebruikt*, dus u kunt beginnen door alle relevante velden uit die tabel te synchroniseren.
+De `campaigns` lijst *zou door gebrek* moeten worden gebruikt, zodat kunt u beginnen door alle relevante gebieden van die lijst te synchroniseren.
 
-De `adwords` tabel bevat vier kolommen die niet in de `campaigns` tabel:
+De tabel `adwords` bevat vier kolommen die niet in de tabel `campaigns` staan:
 
 1. `keyword`
 1. `adContent`
 1. `adDestinationUrl`
 1. `adGroup`
 
-Wanneer u in het uitvoeren van een analyse geinteresseerd bent die deze attributen overweegt, moet u gebruiken `adwords` tabel.
+Wanneer u geïnteresseerd bent in het uitvoeren van een analyse waarin deze kenmerken in aanmerking worden genomen, moet u de tabel `adwords` gebruiken.
 
 >[!IMPORTANT]
 >
->In deze tabel worden rijen uitgesloten waarvan alle vier deze kolommen bestaan `null`.
+>In deze tabel worden rijen uitgesloten waarvan alle vier deze kolommen `null` zijn.
 
 Hieronder ziet u het verwachte schema voor beide tabellen.
 
 ## [!DNL Campaigns] table
 
-De `campaigns` tabel bevat de volgende kolommen:
+De tabel `campaigns` bevat de volgende kolommen:
 
 | **Kolom** | **Beschrijving** |
 |-----|-----|
@@ -48,7 +48,7 @@ De `campaigns` tabel bevat de volgende kolommen:
 | [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adclicks) | Totaal aantal klikken voor de dag |
 | [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adcost) | Totale kosten van de campagne voor de dag |
 | [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
-| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=traffic_sources&amp;jump=ga_campaign) | Campagnenaam (bijvoorbeeld [utm\_campagne](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=traffic_sources&amp;jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=time&amp;jump=ga_date) | De datum waarop de campagne is gestart |
 | [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_impressions) | Aantal indrukken voor de dag |
 | `profileId` | Profiel-id |
@@ -59,7 +59,7 @@ De `campaigns` tabel bevat de volgende kolommen:
 
 ## [!DNL AdWords] table
 
-De `adwords` tabel bevat de volgende kolommen:
+De tabel `adwords` bevat de volgende kolommen:
 
 | **Kolom** | **Beschrijving** |
 |-----|-----|
@@ -68,7 +68,7 @@ De `adwords` tabel bevat de volgende kolommen:
 | [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adclicks) | Totaal aantal klikken voor de dag |
 | [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adcost) | Totale kosten van de campagne voor de dag |
 | [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
-| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=traffic_sources&amp;jump=ga_campaign) | Campagnenaam (bijvoorbeeld [utm\_campagne](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=traffic_sources&amp;jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=time&amp;jump=ga_date) | De datum waarop de campagne is gestart |
 | [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_impressions) | Aantal indrukken voor de dag |
 | `profileId` | Profiel-id |
@@ -76,17 +76,17 @@ De `adwords` tabel bevat de volgende kolommen:
 | `\_updated\_at` | De datum en tijd van de laatste update voor deze rij |
 | `keyword` | Het sleutelwoord van de campagne |
 | `adContent` | De eerste regel van de tekst voor de online campagne |
-| `adDestinationUrl` | De URL waaraan de [!DNL Adwords] doorverwezen verkeer |
-| `adGroup` | De naam van [!DNL Adwords] ad-groep |
+| `adDestinationUrl` | De URL waarnaar de [!DNL Adwords] verwijst, verwijst naar verkeer |
+| `adGroup` | De naam van de ad-groep [!DNL Adwords] |
 
 {style="table-layout:auto"}
 
-Met deze gegevens kunt u beginnen met het maken van [cijfers](../../../data-user/reports/ess-manage-data-metrics.md) en [rapporten](../../../tutorials/using-visual-report-builder.md) op basis van uitgavengegevens en [Sluit het aan uw levensinkomsten aan om ROI te berekenen](../../analysis/roi-ad-camp.md).
+Gebruikend deze gegevens, kunt u beginnen [ metriek ](../../../data-user/reports/ess-manage-data-metrics.md) en [ rapporten ](../../../tutorials/using-visual-report-builder.md) te creëren die op het uitgeven van gegevens worden gebaseerd en [ het te trouwen met uw levensinkomsten om ROI ](../../analysis/roi-ad-camp.md) te berekenen.
 
 ## Geconsolideerde tabellen
 
-[!DNL Adobe] raadt u aan een `consolidated ad spend` tabel om de gegevens van al uw verschillende advertentiebronnen te combineren tot één tabel. Hierdoor kunt u één set meetgegevens gebruiken voor de analyse van advertenties.
+[!DNL Adobe] raadt u aan een `consolidated ad spend` -tabel te maken waarin de gegevens uit al uw verschillende advertentiebronnen worden gecombineerd tot één tabel. Hierdoor kunt u één set meetgegevens gebruiken voor de analyse van advertenties.
 
-Als u geen geconsolideerde tafel hebt en u bouwt een mooi dashboard op het `adwords` tabel, moet u de rapportering herhalen of dubbele metriek creëren om die gegevens met uw te vergelijken [!DNL Facebook Ads] gegevens. Door een geconsolideerde tabel te gebruiken, kunt u deze naadloos integreren [!DNL Facebook Ads] gegevens met uw bestaande [!DNL Adwords] rapporten. U kunt ook segmenteren op advertentieplatform.
+Als u geen geconsolideerde tabel hebt en u maakt een mooi dashboard op de `adwords` -tabel, moet u de rapportage repliceren of dubbele metriek maken om die gegevens te vergelijken met uw [!DNL Facebook Ads] -gegevens. Met behulp van een geconsolideerde tabel kunt u naadloos [!DNL Facebook Ads] -gegevens opnemen in uw bestaande [!DNL Adwords] -rapporten. U kunt ook segmenteren op advertentieplatform.
 
-Als u de bovenstaande velden al hebt gesynchroniseerd, [contact opnemen met ons](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om je advertentieformaat te consolideren.
+Als u reeds de gebieden hierboven hebt gesynchroniseerd, [ contacteer ons ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw advertentie uit te breiden.

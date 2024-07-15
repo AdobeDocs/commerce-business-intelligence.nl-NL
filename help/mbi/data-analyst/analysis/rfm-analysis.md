@@ -6,7 +6,7 @@ role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,17 @@ Dit onderwerp toont aan hoe te opstelling een dashboard dat u toestaat om uw kla
 
 ![](../../assets/blobid0.png)
 
-De RFM-analyse kan alleen worden geconfigureerd als u beschikt over de [!DNL Adobe Commerce Intelligence] Pro-abonnement op de nieuwe architectuur (bijvoorbeeld als u de `Data Warehouse Views` optie onder de `Manage Data` ). Deze kolommen kunnen worden gemaakt op basis van de **[!DNL Manage Data > Data Warehouse]** pagina. Hieronder vindt u gedetailleerde instructies.
+De RFM-analyse kan alleen worden geconfigureerd als u het [!DNL Adobe Commerce Intelligence] Pro-plan voor de nieuwe architectuur hebt (bijvoorbeeld als u de optie `Data Warehouse Views` onder het menu `Manage Data` hebt). Deze kolommen kunnen worden gemaakt op basis van de pagina **[!DNL Manage Data > Data Warehouse]** . Hieronder vindt u gedetailleerde instructies.
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat alleen een primaire sleutel met de waarde één bevat. Hierdoor kunnen enkele noodzakelijke berekende kolommen voor de analyse worden gemaakt.
 
-U kunt dit [artikel](../importing-data/connecting-data/using-file-uploader.md) en de afbeelding hieronder om uw bestand op te maken.
+U kunt dit [ artikel ](../importing-data/connecting-data/using-file-uploader.md) en het beeld hieronder gebruiken om uw dossier te formatteren.
 
 ## Berekende kolommen
 
-Een verder onderscheid wordt gemaakt als uw zaken gastorden toestaat. Als dat het geval is, kunt u alle stappen voor de `customer_entity` tabel. Als gastorden niet worden toegestaan, negeer alle stappen voor `sales_flat_order` tabel.
+Een verder onderscheid wordt gemaakt als uw zaken gastorden toestaat. Als dat het geval is, kunt u alle stappen voor de tabel `customer_entity` negeren. Als gastorders niet zijn toegestaan, negeert u alle stappen voor de tabel `sales_flat_order` .
 
 Te maken kolommen
 
@@ -43,8 +43,8 @@ Te maken kolommen
 * [!UICONTROL Filter]: `Orders we count`
 
 * 
-      Seconden sinds laatste besteldatum van klant
-  * [!UICONTROL Column type]: - &quot;Zelfde tabel > Leeftijd
+       Seconden sinds de laatste ordedatum van de klant 
+  * [!UICONTROL Column type] : -     &quot;Zelfde tabel > Leeftijd
 * Geselecteerd [!UICONTROL column]: `Customer's last order date`
 
 * (invoer) Verwijzing naar aantal
@@ -55,16 +55,16 @@ Te maken kolommen
 * 
   [!UICONTROL Datatype]: `Integer`
 
-* **Telreferentie** tabel (dit is het bestand dat u hebt geüpload met het nummer &quot;1&quot;)
+* **de verwijzings** lijst van de Telling (dit is het dossier u met het aantal &quot;1&quot;uploadde)
 * Aantal klanten
 * [!UICONTROL Column type]: `Many to One > Count Distinct`
-* [!UICONTROL Path]: `ales_flat_order.(input) reference > Count reference.Primary Key` OF `customer_entity.(input)reference > Count Reference`. `Primary Key`
-* Geselecteerd [!UICONTROL column]: `sales_flat_order.customer_email` OF `customer_entity.entity_id`
+* [!UICONTROL Path]: `ales_flat_order.(input) reference > Count reference.Primary Key` OR `customer_entity.(input)reference > Count Reference` . `Primary Key`
+* Geselecteerd [!UICONTROL column]: `sales_flat_order.customer_email` OR `customer_entity.entity_id`
 
-* **Klant_entiteit** table
+* **Customer_entity** lijst
 * Aantal klanten
 * [!UICONTROL Column type]: `One to Many > JOINED_COLUMN`
-* [!UICONTROL Path]: `customer_entity`.(input) reference > Customer Concentration. `Primary Key`
+* [!UICONTROL Path]: `customer_entity` .(input) reference > Customer Concentration. `Primary Key`
 * Geselecteerd [!UICONTROL column]: `Number of customers`
 
 * (invoer) `Ranking by customer lifetime revenue`
@@ -74,14 +74,14 @@ Te maken kolommen
 
 * Rangschikken op basis van de inkomsten uit de levensduur van de klant
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue`, `Number of customers`
+* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue` , `Number of customers`
 * [!UICONTROL Calculation]: `case when A is null then null else (B-(A-1)) end`
 * 
   [!UICONTROL Datatype]: `Integer`
 
 * Monetaire score van de klant (in percentielen)
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue`, `Number of customers`
+* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue` , `Number of customers`
 * [!UICONTROL Calculation]: `Case when round((B-A+1)*100/B,0) <= 20 then 5 when round((B-A+1)*100/B,0) <= 40 then 4 when round((B-A+1)*100/B,0) <= 60 then 3 when round((B-A+1)*100/B,0) <= 80 then 2 when round((B-A+1)*100/B,0) <= 100 then 1 else 0 end`
 * 
   [!UICONTROL Datatype]: `Integer`
@@ -94,13 +94,13 @@ Te maken kolommen
 * Rangschikking volgens het aantal orders in de levensduur van de klant
 * 
   [!UICONTROL, kolomtype]: – "Zelfde tabel > Berekening"
-* [!UICONTROL Inputs]: - **(input) Rangorde volgens het aantal orders in de levensduur van de klant**, **Aantal klanten**
-* [!UICONTROL Calculation]: - **case als A null is, dan null else (B-(A-1)) end**
+* [!UICONTROL Inputs]: - **(input) het Rangschikken door het aantal van het klantenleven van orden**, **Aantal klanten**
+* [!UICONTROL Calculation]: - **geval wanneer A ongeldig dan ongeldig anders (B- (A-1)) eind** is
 * [!UICONTROL Datatype]: - Geheel getal
 
 * Frequentiescore van de klant (in percentielen)
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime number of orders`, `Number of customers`
+* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime number of orders` , `Number of customers`
 * [!UICONTROL Calculation]: `Case when round((B-A+1)*100/B,0) <= 20 then 5 when round((B-A+1)*100/B,0) <= 40 then 4 when round((B-A+1)*100/B,0) <= 60 then 3 when round((B-A+1)*100/B,0) <= 80 then 2 when round((B-A+1)*100/B,0) <= 100 then 1 else 0 end`
 * 
   [!UICONTROL Datatype]: `Integer`
@@ -112,26 +112,26 @@ Te maken kolommen
 
 * Recentiescore van de klant (in percentielen)
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime number of orders`, `Number of customers`
+* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime number of orders` , `Number of customers`
 * [!UICONTROL Calculation]: `Case when (A * 100/B,0) <= 20 then 5 when (A * 100/B,0) <= 40 then 4 when (A * 100/B,0) <= 60 then 3 when (A * 100/B,0) <= 80 then 2 when (A * 100/B,0) <= 100 then 1 else 0 end`
 * 
   [!UICONTROL Datatype]: `Integer`
 
 * Recentiescore van de klant (in percentielen)
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: `Customer's recency score (by percentiles)`, `Customer's frequency score (by percentiles)`, `Customer's monetary score (by percentiles)`
+* [!UICONTROL Inputs]: `Customer's recency score (by percentiles)` , `Customer's frequency score (by percentiles)` , `Customer's monetary score (by percentiles)`
 * [!UICONTROL Calculation]: `case when (A IS NULL or B IS NULL or C IS NULL) then null else concat(A,B,C) end`
 * 
   [!UICONTROL Datatype]: String
 
-* **Telreferentie** table
+* **de verwijzing van de Telling** lijst
 * [!UICONTROL Number of customers]: `(RFM > 0)`
 * [!UICONTROL Column type]: `Many to One > Count Distinct`
-* [!UICONTROL Path]: `sales_flat_order.(input) reference > Customer Concentration. Primary Key` OF `customer_entity.(input)reference > Customer Concentration.Primary Key`
-* Geselecteerd [!UICONTROL column]: `sales_flat_order.customer_email` OF `customer_entity.entity_id`
+* [!UICONTROL Path]: `sales_flat_order.(input) reference > Customer Concentration. Primary Key` OR `customer_entity.(input)reference > Customer Concentration.Primary Key`
+* Geselecteerd [!UICONTROL column]: `sales_flat_order.customer_email` OR `customer_entity.entity_id`
 * [!UICONTROL Filter]: `Customer's RFM score (by percentile)` Niet gelijk aan 000
 
-* **Klant_entiteit** table
+* **Customer_entity** lijst
 * [!UICONTROL Number of customers]: `(RFM > 0)`
 * [!UICONTROL Column type]: `One to Many > JOINED_COLUMN`
 * [!UICONTROL Path]: `customer_entity.(input) reference > Customer Concentration.Primary Key`
@@ -139,7 +139,7 @@ Te maken kolommen
 
 * Recentiescore van de klant `(R+F+M)`
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: – `Customer's recency score (by percentiles)`, `Customer's frequency score (by percentiles)`, `Customer's monetary score (by percentiles)`
+* [!UICONTROL Inputs]: - `Customer's recency score (by percentiles)` , `Customer's frequency score (by percentiles)` , `Customer's monetary score (by percentiles)`
 * [!UICONTROL Calculation]: `case when (A IS NULL or B IS NULL or C IS NULL) then null else A+B+C end`
 * 
   [!UICONTROL Datatype]: `Integer`
@@ -152,14 +152,14 @@ Te maken kolommen
 
 * Rangschikking volgens totale RFM-score van de klant
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: `(input) Ranking by customer's overall RFM score`, `Number of customers (RFM > 0)`
+* [!UICONTROL Inputs]: `(input) Ranking by customer's overall RFM score` , `Number of customers (RFM > 0)`
 * [!UICONTROL Calculation]: `case when A is null then null else (B-(A-1)) end`
 * 
   [!UICONTROL Datatype]: `Integer`
 
 * RFM-groep van de klant
 * [!UICONTROL Column type]: `Same table > Calculation`
-* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue`, `Number of customers`
+* [!UICONTROL Inputs]: `(input) Ranking by customer lifetime revenue` , `Number of customers`
 * [!UICONTROL Calculation]: `Case when round(A * 100/B,0) <= 20 then '5. copper' when round(A * 100/B,0) <= 40 then '4. bronze' when round(A * 100/B,0) <= 60 then '3. silver' when round(A * 100/B,0)<= 80 then '2. gold' else '1. Platinum' end`
 * 
   [!UICONTROL Datatype]: `Integer`
@@ -174,11 +174,11 @@ Geen nieuwe metriek!
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
-* **Klanten per RFM-groep**
+* **Klanten door groepering RFM**
 * Metrisch `A`: `New customers`
 * [!UICONTROL Metric]: `New customers`
 * [!UICONTROL Filter]: `Customer's RFM score (by percentiles) Not Equal to 000`

@@ -17,12 +17,12 @@ U kunt een grafiek willen uitgeven die een andere gebruiker bezit of iets gelijk
 
 ## Het diagram zoeken
 
-Zoek eerst het diagram dat u van de andere gebruiker wilt kopiëren. Alle dashboards die met u worden gedeeld kunnen in worden gevonden `Dashboard` zijbalk waar ze zijn gemarkeerd met een gedeeld pictogram. Klik op het gewenste dashboard.
+Zoek eerst het diagram dat u van de andere gebruiker wilt kopiëren. Alle dashboards die met u worden gedeeld kunnen in `Dashboard` sidebar worden gevonden waar zij met een gedeeld pictogram duidelijk zijn. Klik op het gewenste dashboard.
 
 ## Het diagram klonen
 
-Kies in het gedeelde dashboard het diagram dat u naar uw eigen account wilt kopiëren. Klik op het gereedschap (![](../../assets/gear-icon.png)) en klik vervolgens op **[!UICONTROL Save As]**.
+Kies in het gedeelde dashboard het diagram dat u naar uw eigen account wilt kopiëren. Klik op het tandwielpictogram (![](../../assets/gear-icon.png)) en klik vervolgens op **[!UICONTROL Save As]** .
 
-U wordt gevraagd een naam aan uw exemplaar van het diagram te geven en deze aan een van uw bestaande dashboards toe te voegen. Als u geen dashboard selecteert, wordt dit toegevoegd aan de lijst met bestaande diagrammen en kunt u [later toevoegen](../../data-user/dashboards/add-charts-dashboard.md).
+U wordt gevraagd een naam aan uw exemplaar van het diagram te geven en deze aan een van uw bestaande dashboards toe te voegen. Als u geen dashboard selecteert, wordt het toegevoegd aan uw lijst van bestaande grafieken en u kunt het [ later ](../../data-user/dashboards/add-charts-dashboard.md) toevoegen.
 
-![totale klanten](../../assets/total-customers.png)
+![ totale klanten ](../../assets/total-customers.png)

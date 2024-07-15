@@ -6,37 +6,37 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
 
-# [!DNL Google Analytics] het gebruiken van de Bronnen van de Aankoop
+# [!DNL Google Analytics] Aankoopbronnen gebruiken
 
 ## Wat zijn kanalen? {#channels}
 
-Het creëren van douanesegmenten om te zien hoe het verschillende verkeer presteert en trends waarneemt is één van de krachtigste toepassingen voor [!DNL Google Analytics]. Eén klasse van segmenten die standaard in [!DNL Google Analytics] zijn `Channels`. Kanalen zijn een groepering van algemene manieren waarop mensen naar uw site komen.  [!DNL Google Analytics] sorteert automatisch de vele manieren dat u een gebruiker - of het sociale media, betaal-per-klik, e-mail, of verwijzingsverbindingen zijn - en bundelt hen in een emmer, of Kanaal.
+Het creëren van douanesegmenten om te zien hoe het verschillende verkeer presteert en trends waarneemt is één van de krachtigste toepassingen voor [!DNL Google Analytics]. Een klasse segmenten die standaard in [!DNL Google Analytics] bestaan, is `Channels` . Kanalen zijn een groepering van algemene manieren waarop mensen naar uw site komen.  [!DNL Google Analytics] sorteert automatisch de vele manieren die u een gebruiker aanschaft - of het sociale media, betaal-per-klik, e-mail, of verwijzingsverbindingen zijn - en bundelt hen in een emmer, of Kanaal.
 
-## Waarom zie ik mijn `channels` in Commerce Intelligence? {#nochannels}
+## Waarom zie ik mijn `channels` niet in Commerce Intelligence? {#nochannels}
 
-`Channels` zijn eenvoudige, geaggregeerde emmers van gegevens. Om uw verwervingen in de emmers van het Kanaal te sorteren, [!DNL Google] stelt afzonderlijke regels en definities in met behulp van specifieke parameters: een combinatie van aankopen [Bron](https://support.google.com/analytics/answer/1033173?hl=en) (de oorsprong van uw verkeer) en aankoop [Normaal](https://support.google.com/analytics/answer/6099206?hl=en) (de algemene categorie van de bron).
+`Channels` zijn eenvoudige, geaggregeerde emmers van gegevens. Om uw verwervingen in de emmers van het Kanaal te sorteren, [!DNL Google] plaatst verschillende regels en definities gebruikend specifieke parameters: een combinatie van verwerving [ Source ](https://support.google.com/analytics/answer/1033173?hl=en) (de oorsprong van uw verkeer) en verwerving [ Medium ](https://support.google.com/analytics/answer/6099206?hl=en) (de algemene categorie van de bron).
 
-Terwijl het hebben van deze emmers u kan helpen om te begrijpen waar uw verkeer uit komt, worden deze gegevens niet geëtiketteerd door kanaal maar door een combinatie Bron en Normaal. Omdat [!DNL Google] verzendt kanaalinformatie als twee afzonderlijke gegevenspunten, de kanaalgroepen verschijnen niet automatisch binnen [!DNL Commerce Intelligence].
+Terwijl het hebben van deze emmers u kan helpen om te begrijpen waar uw verkeer uit komt, worden deze gegevens niet geëtiketteerd door kanaal maar door een combinatie van Source en Medium. Omdat [!DNL Google] kanaalinformatie als twee afzonderlijke gegevenspunten verzendt, worden kanaalgroepen niet automatisch weergegeven in [!DNL Commerce Intelligence] .
 
 ## Wat zijn de standaardkanaalgroepen? Hoe worden ze gemaakt?
 
-Standaard, [!DNL Google] stelt acht verschillende kanalen in. De regels die bepalen hoe kanalen worden gecreeerd zijn hieronder.
+[!DNL Google] stelt standaard acht verschillende kanalen in. De regels die bepalen hoe kanalen worden gecreeerd zijn hieronder.
 
-| **Kanaal** | **Wat is het?** | **Hoe wordt het gemaakt?** |
+| **Kanaal** | **wat is het?** | **hoe wordt het gecreeerd?** |
 |---|---|---|
-| Direct | Iedereen die rechtstreeks op uw site komt. | Bron = `Direct`<br>AND Medium = `(not set); OR Medium = (none)` |
-| Organic Search | Verkeer dat in onbetaalde zoekmachines op een organische positie is geplaatst. | Normaal = `organic` |
-| Verwijzing | Verkeer dat afkomstig is van een externe koppeling die geen Organic Search is of van websites die geen sociale netwerken zijn. | Normaal = `referral` |
-| Betaalde zoekopdracht | Verkeer dat een UTM-trackingcode heeft waarvan het medium &quot;cpc&quot;, &quot;ppc&quot; of &quot;paidsearch&quot; is EN een advertentienetwerk is dat niet overeenkomt met &quot;Content&quot;. | Normaal = `^(cpc|ppc|paidsearch)$`<br>AND ADD Distribution Network ≠ `Content` |
-| Sociaal | Verwijzingsverkeer dat uit om het even welk van ongeveer komt [400 sociale netwerken](https://www.annielytics.com/blog/analytics/sites-google-analytics-includes-in-social-reports/) en zijn niet gecodeerd als advertenties. | Verwijzing naar sociale bron = `Yes`<br>OR Normaal = `^(social|social-network|social-media|sm|social network|social media)$` |
-| E-mail | Verkeer van sessies die zijn gelabeld met een medium &quot;email&quot;. | UTM-trackingcode van medium = `email` |
-| Weergave | Verkeer dat een UTM-trackingcode heeft waarvan het medium ofwel weergave of cpm is. Omvat ook interactie AdWords waar het advertentienetwerk &quot;Inhoud&quot;aanpast | Normaal = `^(display|cpm|banner)$`<br>OR Ad Distribution Network = `Content`<br>AND ADD Format ≠ `Text` |
-| Overige | Sessies van andere reclamekanalen (met uitzondering van Betaalde zoekopdracht) die zijn gelabeld met een medium van &quot;cpc&quot;, &quot;ppc&quot;, &quot;cpm&quot;, &quot;cpv&quot;, &quot;cpa&quot;, &quot;cpp&quot; en &quot;filiaal&quot;. | Normaal = `^(cpv|cpa|cpp|content-text)$` |
+| Direct | Iedereen die rechtstreeks op uw site komt. | Source = `Direct`<br> AND Medium = `(not set); OR Medium = (none)` |
+| Organic Search | Verkeer dat in onbetaalde zoekmachines op een organische positie is geplaatst. | Medium = `organic` |
+| Verwijzing | Verkeer dat afkomstig is van een externe koppeling die geen Organic Search is of van websites die geen sociale netwerken zijn. | Medium = `referral` |
+| Betaalde zoekopdracht | Verkeer dat een UTM-trackingcode heeft waarvan het medium &quot;cpc&quot;, &quot;ppc&quot; of &quot;paidsearch&quot; is EN een advertentienetwerk is dat niet overeenkomt met &quot;Content&quot;. | Medium = `^(cpc|ppc|paidsearch)$`<br> AND Ad Distribution Network ≠ `Content` |
+| Sociaal | Het verkeer van de verwijzing dat uit om het even welk ongeveer [ 400 sociale netwerken ](https://www.annielytics.com/blog/analytics/sites-google-analytics-includes-in-social-reports/) komt en niet geëtiketteerd als advertenties. | Sociale Source-verwijzing = `Yes`<br> OR Medium = `^(social|social-network|social-media|sm|social network|social media)$` |
+| E-mail | Verkeer van sessies die zijn gelabeld met een medium &quot;email&quot;. | UTM-trackingcode van Medium = `email` |
+| Weergave | Verkeer dat een UTM-trackingcode heeft waarvan het medium ofwel weergave of cpm is. Omvat ook interactie AdWords waar het advertentienetwerk &quot;Inhoud&quot;aanpast | Medium = `^(display|cpm|banner)$`<br> OR Ad Distribution Network = `Content`<br> AND Ad Format ≠ `Text` |
+| Overige | Sessies van andere reclamekanalen (met uitzondering van Betaalde zoekopdracht) die zijn gelabeld met een medium van &quot;cpc&quot;, &quot;ppc&quot;, &quot;cpm&quot;, &quot;cpv&quot;, &quot;cpa&quot;, &quot;cpp&quot; en &quot;filiaal&quot;. | Medium = `^(cpv|cpa|cpp|content-text)$` |
 
 {style="table-layout:auto"}
 
@@ -44,33 +44,33 @@ Standaard, [!DNL Google] stelt acht verschillende kanalen in. De regels die bepa
 
 Nu u weet dat kanalen slechts combinaties van bronnen en media zijn, is het een gemakkelijk proces in drie stappen om deze groeperingen in uw Data Warehouse opnieuw te maken.
 
-1. **Schakel uw[!DNL Google ECommerce]integratie**
+1. **laat uw [!DNL Google ECommerce] integratie** toe
 
-   [Indien ingeschakeld](../importing-data/integrations/google-ecommerce.md), zorg ervoor dat [synchroniseren](../{{ site.baseurl }}/data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) de **medium** en **bron** velden in uw Data Warehouse. Nadat dit wordt voltooid, zullen de gemiddelde en bronverwervingsgegevens in uw Data Warehouse worden gebracht.
+   [ wanneer toegelaten ](../importing-data/integrations/google-ecommerce.md), zorg ervoor aan [ synchronisatie ] (../ {{ site.baseurl }} /data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) het **middel** en **bron** gebieden in uw Data Warehouse. Nadat dit wordt voltooid, zullen de gemiddelde en bronverwervingsgegevens in uw Data Warehouse worden gebracht.
 
-1. **Een toewijzing van Google-kanaalgroepen uploaden**
+1. **upload een afbeelding van het kanaalgroeperingen van Google**
 
-   Adobe Commerce maakt een tabel met de standaardgroepen die zijn toegewezen als een bestand dat u kunt [downloaden](../../assets/ga-channel-mapping.csv).
+   Adobe Commerce leidt tot een lijst met de standaardgroepen die als dossier in kaart worden gebracht dat u [ kunt downloaden ](../../assets/ga-channel-mapping.csv).
 
-   Als u een [!DNL Google Analytics] pro en creeerde uw eigen kanalen, wilt u uw specifieke regels aan de toewijzingstabel toevoegen alvorens het dossier in te uploaden [!DNL Commerce Intelligence].
+   Als u een [!DNL Google Analytics] pro bent en uw eigen kanalen hebt gemaakt, wilt u uw specifieke regels toevoegen aan de toewijzingstabel voordat u het bestand uploadt naar [!DNL Commerce Intelligence] .
 
-   Breng het als een [Bestand uploaden](../importing-data/connecting-data/using-file-uploader.md).
+   Breng het in uw Data Warehouse als a [ Dossier uploadt ](../importing-data/connecting-data/using-file-uploader.md).
 
    ![](../../assets/Setting_Primary_Keys.png)
 
-1. **Een relatie tot stand brengen tussen[!DNL Google ECommerce]en Toewijzingen Bestand uploaden**
+1. **Vestig een verband tussen [!DNL Google ECommerce] en het Uploaden van het Dossier van Toewijzingen**
 
-   Om een relatie tot stand te brengen tussen[!DNL Google ECommerce] en de toewijzingstabel, [een steunaanvraag indienen](../../guide-overview.md#Submitting-a-Support-Ticket) aan uw team van de Analyst van Gegevens en verwijzing dit onderwerp. De analist maakt een nieuwe berekende kolom met de naam **Kanaal** in de tabel van de EG-handel. **Na een volledige updatecyclus**, kan deze kolom worden gebruikt in een `Filter` of `Group by`.
+   Om een verband tussen [!DNL Google ECommerce] en de mappinglijst te vestigen, [ voorlegt een steunverzoek ](../../guide-overview.md#Submitting-a-Support-Ticket) aan uw team van de Analyst van Gegevens en van verwijzingen dit onderwerp. De analist leidt tot een nieuwe berekende kolom genoemd **Kanaal** in de lijst van de Handel EC. **na een volledige updatecyclus**, zal deze kolom klaar zijn om in a `Filter` of `Group by` te gebruiken.
 
 U hebt nu [!DNL Google Analytics Channel] groeperingen in uw Data Warehouse, wat betekent u uw gegevens vanuit een nieuw perspectief kunt analyseren:
 
-![Segmenterend het Aantal van Orden metrisch door Kanaal](../../assets/GA_Channel_Gif.gif)
+![ die het Aantal van Orden segmenteren metrisch door Kanaal ](../../assets/GA_Channel_Gif.gif)
 
-In dit voorbeeld bent u eenvoudig begonnen met het segmenteren van de **Aantal bestellingen** metrisch volgens **Kanaal**. Test uw nieuwe kolom en bekijk welke trends u in uw [!DNL Google Analytics Channel] gegevens!
+In dit voorbeeld, begon u eenvoudig met het segmenteren van het **Aantal Orden** metrisch door **Kanaal**. Test uw nieuwe kolom en bekijk welke trends u kunt identificeren in uw [!DNL Google Analytics Channel] gegevens!
 
 ## Gerelateerde documentatie
 
 * [De Report Builder gebruiken](../../tutorials/using-visual-report-builder.md)
-* [Verwacht[!DNL Google ECommerce]data](../importing-data/integrations/google-ecommerce-data.md)
-* [Gebouw[!DNL Google ECommerce]afmetingen met bestelling en klantgegevens](../data-warehouse-mgr/bldg-google-ecomm-dim.md)
+* [Verwachte [!DNL Google ECommerce] gegevens](../importing-data/integrations/google-ecommerce-data.md)
+* [De bouw [!DNL Google ECommerce] dimensies met orde en klantengegevens](../data-warehouse-mgr/bldg-google-ecomm-dim.md)
 * [Wat zijn uw waardevolste aanschafbronnen en kanalen?](../analysis/most-value-source-channel.md)

@@ -6,20 +6,20 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Filters
 
-Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die worden gebruikt om een rapport te produceren. Elk filter is een expressie die een kolom uit de bijbehorende tabel, een operator en een waarde bevat. Bijvoorbeeld om slechts herhaalde klanten te omvatten, zou u een filter kunnen tot stand brengen dat slechts klanten omvat die meer dan één orde hebben geplaatst. Meerdere filters kunnen worden gebruikt met logische `AND/OR` om logica aan het rapport toe te voegen.
+Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die worden gebruikt om een rapport te produceren. Elk filter is een expressie die een kolom uit de bijbehorende tabel, een operator en een waarde bevat. Bijvoorbeeld om slechts herhaalde klanten te omvatten, zou u een filter kunnen tot stand brengen dat slechts klanten omvat die meer dan één orde hebben geplaatst. Met logische `AND/OR` operatoren kunnen meerdere filters worden gebruikt om logica aan het rapport toe te voegen.
 
 >[!TIP]
 >
 >Een rapport kan een maximum van 3.500 gegevenspunten hebben. Om het aantal gegevenspunten te verminderen, gebruik een filter om de hoeveelheid gegevens te verminderen die wordt gebruikt om het rapport te produceren.
 
-[!DNL Adobe Commerce Intelligence] bevat een selectie van filters die u &quot;buiten de doos (OOTB)&quot; kunt gebruiken of kunt aanpassen om aan uw behoeften te voldoen. Het aantal filters dat u kunt maken, is onbeperkt.
+[!DNL Adobe Commerce Intelligence] bevat een selectie van filters die u &quot;uit de doos (OTB)&quot; kunt gebruiken of kunt aanpassen om aan uw behoeften te voldoen. Het aantal filters dat u kunt maken, is onbeperkt.
 
 ## Een filter toevoegen:
 
@@ -27,44 +27,44 @@ Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die word
 
    In dit rapport, toont elk gegevenspunt het totale aantal klanten voor de maand.
 
-1. Klik in het linkerdeelvenster op de filters (![](../../assets/magento-bi-btn-filter.png)).
+1. Klik in het linkerdeelvenster op het pictogram Filters (![](../../assets/magento-bi-btn-filter.png)).
 
-   ![Filter toevoegen](../../assets/magento-bi-report-builder-filter-add.png)
+   ![ voeg Filter ](../../assets/magento-bi-report-builder-filter-add.png) toe
 
 1. Klik op **[!UICONTROL Add Filter]**.
 
-   Filters worden alfabetisch genummerd en het eerste is `[A]`. De eerste twee delen van het filter zijn vervolgkeuzemogelijkheden en het derde deel is een waarde.
+   Filters worden alfabetisch genummerd en de eerste is `[A]` . De eerste twee delen van het filter zijn vervolgkeuzemogelijkheden en het derde deel is een waarde.
 
    ![](../../assets/magento-bi-report-builder-filter-add-a.png)
 
    * Klik op het eerste deel van het filter en kies de kolom die u als het onderwerp van de expressie wilt gebruiken.
 
-     ![Eerste deel van filter kiezen](../../assets/magento-bi-report-builder-filter-part1.png)
+     ![ kies Eerste Deel van Filter ](../../assets/magento-bi-report-builder-filter-part1.png)
 
    * Klik op het tweede deel van het filter en kies de operator.
 
-     ![De operator kiezen](../../assets/magento-bi-report-builder-filter-part2.png)
+     ![ kies de exploitant ](../../assets/magento-bi-report-builder-filter-part2.png)
 
    * Voer in het derde deel van het filter de waarde in die nodig is om de expressie te voltooien.
 
-     ![Voer de waarde in](../../assets/magento-bi-report-builder-filter-part3.png)
+     ![ ga de waarde ](../../assets/magento-bi-report-builder-filter-part3.png) in
 
-   * Wanneer het filter is voltooid, klikt u op **[!UICONTROL Apply]**.
+   * Klik op **[!UICONTROL Apply]** wanneer het filter is voltooid.
 
      Het rapport omvat nu slechts herhaalde klanten, en het aantal klantenverslagen die voor het rapport zijn teruggewonnen is verminderd van 33.000 tot 12.600.
 
-     ![Gefilterd rapport](../../assets/magento-bi-report-builder-filter-report.png)<!--{: .zoom}-->
+     ![ Gefilterd Rapport ](../../assets/magento-bi-report-builder-filter-report.png)<!--{: .zoom}-->
 
-1. Klik in het zijpaneel op het perspectief ( ![](../../assets/magento-bi-btn-perspective.png)).
+1. Klik op het perspectiefpictogram ( ![](../../assets/magento-bi-btn-perspective.png) ) in het zijpaneel.
 
-   ![Perspectief](../../assets/magento-bi-report-builder-filter-perspective.png)<!--{: .zoom}-->
+   ![ Perspectief ](../../assets/magento-bi-report-builder-filter-perspective.png)<!--{: .zoom}-->
 
-1. Kies in de lijst met instellingen de optie `Cumulative`. Klik vervolgens op **[!UICONTROL Apply]**.
+1. Kies `Cumulative` in de lijst met instellingen. Klik vervolgens op **[!UICONTROL Apply]** .
 
-   ![Cumulatief perspectief](../../assets/magento-bi-report-builder-filter-perspective-cumulative.png)
+   ![ Cumulatief Perspectief ](../../assets/magento-bi-report-builder-filter-perspective-cumulative.png)
 
-   De `Cumulative` perspectief verdeelt de verandering in tijd, eerder dan het tonen van de gekartelde omhoog en downs voor elke maand.
+   Het perspectief `Cumulative` verdeelt de verandering in tijd, eerder dan het tonen van oneffen omhoog en downs voor elke maand.
 
-1. Voer een `Title` voor het rapport en klik op **[!UICONTROL Save]** als een `Chart` naar het dashboard.
+1. Voer een `Title` voor het rapport in en klik op **[!UICONTROL Save]** het rapport als een `Chart` voor het dashboard.
 
-   ![Opslaan naar dashboard](../../assets/magento-bi-report-builder-filter-perspective-cumulative-save.png)
+   ![ sparen aan Dashboard ](../../assets/magento-bi-report-builder-filter-perspective-cumulative-save.png)

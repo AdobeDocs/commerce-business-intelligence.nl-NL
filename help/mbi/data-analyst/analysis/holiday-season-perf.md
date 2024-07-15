@@ -6,7 +6,7 @@ role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De ruiten kunnen op om het even welk punt tijdens het jaar worden ervaren; bijvo
 
 ## Aanbevolen meetwaarden
 
-Analyseer bij het analyseren van de prestaties van het vakantieseizoen ([of gebouw](../../data-user/reports/ess-manage-data-metrics.md)) deze cijfers:
+Wanneer het analyseren van de prestaties van het vakantieseizoen, overweeg het analyseren ([ of het bouwen ](../../data-user/reports/ess-manage-data-metrics.md)) deze metriek:
 
 ### Aantal nieuwe klanten, aantal orders, inkomsten
 
@@ -33,7 +33,7 @@ Deze maatregel toont de algemene gemiddelde ordewaarde tijdens uw vakantieseizoe
 
 Nu u weet welke metriek moet worden geanalyseerd, bekijkt u sommige gegevens van steekproefopbrengst tijdens de maanden van het vakantieseizoen van november en December voor zowel 2014 als 2015.
 
-![Ontvangsten per feestdag voor 2014 en 2015](../../assets/Analyzing_holiday_season.png)
+![ de inkomsten van het dagvakantieseizoen voor 2014 en 2015 ](../../assets/Analyzing_holiday_season.png)
 
 In dit voorbeeld zijn er twee grote inkomstenspikes voor 2014 en 2015: deze stijgingen vallen samen met Zwarte Vrijdag en Cyber Maandag. Let op: de pieken zijn niet op dezelfde dag voor 2014 en 2015. De reden hiervoor is dat de zwarte vrijdag op 27 november voor 2014 en 28 november voor 2015 is gevallen. Op dezelfde manier was Cyber maandag 30 november voor 2014 en 1 december voor 2015.
 
@@ -58,7 +58,7 @@ Eén mogelijkheid is om het aankoopgedrag van uw klanten tijdens de feestdagen t
 
 Een andere mogelijkheid is om uw ROI te analyseren door campagne te voeren tijdens de vakantieperiodes. Is uw ROI hoger voor specifieke campagnes die tijdens het vakantieseizoen lopen? Moet u de uitgaven verhogen voor campagnes met een hoog rendement op het geïnvesteerde vermogen tijdens deze seizoenen?
 
-Bovendien kunt u het aantal gedisconteerde bestellingen vergelijken met volledige prijsbestellingen. [Zijn de meeste klanten wachtend op een verkoop aan kooporders](../analysis/coupon-usage.md) tijdens je vakantieseizoen of kopen ze objecten met een volledige prijs?
+Bovendien kunt u het aantal gedisconteerde bestellingen vergelijken met volledige prijsbestellingen. [ wachten de meeste klanten op een verkoop om orden ](../analysis/coupon-usage.md) tijdens uw vakantieseizoen te kopen of kopen zij volledige prijspunten?
 
 ### Verwante
 

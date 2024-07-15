@@ -6,28 +6,28 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
-# Verwacht [!DNL Google Analytics] data
+# [!DNL Google Analytics] gegevens verwacht
 
-Nadat u een [!DNL Google Analytics] integratie, kunt u met uw [!DNL Google Analytics] cijfers *onmiddellijk in het`Visual Report Builder`*. Wanneer u de `Visual Report Builder`, als u op **[!UICONTROL Add a Metric]**, een reeks meetgegevens van uw [!DNL Google Analytics] wordt weergegeven in een vervolgkeuzelijst direct onder de meetwaarden in de Data Warehouse.
+Nadat u een [!DNL Google Analytics] integratie hebt verbonden, kunt u met uw [!DNL Google Analytics] metriek *onmiddellijk in`Visual Report Builder`* in wisselwerking staan. Wanneer u `Visual Report Builder` invoert en u op **[!UICONTROL Add a Metric]** klikt, wordt een reeks meetgegevens uit het profiel [!DNL Google Analytics] weergegeven in een vervolgkeuzelijst direct onder de meetgegevens in de Data Warehouse.
 
-De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report Builder` verzoekt om gegevens van [!DNL Google Analytics] *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek waartoe u toegang kunt hebben, precies is gedefinieerd zoals ze zich bevinden in [!DNL Google Analytics]en dat deze waarden niet *gehuisvest* in uw [!DNL Commerce Intelligence] account - wordt alleen visueel weergegeven in uw rapporten.
+De [!DNL Google Analytics] integratie is levend ** - dit betekent dat `Report Builder` om gegevens van [!DNL Google Analytics] vraagt *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek die u kunt toegang hebben precies worden bepaald aangezien zij in [!DNL Google Analytics] zijn, en dat deze waarden niet ** in uw [!DNL Commerce Intelligence] rekening worden gespaard - slechts visueel getoond in uw rapporten.
 
 +++Ondersteunde metriek en Dimensionen (Googles Analytics 3 of Universal Analytics)
 
 >[!NOTE]
 >
->Op 1 juli 2023, standaard universele analyse ([!DNL Google Analytics] 3) eigenschappen verwerken geen gegevens meer. U kunt uw Universal Analytics-rapporten na 1 juli 2023 bekijken. Nieuwe gegevens worden echter alleen doorgegeven naar [!DNL Google Analytics] 4 eigenschappen.
+>Op 1 juli 2023 verwerken de standaard Universal Analytics-eigenschappen ([!DNL Google Analytics] 3) geen gegevens meer. U kunt uw Universal Analytics-rapporten na 1 juli 2023 bekijken. Nieuwe gegevens stromen echter alleen naar [!DNL Google Analytics] 4-eigenschappen.
 
-[!DNL Google Analytics] integratie in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [Core Reporting API](https://developers.google.com/analytics/devguides/reporting/core/v3/)en ondersteunt de volgende maatstaven en dimensies.
+[!DNL Google Analytics] de integratie in [!DNL Commerce Intelligence] gebruikt [!DNL Google Analytics] [ Kern die API meldt ](https://developers.google.com/analytics/devguides/reporting/core/v3/), en steunt de volgende metriek en de afmetingen.
 
 >[!NOTE]
 >
->U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer meetgegevens die u gebruikt in het dialoogvenster `Report Builder`. U kunt [hier](https://ga-dev-tools.google/dimensions-metrics-explorer/).
+>U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Report Builder` . U kunt [ hier ](https://ga-dev-tools.google/dimensions-metrics-explorer/) controleren.
 
 ## Ondersteunde metriek
 
@@ -156,12 +156,12 @@ De [!DNL Google Analytics] integratie is *leven* — dit betekent dat de `Report
 
 +++Ondersteunde metriek en Dimensionen (Googles Analytics 4)
 
-[!DNL Google Analytics] integratie in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [Data API v1 (GA4)](https://developers.google.com/analytics/devguides/reporting/data/v1).
+[!DNL Google Analytics] integraties in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [ Gegevens API v1 (GA4) ](https://developers.google.com/analytics/devguides/reporting/data/v1).
 
 >[!NOTE]
 >
-> De inlichtingen van de Handel steunt niet de volgende dimensies: `cohort`, `cohortNthDay`, `cohortNthMonth`, en `cohortNthWeek`.
+> Commerce Intelligence ondersteunt de volgende afmetingen niet: `cohort` , `cohortNthDay` , `cohortNthMonth` en `cohortNthWeek` .
 >
->U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer meetgegevens die u gebruikt in het dialoogvenster `Visual Report Builder`. U kunt de [GA4-Dimensionen &amp; Metrics Explorer](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/).
+>U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Visual Report Builder` . U kunt [ GA4 Dimensionen &amp; de Ontdekkingsreiziger van Metriek ](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/) controleren.
 
 +++

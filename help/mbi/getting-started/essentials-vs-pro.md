@@ -1,19 +1,19 @@
 ---
 title: Commerce Intelligence Essentials vs. Pro
-description: Leer hoe de Hoofdzaak van de Intelligentie van de Handel van de Intelligentie verschilt van de Intelligentie van de Handel Pro.
+description: Leer hoe Commerce Intelligence Essentials verschilt van Commerce Intelligence Pro.
 exl-id: 624a6285-8497-43d9-a56d-8ae503e0e2dd
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '77'
+ht-degree: 2%
 
 ---
 
 # [!DNL Commerce Intelligence Essentials] vs [!DNL Commerce Intelligence Pro]
 
-In de volgende tabel worden de elementen beschreven die zijn opgenomen in een verouderde versie `Essentials` account versus een lopende Commerce Intelligence-account. Adobe niet meer aangeboden `Essentials`.
+In de volgende tabel staan de elementen die zijn opgenomen met een verouderd `Essentials` -account in vergelijking met een huidig Commerce Intelligence-account. Adobe biedt niet langer `Essentials` aan.
 
 |   | **`Commerce Intelligence Essentials`** | **`Commerce Intelligence Pro`** |
 |-----|-----|-----|
@@ -38,7 +38,7 @@ In de volgende tabel worden de elementen beschreven die zijn opgenomen in een ve
 >
 >Het aantal tabellen is afhankelijk van uitchecken door gasten.
 
-**Opgenomen tabellen**
+**Included lijsten**
 
 * `sales\_order`
 * `sales\_order\_item`

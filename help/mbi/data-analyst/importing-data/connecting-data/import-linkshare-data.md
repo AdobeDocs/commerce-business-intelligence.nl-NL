@@ -1,43 +1,43 @@
 ---
 title: Koppelingsgegevens importeren
-description: Leren werken met het importeren van Linkshare-gegevens in [!DNL Commerce Intelligence].
+description: Leer om gegevens van Linksys in  [!DNL Commerce Intelligence] in te voeren.
 exl-id: 1c2025a6-746c-4929-bbb1-62af1afcbc49
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
-# Importeren [!DNL Linkshare] data
+# [!DNL Linkshare] -gegevens importeren
 
-Om uw [!DNL Linkshare] gegevens in [!DNL Adobe Commerce Intelligence]U moet twee dingen doen:
+Als u uw [!DNL Linkshare] gegevens wilt overbrengen naar [!DNL Adobe Commerce Intelligence] , moet u twee dingen doen:
 
 1. [De gegevens van Linksys uitvoeren in ](#export)
-1. [De spreadsheet uploaden naar [!DNL Commerce Intelligence]](../connecting-data/using-file-uploader.md)
+1. [De spreadsheet uploaden naar  [!DNL Commerce Intelligence]](../connecting-data/using-file-uploader.md)
 
 ## Gegevens exporteren uit Linkshare {#export}
 
-1. In uw [!DNL Linkshare] account, ga naar **[!UICONTROL Reports** > **Run Reports].**
+1. Ga in uw [!DNL Linkshare] -account naar **[!UICONTROL Reports** > **Run Reports].**
 
-1. In de `Report` vervolgkeuzelijst, selecteren **[!UICONTROL Sales & Activity Report]**.
+1. Selecteer **[!UICONTROL Sales & Activity Report]** in het vervolgkeuzemenu `Report` .
 
 1. Laat alle andere vervolgkeuzemogelijkheden de standaardselectie.
 
-1. In de `Date Range` vervolgkeuzelijst, selecteer de optie (`Sun - Sat`, `Mon - Sun`) komt overeen met uw `Start of Week` instellingen in [!DNL Commerce Intelligence].
+1. Selecteer in het vervolgkeuzemenu `Date Range` de optie ( `Sun - Sat` , `Mon - Sun` ) die overeenkomt met de instellingen in `Start of Week` [!DNL Commerce Intelligence] .
 
-1. Wis de `Compare Year-Over-Year Data` selectievakje.
+1. Schakel het selectievakje `Compare Year-Over-Year Data` uit.
 
-1. Selecteer onder `Data Type` de optie `Transaction Date`.
+1. Selecteer onder `Data Type` de optie `Transaction Date` .
 
-   ![importeren\_linkshare\_data.png](../../../assets/importing_linkshare_data.png)
+   ![ het invoeren \_linkshare\_data.png ](../../../assets/importing_linkshare_data.png)
 
 1. Klik op **[!UICONTROL View Report]**.
 
 1. Klik op **[!UICONTROL Download]**.
 
-   Op dit moment kan een `.csv` en gedownload.
+   Op dit punt wordt een `.csv` -bestand gedownload.
 
-Nadat het bestand is gedownload, kunt u het uploaden naar [!DNL Commerce Intelligence] met de [`File Upload` functie](../connecting-data/using-file-uploader.md).
+Nadat het dossier wordt gedownload, kunt u het aan [!DNL Commerce Intelligence] uploaden gebruikend de [`File Upload` eigenschap ](../connecting-data/using-file-uploader.md).

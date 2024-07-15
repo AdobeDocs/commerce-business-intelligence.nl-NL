@@ -13,4 +13,4 @@ ht-degree: 0%
 
 # Gegevens delen
 
-Het communiceren van de status en de tendensen van uw zaken is essentieel. Leer in deze sectie hoe u gegevens uit een diagram kunt exporteren en delen naar een `.csv` of `Excel` bestand. Leer ook hoe u e-mailsamenvattingen van uw gegevens configureert en automatisch naar belangrijke betrokkenen verzendt.
+Het communiceren van de status en de tendensen van uw zaken is essentieel. In deze sectie leert u hoe u gegevens uit een diagram exporteert en deelt naar een `.csv` - of `Excel` -bestand. Leer ook hoe u e-mailsamenvattingen van uw gegevens configureert en automatisch naar belangrijke betrokkenen verzendt.

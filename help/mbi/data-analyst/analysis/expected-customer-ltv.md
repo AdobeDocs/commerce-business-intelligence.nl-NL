@@ -6,7 +6,7 @@ role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Dit onderwerp toont aan hoe te opstelling een dashboard dat u helpt de de waarde
 
 ![](../../assets/exp-lifetim-value-anyalysis.png)
 
-Deze analyse is alleen beschikbaar voor klanten met een Pro-account op de nieuwe architectuur. Als uw account toegang heeft tot `Persistent Views` onderdeel onder de `Manage Data` zijbalk, bevindt u zich op de nieuwe architectuur en kunt u de hier vermelde instructies opvolgen om deze analyse zelf te maken.
+Deze analyse is alleen beschikbaar voor klanten met een Pro-account op de nieuwe architectuur. Als uw account toegang heeft tot de functie `Persistent Views` onder de zijbalk van `Manage Data` , bevindt u zich op de nieuwe architectuur en kunt u de onderstaande instructies volgen om deze analyse zelf te maken.
 
-Voordat u aan de slag gaat, wilt u zich vertrouwd maken met de [cohort report builder.](../dev-reports/cohort-rpt-bldr.md)
+Alvorens begonnen te worden, wilt u met de [ bouwer van het cohortrapport vertrouwd maken.](../dev-reports/cohort-rpt-bldr.md)
 
 ## Berekende kolommen
 
-Kolommen die op de **orders** tabel indien gebruiken **30 dagen**:
+Kolommen om op de **orden** lijst tot stand te brengen {als het gebruiken van **30 dagmaanden**:
 
 * [!UICONTROL Column name]: `Months between first order and this order`
 * [!UICONTROL Column type]: `Same Table`
@@ -43,7 +43,7 @@ Kolommen die op de **orders** tabel indien gebruiken **30 dagen**:
   [!UICONTROL Datatype]: `Integer`
 * Definitie: `case when created_at is null then null else (ceil((extract(epoch from current_timestamp) - extract(epoch from created_at))/2629800))::int end`
 
-Kolommen die op de **`orders`** tabel indien gebruiken **kalender** maanden:
+Kolommen om op de **`orders`** lijst te creëren als het gebruiken van **kalender** maanden:
 
 * [!UICONTROL Column name]: `Calendar months between first order and this order`
 * [!UICONTROL Column type]: `Same Table`
@@ -81,23 +81,23 @@ Kolommen die op de **`orders`** tabel indien gebruiken **kalender** maanden:
 
 Te maken statistieken
 
-* **Afzonderlijke klanten op eerste besteldatum**
-   * Als u gastorders inschakelt, gebruikt u `customer_email`
+* **Afzonderlijke klanten door eerste ordedatum**
+   * Gebruik `customer_email` als u gastorders inschakelt
 
-* In de **`orders`** table
-* Deze maatstaf voert een **Afzonderlijke telwaarden**
-* Op de **`customer_id`** kolom
-* Besteld door de **`Customer's first order date`** tijdstempel
+* In de tabel **`orders`**
+* Deze metrisch voert de Afzonderlijke Waarden van de Telling van a **uit**
+* Op de kolom **`customer_id`**
+* Besteld door de **`Customer's first order date`** timestamp
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
 ### Instructies rapporteren
 
-**Verwachte opbrengsten per klant per maand**
+**Verwachte opbrengst per klant door maand**
 
 * Metrisch `A`: `Revenue (hide)`
    * `Calendar months between first order and this order` `<= X` (Kies een redelijk getal voor X, bijvoorbeeld 24 maanden)
@@ -129,14 +129,14 @@ Overige diagramdetails
 
 * [!UICONTROL Time period]: `All time`
 * Tijdinterval: `None`
-* [!UICONTROL Group by]: `Calendar months between first order and this order` - alles tonen
-* Wijzig de `group by` voor de `All time customers` Metrisch naar onafhankelijk gebruiken van het potloodpictogram naast `group by`
-* Bewerk de `Show top/bottom` velden als volgt:
+* [!UICONTROL Group by]: `Calendar months between first order and this order` - alles weergeven
+* Wijzig de `group by` voor de metrische waarde `All time customers` in Onafhankelijk met het potloodpictogram naast `group by`
+* Bewerk de velden `Show top/bottom` als volgt:
    * [!UICONTROL Revenue]: `Top 24 sorted by Calendar months between first order and this order`
    * [!UICONTROL All time customers]: `Top 24 sorted by All time customers`
    * [!UICONTROL All time customers by month since first order]: `Top 24 sorted by All time customers by month since first order`
 
-**Gem-ontvangsten per maand per cohort**
+**Gem opbrengst per maand door cohort**
 
 * Metrisch `A`: `Revenue`
 * 
@@ -144,7 +144,7 @@ Overige diagramdetails
 * [!UICONTROL Cohort date]: `Customer's first order date`
 * [!UICONTROL Perspective]: `Average value per cohort member`
 
-**Gecumuleerde inkomsten per maand per cohort**
+**Cumulatieve inkomsten avg per maand door cohort**
 
 * Metrisch `A`: `Revenue`
 * 
@@ -154,4 +154,4 @@ Overige diagramdetails
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
-Als u op om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

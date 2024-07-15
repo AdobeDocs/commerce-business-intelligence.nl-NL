@@ -17,8 +17,8 @@ Het is eenvoudig nieuwe gebruikers snel aan de slag te krijgen.
 
 ## Nieuwe gebruiker
 
-Nadat een nieuwe gebruiker zijn wachtwoord heeft gemaakt, wordt een lijst met populaire gedeelde dashboards weergegeven. Ze kunnen de dashboards selecteren die ze op hun dashboard willen weergeven en klikken **[!UICONTROL Done]**.
+Nadat een nieuwe gebruiker zijn wachtwoord heeft gemaakt, wordt een lijst met populaire gedeelde dashboards weergegeven. Ze kunnen de dashboards selecteren die ze op hun dashboard willen weergeven en op **[!UICONTROL Done]** klikken.
 
 ## Bestaande gebruikers
 
-Gebruikers kunnen op **[!UICONTROL Find]** in de `Global Search` -menu.
+Als u de lijst met gedeelde dashboards opnieuw wilt weergeven, kunnen gebruikers op **[!UICONTROL Find]** in het menu `Global Search` klikken.

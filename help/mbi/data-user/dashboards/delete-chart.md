@@ -13,11 +13,11 @@ ht-degree: 1%
 
 # Een diagram permanent verwijderen
 
-Zelfs als u [een diagram verwijderen uit het dashboard](../../data-user/dashboards/remove-charts-dashboard.md), bestaat het nog steeds in [!DNL Commerce Intelligence] account.
+Zelfs als u [ een grafiek uit het dashboard ](../../data-user/dashboards/remove-charts-dashboard.md) verwijdert, bestaat het nog in uw [!DNL Commerce Intelligence] rekening.
 
 Een diagram permanent verwijderen:
 
-1. Klikken **[!UICONTROL Account Setting]** in de zijbalk.
+1. Klik op **[!UICONTROL Account Setting]** in de zijbalk.
 
 1. Klik op **[!UICONTROL Charts]**.
 
@@ -29,8 +29,8 @@ Een diagram permanent verwijderen:
 
    >[!NOTE]
    >
-   >Als de grafiek in een dashboard of een e-mailsamenvatting wordt gebruikt, wordt een bericht getoond. Als u wilt doorgaan, moet u de verwijdering bevestigen en vervolgens op **[!UICONTROL Force Deletion]**.
+   >Als de grafiek in een dashboard of een e-mailsamenvatting wordt gebruikt, wordt een bericht getoond. Als u wilt doorgaan, moet u de verwijdering bevestigen en vervolgens op **[!UICONTROL Force Deletion]** klikken.
 
 Voorbeeld:
 
-![een diagram verwijderen](../../assets/deletechart.gif)<!--{: width="630" height="402"}-->
+![ schrap een grafiek ](../../assets/deletechart.gif)<!--{: width="630" height="402"}-->

@@ -1,5 +1,5 @@
 ---
-title: Open je Commerce Intelligence-account
+title: Je Commerce Intelligence-account openen
 description: Meer informatie over aanmelden bij je Commerce Intelligence-account.
 exl-id: 3ee36e0e-f447-4be3-afc8-ccc6d3aa4f20
 role: Admin, Data Architect, Data Engineer, Leader, User
@@ -11,24 +11,24 @@ ht-degree: 0%
 
 ---
 
-# Toegang tot uw geactiveerde [!DNL Adobe Commerce Intelligence] account
+# Open uw geactiveerde [!DNL Adobe Commerce Intelligence] account
 
-Nadat u uw [!DNL Commerce Intelligence] account of [on-premise of cloud](../getting-started/onpremise-activation.md) en hebben samengewerkt met uw accountteam voor Adobe om de configuratiestappen af te ronden, kunt u zich nu aanmelden bij uw account.
+Nadat u uw [!DNL Commerce Intelligence] rekening of voor [ op-gebouw of wolk ](../getting-started/onpremise-activation.md) hebt geactiveerd en met uw Team van de Rekening van de Adobe gewerkt om de configuratiestappen te voltooien, kunt u nu binnen aan uw rekening ondertekenen.
 
-## Meld u aan met uw [!DNL Adobe ID]
+## Aanmelden met uw [!DNL Adobe ID]
 
 1. Klik op **[!UICONTROL Sign in with Adobe ID]**.
 
-   ![aanmelden](../assets/sign-in-adobe.png)
+   ![ teken-in-adobe ](../assets/sign-in-adobe.png)
 
-1. Voer het e-mailadres in dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] account. Als u nog geen Adobe account hebt, klikt u op **[!UICONTROL Create an account]** en voer uw gegevens in. Gebruik het e-mailadres dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] account. Het e-mailadres is de sleutel die u nodig hebt om toegang te krijgen tot uw Adobe account.
+1. Voer het e-mailadres in dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] -account. Als u nog geen Adobe-account hebt, klikt u op **[!UICONTROL Create an account]** en voert u uw gegevens in. Gebruik het e-mailadres dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] -account. Het e-mailadres is de sleutel die u nodig hebt om toegang te krijgen tot uw Adobe account.
 
 >[!NOTE]
 >
->Als u zich aanmeldt met uw [!DNL Adobe ID], u kunt uw [!DNL Commerce Intelligence] profielwachtwoord.
+>Als u zich aanmeldt met uw [!DNL Adobe ID] , kunt u het profielwachtwoord van [!DNL Commerce Intelligence] niet wijzigen.
 
 ## Aanmelden met uw gebruikersnaam en wachtwoord
 
-Voer uw e-mailadres en wachtwoord in en klik op **[!UICONTROL Sign In]**.
+Voer uw e-mailadres en wachtwoord in en klik op **[!UICONTROL Sign In]** .
 
-U hebt nu toegang tot [!DNL Commerce Intelligence].
+U hebt nu toegang tot [!DNL Commerce Intelligence] .

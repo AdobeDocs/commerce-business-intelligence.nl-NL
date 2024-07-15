@@ -6,22 +6,22 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1950'
 ht-degree: 0%
 
 ---
 
 # Out-of-the-box dashboards
 
-[!DNL Adobe Commerce Intelligence] omvat out-of-the-box dashboards om inzicht in uw zaken te verstrekken. Met dashboards kunt u de gezondheid van essentiële metriek controleren zoals opbrengst van de gebruikersleven, aantal herhaalde aankopen, hoogste producten die over een bepaalde periode, en meer worden gekocht. Deze pre-gevormde dashboards werden gecreeerd om u te helpen geïnformeerde bedrijfsbesluiten nemen.
+[!DNL Adobe Commerce Intelligence] bevat out-of-the-box dashboards om inzicht in uw zaken te verstrekken. Met dashboards kunt u de gezondheid van essentiële metriek controleren zoals opbrengst van de gebruikersleven, aantal herhaalde aankopen, hoogste producten die over een bepaalde periode, en meer worden gekocht. Deze pre-gevormde dashboards werden gecreeerd om u te helpen geïnformeerde bedrijfsbesluiten nemen.
 
 >[!NOTE]
 >
->De toegang tot deze dashboards hangt van uw accounttype en uw toegangsniveau af. Neem contact op met [ondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+>De toegang tot deze dashboards hangt van uw accounttype en uw toegangsniveau af. Als u deze dashboards niet ziet, contacteer [ steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ## Beschikbaarheid van rapporten
 
-Voor de `Customers` en `Executive Summary` dashboards, zijn sommige rapporten slechts beschikbaar afhankelijk van de controleconfiguratie van uw opslag. Specifiek, als je winkel uitchecken door gasten toestaat of uitchecken door gasten niet toestaat.
+Sommige rapporten zijn alleen beschikbaar voor de dashboards van `Customers` en `Executive Summary` , afhankelijk van de uitcheckconfiguratie van uw winkel. Specifiek, als je winkel uitchecken door gasten toestaat of uitchecken door gasten niet toestaat.
 
 ## Klanten (uitchecken door gasten toegestaan)
 
@@ -42,7 +42,7 @@ Het dashboard Klanten (uitchecken door gasten toegestaan) biedt informatie over 
 | `Time Between Orders` | De gemiddelde en mediane tijd die klanten nemen tussen orders, uitgesplitst naar orderaantal (d.w.z. de tijd tussen bestellingen één en twee, twee en drie, etc.). |
 | `Number of Customers - Lifetime Orders` | Voor een bepaald aantal orden die in het leven van een klant worden geplaatst, het aantal klanten die dat vele orden en het percentage van de volledige klantenbasis hebben geplaatst dat aantal vertegenwoordigt. |
 | `One-Time Customers who Bought 3-6 Months Ago` | Klanten die tussen drie en zes maanden geleden hun eerste en enige aankoop hebben gedaan. |
-| `Avg LTV by First Order` | Vergelijkt de cumulatieve gemiddelde opbrengst van het klantenleven over cohorts. Cohorts worden gedefinieerd door de maand waarin een klant voor het eerst een aankoop heeft gedaan. Bijvoorbeeld een `Jan 2020` cohort toont cumulatief gemiddelde LTV voor klanten wier eerste aankoop in januari 2020 plaatsvond. |
+| `Avg LTV by First Order` | Vergelijkt de cumulatieve gemiddelde opbrengst van het klantenleven over cohorts. Cohorts worden gedefinieerd door de maand waarin een klant voor het eerst een aankoop heeft gedaan. Een `Jan 2020` -cohort toont bijvoorbeeld een cumulatief gemiddelde LTV voor klanten wier eerste aankoop in januari 2020 plaatsvond. |
 | `Customer's First 30 Day vs Lifetime Revenue` | Vergelijking van de gemiddelde inkomsten van klanten in de 30 dagen na hun eerste aankoop ten opzichte van in hun hele leven. Elke zeepbel komt overeen met een verzendgebied en de grootte van elke zeepbel geeft het aantal klanten aan dat gebied heeft aangeschaft. |
 
 ## Klanten (uitchecken door gasten is niet toegestaan)
@@ -133,7 +133,7 @@ Het dashboard voor bestellingen biedt inzicht in het transactievolume van orders
 
 ## Producten
 
-Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), en hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Je winkel moet [geconfigureerd voor het bijhouden van restituties](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) voor die grafieken die moeten worden ingevuld.
+Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), en hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Uw opslag moet [ worden gevormd om restituties ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) voor die te vullen grafieken te volgen.
 
 >[!NOTE]
 >

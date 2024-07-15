@@ -6,30 +6,30 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Voortgang van cyclus bijwerken
 
-Wanneer u zich aanmeldt bij [!DNL Adobe Commerce Intelligence] dashboard, er zijn verscheidene manieren om de status van uw laatste updatecyclus te controleren. Het hangt allemaal af van het type [gebruikersmachtigingen](../administrator/user-management/user-management.md) dat hebt u.
+Wanneer u zich aanmeldt bij het [!DNL Adobe Commerce Intelligence] -dashboard, kunt u de status van de laatste updatecyclus op verschillende manieren controleren. Het hangt allemaal van het type van [ gebruikerstoestemmingen ](../administrator/user-management/user-management.md) af dat u hebt.
 
 ## Waarom zou ik de status van de Update Cycle controleren?
 
-Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw controleert [!DNL Commerce Intelligence] account. Indien u [resultaten die niet aan uw verwachtingen voldoen](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md)bijvoorbeeld de dagelijkse verkoop in [!DNL Commerce Intelligence] komen niet overeen met wat u ziet in uw e-commerceplatform of in uw [[!DNL Google] e-commerceontvangsten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) U kunt het laatste gegevenspunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
+Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw [!DNL Commerce Intelligence] rekening controleert. Als u [ resultaten ziet die uw verwachtingen ](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md) niet ontmoeten, bijvoorbeeld, passen de dagelijkse verkoop in [!DNL Commerce Intelligence] niet aan wat u in uw e-commerceplatform of in uw [[!DNL Google]  e-commerceopbrengst ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) ziet u het laatste gegevenspunt kunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
 
-## [!UICONTROL Read-Only] en [!UICONTROL Standard] Gebruikers
+## [!UICONTROL Read-Only] en [!UICONTROL Standard] Users
 
-`Read-only` gebruikers kunnen zich aanmelden bij hun dashboard en zien hoe recent de gegevens zijn bijgewerkt door de muisaanwijzer op het pictogram rechtsboven op de pagina te plaatsen. Dit toont wanneer het laatste gegevenspunt werd getrokken.
+`Read-only` -gebruikers kunnen zich aanmelden bij hun dashboard en zien hoe recent de gegevens zijn bijgewerkt door de muisaanwijzer op het pictogram rechtsboven op de pagina te plaatsen. Dit toont wanneer het laatste gegevenspunt werd getrokken.
 
 ![](../../mbi/assets/last-success-data.png)
 
 ## [!UICONTROL Admin] Gebruikers
 
-`Admin` gebruikers kunnen zich aanmelden bij het dashboard en het laatste gegevenspunt hierboven zien, samen met een kort statuspictogram van hun accountintegratie.
+`Admin` -gebruikers kunnen zich aanmelden bij het dashboard en het laatste gegevenspunt hierboven zien, samen met een kort statuspictogram van hun accountintegratie.
 
-Voor meer informatie kunnen beheerders klikken op **[!UICONTROL Manage Data]** > **[!UICONTROL Integrations]**.
+Voor meer informatie kunnen beheerders op **[!UICONTROL Manage Data]** > **[!UICONTROL Integrations]** klikken.
 
 ![](../../mbi/assets/detail-manage-data-integrations.png)
 
@@ -41,4 +41,4 @@ Als er geen update wordt uitgevoerd, ziet u een koppeling waarmee een update wor
 
 >[!NOTE]
 >
->Als u brainstormuren hebt (tijdstip waarop u dit niet wilt [!DNL Commerce Intelligence] om uw gegevens bij te werken), door een update te forceren wordt een updatecyclus gestart die niet voldoet aan de beperkingen van deze brainstormuren.
+>Als u brainstormuren hebt (tijd waarop u niet wilt dat [!DNL Commerce Intelligence] uw gegevens bijwerkt), kunt u door een update te forceren een updatecyclus starten die niet voldoet aan de beperkingen van deze brainstormuren.

@@ -16,8 +16,8 @@ ht-degree: 0%
 U gebruikt gegevens om zakelijke beslissingen te nemen. U kunt rapporten en dashboards van een gegevensanalist op uw team ontvangen, maar u wilt ook leren hoe te om die rapporten en dashboards tot stand te brengen.
 
 In dit gedeelte wordt getoond hoe u:
-* gegevens verkrijgen en weergeven in [!DNL Commerce Intelligence] rapporten en dashboards gebruiken
-* deze gegevens via e-mail met belanghebbenden delen en `.csv` bestanden
+* gegevens ophalen en weergeven in [!DNL Commerce Intelligence] met rapporten en dashboards
+* deze gegevens delen met belanghebbenden via e-mail en `.csv` bestanden
 
 ## Verwante
 

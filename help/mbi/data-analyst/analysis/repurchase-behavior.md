@@ -6,8 +6,8 @@ role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 1%
+source-wordcount: '849'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. Dit onderwerp verkent analyses die u kunnen helpen de volgende vragen beantwoorden.
 
-Onder klanten die een *specifiek item*,
+Onder klanten die a *specifiek punt* kopen,
 
 * Hoe groot is de kans dat ze een andere aankoop doen?
 * Hoe lang duurt het voordat ze een andere aankoop doen?
@@ -46,11 +46,11 @@ Deze maatregel toont de het bestellen frequentie van de klant, of de tijd het vo
 
 Houd bovenstaande cijfers in gedachten en bekijk een voorbeeld met koffieproducten.
 
-| **Productnaam** | **Herhalingsvolgordeningswaarschijnlijkheid** | **Gemiddeld aantal orders tijdens de levensduur** | **Gem. levenslange inkomsten** | **Mediane tijd tot volgende bestelling** |
+| **de naam van het Product** | **Herhaal orde waarschijnlijkheid** | **Avg levenaantal orden** | **Gem levensopbrengst** | **Mediane tijd aan volgende orde** |
 |-----|-----|-----|-----|-----|
-| Koffiebrouwerij voor één beker | 94.98% | 7.92 | $549.82 | 57,01 dagen |
-| Koffiecapsules | 93.82% | 8.68 | $479.98 | 63,48 dagen |
-| Koffiebonen | 41.92% | 6.07 | $99.82 | 27,31 dagen |
+| Koffiebrouwerij voor één beker | 94,98% | 7,92 | $ 549,82 | 57,01 dagen |
+| Koffiecapsules | 93,82% | 8,68 | $ 479,98 | 63,48 dagen |
+| Koffiebonen | 41,92% | 6,07 | $ 99,82 | 27,31 dagen |
 
 {style="table-layout:auto"}
 
@@ -76,10 +76,10 @@ Onder klanten die koffiecapsules hebben gekocht, maakt de helft een herhalingsbe
 
 ## Welke andere analyses kan ik maken?
 
-Met behulp van de metriek die in dit onderwerp wordt geschetst, kunt u andere nuttige het terugkopen analyses ook bouwen. U kunt bijvoorbeeld ook zien hoe klanten hun aankopen terugkopen **hetzelfde item** - bijvoorbeeld wanneer zij regelmatig vullingen kopen. Capsules en koffiebonen kunnen regelmatig worden teruggekocht, maar het zou onverwacht zijn als klanten de koffiebrouwerij herhaaldelijk zouden kopen. Als uw zaken zich op vult of herbevolkt concentreert, zou deze analyse nuttig zijn.
+Met behulp van de metriek die in dit onderwerp wordt geschetst, kunt u andere nuttige het terugkopen analyses ook bouwen. Bijvoorbeeld, kunt u ook zien hoe de klanten **het zelfde punt** terugkopen - bijvoorbeeld, als zij regelmatig vult kopen. Capsules en koffiebonen kunnen regelmatig worden teruggekocht, maar het zou onverwacht zijn als klanten de koffiebrouwerij herhaaldelijk zouden kopen. Als uw zaken zich op vult of herbevolkt concentreert, zou deze analyse nuttig zijn.
 
 Naast het analyseren van het terugkoopgedrag van uw klanten, kunt u analyses ook bouwen die klantenloyaliteit bekijken. Overweeg patronen in klantenkring te analyseren - waar verlaten uw klanten uw plaats en komen niet terug? In welk tempo gebeurt dit?
 
-Als u hebt vastgesteld waarom er een fout optreedt, kunt u uw analyse gebruiken om een `reactivation` campagne. Met deze gegevens kunt u gebruikers identificeren die inactief zijn geworden, hoe lang het is sinds hun laatste bezoek, wat hun laatste aankoop was, enzovoort. Dit staat u toe om actieable besluiten te nemen die uw klanten ertoe aanzetten om terug te komen.
+Als u hebt vastgesteld waarom er een fout optreedt, kunt u uw analyse gebruiken om een `reactivation` -campagne te maken. Met deze gegevens kunt u gebruikers identificeren die inactief zijn geworden, hoe lang het is sinds hun laatste bezoek, wat hun laatste aankoop was, enzovoort. Dit staat u toe om actieable besluiten te nemen die uw klanten ertoe aanzetten om terug te komen.
 
-Voor hulp bij de analyse [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Voor hulp met analyse, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

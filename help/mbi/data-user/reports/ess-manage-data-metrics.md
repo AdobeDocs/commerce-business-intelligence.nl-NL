@@ -15,17 +15,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
+>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
 
 Een metrische waarde is een maat. In SQL en gegevensbestandstructuren, is metrisch als een opgeslagen vraag over een veranderlijke periode.
 
-In [!DNL Commerce Intelligence], kunt u metriek gebruiken aan [grafieken maken](../../data-user/reports/ess-rpt-build-visual.md). De metrische `revenue` het totale aantal orders. De metrische `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
+In [!DNL Commerce Intelligence], kunt u metriek gebruiken om [ grafieken ](../../data-user/reports/ess-rpt-build-visual.md) tot stand te brengen. De metrische waarde `revenue` is bijvoorbeeld het totale aantal bestellingen. Metrisch `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
 
-Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [gefilterd of gesegmenteerd](../../best-practices/segment-filter.md) naar verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van de klant, ingedeeld naar geslacht - in dit geval, `average customer revenue per order` is het metrisch en het geslacht is de groepering.
+Wanneer gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [ gefiltreerd of gesegmenteerd ](../../best-practices/segment-filter.md) door verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van klanten, gegroepeerd op geslacht. In dit geval is `average customer revenue per order` de metrische waarde en is het geslacht de groepering.
 
 ## De metrische waarde definiëren {#define}
 
-1. Als u metrische gegevens wilt maken, klikt u op **[!UICONTROL Data** > **Metrics]**.
+1. Klik op **[!UICONTROL Data** > **Metrics]** om een metrische waarde te maken.
 
 1. Klik op **[!UICONTROL Create New Metric]**.
 
@@ -33,49 +33,49 @@ Indien gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspa
 
 1. Geef de metrische naam.
 
-   De Adobe adviseert een naam die, in een blik, u vertelt wat metrisch is. Bijvoorbeeld: `Average Order Revenue`.
+   De Adobe adviseert een naam die, in een blik, u vertelt wat metrisch is. Bijvoorbeeld: `Average Order Revenue` .
 
-1. De volgende stap is te bepalen wat uw metrisch doet. Definieer met behulp van de vervolgkeuzemenu&#39;s de bewerking van de meting, en `operation` en een `date` dimensie:
+1. De volgende stap is te bepalen wat uw metrisch doet. Definieer met de vervolgkeuzemenu&#39;s de bewerking van de meting, de kolom `operation` en een `date` -dimensie:
 
    * Kies een bewerking:
       * `Count` - Deze bewerking telt het aantal rijen in een gegevenstabel
       * `Max` - Max retourneert de maximumwaarde van een specifieke gegevenskolom
       * `Min` - Min retourneert de minimumwaarde van een specifieke gegevenskolom
-      * `Sum` - Met deze bewerking worden de waarden van een specifieke gegevenskolom samengevat
+      * `Sum` - Met deze bewerking worden de waarden van een specifieke gegevenskolom opgeteld
       * `Average` - Deze bewerking berekent het gemiddelde van de waarden in de gegevenskolom
-      * `Count Distinct Value` - Dit telt het unieke aantal waarden in een specifieke gegevenskolom
+      * `Count Distinct Value` - Hiermee wordt het unieke aantal waarden in een specifieke gegevenskolom geteld
       * `Median` - Deze bewerking berekent de mediaan van de waarden in de gegevenskolom
-      * `First and Third Quartiles` - Deze bewerkingen berekenen respectievelijk het 25e en 75e percentiel van de kolomwaarden van de gegevens
-      * `Tenth and Ninetieth Percentiles` - Deze bewerkingen berekenen respectievelijk het tiende en het negentigste percentiel van de waarden van de gegevenskolom
+      * `First and Third Quartiles` - Deze bewerkingen berekenen respectievelijk het 25e en 75e percentiel van de waarden in de gegevenskolom
+      * `Tenth and Ninetieth Percentiles` - Deze bewerkingen berekenen respectievelijk het tiende en negentigste percentiel van de waarden in de gegevenskolom
 
-   * Kies een kolom waarop de bewerking moet worden uitgevoerd. Bijvoorbeeld, als u uw totale opbrengst wilde vinden, zou u een summiere verrichting op uitvoeren `order total` kolom.
+   * Kies een kolom waarop de bewerking moet worden uitgevoerd. Als u bijvoorbeeld uw totale omzet wilt vinden, voert u een saldobewerking uit op de kolom `order total` .
 
-     Als u een bestaande metrische waarde bewerkt, kunt u ook [veranderen de operationele lijst van metrisch](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in deze afdeling.
+     Als u bestaande metrisch uitgeeft, kunt u ook [ de operationele lijst van metrische metrisch ](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in deze sectie veranderen.
 
-   * Kies een datumdimensie die kan worden gebruikt om metrisch te trenderen. Bijvoorbeeld, `order date`.
+   * Kies een datumdimensie die kan worden gebruikt om metrisch te trenderen. Bijvoorbeeld `order date` .
 
 ## Filters toevoegen {#filters}
 
-De `Filter` kunt u een filter maken of een [opgeslagen filterset](../../data-user/reports/ess-manage-data-filters.md) op uw metrische waarde.
+De `Filter` sectie staat u toe om een filter tot stand te brengen of a [ bewaarde filterreeks ](../../data-user/reports/ess-manage-data-filters.md) op metrisch toe te passen.
 
-Voor de `average order revenue` metrisch, zou u geen testorden willen omvatten die zouden kunnen worden gedaan terwijl het opzetten van uw opslag - dit zou ons een onjuist resultaat geven. Kan een filterset toepassen om deze orders uit de gegevensset te verwijderen. Nadat het filter is gemaakt, wordt het toegepast op alle diagrammen die met deze metrische waarde zijn gemaakt.
+Voor `average order revenue` metrisch, zou u geen testorden willen omvatten die zouden kunnen worden gedaan terwijl het opzetten van uw opslag - dit zou ons een onnauwkeurig resultaat geven. Kan een filterset toepassen om deze orders uit de gegevensset te verwijderen. Nadat het filter is gemaakt, wordt het toegepast op alle diagrammen die met deze metrische waarde zijn gemaakt.
 
-De `Filter Logic` is waar u kunt verder bepalen hoe metrisch zich zou moeten gedragen.
+In de sectie `Filter Logic` kunt u nader bepalen hoe een metrische waarde zich moet gedragen.
 
-* &quot;\[`A`\] of \[`B`\]&quot; staat alle gegevens toe die voldoen aan de filters \[`A`\] OF \[`B`\]
-* &quot;\[`A`\] en \[`B`\]&quot; staat alleen gegevens toe die aan beide filters voldoen \[`A`\] en \[`B`\]
-* &quot;(\[`A`\] en \[`B`\]) OF \[`C`\]&quot; staat alleen gegevens toe die aan beide filters voldoen \[`A`\] en \[`B`\] of filter \[`C`\] alleen
+* &quot;\[{0\] of \[`B`\]&quot; staat om het even welke gegevens toe die de filters \[{2\] OF \[`B` \] tevredenstellen`A``A`
+* &quot;\[{0\] en \[`B`\]&quot;staat slechts gegevens toe die zowel filters \ [`A` \] als \ [`B` \] tevredenstellen`A`
+* &quot;(\[{0\] en \[`B`\]) OF \[`C`\]&quot; staat alleen gegevens toe die aan beide filters \[`A`\] en \[`B`\] voldoen, of alleen aan filter \[`C`\] voldoen`A`
 
 ## Dimensionen toevoegen {#dimensions}
 
-De [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) toont alle beschikbare gegevensafmetingen voor het filtreren of groeperen; door gebrek, zijn alle beschikbare gegevenskolommen vermeld als afmetingen. Als u doorgaat met het voorbeeld, als u uw inkomsten wilt segmenteren op verwijzingsbron, kunt u dat hier doen.
+In de sectie [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) worden alle beschikbare gegevensafmetingen voor filteren of groeperen weergegeven. Standaard worden alle beschikbare gegevenskolommen weergegeven als afmetingen. Als u doorgaat met het voorbeeld, als u uw inkomsten wilt segmenteren op verwijzingsbron, kunt u dat hier doen.
 
-Naast het weergeven van alle beschikbare gegevenskolommen als afmetingen, [!DNL Commerce Intelligence] Gecontroleerd bij welke kolommen gegroepeerd kunnen worden. *Gegevens segmenteren of groeperen in rapporten*, moeten kolommen worden gemarkeerd als gegroepeerd.
+Naast het weergeven van alle beschikbare gegevenskolommen als dimensies, wordt in [!DNL Commerce Intelligence] aangegeven welke kolommen kunnen worden gegroepeerd. *om gegevens over rapporten* te segmenteren of te groeperen, moeten de kolommen als groeperbaar worden gemerkt.
 
 ## Voltooien {#finish}
 
-Naast het bepalen van hoe uw metrisch gedrag, kunt u toestemmingsniveaus in `User Rights` sectie. while `Admin` gebruikers hebben toegang tot alle metriek, moet u de gebruikers aangeven die deze metrische waarde kunnen gebruiken door de doos naast de aangewezen groep te controleren.
+U kunt niet alleen definiëren hoe de metrische waarden werken, maar ook machtigingsniveaus instellen in de sectie `User Rights` . Hoewel `Admin` -gebruikers toegang hebben tot alle metriek, moet u de gebruikers aangeven die deze metrische waarde kunnen gebruiken door het selectievakje naast de juiste groep in te schakelen.
 
-Als u bestaande metrisch uitgeeft, kunt u een lijst van grafieken (en wie hen bezit) bekijken die deze metrisch in gebruiken `Dependent Charts` sectie.
+Als u een bestaande metrische waarde bewerkt, kunt u een lijst met grafieken (en wie er eigenaar van is) weergeven die deze metrische waarde in de sectie `Dependent Charts` gebruiken.
 
 Wijzigingen worden automatisch opgeslagen en de metrische waarde is nu goed om te gaan.

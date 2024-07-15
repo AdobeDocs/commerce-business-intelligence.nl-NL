@@ -6,24 +6,24 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
 
 # SQL-query&#39;s optimaliseren
 
-De [!DNL SQL Report Builder] staat u toe om op die vragen op om het even welk bepaald ogenblik te vragen en te herhalen. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
+Met [!DNL SQL Report Builder] kunt u op elk gewenst moment query&#39;s uitvoeren op deze query&#39;s en deze doorlopen. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
 
-Voordat een query wordt uitgevoerd, [[!DNL Commerce Intelligence] schat de kosten](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen groter is dan [!DNL Commerce Intelligence] limieten, mislukt de query. Voor het opvragen van uw [Data Warehouse](../data-analyst/data-warehouse-mgr/tour-dwm.md)Om ervoor te zorgen dat u de meest gestroomlijnde query&#39;s schrijft, raadt de Adobe het volgende aan.
+Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert de Adobe het volgende.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 
-Het selecteren van alle kolommen maakt niet voor een geschikte, gemakkelijk uitgevoerde vraag. Zoekopdrachten die worden gebruikt `SELECT *` kan behoorlijk wat tijd vergen om te lopen, vooral als uw lijst vele kolommen heeft.
+Het selecteren van alle kolommen maakt niet voor een geschikte, gemakkelijk uitgevoerde vraag. Het kan veel tijd duren om query&#39;s met `SELECT *` uit te voeren, vooral als uw tabel veel kolommen bevat.
 
-Daarom wordt u door de Adobe aangeraden het gebruik van `SELECT *` waar mogelijk en neem alleen de kolommen op die u nodig hebt:
+Daarom raadt de Adobe u aan `SELECT *` waar mogelijk niet te gebruiken en alleen de kolommen op te nemen die u nodig hebt:
 
-| **In plaats van dit...** | **Probeer dit!** |
+| **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
 | ![](../../mbi/assets/Select_all_1.png) | ![](../../mbi/assets/Select_all_2.png) |
 
@@ -33,11 +33,11 @@ Daarom wordt u door de Adobe aangeraden het gebruik van `SELECT *` waar mogelijk
 
 Buiten sluit zich aan selecteren de volledige twee lijsten die worden aangesloten bij, die de computerkosten van de vraag verhogen. Dit betekent dat het langer duurt om de query uit te voeren en dat het waarschijnlijker is dat de query mislukt, omdat het langer kan duren dan de uitvoeringslimiet om de resultaten te retourneren.
 
-In plaats van dit type verbinding te gebruiken, denk na gebruikend een binnen of linkerverbinding. De binnenpartij verbindt terugkeerresultaten slechts wanneer er een kolomgelijke tussen lijsten is (bijvoorbeeld `order_id` bestaat in beide `customers` en `orders` tabel). Linkerverbindingen retourneren alle resultaten van de linker (eerste) tabel samen met de overeenkomende resultaten in de rechter (tweede) tabel.
+In plaats van dit type verbinding te gebruiken, denk na gebruikend een binnen of linkerverbinding. De resultaten worden alleen geretourneerd als er een kolomovereenkomst is tussen tabellen (`order_id` bestaat bijvoorbeeld zowel in een standaard `customers` - als `orders` -tabel). Linkerverbindingen retourneren alle resultaten van de linker (eerste) tabel samen met de overeenkomende resultaten in de rechter (tweede) tabel.
 
 Kijk hoe u een FULL OUTER JOIN vraag kunt herschrijven:
 
-| **In plaats van dit...** | **Probeer dit!** |
+| **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
 | ![](../../mbi/assets/Full_Outer_Join_1.png) | ![](../../mbi/assets/Full_Outer_Join_2.png) |
 
@@ -51,13 +51,13 @@ Terwijl u veelvoudige verbindingen in uw vraag kunt omvatten, herinner dat het d
 
 ## Filters gebruiken
 
-Gebruik filters waar mogelijk. `WHERE` en `HAVING` de clausules filteren uw resultaten en geven u slechts de gegevens u echt wilt.
+Gebruik filters waar mogelijk. Met de componenten `WHERE` en `HAVING` filtert u de resultaten en geeft u alleen de gewenste gegevens.
 
 ## Filters gebruiken in JOIN-clausules
 
 Als u een filter gebruikt wanneer het uitvoeren van een verbinding, ben zeker om het op beide lijsten in toe te passen zich. Zelfs als het overtollig is, drukt dit de computerkosten van de vraag en vermindert de uitvoeringstijd.
 
-| **In plaats van dit...** | **Probeer dit!** |
+| **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
 | ![](../../mbi/assets/Join_filters_1.png) | ![](../../mbi/assets/Join_filters_2.png) |
 
@@ -67,17 +67,17 @@ Als u een filter gebruikt wanneer het uitvoeren van een verbinding, ben zeker om
 
 Als u query&#39;s schrijft, kunt u overwegen de &#39;minst dure&#39; operatoren te gebruiken. Elke vraag heeft computerkosten, die door de functies, de exploitanten, en de filters worden bepaald die omhoog de vraag maken. Sommige operatoren hebben minder rekenkracht nodig, waardoor ze minder kostbaar zijn dan andere operatoren.
 
-Vergelijkingsoperatoren (>, &lt;, =, enzovoort) zijn het goedkoopst, gevolgd door [ZOALS. VERGELIJKBAAR MET POSIX-operatoren](https://www.postgresql.org/docs/9.5/functions-matching.html) die de duurste exploitanten zijn.
+Vergelijkingsoperatoren (>, &lt;, =, enzovoort) zijn het goedkoopst, gevolgd door [ LIKE. VERGELIJKBAAR MET en POSIX exploitanten ](https://www.postgresql.org/docs/9.5/functions-matching.html) die de duurste exploitanten zijn.
 
 ## BESTAANDE versus
 
-Gebruiken `EXISTS` versus `IN` is afhankelijk van het type resultaten dat u wilt retourneren. Als u slechts in één waarde interesseert, gebruik `EXISTS` clausule in plaats van `IN`. `IN` wordt gebruikt met lijsten van komma-gescheiden waarden, die de computerkosten van de vraag verhogen.
+Het gebruik van `EXISTS` versus `IN` is afhankelijk van het type resultaten dat u wilt retourneren. Als u slechts in één waarde geïnteresseerd bent, gebruikt u de component `EXISTS` in plaats van `IN` . `IN` wordt gebruikt met lijsten met door komma&#39;s gescheiden waarden, waardoor de rekenkosten van de query stijgen.
 
-Wanneer `IN` de vragen worden in werking gesteld, moet het systeem subquery eerst verwerken (de `IN` (instructie), dan de volledige query op basis van de relatie die is opgegeven in de `IN` instructie. `EXISTS` is veel efficiënter omdat de vraag niet door veelvoudige tijden moet worden in werking gesteld - een waar/valse waarde is teruggekeerd terwijl het controleren van de verhouding die in de vraag wordt gespecificeerd.
+Wanneer `IN` query&#39;s worden uitgevoerd, moet het systeem eerst de subquery (de `IN` instructie) verwerken en vervolgens de volledige query op basis van de relatie die in de `IN` instructie is opgegeven. `EXISTS` is veel efficiënter omdat de query niet meerdere keren hoeft te worden uitgevoerd - een waarde waar/onwaar wordt geretourneerd tijdens het controleren van de relatie die in de query is opgegeven.
 
-Om het simpel te zeggen: het systeem hoeft niet zo veel te verwerken als bij gebruik `EXISTS`.
+Om het simpelweg te zeggen: het systeem hoeft niet zo veel te verwerken wanneer het gebruiken van `EXISTS`.
 
-| **In plaats van dit...** | **Probeer dit!** |
+| **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
 | ![](../../mbi/assets/Exists_1.png) | ![](../../mbi/assets/Exists_2.png) |
 
@@ -85,15 +85,15 @@ Om het simpel te zeggen: het systeem hoeft niet zo veel te verwerken als bij geb
 
 ## ORDE GEBRUIKEN DOOR
 
-`ORDER BY` is een dure functie in SQL en kan de kosten van een vraag beduidend verhogen. Als u een foutbericht ontvangt waarin wordt aangegeven dat de EXPLAIN-kosten van de query te hoog zijn, probeert u een `ORDER BY`s van uw vraag tenzij vereist.
+`ORDER BY` is een dure functie in SQL en kan de kosten van een vraag beduidend verhogen. Als u een foutenmelding die ontvangt dat de EXPLAIN kosten van uw vraag te hoog is, probeer eliminerend om het even welke `ORDER BY` s van uw vraag tenzij vereist.
 
-Dat wil niet zeggen dat `ORDER BY` niet kan worden gebruikt - alleen dat het alleen moet worden gebruikt wanneer dat nodig is.
+Dit wil niet zeggen dat `ORDER BY` niet kan worden gebruikt, alleen dat het alleen moet worden gebruikt wanneer dat nodig is.
 
 ## GROEP BY en ORDE BY gebruiken
 
-Er kunnen enkele situaties zijn waarin deze aanpak niet strookt met wat u probeert te doen. De algemene regel is dat als u een `GROUP BY` en `ORDER BY`Plaats de kolommen in beide clausules in dezelfde volgorde. Bijvoorbeeld:
+Er kunnen enkele situaties zijn waarin deze aanpak niet strookt met wat u probeert te doen. De algemene regel is dat als u een `GROUP BY` en `ORDER BY` gebruikt, u de kolommen in beide componenten in dezelfde volgorde moet plaatsen. Bijvoorbeeld:
 
-| **In plaats van dit...** | **Probeer dit!** |
+| **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
 | ![](../../mbi/assets/Group_by_2.png) | ![](../../mbi/assets/Group_by_1.png) |
 

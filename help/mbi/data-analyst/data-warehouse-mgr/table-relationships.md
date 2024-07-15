@@ -6,16 +6,16 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
 
 # Tabelrelaties begrijpen en evalueren
 
-Wanneer u de relatie tussen twee gegeven tabellen beoordeelt, moet u begrijpen hoeveel mogelijke voorvallen in een tabel tot een entiteit in een andere tabel kunnen behoren, en omgekeerd. Gebruik bijvoorbeeld een `users` tabel en een `orders` tabel. In dit geval wilt u weten hoeveel **orders** een gegeven **user** heeft geplaatst en hoeveel mogelijk **gebruikers** een **bestellen** kan tot behoren.
+Wanneer u de relatie tussen twee gegeven tabellen beoordeelt, moet u begrijpen hoeveel mogelijke voorvallen in een tabel tot een entiteit in een andere tabel kunnen behoren, en omgekeerd. Gebruik bijvoorbeeld een `users` -tabel en een `orders` -tabel. In dit geval, wilt u weten hoeveel **orden** a bepaalde **gebruiker** heeft geplaatst en hoeveel mogelijke **gebruikers** en **orde** tot kon behoren.
 
-Inzicht in relaties is van essentieel belang voor het behoud van gegevensintegriteit, omdat dit van invloed is op de nauwkeurigheid van uw [berekende kolommen](../data-warehouse-mgr/creating-calculated-columns.md) en [afmetingen](../data-warehouse-mgr/manage-data-dimensions-metrics.md). Zie voor meer informatie [relatietypen](#types) en [hoe te om de lijsten in uw Data Warehouse te evalueren.](#eval)
+Het begrip van verhoudingen is essentieel aan het handhaven van gegevensintegriteit, aangezien het de nauwkeurigheid van uw [ berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) en [ dimensies ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) beïnvloedt. Meer leren, zie [ relatietypen ](#types) en [ hoe te om de lijsten in uw Data Warehouse te evalueren.](#eval)
 
 ## Relatietypen {#types}
 
@@ -27,7 +27,7 @@ Er zijn drie soorten relaties die tussen twee tabellen kunnen bestaan:
 
 ### `One-to-One` {#onetoone}
 
-In een `one-to-one` relatie, een record in tabel `B` behoort tot slechts één record in de tabel `A`. En een record in de tabel `A` behoort tot slechts één record in tabel `B`.
+In een `one-to-one` -relatie behoort een record in de tabel `B` tot slechts één record in de tabel `A` . En een record in Tabel `A` behoort tot slechts één record in Tabel `B` .
 
 In de relatie tussen personen en de rijbewijsnummers kan een persoon bijvoorbeeld slechts één rijbewijsnummer hebben, terwijl het rijbewijsnummer alleen aan de persoon toebehoort.
 
@@ -35,23 +35,23 @@ In de relatie tussen personen en de rijbewijsnummers kan een persoon bijvoorbeel
 
 ### `One-to-Many` {#onetomany}
 
-In een `one-to-many` relatie, een record in tabel `A` kan mogelijk tot meerdere records in de tabel behoren `B`. Denk na over de relatie tussen `orders` en `items` - een bestelling kan veel items bevatten, maar een item behoort tot één bestelling. In dit geval worden de `orders` de ene kant en de andere kant `items` tafel is de vele kant .
+In een `one-to-many` -relatie kan een record in een tabel `A` mogelijk tot meerdere records in de tabel `B` behoren. Denk aan de relatie tussen `orders` en `items` - een orde kan vele punten bevatten, maar een punt behoort tot één enkele orde. In dit geval is de tabel `orders` de ene zijde en de tabel `items` de vele zijden.
 
 ![](../../assets/one-to-many_001.png)
 
 ### `Many-to-Many` {#manytomany}
 
-In een `many-to-many` relatie, een record in tabel `B` kan mogelijk tot meerdere records in de tabel behoren `A`. En vice versa, een verslag in lijst `A` kan mogelijk tot verscheidene verslagen in Lijst behoren `B`.
+In een `many-to-many` -relatie kan een record in een tabel `B` mogelijk tot meerdere records in de tabel `A` behoren. En omgekeerd, kan een verslag in lijst `A` tot verscheidene verslagen in Lijst `B` behoren.
 
-Denk na over de relatie tussen **producten** en **categorieën**: een product kan tot veel categorieën behoren en een categorie kan veel producten bevatten.
+Denk over het verband tussen **producten** en **categorieën**: een product kan tot vele categorieën behoren, en een categorie kan vele producten bevatten.
 
 ![](../../assets/many-to-many.png)
 
 ## Uw tabellen evalueren {#eval}
 
-Gezien de soorten verhoudingen die tussen lijsten bestaan, kunt u leren hoe te om de lijsten in uw Data Warehouse te evalueren. Aangezien deze verhoudingen vormen hoe multi-table berekende kolommen worden bepaald, is het belangrijk dat u begrijpt hoe te om lijstverhoudingen te identificeren en welke kant - `one` of `many` - de tabel behoort tot.
+Gezien de soorten verhoudingen die tussen lijsten bestaan, kunt u leren hoe te om de lijsten in uw Data Warehouse te evalueren. Aangezien deze relaties bepalen hoe berekende kolommen met meerdere tabellen worden gedefinieerd, is het belangrijk dat u begrijpt hoe tabelrelaties worden geïdentificeerd en tot welke zijde - `one` of `many` - de tabel behoort.
 
-Er zijn twee methodes die u kunt gebruiken om het verband van een bepaald paar lijsten binnen uw Data Warehouse te evalueren. De eerste methode gebruikt een [conceptueel kader](#concept) daarbij wordt gekeken hoe de tabelentiteiten met elkaar communiceren . De tweede methode gebruikt de [tabelschema](#schema).
+Er zijn twee methodes die u kunt gebruiken om het verband van een bepaald paar lijsten binnen uw Data Warehouse te evalueren. De eerste methode stelt a [ conceptueel kader ](#concept) in dienst dat overweegt hoe de entiteiten van de lijst met elkaar in wisselwerking staan. De tweede methode gebruikt het [ schema van de lijst ](#schema).
 
 ### Het conceptuele kader gebruiken {#concept}
 
@@ -61,7 +61,7 @@ Wanneer u bijvoorbeeld nadenkt over gebruikers en bestellingen, moet u rekening 
 
 Deze methode gebruiken:
 
-1. Identificeer de entiteit die in elke tabel wordt beschreven. **Tip: het is meestal een zelfstandig naamwoord**. Bijvoorbeeld de `user` en `orders` in tabellen worden gebruikers en bestellingen expliciet beschreven.
+1. Identificeer de entiteit die in elke tabel wordt beschreven. **Hint: het is gewoonlijk een zelfstandig naamwoord**. In de tabellen `user` en `orders` worden bijvoorbeeld expliciet gebruikers en bestellingen beschreven.
 
 1. Identificeer een of meer werkwoorden die beschrijven hoe deze entiteiten op elkaar inwerken. Wanneer gebruikers bijvoorbeeld met bestellingen vergelijken, plaatsen gebruikers bestellingen. In de andere richting zijn de bestellingen &quot;van&quot; gebruikers.
 
@@ -73,7 +73,7 @@ Zodra u de terminologie hebt geïdentificeerd die beschrijft hoe de twee lijsten
 
 Eén persoon kan slechts één rijbewijsnummer hebben. Een bepaald rijbewijsnummer behoort alleen tot de persoon.
 
-Dit is een `one-to-one` relatie waarbij elke tabel één kant heeft.
+Dit is een `one-to-one` -relatie waarbij elke tabel een ene kant heeft.
 
 ![](../../assets/one-to-one3.png)
 
@@ -81,7 +81,7 @@ Dit is een `one-to-one` relatie waarbij elke tabel één kant heeft.
 
 Een bepaalde volgorde kan veel items bevatten. Eén gegeven item behoort tot slechts één bestelling.
 
-Dit is een `one-to-many` relatie waarbij de tabel met orders de ene kant is en de tabel met items de vele kant.
+Dit is een `one-to-many` -relatie waarbij de tabel met bestellingen de ene kant is en de tabel met items de vele kant.
 
 ![](../../assets/one-to-many3.png)
 
@@ -89,21 +89,21 @@ Dit is een `one-to-many` relatie waarbij de tabel met orders de ene kant is en d
 
 Eén bepaald product kan tot veel categorieën behoren. Een bepaalde categorie kan vele producten bevatten.
 
-Dit is een `many-to-many` relatie waarbij elke tabel een vele kant heeft.
+Dit is een `many-to-many` -relatie waarbij elke tabel een vele kanten heeft.
 
 ![](../../assets/many-to-many3.png)
 
 ### Het schema van de tabel gebruiken {#schema}
 
-De tweede methode gebruikt het tabelschema. Het schema bepaalt welke kolommen de kolommen zijn [`Primary`](https://en.wikipedia.org/wiki/Unique_key) en [`Foreign`](https://en.wikipedia.org/wiki/Foreign_key) toetsen. U kunt deze sleutels gebruiken om lijsten samen te verbinden en hulp bepalen relatietypen.
+De tweede methode gebruikt het tabelschema. Het schema bepaalt welke kolommen de [`Primary` ](https://en.wikipedia.org/wiki/Unique_key) en [`Foreign` ](https://en.wikipedia.org/wiki/Foreign_key) sleutels zijn. U kunt deze sleutels gebruiken om lijsten samen te verbinden en hulp bepalen relatietypen.
 
 Zodra u de kolommen identificeert die twee lijsten samen verbinden, gebruik de kolomtypes om de lijstverhouding te evalueren. Hier volgen enkele voorbeelden:
 
 ### `One-to-one`
 
-Als de tabellen zijn gekoppeld met de `primary key` van beide tabellen wordt in elke tabel dezelfde unieke entiteit beschreven en de relatie is `one-to-one`.
+Als de tabellen zijn gekoppeld met behulp van `primary key` van beide tabellen, wordt in elke tabel dezelfde unieke entiteit beschreven en is de relatie `one-to-one` .
 
-Bijvoorbeeld een `users` de tabel kan de meeste gebruikerskenmerken (zoals de naam) vastleggen terwijl een aanvullende tabel `user_source` in de tabel worden bronnen voor gebruikersregistratie vastgelegd. In elke tabel staat een rij voor één gebruiker.
+Een `users` -tabel kan bijvoorbeeld de meeste gebruikerskenmerken (zoals de naam) bevatten, terwijl een aanvullende `user_source` -tabel gebruikersregistratiebronnen vastlegt. In elke tabel staat een rij voor één gebruiker.
 
 ![](../../assets/one-to-one1.png)
 
@@ -111,22 +111,22 @@ Bijvoorbeeld een `users` de tabel kan de meeste gebruikerskenmerken (zoals de na
 
 >[!NOTE]
 >
->Accepteer je gastorders? Zie [Gastbestellingen](../data-warehouse-mgr/guest-orders.md) om te leren hoe de gastorden uw lijstverhoudingen kunnen beïnvloeden.
+>Accepteer je gastorders? Zie [ Gast Orden ](../data-warehouse-mgr/guest-orders.md) om te leren hoe de gastorden uw lijstverhoudingen kunnen beïnvloeden.
 
-Wanneer tabellen worden gekoppeld met een `Foreign key` die verwijzen naar een `primary key`, deze instelling beschrijft een `one-to-many` relatie. De ene kant is de tabel met de `primary key` en de vele kanten zijn de tabel met de `foreign key`.
+Wanneer tabellen worden gekoppeld met een `Foreign key` die verwijst naar een `primary key` , wordt met deze instelling een `one-to-many` -relatie beschreven. De ene kant is de tabel met de `primary key` en de andere kant is de tabel met de `foreign key` .
 
 ![](../../assets/one-to-many1.png)
 
 ### `Many-to-many`
 
-Als één van beiden van het volgende waar is, is de verhouding `many-to-many`:
+Als een van de volgende twee true is, is de relatie `many-to-many` :
 
 * `Non-primary key` kolommen worden gebruikt om twee tabellen te koppelen
   ![](../../assets/many-to-many1.png)
-* Deel van een samenstelling `primary key` wordt gebruikt om twee tabellen te koppelen
+* Een deel van een samenstelling `primary key` wordt gebruikt om twee tabellen te koppelen
 
 ![](../../assets/many-to-mnay2.png)
 
 ## Volgende stappen
 
-Het correct beoordelen van lijstverhoudingen is essentieel om uw gegevens nauwkeurig te modelleren. Nu u begrijpt hoe tabellen aan elkaar zijn gerelateerd, raadpleegt u [wat u met de Manager van de Data Warehouse kunt doen](../data-warehouse-mgr/tour-dwm.md).
+Het correct beoordelen van lijstverhoudingen is essentieel om uw gegevens nauwkeurig te modelleren. Nu u begrijpt hoe de lijsten met elkaar verwant zijn, zie [ wat u met de Manager van de Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) kunt doen.

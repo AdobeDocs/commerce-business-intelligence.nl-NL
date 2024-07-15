@@ -6,14 +6,14 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
 # Gegevensmigratie
 
-Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. De [[!DNL Adobe] Services-team](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt migratiehulp aan.
+Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Het [[!DNL Adobe]  team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt migratiehulp aan.
 
 Om ervoor te zorgen dat de overgang zo soepel mogelijk verloopt, dient u uw migratieverzoek zo gedetailleerd mogelijk in te dienen. Dit onderwerp heeft alles dat u een verzoek moet voorleggen en op de migratie begonnen worden. Als u ons een volledig beeld geeft van uw behoeften, bent u er zeker van dat uw project binnen de juiste reikwijdte valt en dat de schatting correct is.
 
@@ -21,15 +21,15 @@ Om ervoor te zorgen dat de overgang zo soepel mogelijk verloopt, dient u uw migr
 
 Voordat u aan de slag gaat, moet u de antwoorden op de volgende vragen kennen:
 
-* **Is het nieuwe gegevensbestand op een nieuwe server?** Voordat u een aanvraag indient, moet u de instellingen van de gegevensverbinding bijwerken onder **[!UICONTROL Manage Data** > **Connections]**. Als u een verfrisser nodig hebt op hoe te om dit te doen, ga naar [`Integrations`](../integrations/integrations.md) en zoekt u naar de instructies voor het type database dat u gebruikt.
+* **is het nieuwe gegevensbestand op een nieuwe server?** Voordat u een aanvraag indient, moet u de instellingen van de gegevensverbinding bijwerken onder **[!UICONTROL Manage Data** > **Connections]** . Ga naar de sectie [`Integrations`](../integrations/integrations.md) en zoek de instructies voor het type database dat u gebruikt als u dit wilt vernieuwen.
 
-* **Bestaan alle historische gegevens in de nieuwe database of moet deze worden gemigreerd?** U kunt de historische en nieuwe gegevens tijdens het migratieproces consolideren. Zelfs als u geen consolidatie nodig hebt, laat het ons weten in uw verzoek.
+* **bestaat uw alle historische gegevens in het nieuwe gegevensbestand of het moet worden gemigreerd?** U kunt de historische en nieuwe gegevens tijdens het migratieproces consolideren. Zelfs als u geen consolidatie nodig hebt, laat het ons weten in uw verzoek.
 
-Nadat u de antwoorden op het bovenstaande hebt, moet u het type migratie kennen. Zal de nieuwe database de [`same`](#sameschema) schema, of zal het een [`different`](#newschema) schema? In de onderstaande discussies vindt u gedetailleerde instructies voor elk type migratie.
+Nadat u de antwoorden op het bovenstaande hebt, moet u het type migratie kennen. Heeft de nieuwe database het [`same`](#sameschema) -schema of heeft deze een [`different`](#newschema) -schema? In de onderstaande discussies vindt u gedetailleerde instructies voor elk type migratie.
 
 ## Migreren naar een nieuwe database met hetzelfde schema {#sameschema}
 
-Wanneer het voorleggen van het verzoek, laat ons weten dat het gegevensbestandschema niet verandert en dat de verbinding reeds opstelling in [!DNL Adobe Commerce Intelligence].
+Laat ons weten dat het databaseschema niet wordt gewijzigd en dat de verbinding al is ingesteld in [!DNL Adobe Commerce Intelligence] wanneer u de aanvraag indient.
 
 Als de database een nieuwe naam heeft, neemt u deze op in de aanvraag zodat de dashboards correct kunnen worden gemigreerd.
 
@@ -45,17 +45,17 @@ Om dit type migratie te voltooien, moeten bestaande gegevenskolommen worden aang
 
 Als u zich comfortabel voelt het aanpassen zelf, volg deze instructies en maak de voltooide spreadsheet aan uw verzoek vast:
 
-1. Bekijk alle tabellen en kolommen die momenteel met uw Data Warehouse worden gesynchroniseerd (**[!UICONTROL Manage Data** > **Data Warehouse]**).
+1. Herzie alle lijsten en kolommen momenteel synchroniserend aan uw Data Warehouse (**[!UICONTROL Manage Data** > **Data Warehouse]**).
 
 1. Maak in een spreadsheet een tab voor elke tabel die naar de nieuwe database moet worden gemigreerd.
 
-1. Maak op elk tabblad een kolom voor alle bestaande kolommen die moeten worden gemigreerd. Adobe raadt aan het item een soortgelijke naam te geven `Existing column name`.
+1. Maak op elk tabblad een kolom voor alle bestaande kolommen die moeten worden gemigreerd. Adobe raadt u aan de naam van een item als `Existing column name` te wijzigen.
 
-1. U moet ook een andere kolom voor de kolomequivalenten in het nieuwe gegevensbestand in elk lusje van het spreadsheet maken. Adobe raadt aan de kolom een naam te geven, zoals `New column name`.
+1. U moet ook een andere kolom voor de kolomequivalenten in het nieuwe gegevensbestand in elk lusje van het spreadsheet maken. Adobe raadt aan de kolom een naam te geven, zoals `New column name` .
 
-1. Voer de bestaande kolommen en de equivalente kolommen in. Als een bestaande kolom geen nieuw equivalent heeft, voert u `N/A`.
+1. Voer de bestaande kolommen en de equivalente kolommen in. Als een bestaande kolom geen nieuw equivalent heeft, voert u `N/A` in.
 
-   Als er een nieuwe manier is om dezelfde informatie te berekenen in de nieuwe database, voert u deze in het dialoogvenster [`New column name`] kolom.
+   Als er een nieuwe manier is om dezelfde informatie in de nieuwe database te berekenen, voert u deze in de kolom [`New column name`] in.
 
 Hier volgt een voorbeeld:
 
@@ -67,10 +67,10 @@ Hier volgt een voorbeeld:
 
 ## Hoe dien ik een verzoek in? {#submitreq}
 
-Je kunt ons bereiken door [een supportverzoek indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+U kunt uit naar ons bereiken door [ een steunverzoek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor te leggen.
 
 Als u de stappen in de vorige sectie hebt uitgevoerd voor het maken van de overeenkomende kolomspreadsheet, vergeet dan niet deze als bijlage toe te voegen.
 
 ## Wat nu? {#wrapup}
 
-Het bepalen van het werkingsgebied van het project vergt wat samenwerking tussen u en de analist van het team van de Diensten van de Handel dat de migratie uitvoert. De complexiteit van de wijzigingen en de responsiviteit van u en de analist beïnvloeden rechtstreeks de hoeveelheid tijd die de migratie kan kosten. Nadat u de details omlaag hebt gebracht, wordt er een tijdlijn gemaakt die u ontvangt met een overzicht van het werk.
+Voor het bepalen van het bereik van het project is enige samenwerking nodig tussen u en de analist van het Commerce Services-team dat de migratie uitvoert. De complexiteit van de wijzigingen en de responsiviteit van u en de analist beïnvloeden rechtstreeks de hoeveelheid tijd die de migratie kan kosten. Nadat u de details omlaag hebt gebracht, wordt er een tijdlijn gemaakt die u ontvangt met een overzicht van het werk.

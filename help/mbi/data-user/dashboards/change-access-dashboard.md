@@ -13,4 +13,4 @@ ht-degree: 0%
 
 # Toegang tot gedeelde dashboards wijzigen
 
-De toegang tot dashboards kan op elk ogenblik veranderen gebruikend de zelfde stappen aan [delen in eerste instantie het dashboard](../../data-user/dashboards/share-dashboard-with-users.md){: target=&quot;_blank&quot;}. In de lijst met gebruikers die wordt weergegeven in het dialoogvenster `Share Dashboard` -menu, werkt u de machtigingen voor gebruikers/organisaties naar wens bij en klikt u op **[!UICONTROL Save Changes]** om bij te werken.
+De toegang tot dashboards kan om het even welk ogenblik worden veranderd gebruikend de zelfde stappen aan [ ](../../data-user/dashboards/share-dashboard-with-users.md)   delen: target= &quot;_blank&quot;}. Werk in de lijst met gebruikers die wordt weergegeven in het menu `Share Dashboard` de machtigingen voor de gebruiker/organisatie naar wens bij en klik op **[!UICONTROL Save Changes]** om de update uit te voeren.

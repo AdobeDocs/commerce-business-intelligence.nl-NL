@@ -6,38 +6,38 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
 # Audit Zendesk-gegevens
 
-Iets vreemds gevonden in je [[!DNL Zendesk] data](../integrations/exp-zendesk-data.md)? Om de kwestie te identificeren, moet u uw gegevens onderzoeken. Dit kan worden gedaan door uw [!DNL Zendesk] gegevens naar een downloadbaar bestand.
+Vond iets vreemd in uw [[!DNL Zendesk]  gegevens ](../integrations/exp-zendesk-data.md)? Om de kwestie te identificeren, moet u uw gegevens onderzoeken. Dit kan worden gedaan door uw [!DNL Zendesk] gegevens naar een downloadbaar dossier te exporteren.
 
 ## Gegevens exporteren inschakelen
 
-Het exporteren van gegevens is momenteel niet voor alle [!DNL Zendesk] rekeningen. Om deze functie te activeren, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html), met vermelding van uw [!DNL Zendesk] subdomeinnaam.
+Gegevensexport is momenteel niet ingeschakeld voor alle [!DNL Zendesk] -accounts. Om deze eigenschap te activeren, [ voorleggen een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html), die uw [!DNL Zendesk] subdomeinnaam noemen.
 
 >[!NOTE]
 >
->Alleen `Enterprise` en `Plus` plannen hebben momenteel toegang tot deze functie .
+>Alleen `Enterprise` - en `Plus` -plannen hebben momenteel toegang tot deze functie.
 
-Nadat het exporteren van gegevens is ingeschakeld, kunnen alleen beheerders in een specifiek e-maildomein gegevens van uw [!DNL Zendesk] account. Dit e-maildomein is doorgaans hetzelfde e-maildomein als uw [!DNL Zendesk]. Het e-maildomein van de eigenaar van de account wordt als standaard gebruikt, maar u kunt het domein desgewenst wijzigen.
+Nadat het exporteren van gegevens is ingeschakeld, kunnen alleen beheerders in een specifiek e-maildomein gegevens van uw [!DNL Zendesk] -account exporteren. Dit e-maildomein is doorgaans hetzelfde e-maildomein als uw [!DNL Zendesk] . Het e-maildomein van de eigenaar van de account wordt als standaard gebruikt, maar u kunt het domein desgewenst wijzigen.
 
 ## Exporteren naar een downloadbaar bestand
 
-1. Klik op het pictogram Beheerder (tandwiellogo) op de zijbalk en kies **[!UICONTROL Manage** > **Reports]**.
-1. Klik op de knop **[!UICONTROL Export]** tab.
-1. Klikken **[!UICONTROL Request file]** naast Volledige XML exporteren, zoals in de onderstaande afbeelding wordt getoond.
+1. Klik op het pictogram Beheerder (tandwiellogo) op de zijbalk en kies **[!UICONTROL Manage** > **Reports]** .
+1. Klik op de tab **[!UICONTROL Export]** .
+1. Klik op **[!UICONTROL Request file]** naast Volledige XML-export zoals in de onderstaande afbeelding.
 
    Op dit punt, begint een bouwstijl; u wordt meegedeeld via e-mail wanneer het voltooit.
-   ![reports_export_new.png](../../../assets/reports_export_new.png)
+   ![ reports_export_new.png ](../../../assets/reports_export_new.png)
 
 1. Klik op de koppeling in uw e-mailbericht om een ZIP-bestand met het rapport te downloaden.
 
    Deze downloadkoppeling is ten minste drie dagen geldig.
 
-Tijdens dit proces wordt een XML-bestand gemaakt dat alle informatie bevat die in de huidige [!DNL Zendesk] -account, inclusief kaartgegevens (met opmerkingen), gebruikersgegevens en accountgegevens. U kunt nu [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (zorg dat u dit bestand bijvoegt!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het met de [!DNL Commerce Intelligence] team via [!DNL Dropbox] of [!DNL Google Drive].
+Dit proces bouwt een dossier van XML dat alle informatie bevat die in uw huidige [!DNL Zendesk] rekening, met inbegrip van kaartgegevens (met commentaren), gebruikersgegevens, en rekeningsgegevens wordt opgeslagen. Op dit punt, kunt u [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voorleggen (ben zeker om dit dossier vast te maken!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het bestand via [!DNL Dropbox] of [!DNL Google Drive] met het team van [!DNL Commerce Intelligence] .
 
-Voor meer informatie over [!DNL Zendesk] bestand export, raadpleeg de officiële [[!DNL Zendesk] exportdocumentatie](https://support.zendesk.com/hc/en-us/articles/4408886165402-Exporting-data-to-a-JSON-CSV-or-XML-file).
+Voor meer informatie over [!DNL Zendesk] dossieruitvoer, verwijs naar de officiële [[!DNL Zendesk]  uitvoerdocumentatie ](https://support.zendesk.com/hc/en-us/articles/4408886165402-Exporting-data-to-a-JSON-CSV-or-XML-file).

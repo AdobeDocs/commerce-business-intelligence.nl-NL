@@ -6,26 +6,26 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
-# Maken [!DNL Google Analytics] grafieken
+# [!DNL Google Analytics] grafieken maken
 
 (met regex syntaxis help)
 
-Nadat u verbinding hebt gemaakt met uw [[!DNL Google Analytics] account](../../data-analyst/importing-data/integrations/google-analytics.md)kunt u grafieken maken met uw [!DNL Google Analytics] gegevens.
+Nadat u uw [[!DNL Google Analytics]  rekening ](../../data-analyst/importing-data/integrations/google-analytics.md) hebt verbonden, kunt u grafieken met uw [!DNL Google Analytics] gegevens tot stand brengen.
 
-## Maken [!DNL Google Analytics] Grafieken
+## [!DNL Google Analytics] Grafieken maken
 
 1. Klik op **[!UICONTROL Add Chart** > **Create New Chart]**.
 
-1. Wanneer u een metrische waarde selecteert in het dialoogvenster `Chart Builder`, scrol aan de bodem van de lijst om een sectie met inbegrip van uw [!DNL Google Analytics] Profielen. Er wordt een tweede metrische vervolgkeuzelijst weergegeven. Hier kunt u de metrische waarde kiezen die u wilt analyseren.
+1. Wanneer u een metrische waarde selecteert in de `Chart Builder` , bladert u naar de onderkant van de lijst om een sectie te zoeken met uw [!DNL Google Analytics] -profielen. Er wordt een tweede metrische vervolgkeuzelijst weergegeven. Hier kunt u de metrische waarde kiezen die u wilt analyseren.
 
-1. Nadat u metrisch hebt gekozen, kunt u met deze grafiek te werk gaan alsof het om een andere grafiek door te selecteren was `time period`, `interval`en gegevens `perspectives` die u graag wilt zien.
+1. Nadat u metrisch hebt gekozen, kunt u met dit diagram te werk gaan alsof het om een andere grafiek door `time period`, `interval`, en gegevens `perspectives` te selecteren die u zou willen zien.
 
-1. Het enige grote verschil is dat: `√` gebruikt reguliere expressies voor filters. Een reguliere expressie (regex for short) is een speciale tekstreeks die een zoekpatroon beschrijft. Zie voorbeelden van regex syntaxis in [[!DNL Google] handleiding over reguliere analytische expressies](https://support.google.com/analytics/answer/1034324?hl=en).
+1. Het enige grote verschil is dat `√` reguliere expressies voor filters gebruikt. Een reguliere expressie (regex for short) is een speciale tekstreeks die een zoekpatroon beschrijft. Zie voorbeelden van regex syntaxis in de [[!DNL Google]  gids over Regelmatige Uitdrukkingen van Analytics ](https://support.google.com/analytics/answer/1034324?hl=en).
 
 >[!NOTE]
 >

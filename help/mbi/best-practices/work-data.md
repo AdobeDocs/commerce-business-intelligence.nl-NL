@@ -13,6 +13,6 @@ ht-degree: 0%
 
 # Werken met gegevens
 
-[!DNL Adobe Commerce Intelligence] kunt u gegevens uit meerdere bronnen importeren. In deze sectie leert u de beste werkwijzen voor het ordenen en werken met die gegevens.
+Met [!DNL Adobe Commerce Intelligence] kunt u gegevens uit meerdere bronnen importeren. In deze sectie leert u de beste werkwijzen voor het ordenen en werken met die gegevens.
 
 U leert hoe u uw database en SQL-query&#39;s kunt optimaliseren, hoe u de status van de updatecyclus kunt controleren en hoe u de tijd van de updatecyclus kunt verkorten.

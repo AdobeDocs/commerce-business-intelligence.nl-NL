@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Grafieken toevoegen aan dashboards
 
-Bestaande grafieken kunnen aan dashboards worden toegevoegd gebruikend [!UICONTROL Add Report] in de rechterbovenhoek van het scherm. Het zelfde diagram kan aan veelvoudige dashboards worden toegevoegd, betekenend als de grafiek wordt uitgegeven, wijzen alle dashboards met dit diagram op de verandering.
+Bestaande grafieken kunnen aan dashboards worden toegevoegd gebruikend de [!UICONTROL Add Report] functie, die in het hoogste juiste gebied van het scherm wordt gevestigd. Het zelfde diagram kan aan veelvoudige dashboards worden toegevoegd, betekenend als de grafiek wordt uitgegeven, wijzen alle dashboards met dit diagram op de verandering.
 
 >[!NOTE]
 >
->Klikken **[!UICONTROL Add Report]** is niet hetzelfde als klikken **[!UICONTROL Save As]** in de grafiekeditor. `Add Report` voegt alleen het diagram toe aan het dashboard, terwijl `Save As` maakt een versie van een bestaand diagram.
+>Het klikken op **[!UICONTROL Add Report]** is niet hetzelfde als klikken op **[!UICONTROL Save As]** in de grafiekeditor. `Add Report` voegt alleen het diagram toe aan het dashboard, terwijl `Save As` een versie van een bestaand diagram maakt.
 
 ## Een diagram toevoegen
 
@@ -29,4 +29,4 @@ Bestaande grafieken kunnen aan dashboards worden toegevoegd gebruikend [!UICONTR
 
 Voorbeeld:
 
-![diagram toevoegen](../../assets/sql-integration-encrypted-yes.png)
+![ voeg grafiek ](../../assets/sql-integration-encrypted-yes.png) toe

@@ -12,4 +12,4 @@ ht-degree: 25%
 
 # Tutorials
 
-Volg deze zelfstudies om de kracht van [!DNL Adobe Commerce Intelligence].
+Volg deze zelfgeleide zelfstudies om de kracht van [!DNL Adobe Commerce Intelligence] te leren.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Informatie over grafiekgegevens
 
-Neem de keuze - gewoon Engels of de metrische definitie. Gebruikers kunnen notities aanbrengen in grafieken en de metriek en formules in een grafiek weergeven door op de knop _Informatie_ in de rechterbovenhoek van een diagram.
+Neem de keuze - gewoon Engels of de metrische definitie. De gebruikers kunnen grafieken annoteren en de metriek en formules in een grafiek bekijken door het _pictogram van de Informatie_ in de hoogste juiste hoek van om het even welk grafiek te klikken.
 
 ## Verwante:
 

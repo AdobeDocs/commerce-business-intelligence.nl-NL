@@ -16,7 +16,7 @@ ht-degree: 0%
 U bent comfortabel het ontwerpen van vragen en het zijn de go-aan persoon voor gegevensanalyse. U weet hoe u specifieke antwoorden kunt vinden op gegevensvragen en u wilt een zelfbedieningservaring voor uw collega&#39;s vergemakkelijken.
 
 In dit gedeelte wordt getoond hoe u:
-* gegevens verbinden en importeren naar [!DNL Commerce Intelligence]
+* verbinding maken met gegevens en deze importeren [!DNL Commerce Intelligence]
 * bekijken hoe uw gegevens in uw Data Warehouse worden opgeslagen en gestructureerd
 * uw gegevens analyseren
 * gebruiken [!DNL SQL Report Builder]

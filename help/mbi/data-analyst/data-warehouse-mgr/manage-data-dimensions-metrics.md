@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
+>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
 
 Een dimensie is een gebied in de zelfde lijst zoals metrisch die aan filter of segmentgrafieken kan worden gebruikt die op dat metrisch worden gebaseerd. Een maatstaf voor inkomsten kan bijvoorbeeld stad, staat, land, orderstatus, couponcode en andere typen afmetingen bevatten.
 
@@ -23,17 +23,17 @@ Een dimensie is een gebied in de zelfde lijst zoals metrisch die aan filter of s
 
 Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
-1. Ga naar **[!UICONTROL Manage Data > Metrics]**.
+1. Ga naar **[!UICONTROL Manage Data > Metrics]** .
 
 1. Klik op **[!UICONTROL Add Dimensions To Metric(s)]**.
 
 1. Kies de tabel die de afmetingen bevat.
 
-1. In de `Choose Metric(s) to Add Dimensions` selecteert u de metriek waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt `Choose Dimensions to Add` wordt rechts in het scherm weergegeven. Controleer de afmetingen die u aan geselecteerde metrisch wilt toevoegen.
+1. Selecteer in de kolom `Choose Metric(s) to Add Dimensions` de metriek waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt de kolom `Choose Dimensions to Add` aan de rechterkant weergegeven. Controleer de afmetingen die u aan geselecteerde metrisch wilt toevoegen.
 
    ![](../../assets/Add_Dimensions.png)
 
-1. Als u door om het even welke gegevensdimensies op rapporten wilt segmenteren of groeperen, zorg ervoor om erop te wijzen zij zijn _Groeperen_.
+1. Als u door om het even welke gegevensdimensies op rapporten zou willen segmenteren of groeperen, zorg ervoor om erop te wijzen zij _groeperbaar_ zijn.
 
 1. Klik op **[!UICONTROL Add]**.
 
@@ -41,7 +41,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
-1. Ga naar **[!UICONTROL Data > Metrics]**.
+1. Ga naar **[!UICONTROL Data > Metrics]** .
 
 1. Klik op **[!UICONTROL Remove Dimensions From Metric(s)]**.
 
@@ -51,34 +51,34 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 1. Klik op **[!UICONTROL Remove]**.
 
-1. Als de afmetingen in gebruik zijn in rapporten, wordt een waarschuwing weergegeven met de lijst met grafieken die de afmetingen gebruiken. Klikken **[!UICONTROL Delete]** om de gecontroleerde afmetingen en al hun afhankelijke personen, met inbegrip van rapporten te schrappen.
+1. Als de afmetingen in gebruik zijn in rapporten, wordt een waarschuwing weergegeven met de lijst met grafieken die de afmetingen gebruiken. Klik op **[!UICONTROL Delete]** om de geselecteerde afmetingen en alle afhankelijke personen, inclusief rapporten, te verwijderen.
 
 ## Dimensies beheren in metriek
 
-**Dimensies toevoegen in metrische vorm:**
+**om afmeting(en) in metrisch toe te voegen:**
 
-1. Ga naar **[!UICONTROL Data > Metrics]**.
+1. Ga naar **[!UICONTROL Data > Metrics]** .
 
-1. Klikken **[!UICONTROL Edit]** op metrisch wilt u een nieuwe afmeting.
+1. Klik **[!UICONTROL Edit]** op metrisch u een nieuwe afmeting wilt.
 
-1. In de `Dimensions` de sectie gebruiken `Add a dimension` vervolgkeuzelijst om een dimensie te selecteren die u wilt toevoegen.
-
->[!NOTE]
->
->Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden [!DNL Commerce Intelligence]. Als u de gewenste dimensie niet vindt, moet u mogelijk een nieuwe gegevenskolom in uw database volgen via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
-
-
-**Dimensies verwijderen uit metrische gegevens:**
-
-1. Ga naar **[!UICONTROL Manage Data > Metrics]**.
-
-1. Klikken **[!UICONTROL Edit]** op metrisch wilt u een nieuwe afmeting.
-
-1. Onder de `Dimensions` selecteert u het selectievakje in de kolom Verwijderen naast de dimensie(en) die u wilt verwijderen.
+1. Gebruik in de sectie `Dimensions` het vervolgkeuzemenu `Add a dimension` om een dimensie te selecteren die u wilt toevoegen.
 
 >[!NOTE]
 >
->Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in uw Data Warehouse. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze dimensies. Om de gegevenskolom te verwijderen waarvan een afmeting beantwoordt aan [!DNL Commerce Intelligence], maakt u de gegevenskolom eenvoudig ongedaan via de [Data Warehouse](../data-warehouse-mgr/tour-dwm.md) pagina.
+>Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden in [!DNL Commerce Intelligence] . Als u niet de gewenste afmeting vindt, kunt u een nieuwe gegevenskolom in uw gegevensbestand via de [ Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) pagina moeten beginnen te volgen.
+
+
+**om afmeting(en) van metrisch te schrappen:**
+
+1. Ga naar **[!UICONTROL Manage Data > Metrics]** .
+
+1. Klik **[!UICONTROL Edit]** op metrisch u een nieuwe afmeting wilt.
+
+1. Schakel onder de sectie `Dimensions` het selectievakje in de kolom Verwijderen in naast de dimensie(s) die u wilt verwijderen.
+
+>[!NOTE]
+>
+>Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in uw Data Warehouse. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze dimensies. Om de gegevenskolom te verwijderen die een afmeting aan van [!DNL Commerce Intelligence] beantwoordt, untrack eenvoudig de gegevenskolom via de [ Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) pagina.
 
 ## Gerelateerde documentatie
 

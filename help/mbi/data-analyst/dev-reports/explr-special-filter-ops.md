@@ -13,18 +13,18 @@ ht-degree: 0%
 
 # Filteropties
 
-In dit onderwerp worden enkele speciale onderwerpen besproken `operators` gebruikt in `filters` wanneer [opstellen van een rapport](../../tutorials/using-visual-report-builder.md){: target=&quot;_blank&quot;} of [metrisch maken](../../data-user/reports/ess-manage-data-metrics.md){: target=&quot;_blank&quot;}.
+Dit onderwerp verkent een paar speciale `operators` die in `filters` worden gebruikt wanneer [ creërend een rapport ](../../tutorials/using-visual-report-builder.md) {: target= &quot;_blank&quot;} of [ creërend metrisch ](../../data-user/reports/ess-manage-data-metrics.md) {: target= &quot;_blank&quot;}.
 
 ## `Filter Operators`
 
-* `LIKE` voor patroonovereenkomst. Dit moet worden gebruikt met de jokertekens % (voor een jokerteken met een variabel aantal letters) of _ (voor een jokerteken met één letter).  De beperking `LIKE \_ake%` retourneert true voor `Jake Stein`, `Jake Smith`, of `Fake Smith`.  Het zou vals voor terugkeren `Drake Smith`.
+* `LIKE` voor overeenkomende patronen. Dit moet worden gebruikt met de jokertekens % (voor een jokerteken met een variabel aantal letters) of _ (voor een jokerteken met één letter).  De beperking `LIKE \_ake%` retourneert bijvoorbeeld true voor `Jake Stein` , `Jake Smith` of `Fake Smith` .  Deze geeft false voor `Drake Smith` .
 
-* `NOT LIKE` is vergelijkbaar met bovenstaande patroonovereenkomst, maar controleert op welke patronen geen overeenkomende patronen voorkomen.
+* `NOT LIKE` is vergelijkbaar met bovenstaande patroonovereenkomst, maar controleert op welke patronen niet overeenkomen.
 
-* `IS` controleert of de kolom is `NULL`, of leeg.
+* `IS` controleert of de kolom `NULL` of leeg is.
 
-* `IS NOT` is vergelijkbaar met de `IS` hierboven, maar controleert op kolommen die niet NULL zijn.
+* `IS NOT` lijkt op de bovenstaande operator `IS` , maar controleert op kolommen die niet gelijk zijn aan NULL.
 
-* `IN` controleert of een waarde voorkomt in een lijst met komma&#39;s als scheidingsteken. (bijvoorbeeld &quot;Kleur `IN` rood,oranje&quot; is het equivalent van kleur `equal to` rood OF kleur `equal to` oranje).
+* `IN` controleert of een waarde voorkomt in een lijst met komma&#39;s als scheidingsteken. (Kleur `IN` rood,oranje is bijvoorbeeld het equivalent van kleur `equal to` rood OF kleur `equal to` oranje).
 
-* `NOT IN` is vergelijkbaar met `IN` hierboven, maar controleert of er geen waarde is.
+* `NOT IN` lijkt op `IN` hierboven, maar controleert of er geen waarde is.

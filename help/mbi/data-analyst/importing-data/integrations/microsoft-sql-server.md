@@ -1,50 +1,50 @@
 ---
 title: Connect Microsoft SQL Server
-description: Leer hoe u uw Microsoft SQL-database kunt verbinden met [!DNL Commerce Intelligence] in vier stappen.
+description: Leer hoe te om uw SQL van Microsoft gegevensbestand met  [!DNL Commerce Intelligence]  in een proces in vier stappen te verbinden.
 exl-id: 7f49d1dc-8fbb-4a8c-9d07-9a8195c266f5
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
-# Verbinden [!DNL Microsoft SQL] Server
+# Connect [!DNL Microsoft SQL] Server
 
 >[!NOTE]
 >
->Vereisten [Beheerdersmachtigingen](../../../administrator/user-management/user-management.md).
+>Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
 ![](../../../assets/MicrosoftSQLServer-logo.png)
 
-Dit onderwerp verklaart hoe te om uw aan te sluiten [!DNL Microsoft SQL] database naar [!DNL Commerce Intelligence] in vier stappen. Dit proces vereist enige technische expertise met betrekking tot serververbindingen en SQL, en kan steun van ontwikkelaars op uw team vereisen.
+In dit onderwerp wordt uitgelegd hoe u de [!DNL Microsoft SQL] -database in vier stappen met [!DNL Commerce Intelligence] kunt verbinden. Dit proces vereist enige technische expertise met betrekking tot serververbindingen en SQL, en kan steun van ontwikkelaars op uw team vereisen.
 
-[!DNL Commerce Intelligence] supports [!DNL Amazon RDS], [!DNL EC2], [!DNL Microsoft SQL Azure]en de meeste andere cloudserverproviders. Als u een vraag hebt op uw bepaalde gastheer, [een ondersteuningsticket indienen](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) ons te vragen deze informatie te verstrekken.
+[!DNL Commerce Intelligence] ondersteunt [!DNL Amazon RDS] , [!DNL EC2] , [!DNL Microsoft SQL Azure] en de meeste andere cloudserverproviders. Als u een vraag op uw bijzondere gastheer hebt, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) vragend ons om deze informatie te verstrekken.
 
 Uw systeem moet SELECT-query&#39;s uitvoeren op uw database. Dit wordt eerst gedaan om een momentopname van uw gegevensbestandstructuur en dan regelmatig overwerk te krijgen om uw gegevens bijgewerkt te houden. Uw updates zijn incrementeel en de Adobe beperkt de updatefrequentie en -tijd om ongewenste laadtijden op uw server te voorkomen.
 
-De beste manier om dit te doen is voor ons om met uw gegevensbestandserver over TCP/IP te verbinden. Maak een gebruiker voor gebruik die alleen SELECT-query&#39;s kan uitvoeren (en eventueel alleen gegevens kan selecteren uit de tabellen die u opgeeft). Dit moet worden gedaan voor elk van uw servers waarmee u verbindt [!DNL Commerce Intelligence].
+De beste manier om dit te doen is voor ons om met uw gegevensbestandserver over TCP/IP te verbinden. Maak een gebruiker voor gebruik die alleen SELECT-query&#39;s kan uitvoeren (en eventueel alleen gegevens kan selecteren uit de tabellen die u opgeeft). Dit moet worden gedaan voor elk van uw servers waarmee u verbinding maakt [!DNL Commerce Intelligence].
 
-## Verbinding maken `Microsoft SQL` tot [!DNL Commerce Intelligence]:
+## `Microsoft SQL` verbinden met [!DNL Commerce Intelligence] :
 
 1. Controleer of uw server verbindingen via TCP/IP en verificatie met gemengde modus toestaat.
 
 1. Zorg ervoor dat uw firewall de specifieke IP van uw server toestaat om te verbinden.
 
-   U kunt het IP-adres dat wordt gebruikt om verbinding te maken met uw server vinden in de sectie Verbindingen van uw `Settings` pagina.
+   U kunt het IP-adres dat wordt gebruikt om verbinding te maken met uw server vinden in de sectie Verbindingen op uw `Settings` -pagina.
 
-1. Maak een gebruiker die u wilt gebruiken om u aan te melden bij uw databaseserver. U hebt twee opties: via `UI` of via een `query`:
+1. Maak een gebruiker die u wilt gebruiken om u aan te melden bij uw databaseserver. U hebt twee opties: via `UI` of via een `query` :
    * `UI`
-   * [`Query`](http://sqlserverplanet.com/security/add-user) (tweede voorbeeld)
+   * [`Query` ](http://sqlserverplanet.com/security/add-user) (tweede voorbeeld)
 
-1. Voer het IP-adres, de gebruikersnaam en het wachtwoord van de server in [!DNL Commerce Intelligence] krachtens **[!UICONTROL Manage Data** > **Connections]**.
+1. Voer het IP-adres, de gebruikersnaam en het wachtwoord van de server in [!DNL Commerce Intelligence] onder **[!UICONTROL Manage Data** > **Connections]** .
 
    ![](../../../assets/manage-data-connections.png)
 
 1. Klik op **[!UICONTROL Add a Data Source]**.
 
-1. Selecteer deze optie om een verbinding te maken met een `Microsoft SQL` en voer uw gegevens in in de velden op het nieuwe `Connections` pagina.
+1. Selecteer deze optie om een `Microsoft SQL` -database te verbinden en voer uw referenties in de velden op de nieuwe `Connections` -pagina in.
 
-   Als u `Windows Azure`, moet u ook een databasenaam opgeven.
+   Als u `Windows Azure` gebruikt, moet u ook een databasenaam opgeven.

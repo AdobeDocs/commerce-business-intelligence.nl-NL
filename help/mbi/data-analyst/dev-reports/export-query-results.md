@@ -13,4 +13,4 @@ ht-degree: 0%
 
 # Mijn zoekresultaten exporteren
 
-Klikken **[!UICONTROL Export Data]** in de `Results` paneel om uw resultaten naar een `.csv` bestand.
+Klik op **[!UICONTROL Export Data]** in het deelvenster `Results` om de resultaten te exporteren naar een `.csv` -bestand.

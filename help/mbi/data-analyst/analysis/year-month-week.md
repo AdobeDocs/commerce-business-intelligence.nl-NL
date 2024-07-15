@@ -15,20 +15,20 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [nieuwe architectuur](../../administrator/account-management/new-architecture.md) als u de [!DNL _Weergaven Data Warehouse_] sectie beschikbaar na het selecteren [!DNL Manage Data] van de hoofdwerkbalk.
+>Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [ nieuwe architectuur ](../../administrator/account-management/new-architecture.md) als u de [!DNL _beschikbare sectie van de Kijken van de Data Warehouse_] na het selecteren [!DNL Manage Data] van de belangrijkste toolbar hebt.
 
 De rapportbouwer staat u toe om tendensen in tijd gemakkelijk te zien en perspectief voor tijdsperioden te veranderen u kunt willen vergelijken. Dit onderwerp toont hoe te opstelling een dashboard om een niveau dieper te gaan om u toe te staan om rapporten voor week over week, maand over maand en jaar over jaaranalyse te creëren.
 
 ![](../../assets/Wow__mom__yoy.png)
 
-Voordat u aan de slag gaat, moet u de perspectieven nader onderzoeken [hier](../../tutorials/using-visual-report-builder.md) en onafhankelijke tijdopties [hier](../../tutorials/time-options-visual-rpt-bldr.md).
+Alvorens begonnen te worden, zou u perspectieven in meer detail [ moeten herzien hier ](../../tutorials/using-visual-report-builder.md) en onafhankelijke tijdopties [ hier ](../../tutorials/time-options-visual-rpt-bldr.md).
 
-Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Berekende kolommen
 
 * **`Sales_flat_order`** table
-* **Oorspronkelijke architectuur:** de onderstaande kolommen worden gemaakt door een analist als onderdeel van uw `[YoY WoW MoM ANALYSIS]` kaartje
+* **Oorspronkelijke architectuur:** de hieronder kolommen worden gecreeerd door een analist als deel van uw `[YoY WoW MoM ANALYSIS]` kaartje
 * `created_at (month-day)`
 * `created_at (month)`
 * `created_at (day of the month)`
@@ -36,11 +36,11 @@ Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-ca
 * `created_at (hour of the day)`
 
 * **Nieuwe architectuur:** SQL hieronder met een foto van een voorbeeld voor hoe te om deze berekening tot stand te brengen
-   * `created_at (month-day)` [!UICONTROL Calculation]: **to_char(A, &#39;mm-dd&#39;)**
-   * `created_at (month)` [!UICONTROL Calculation]: **to_char(A, &#39;mm-month&#39;)**
-   * `created_at (day of the month)`&lt; [!UICONTROL Calculation]: **to_char(A, &#39;dd&#39;)**
-   * `created_at (day of the week)` [!UICONTROL Calculation]: **to_char(A, &#39;d-dag&#39;)**
-   * **`created_at (hour of the day)` [!UICONTROL Calculation]: **to_char(A, &#39;h24&#39;)**
+   * `created_at (month-day)` [!UICONTROL Calculation]: **to_char(A, &quot;mm-dd&quot;)**
+   * `created_at (month)` [!UICONTROL Calculation]: **to_char(A, &quot;mm-month&quot;)**
+   * `created_at (day of the month)`&lt; [!UICONTROL Calculation]: **to_char(A, &quot;dd&quot;)**
+   * `created_at (day of the week)` [!UICONTROL Calculation]: **to_char(A, &quot;d-Day&quot;)**
+   * ** `created_at (hour of the day)` [!UICONTROL Calculation]: **to_char (A, &quot;hh24&quot;)**
      ![](../../assets/new-arch-create-calc.png)
 
 ## Metrisch
@@ -49,11 +49,11 @@ Geen.
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
-* **YoY-grafiek**
+* **YoY grafiek**
    * [!UICONTROL Metric]: `Number of orders`
 
    * [!UICONTROL Metric]: `Number of orders`
@@ -70,7 +70,7 @@ Geen.
 * 
   [!UICONTROL Chart Type]: `Line`
 
-* **MoM-grafiek**
+* **MoM grafiek**
    * [!UICONTROL Metric]: `Number of orders`
 
    * [!UICONTROL Metric]: `Number of orders`
@@ -78,7 +78,7 @@ Geen.
 
    * Boven/onder tonen: Boven 100% gesorteerd op **`created_at (day of month)`***
 
-* Metrisch `A`: Deze maand*
+* Metrisch `A`: deze maand*
 * Metrisch `B`: Vorige maand*
 * [!UICONTROL Time period]: een maand geleden tot 0 maanden geleden
 * 
@@ -87,7 +87,7 @@ Geen.
 * 
   [!UICONTROL Chart Type]: Line
 
-* **W-diagram**
+* **WoW grafiek**
    * [!UICONTROL Metric]: `Number of orders`
 
    * [!UICONTROL Metric]: `Number of orders`
@@ -104,7 +104,7 @@ Geen.
 * 
   [!UICONTROL Chart Type]: `Line`
 
-* **DoD-diagram**
+* **grafiek DoD**
    * [!UICONTROL Metric]: `Number of orders`
 
    * [!UICONTROL Metric]: `Number of orders`

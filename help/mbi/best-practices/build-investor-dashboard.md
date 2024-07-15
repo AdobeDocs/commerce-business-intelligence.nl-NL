@@ -6,7 +6,7 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Dashboards, Data Integration
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Hier volgt wat u rapporten voor het dashboard van uw investeerder moet maken:
       * A/B
 * **[!UICONTROL All-time revenue by source]**
    * Metrisch - inkomsten
-   * Groeperen per klant `utm_source`
+   * Groeperen op klantenbestand `utm_source`
 * **[!UICONTROL Revenue from top 10 products]**
    * Metrisch - Productinkomsten
       * Het diagram verbergen
@@ -59,20 +59,20 @@ Hier volgt wat u rapporten voor het dashboard van uw investeerder moet maken:
 * **[!UICONTROL Site visits - New vs. repeat by month]**
 * Sessies
 
-Met een [!DNL Google Analytics] integratie, kunt u rapporten omvatten over:
+Met een [!DNL Google Analytics] -integratie kunt u rapporten opnemen over:
 
 * Bezoeken ter plaatse
 * Omrekeningskoers
 
-Met de [Verrijkingsdiensten handelsgegevens](https://business.adobe.com/products/magento/magento-commerce.html)kunt u rapporten opnemen over:
+Met de [ diensten van de Verrijking van Gegevens van Commerce ](https://business.adobe.com/products/magento/magento-commerce.html), kunt u rapporten over omvatten:
 
 * Unieke klanten naar land/regio, leeftijd, geslacht.
 
 ## Overige tips
 
-* Duidelijk en beknopt gebruiken [naamgevingsconventie](../best-practices/naming-elements.md)
+* Gebruik duidelijk en beknopt [ noemend overeenkomst ](../best-practices/naming-elements.md)
 * Het dashboard delen met beleggers
-* Of verzend het via **[!UICONTROL Automated email summary]**../data-user/export-data/email-summaries.md)
+* Of verzend het via **[!UICONTROL Automated email summary]** (../data-user/export-data/email-summaries.md)
 * Maak slechts één dashboard. Dit maakt de inhoud gemakkelijker te onderhouden en u weet precies wat uw investeerders bekijken.
 
 Bewust uw rapporten en let op details. Na voltooiing ziet het dashboard er ongeveer als volgt uit:

@@ -6,14 +6,14 @@ role: Admin, User
 feature: Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Google Analytics] Tekstspatiëring
 
-Met [!UICONTROL Google Analytics] u kunt [bron-informatie opslaan](../analysis/google-track-user-acq.md) om te begrijpen waar uw meest waardevolle gebruikers vandaan komen. Dit onderwerp bespreekt het platform (bijvoorbeeld, apparaat of browser) uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
+Met [!UICONTROL Google Analytics] kunt u [ verwijzingsbroninformatie ](../analysis/google-track-user-acq.md) bewaren om te begrijpen waar uw waardevolste gebruikers uit komen. Dit onderwerp bespreekt het platform (bijvoorbeeld, apparaat of browser) uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
 
 ## Gebruikersapparaat en browsergegevens opslaan
 
@@ -27,27 +27,27 @@ Telkens wanneer een verzoek aan uw website wordt gedaan, verzendt browser van de
 
 Als u goed kijkt, ziet u dat de tekenreeks informatie bevat over het besturingssysteem, de browser en de naam van het apparaat dat de gebruiker gebruikt (als deze een naam heeft). Hoewel de gebruiker-agent koorden ver over platforms en zelfs versies van het zelfde platform variëren, is het over het algemeen waar dat de platformnaam ergens binnen zal bestaan. #1 hierboven is bijvoorbeeld een Mac met de Chrome-browser, #2 hierboven is een Windows-computer met de Firefox-browser, #3 is een iPhone, #4 is een iPad en #5 is een Android-apparaat.
 
-Deze gegevens zijn voor elke server toegankelijk wanneer een aanvraag wordt ingediend. In PHP wordt de user-Agent string opgeslagen in `$_SERVER['HTTP_USER_AGENT']`. In Ruby op Rails wordt het opgeslagen in `request.env['HTTP_USER_AGENT']`. Andere talen en omgevingen bieden u op vergelijkbare wijze toegang tot deze taal.
+Deze gegevens zijn voor elke server toegankelijk wanneer een aanvraag wordt ingediend. In PHP wordt de user-Agent string opgeslagen in `$_SERVER['HTTP_USER_AGENT']` . In Ruby op Rails wordt het opgeslagen in `request.env['HTTP_USER_AGENT']`. Andere talen en omgevingen bieden u op vergelijkbare wijze toegang tot deze taal.
 
 ### Wanneer moet u deze gegevens vastleggen?
 
-[!DNL Adobe] raadt u aan een nieuw veld met de naam `Platform` of `User-Agent` aan uw `Customers` en `Orders` databasetabellen waarin deze gegevens worden opgeslagen wanneer een gebruiker wordt gemaakt of een bestelling wordt geplaatst. Als u een SQL-database gebruikt, moet dit veld een `VARCHAR(255)`. 
+[!DNL Adobe] raadt u aan een nieuw veld met de naam `Platform` of `User-Agent` toe te voegen aan uw databasetabellen `Customers` en `Orders` om deze gegevens op te slaan wanneer een gebruiker wordt gemaakt of een order wordt geplaatst. Als u een SQL-database gebruikt, moet dit veld een `VARCHAR(255)` zijn. 
 
 >[!NOTE]
 >
->De `User-Agent` tekenreeks mag veel langer zijn dan dit , maar in de praktijk overschrijdt het zelden deze lengte .
+>De tekenreeks `User-Agent` mag veel langer zijn dan deze, maar in de praktijk overschrijdt deze lengte zelden.
 
 ### Hoe parseer ik de nuttige segmenten?
 
-Er zijn een aantal bibliotheken om u te helpen parseren `User-Agent` in componenten zoals besturingssysteem, apparaat, enzovoort. Zie de [ua-parser-project](https://github.com/tobie/ua-parser) voor meer informatie.
+Er zijn een aantal bibliotheken beschikbaar waarmee u de tekenreeks `User-Agent` kunt parseren in componenten zoals het besturingssysteem, het apparaat enzovoort. Verwijs naar het [ ua-parser project ](https://github.com/tobie/ua-parser) om meer te leren.
 
 Met deze nieuwe informatie kunt u beter begrijpen hoe gebruikers toegang krijgen tot uw site. Vervolgens kunt u hun ervaring op maat maken of marketingcampagnes voor bepaalde groepen maken.
 
 ## Verwante
 
-* [Referentiebron voor bestelling volgen via [!DNL Google Anaytics] Elektronische handel](../importing-data/integrations/google-ecommerce.md)
+* [De verwijzingsbron van de orde van het spoor via  [!DNL Google Anaytics]  E-Commerce](../importing-data/integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../analysis/google-track-user-acq.md)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../analysis/most-value-source-channel.md)
-* [Verbind uw [!DNL Google Adwords] account](../importing-data/integrations/google-adwords.md)
+* [Verbind uw  [!DNL Google Adwords]  rekening](../importing-data/integrations/google-adwords.md)
 * [ROI verhogen in uw reclamecampagnes](../analysis/roi-ad-camp.md)
-* [Hoe werkt [!DNL Google Analytics] UTM-toewijzingswerk?](../analysis/utm-attributes.md)
+* [Hoe werkt  [!DNL Google Analytics]  UTM attributie?](../analysis/utm-attributes.md)

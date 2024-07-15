@@ -6,95 +6,95 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
 
 # Opgenomen dashboards
 
-[!DNL Adobe] aanbiedingen `eCommerce` en `SaaS` Startpakketten. Deze pakketten, die door analisten van de Adobe worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
+[!DNL Adobe] biedt `eCommerce` en `SaaS` Starter Packages aan. Deze pakketten, die door analisten van de Adobe worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
 
 >[!NOTE]
 >
 >De beschikbaarheid van sommige dashboards hangt van uw dataset af.
 
-Als u vragen hebt of als u een pakket aan uw account wilt toevoegen, dient u een [ondersteuningsticket](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
+Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp voor.
 
 ## Uitvoerend overzicht
 
-De `executive overview` het dashboard wordt gebouwd van grafieken die op andere dashboards bestaan. Dit dashboard is een overzicht op hoog niveau van uw gegevens en bevat grafieken die dagelijks worden gecontroleerd, terwijl andere dashboards meer gedetailleerde informatie bevatten. In eerste instantie wordt deze ingesteld als het standaarddashboard in elke account.
+Het dashboard van `executive overview` wordt gebouwd van grafieken die op andere dashboards bestaan. Dit dashboard is een overzicht op hoog niveau van uw gegevens en bevat grafieken die dagelijks worden gecontroleerd, terwijl andere dashboards meer gedetailleerde informatie bevatten. In eerste instantie wordt deze ingesteld als het standaarddashboard in elke account.
 
 Er is een algemene set grafieken voor u opgenomen. Adobe raadt u aan dit dashboard aan uw wensen aan te passen door andere grafieken toe te voegen die u het vaakst gebruikt.
 
 ## Cohortanalyse
 
-De `cohort analysis` het dashboard omvat een reeks grafieken die de gemiddelde de inkomstengroei van de gebruikersleven en de stijgende opbrengstgroei tonen gegroepeerd door registratiecolades. Dit onthult of de waarde van het klantenleven (LTV), de waarde van een klant aan een zaken, stijgt in tijd, en ook tendensen rond de groei van LTV identificeert. Standaard, *alle geregistreerde gebruikers (kopers en niet-kopers) worden verantwoord* in de gemiddelde LTV-berekening - zie de [onderwerp cohortanalyse](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+Het dashboard van `cohort analysis` omvat een reeks grafieken die de gemiddelde de inkomstengroei van de gebruikersleven en de stijgende opbrengstgroei tonen gegroepeerd door registratiecolades. Dit onthult of de waarde van het klantenleven (LTV), de waarde van een klant aan een zaken, stijgt in tijd, en ook tendensen rond de groei van LTV identificeert. Door gebrek, *worden alle geregistreerde gebruikers (kopers en niet-kopers) rekenschap gegeven* in de gemiddelde berekening LTV - zie het [ onderwerp van de cohortanalyse ](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
 
 Dit dashboard kan ook cohortgrafieken bevatten die de levensinkomsten van gebruikers van een specifieke aanschafbron, kanaal of demografisch (bijvoorbeeld New York of Californië) analyseren. Dit moet aantonen hoe u LTV voor specifieke segmenten van uw gebruikersbasis kunt analyseren en zien of één groep of een andere hogere LTV in tijd opbrengt.
 
-Zie voor meer informatie over cohorts [Cohortanalyse uitvoeren](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+Voor meer informatie over cohorts, zie [ Uitvoerend de Analyse van de Cohort ](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
 
-Als u momenteel de bron van de gebruikersverwerving niet bijhoudt, zie [Overzicht van gegevens van de aanschafbron van gebruikers bijhouden](../../data-analyst/analysis/google-track-user-acq.md).
+Als u momenteel geen bron van de gebruikersverwerving volgt, zie het [ Overzicht van de Gegevens van de Acquisitie Source van het Spoor ](../../data-analyst/analysis/google-track-user-acq.md).
 
 ## Overzicht van e-mail
 
-De `Email Summary` dashboard bevat een voorbeeldset grafieken die kunnen worden gebruikt in een geautomatiseerde dagelijkse e-mailsamenvatting. Zie [maken, geautomatiseerde e-mailoverzichten](../../data-user/export-data/email-summaries.md) voor meer informatie over het configureren van e-mailoverzichten.  
+Het dashboard van `Email Summary` bevat een voorbeeldset met grafieken die kunnen worden gebruikt in een geautomatiseerde dagelijkse e-mailsamenvatting. Verwijs naar [ het creëren van geautomatiseerde e-mailoverzichten ](../../data-user/export-data/email-summaries.md) voor meer informatie bij het vormen van e-mailoverzichten.  
 
 ## Retentie gezondheid
 
-De `Retention health` dashboard onthult het herhaalde aankoopgedrag van uw gebruikersbasis.
+Het dashboard van `Retention health` onthult het herhaalde aankoopgedrag van uw gebruikersbasis.
 
-De `Time between orders` De grafiek toont de gemiddelde en/of mediaan verstreken tijd tussen de eerste en tweede orde van een gebruiker, tweede en derde orde, etc. U kunt [denk na gebruikend deze gegevens om uw e-mailmarketing campagnes te vormen](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/).
+In het `Time between orders` -diagram wordt de gemiddelde en/of gemiddelde verstreken tijd weergegeven tussen de eerste en tweede volgorde van een gebruiker, de tweede en de derde volgorde, enzovoort. U kunt [ overwegen gebruikend deze gegevens om uw e-mail marketing campagnes ](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/) te vormen.
 
-De `Users by lifetime number of orders` In de grafiek wordt het totale aantal gebruikers voor elk levenslange aantal bestellingen weergegeven om een algemeen overzicht te geven van herhaald aankoopgedrag.  
+In de grafiek `Users by lifetime number of orders` wordt het totale aantal gebruikers voor elk levenslange aantal bestellingen weergegeven om een algemeen overzicht te geven van herhaald aankoopgedrag.  
 
-De `Repeat order probability` De grafiek toont de waarschijnlijkheid dat een gebruiker met een bepaald orderaantal een herhaalde aankoop maakt. De waarschijnlijkheid van klanten die `x` bestellingen `(x+1)` bestellingen, verdeel eenvoudig het aantal mensen dat ten minste `(x+1)` aankopen door het aantal personen dat ten minste `x` aankopen.
+In het `Repeat order probability` -diagram ziet u hoe waarschijnlijk het is dat een gebruiker met een bepaald ordernummer een herhaalde aankoop uitvoert. Als u wilt zien hoe groot de kans is dat klanten die `x` -orders hebben geplaatst, `(x+1)` -bestellingen kunnen uitvoeren, deelt u gewoon het aantal personen dat ten minste `(x+1)` -aankopen heeft gedaan door het aantal personen dat ten minste `x` -aankopen heeft gedaan.
 
 ### Voorbeeld
 
-Aantal klanten dat één aankoop heeft gedaan tijdens hun levensduur: `90`
+Aantal klanten dat een aankoop heeft gedaan tijdens hun levensduur: `90`
 
 Aantal klanten dat twee aankopen heeft gedaan tijdens hun levensduur: `30`
 
-Aantal klanten dat tijdens hun levensduur drie aankopen heeft gedaan: `10`
+Aantal klanten dat drie aankopen heeft gedaan tijdens hun levensduur: `10`
 
-In dit voorbeeld is de kans dat klanten die tijdens hun levensduur één aankoop hebben gedaan, de volgende bestelling uitvoeren om een tweede aankoop te doen: `(30 + 10) / (30+10+90) = 30.77%`.
+In dit voorbeeld is de waarschijnlijkheid dat klanten die in hun leven één aankoop hebben gedaan een tweede aankoop kunnen doen, als volgt: `(30 + 10) / (30+10+90) = 30.77%` .
 
 ## LTV-groei van klanten
 
-De `Customer LTV growth` dashboard bevat een aantal grafieken waarmee de gemiddelde omzet per gebruiker wordt gevonden. De grafieken worden gesegmenteerd op basis van de gemiddelde opbrengst die binnen of de eerste 30, 60, 90, of 365 dagen na registratie wordt geproduceerd.  
+Het dashboard van `Customer LTV growth` bevat een reeks grafieken die de gemiddelde opbrengst per gebruiker vindt. De grafieken worden gesegmenteerd op basis van de gemiddelde opbrengst die binnen of de eerste 30, 60, 90, of 365 dagen na registratie wordt geproduceerd.  
 
 Uit de onderste rij grafieken blijkt dat deze gemiddelden zijn gesegmenteerd naar aankoopbronnen of demografie om aan te geven welke groepen gebruikers in de loop der tijd de meeste inkomsten genereren.
 
 ## Productprestaties
 
-De `Product Performance` het dashboard bevat grafieken die de algemene productprestaties weergeven door het aantal verkochte artikelen en de inkomsten per item weer te geven en de best presterende producten te identificeren.
+Het dashboard van `Product Performance` bevat grafieken die de algemene productprestaties weergeven door het aantal verkochte items en de omzet per item weer te geven en de producten die het meest presteren te identificeren.
 
 ## Recente activiteit
 
-De `Recent Activity` op het dashboard worden de prestatiegegevens van de afgelopen 30 dagen weergegeven .
+Op het dashboard van `Recent Activity` worden de prestatiegegevens van de afgelopen 30 dagen weergegeven.
 
 ## Transactionele gezondheid
 
-De `Transaction Health` het dashboard bevat overzichtsgrafieken van inkomsten , bestellingen en de gemiddelde waarde van bestellingen . Deze grafieken kunnen worden gesegmenteerd door marketingkanalen, demografie of door speciale couponcodes.
+Het dashboard van `Transaction Health` bevat overzichtsgrafieken van opbrengsten, bestellingen en gemiddelde orderwaarde. Deze grafieken kunnen worden gesegmenteerd door marketingkanalen, demografie of door speciale couponcodes.
 
 ## Te gebruiken gebruikers
 
-De `Users to target` Het dashboard bevat tabelachtige diagrammen waarin gebruikers met specifieke gemeenschappelijke aankoopgedragingen worden vermeld. Enkele voorbeelden:
+Het dashboard van `Users to target` bevat tabellen met diagrammen waarin gebruikers met bepaalde gemeenschappelijke aankoopgedragingen worden vermeld. Enkele voorbeelden:
 
-* Lijst met eenmalige kopers die objecten kopen `X` maanden geleden (wie u mogelijk opnieuw wilt activeren)
+* Lijst met eenmalige kopers die `X` maanden geleden aanschaffen (wie je wellicht opnieuw wilt activeren)
 
 * Lijst van topspenders (die je misschien gelukkig wilt houden)
 
-* Lijst van hoogste spenders die in het verleden actief waren `X` dagen (wie je wilt belonen)
+* Lijst met topsponsors die de afgelopen `X` dagen actief waren (die u mogelijk wilt belonen)
 
-Met de gereedschappen voor het exporteren van gegevens is het eenvoudig [e-maillijsten maken van gebruikers met een vergelijkbaar aankoopgedrag voor doelmarketing](http://blog.rjmetrics.com/creating-contact-lists-for-top-customers/).
+Gebruikend uw hulpmiddelen van de gegevensuitvoer, is het gemakkelijk om e-maillijsten van gebruikers met gelijkaardig het kopen gedrag voor doel marketing ](http://blog.rjmetrics.com/creating-contact-lists-for-top-customers/) tot stand te brengen.[
 
 ## Gebruikersactiviteit
 
-De `User activity` het dashboard omvat grafieken die gebruikers door diverse gegevens, met inbegrip van verwervingsbron, demografie, en gemiddelde eerste keer aan orde segmenteren. Het omvat ook de analyse van de gebruikerscohort, met inbegrip van de algemene gemiddelde levensinkomsten door de registratiemaand van gebruikers.
+Het dashboard van `User activity` omvat grafieken die gebruikers door diverse gegevens, met inbegrip van verwervingsbron, demografie, en gemiddelde eerste keer aan orde segmenteren. Het omvat ook de analyse van de gebruikerscohort, met inbegrip van de algemene gemiddelde levensinkomsten door de registratiemaand van gebruikers.
 
-De `% of cohort members who have purchased` grafiek is waardevol, omdat het de omzettingsverhouding (van 0 door 1) van gebruikers toont die wordt gebaseerd op wanneer zij registreren (elke lijn vertegenwoordigt een cohort van gebruikers). Het toont ook wanneer zij hun eerste aankoop (bijvoorbeeld in maand 1, 2, 3... na registratie) maken. Dit kan u aantonen dat 10% van gebruikers geactiveerd in maand 1, terwijl dit aantal groeit in maand 2, 3, 4.. en kan later plateau.
+Het diagram `% of cohort members who have purchased` is waardevol omdat het de conversieverhouding (van 0 tot en met 1) van gebruikers weergeeft op basis van het tijdstip waarop ze zich registreren (elke regel vertegenwoordigt een cohort van gebruikers). Het toont ook wanneer zij hun eerste aankoop (bijvoorbeeld in maand 1, 2, 3... na registratie) maken. Dit kan u aantonen dat 10% van gebruikers geactiveerd in maand 1, terwijl dit aantal groeit in maand 2, 3, 4.. en kan later plateau.
 
-Doorgaans worden de lijnen in dit diagram horizontaal na een bepaalde periode. Dit wijst erop dat weinig extra cohort leden organisch na dat punt omzetten - de meeste gebruikers die een aankoop gaan maken hebben reeds dit gedaan. Op dit moment is het zeer onwaarschijnlijk dat deze leden zich zonder tussenkomst tot de kopers zullen wenden. [Het bereiken van naar hen met aangepaste promoties of gerichte e-mails is een manier met weinig risico om deze populatie snel om te zetten.](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/)
+Doorgaans worden de lijnen in dit diagram horizontaal na een bepaalde periode. Dit wijst erop dat weinig extra cohort leden organisch na dat punt omzetten - de meeste gebruikers die een aankoop gaan maken hebben reeds dit gedaan. Op dit moment is het zeer onwaarschijnlijk dat deze leden zich zonder tussenkomst tot de kopers zullen wenden. [ het bereiken van uit aan hen met douanebevorderingen of gerichte e-mails is een laag-risicomodus om omschakeling van deze bevolking te springen.](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/)

@@ -6,7 +6,7 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -17,40 +17,40 @@ Met het filter voor het hele dashboard kunt u bulkbewerkingen uitvoeren van alle
 
 ## Datumfilters
 
-Als u het datumbereik of interval van rapporten op een dashboard wilt wijzigen, klikt u op het kalenderpictogram in de rechterbovenhoek (![kalender](../../assets/calendar-button.png)).
+Om de datumwaaier of het interval van rapporten over een dashboard te veranderen, klik het kalenderpictogram in de hoger-juiste hoek (![ kalender ](../../assets/calendar-button.png)).
 
-U kunt ervoor kiezen om gegevens weer te geven met een `Fixed Date Range` of diverse vooraf berekende `Moving Date Ranges`:
+U kunt gegevens weergeven met een `Fixed Date Range` of verschillende vooraf berekende `Moving Date Ranges` :
 
-![bewegende datumbereiken](../../assets/moving_date_ranges.png)
+![ bewegende datumwaaiers ](../../assets/moving_date_ranges.png)
 
-De `Last Full...` verplaatsingsbereikopties vertegenwoordigen het laatst voltooide bereik, terwijl `This...` Dit is het huidige bereik dat wordt uitgevoerd. Als het bijvoorbeeld juni is, wordt de `Last Full Month` is _1 mei - 31 mei_, terwijl `This Month` is _1 juni - Nu_.
+De opties voor het `Last Full...` bewegende bereik vertegenwoordigen het laatst voltooide bereik, terwijl `This...` het huidige, actieve bereik is. Bijvoorbeeld, als het Juni is, is `Last Full Month` _1 Mei - 31 Mei_, terwijl `This Month` 1 van juni is - nu _._
 
 Of maak uw eigen `Custom Moving Range`\:
 
-![aangepast bewegingsbereik](../../assets/custom-moving-range.png)
+![ douane bewegende waaier ](../../assets/custom-moving-range.png)
 
-Kies ervoor het interval ook te wijzigen. De standaardknop selecteren (![tijdinterval standaard](../../assets/time_interval_default.png)) betekent dat alleen het datumbereik wordt gewijzigd:
+Kies ervoor het interval ook te wijzigen. Het selecteren van de standaardknoop (![ gebrek van het tijdinterval ](../../assets/time_interval_default.png)) betekent dat slechts de datumwaaier verandert:
 
-![tijdsinterval](../../assets/time_interval.png)
+![ tijdinterval ](../../assets/time_interval.png)
 
-Als u het begindatumbereik en interval van alle rapporten wilt herstellen, klikt u op **[!UICONTROL Restore Defaults]** of klik op **[!UICONTROL Cancel]**.
+Als u het begindatumbereik en interval van alle rapporten wilt herstellen, klikt u op **[!UICONTROL Restore Defaults]** of op **[!UICONTROL Cancel]** .
 
 Wanneer u een datumfilter voor een dashboard opgeeft, wordt dat filter alleen op dat dashboard toegepast. Deze wordt niet toegepast wanneer u naar andere dashboards navigeert.
 
 >[!NOTE]
 >
->Momenteel `Cohort Reports` en `SQL Reports` zijn niet inbegrepen wanneer het toepassen van veranderingen op een dashboardniveau.
+>`Cohort Reports` en `SQL Reports` worden momenteel niet opgenomen wanneer u wijzigingen op dashboardniveau toepast.
 
 ## Filters opslaan
 
-Als u wilt analyseren hoe een bepaalde winkel het doet, klikt u op het pictogram Opslagbestanden in de rechterbovenhoek (![Winkelfilter](../../assets/store-filter.png)). Standaard, `Store Filter` is ingesteld op `All Stores`, die de gegevens van alle [winkelweergaven](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) beschikbaar op je website Handel.
+Om te analyseren hoe een specifieke opslag uitvoert, klik het opslagpictogram in de hoger-juiste hoek (![ Filter van de Opslag ](../../assets/store-filter.png)). Door gebrek, `Store Filter` wordt geplaatst aan `All Stores`, die de gegevens van alle [ opslagmeningen ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) beschikbaar in uw plaats van Commerce toont.
 
 >[!NOTE]
 >
->Een opslagfilter wordt in- of uitgeschakeld voor een gehele [!DNL Commerce Intelligence] account. Als een dashboard rapporten bevat die niet door de filter worden beïnvloed (zoals rapporten die niet op om het even welk worden gebouwd [!DNL Adobe Commerce] gegevens), worden deze rapporten niet bijgewerkt wanneer het opslagfilter wordt toegepast. U kunt [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u van mening bent dat een rapport moet worden bijgewerkt op basis van de keuze van de winkel of als u van mening bent dat het filter van uw accountwinkel per ongeluk is uitgeschakeld.
+>Een opslagfilter wordt in- of uitgeschakeld voor een volledige [!DNL Commerce Intelligence] -account. Als een dashboard rapporten bevat die niet door het filter worden beïnvloed (zoals rapporten die niet op om het even welke [!DNL Adobe Commerce] gegevens worden voortgebouwd), werken die rapporten niet bij wanneer de archieffilter wordt toegepast. U kunt [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u gelooft dat een rapport zou moeten bijwerken gebaseerd op archiefselectie of als u gelooft dat uw filter van de rekeningsopslag incorrect gehandicapt is.
 
-Wanneer u een winkel in het menu `Store Filter`blijft de selectie behouden wanneer u tussen dashboards navigeert. Door uw selectie te behouden, kunt u overal gegevens voor de geselecteerde winkel zien totdat u `All Stores`.
+Wanneer u een winkel selecteert in de `Store Filter` , behoudt het filter uw selectie wanneer u tussen dashboards navigeert. Door uw selectie te behouden, kunt u overal gegevens voor de geselecteerde winkel zien totdat u `All Stores` selecteert.
 
 ## Filters voor gedeelde dashboards
 
-Voor gedeelde dashboards, als één gebruiker de datumfilter vormt, zien andere gebruikers met toegang tot het dashboard dat de zelfde toegepaste filter. In dit geval is het opslagfilter echter niet van toepassing. Als de eigenaar van het dashboard het opslagfilter configureert en het dashboard deelt, blijft het geconfigureerde opslagfilter niet beschikbaar voor een andere gebruiker. Een gebruiker moet [toegang bewerken](../../data-user/dashboards/share-dashboard-with-users.md) naar een dashboard om de dashboardfilters aan te passen.
+Voor gedeelde dashboards, als één gebruiker de datumfilter vormt, zien andere gebruikers met toegang tot het dashboard dat de zelfde toegepaste filter. In dit geval is het opslagfilter echter niet van toepassing. Als de eigenaar van het dashboard het opslagfilter configureert en het dashboard deelt, blijft het geconfigureerde opslagfilter niet beschikbaar voor een andere gebruiker. Een gebruiker moet [ hebben toegang ](../../data-user/dashboards/share-dashboard-with-users.md) tot een dashboard uitgeven om de dashboardfilters aan te passen.

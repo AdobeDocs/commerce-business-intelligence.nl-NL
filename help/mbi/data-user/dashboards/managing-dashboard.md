@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereisten [Beheerdersmachtigingen](../../administrator/user-management/user-management.md).
+>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
 
 In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren voor dashboards die u hebt, dashboards verwijderen die u niet meer nodig hebt en een standaarddashboard instellen. Dit onderwerp omvat:
 
@@ -33,23 +33,23 @@ De naam van een dashboard wijzigen:
 
 1. Klik op de naam van het dashboard dat u wilt wijzigen.
 
-2. Voer de nieuwe naam in het dialoogvenster `Dashboard Name` veld.
+2. Voer de nieuwe naam in het veld `Dashboard Name` in.
 
 ## Gebruikersmachtigingen beheren {#userperm}
 
 Er zijn drie toegangsniveaus in [!DNL Commerce Intelligence] voor dashboards - `View`, `Edit`, en `None`.
 
-* `View` Hiermee kunnen geselecteerde gebruikers het dashboard weergeven maar niet bewerken. Gebruikers kunnen ook het formaat van grafieken wijzigen, gegevens exporteren en de diagrammen naar hun eigen dashboards kopiëren met de functie Opslaan als als ze de machtiging Standaard of Beheer hebben.
+* In `View` kunnen geselecteerde gebruikers het dashboard weergeven, maar niet bewerken. Gebruikers kunnen ook het formaat van grafieken wijzigen, gegevens exporteren en de diagrammen naar hun eigen dashboards kopiëren met de functie Opslaan als als ze de machtiging Standaard of Beheer hebben.
 
-* `Edit` Hiermee kunnen geselecteerde gebruikers grafieken bewerken en opslaan naar dit dashboard als ze over de machtiging Standaard of Beheer beschikken. Gebruikers met de machtiging Bewerken kunnen ook dashboards delen met andere gebruikers.
+* Met `Edit` kunnen geselecteerde gebruikers grafieken bewerken en opslaan op dit dashboard als ze over de machtiging Standaard of Beheer beschikken. Gebruikers met de machtiging Bewerken kunnen ook dashboards delen met andere gebruikers.
 
-* `None` Dit betekent dat geselecteerde gebruikers dit dashboard niet kunnen weergeven of bewerken.
+* `None` betekent dat geselecteerde gebruikers dit dashboard niet kunnen weergeven of bewerken.
 
 Gebruikersmachtigingen kunnen op twee manieren worden gewijzigd: voor alle gebruikers of voor een individuele gebruiker.
 
-1. *Om de toestemmingen van alle gebruikers te veranderen,* het vervolgkeuzemenu gebruiken naast het dialoogvenster `Set all users' permissions to…` label.
+1. *om alle toestemmingen van gebruikers te veranderen,* gebruik dropdown menu naast het `Set all users' permissions to…` etiket.
 
-1. *De machtigingen van een individuele gebruiker wijzigen* Gebruik het vervolgkeuzemenu naast de naam van de gebruiker om het gewenste toegangsniveau in te stellen.
+1. *om de toestemmingen van een individuele gebruiker te veranderen,* gebruik dropdown menu naast de naam van de gebruiker om het gewenste niveau van toegang te plaatsen.
 
 ## Het standaarddashboard wijzigen {#default}
 

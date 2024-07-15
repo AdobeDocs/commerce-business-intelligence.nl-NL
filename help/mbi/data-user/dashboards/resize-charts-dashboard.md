@@ -13,12 +13,12 @@ ht-degree: 0%
 
 # Werken met diagrammen in dashboards
 
-Schaalgetallen. Staafgrafieken. Grafieken die zich uitstrekken over lange perioden. Op elk diagram wordt informatie anders weergegeven. Dit betekent dat de grootte en locatie van grafieken geen standaard oplossing is. In [!DNL Commerce Intelligence]kunt u grafieken aanpassen en de grootte ervan wijzigen om de ideale werkruimte te maken.
+Schaalgetallen. Staafgrafieken. Grafieken die zich uitstrekken over lange perioden. Op elk diagram wordt informatie anders weergegeven. Dit betekent dat de grootte en locatie van grafieken geen standaard oplossing is. In [!DNL Commerce Intelligence] kunt u grafieken vergroten of verkleinen en opnieuw rangschikken om de ideale werkruimte te maken.
 
-*Een diagram vergroten of verkleinen*, klikt en sleept u de rechterbenedenhoek van een diagram.
+*om een grafiek* te resize, klik en sleep de bodem-juiste hoek van om het even welk grafiek.
 
-![diagram vergroten/verkleinen](../../assets/Resize_Chart_in_Dashboard.gif)
+![ resize grafiek ](../../assets/Resize_Chart_in_Dashboard.gif)
 
-*Een diagram verplaatsen* Houd de muisaanwijzer boven de bovenkant van het diagram tot de `Move` cursorweergaven. Klik en houd, dan sleep de grafiek aan de gewenste plaats. Laat de klik los om de grafiek te plaatsen.
+*om een grafiek* te bewegen, beweeg over de bovenkant van de grafiek tot de `Move` curseurvertoningen. Klik en houd, dan sleep de grafiek aan de gewenste plaats. Laat de klik los om de grafiek te plaatsen.
 
-![diagram verplaatsen](../../assets/Move_Chart_in_Dashboard.gif)
+![ verplaatsingsgrafiek ](../../assets/Move_Chart_in_Dashboard.gif)

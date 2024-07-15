@@ -15,13 +15,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Vereisten [Beheerder](../../administrator/user-management/user-management.md) of `Standard` machtigingen om deze functies uit te voeren. Als je een `Standard` gebruiker, u ook nodig hebt `Edit` machtigingen voor het dashboard.
+>Vereist [ Admin ](../../administrator/user-management/user-management.md) of `Standard` toestemmingen om deze functies uit te voeren. Als u een `Standard` -gebruiker bent, hebt u ook `Edit` -machtigingen voor het dashboard nodig.
 
 Soms passen namen gewoon niet meer. De naam van een dashboard wijzigen gaat snel en eenvoudig.
 
-1. Klik in het dashboard op de knop **[!UICONTROL Dashboard Options]** aan de bovenkant van het scherm, die naast het `Global Search` -menu.
+1. Klik in het dashboard op het menu **[!UICONTROL Dashboard Options]** boven in het scherm, dat zich naast het menu `Global Search` bevindt.
 
-1. Klikken **[!UICONTROL Rename]** in de vervolgkeuzelijst.
+1. Klik op **[!UICONTROL Rename]** in de vervolgkeuzelijst.
 
 1. Voer desgevraagd de nieuwe naam voor het dashboard in.
 
@@ -29,4 +29,4 @@ Soms passen namen gewoon niet meer. De naam van een dashboard wijzigen gaat snel
 
 Voorbeeld:
 
-![naam dashboard wijzigen](../../assets/renaming-dboard.gif)
+![ anders noem dashboard ](../../assets/renaming-dboard.gif)

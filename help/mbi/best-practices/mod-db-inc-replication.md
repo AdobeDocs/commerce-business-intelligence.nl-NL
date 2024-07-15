@@ -17,15 +17,15 @@ Als uw lijsten momenteel niet voor stijgende replicatie toestaan, verwijs naar d
 
 ## Wijzigingen voor gewijzigd bij
 
-De `Modified At` de methode, die de meest ideale replicatiemethode is, gebruikt een `datetime` om nieuwe en/of bijgewerkte gegevens te detecteren. Vergeet niet dat de `datetime` de kolom in lijsten die deze methode gebruiken moet worden geïndexeerd en kan op geen enkel ogenblik ongeldige waarden bevatten.
+De `Modified At` -methode, de meest ideale replicatiemethode, gebruikt een `datetime` -kolom om nieuwe en/of bijgewerkte gegevens te detecteren. Onthoud dat de kolom `datetime` in tabellen die deze methode gebruiken, moet worden geïndexeerd en op geen enkel moment null-waarden kan bevatten.
 
-Als uw tabel geen `datetime` kolom, kunt u een index toevoegen `modified at` kolom. Null-waarden zijn niet toegestaan in een `modified at` kolom. Controleer of de kolom voor elke rij is gevuld.
+Als de tabel geen kolom `datetime` bevat, kunt u een kolom met de index `modified at` toevoegen. Null-waarden zijn niet toegestaan in een kolom `modified at` . Controleer of de kolom voor elke rij is gevuld.
 
-Om de `Modified At` de methode werkt zoals bedoeld, kunt u geen rijen uit de tabel verwijderen. In plaats daarvan moet u de rij als ongeldig markeren door een `deleted` aan de tabel. Deze kolom retourneert een `1` als de rij ongeldig is en `0` anders. U kunt deze kolom dan gebruiken om ongeldige rijen uit te filteren wanneer u metriek en rapporten bouwt.
+Om ervoor te zorgen dat de methode `Modified At` naar behoren werkt, kunt u geen rijen uit de tabel verwijderen. In plaats daarvan moet u de rij als ongeldig markeren door een kolom `deleted` aan de tabel toe te voegen. Deze kolom retourneert een `1` als de rij ongeldig is, anders `0` . U kunt deze kolom dan gebruiken om ongeldige rijen uit te filteren wanneer u metriek en rapporten bouwt.
 
 ## Wijzigingen voor de enkelvoudige sneltoets
 
-Als de `Modified At` De methode kan niet worden toegelaten, dan is de Enige Auto het Toename Primaire Sleutel de volgende beste optie. Nieuwe gegevens worden in tabellen gevonden met deze methode door te zoeken naar waarden voor primaire sleutels die hoger zijn dan de huidige hoogste waarde in de Data Warehouse.
+Als de methode `Modified At` niet kan worden ingeschakeld, is de op een na beste optie Eén automatische incrementele sleutel. Nieuwe gegevens worden in tabellen gevonden met deze methode door te zoeken naar waarden voor primaire sleutels die hoger zijn dan de huidige hoogste waarde in de Data Warehouse.
 
 Tabellen die deze methode gebruiken, zijn één kolom met een geheel getal die de primaire sleutels automatisch verhoogt. Als u deze methode in uw database wilt gebruiken, brengt u de volgende wijzigingen aan:
 
@@ -34,4 +34,4 @@ Tabellen die deze methode gebruiken, zijn één kolom met een geheel getal die d
 
 ## Omloop omhoog
 
-Door kleine wijzigingen in uw tabellen aan te brengen, kunt u de snellere, efficiëntere methoden voor incrementele replicatie benutten. Als dit echter niet mogelijk is, kunt u nog andere stappen ondernemen om [verkort uw updatetijd](../best-practices/reduce-update-cycle-time.md) en [uw database optimaliseren](../best-practices/opt-db-analysis.md).
+Door kleine wijzigingen in uw tabellen aan te brengen, kunt u de snellere, efficiëntere methoden voor incrementele replicatie benutten. Nochtans, als dit niet mogelijk is, kunt u andere stappen nog nemen om [ uw updatetijd ](../best-practices/reduce-update-cycle-time.md) te verminderen en [ uw gegevensbestand ](../best-practices/opt-db-analysis.md) te optimaliseren.

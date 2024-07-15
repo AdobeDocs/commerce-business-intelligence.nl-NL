@@ -6,7 +6,7 @@ role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Dit onderwerp toont aan hoe te opstelling een dashboard dat een gedetailleerde a
 
 ![](../../assets/detailed-returns-dboard.png)
 
-Voordat u aan de slag gaat, moet u [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) klant en zou ervoor moeten zorgen dat uw bedrijf gebruikt `enterprise\_rma` tabel voor geretourneerde waarden.
+Alvorens begonnen te worden, moet u een [ Adobe Commerce ](https://business.adobe.com/products/magento/magento-commerce.html) klant zijn en zou moeten ervoor zorgen dat uw bedrijf de `enterprise\_rma` lijst voor terugkeer gebruikt.
 
-Deze analyse bevat [geavanceerd berekende kolommen](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Aan de slag
 
@@ -76,7 +76,7 @@ Te maken kolommen
 * Selecteer een [!UICONTROL column]: `Customer's order number`
    * `enterprise_rma.order_id = sales_flat_order.entity_id`
 
-* **`Time between order's created_at and date_requested`** wordt gemaakt door een analist als onderdeel van uw `[RETURNS ANALYSIS]` kaartje
+* **`Time between order's created_at and date_requested`** wordt door een analist gemaakt als onderdeel van uw `[RETURNS ANALYSIS]` -ticket
 
 * **`enterprise_rma_item_entity`** table
 * **`return_date_requested`**
@@ -91,7 +91,7 @@ Te maken kolommen
 * Selecteer een [!UICONTROL column]: `date_requested`
    * `enterprise_rma_item_entity.rma_entity_id = enterprise_rma.entity_id`
 
-* **`Return item total value (qty_returned * price)`** wordt gemaakt door een analist als onderdeel van uw `[RETURNS ANALYSIS]` kaartje
+* **`Return item total value (qty_returned * price)`** wordt door een analist gemaakt als onderdeel van uw `[RETURNS ANALYSIS]` -ticket
 
 * **`sales_flat_order`** table
 * **`Order contains a return? (1=yes/0=No)`**
@@ -99,8 +99,8 @@ Te maken kolommen
 * Selecteer een [!UICONTROL table]: `enterprise_rma`
    * `enterprise_rma.order_id = sales_flat_order.entity_id`
 
-* **`Customer's previous order number`** wordt gemaakt door een analist als onderdeel van uw `[RETURNS ANALYSIS]` kaartje
-* **`Customer's previous order contains return? (1=yes/0=no)`** wordt gemaakt door een analist als onderdeel van uw `[RETURNS ANALYSIS]` kaartje
+* **`Customer's previous order number`** wordt door een analist gemaakt als onderdeel van uw `[RETURNS ANALYSIS]` -ticket
+* **`Customer's previous order contains return? (1=yes/0=no)`** wordt door een analist gemaakt als onderdeel van uw `[RETURNS ANALYSIS]` -ticket
 
 >[!NOTE]
 >
@@ -108,41 +108,41 @@ Te maken kolommen
 
 ### Metrisch
 
-* **Retourneert**
-* In de **`enterprise_rma`** table
-* Deze maatstaf voert een **Aantal**
-* Op de **`entity_id`** kolom
+* **Keert** terug
+* In de tabel **`enterprise_rma`**
+* Deze metrisch voert a **Telling** uit
+* Op de kolom **`entity_id`**
 * Besteld door de **`date_requested`**
 * [!UICONTROL Filter]: `Returns we count`
 
-* **Teruggestuurde objecten**
-* In de **`enterprise_rma_item_entity`** table
-* Deze maatstaf voert een **Som**
-* Op de **`qty_approved`** kolom
+* **teruggekeerde punten**
+* In de tabel **`enterprise_rma_item_entity`**
+* Deze metrisch voert a **Som** uit
+* Op de kolom **`qty_approved`**
 * Besteld door de **`return date_requested`**
 * [!UICONTROL Filter]: `Returns we count`
 
-* **Totale waarde van geretourneerd object**
-* In de **`enterprise_rma_item_entity`** table
-* Deze maatstaf voert een **Som**
-* Op de **`Returned item total value (qty_returned * price)`** kolom
+* **teruggekeerde punt totale waarde**
+* In de tabel **`enterprise_rma_item_entity`**
+* Deze metrisch voert a **Som** uit
+* Op de kolom **`Returned item total value (qty_returned * price)`**
 * Besteld door de **`return date_requested`**
 * [!UICONTROL Filter]: `Returns we count`
 
-* **Gemiddelde tijd tussen bestelling en terugkeer**
-* In de **`enterprise_rma`** table
-* Deze maatstaf voert een **Gemiddeld**
-* Op de **`Time between order's created_at and date_requested`** kolom
+* **Gemiddelde tijd tussen orde en terugkeer**
+* In de tabel **`enterprise_rma`**
+* Deze metrisch voert een **Gemiddelde** uit
+* Op de kolom **`Time between order's created_at and date_requested`**
 * Besteld door de **`date_requested`**
 * [!UICONTROL Filter]: `Returns we count`
 
 >[!NOTE]
 >
->Zorg ervoor dat [alle nieuwe kolommen als afmetingen toevoegen aan metriek](../data-warehouse-mgr/manage-data-dimensions-metrics.md) alvorens nieuwe rapporten op te stellen.
+>Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ### Rapporten
 
-* **Herhaal de waarschijnlijkheid van de volgorde na het maken van een return**
+* **Herhaal orde waarschijnlijkheid na het maken van een terugkeer**
 * Metrisch `A`: `Number of orders with returns`
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]:
@@ -167,7 +167,7 @@ Te maken kolommen
 * 
   [!UICONTROL Chart Type]: `Bar`
 
-* **Gemiddelde tijd om terug te keren (alle tijd)**
+* **Gem tijd om terug te keren (allen tijd)**
 * Metrisch `A`: `Avg time between order and return`
 * [!UICONTROL Metric]: `Avg time between order and return`
 
@@ -177,7 +177,7 @@ Te maken kolommen
 * 
   [!UICONTROL Chart Type]: `Number`
 
-* **Percentage van bestellingen met een rendement**
+* **Percentage van orden met een terugkeer**
 * Metrisch `A`: `Number of orders`
 * [!UICONTROL Metric]: `Number of orders`
 
@@ -196,7 +196,7 @@ Te maken kolommen
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Chart Type]: `Number - % of orders with return`
 
-* **Inkomsten per maand**
+* **Inkomsten die door maand** zijn teruggekeerd
 * Metrisch `A`: `Returned item total value`
 * [!UICONTROL Metric]: `Returned item total value`
 
@@ -205,7 +205,7 @@ Te maken kolommen
 * 
   [!UICONTROL Chart Type]: `Line`
 
-* **Klanten die een rendement hebben behaald en niet opnieuw zijn aangeschaft**
+* **Klanten die een terugkeer hebben gemaakt en niet opnieuw aangekocht**
 * Metrisch `A`: `Number of orders with returns`
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]:
@@ -220,9 +220,9 @@ Te maken kolommen
 * 
   [!UICONTROL Chart Type]: `Table`
 
-* **Retourneringspercentage per object**
+* **tarief van de terugkeer door punt**
 * Metrisch `A`: `Returned items` (Verbergen)
-* [!UICONTROL Metric]: geretourneerde objecten
+* [!UICONTROL Metric]: geretourneerde items
 
 * Metrisch `B`: `Items sold` (Verbergen)
 * [!UICONTROL Metric]: `Number of orders`
@@ -242,4 +242,4 @@ Te maken kolommen
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 
-Als u op om het even welke vragen terwijl het bouwen van deze analyse loopt of het Professionele team van de Diensten wilt in dienst nemen, [contactondersteuning](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse of het Professionele team van de Diensten in dienst wilt nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
