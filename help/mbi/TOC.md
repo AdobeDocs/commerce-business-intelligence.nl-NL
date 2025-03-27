@@ -4,9 +4,9 @@ description: Leer hoe te om  [!DNL Commerce Intelligence]  eigenschappen te gebr
 breadcrumb-title: Commerce Intelligence-gebruikershandleiding
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: Business Performance
-source-git-commit: 2433a614e9858684842804a0ae29fb67f0d41ead
+source-git-commit: cea314102fb3b2164c1498ce1efa60e83c41b188
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 0%
       - [Gebruikersmachtigingen beheren](administrator/user-management/user-management.md)
       - [Wachtwoord opnieuw instellen](../mbi/administrator/user-management/reset-password.md)
       - [Metrische toegang beperken](../mbi/administrator/user-management/restrict-metric-access.md)
+      - [Geavanceerd gebruikersbeheer](../mbi/administrator/user-management/advanced.md)
 - Gegevens analyseren {#analyze}
    - [Data Analyst](data-analyst.md)
    - Data Warehouse Manager {#warehouse-manager}
@@ -43,7 +44,7 @@ ht-degree: 0%
       - [Replicatiemethoden configureren](data-analyst/data-warehouse-mgr/cfg-replication-methods.md)
       - [Opnieuw controleren van gegevens configureren](data-analyst/data-warehouse-mgr/cfg-data-rechecks.md)
       - [De operationele tabel van een metrische waarde wijzigen](data-analyst/data-warehouse-mgr/change-metric-op-table.md)
-      - [Weergaven van Data Warehouse maken en gebruiken](data-analyst/data-warehouse-mgr/create-dw-views.md)
+      - [Data Warehouse-weergaven maken en gebruiken](data-analyst/data-warehouse-mgr/create-dw-views.md)
       - [Paden voor berekende kolommen maken/verwijderen](data-analyst/data-warehouse-mgr/create-paths-calc-columns.md)
       - [Een berekende SQL-kolom maken/gebruiken](data-analyst/data-warehouse-mgr/create-sql-calc-column.md)
       - [Berekende kolommen maken](data-analyst/data-warehouse-mgr/creating-calculated-columns.md)
@@ -70,7 +71,7 @@ ht-degree: 0%
       - [[!DNL sales_order_item]](data-analyst/data-warehouse-mgr/sales-flat-order-item-table.md)
       - [[!DNL quote]](data-analyst/data-warehouse-mgr/sales-flat-quote-table.md)
       - [[!DNL quote_item]](data-analyst/data-warehouse-mgr/sales-flat-quote-item-table.md)
-   - SQL-Report Builder {#sql}
+   - SQL Report Builder {#sql}
       - [Het gebruiken van  [!DNL Cohort Report Builder]](data-analyst/dev-reports/cohort-rpt-bldr.md)
       - [Gebruikend  [!DNL Cohort Report Builder]  voor Niet-Datum Gebaseerde Cohorts](data-analyst/dev-reports/cohort-rpt-non-date-based.md)
       - [Een kwalitatieve cohortanalyse maken](data-analyst/dev-reports/create-qual-cohort-analysis.md)
@@ -217,7 +218,7 @@ ht-degree: 0%
       - [Werken met gegevens](best-practices/work-data.md)
       - [UTM-codering in  [!DNL Google Analytics]](best-practices/utm-tagging-google.md)
       - [Financiële gegevens opmaken en importeren](best-practices/format-import-financial-data.md)
-      - [Aanbevolen Dimensionen van Gegevens voor Segmentatie en Filtreren](best-practices/segment-filter.md)
+      - [Aanbevolen gegevensafmetingen voor segmentatie en filteren](best-practices/segment-filter.md)
       - [De status van de updatecyclus controleren](best-practices/check-update-cycle.md)
       - [De tijd van de updatecyclus verkorten](best-practices/reduce-update-cycle-time.md)
       - [Uw database aanpassen om incrementele replicatie te ondersteunen](best-practices/mod-db-inc-replication.md)
@@ -231,7 +232,7 @@ ht-degree: 0%
    - Werken met dashboards {#working-dashboards}
       - [Dashboards delen](best-practices/share-dashboard-best-practice.md)
       - [Een investeringsdashboard opbouwen](best-practices/build-investor-dashboard.md)
-- Tutorials {#tutorials}
+- Zelfstudies {#tutorials}
    - [Het gebruiken van  [!DNL Visual Report Builder]](tutorials/using-visual-report-builder.md)
    - [Het gebruiken van de Opties van de Tijd in  [!DNL Visual Report Builder]](tutorials/time-options-visual-rpt-bldr.md)
    - [Creërend Visualisaties voor a  [!DNL SQL]  Vraag](tutorials/create-visuals-from-sql.md)
