@@ -42,7 +42,7 @@ De orde en gebeurtenissegmenten helpen bij het analyseren van gebruikersgedrag e
 
 * **[!UICONTROL Billing / Shipping Address]**: Waar komen de meeste bestellingen vandaan? Is er een verschil tussen facturerings en verzendadressen?
 * **[!UICONTROL Status]**: Hoeveel van uw bestellingen zijn niet voltooid? Wat is de verhouding tussen lopende orders in de afgelopen zeven dagen?
-* **[!UICONTROL Customer acquisition source]**: Voorbij het volgen van gegevens van de gebruikersverwerving op een gebruikersniveau, kunt u het op een orde of gebeurtenisniveau ](../data-analyst/analysis/google-track-user-acq.md) ook [ volgen. Een gebruiker die zich via één bron heeft geregistreerd, heeft mogelijk toegang tot uw site via andere bronnen.
+* **[!UICONTROL Customer acquisition source]**: Voorbij het volgen van gegevens van de gebruikersverwerving op een gebruikersniveau, kunt u het op een orde of gebeurtenisniveau [&#128279;](../data-analyst/analysis/google-track-user-acq.md) ook  volgen. Een gebruiker die zich via één bron heeft geregistreerd, heeft mogelijk toegang tot uw site via andere bronnen.
 * **[!UICONTROL Device]**: neemt het aantal mobiele bestellingen toe? Hoeveel van uw opbrengst wordt geproduceerd via mobiele aankopen? (Als u dit nog niet volgt, zie dit onderwerp [ over het volgen van de gegevens van het ordeapparaat ](../data-analyst/analysis/track-usr-dev-browser.md).
 * **[!UICONTROL Fulfillment Center]**: Welke van uw afhandelingscentra genereert de meeste inkomsten? Als u het verschil tussen bestellingstijd en verzendtijd analyseert, welk afhandelingscentrum reageert het meest?
 * **[!UICONTROL Delivery Carrier]**: Welke is de populairste vervoerder? Welke drager heeft het minste aantal teruggekeerde punten?

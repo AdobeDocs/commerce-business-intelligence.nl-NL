@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Spree] gegevens verwacht
 
-Nadat u uw  [!DNL Spree]  opslag ](../../../data-analyst/importing-data/integrations/spree.md) hebt verbonden [, kunt u de [ Manager van de Data Warehouse ](../../data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden van uw [!DNL Spree] platform voor analyse gemakkelijk te volgen.
+Nadat u uw  [!DNL Spree]  opslag [&#128279;](../../../data-analyst/importing-data/integrations/spree.md) hebt verbonden , kunt u de [ Manager van de Data Warehouse ](../../data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden van uw [!DNL Spree] platform voor analyse gemakkelijk te volgen.
 
 Dit onderwerp verkent de belangrijkste gegevenslijsten die u van [!DNL Spree] in uw [!DNL Commerce Intelligence] rekening kunt invoeren, met inbegrip van verbindingen aan [ extra documentatie ](https://guides.spreecommerce.org/developer/addresses.html#address) over [!DNL Spree] gegevens.
 

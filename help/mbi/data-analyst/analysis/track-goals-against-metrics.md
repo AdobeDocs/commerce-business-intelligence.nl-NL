@@ -55,46 +55,46 @@ Het is nuttig om een mengeling van statische waarden en visuele grafieken te heb
 
 * **Ontvangsten verlaten om doel** te bereiken
 * Metrisch `A`: `Revenue`
-* 
+* &#x200B;
   [!UICONTROL Metric]: `Revenue`
 
 * Metrisch `B`: `Target Revenue`
 * [!UICONTROL Metric]: `Monthly Revenue Target`
 
 * [!UICONTROL Formula]: `Revenue left to achieve target`
-* 
-  [!UICONTROL-formule]: `(B-A)`
-* 
+* &#x200B;
+  [!UICONTROL -formule]: `(B-A)`
+* &#x200B;
   [!UICONTROL Format]: `Number`
 
 * [!UICONTROL Time period]: (Welke relevante tijdsperiode u ook wilt)
-* 
+* &#x200B;
   [!UICONTROL Interval]: `Month`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Scalar`
 
 * **de doelstellingen van de Inkomsten**
 * Metrisch `A`: `Revenue`
-* 
+* &#x200B;
   [!UICONTROL Metric]: `Revenue`
 
 * Metrisch `B`: `Target Revenue`
 * [!UICONTROL Metric]: `Monthly Revenue Target`
 
 * Metrisch `C`: `Revenue (amount change since previous year)` (hide)
-* 
+* &#x200B;
   [!UICONTROL Metric]: `Revenue`
 * [!UICONTROL Perspective]: `Amount change vs. Previous year`
 
 * [!UICONTROL Formula]: (Deze maand vorig jaar)
-* 
-  [!UICONTROL-formule]: `(A-C)`
-* 
+* &#x200B;
+  [!UICONTROL -formule]: `(A-C)`
+* &#x200B;
   [!UICONTROL Format]: `Currency`
 
 * `Multiple Y-Axes` uitschakelen
 * [!UICONTROL Time period]: (Welke relevante tijdsperiode u wilt)*
-* 
+* &#x200B;
   [!UICONTROL Interval]: `Month`
 * [!UICONTROL Chart Type]: `Line Chart`
 

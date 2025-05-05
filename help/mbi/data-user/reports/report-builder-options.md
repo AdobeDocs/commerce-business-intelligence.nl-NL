@@ -14,7 +14,7 @@ ht-degree: 0%
 # Kies een rapportbuilder
 
 >[!NOTE]
->>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>&#x200B;>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
 
 Nu u meer opties hebt voor het maken van analyses, is het soms moeilijk om precies te weten welke smaak van de rapportbuilder aan uw behoeften voldoet. Dit onderwerp begeleidt u door de beste manier te kiezen om uw analyse te bouwen.
 

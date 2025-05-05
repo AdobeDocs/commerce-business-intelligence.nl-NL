@@ -80,7 +80,7 @@ Daarna, probeer creërend [!DNL Google Analytics] middel **en `campaign` van de 
 
 ### Klantentabel {#customers}
 
-Dit voorbeeld bouwt de [!DNL Google Analytics] bron **dimensie van de eerste orde van de Klant {.**
+Dit voorbeeld bouwt de [!DNL Google Analytics] bron **dimensie van de eerste orde van de Klant &lbrace;.**
 
 1. Van de lijst van lijsten in de Data Warehouse, klik de lijst (in dit geval, `customers`) die uw klanteninformatie bevat.
 1. Klik op **[!UICONTROL Create a Column]**.
@@ -97,7 +97,7 @@ Dit voorbeeld bouwt de [!DNL Google Analytics] bron **dimensie van de eerste ord
    _
 1. Klik op **[!UICONTROL Save]** om de dimensie te maken.
 
-Daarna, probeer creërend [!DNL Google Analytics] middel **en `campaign` van de eerste orde van de Klant 1}.** Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
+Daarna, probeer creërend [!DNL Google Analytics] middel **en `campaign` van de eerste orde van de Klant 1&rbrace;.** Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
 
 ### Bonus: Orders table, rond 2
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 * Je gegevens over advertentiekosten importeren:
    * [ verbind uw  [!DNL Google AdWords]  met  [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] besteedt in [!DNL Commerce Intelligence]
    * [ uploadt andere reclame kostengegevens ](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt geadviseerd voor kanalen zonder een directe schakelaar aan [!DNL Commerce Intelligence]
-   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [ ](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
+   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [&#128279;](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Kanaalgegevens van verwervingskanalen bijhouden](../analysis/google-track-user-acq.md)
 
 ## Aankoopcampagnes voor gebruikers

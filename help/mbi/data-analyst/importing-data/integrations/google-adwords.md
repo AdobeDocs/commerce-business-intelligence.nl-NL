@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![](../../../assets/Google_Adwords_logo.png)
 
-Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je [!DNL Google] campagne gestart. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) ](../../analysis/roi-ad-camp.md) van gebruikers te bedienen die van uw campagnes worden verworven.[
+Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je [!DNL Google] campagne gestart. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [&#128279;](../../analysis/roi-ad-camp.md) van gebruikers te bedienen die van uw campagnes worden verworven.
 
 Ga aan de slag door uw [!DNL Google Adwords] -gegevens in te voeren in [!DNL Commerce Intelligence] .
 

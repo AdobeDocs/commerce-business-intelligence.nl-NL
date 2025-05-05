@@ -37,7 +37,7 @@ Bijvoorbeeld, overweeg een gebruiker die eerst een website via [!DNL Google Anal
 
 >[!NOTE]
 >
->De specifieke gebruikers [!DNL Google Analytics] koekjesparameters worden van een specifieke gebruiker gewist wanneer het koekje [ ](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) verloopt, of wanneer een gebruiker hun koekjes in browser ontruimt.*
+>De specifieke gebruikers [!DNL Google Analytics] koekjesparameters worden van een specifieke gebruiker gewist wanneer het koekje [&#128279;](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) verloopt, of wanneer een gebruiker hun koekjes in browser ontruimt.*
 
 ### Kenmerk eerste klik
 

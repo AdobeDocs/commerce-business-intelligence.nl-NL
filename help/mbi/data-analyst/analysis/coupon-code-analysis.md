@@ -37,7 +37,8 @@ Kolommen om ongeacht het beleid van gastorden tot stand te brengen:
    * [!UICONTROL Inputs]:
       * `A`: `coupon\_code`
 
-   * 
+   * &#x200B;
+
      [!UICONTROL Datatype]: `String`
    * [!UICONTROL Calculation]: als `A` null is, dan `No coupon` else `Coupon` end
 
@@ -67,7 +68,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * `A`: `Orders we count`
       * `B`: `Customer's order number = 1`
 
-   * **de eerste coupon van de orde van de Klant {**
+   * **de eerste coupon van de orde van de Klant &lbrace;**
       * [!UICONTROL Column type]: `Many to One => MAX`
       * [!UICONTROL Path]: `sales\_flat\_order.customer\_id = customer\_entity.entity\_id`
       * Selecteer een [!UICONTROL column]: `coupon\_code`
@@ -87,7 +88,8 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * [!UICONTROL Inputs]:
          * `A`: `Customer's first order included a coupon? (Coupon/No coupon)`
 
-      * 
+      * &#x200B;
+
         [!UICONTROL Datatype]: `String`
       * [!UICONTROL Calculation]: **geval wanneer A=&#39;Coupon&#39; toen &quot;de aanschafklant van de Coupon&quot;anders &quot;de klant van de niet-couponaanschaf&quot;eind**
 
@@ -97,16 +99,18 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
          * `A`: `User's lifetime number of coupons used`
          * `B`: `User's lifetime number of orders`
 
-      * 
+      * &#x200B;
+
         [!UICONTROL Datatype]: `Decimal`
       * [!UICONTROL Calculation]: **geval wanneer A ongeldig of B ongeldig is of B=0 dan ongeldig anders A/B eind**
 
-   * {het gebruik van de coupon van 0} Klant ****
+   * {het gebruik van de coupon van 0} Klant **&#x200B;**
       * [!UICONTROL Column type]: `Same Table => Calculation`
       * [!UICONTROL Inputs]:
          * `A`: `Percent of customer's orders with coupon`
 
-      * 
+      * &#x200B;
+
         [!UICONTROL Datatype]: `String`
       * [!UICONTROL Calculation]: **geval wanneer A ongeldig dan wanneer A=0 toen &quot;nooit gebruikte coupon&quot;wanneer A&lt;0.5 toen &quot;Meestal volledige prijs&quot;wanneer A=0.5 toen &quot;50/50&quot;wanneer A=1 toen &quot;Coupons slechts&quot;wanneer A>0.5 toen &quot;Meestal coupon&quot;anders &quot;Undefined&quot;eind** is.
 
@@ -117,7 +121,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * Selecteer een [!UICONTROL column]: `Customer's first order included a coupon? (Coupon/No coupon)`
 ^
 
-   * **de eerste coupon van de orde van de Klant {**
+   * **de eerste coupon van de orde van de Klant &lbrace;**
       * [!UICONTROL Column type]: `One to Many => JOINED\_COLUMN`
       * [!UICONTROL Path]: `sales\_flat\_order.customer\_id = customer\_entity.entity\_id`
       * Selecteer een [!UICONTROL column]: `Customer's first order coupon?`
@@ -134,7 +138,8 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
    * [!UICONTROL Inputs]:
       * `A`: `Customer's first order included a coupon? (Coupon/No coupon)`
 
-   * 
+   * &#x200B;
+
      [!UICONTROL Datatype]: `String`
    * [!UICONTROL Calculation]: **geval wanneer A=&#39;Coupon&#39; toen &quot;de aanschafklant van de Coupon&quot;anders &quot;de klant van de niet-couponaanschaf&quot;eind**
 
@@ -144,16 +149,18 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * `A`: `User's lifetime number of coupons used`
       * `B`: `User's lifetime number of orders`
 
-   * 
+   * &#x200B;
+
      [!UICONTROL Datatype]: `Decimal`
    * [!UICONTROL Calculation]: **geval wanneer A ongeldig of B ongeldig is of B=0 dan ongeldig anders A/B eind**
 
-* {het gebruik van de coupon van 0} Klant ****
+* {het gebruik van de coupon van 0} Klant **&#x200B;**
    * [!UICONTROL Column type]: `Same Table => Calculation`
    * [!UICONTROL Inputs]:
       * `A`: `Percent of customer's orders with coupon`
 
-   * 
+   * &#x200B;
+
      [!UICONTROL Datatype]: `String`
    * [!UICONTROL Calculation]: **geval wanneer A ongeldig dan wanneer A=0 toen &quot;nooit gebruikte coupon&quot;wanneer A&lt;0.5 toen &quot;Meestal volledige prijs&quot;wanneer A=0.5 toen &quot;50/50&quot;wanneer A=1 toen &quot;Coupons slechts&quot;wanneer A>0.5 toen &quot;Meestal coupon&quot;anders &quot;Undefined&quot;eind** is.
 
@@ -190,10 +197,10 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `Coupon acquisitions`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Coupon acquisitions customer` of `Non coupon acquisition customer`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Pie`
 
 * **Aantal van coupon-verworven en niet-coupon-verworven klanten**
@@ -212,9 +219,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `Average lifetime revenue (at least 3 months age)`
 * [!UICONTROL Time period]: `X years ago to 90 days ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Scalar`
 
 * **Gemiddelde levensinkomsten: Geen coupon Acq. (leeftijd van 90+ dagen)**
@@ -224,9 +231,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `Average lifetime revenue (at least 3 months age)`
 * [!UICONTROL Time period]: `X years ago to 90 days ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Scalar`
 
 * **Gemiddelde levensinkomsten door eerste orde coupon**
@@ -234,10 +241,10 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `Average lifetime revenue`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's first order's coupon`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Column`
 
 >[!NOTE]
@@ -253,8 +260,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
    * [!UICONTROL Filter]:
       * De eerste bestelling van de klant bevatte een coupon (coupon/Geen coupon) = Coupon
       * Is de laatste bestelling van de klant? = Nee
-   * 
-     [!UICONTROL-formule]: `B/A`
+   * &#x200B;
+
+     [!UICONTROL -formule]: `B/A`
    * [!UICONTROL Format]: `Percentage %`
 
    * Selecteer statistisch significant getal in `Customer's by lifetime orders` -diagram. Wanneer het bekijken van de grafiek, als goede regel orderaantallen met 30 of meer klanten in het emmertje moet zoeken. Afhankelijk van uw gegevensset kan dit een groot aantal zijn, zodat u 1-10 gratis kunt toevoegen.
@@ -263,7 +271,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * Metrisch `B`: `Number of non last orders`
 * [!UICONTROL Formula]: `Repeat order probability`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's order number`
 * [!UICONTROL Chart type]: `Bar chart`
@@ -278,8 +286,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * De eerste bestelling van de klant bevatte een coupon (Coupon/No Coupon) = Geen coupon
       * Is de laatste bestelling van de klant? = Nee
 
-   * 
-     [!UICONTROL-formule]: `B/A`
+   * &#x200B;
+
+     [!UICONTROL -formule]: `B/A`
    * [!UICONTROL Format]: `Percentage %`
 
    * Selecteer statistisch significant getal in `Customer's by lifetime orders` grafiek of 1-5.
@@ -288,7 +297,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * Metrisch `B`: `Number of non last orders`
 * [!UICONTROL Formula]: `Repeat order probability`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's order number`
 * [!UICONTROL Chart type]: `Bar chart`
@@ -309,8 +318,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * De eerste bestelling van de klant is voorzien van een coupon? (Coupon/No coupon) = Coupon
       * Op de order is coupon toegepast? (Coupon/No coupon) = Coupon
 
-   * 
-     [!UICONTROL-formule]: `C/B`
+   * &#x200B;
+
+     [!UICONTROL -formule]: `C/B`
    * [!UICONTROL Format]: `Percentage %`
 
 * Metrisch `A`: `Coupon-acquired customers`
@@ -318,9 +328,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * Metrisch `C`: `Number of repeat orders with coupon`
 * [!UICONTROL Formula]: `% of repeat orders with coupon`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Table` (kan deze tabel omzetten voor een betere visualisatie)
 
 * **niet-coupon-verworven het gebruikstarief van de klantencoupon (herhaalde orden)**
@@ -339,8 +349,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * De eerste bestelling van de klant is voorzien van een coupon? (Coupon/No coupon) = Geen coupon
       * Op de order is coupon toegepast? (Coupon/No coupon) = Coupon
 
-   * 
-     [!UICONTROL-formule]: `C/B`
+   * &#x200B;
+
+     [!UICONTROL -formule]: `C/B`
    * [!UICONTROL Format]: `Percentage %`
 
 * Metrisch `A`: `Non-coupon-acquired customers`
@@ -348,9 +359,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * Metrisch `C`: `Number of repeat orders with coupon`
 * [!UICONTROL Formula]: `% of repeat orders with coupon`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Table` (kan deze tabel omzetten voor een betere visualisatie)
 
 * **het gebruiksdetails van de coupon (eerste tijdorden)**
@@ -359,7 +370,8 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * bestelnummer van de klant = 1
       * Aantal opdrachten met deze coupon > 10
 
-   * 
+   * &#x200B;
+
      [!UICONTROL Metric]: `Revenue`
    * [!UICONTROL Filter]:
       * bestelnummer van de klant = 1
@@ -371,8 +383,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * Aantal opdrachten met deze coupon > 10
 
    * [!UICONTROL Formula]: `B-C` (als C negatief is); B+C (als C positief is)
-   * 
-     [!UICONTROL-indeling]: `Currency`
+   * &#x200B;
+
+     [!UICONTROL -indeling]: `Currency`
 
    * [!UICONTROL Metric]: `Average order value`
    * [!UICONTROL Filter]:
@@ -385,10 +398,10 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * [!UICONTROL Formula]: `Gross revenue from FTO`
 * Metrisch `E`: `Average order value for FTO`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `coupon code`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Table`
 >[!NOTE]
 >
@@ -399,22 +412,23 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `Number or orders with coupon`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Scalar`
 
 * **Netto opbrengst van orden met coupons (allen tijd)**
-   * 
+   * &#x200B;
+
      [!UICONTROL Metric]: `Revenue`
    * [!UICONTROL Filter]:
       * Op de order is coupon toegepast? (Coupon/No coupon) = Coupon
 
 * Metrisch `A`: `Net revenue from orders with coupons`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Scalar`
 
 * **Kortingen van coupons (allen tijd)**
@@ -422,9 +436,9 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `Coupon discount amount`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Scalar`
 
 * **Aantal orden met en zonder coupons**
@@ -432,7 +446,7 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `Number of orders`
 * [!UICONTROL Time period]: `Last 24 months`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Order has coupon applied? (Coupon/No coupon)`
 * [!UICONTROL Chart type]: `Stacked column`
@@ -444,10 +458,10 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 
 * Metrisch `A`: `New customers`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's coupon usage`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Pie`
 
 * **details van het gebruiksgebruik van de coupon**
@@ -455,7 +469,8 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
    * [!UICONTROL Filter]:
       * Aantal opdrachten met deze coupon > 10
 
-   * 
+   * &#x200B;
+
      [!UICONTROL Metric]: `Revenue`
    * [!UICONTROL Filter]:
       * Aantal opdrachten met deze coupon > 10
@@ -465,21 +480,25 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
       * Aantal opdrachten met deze coupon > 10
 
    * [!UICONTROL Formula]: `B-C` (if `C` is negatief); `B+C` (if `C` is positief)
-   * 
-     [!UICONTROL-indeling]: `Currency`
+   * &#x200B;
+
+     [!UICONTROL -indeling]: `Currency`
 
    * [!UICONTROL Formula]: `C/(B-C)` (if `C` is negatief); `C/(B+C)` (if `C` is positief)
-   * 
-     [!UICONTROL-indeling]: `Percentage`
+   * &#x200B;
+
+     [!UICONTROL -indeling]: `Percentage`
 
    * [!UICONTROL Metric]: `Average order value`
    * [!UICONTROL Filter]:
       * Aantal opdrachten met deze coupon > 10
 
-   * 
-     [!UICONTROL-formule]: `C/A`
-   * 
-     [!UICONTROL-indeling]: `Currency`
+   * &#x200B;
+
+     [!UICONTROL -formule]: `C/A`
+   * &#x200B;
+
+     [!UICONTROL -indeling]: `Currency`
 
    * [!UICONTROL Metric]: `Distinct buyers`
    * [!UICONTROL Filter]:
@@ -494,10 +513,10 @@ Extra kolommen die moeten worden gemaakt als gastorders NIET worden ondersteund:
 * [!UICONTROL Formula]: `Average order discount`
 * Metrisch `H`: `Distinct buyers`
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `coupon code`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Table`
 
 >[!NOTE]

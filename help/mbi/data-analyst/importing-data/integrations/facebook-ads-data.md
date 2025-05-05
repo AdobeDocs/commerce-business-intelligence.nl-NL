@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Facebook Ads] gegevens verwacht
 
-Nadat u uw  [!DNL Facebook Ads]  rekening ](../integrations/facebook-ads.md) hebt verbonden [, kunt u de [ Manager van de Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat u uw  [!DNL Facebook Ads]  rekening [&#128279;](../integrations/facebook-ads.md) hebt verbonden , kunt u de [ Manager van de Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
 Dit onderwerp geeft u een kort overzicht van de lijsten Adobe adviseert u aan uw Data Warehouse synchroniseren. Dit benadrukt slechts de kernlijsten, aangezien er vrij een paar subtables zijn.
 

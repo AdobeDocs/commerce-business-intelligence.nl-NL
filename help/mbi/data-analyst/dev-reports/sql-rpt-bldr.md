@@ -133,7 +133,7 @@ Berekende kolommen die zijn gemaakt met [!DNL SQL] zijn niet afhankelijk van upd
 
 Meestal kunnen verschillen in resultaten worden toegeschreven aan updatecycli. Als [!DNL Commerce Intelligence] bezig is gegevens van uw gegevensbestand aan uw Data Warehouse te herhalen, zou u verschillende resultaten kunnen zien zelfs wanneer het gebruiken van de zelfde vraag.
 
-Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html) moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.[
+Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html) moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.
 
 Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn.
 

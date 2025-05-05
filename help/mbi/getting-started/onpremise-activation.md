@@ -118,7 +118,7 @@ Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your M
 
 [!UICONTROL Port]: `3306`
 
-[!UICONTROL-gebruikersnaam]: `mbi`
+[!UICONTROL -gebruikersnaam]: `mbi`
 
 [!UICONTROL Password]: [ invoerwachtwoord dat in de vorige sectie ] wordt getoond
 
@@ -126,7 +126,7 @@ Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your M
 
 [!UICONTROL Table Prefixes]: [ verlaten leeg als er geen lijstvoorvoegsels ] zijn
 
-## Plaats uw **]montages van de Tijdzone van 0}[!UICONTROL **
+## Plaats uw **montages van de Tijdzone van 0&rbrace;**
 
 ![](../assets/time-zone-settings.png)
 

@@ -77,7 +77,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 
 * **`[!DNL Zendesk] user's`** table
    * `User is agent? (Yes/No) `
-   * 
+   * &#x200B;
       * `Column type` - `Same Table > Calculation`
 
       * `Input columns` - `role` , `email`
@@ -161,19 +161,19 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 * `Ticket's latest solved date`
 * `First agent response date`
 * `Seconds to resolution`
-   * 
+   * &#x200B;
       * `Column type` - `Same Table > Date Difference`
 
       * `Ticket's latest solved date` minus `created_at`
 
 * **`Seconds to first response`**
-   * 
+   * &#x200B;
       * `Column type` - `Same Table > Date Difference`
 
       * `First agent response date` minus `created_at`
 
 * **`Requester's ticket number`**
-   * 
+   * &#x200B;
       * `Column type` - `Same Table > Event Number`
 
       * `Event Owner` - `requester_id`
@@ -181,7 +181,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
       * `Event Rank` - `created_at`
 
 * **`Ticket created_at (hour of day)`**
-   * 
+   * &#x200B;
       * `Column type` - &quot;Zelfde tabel > Berekening&quot;
 
       * `Input columns` - `created_at`
@@ -191,7 +191,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
       * `Datatype` - Geheel getal
 
 * **`Ticket created_at (day of week)`**
-   * 
+   * &#x200B;
       * `Column type` - &quot;Zelfde tabel > Berekening&quot;
 
       * `Input columns` - `created_at`
@@ -204,7 +204,8 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
    * Selecteer een definitie: `Count`
    * [!UICONTROL Create Path]:
    * [!UICONTROL Many]: `[!DNL Zendesk] tickets.email`
-   * 
+   * &#x200B;
+
      [!UICONTROL One]: `customer_entity.email`
 
    * Selecteer een [!UICONTROL table]: `[!DNL Zendesk] tickets`
@@ -214,7 +215,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 
 * **`User's lifetime number of support tickets requested`**
 * **`Has user filed a support ticket? (Yes/No)`**
-   * 
+   * &#x200B;
       * `Column type` - &quot;Zelfde tabel > Berekening&quot;
 
       * `Input columns` - `User's lifetime number of support tickets requested`
@@ -401,7 +402,8 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 * `Chart Type`: `Column`
 
 * **[!UICONTROL Number of new users who have and have not filed tickets]**
-   * 
+   * &#x200B;
+
      [!UICONTROL Metric]: Users
 
 * Metrisch `A`: `New users`

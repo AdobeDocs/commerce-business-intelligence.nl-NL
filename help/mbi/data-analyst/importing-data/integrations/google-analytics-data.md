@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Nadat u een [!DNL Google Analytics] integratie hebt verbonden, kunt u met uw [!DNL Google Analytics] metriek *onmiddellijk in`Visual Report Builder`* in wisselwerking staan. Wanneer u `Visual Report Builder` invoert en u op **[!UICONTROL Add a Metric]** klikt, wordt een reeks meetgegevens uit het profiel [!DNL Google Analytics] weergegeven in een vervolgkeuzelijst direct onder de meetgegevens in de Data Warehouse.
 
-De [!DNL Google Analytics] integratie is levend ** - dit betekent dat `Report Builder` om gegevens van [!DNL Google Analytics] vraagt *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek die u kunt toegang hebben precies worden bepaald aangezien zij in [!DNL Google Analytics] zijn, en dat deze waarden niet ** in uw [!DNL Commerce Intelligence] rekening worden gespaard - slechts visueel getoond in uw rapporten.
+De [!DNL Google Analytics] integratie is levend **&#x200B; - dit betekent dat `Report Builder` om gegevens van [!DNL Google Analytics] vraagt *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek die u kunt toegang hebben precies worden bepaald aangezien zij in [!DNL Google Analytics] zijn, en dat deze waarden niet &#x200B;** in uw [!DNL Commerce Intelligence] rekening worden gespaard - slechts visueel getoond in uw rapporten.
 
 +++Ondersteunde metriek en Dimensionen (Googles Analytics 3 of Universal Analytics)
 

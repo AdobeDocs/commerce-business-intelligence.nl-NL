@@ -392,7 +392,7 @@ Gebruikersgroepen zijn logische groepen gebieden die zijn toegewezen aan specifi
 
 Gebruikersgroepen configureren:
 
-1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] **, om bestaande gebruikersgroepen te bekijken.
+1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] &#x200B;**, om bestaande gebruikersgroepen te bekijken.
 
    ![ vorm gebruikersgroepen ](../../assets/configure-user-groups.png)
 

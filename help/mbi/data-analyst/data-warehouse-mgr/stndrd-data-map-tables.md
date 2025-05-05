@@ -43,7 +43,7 @@ Om een mappinglijst te maken, moet u een twee-kolom spreadsheet tot stand brenge
 
 In de eerste kolom, ga de waarden in die in uw gegevensbestand met **worden opgeslagen slechts één waarde in elke rij**. `pa` en `PA` kunnen bijvoorbeeld niet op dezelfde regel staan. Elke invoer moet een eigen rij hebben. Zie hieronder voor een voorbeeld.
 
-In de tweede kolom, ga in wat deze waarden **** zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
+In de tweede kolom, ga in wat deze waarden **&#x200B;**&#x200B;zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
 
 ![](../../assets/Mapping_table_examples.jpg)
 

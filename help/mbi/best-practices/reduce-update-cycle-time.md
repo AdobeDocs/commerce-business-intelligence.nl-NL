@@ -39,7 +39,7 @@ Aangezien [!DNL Commerce Intelligence] alleen cachebewerkingen uitvoert voor gra
 
 ## Uw database optimaliseren voor analyse
 
-Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en grafieknut, kunt u uw gegevensbestand voor analyse ](../best-practices/opt-db-analysis.md) ook [ optimaliseren.
+Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en grafieknut, kunt u uw gegevensbestand voor analyse [&#128279;](../best-practices/opt-db-analysis.md) ook  optimaliseren.
 
 ## Omloop omhoog
 

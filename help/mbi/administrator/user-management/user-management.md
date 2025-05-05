@@ -50,7 +50,7 @@ Met deze machtigingen kunnen gebruikers bepaalde handelingen uitvoeren of toegan
 
 >[!NOTE]
 >
->_u kunt de toegang van de a **[!UICONTROL Standard]**gebruiker [ tot specifieke metriek ](../../administrator/user-management/restrict-metric-access.md) beperken._
+>_u kunt de toegang van de a **[!UICONTROL Standard]**&#x200B;gebruiker [ tot specifieke metriek ](../../administrator/user-management/restrict-metric-access.md) beperken._
 >
 >** [!UICONTROL Standard] _de gebruikers kunnen tot het Factureren met een extra toestemming toegang hebben plaatsend._
 >

@@ -48,7 +48,7 @@ Elke rij in de tabel `enterprise_rma` (wordt vaak `magento_rma` in Adobe Commerc
 |---|---|---|
 | `Number of returns` | The number of returns requested. | `Operation` column: `entity id`<br>`Operation`: `Count`<br>`Timestamp` Column: `date requested` |
 | `Total returned amount` | Het totale geretourneerde monetaire bedrag. | `Operation ` Kolom: `Return's total value`<br>`Operation`: Som <br>`Timestamp` Kolom: gevraagde datum |
-| `Average returned amount` | Het gemiddelde monetaire bedrag dat is geretourneerd. | `Operation`` Column: Return's total value`<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested` |
+| `Average returned amount` | Het gemiddelde monetaire bedrag dat is geretourneerd. | `Operation` ` Column: Return's total value`<br>`Operation`: `Average`<br>`Timestamp` Column: `date requested` |
 | `Average time to return` | De gemiddelde tijd van orde om terug te keren. | `Operation` Kolom: seconden tussen de aanmaakdatum van de order en de opgevraagde datum van de geretourneerde waarde <br>`Operation`: `Average`<br>`Timestamp` Kolom: `date requested` |
 
 {style="table-layout:auto"}

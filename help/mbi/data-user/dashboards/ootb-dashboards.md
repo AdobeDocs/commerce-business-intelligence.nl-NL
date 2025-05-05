@@ -89,7 +89,7 @@ Het dashboard van `Users to target` bevat tabellen met diagrammen waarin gebruik
 
 * Lijst met topsponsors die de afgelopen `X` dagen actief waren (die u mogelijk wilt belonen)
 
-Gebruikend uw hulpmiddelen van de gegevensuitvoer, is het gemakkelijk om e-maillijsten van gebruikers met gelijkaardig het kopen gedrag voor doel marketing ](http://blog.rjmetrics.com/creating-contact-lists-for-top-customers/) tot stand te brengen.[
+Gebruikend uw hulpmiddelen van de gegevensuitvoer, is het gemakkelijk om e-maillijsten van gebruikers met gelijkaardig het kopen gedrag voor doel marketing [&#128279;](http://blog.rjmetrics.com/creating-contact-lists-for-top-customers/) tot stand te brengen.
 
 ## Gebruikersactiviteit
 

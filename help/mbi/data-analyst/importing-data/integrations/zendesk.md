@@ -31,7 +31,7 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 
 ## Open de pagina met [!DNL Zendesk] referenties in [!DNL Commerce Intelligence] {#stepone}
 
-1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > ** Gegevensbronnen **> **Integraties]**.
+1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > **&#x200B; Gegevensbronnen &#x200B;**> **Integraties]**.
 1. Klik op **[!UICONTROL Add Integration]** aan de rechterkant van het scherm.
 1. Klik op het pictogram [!DNL Zendesk] . Hierdoor wordt de aanmeldingspagina van [!DNL Zendesk] geopend.
 

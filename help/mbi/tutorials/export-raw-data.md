@@ -34,7 +34,7 @@ U kunt onbewerkte gegevens op twee manieren exporteren in [!DNL Commerce Intelli
 
 Als u de lijst van [!UICONTROL Manage Data] tabel wilt uitvoeren, hebt u [ Admin ](../administrator/user-management/user-management.md) toestemmingen nodig.
 
-1. Klik **[!UICONTROL Manage Data** > ** de Gegevens van de Uitvoer **> * Onbewerkte Uitvoer van Gegevens]**.
+1. Klik **[!UICONTROL Manage Data** > **&#x200B; de Gegevens van de Uitvoer &#x200B;**> * Onbewerkte Uitvoer van Gegevens]**.
 1. Er wordt een `Export List` weergegeven van recent gemaakte gegevens die worden geëxporteerd, indien aanwezig. Klik op **[!UICONTROL Add Export]** om een exportbewerking te maken.
 1. Het dialoogvenster `New Raw Data Export` wordt weergegeven. Hier kunt u het exporteren aanpassen door kolommen en filters te selecteren of te deselecteren:
 

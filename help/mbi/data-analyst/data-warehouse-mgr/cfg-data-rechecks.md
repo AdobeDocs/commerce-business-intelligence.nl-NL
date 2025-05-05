@@ -56,7 +56,7 @@ Als u de frequentie voor het opnieuw controleren wilt wijzigen, klikt u op het s
 
 ![](../../assets/dwm-recheck.png)
 
-Soms ziet u `Paused` in de kolom `Changes?` . Deze waarde toont wanneer de 0} replicatiemethode van de lijst ](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) aan `Paused` wordt geplaatst.[
+Soms ziet u `Paused` in de kolom `Changes?` . Deze waarde toont wanneer de 0&rbrace; replicatiemethode van de lijst [&#128279;](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) aan `Paused` wordt geplaatst.
 
 [!DNL Adobe] raadt u aan deze kolommen te controleren om de updates te optimaliseren en ervoor te zorgen dat de verwisselbare kolommen opnieuw worden gecontroleerd. Als de frequentie voor het opnieuw controleren van een kolom hoog is gezien hoe vaak de gegevens veranderen, adviseert de Adobe het te verminderen om uw updates te optimaliseren.
 

@@ -25,7 +25,7 @@ Als u enkele voorbeeldrapporten wilt volgen die in dit onderwerp worden besproke
 
 ## Metrische gegevens analyseren zonder tijdstempels {#notimestamp}
 
-Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, bevat een inventarislijst vaak slechts één rij voor elke SKU. In dat geval, zou u metrisch ](../data-user/reports/ess-manage-data-metrics.md) moeten creëren zonder timestamp te specificeren.[
+Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, bevat een inventarislijst vaak slechts één rij voor elke SKU. In dat geval, zou u metrisch [&#128279;](../data-user/reports/ess-manage-data-metrics.md) moeten creëren zonder timestamp te specificeren.
 
 Wanneer u een dergelijke metrische waarde gebruikt in de rapportage, ziet u dat bij het toevoegen van deze metrische waarde aan een rapport automatisch een onafhankelijke `Time Interval` van `None` en `Time Range` van `Global` wordt ingesteld:
 

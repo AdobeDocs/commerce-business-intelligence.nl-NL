@@ -44,11 +44,11 @@ Te maken kolommen
 * Selecteer een definitie: `Age`
 * Selecteer een [!UICONTROL column]: `created_at`
 
-* **`Customer's order number`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
-* **`Is customer's last order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
-* **`Seconds since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
-* **`Months since order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
-* **`Months since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Customer's order number`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
+* **`Is customer's last order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
+* **`Seconds since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
+* **`Months since order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
+* **`Months since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
 
 ## Metrisch
 
@@ -69,27 +69,27 @@ Geen nieuwe metriek!
 * [!UICONTROL Metric]: aantal bestellingen
 
 * [!UICONTROL Formula]: waarschijnlijkheid van eerste herhalingsvolgorde
-* 
-  [!UICONTROL-formule]: `A/B`
-* 
+* &#x200B;
+  [!UICONTROL -formule]: `A/B`
+* &#x200B;
   [!UICONTROL Format]: `Percent`
 
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Scalar`
 
 * **Herhaal orde kansingsmaanden sinds orde**
 * Metrisch A: Volgorde van maanden sinds vorige orde (huid) herhalen
 * [!UICONTROL Metric]: `Number of orders`
-* 
+* &#x200B;
   [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
 * Metrisch B: Laatste bestellingen per maand sinds bestelling (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
-* 
+* &#x200B;
   [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
@@ -97,29 +97,29 @@ Geen nieuwe metriek!
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
-* 
+* &#x200B;
   [!UICONTROL Group door]: `Independent`
 
 * Metrisch D: All-time last orders (hide)
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
-* 
+* &#x200B;
   [!UICONTROL Group door]: `Independent`
 
 * [!UICONTROL Formula]: waarschijnlijkheid van eerste herhalingsvolgorde
-* 
-  [!UICONTROL-formule]: `(C-A)/(C+D-A-B)`
-* 
+* &#x200B;
+  [!UICONTROL -formule]: `(C-A)/(C+D-A-B)`
+* &#x200B;
   [!UICONTROL Format]: `Percent`
 
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Months since previous order`
 * Bovenkant weergeven.Onder: bovenste 24 categorieën, gesorteerd op categorienaam
 
-* 
+* &#x200B;
   [!UICONTROL Chart type]: `Line`
 
 Het waarschijnlijkheidsrapport voor de eerste herhalingsvolgorde vertegenwoordigt de Totaal aantal herhalingsorders / Totaal aantal bestellingen. Elke order is een kans om een herhalingsvolgorde te maken; het aantal herhalingsorders is de subset van de orders die daadwerkelijk worden uitgevoerd.

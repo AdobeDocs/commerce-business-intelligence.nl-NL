@@ -27,7 +27,7 @@ Als u de aanschafbronnen van gebruikers nog niet bijhoudt in uw database, kunt u
 
 ### (Optie 1) Brongegevens voor orderverwijzing bijhouden via [!DNL Google Analytics E-Commerce]
 
-Als u [!DNL Google Analytics E-Commerce] gebruikt om uw bestelling- en verkoopgegevens bij te houden, kunt u de [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) gebruiken om de brongegevens van elke bestelling te synchroniseren. Op deze manier kunt u inkomsten en orders segmenteren op verwijzingsbron (bijvoorbeeld `utm_source` of `utm_medium` ). U krijgt ook een idee van aanschafbronnen van klanten via [!DNL Commerce Intelligence] aangepaste afmetingen zoals `User's first order source` .
+Als u [!DNL Google Analytics E-Commerce] gebruikt om uw bestelling- en verkoopgegevens bij te houden, kunt u de [[!DNL [Google Analytics E-Commerce Connector]]](../importing-data/integrations/google-ecommerce.md) gebruiken om de brongegevens van elke bestelling te synchroniseren. Op deze manier kunt u inkomsten en orders segmenteren op verwijzingsbron (bijvoorbeeld `utm_source` of `utm_medium` ). U krijgt ook een idee van aanschafbronnen van klanten via [!DNL Commerce Intelligence] aangepaste afmetingen zoals `User's first order source` .
 
 ### (Optie 2) Brongegevens van de [!DNL Google Analytics] -overname opslaan in uw database
 

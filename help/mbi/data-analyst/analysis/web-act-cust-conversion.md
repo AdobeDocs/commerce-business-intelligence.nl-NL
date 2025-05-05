@@ -19,7 +19,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt waarmee uw websiteactiviteit
 
 ## Vereisten
 
-**de Invoer uw reclame kostengegevens** - verbindt [!DNL [Google AdWords]](../importing-data/integrations/google-adwords.md) met [!DNL Adobe Commerce Intelligence] - dit synchroniseert automatisch uw [!DNL AdWords] uitgaven in Commerce Intelligence.
+**de Invoer uw reclame kostengegevens** - verbindt [[!DNL [Google AdWords]]](../importing-data/integrations/google-adwords.md) met [!DNL Adobe Commerce Intelligence] - dit synchroniseert automatisch uw [!DNL AdWords] uitgaven in Commerce Intelligence.
 
 **gegevens van het kanaal van de gebruikersverwerving van het Spoor** - om uw [!DNL Google AdWords] gegevens aan specifieke orden in uw gegevensbestand te binden, moet u [ gebruikersverwerving ](../analysis/google-track-user-acq.md) volgen via [!DNL Google Analytics E-commerce]. Hierdoor kunt u elke bestelling verbinden met een utm-bron en een medium.
 

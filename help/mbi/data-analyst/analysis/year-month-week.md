@@ -40,7 +40,8 @@ Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv
    * `created_at (month)` [!UICONTROL Calculation]: **to_char(A, &quot;mm-month&quot;)**
    * `created_at (day of the month)`&lt; [!UICONTROL Calculation]: **to_char(A, &quot;dd&quot;)**
    * `created_at (day of the week)` [!UICONTROL Calculation]: **to_char(A, &quot;d-Day&quot;)**
-   * ** `created_at (hour of the day)` [!UICONTROL Calculation]: **to_char (A, &quot;hh24&quot;)**
+   * **&#x200B; `created_at (hour of the day)` [!UICONTROL Calculation]: &#x200B;** to_char (A, &quot;hh24&quot;)**
+
      ![](../../assets/new-arch-create-calc.png)
 
 ## Metrisch
@@ -64,10 +65,10 @@ Geen.
 * Metrisch `A`: `This year`
 * Metrisch `B`: `Last year`
 * [!UICONTROL Time period]: `1 year ago to 0 years ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `created_at (month-day)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 * **MoM grafiek**
@@ -81,10 +82,10 @@ Geen.
 * Metrisch `A`: deze maand*
 * Metrisch `B`: Vorige maand*
 * [!UICONTROL Time period]: een maand geleden tot 0 maanden geleden
-* 
+* &#x200B;
   [!UICONTROL Interval]: None
 * [!UICONTROL Group by]: `created_at (day of month)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: Line
 
 * **WoW grafiek**
@@ -98,10 +99,10 @@ Geen.
 * Metrisch `A`: `This week`
 * Metrisch `B`: `Last week`
 * [!UICONTROL Time period]: `1 week ago to 0 weeks ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `created_at (day of week)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 * **grafiek DoD**
@@ -115,10 +116,10 @@ Geen.
 * Metrisch `A`: `Today`
 * Metrisch B: `Yesterday`
 * [!UICONTROL Time period]: `1 day ago to 0 days ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `created_at (hour of day)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.

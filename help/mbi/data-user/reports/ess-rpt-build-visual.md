@@ -29,7 +29,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      ![ Visuele Report Builder ](../../assets/magento-bi-visual-report-builder-add-metric.png)
 
-   * Kies metrisch [ ](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
+   * Kies metrisch [&#128279;](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
 
      De metrische waarde `New Customers` die in dit voorbeeld wordt gebruikt telt alle klanten, en sorteert de lijst door de datum de klant die voor een rekening wordt aangemeld. Het eerste rapport bevat een eenvoudige lijngrafiek, gevolgd door de tabel met gegevens.
 

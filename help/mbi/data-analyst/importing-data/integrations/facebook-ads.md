@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![](../../../assets/facebook-ads-logo.png)
 
-Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je campagne gestart op [!DNL Facebook] . Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) ](../../../data-analyst/analysis/roi-ad-camp.md) van gebruikers te bedienen die van uw campagnes worden verworven.[
+Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je campagne gestart op [!DNL Facebook] . Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [&#128279;](../../../data-analyst/analysis/roi-ad-camp.md) van gebruikers te bedienen die van uw campagnes worden verworven.
 
 Het verbinden van uw [!DNL Facebook Ad] gegevens met [!DNL Commerce Intelligence] is een eenvoudig proces in drie stappen:
 
