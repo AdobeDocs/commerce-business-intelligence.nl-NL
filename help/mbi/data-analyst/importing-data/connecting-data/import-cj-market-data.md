@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!DNL CJ Affiliate] -gegevens importeren
 
-Om [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Adobe Commerce Intelligence] in te voeren, volg eenvoudig de stappen hieronder en maak het resulterende dossier aan a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) vast. Met Adobe wordt de datatabel voor uw account ingesteld en kunt u gegevens onafhankelijk blijven uploaden.
+Om [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Adobe Commerce Intelligence] in te voeren, volg eenvoudig de stappen hieronder en maak het resulterende dossier aan a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) vast. Met Adobe wordt de datatabel voor uw account ingesteld en kunt u gegevens onafhankelijk blijven uploaden.
 
 ## [!DNL CJ Affiliate] -gegevens exporteren
 

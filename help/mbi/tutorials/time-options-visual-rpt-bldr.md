@@ -66,7 +66,7 @@ Nu kun je zien hoe impact elke maand vorig jaar was:
 
 ## Dezelfde metrische waarde vergelijken over verschillende tijdbereiken {#difftimerange}
 
-In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en niet reeds deze dimensie in uw Data Warehouse hebben, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
+In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en niet reeds deze dimensie in uw Data Warehouse hebben, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor hulp.
 
 De twee meest voorkomende voorbeelden in deze categorie zijn (1) het vergelijken van groeicijfers (omzet jaar-over-jaar of maand-over-maand) en (2) het beter begrijpen van recente trends in voorraden of verkoop van artikelen.
 

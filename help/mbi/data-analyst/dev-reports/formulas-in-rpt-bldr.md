@@ -65,4 +65,4 @@ In dit voorbeeld hebt u het perspectief `Stacked Columns` gebruikt om de resulta
 
 Hebt u in de bovenstaande voorbeelden gemerkt dat de formules `timestamp` , `groupings` , `perspectives` en `filters` worden overgeërfd van de invoermeetgegevens? Houd in mening dat de formules kunnen worden gebruikt om `perspectives` en [ onafhankelijke tijdopties ](../../tutorials/time-options-visual-rpt-bldr.md) te gebruiken : target= &quot;_blank&quot;&rbrace;, enkel als metriek kan.
 
-Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).

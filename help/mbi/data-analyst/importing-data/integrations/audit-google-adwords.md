@@ -23,6 +23,6 @@ Iets vreemd gevonden in [[!DNL Google Adwords]](../integrations/google-adwords.m
 
 1. Nadat uw rekening aan [!DNL Google Adwords] Redacteur wordt toegevoegd, uitgezochte **[!UICONTROL File** > **&#x200B; Spreadsheet van de Uitvoer (CSV) &#x200B;**> **Gehele Rekening van de Uitvoer]**
 
-Hiermee wordt een `.csv` -bestand gemaakt dat alle informatie bevat die is opgeslagen in uw huidige [!DNL Google Adwords] -account. Op dit punt, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (ben zeker om dit dossier vast te maken!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het bestand via [!DNL Dropbox] of [!DNL Google Drive] met het team van [!DNL Commerce Intelligence] .
+Hiermee wordt een `.csv` -bestand gemaakt dat alle informatie bevat die is opgeslagen in uw huidige [!DNL Google Adwords] -account. Op dit punt, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) (ben zeker om dit dossier vast te maken!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het bestand via [!DNL Dropbox] of [!DNL Google Drive] met het team van [!DNL Commerce Intelligence] .
 
 Voor meer informatie over [!DNL Google Adwords] `.csv` dossieruitvoer, verwijs naar de officiële [[!DNL Google Adwords]  documentatie ](https://support.google.com/google-ads/editor/answer/38657?hl=en).

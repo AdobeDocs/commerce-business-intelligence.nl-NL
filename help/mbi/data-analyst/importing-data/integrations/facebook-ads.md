@@ -58,7 +58,7 @@ Zorg ervoor dat u [!DNL Facebook] campagnes in [!DNL Google Analytics] volgt. Zo
 
 ## Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
 * [Verbind uw  [!DNL Google Adwords]  rekening](../integrations/google-ecommerce.md)
 * [Bron voor verwijzing van de orde van het spoor via  [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uw [!DNL Adobe Commerce Intelligence] -omgeving
 
-Terwijl u uw handelsgegevens analyseert, dient u rekening te houden met deze factoren en algemene misvattingen. Als u hulp met het ervoor zorgen nodig hebt u uw schema van Commerce correct gebruikt, aarzel niet aan [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Terwijl u uw handelsgegevens analyseert, dient u rekening te houden met deze factoren en algemene misvattingen. Als u hulp met het ervoor zorgen nodig hebt u uw schema van Commerce correct gebruikt, aarzel niet aan [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
 
 ## [!DNL entity\_id]
 

@@ -48,4 +48,4 @@ Nadat u op **[!UICONTROL Connect with Stripe]** hebt geklikt, wordt een pagina m
 De [[!DNL Stripe]  API Documentatie ](https://stripe.com/docs/api) kan een nuttig middel zijn om meer over te leren hoe [!DNL Stripe] met [!DNL Commerce Intelligence] wordt geïntegreerd.
 
 * [Verwachte  [!DNL Stripe]  gegevens](../integrations/stripe-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

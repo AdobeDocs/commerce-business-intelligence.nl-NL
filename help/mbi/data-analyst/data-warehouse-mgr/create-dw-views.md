@@ -136,7 +136,7 @@ In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te 
 
 **zoekend extra hulp?**
 
-Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) hulp in de verwezenlijking van meningen aan. Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
+Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) hulp in de verwezenlijking van meningen aan. Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
 Gewoonlijk duurt het maken van een nieuwe `Data Warehouse View` voor het consolideren van 2-3 vergelijkbare gestructureerde tabellen vijf uur aan servicetijd, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
 

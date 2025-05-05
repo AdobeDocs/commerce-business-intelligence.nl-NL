@@ -161,7 +161,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 Geen zorgen. Dat het hier niet voorkomt, betekent niet dat het niet mogelijk is. Het Adobe team van Data Warehouse Analysts kan helpen.
 
-Om een nieuwe berekende kolom te bepalen, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) met details over precies wat u zou willen bouwen.
+Om een nieuwe berekende kolom te bepalen, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) met details over precies wat u zou willen bouwen.
 
 ## Gerelateerde documentatie
 

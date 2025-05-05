@@ -46,7 +46,7 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 **Accepteert u gastorden?**
 
-*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw klantenanalyses te verzekeren omvat alle klanten.*
+*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om uw klantenanalyses te verzekeren omvat alle klanten.*
 
 *niet zeker als u gastorden goedkeurt? Verwijs naar [ dit onderwerp ](../data-warehouse-mgr/guest-orders.md) om meer te leren!*
 
@@ -60,7 +60,7 @@ In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze lijs
 * **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
 * **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam in de `Customers` -tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om u te helpen het bouwen.
 * **[!UICONTROL Customer's order number (previous-current)]**: een samenvoeging van twee waarden in de kolom **[!UICONTROL Customer's order number]** . Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
 * **[!UICONTROL Coupon_code]**: geeft aan welke coupons op elke bestelling zijn gebruikt.
 * **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.

@@ -26,4 +26,4 @@ Als u uw [!DNL Bing Ads] -gegevens wilt exporteren, moet [!DNL Bing Ads Editor] 
 1. Klik in het dialoogvenster `Save As` op de map waarin u het exportbestand wilt opslaan.
 1. Kies in het vak `File name` een naam voor het exporteren van het bestand.
 1. Klik op **[!UICONTROL Save]**.
-1. Nadat het dossier wordt gedownload, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om eerste uit te voeren upload namens uw en opstelling de noodzakelijke achterste-eindafmetingen.
+1. Nadat het dossier wordt gedownload, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om eerste uit te voeren upload namens uw en opstelling de noodzakelijke achterste-eindafmetingen.

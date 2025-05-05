@@ -60,4 +60,4 @@ Deze tabel bevat dezelfde informatie als de tabel `facebook_ads_insights_{accoun
 ## Verwante
 
 * [Verbinding maken  [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

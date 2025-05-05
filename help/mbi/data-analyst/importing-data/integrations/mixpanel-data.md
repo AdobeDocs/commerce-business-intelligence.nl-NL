@@ -32,4 +32,4 @@ In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit
 ## Gerelateerde documentatie
 
 * [Verbinding maken  [!DNL Mixpanel]](../integrations/mixpanel.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

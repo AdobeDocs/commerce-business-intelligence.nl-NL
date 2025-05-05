@@ -60,7 +60,7 @@ De profiel-id [!DNL Google Analytics] van een bepaalde website identificeren:
 ## Verwante:
 
 * [Verwachte  [!DNL Google ECommerce]  gegevens](../integrations/google-ecommerce-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
 * [ Vestiging  [!DNL Google ECommerce]  het volgen ](https://support.google.com/analytics/answer/1009612?hl=en)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)
 * [ROI verhogen in uw reclamecampagnes](../../analysis/roi-ad-camp.md)

@@ -40,4 +40,4 @@ Als u de uitnodiging, op de [ login pagina ](https://dashboard.rjmetrics.com/v2/
 
 >[!IMPORTANT]
 >
->Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voorleggen.
+>Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen.

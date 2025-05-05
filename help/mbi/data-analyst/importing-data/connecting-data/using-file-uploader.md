@@ -24,7 +24,7 @@ Gebruik advertentiecampagnes als voorbeeld. Als u zowel online als offline campa
 ## Beperkingen en eisen {#require}
 
 1. **de enige ondersteunde indeling voor het uploaden van bestanden is `CSV` of`comma separated values`** . Als u in Excel werkt, kunt u het bestand opslaan in de `.csv` -indeling met de functie Opslaan als.
-1. **`CSV`-bestanden moeten`UTF-8 encoding`** gebruiken. Meestal is dit geen probleem. Als u deze fout terwijl het uploaden van een dossier ontmoet, [ raadpleeg dit artikel van Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html).
+1. **`CSV`-bestanden moeten`UTF-8 encoding`** gebruiken. Meestal is dit geen probleem. Als u deze fout terwijl het uploaden van een dossier ontmoet, [ raadpleeg dit artikel van Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html?lang=nl-NL).
 1. **de Dossiers kunnen niet groter zijn dan 100MB**. Als het bestand groter is dan dit, scheidt u de tabel in delen en slaat u deze op als afzonderlijke bestanden. U kunt de gegevens toevoegen nadat het eerste bestand is geladen.
 1. **Alle lijsten moeten a`primary key`** hebben. Er moet ten minste één kolom in de tabel staan die als `primary key` kan worden gebruikt, of een unieke id voor elke rij in de tabel. Om het even welke kolom die als a `primary key` wordt aangewezen kan *nooit* ongeldig zijn. Een `primary key` kan zo eenvoudig zijn als het toevoegen van een kolom die een getal aan elke rij geeft, of kan twee kolommen zijn die worden samengevoegd om een kolom met unieke waarden te maken (bijvoorbeeld `campaign name` en `date` ).
 

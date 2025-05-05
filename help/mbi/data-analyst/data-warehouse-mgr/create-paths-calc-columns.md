@@ -20,7 +20,7 @@ Wanneer [ het creëren van berekende kolommen ](../data-warehouse-mgr/creating-c
 1. Hoe de lijsten in uw gegevensbestanden op elkaar betrekking hebben
 1. De primaire en buitenlandse sleutels die deze verhouding bepalen
 
-Als u deze informatie kent, kunt u gemakkelijk tot een weg leiden die de instructies in dit onderwerp volgt. U kunt een technische deskundige in uw organisatie vragen of het [ Professionele team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) contacteren.
+Als u deze informatie kent, kunt u gemakkelijk tot een weg leiden die de instructies in dit onderwerp volgt. U kunt een technische deskundige in uw organisatie vragen of het [ Professionele team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) contacteren.
 
 ## Vernieuwen op tabelrelaties en toetstypen {#refresher}
 
@@ -79,7 +79,7 @@ U kunt nu het pad maken.
 
 * **[!DNL Commerce Intelligence]kan primaire/buitenlandse zeer belangrijke verhoudingen niet raden**. U wilt geen onjuiste gegevens in uw account introduceren, dus het maken van paden moet handmatig gebeuren.
 
-* **momenteel, kunnen de wegen slechts tussen twee verschillende lijsten** worden gespecificeerd. Vormt de logica die u probeert opnieuw te maken meer dan twee tabellen? Het zou dan zin aan (1) kunnen hebben zich bij de kolommen aan een intermediaire lijst eerst, dan aan de &quot;definitieve bestemmings&quot;lijst, of (2) overleg met het [ Professionele team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de beste benadering aan uw doelstellingen te vinden.
+* **momenteel, kunnen de wegen slechts tussen twee verschillende lijsten** worden gespecificeerd. Vormt de logica die u probeert opnieuw te maken meer dan twee tabellen? Het zou dan zin aan (1) kunnen hebben zich bij de kolommen aan een intermediaire lijst eerst, dan aan de &quot;definitieve bestemmings&quot;lijst, of (2) overleg met het [ Professionele team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om de beste benadering aan uw doelstellingen te vinden.
 
 * **de kolom van A kan slechts de buitenlandse zeer belangrijke verwijzing voor ÉÉN weg tegelijkertijd zijn**. Als `order_items.order_id` bijvoorbeeld naar `orders.id` verwijst, kan `order_items.order_id` niet naar iets anders wijzen.
 

@@ -78,7 +78,7 @@ Nadat u de bovenstaande analyse hebt gemaakt en een drempelwaarde voor het aanta
 
 Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. Wilt u meer weten? Bekijk deze zelfstudie om het levenslange aankoopgedrag van klanten te verkennen op basis van specifieke producten die ze hebben aangeschaft.
 
-Deze best practices worden geleverd door [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor meer info.
+Deze best practices worden geleverd door [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor meer info.
 
 ### Verwante
 

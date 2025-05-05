@@ -70,6 +70,6 @@ Als u een integratie wilt toevoegen, klikt u op **[!UICONTROL Manage Data** > **
 * [Tabellen consolideren](../../../best-practices/consolidating-your-tables.md)
 * [Toegang tot uw database beperken](../../../administrator/account-management/restrict-db-access.md)
 
-**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor.
+**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor.
 
 **als u een foutenstatus voor een integratie** ziet, controleer de [ sectie van het Oplossen van problemen ](https://support.magento.com/hc/en-us/sections/360003078151) voor hulp.

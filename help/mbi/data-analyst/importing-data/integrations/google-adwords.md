@@ -55,7 +55,7 @@ Er kunnen meerdere websites verbonden zijn met één [!DNL Google Analytics] -ac
 
 ## Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
 * [Bron voor verwijzing van de orde van het spoor via  [!DNL Google ECommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)

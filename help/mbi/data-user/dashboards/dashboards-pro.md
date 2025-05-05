@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De toegang tot deze dashboards hangt van uw accounttype en uw toegangsniveau af. Als u deze dashboards niet ziet, contacteer [ steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+>De toegang tot deze dashboards hangt van uw accounttype en uw toegangsniveau af. Als u deze dashboards niet ziet, contacteer [ steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
 
 ## Beschikbaarheid van rapporten
 
@@ -133,7 +133,7 @@ Het dashboard voor bestellingen biedt inzicht in het transactievolume van orders
 
 ## Producten
 
-Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), en hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Uw opslag moet [ worden gevormd om restituties ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) voor die te vullen grafieken te volgen.
+Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), en hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Uw opslag moet [ worden gevormd om restituties ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html?lang=nl-NL) voor die te vullen grafieken te volgen.
 
 >[!NOTE]
 >

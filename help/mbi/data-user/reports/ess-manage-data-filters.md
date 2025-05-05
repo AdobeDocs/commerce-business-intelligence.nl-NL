@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Als u meerdere metriek in [!DNL Commerce Intelligence] hebt die op een vergelijkbare manier moeten worden gefilterd (bijvoorbeeld testopdrachten uitfilteren), kunt u opgeslagen filtersets maken en deze op de metriek toepassen. Hierdoor bespaart u tijd, omdat u geen afzonderlijke filters hoeft toe te voegen wanneer u een metrisch object maakt of bewerkt.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html) voor meer informatie.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html?lang=nl-NL) voor meer informatie.
 
 >[!NOTE]
 >

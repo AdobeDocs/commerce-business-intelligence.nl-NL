@@ -17,7 +17,7 @@ Wanneer u zich aanmeldt bij het [!DNL Adobe Commerce Intelligence] -dashboard, k
 
 ## Waarom zou ik de status van de Update Cycle controleren?
 
-Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw [!DNL Commerce Intelligence] rekening controleert. Als u [ resultaten ziet die uw verwachtingen ](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md) niet ontmoeten, bijvoorbeeld, passen de dagelijkse verkoop in [!DNL Commerce Intelligence] niet aan wat u in uw e-commerceplatform of in uw [[!DNL Google]  e-commerceopbrengst ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) ziet u het laatste gegevenspunt kunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
+Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw [!DNL Commerce Intelligence] rekening controleert. Als u [ resultaten ziet die uw verwachtingen ](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md) niet ontmoeten, bijvoorbeeld, passen de dagelijkse verkoop in [!DNL Commerce Intelligence] niet aan wat u in uw e-commerceplatform of in uw [[!DNL Google]  e-commerceopbrengst ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=nl-NL) ziet u het laatste gegevenspunt kunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
 
 ## [!UICONTROL Read-Only] en [!UICONTROL Standard] Users
 
