@@ -4,14 +4,14 @@ description: Leer hoe te om een nieuwe  [!DNL Commerce Intelligence]  gebruiker 
 exl-id: 6b846e3d-fce0-4145-b298-9a9c57e6bd26
 role: Admin, User
 feature: User Management
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 99fc6c26017b5da4d066d400be1888ab4032590d
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
-# Een nieuwe [!DNL Adobe Commercer Intelligence] gebruiker toevoegen
+# Een nieuwe [!DNL Adobe Commerce Intelligence] gebruiker toevoegen
 
 1. Klik op de naam van uw bedrijf in de rechterbovenhoek en selecteer **[!UICONTROL Invite User]** in het vervolgkeuzemenu.
 1. Voer de naam en het e-mailadres van de gebruiker in.
@@ -28,7 +28,7 @@ De nieuwe gebruiker wordt een e-mail met login en wachtwoorddetails verzonden.
 
 >[!NOTE]
 >
->De nieuwe gebruiker heeft standaard geen dashboards. De Adobe adviseert dat u [&#128279;](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk deelt.
+>De nieuwe gebruiker heeft standaard geen dashboards. Adobe adviseert dat u [ ](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk deelt.
 
 ## Uw e-mailadres of wachtwoord bijwerken
 
@@ -40,4 +40,4 @@ Als u de uitnodiging, op de [ login pagina ](https://dashboard.rjmetrics.com/v2/
 
 >[!IMPORTANT]
 >
->Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen.
+>Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voorleggen.
