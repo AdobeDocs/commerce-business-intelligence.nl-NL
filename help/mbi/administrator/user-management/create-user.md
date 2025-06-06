@@ -28,7 +28,7 @@ De nieuwe gebruiker wordt een e-mail met login en wachtwoorddetails verzonden.
 
 >[!NOTE]
 >
->De nieuwe gebruiker heeft standaard geen dashboards. Adobe adviseert dat u [ ](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk deelt.
+>De nieuwe gebruiker heeft standaard geen dashboards. Adobe adviseert dat u [&#128279;](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk deelt.
 
 ## Uw e-mailadres of wachtwoord bijwerken
 
