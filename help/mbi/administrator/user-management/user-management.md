@@ -6,7 +6,7 @@ role: Admin, User
 feature: User Management
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Met deze machtigingen kunnen gebruikers bepaalde handelingen uitvoeren of toegan
 | **creeer/geef/schrap SQL rapporten** uit | ✔ |  |   |
 | **dashboards van de Kloon** | ✔ |   |   |
 | **voeg/beheer integratie** toe | ✔ |   |   |
-| **heb toegang tot de Manager van de Data Warehouse** | ✔ |   |   |
+| **heb toegang tot de Manager van Data Warehouse** | ✔ |   |   |
 | **Synchroniseer/unsync lijsten en kolommen** | ✔ |   |   |
 | **creeer/geef metriek** uit | ✔ |   |   |
 | **creeer/geef filterreeksen uit** | ✔ |   |   |
@@ -50,7 +50,7 @@ Met deze machtigingen kunnen gebruikers bepaalde handelingen uitvoeren of toegan
 
 >[!NOTE]
 >
->_u kunt de toegang van de a **[!UICONTROL Standard]**&#x200B;gebruiker [ tot specifieke metriek ](../../administrator/user-management/restrict-metric-access.md) beperken._
+>_u kunt de toegang van de a **[!UICONTROL Standard]**gebruiker [ tot specifieke metriek ](../../administrator/user-management/restrict-metric-access.md) beperken._
 >
 >** [!UICONTROL Standard] _de gebruikers kunnen tot het Factureren met een extra toestemming toegang hebben plaatsend._
 >
@@ -62,7 +62,7 @@ Naast de algemene machtigingsniveaus bestaan er ook twee andere gebruikersaandui
 
 ### Facturering
 
-`Billing` -gebruikers hebben toegang tot de facturatiepagina en kunnen betalingsgegevens wijzigen. Ook kan de Adobe contact met hen opnemen voor factureringsvragen.
+`Billing` -gebruikers hebben toegang tot de facturatiepagina en kunnen betalingsgegevens wijzigen. Ook kan Adobe contact met hen opnemen voor factureringsvragen.
 
 `Admin` -gebruikers hebben standaard toegang tot de tab `Billing` , maar `Standard` -gebruikers kunnen ook toegang krijgen als ze het selectievakje `Billing` in hun profiel hebben ingeschakeld.
 
@@ -70,7 +70,7 @@ Naast de algemene machtigingsniveaus bestaan er ook twee andere gebruikersaandui
 
 ### Technisch
 
-`Technical` -gebruikers hebben geen specifieke rechten. Deze instelling markeert alleen een technische contactpersoon binnen uw organisatie. Deze gebruikers kunnen door de Adobe worden benaderd voor technische vragen.
+`Technical` -gebruikers hebben geen specifieke rechten. Deze instelling markeert alleen een technische contactpersoon binnen uw organisatie. Adobe kan contact met deze gebruikers opnemen voor technische vragen.
 
 `Admin` -gebruikers kunnen nieuwe gebruikers aan hun account toevoegen door op **[!UICONTROL Account Settings]** > **[!UICONTROL Create Users]** te klikken en de aanwijzingen te volgen. Nadat de gebruiker in [!DNL Commerce Intelligence] is gemaakt, ontvangt de gelukkige persoon die u uitnodigt, e-mailinstructies over het voltooien van het accountinstellingsproces.
 

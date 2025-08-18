@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gemiddelde tijd tot eerste aankooprapport
 
-Veel klanten van de Adobe hebben een metrisch en grafiek genoemd `Average time to first purchase`, die de gemiddelde tijd tussen een groep de registratiedatum van gebruikers en eerste aankoopdatum toont. De gegevens slinken bijna altijd naar beneden naarmate de tijd dichter bij het heden komt.
+Veel Adobe-klanten hebben een metrische en diagramnaam `Average time to first purchase` die de gemiddelde tijd tussen de registratiedatum van een groep gebruikers en de eerste aankoopdatum weergeven. De gegevens slinken bijna altijd naar beneden naarmate de tijd dichter bij het heden komt.
 
 ![ gemiddelde tijd aan eerste orde ](../../assets/average-time-to-first-order.png)
 

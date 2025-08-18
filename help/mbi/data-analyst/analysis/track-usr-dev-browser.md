@@ -1,5 +1,5 @@
 ---
-title: Googles Analytics - Gebruikersapparaat en browsergegevens bijhouden in uw database
+title: Google Analytics - Gebruikersapparaat en browsergegevens bijhouden in uw database
 description: Leer hoeveel gebruikers zich daadwerkelijk aanmelden via mobiele apparaten en hoe dat de levensduurwaarde van deze gebruikers beïnvloedt.
 exl-id: 57b1bc45-b139-4370-86ea-2fbd021aa14d
 role: Admin, User

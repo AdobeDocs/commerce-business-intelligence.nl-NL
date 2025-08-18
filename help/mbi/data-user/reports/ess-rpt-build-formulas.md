@@ -95,7 +95,7 @@ In deze stap, slaat u het rapport als grafiek en ook als lijst op.
 
    * Klik in de rechterbovenhoek op **[!UICONTROL Save]** .
 
-   * Accepteer de standaardinstelling `Chart` voor `Type` .
+   * Accepteer de standaardinstelling `Type` voor `Chart` .
 
    * Kies de locatie `Dashboard` waar het rapport beschikbaar moet zijn.
 

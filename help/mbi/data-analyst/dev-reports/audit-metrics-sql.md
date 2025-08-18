@@ -1,6 +1,6 @@
 ---
-title: Werken met SQL-Report Builder
-description: Leer hoe u gegevens en metriek kunt controleren gebruikend de SQL Report Builder zodat u de resultaten met de gegevens van uw lokale gegevensbestand kunt vergelijken.
+title: Werken met SQL Report Builder
+description: Leer hoe u gegevens en metriek kunt controleren gebruikend SQL Report Builder zodat u de resultaten met de gegevens van uw lokale gegevensbestand kunt vergelijken.
 exl-id: d1d9e099-4138-43e6-aaec-6f15ebc5c4d4
 role: Admin, Data Architect, Data Engineer, User
 feature: Reports, Data Warehouse Manager, SQL Report Builder
@@ -36,7 +36,7 @@ Als u probeert om een specifieke discrepantie of een reeks gegevens te identific
 
 ## Opslaan en exporteren
 
-Wanneer het rapport aan uw behoeften voldoet, geeft u het rapport een andere naam, klikt u op **[!UICONTROL Save]** en selecteert u het type rapport dat u wilt opslaan en het dashboard. Bij het controleren van metriek, adviseert de Adobe sparen het rapport als `Table` en het bewaren aan een testdashboard.
+Wanneer het rapport aan uw behoeften voldoet, geeft u het rapport een andere naam, klikt u op **[!UICONTROL Save]** en selecteert u het type rapport dat u wilt opslaan en het dashboard. Bij het controleren van metriek, adviseert Adobe het rapport als `Table` op te slaan en het op een testdashboard te bewaren.
 
 Nadat het rapport is opgeslagen, navigeert u naar dat dashboard door `Go to Dashboard` te selecteren. Daarna kunt u de gegevens exporteren door het rapport te zoeken en **[!UICONTROL Options gear > Full `.csv`Exporteren]** of **[!UICONTROL Full Excel Export]** te selecteren.
 
@@ -48,4 +48,4 @@ U kunt ook aangepaste query&#39;s schrijven en de resultaten exporteren die u wi
 
 >[!NOTE]
 >
->Als u een discrepantie na het controleren van uw gegevens vindt, bekijk [ Contact Steun: De discrepanties van gegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=nl-NL) steunonderwerp voor meer informatie over wat te doen daarna.
+>Als u een discrepantie na het controleren van uw gegevens vindt, bekijk [ Contact Steun: De discrepanties van gegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html) steunonderwerp voor meer informatie over wat te doen daarna.

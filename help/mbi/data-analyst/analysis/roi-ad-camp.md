@@ -20,7 +20,7 @@ ht-degree: 0%
 * Je gegevens over advertentiekosten importeren:
    * [ verbind uw  [!DNL Google AdWords]  met  [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] besteedt in [!DNL Commerce Intelligence]
    * [ uploadt andere reclame kostengegevens ](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt geadviseerd voor kanalen zonder een directe schakelaar aan [!DNL Commerce Intelligence]
-   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [&#128279;](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
+   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [ ](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Kanaalgegevens van verwervingskanalen bijhouden](../analysis/google-track-user-acq.md)
 
 ## Aankoopcampagnes voor gebruikers
@@ -99,7 +99,7 @@ Gebruikt u productspecifieke advertenties? Als dat het geval is, kunt u de ROI o
 >
 >In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door ervan uit te gaan dat alle kosten werden besteed aan het genereren van aankopen, maakt het resulterende rendement van investeringen het worstcasescenario (hoogste kosten per aankoop). U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die 10 nieuwe gebruikers en 10 aankopen genereerde, zijn uw werkelijke kosten per aankoop $1. Onder de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.
 
-Alvorens u begint, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
+Alvorens u begint, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
 
 * De bron van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de bron van de gebruiker aansluit)
 * De campagne van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich aansluit bij gebruikerscampagne)

@@ -33,7 +33,7 @@ Het kolomtype `Sequential Comparison` : zoekt naar het verschil tussen opeenvolg
 | **`4`** | A | 2015-01-02 13 :00: 00 | 126000 |
 | **`5`** | B | 2015-01-03 13 :00: 00 | 217800 |
 
-In het bovenstaande voorbeeld is `Seconds since owner's previous event` de `Sequential Comparison` berekende kolom. Voor de `owner_id = A` wordt eerst een reeks geïdentificeerd op basis van de `timestamp` -kolom en vervolgens wordt de tijdstempel van de vorige gebeurtenis `timestamp` afgetrokken van de huidige gebeurtenis. In de derde rij in de tabel - de tweede rij voor `owner_id A` - is de waarde van `Seconds since owner's previous event` het aantal seconden tussen &#39;2015-01-01 02:00&#39; en &#39;2015-01-01 00 :00: 00&#39;. Dit verschil is twee uur = 7200 seconden.
+In het bovenstaande voorbeeld is `Seconds since owner's previous event` de `Sequential Comparison` berekende kolom. Voor de `owner_id = A` wordt eerst een reeks geïdentificeerd op basis van de `timestamp` -kolom en vervolgens wordt de tijdstempel van de vorige gebeurtenis `timestamp` afgetrokken van de huidige gebeurtenis. In de derde rij in de tabel - de tweede rij voor `owner_id A` - is de waarde van `Seconds since owner's previous event` het aantal seconden tussen &#39;2015-01-01 02 :00&#39; en &#39;2015-01-01 00 :00: 00&#39;. Dit verschil is twee uur = 7200 seconden.
 
 Voor dit berekende kolomtype heeft de rij die overeenkomt met de eerste gebeurtenis van de eigenaar een `NULL` -waarde.
 

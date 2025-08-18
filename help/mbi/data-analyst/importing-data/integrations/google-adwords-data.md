@@ -1,6 +1,6 @@
 ---
 title: Google Adwords-gegevens verwacht
-description: Leer hoe u de Manager van de Data Warehouse kunt gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+description: Leer hoe u Data Warehouse Manager kunt gebruiken om relevante gegevensvelden gemakkelijk bij te houden voor analyse.
 exl-id: b0085683-7bb1-4da2-b343-4309e4796f0c
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Google Adwords] gegevens verwacht
 
-Nadat [ u uw  [!DNL Google Adwords]  rekening ](../integrations/google-adwords.md) hebt verbonden, kunt u de [ Manager van de Data Warehouse ](../../data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat [ u uw  [!DNL Google Adwords]  rekening ](../integrations/google-adwords.md) hebt verbonden, kunt u de [ Manager van Data Warehouse ](../../data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
-Daar, merkt u twee lijsten beschikbaar voor replicatie in uw Data Warehouse:
+Er zijn twee tabellen beschikbaar voor replicatie naar uw Data Warehouse:
 
 * `campaigns[account-id]`
 * `adwords[account-id]`
@@ -45,12 +45,12 @@ De tabel `campaigns` bevat de volgende kolommen:
 |-----|-----|
 | `\_id` | De primaire sleutel voor de tabel |
 | `accountId` | De account-id |
-| [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adclicks) | Totaal aantal klikken voor de dag |
-| [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adcost) | Totale kosten van de campagne voor de dag |
-| [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
-| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=traffic_sources&amp;jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
-| [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=time&amp;jump=ga_date) | De datum waarop de campagne is gestart |
-| [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_impressions) | Aantal indrukken voor de dag |
+| [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adclicks) | Totaal aantal klikken voor de dag |
+| [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adcost) | Totale kosten van de campagne voor de dag |
+| [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
+| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=traffic_sources&jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=time&jump=ga_date) | De datum waarop de campagne is gestart |
+| [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_impressions) | Aantal indrukken voor de dag |
 | `profileId` | Profiel-id |
 | `profileName` | De profielnaam |
 | `\_updated\_at` | De datum en tijd van de laatste update voor deze rij |
@@ -65,12 +65,12 @@ De tabel `adwords` bevat de volgende kolommen:
 |-----|-----|
 | `\_id` | De primaire sleutel voor de tabel |
 | `accountId` | De account-id |
-| [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adclicks) | Totaal aantal klikken voor de dag |
-| [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adcost) | Totale kosten van de campagne voor de dag |
-| [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
-| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=traffic_sources&amp;jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
-| [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=time&amp;jump=ga_date) | De datum waarop de campagne is gestart |
-| [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&amp;group=adwords&amp;jump=ga_impressions) | Aantal indrukken voor de dag |
+| [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adclicks) | Totaal aantal klikken voor de dag |
+| [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adcost) | Totale kosten van de campagne voor de dag |
+| [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
+| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=traffic_sources&jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=time&jump=ga_date) | De datum waarop de campagne is gestart |
+| [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_impressions) | Aantal indrukken voor de dag |
 | `profileId` | Profiel-id |
 | `profileName` | De profielnaam |
 | `\_updated\_at` | De datum en tijd van de laatste update voor deze rij |
@@ -89,4 +89,4 @@ Gebruikend deze gegevens, kunt u beginnen [ metriek ](../../../data-user/reports
 
 Als u geen geconsolideerde tabel hebt en u maakt een mooi dashboard op de `adwords` -tabel, moet u de rapportage repliceren of dubbele metriek maken om die gegevens te vergelijken met uw [!DNL Facebook Ads] -gegevens. Met behulp van een geconsolideerde tabel kunt u naadloos [!DNL Facebook Ads] -gegevens opnemen in uw bestaande [!DNL Adwords] -rapporten. U kunt ook segmenteren op advertentieplatform.
 
-Als u reeds de gebieden hierboven hebt gesynchroniseerd, [ contacteer ons ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om uw advertentie uit te breiden.
+Als u reeds de gebieden hierboven hebt gesynchroniseerd, [ contacteer ons ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw advertentie uit te breiden.

@@ -37,7 +37,7 @@ Eén klant kan veel bestellingen plaatsen. De relatie tussen deze twee tabellen 
 >
 >`customer\_entity.entity\_id` is niet gelijk aan `sales\_flat\_order.entity\_id` . Het eerste kan worden beschouwd als een `customer\_id` en het tweede als een `order\_id.`
 
-Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) binnen de Data Warehouse tabel tot stand brengen. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
+Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) binnen het lusje van Data Warehouse tot stand brengen. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
 
 ![](../../assets/SFO___CE_path.png)
 
@@ -47,7 +47,7 @@ Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet be
 
 Eén bestelling kan veel items bevatten. De relatie tussen deze twee tabellen is `sales\_flat\_order.entity\_id = sales\_flat\_order\_item.order\_id` .
 
-Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) in de Data Warehouse tabel tot stand brengen. Wanneer u klaar bent om het pad te maken, definieert u het pad zoals hieronder wordt getoond.
+Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) in het lusje van Data Warehouse tot stand brengen. Wanneer u klaar bent om het pad te maken, definieert u het pad zoals hieronder wordt getoond.
 
 ![](../../assets/SFOI___SFO_path.png)
 
@@ -57,6 +57,6 @@ Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet be
 
 Eén product kan vele objecten aanschaffen. De relatie tussen deze twee tabellen is `catalog\_product\_entity.entity\_id = sales\_flat\_order\_item.product` .
 
-Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) binnen de Data Warehouse tabel tot stand brengen. Wanneer u klaar bent om het pad te maken, definieert u het pad zoals hieronder wordt getoond.
+Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) binnen het lusje van Data Warehouse tot stand brengen. Wanneer u klaar bent om het pad te maken, definieert u het pad zoals hieronder wordt getoond.
 
 ![](../../assets/SFOI___CPE_path.png)

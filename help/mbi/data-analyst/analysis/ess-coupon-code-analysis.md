@@ -62,49 +62,42 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 >De [!UICONTROL Time Period]** voor elk rapport wordt weergegeven als `All-time` . U kunt dit aanpassen aan uw analysebehoeften. Adobe raadt alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time` , `Year-to-date` of `Last 365 days` .
 
 * **Orders met coupons**
-   * &#x200B;
-
+   * 
      [!UICONTROL Metric]: `Orders`
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]:`Number (scalar)`
 
 * **Orders zonder coupons**
-   * &#x200B;
-
+   * 
      [!UICONTROL Metric]: `Orders`
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]:`Number (scalar)`
 
 * **Netto opbrengst van orden met coupons**
-   * &#x200B;
-
+   * 
      [!UICONTROL Metric]: `Revenue`
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
 * **Kortingen van coupons**
    * [!UICONTROL Metric]: `Coupon discount amount`
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -114,8 +107,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -125,8 +117,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [ A ] `Customer's first order's coupon_code` **IS**`[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -150,28 +141,23 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 
    * Formule maken: `Gross revenue`
       * [!UICONTROL Formula]: `(B – C)`
-      * &#x200B;
-
+      * 
         [!UICONTROL Format]: `Currency`
 
    * Create formule:**% disconted**
       * Formule: `(C / (B - C))`
-      * &#x200B;
-
+      * 
         [!UICONTROL Format]: `Percentage`
 
    * Formule maken: `Average order discount`
       * [!UICONTROL Formula]: `(C / A)`
-      * &#x200B;
-
+      * 
         [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
-   * &#x200B;
-
+   * 
      [!UICONTROL Chart type]: `Table`
 
 * **Gemiddelde levensinkomsten door eerste orde coupon**
@@ -180,8 +166,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [`A`] `coupon_code` **IS**`[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -191,12 +176,10 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Group by]: `Customer's first order's coupon_code`
-   * &#x200B;
-
+   * 
      [!UICONTROL Chart type]: **Column**
 
 * **Nieuwe klanten door coupon/niet-coupon verwerving**

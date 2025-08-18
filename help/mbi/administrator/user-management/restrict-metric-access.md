@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Naast het plaatsen van de niveaus van de gebruikerstoestemming, kunt u toegang tot metriek op een gebruiker-door-gebruiker basis ook beperken. Bijvoorbeeld, als u uw boekhoudingsafdeling toegang tot opbrengst-verwante metriek maar niet gebruiker-verwervingsmetriek wilt hebben, kunt u toegang tot die metriek beperken.
 
-In dergelijke gevallen raadt de Adobe aan het account van die gebruiker in te stellen op **[[!UICONTROL Standard]](../../administrator/user-management/user-management.md)** . **[!UICONTROL Standard]** de toestemmingen zouden aan gebruikers moeten worden gegeven die metriek, berekende kolommen, integraties, of gebruikers niet te hoeven tot stand te brengen of te veranderen, maar zij hebben toegang tot gegevens in de Data Warehouse nodig. Als u de toegang tot gegevens volledig wilt beperken, gebruikt u in plaats daarvan de **[!UICONTROL Read Only]** -machtigingen.
+In dergelijke gevallen raadt Adobe aan het account van die gebruiker in te stellen op **[[!UICONTROL Standard]](../../administrator/user-management/user-management.md)** . **[!UICONTROL Standard]** -machtigingen moeten worden gegeven aan gebruikers die geen metriek, berekende kolommen, integraties of gebruikers hoeven te maken of te wijzigen, maar wel toegang tot gegevens in de Data Warehouse nodig hebben. Als u de toegang tot gegevens volledig wilt beperken, gebruikt u in plaats daarvan de **[!UICONTROL Read Only]** -machtigingen.
 
 Nadat u het machtigingsniveau hebt ingesteld, kunt u de meetgegevens selecteren waartoe een **[!UICONTROL Standard]** -gebruiker toegang heeft door het volgende te doen:
 
@@ -26,7 +26,7 @@ Nadat u het machtigingsniveau hebt ingesteld, kunt u de meetgegevens selecteren 
 
 >[!NOTE]
 >
->Alle gebruikers met **[!UICONTROL Standard]** -machtigingen hebben toegang tot alle gegevens in de Data Warehouse via Gegevens exporteren, naast alle gegevens uit [!DNL Google Analytics] .
+>Alle gebruikers met **[!UICONTROL Standard]** -machtigingen hebben toegang tot alle gegevens in de Data Warehouse via Data Export, maar ook tot alle gegevens in [!DNL Google Analytics] .
 
 U kunt de toegang tot metrische informatie ook beperken door metrisch te bewerken en **[!UICONTROL Standard]** gebruikers te selecteren in de sectie **[[!UICONTROL User Rights]](../../data-user/reports/ess-manage-data-metrics.md)** .
 

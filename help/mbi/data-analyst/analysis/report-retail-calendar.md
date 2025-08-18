@@ -23,7 +23,7 @@ Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv
 
 ## Aan de slag
 
-U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 detailhandelkalender voor kleinhandelsjaren 2014 door 2017. Mogelijk moet u dit bestand aanpassen op basis van uw interne agenda voor de detailhandel en het datumbereik uitbreiden ter ondersteuning van uw historisch en huidige tijdframe. Nadat u het bestand hebt gedownload, gebruikt u de File Uploader om een Retail Calendar-tabel in uw [!DNL Commerce Intelligence] -Data Warehouse te maken. Als u een ongewijzigde versie van 4-5-4 detailhandelkalender gebruikt, zorg ervoor dat de structuur en de gegevenstypes van de gebieden in deze lijst het volgende aanpassen:
+U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 detailhandelkalender voor kleinhandelsjaren 2014 door 2017. Mogelijk moet u dit bestand aanpassen op basis van uw interne agenda voor de detailhandel en het datumbereik uitbreiden ter ondersteuning van uw historisch en huidige tijdframe. Nadat u het bestand hebt gedownload, gebruikt u de File Uploader om een Retail Calendar-tabel te maken in uw [!DNL Commerce Intelligence] Data Warehouse. Als u een ongewijzigde versie van 4-5-4 detailhandelkalender gebruikt, zorg ervoor dat de structuur en de gegevenstypes van de gebieden in deze lijst het volgende aanpassen:
 
 | Kolomnaam | Datatype kolom | Primaire sleutel |
 | --- | --- | --- |
@@ -50,8 +50,7 @@ U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 d
    * **Huidige datum**
       * [!UICONTROL Column type]: `Same table > Calculation`
       * [!UICONTROL Inputs]: `Date Retail`
-      * &#x200B;
-
+      * 
         [!UICONTROL Datatype]: `Datetime`
       * [!UICONTROL Calculation]: `case when A is null then null else to\_char(now(), 'YYYY-MM-DD 00:00:00') end`
 
@@ -63,8 +62,7 @@ U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 d
       * [!UICONTROL Column type]: E`vent Counter`
       * [!UICONTROL Local Key]: `Current date`
       * [!UICONTROL Remote Key]: `Retail calendar.Date Retail`
-      * &#x200B;
-
+      * 
         [!UICONTROL Operation]: `Max`
       * [!UICONTROL Operation value]: `Year Retail`
    * **inbegrepen in huidige detailhandelsjaar? (Ja/Nee)**
@@ -72,8 +70,7 @@ U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 d
       * [!UICONTROL Inputs]:
          * `A` - `Year Retail`
          * `B` - `Current retail year`
-      * &#x200B;
-
+      * 
         [!UICONTROL Datatype]: `String`
       * [!UICONTROL Calculation]: `case when A is null or B is null then null when A = B then 'Yes' else 'No' end`
    * **inbegrepen in vorige detailhandeljaar? (Ja/Nee)**
@@ -81,8 +78,7 @@ U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 d
       * [!UICONTROL Inputs]:
          * `A` - `Year Retail`
          * `B` - `Current retail year`
-      * &#x200B;
-
+      * 
         [!UICONTROL Datatype]: String
       * [!UICONTROL Calculation]: `case when A is null or B is null then null when (A = (B-1)) then 'Yes' else 'No' end`
 
@@ -143,79 +139,62 @@ Opmerking: er zijn geen nieuwe meetgegevens nodig voor deze analyse. Nochtans, z
       * [!UICONTROL Filter]:
          * `Created\_at (retail Year) = 2015`
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
-   * &#x200B;
-
+   * 
      [!UICONTROL Group by]: `Created\_at` (retail week)
-   * &#x200B;
-
+   * 
      [!UICONTROL Chart type]: `Line`
       * `multiple Y-axes` uitschakelen
 
 * **het overzicht van de Kleinhandelkalender (huidig detailhandelsjaar door maand)**
    * Metrisch `A`: `Revenue`
-      * &#x200B;
-
+      * 
         [!UICONTROL Metric]: `Revenue`
       * [!UICONTROL Filter]:
-         * &#x200B;
-
+         * 
            [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `B`: `Orders`
       * [!UICONTROL Metric]: `Number of orders`
       * [!UICONTROL Filter]:
-         * &#x200B;
-
+         * 
            [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `C`: `Avg order value`
       * [!UICONTROL Metric]: `Avg order value`
       * [!UICONTROL Filter]:
-         * &#x200B;
-
+         * 
            [!UICONTROL Include current retail year?]: `Yes`
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
-   * &#x200B;
-
+   * 
      [!UICONTROL Group by]: `Created\_at` (retail month)
-   * &#x200B;
-
+   * 
      [!UICONTROL Chart type]: `Line`
 
 * **het overzicht van de Kleinhandelkalender (vorig detailhandelsjaar door maand)**
    * Metrisch `A`: `Revenue`
-      * &#x200B;
-
+      * 
         [!UICONTROL Metric]: `Revenue`
       * [!UICONTROL Filter]:
-         * &#x200B;
-
+         * 
            [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `B`: `Orders`
       * [!UICONTROL Metric]: aantal bestellingen
       * [!UICONTROL Filter]:
-         * &#x200B;
-
+         * 
            [!UICONTROL Include current retail year?]: `Yes`
    * Metrisch `C`: `Avg order value`
       * [!UICONTROL Metric]: `Avg order value`
       * [!UICONTROL Filter]:
-         * &#x200B;
-
+         * 
            [!UICONTROL Include current retail year?]: `Yes`
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
-   * &#x200B;
-
+   * 
      [!UICONTROL Group by]: `Created\_at` (retail month)
-   * &#x200B;
-
+   * 
      [!UICONTROL Chart type]: `Line`
 
 ## Volgende stappen
@@ -224,4 +203,4 @@ In het bovenstaande ziet u hoe u een agenda voor handelsversies configureert die
 
 Als u bijvoorbeeld de maatstaven op klantniveau wilt weergeven in een 4-5-4-handelsagenda, maakt u een `Same Table` -berekening in de `customer\_entity` -tabel, vergelijkbaar met `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` die hierboven wordt beschreven. Vervolgens kunt u deze kolom gebruiken om de berekeningen `One to Many` JOINED\_COLUMN (zoals `Created_at (retail year)` ) en `Include in previous retail year? (Yes/No)` te reproduceren door de tabel `customer\_entity` bij de tabel `Retail Calendar` te voegen.
 
-Vergeet niet om alle nieuwe kolommen als afmetingen aan metriek [&#128279;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen. 
+Vergeet niet om alle nieuwe kolommen als afmetingen aan metriek [ toe te voegen alvorens nieuwe rapporten te bouwen. ](../data-warehouse-mgr/manage-data-dimensions-metrics.md)

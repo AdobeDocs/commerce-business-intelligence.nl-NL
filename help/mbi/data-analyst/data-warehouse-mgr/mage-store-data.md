@@ -21,7 +21,7 @@ Het platform van [!DNL Adobe Commerce] registreert en organiseert een grote vers
 
 Raadpleeg het volgende voorbeeld om deze concepten te bespreken:
 
-`Clothes4U` is een kledinghandelaar met zowel online als baksteen en mortierpresentie. [!DNL Magento Open Source] achter de website wordt gebruikt om gegevens te verzamelen en te ordenen.
+`Clothes4U` is een kleding-retailer met zowel een online als een baksteen- en mortierpresentie. [!DNL Magento Open Source] achter de website wordt gebruikt om gegevens te verzamelen en te ordenen.
 
 ## `catalog\_product\_entity`
 

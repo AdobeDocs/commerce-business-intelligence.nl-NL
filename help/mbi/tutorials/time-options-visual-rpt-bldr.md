@@ -1,5 +1,5 @@
 ---
-title: De Opties van de Tijd van het gebruik in de Visuele Report Builder
+title: De Opties van de Tijd van het gebruik in Visual Report Builder
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
 role: Admin, Data Architect, Data Engineer, User
@@ -25,7 +25,7 @@ Als u enkele voorbeeldrapporten wilt volgen die in dit onderwerp worden besproke
 
 ## Metrische gegevens analyseren zonder tijdstempels {#notimestamp}
 
-Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, bevat een inventarislijst vaak slechts één rij voor elke SKU. In dat geval, zou u metrisch [&#128279;](../data-user/reports/ess-manage-data-metrics.md) moeten creëren zonder timestamp te specificeren.
+Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, bevat een inventarislijst vaak slechts één rij voor elke SKU. In dat geval, zou u metrisch [ moeten creëren zonder timestamp te specificeren.](../data-user/reports/ess-manage-data-metrics.md)
 
 Wanneer u een dergelijke metrische waarde gebruikt in de rapportage, ziet u dat bij het toevoegen van deze metrische waarde aan een rapport automatisch een onafhankelijke `Time Interval` van `None` en `Time Range` van `Global` wordt ingesteld:
 
@@ -41,7 +41,7 @@ Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijke
 1. Klik op **[!UICONTROL Duplicate]** om een kopie van de metrische waarde te maken.
 1. Klik op de optie Algemeen **[!UICONTROL Time Range]** en vervolgens op **[!UICONTROL Moving Time Range]** . Stel deze in op `Last Year` .
 1. Klik op de optie global **[!UICONTROL Time Interval]** en stel deze in op `Monthly` .
-1. Met Report Builder wordt automatisch een tweede Y-as toegevoegd voor een tweede meting. Hef de selectie van het vak `Multiple Y-Axes` op.
+1. Report Builder voegt automatisch een tweede Y-as toe voor een tweede meting. Hef de selectie van het vak `Multiple Y-Axes` op.
 1. Vervolgens past u een onafhankelijke `Time Interval` toe op de eerste metrische waarde. Klik op **[!UICONTROL Time Options]** (klokpictogram) rechts van `first Revenue metric` .
 1. Klik op **[!UICONTROL Time Options]** in het uitgebreide venster dat boven het rapport wordt weergegeven.
 1. Stel in de vervolgkeuzelijst het volgende in:
@@ -66,7 +66,7 @@ Nu kun je zien hoe impact elke maand vorig jaar was:
 
 ## Dezelfde metrische waarde vergelijken over verschillende tijdbereiken {#difftimerange}
 
-In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en niet reeds deze dimensie in uw Data Warehouse hebben, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor hulp.
+In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en deze dimensie niet reeds in uw Data Warehouse hebben, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
 
 De twee meest voorkomende voorbeelden in deze categorie zijn (1) het vergelijken van groeicijfers (omzet jaar-over-jaar of maand-over-maand) en (2) het beter begrijpen van recente trends in voorraden of verkoop van artikelen.
 
@@ -93,7 +93,7 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
 
    * Vervolgens voegt u de aangepaste `Day number of the month` -dimensie toe door op **[!UICONTROL Group By]** te klikken en de dimensie te selecteren. Hiermee wordt het dagnummer van de maand van een bestelling geretourneerd. Een bestelling die op 2 maart wordt geplaatst, retourneert bijvoorbeeld `2` .
 
-   * Selecteer `Show All` in het vervolgkeuzemenu `Group By` en klik op **[!UICONTROL Apply]** . Dit leidt tot de x-aswaarden voor het rapport:
+   * Selecteer `Group By` in het vervolgkeuzemenu `Show All` en klik op **[!UICONTROL Apply]** . Dit leidt tot de x-aswaarden voor het rapport:
 
    ![](../assets/TO4.png)
 
@@ -127,14 +127,14 @@ Herinner me om de tijdwaaiers aan te plaatsen wat u wanneer het bouwen van dit r
 
 Klik op **[!UICONTROL Add Formula]** om de formules te maken. Voer de onderstaande formules in en klik op **[!UICONTROL Apply Changes]** als u klaar bent. Herhaal dit voor elk van de drie tijdsperioden:
 
-* Typ `D / A` in het veld `Formula` voor de waarde `last 7 days time period` .
-* Typ `D / (B/4)` in het veld `Formula` voor de waarde `last 28 days time period` .
+* Typ `last 7 days time period` in het veld `D / A` voor de waarde `Formula` .
+* Typ `last 28 days time period` in het veld `D / (B/4)` voor de waarde `Formula` .
 
   >[!NOTE]
   >
   >Het is belangrijk dat u de geselecteerde tijdbereiken hier normaliseert. Breek 28 dagen in vier weken in dit voorbeeld. U moet mogelijk verschillende logica op de formule toepassen.
 
-* Typ `D / C` in het veld `Formula` voor de waarde `last promo period` .
+* Typ `last promo period` in het veld `D / C` voor de waarde `Formula` .
 
   ![](../assets/Different_Time_Ranges_2.png)
 

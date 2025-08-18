@@ -22,7 +22,7 @@ Als u uw [!DNL Linkshare] gegevens wilt overbrengen naar [!DNL Adobe Commerce In
 
 1. Ga in uw [!DNL Linkshare] -account naar **[!UICONTROL Reports** > **Run Reports].**
 
-1. Selecteer **[!UICONTROL Sales & Activity Report]** in het vervolgkeuzemenu `Report` .
+1. Selecteer `Report` in het vervolgkeuzemenu **[!UICONTROL Sales & Activity Report]** .
 
 1. Laat alle andere vervolgkeuzemogelijkheden de standaardselectie.
 

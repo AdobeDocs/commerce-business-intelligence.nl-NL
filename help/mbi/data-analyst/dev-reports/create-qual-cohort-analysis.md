@@ -37,9 +37,9 @@ Als u echter het cohortgedrag van meerdere gebruikerssegmenten in hetzelfde coho
 
 ## Welke informatie moet ik verstrekken om mijn analyse te ondersteunen? {#support}
 
-Het creëren van een `qualitative cohort` rapport in `Report Builder` impliceert het Adobe analyst team dat sommige [ geavanceerde berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) op de noodzakelijke lijsten creeert.
+Creërend een `qualitative cohort` rapport in `Report Builder` impliceert het de analistenteam van Adobe die sommige [ geavanceerde berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) creëren op de noodzakelijke lijsten.
 
-Om deze te bouwen, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) (en verwijzing dit artikel!). Dit is wat u moet weten:
+Om deze te bouwen, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (en verwijzing dit artikel!). Dit is wat u moet weten:
 
 * De `metric` waarmee u de cohortanalyse wilt uitvoeren en de tabel waarin deze wordt gebruikt (bijvoorbeeld: `Revenue` , gebaseerd op de tabel `orders` ).
 
@@ -49,7 +49,7 @@ Om deze te bouwen, voorleg a [ steunkaartje ](https://experienceleague.adobe.com
 
 * De `time interval` waarover u de analyse wilt weergeven (bijvoorbeeld: `weeks` , `months` of `quarters` na de `User's first order date` ).
 
-Als het team van analisten van de Adobe op het bovenstaande reageert, hebt u een paar nieuwe, geavanceerd berekende kolommen om uw rapport op te bouwen! Vervolgens kunt u de onderstaande aanwijzingen volgen.
+Als het Adobe-analistenteam op het bovenstaande reageert, hebt u een paar nieuwe, geavanceerd berekende kolommen om uw rapport op te bouwen! Vervolgens kunt u de onderstaande aanwijzingen volgen.
 
 ## De kwalitatieve cohortanalyse maken {#create}
 
@@ -67,7 +67,7 @@ In dit voorbeeld bekijkt u een `all time` weergave van `Revenue` . Daarna, zou u
 
 ![](../../assets/qualcohort2.gif)
 
-Ten derde past u zich aan om de `cohorts` in te stellen. Op basis van de `cohort date` en `time interval` die u hebt opgegeven voor het Adobe-analist-team, hebt u een dimensie in uw account die de `cohort` -bewerking uitvoert. In dit voorbeeld wordt die aangepaste dimensie `Months between this order and customer's first order date` genoemd. Met deze dimensie moet u:
+Ten derde past u zich aan om de `cohorts` in te stellen. Op basis van de `cohort date` en `time interval` die u hebt opgegeven voor het Adobe-analistteam, hebt u een dimensie in uw account die de `cohort` -bewerking uitvoert. In dit voorbeeld wordt die aangepaste dimensie `Months between this order and customer's first order date` genoemd. Met deze dimensie moet u:
 
 * `Group by` de dimensie met de optie `group by`
 

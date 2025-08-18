@@ -24,7 +24,7 @@ Onder klanten die a *specifiek punt* kopen,
 
 ## Aanbevolen meetwaarden
 
-Bij het samenstellen van analyses van de terugkoopactiviteiten van klanten raadt de Adobe u aan de volgende meetwaarden te gebruiken:
+Bij het samenstellen van analyses van de terugkoopactiviteiten van klanten raadt Adobe u aan de volgende maatstaven te gebruiken:
 
 ### Herhalingsvolgordeningswaarschijnlijkheid
 
@@ -82,4 +82,4 @@ Naast het analyseren van het terugkoopgedrag van uw klanten, kunt u analyses ook
 
 Als u hebt vastgesteld waarom er een fout optreedt, kunt u uw analyse gebruiken om een `reactivation` -campagne te maken. Met deze gegevens kunt u gebruikers identificeren die inactief zijn geworden, hoe lang het is sinds hun laatste bezoek, wat hun laatste aankoop was, enzovoort. Dit staat u toe om actieable besluiten te nemen die uw klanten ertoe aanzetten om terug te komen.
 
-Voor hulp met analyse, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Voor hulp met analyse, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

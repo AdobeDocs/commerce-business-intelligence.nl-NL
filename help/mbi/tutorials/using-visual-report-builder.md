@@ -1,5 +1,5 @@
 ---
-title: De visuele Report Builder gebruiken
+title: Visual Report Builder gebruiken
 description: Leer de gegevens in uw rapport gedurende een bepaalde periode te analyseren.
 exl-id: da97b63d-63f0-4fd6-87e3-4cac49a42acc
 role: Admin, Data Architect, Data Engineer, User
@@ -21,7 +21,7 @@ Met [[!DNL Visual Report Builder]](../data-user/reports/ess-rpt-build-visual.md)
 
 ## Stap 1: Een rapport maken
 
-Als u een rapport wilt gaan maken, klikt u op **[!UICONTROL Report Builder]** op de zijbalk of **[!UICONTROL Add Report]** boven aan een dashboard. Klik op de optie **[!UICONTROL Visual Report Builder]** wanneer de pagina `Report Builder` wordt weergegeven.
+Als u een rapport wilt gaan maken, klikt u op **[!UICONTROL Report Builder]** op de zijbalk of **[!UICONTROL Add Report]** boven aan een dashboard. Klik op de optie `Report Builder` wanneer de pagina **[!UICONTROL Visual Report Builder]** wordt weergegeven.
 
 Als u een rapport wilt bewerken dat in [!DNL Visual Report Builder] is gemaakt, klikt u op het tandwielpictogram (Opties) rechtsboven in een willekeurige grafiek en klikt u op **[!UICONTROL Edit]** .
 

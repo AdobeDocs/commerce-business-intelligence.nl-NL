@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uw [!DNL Adobe Commerce Intelligence] -omgeving
 
-Terwijl u uw handelsgegevens analyseert, dient u rekening te houden met deze factoren en algemene misvattingen. Als u hulp met het ervoor zorgen nodig hebt u uw schema van Commerce correct gebruikt, aarzel niet aan [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Terwijl u uw handelsgegevens analyseert, dient u rekening te houden met deze factoren en algemene misvattingen. Als u hulp met het ervoor zorgen nodig hebt u uw schema van Commerce correct gebruikt, aarzel niet aan [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ## [!DNL entity\_id]
 
@@ -33,7 +33,7 @@ Als u de `sales\_order` lijst als klantenlijst gebruikt, moet u dan zorgvuldig z
 
 Als u de tabel `customer\_entity` kunt gebruiken, is elke rij één klant en bestaat elke klant slechts één keer in die tabel. Daarom wanneer u de kolom van de levenopbrengst hebt, allen moet u gemiddelde metrisch tot stand brengen. Als u de tabel `sales\_order` echter gebruikt als uw klantentabel, kan een klant mogelijk in meerdere rijen bestaan. Na vestiging zal de kolom van de levenopbrengst, elke orde (rij) die door een bepaalde klant wordt geplaatst tonen dat de levenopbrengst van die klant; maar u wilt slechts die klant één keer in uw algemeen gemiddelde metrisch omvatten.
 
-De truc hier is dat u een filter aan metrisch moet toevoegen die u verzekert slechts elke klant één keer omvat. De Adobe moedigt u aan om een filter tot stand te brengen en te gebruiken dat wordt genoemd **Klanten wij tellen** dat de filters voor **de ordeaantal van de Klant = 1** (onder andere filters u ongewenste klanten kunt moeten uitsluiten). Het toevoegen van dit filter verzekert u slechts elke klant één keer in klant-vlakke metrisch omvat.
+De truc hier is dat u een filter aan metrisch moet toevoegen die u verzekert slechts elke klant één keer omvat. Adobe moedigt u aan om een genoemde filterreeks **Klanten tot stand te brengen en te gebruiken wij** tellen die filters voor **de ordeaantal van de Klant = 1** (onder andere filters u ongewenste klanten kunt moeten uitsluiten). Het toevoegen van dit filter verzekert u slechts elke klant één keer in klant-vlakke metrisch omvat.
 
 ## Producten en categorieën
 
@@ -43,4 +43,4 @@ Stel je een spijkerbroek voor die in drie verschillende categorieniveaus valt, z
 
 Voordat u gegevens kunt verplaatsen, moet u eerst de juiste verbindingen en filters weten om te controleren of u de juiste categorie hebt gekozen. Voor sommige analyses moet u misschien &#39;Kant&#39; weten, maar in andere analyses is &#39;Koud&#39; wellicht geschikter. Dit zijn afzonderlijke categorieën die afzonderlijk worden geïdentificeerd. Als u weet hoe elk categorieniveau is gedefinieerd, kunt u de verkoop per eenheid toewijzen aan de juiste categorie voor uw specifieke analyse.
 
-Stel nu dat u ook een categorie op hoofdniveau `Our Favorites` op de homepage van uw website hebt. Mogelijk hebt u uw Commerce-winkel geïmplementeerd om deze jeans op te nemen in de categorie `Clothing` en `Our Favorites` . Zo ja, dan heeft dit spijkerbroek meer dan één topcategorie. In dat geval heeft het niet echt zin één categorie op hoofdniveau naar de tabel `sales\_order\_item` te verplaatsen, omdat er meerdere opties zijn. Om dit te verklaren, stelt de Adobe voor ja/nee kolommen te creëren die voor specifieke categorieën controleren. Met de kolommen `Is product in Clothing category?` en `Is product in Our Favorites category?` kunt u bijvoorbeeld controleren of een product in die specifieke categorieën valt.
+Stel nu dat u ook een categorie op hoofdniveau `Our Favorites` op de homepage van uw website hebt. Mogelijk hebt u uw Commerce-winkel geïmplementeerd om deze jeans op te nemen in de categorie `Clothing` en `Our Favorites` . Zo ja, dan heeft dit spijkerbroek meer dan één topcategorie. In dat geval heeft het niet echt zin één categorie op hoofdniveau naar de tabel `sales\_order\_item` te verplaatsen, omdat er meerdere opties zijn. Om dit te verantwoorden, stelt Adobe voor ja/nee-kolommen te maken die voor specifieke categorieën controleren. Met de kolommen `Is product in Clothing category?` en `Is product in Our Favorites category?` kunt u bijvoorbeeld controleren of een product in die specifieke categorieën valt.

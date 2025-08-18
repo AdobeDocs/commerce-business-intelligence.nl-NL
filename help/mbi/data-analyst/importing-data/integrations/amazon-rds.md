@@ -45,7 +45,7 @@ Dit is het deel van het proces waar, afhankelijk van het gegevensbestand u gebru
 
 Nadat u [!DNL Commerce Intelligence] toegang tot uw instantie hebt verleend en een gebruiker voor ons hebt gemaakt, moet u de verbindingsgegevens in [!DNL Commerce Intelligence] invoeren.
 
-De referentiepagina&#39;s voor `MySQL` , `Microsoft SQL` en `PostgreSQL` zijn toegankelijk via de `Integrations` pagina (**[!UICONTROL Manage Data** > **Integrations]**) door op **[!UICONTROL Add Integration]** te klikken. Wanneer de lijst met integraties wordt weergegeven, klikt u op het pictogram voor de database die u gebruikt om naar de pagina met referenties te gaan. Neem contact op met het accountteam van de Adobe als u momenteel geen toegang hebt tot de gewenste .
+De referentiepagina&#39;s voor `MySQL` , `Microsoft SQL` en `PostgreSQL` zijn toegankelijk via de `Integrations` pagina (**[!UICONTROL Manage Data** > **Integrations]**) door op **[!UICONTROL Add Integration]** te klikken. Wanneer de lijst met integraties wordt weergegeven, klikt u op het pictogram voor de database die u gebruikt om naar de pagina met referenties te gaan. Neem contact op met uw Adobe-accountteam als u momenteel geen toegang hebt tot de gewenste integratie.
 
 Als u de verbinding wilt maken, hebt u de volgende informatie nodig:
 

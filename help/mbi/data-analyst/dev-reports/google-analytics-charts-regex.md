@@ -1,6 +1,6 @@
 ---
-title: Grafieken Googles Analytics maken
-description: Leer hoe u grafieken maakt op basis van de gegevens van uw Googles Analytics.
+title: Google Analytics-diagrammen maken
+description: Leer hoe u grafieken maakt op basis van uw Google Analytics-gegevens.
 exl-id: ee80fd0d-e3b1-4331-853d-3c2c11931d3f
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports

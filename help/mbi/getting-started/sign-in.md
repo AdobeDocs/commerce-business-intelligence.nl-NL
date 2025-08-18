@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Open uw geactiveerde [!DNL Adobe Commerce Intelligence] account
 
-Nadat u uw [!DNL Commerce Intelligence] rekening of voor [ op-gebouw of wolk ](../getting-started/onpremise-activation.md) hebt geactiveerd en met uw Team van de Rekening van de Adobe gewerkt om de configuratiestappen te voltooien, kunt u nu binnen aan uw rekening ondertekenen.
+Nadat u uw [!DNL Commerce Intelligence] rekening of voor [ op-gebouw of wolk ](../getting-started/onpremise-activation.md) hebt geactiveerd en met uw Team van de Rekening van Adobe gewerkt om de configuratiestappen te voltooien, kunt u nu binnen aan uw rekening ondertekenen.
 
 ## Aanmelden met uw [!DNL Adobe ID]
 
@@ -21,7 +21,7 @@ Nadat u uw [!DNL Commerce Intelligence] rekening of voor [ op-gebouw of wolk ](.
 
    ![ teken-in-adobe ](../assets/sign-in-adobe.png)
 
-1. Voer het e-mailadres in dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] -account. Als u nog geen Adobe-account hebt, klikt u op **[!UICONTROL Create an account]** en voert u uw gegevens in. Gebruik het e-mailadres dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] -account. Het e-mailadres is de sleutel die u nodig hebt om toegang te krijgen tot uw Adobe account.
+1. Voer het e-mailadres in dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] -account. Als u nog geen Adobe-account hebt, klikt u op **[!UICONTROL Create an account]** en voert u uw gegevens in. Gebruik het e-mailadres dat u hebt gebruikt bij het maken van uw [!DNL Commerce Intelligence] -account. Het e-mailadres is de sleutel die u nodig hebt voor toegang tot uw Adobe-account.
 
 >[!NOTE]
 >

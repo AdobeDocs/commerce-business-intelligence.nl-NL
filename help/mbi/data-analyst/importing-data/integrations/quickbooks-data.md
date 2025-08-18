@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL QuickBooks] gegevens verwacht
 
-Nadat [ u uw  [!DNL QuickBooks]  rekening ](../../../data-analyst/importing-data/integrations/quickbooks.md) hebt verbonden, kunt u de [ Manager van de Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen. De volgende lijsten worden gecreeerd in uw Data Warehouse:
+Nadat [ u uw  [!DNL QuickBooks]  rekening ](../../../data-analyst/importing-data/integrations/quickbooks.md) hebt verbonden, kunt u de [ Manager van Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen. De volgende tabellen worden gemaakt in uw Data Warehouse:
 
 Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen in de kolom Tabelnaam.
 
@@ -62,4 +62,4 @@ Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen
 ## Verwante:
 
 * [Verbinding maken  [!DNL QuickBooks]](../integrations/quickbooks.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

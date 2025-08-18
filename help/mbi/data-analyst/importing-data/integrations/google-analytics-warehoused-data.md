@@ -1,6 +1,6 @@
 ---
-title: Googles Analytics met opslaggegevens verwacht
-description: Leer om met uw Google Analytics op te slaan gegevens in wisselwerking te staan.
+title: Google Analytics-opslaggegevens verwacht
+description: Leer hoe u communiceert met gegevens die zijn opgeslagen in Google Analytics.
 exl-id: 2b1305cd-5f34-43d9-b77f-a4f5b1d82c66
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -27,11 +27,11 @@ ht-degree: 0%
 >
 >Om onverwachte of onzinnige resultaten te vermijden, bevestig dat om het even welke afmetingen u gebruikt [ compatibel met één of meerdere metriek ](https://ga-dev-tools.google/dimensions-metrics-explorer/) zijn u in `Report Builder` gebruikt.
 
-Er wordt één tabel met de naam `report` gemaakt in uw Data Warehouse.
+Er wordt één tabel, genaamd `report`, gemaakt in uw Data Warehouse.
 
-Het schema van deze tabel bestaat uit de Metriek en de Dimensionen die u tijdens het installatieproces hebt geselecteerd en twee andere kolommen: `start-date` en `end-date` .
+Het schema van deze tabel bestaat uit de metriek en afmetingen die u tijdens het installatieproces hebt geselecteerd en twee andere kolommen: `start-date` en `end-date` .
 
-Als u bijvoorbeeld de volgende Metriek en Dimensionen hebt geselecteerd tijdens de installatie:
+Als u bijvoorbeeld de volgende maateenheden en afmetingen hebt geselecteerd tijdens de installatie:
 
 * `Metrics`: `ga:users`
 * `Dimensions`: `ga:month`
@@ -58,7 +58,7 @@ Bekijk [!DNL Google Analytics] advertentiecampagnes voor een voorbeeld van wat v
 
 Met het combinatieaspect kunnen [!DNL Google Analytics] -gegevens worden gekoppeld aan andere gegevens om analyses uit te voeren. Neem bijvoorbeeld `Total Time On Site By Ad Campaign` gegevens van [!DNL Google Analytics] en voeg deze samen met `Total Spent Per Campaign` gegevens van [!DNL Facebook Ads] om een volledig beeld te krijgen van hoeveel betrokkenheid u kost.
 
-Met de [!DNL Google Analytics Live] -integratie aan de andere kant is elke [!DNL Google Analytics] -grafiek een soort kleine silo die niet is opgeslagen in uw [!DNL Commerce Intelligence] -Data Warehouse.
+Met de [!DNL Google Analytics Live] -integratie aan de andere kant is elke [!DNL Google Analytics] -grafiek een soort kleine silo die niet is opgeslagen in uw [!DNL Commerce Intelligence] Data Warehouse.
 
 ## Verwante:
 

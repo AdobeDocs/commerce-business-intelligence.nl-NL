@@ -53,8 +53,7 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard** creëren door dit te doen:
 * **[!UICONTROL Average LTV (all)]**
    * [!UICONTROL Metric]: `Avg lifetime revenue`
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart Type]: `Number (scalar)`
 
@@ -65,8 +64,7 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard** creëren door dit te doen:
          * [`B`] `Customer's lifetime number of orders` **Groter dan**`0`
 
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart Type]: `Number (scalar)`
 
@@ -75,8 +73,7 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard** creëren door dit te doen:
    * Metrisch `2`: `Median lifetime revenue`
    * [!UICONTROL Time period]: `All time`
    * [!UICONTROL Interval]: `By Month`
-   * &#x200B;
-
+   * 
      [!UICONTROL Chart Type]: `Line`
    * Uitschakelen `Multiple Y-Axes`
 
@@ -84,12 +81,10 @@ Zodra metrisch is gecreeerd, kunt u **een dashboard** creëren door dit te doen:
    * Metrisch `1`: `Avg lifetime revenue`
    * Metrisch `2`: `New customers`
    * [!UICONTROL Time period]: `All time`
-   * &#x200B;
-
+   * 
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Group by]: `Customer's lifetime number of orders`
-   * &#x200B;
-
+   * 
      [!UICONTROL Chart Type]: `Line`
 
   >[!NOTE]

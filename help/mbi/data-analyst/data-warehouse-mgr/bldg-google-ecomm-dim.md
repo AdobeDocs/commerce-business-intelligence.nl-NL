@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Google ECommerce] Dimensionen maken
+# [!DNL Google ECommerce] Afmetingen bouwen
 
 >[!NOTE]
 >
@@ -50,11 +50,11 @@ Hieronder worden de afmetingen beschreven:
 
 ## De afmetingen opbouwen
 
-Om dimensies tot stand te brengen, open de [ Manager van de Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) door **[!UICONTROL Data]** > **[!UICONTROL Data Warehouse]** te klikken.
+Om dimensies tot stand te brengen, open de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) door **[!UICONTROL Data]** > **[!UICONTROL Data Warehouse]** te klikken.
 
 ### Tabel met bestellingen, rond 1
 
-Dit voorbeeld bouwt de [!DNL Google Analytics] Source **dimensie van de Orde** .
+Dit voorbeeld bouwt de **Source [!DNL Google Analytics] dimensie van de Orde** .
 
 1. Klik in de lijst met tabellen in de Data Warehouse op de tabel (in dit geval `orders` ) die uw bestelgegevens bevat.
 1. Klik op **[!UICONTROL Create a Column]**.
@@ -76,13 +76,13 @@ Hier is een blik op het hele proces:
 
 ![](../../assets/help_center.gif)
 
-Daarna, probeer creërend [!DNL Google Analytics] middel **en `campaign` van de Orde**. Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
+Daarna, probeer creërend **middel [!DNL Google Analytics] en** van de Orde `campaign`. Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
 
 ### Klantentabel {#customers}
 
-Dit voorbeeld bouwt de [!DNL Google Analytics] bron **dimensie van de eerste orde van de Klant &lbrace;.**
+Dit voorbeeld bouwt de **bron [!DNL Google Analytics] dimensie van de eerste orde van de Klant {.**
 
-1. Van de lijst van lijsten in de Data Warehouse, klik de lijst (in dit geval, `customers`) die uw klanteninformatie bevat.
+1. Klik in de lijst met tabellen in de Data Warehouse op de tabel (in dit geval `customers` ) die uw klantgegevens bevat.
 1. Klik op **[!UICONTROL Create a Column]**.
 1. Geef de kolom een naam.
 1. Voor dit voorbeeld, selecteer de `is MAX` definitie van [ dropdown definitie ](../../data-analyst/data-warehouse-mgr/calc-column-types.md). De definitie van `is MIN` werkt ook als deze wordt toegepast op een tekstkolom met slechts één mogelijke waarde. Het belangrijkste onderdeel is ervoor te zorgen dat er juiste filters worden ingesteld, wat u later doet.
@@ -97,11 +97,11 @@ Dit voorbeeld bouwt de [!DNL Google Analytics] bron **dimensie van de eerste ord
    _
 1. Klik op **[!UICONTROL Save]** om de dimensie te maken.
 
-Daarna, probeer creërend [!DNL Google Analytics] middel **en `campaign` van de eerste orde van de Klant 1&rbrace;.** Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
+Daarna, probeer creërend **middel [!DNL Google Analytics] en** van de eerste orde van de Klant 1}. `campaign` Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
 
 ### Bonus: Orders table, rond 2
 
-U kunt hier ophouden als u wilt, maar deze sectie laat verdere analyse door de [!DNL Google Analytics] dimensies **van de eerste orde van de Klant te brengen [ toe u in de ](#customers) laatste sectie `orders` lijst creeerde.** Door de afmetingen in deze sectie te maken, kunt u alle maatstaven analyseren die op de `orders` -tabel zijn gebaseerd - `Revenue` , `Number of orders` , `Distinct buyers` , enzovoort - met behulp van de [!DNL Google Analytics] -kenmerken van de eerste volgorde van een klant.
+U kunt hier ophouden als u wilt, maar deze sectie laat verdere analyse door de **dimensies [!DNL Google Analytics] van de eerste orde van de Klant te brengen** toe u in de [ laatste sectie ](#customers) lijst creeerde. `orders` Door de afmetingen in deze sectie te maken, kunt u alle maatstaven analyseren die op de `orders` -tabel zijn gebaseerd - `Revenue` , `Number of orders` , `Distinct buyers` , enzovoort - met behulp van de [!DNL Google Analytics] -kenmerken van de eerste volgorde van een klant.
 
 In dit voorbeeld wordt de `Customer's first order's [!DNL Google Analytics] source` -dimensie aan de `orders` -tabel toegevoegd.
 

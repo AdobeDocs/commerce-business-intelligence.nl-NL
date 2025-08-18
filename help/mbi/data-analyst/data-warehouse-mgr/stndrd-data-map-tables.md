@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevens standaardiseren met toewijzingstabellen
 
-Stel dat u een `Revenue by State` -rapport maakt in `Report Builder` . Alles gaat goed totdat u een `billing state` -groep aan uw rapport probeert toe te voegen en u dit ziet:
+Stel dat u een `Report Builder` -rapport maakt in `Revenue by State` . Alles gaat goed totdat u een `billing state` -groep aan uw rapport probeert toe te voegen en u dit ziet:
 
 ![](../../assets/Messy_State_Segments.png)
 
@@ -25,7 +25,7 @@ Het is mogelijk dat er een technische bron is die u kan helpen de gegevens op te
 
 >[!NOTE]
 >
->U kunt geen toewijzingstabel voor geconsolideerde lijsten zonder hulp van het team van de Steun van de Adobe tot stand brengen.
+>U kunt geen toewijzingstabel voor geconsolideerde tabellen maken zonder hulp van het Adobe-ondersteuningsteam.
 
 ## Hoe maak ik het? {#how}
 
@@ -37,13 +37,13 @@ Het is mogelijk dat er een technische bron is die u kan helpen de gegevens op te
 * Percentages moeten als decimalen worden ingevoerd.
 * Zorg ervoor dat alle voorloopnullen of volgnullen goed blijven staan.
 
-Alvorens u binnen duikt, adviseert de Adobe dat u [ de ruwe lijstgegevens ](../../tutorials/export-raw-data.md) uitvoert. Als u eerst de onbewerkte gegevens bekijkt, kunt u alle mogelijke combinaties voor de gegevens onderzoeken die u moet opschonen, zodat alle gegevens in de toewijzingstabel worden opgenomen.
+Alvorens u binnen duikt, adviseert Adobe dat u [ de ruwe lijstgegevens ](../../tutorials/export-raw-data.md) uitvoert. Als u eerst de onbewerkte gegevens bekijkt, kunt u alle mogelijke combinaties voor de gegevens onderzoeken die u moet opschonen, zodat alle gegevens in de toewijzingstabel worden opgenomen.
 
 Om een mappinglijst te maken, moet u een twee-kolom spreadsheet tot stand brengen die de [ het formatteren regels voor dossier ](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) volgt uploadt.
 
 In de eerste kolom, ga de waarden in die in uw gegevensbestand met **worden opgeslagen slechts één waarde in elke rij**. `pa` en `PA` kunnen bijvoorbeeld niet op dezelfde regel staan. Elke invoer moet een eigen rij hebben. Zie hieronder voor een voorbeeld.
 
-In de tweede kolom, ga in wat deze waarden **&#x200B;**&#x200B;zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
+In de tweede kolom, ga in wat deze waarden **** zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
 
 ![](../../assets/Mapping_table_examples.jpg)
 
@@ -53,7 +53,7 @@ Nadat u klaar bent met het creëren van de mappinglijst, moet u [ het dossier ](
 
 In dit voorbeeld wordt de kolom die u in de tabel `mapping_state` ( `state_input` ) hebt gemaakt, met een aangesloten kolom naar de tabel `customer_address` verplaatst. Op deze manier kunnen we groeperen op de lege kolom `state_input` in uw rapporten in plaats van op de kolom `state` .
 
-Als u de kolom `joined` wilt maken, navigeert u naar de tabel waarnaar het veld wordt verplaatst in Beheer Data Warehouse. In dit voorbeeld zou dit de `customer_address` tabel zijn.
+Als u de kolom `joined` wilt maken, navigeert u naar de tabel waarnaar het veld wordt verplaatst in Data Warehouse Manager. In dit voorbeeld zou dit de `customer_address` tabel zijn.
 
 1. Klik op **[!UICONTROL Create a Column]**.
 1. Selecteer `Joined Column` in de vervolgkeuzelijst `Definition` .

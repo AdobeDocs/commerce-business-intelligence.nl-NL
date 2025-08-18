@@ -51,7 +51,7 @@ Denk over het verband tussen **producten** en **categorieën**: een product kan 
 
 Gezien de soorten verhoudingen die tussen lijsten bestaan, kunt u leren hoe te om de lijsten in uw Data Warehouse te evalueren. Aangezien deze relaties bepalen hoe berekende kolommen met meerdere tabellen worden gedefinieerd, is het belangrijk dat u begrijpt hoe tabelrelaties worden geïdentificeerd en tot welke zijde - `one` of `many` - de tabel behoort.
 
-Er zijn twee methodes die u kunt gebruiken om het verband van een bepaald paar lijsten binnen uw Data Warehouse te evalueren. De eerste methode stelt a [ conceptueel kader ](#concept) in dienst dat overweegt hoe de entiteiten van de lijst met elkaar in wisselwerking staan. De tweede methode gebruikt het [ schema van de lijst ](#schema).
+Er zijn twee methoden die u kunt gebruiken om de relaties van een bepaald paar tabellen in uw Data Warehouse te evalueren. De eerste methode stelt a [ conceptueel kader ](#concept) in dienst dat overweegt hoe de entiteiten van de lijst met elkaar in wisselwerking staan. De tweede methode gebruikt het [ schema van de lijst ](#schema).
 
 ### Het conceptuele kader gebruiken {#concept}
 
@@ -129,4 +129,4 @@ Als een van de volgende twee true is, is de relatie `many-to-many` :
 
 ## Volgende stappen
 
-Het correct beoordelen van lijstverhoudingen is essentieel om uw gegevens nauwkeurig te modelleren. Nu u begrijpt hoe de lijsten met elkaar verwant zijn, zie [ wat u met de Manager van de Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) kunt doen.
+Het correct beoordelen van lijstverhoudingen is essentieel om uw gegevens nauwkeurig te modelleren. Nu u begrijpt hoe de lijsten met elkaar verwant zijn, zie [ wat u met de Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) kunt doen.

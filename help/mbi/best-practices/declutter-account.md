@@ -61,7 +61,7 @@ Nadat u toegang hebt tot uw dashboards en rapporten, kunt u beginnen uw rekening
 
 **om een volledig dashboard** te schrappen
 
-1. Selecteer **[!UICONTROL Manage Data]**, dan **&#x200B; [!UICONTROL Dashboards**].
+1. Selecteer **[!UICONTROL Manage Data]**, dan ** [!UICONTROL Dashboards**].
 1. Klik op het dashboard dat u wilt verwijderen.
 1. Klik op **[!UICONTROL Delete Dashboard]**.
 
@@ -99,13 +99,13 @@ Als u besluit dat de metrische waarde niet meer nodig is, navigeert u weer naar 
 
 ## Stap 4: De gesynchroniseerde kolommen beoordelen
 
-De laatste stap is het beoordelen van de kolommen die momenteel in uw Data Warehouse worden gesynchroniseerd. U kunt niet alleen de synchronisatie van kolommen in uw account ongedaan maken, maar ook de updatetijd verminderen.
+De laatste stap bestaat uit het beoordelen van de kolommen die momenteel worden gesynchroniseerd in uw Data Warehouse. U kunt niet alleen de synchronisatie van kolommen in uw account ongedaan maken, maar ook de updatetijd verminderen.
 
-Als u dit zou willen nastreven, bereik uit aan [!DNL Commerce Intelligence] [ Steun ](../guide-overview.md#Submitting-a-Support-Ticket). Het ondersteuningsteam kan een rapport maken dat alle kolommen bevat die in geen enkel dashboard voor een gebruiker worden gebruikt en die niet in e-mailoverzichten worden gebruikt, met uitzondering van SQL-rapporten. U kunt dit rapport dan gebruiken als richtlijn voor het selecteren van kolommen aan unsync via de Manager van de Data Warehouse.
+Als u dit zou willen nastreven, bereik uit aan [!DNL Commerce Intelligence] [ Steun ](../guide-overview.md#Submitting-a-Support-Ticket). Het ondersteuningsteam kan een rapport maken dat alle kolommen bevat die in geen enkel dashboard voor een gebruiker worden gebruikt en die niet in e-mailoverzichten worden gebruikt, met uitzondering van SQL-rapporten. U kunt dit rapport vervolgens gebruiken als richtlijn voor het selecteren van kolommen die u niet wilt synchroniseren via Data Warehouse Manager.
 
 >[!NOTE]
 >
->U kunt deze kolommen in de toekomst altijd weer synchroniseren. Als u de synchronisatie van een kolom opheft, worden alle gegevens uit de Data Warehouse verwijderd. Dit betekent alleen dat deze kolom tijdens de updatecyclus niet wordt gecontroleerd op nieuwe of bijgewerkte waarden.
+>U kunt deze kolommen in de toekomst altijd weer synchroniseren. Als u de synchronisatie van een kolom opheft, worden alle gegevens uit uw Data Warehouse verwijderd. Dit betekent alleen dat deze kolom tijdens de updatecyclus niet wordt gecontroleerd op nieuwe of bijgewerkte waarden.
 
 **om een Kolom (of Kolommen) uit te synchroniseren**
 

@@ -31,14 +31,14 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 
 ## Open de pagina met [!DNL Zendesk] referenties in [!DNL Commerce Intelligence] {#stepone}
 
-1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > **&#x200B; Gegevensbronnen &#x200B;**> **Integraties]**.
+1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > ** Gegevensbronnen **> **Integraties]**.
 1. Klik op **[!UICONTROL Add Integration]** aan de rechterkant van het scherm.
 1. Klik op het pictogram [!DNL Zendesk] . Hierdoor wordt de aanmeldingspagina van [!DNL Zendesk] geopend.
 
 ## Uw API-token [!DNL Zendesk] ophalen {#steptwo}
 
 1. Klik in het venster/tabblad waar u bent aangemeld bij uw [!DNL Zendesk] -account op het pictogram Instellingen (versnelling) in de linkerbenedenhoek van het scherm.
-1. Zoek de sectie `Channels` wanneer het menu `Settings` wordt weergegeven. Klik op **[!UICONTROL API]** in deze sectie.
+1. Zoek de sectie `Settings` wanneer het menu `Channels` wordt weergegeven. Klik op **[!UICONTROL API]** in deze sectie.
 1. Klik in de sectie `Token Access` van deze pagina op het selectievakje naast `Enabled` . Een lijst met Active API Tokens die worden weergegeven.
 1. Klik op **[!UICONTROL Add New Token]**.
 1. Voer desgevraagd een label voor het token in. Adobe raadt u aan `Commerce Intelligence` te gebruiken, zodat u in één oogopslag weet welke toepassing het token gebruikt.
@@ -54,4 +54,4 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 ## Verwante:
 
 * [Verwachte  [!DNL Zendesk]  gegevens](../integrations/exp-zendesk-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

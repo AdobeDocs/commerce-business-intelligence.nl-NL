@@ -1,6 +1,6 @@
 ---
-title: Visuele Report Builder
-description: Leer hoe te om Visuele Report Builder te gebruiken.
+title: Visual Report Builder
+description: Leer hoe u Visual Report Builder kunt gebruiken.
 exl-id: 1101f43d-e014-4df2-be21-12d90a9d8a56
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
@@ -29,7 +29,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      ![ Visuele Report Builder ](../../assets/magento-bi-visual-report-builder-add-metric.png)
 
-   * Kies metrisch [&#128279;](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
+   * Kies metrisch [ ](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
 
      De metrische waarde `New Customers` die in dit voorbeeld wordt gebruikt telt alle klanten, en sorteert de lijst door de datum de klant die voor een rekening wordt aangemeld. Het eerste rapport bevat een eenvoudige lijngrafiek, gevolgd door de tabel met gegevens.
 
@@ -43,7 +43,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    **`Group By`**
 
-   Met het besturingselement `Group By` kunt u meerdere afmetingen per groep of segment toevoegen. Dimensionen zijn kolommen in de tabel die kunnen worden gebruikt om de gegevens te groeperen.
+   Met het besturingselement `Group By` kunt u meerdere afmetingen per groep of segment toevoegen. Dimensies zijn kolommen in de tabel die kunnen worden gebruikt om de gegevens te groeperen.
 
    * Kies een van de beschikbare afmetingen in de lijst met `Group By` -opties.
 
@@ -55,7 +55,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    * Klik op **[!UICONTROL Apply]** om het venster Groeperen op detail te sluiten.
 
-     ![ Veelvoudige Dimensionen ](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
+     ![ Veelvoudige Dimensies ](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
 
    * Houd de muisaanwijzer boven een paar gegevenspunten op elke regel om het aantal klanten te zien dat de coupon tijdens het plaatsen van de eerste bestelling heeft gebruikt.
 
@@ -110,7 +110,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
 1. Klik in de rechterbovenhoek op **[!UICONTROL Save]** en voer de volgende handelingen uit:
 
-   * Accepteer de standaardinstelling `Chart` voor `Type` .
+   * Accepteer de standaardinstelling `Type` voor `Chart` .
 
    * Kies de locatie `Dashboard` waar het rapport beschikbaar moet zijn.
 

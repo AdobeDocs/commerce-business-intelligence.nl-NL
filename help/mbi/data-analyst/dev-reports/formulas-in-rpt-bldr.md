@@ -1,12 +1,12 @@
 ---
 title: Formules in de Report Builder
-description: Leer hoe formules in de Report Builder kunnen worden gebruikt.
+description: Leer hoe formules kunnen worden gebruikt in de Report Builder.
 exl-id: 7a0ad07a-5bcc-474f-95bc-ccc2b74073b2
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ In dit voorbeeld hebt u het perspectief `Stacked Columns` gebruikt om de resulta
 
 ## Omloop {#wrapup}
 
-Hebt u in de bovenstaande voorbeelden gemerkt dat de formules `timestamp` , `groupings` , `perspectives` en `filters` worden overgeërfd van de invoermeetgegevens? Houd in mening dat de formules kunnen worden gebruikt om `perspectives` en [ onafhankelijke tijdopties ](../../tutorials/time-options-visual-rpt-bldr.md) te gebruiken : target= &quot;_blank&quot;&rbrace;, enkel als metriek kan.
+Hebt u in de bovenstaande voorbeelden gemerkt dat de formules `timestamp` , `groupings` , `perspectives` en `filters` worden overgeërfd van de invoermeetgegevens? Houd in mening dat de formules kunnen worden gebruikt om `perspectives` en [ onafhankelijke tijdopties ](../../tutorials/time-options-visual-rpt-bldr.md){: target="_blank"} te gebruiken, enkel als metriek kan.
 
-Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

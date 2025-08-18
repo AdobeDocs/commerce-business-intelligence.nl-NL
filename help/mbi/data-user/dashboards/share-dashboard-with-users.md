@@ -6,14 +6,14 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
 
 # Dashboards delen met andere gebruikers
 
-Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [[!DNL Adobe]  adviseert ](../../best-practices/share-dashboard-best-practice.md) {: target= &quot;_blank&quot;} dat u `Edit` rechten aan uitgezochte enkelen verleent om toevallige veranderingen te minimaliseren.
+Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [[!DNL Adobe]  adviseert ](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} dat u `Edit` rechten op uitgezochte enkelen verleent om toevallige veranderingen te minimaliseren.
 
 >[!NOTE]
 >

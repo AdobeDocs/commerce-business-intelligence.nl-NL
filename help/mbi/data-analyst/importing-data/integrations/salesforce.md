@@ -1,6 +1,6 @@
 ---
 title: Connect Salesforce
-description: Leer hoe u met Salesforce-gegevens een reeks analyses kunt maken, van scoring tot optimalisatie, zodat u uw doelstellingen voor geconverteerde mogelijkheden kunt halen.
+description: Leer hoe Salesforce-gegevens een reeks analyses mogelijk maken, van scoring tot optimalisatie, zodat u uw doelstellingen kunt halen voor geconverteerde mogelijkheden.
 exl-id: 249b2b40-8c8a-4616-9383-17690f07003d
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -36,4 +36,4 @@ Door de [!DNL Salesforce] -gegevens aan te sluiten, beschikt u over een reeks an
 Als u een weinig meer technologie-savvy bent, kan de [[!DNL Salesforce]  API Documentatie ](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) een nuttig middel zijn om meer over te leren hoe Salesforce met [!DNL Commerce Intelligence] wordt geïntegreerd.
 
 * [Verwachte  [!DNL Salesforce]  gegevens](../integrations/salesforce-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

@@ -1,5 +1,5 @@
 ---
-title: Aanbevolen Dimensionen van Gegevens voor Segmentatie en Filtreren
+title: Aanbevolen gegevensafmetingen voor segmentatie en filteren
 description: Leer over beste praktijken voor segmentatie en het filtreren.
 exl-id: 66391bce-bdeb-4e9d-8089-1c796e00d91e
 role: Admin, Data Architect, Data Engineer, User
@@ -42,7 +42,7 @@ De orde en gebeurtenissegmenten helpen bij het analyseren van gebruikersgedrag e
 
 * **[!UICONTROL Billing / Shipping Address]**: Waar komen de meeste bestellingen vandaan? Is er een verschil tussen facturerings en verzendadressen?
 * **[!UICONTROL Status]**: Hoeveel van uw bestellingen zijn niet voltooid? Wat is de verhouding tussen lopende orders in de afgelopen zeven dagen?
-* **[!UICONTROL Customer acquisition source]**: Voorbij het volgen van gegevens van de gebruikersverwerving op een gebruikersniveau, kunt u het op een orde of gebeurtenisniveau [&#128279;](../data-analyst/analysis/google-track-user-acq.md) ook  volgen. Een gebruiker die zich via één bron heeft geregistreerd, heeft mogelijk toegang tot uw site via andere bronnen.
+* **[!UICONTROL Customer acquisition source]**: Voorbij het volgen van gegevens van de gebruikersverwerving op een gebruikersniveau, kunt u het op een orde of gebeurtenisniveau [ ook ](../data-analyst/analysis/google-track-user-acq.md) volgen. Een gebruiker die zich via één bron heeft geregistreerd, heeft mogelijk toegang tot uw site via andere bronnen.
 * **[!UICONTROL Device]**: neemt het aantal mobiele bestellingen toe? Hoeveel van uw opbrengst wordt geproduceerd via mobiele aankopen? (Als u dit nog niet volgt, zie dit onderwerp [ over het volgen van de gegevens van het ordeapparaat ](../data-analyst/analysis/track-usr-dev-browser.md).
 * **[!UICONTROL Fulfillment Center]**: Welke van uw afhandelingscentra genereert de meeste inkomsten? Als u het verschil tussen bestellingstijd en verzendtijd analyseert, welk afhandelingscentrum reageert het meest?
 * **[!UICONTROL Delivery Carrier]**: Welke is de populairste vervoerder? Welke drager heeft het minste aantal teruggekeerde punten?
@@ -71,7 +71,7 @@ Dit soort analyse doen marketeers van Fortune 1000 bedrijven de hele dag. Voor d
 
 De eerste stap om uw metriek door de bovengenoemde afmetingen te segmenteren is ervoor te zorgen dat u deze gegevens in uw gegevensbestand volgt. Als de gegevens niet worden bijgehouden, neemt u contact op met uw technische team en zoekt u een manier om deze gegevens te volgen.
 
-Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
+Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
 
 ## Verwante
 

@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Coupon-effect
 
-Analyseren hoe klanten uw coupons gebruiken, kan uw bedrijf veel inzicht geven. Specifiek analyseren hoe u klanten aanschaft en behoudt via coupons. Dit onderwerp verkent analyses die u kunnen helpen de volgende soorten vragen beantwoorden:
+Analyseren hoe klanten uw coupons gebruiken, kan uw bedrijf aanzienlijke insight bieden. Specifiek analyseren hoe u klanten aanschaft en behoudt via coupons. Dit onderwerp verkent analyses die u kunnen helpen de volgende soorten vragen beantwoorden:
 
 * Hoeveel klanten verwerft u via coupons?
 * Hebben klanten met een coupon meer kans om herhaaldelijk aankopen te doen dan klanten die niet via coupons zijn gekocht?
@@ -129,7 +129,7 @@ Wat kan hieruit worden afgeleid? Ten eerste had de coupon &quot;20% korting&quot
 
   **Voorbeeld:** de &quot;10% korting&quot;coupon wordt slechts aangeboden aan klanten die een winterjas in de zelfde orde kopen.
 
-De **bruto opbrengst** voor de &quot;25% van $100 of meer&quot;coupon is veel hoger dan de bruto opbrengst voor &quot;$10 van&quot;coupon. Nochtans, heeft &quot;$10 van&quot;coupon een veel groter **aantal orden**. Het analyseren van de **gemiddelde ordewaarde** verstrekt inzicht in deze verschillen. Hoewel de coupon &quot;25% korting op $100 of meer&quot; minder orders bevatte, is de gemiddelde orderwaarde meer dan driemaal die van de coupon &quot;$10 korting&quot;. Zo wordt een grotere bruto-opbrengst toegeschreven aan de coupon &quot;25% korting op $100 of meer&quot;.
+De **bruto opbrengst** voor de &quot;25% van $100 of meer&quot;coupon is veel hoger dan de bruto opbrengst voor &quot;$10 van&quot;coupon. Nochtans, heeft &quot;$10 van&quot;coupon een veel groter **aantal orden**. Het analyseren van de **gemiddelde ordewaarde** verstrekt insight in deze verschillen. Hoewel de coupon &quot;25% korting op $100 of meer&quot; minder orders bevatte, is de gemiddelde orderwaarde meer dan driemaal die van de coupon &quot;$10 korting&quot;. Zo wordt een grotere bruto-opbrengst toegeschreven aan de coupon &quot;25% korting op $100 of meer&quot;.
 
 De **kortingen** en **netto opbrengst** voor &quot;25% van $100 of meer&quot;en &quot;20% van&quot;coupons zijn dicht in waarde. Hoewel de gemiddelde orderwaarde voor &quot;25% korting op $100 of meer&quot; bijna tweemaal de gemiddelde orderwaarde voor &quot;20% korting&quot; is, heeft de laatste coupon iets minder dan driemaal het aantal orders.
 
@@ -151,4 +151,4 @@ Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot
 
 ## Omloop omhoog {#wrapup}
 
-Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp met deze soorten vragen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp met deze soorten vragen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

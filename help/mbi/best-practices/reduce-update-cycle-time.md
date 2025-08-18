@@ -21,11 +21,11 @@ Veel factoren kunnen een reeds lange updatetijd vergroten. Bepaalde replicatieme
 
 In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld, in een **orde** lijst zou er een kolom kunnen zijn genoemd **status**. Wanneer een volgorde voor het eerst naar de database wordt geschreven, bevat de statuskolom mogelijk de waarde `pending` . De orde wordt herhaald in uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md) met deze `pending` waarde.
 
-De veranderlijke kolommen moeten [ opnieuw gecontroleerd voor bijgewerkte waarden ](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) in tijd zijn. [!DNL Commerce Intelligence] controleert deze kolommen standaard opnieuw tijdens elke update, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en gerepliceerd, kan dit een negatief effect hebben op de updatetijd. In plaats van tijdens elke update opnieuw te controleren, raadt de Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
+De veranderlijke kolommen moeten [ opnieuw gecontroleerd voor bijgewerkte waarden ](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) in tijd zijn. [!DNL Commerce Intelligence] controleert deze kolommen standaard opnieuw tijdens elke update, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en gerepliceerd, kan dit een negatief effect hebben op de updatetijd. In plaats van tijdens elke update opnieuw te controleren, raadt Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
 
 ## Methoden voor incrementele replicatie gebruiken
 
-Zoals hierboven vermeld, zijn lange updatetijden rechtstreeks gecorreleerd aan hoeveel gegevens opnieuw moeten worden gecontroleerd en worden gerepliceerd. [ de Incrementele replicatiemethodes ](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) kunnen de hoeveelheid gegevens zeer verminderen die tijdens de updatecyclus worden verwerkt. Waar mogelijk raadt de Adobe u aan deze methoden te gebruiken of uw database te wijzigen ter ondersteuning van een incrementele methode.
+Zoals hierboven vermeld, zijn lange updatetijden rechtstreeks gecorreleerd aan hoeveel gegevens opnieuw moeten worden gecontroleerd en worden gerepliceerd. [ de Incrementele replicatiemethodes ](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) kunnen de hoeveelheid gegevens zeer verminderen die tijdens de updatecyclus worden verwerkt. Indien mogelijk raadt Adobe u aan deze methoden te gebruiken of uw database te wijzigen ter ondersteuning van een incrementele methode.
 
 ## Ongebruikte grafieken verwijderen uit dashboards
 
@@ -39,8 +39,8 @@ Aangezien [!DNL Commerce Intelligence] alleen cachebewerkingen uitvoert voor gra
 
 ## Uw database optimaliseren voor analyse
 
-Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en grafieknut, kunt u uw gegevensbestand voor analyse [&#128279;](../best-practices/opt-db-analysis.md) ook  optimaliseren.
+Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en grafieknut, kunt u uw gegevensbestand voor analyse [ ook ](../best-practices/opt-db-analysis.md) optimaliseren.
 
 ## Omloop omhoog
 
-Als uw updatetijd nog langzaam lijkt zelfs na het uitvoeren van deze aanbevelingen, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als uw updatetijd nog langzaam lijkt zelfs na het uitvoeren van deze aanbevelingen, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

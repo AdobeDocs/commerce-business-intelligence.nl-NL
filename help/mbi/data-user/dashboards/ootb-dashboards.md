@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Opgenomen dashboards
 
-[!DNL Adobe] biedt `eCommerce` en `SaaS` Starter Packages aan. Deze pakketten, die door analisten van de Adobe worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
+[!DNL Adobe] biedt `eCommerce` en `SaaS` Starter Packages aan. Deze pakketten, die door analisten van Adobe worden gecreeerd, bevatten een aangepaste reeks dashboards en rapporten voor uw dataset. Met de analyses in deze pakketten kunt u de gezondheid van essentiële gegevens controleren, zoals inkomsten tijdens de levensduur van de gebruiker, het aantal herhaalde aankopen en nog veel meer. Op die manier wordt een solide basis gelegd voor toekomstige exploratie.
 
 >[!NOTE]
 >
 >De beschikbaarheid van sommige dashboards hangt van uw dataset af.
 
-Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor hulp voor.
+Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp voor.
 
 ## Uitvoerend overzicht
 
@@ -89,7 +89,7 @@ Het dashboard van `Users to target` bevat tabellen met diagrammen waarin gebruik
 
 * Lijst met topsponsors die de afgelopen `X` dagen actief waren (die u mogelijk wilt belonen)
 
-Gebruikend uw hulpmiddelen van de gegevensuitvoer, is het gemakkelijk om e-maillijsten van gebruikers met gelijkaardig het kopen gedrag voor doel marketing [&#128279;](http://blog.rjmetrics.com/creating-contact-lists-for-top-customers/) tot stand te brengen.
+Gebruikend uw hulpmiddelen van de gegevensuitvoer, is het gemakkelijk om e-maillijsten van gebruikers met gelijkaardig het kopen gedrag voor doel marketing [ tot stand te brengen.](http://blog.rjmetrics.com/creating-contact-lists-for-top-customers/)
 
 ## Gebruikersactiviteit
 

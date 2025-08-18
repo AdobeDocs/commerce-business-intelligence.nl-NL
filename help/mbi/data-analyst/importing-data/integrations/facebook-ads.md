@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ![](../../../assets/facebook-ads-logo.png)
 
-Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je campagne gestart op [!DNL Facebook] . Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [&#128279;](../../../data-analyst/analysis/roi-ad-camp.md) van gebruikers te bedienen die van uw campagnes worden verworven.
+Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je campagne gestart op [!DNL Facebook] . Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [ van gebruikers te bedienen die van uw campagnes worden verworven.](../../../data-analyst/analysis/roi-ad-camp.md)
 
 Het verbinden van uw [!DNL Facebook Ad] gegevens met [!DNL Commerce Intelligence] is een eenvoudig proces in drie stappen:
 
@@ -58,7 +58,7 @@ Zorg ervoor dat u [!DNL Facebook] campagnes in [!DNL Google Analytics] volgt. Zo
 
 ## Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Verbind uw  [!DNL Google Adwords]  rekening](../integrations/google-ecommerce.md)
 * [Bron voor verwijzing van de orde van het spoor via  [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)

@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Databanken verbinden via VPN
 
-Hoewel de Adobe aanbeveelt dat u uw databases aansluit met behulp van een `SSH tunnel` , kunt u ook een gecodeerde `VPN` -verbinding gebruiken om de zaken veilig te houden. Een `VPN` kan worden gebruikt voor al uw database-integratie en om de zaken eenvoudig te houden, is het proces ongeveer hetzelfde als het instellen van een `SSH tunnel` :
+Hoewel Adobe aanbeveelt dat u uw databases aansluit met behulp van een `SSH tunnel` , kunt u ook een gecodeerde `VPN` -verbinding gebruiken om de beveiliging te behouden. Een `VPN` kan worden gebruikt voor al uw database-integratie en om de zaken eenvoudig te houden, is het proces ongeveer hetzelfde als het instellen van een `SSH tunnel` :
 
 1. [Creeer een  [!DNL Commerce Intelligence]  gegevensbestandgebruiker](#database)
 1. [Creeer een  [!DNL Commerce Intelligence]  gebruiker van VPN](#vpn)
 1. [Toestaan toegang tot het  [!DNL Commerce Intelligence]  IP adres](#allowlist)
 1. [Ga de verbinding en de gebruikersinfo van VPN in Commerce Intelligence in](#finish)
 
-Naast gegevensbestandgeloofsbrieven, moet u geloofsbrieven voor een gebruiker van VPN ingaan om dingen omhoog te verpakken. Elke VPN-gebruiker werkt, maar de Adobe raadt u aan een [!DNL Commerce Intelligence] -gebruiker te maken, omdat het voor u gemakkelijker is om de gebruikers op uw account te volgen.
+Naast gegevensbestandgeloofsbrieven, moet u geloofsbrieven voor een gebruiker van VPN ingaan om dingen omhoog te verpakken. Elke VPN-gebruiker werkt, maar Adobe raadt u aan een [!DNL Commerce Intelligence] -gebruiker te maken, omdat u hiermee de gebruikers op uw account gemakkelijker kunt bijhouden.
 
 ## Databasegebruikers maken voor [!DNL Commerce Intelligence] {#database}
 
@@ -33,7 +33,7 @@ Het proces voor het maken van een databasegebruiker is afhankelijk van het datab
 
 ## Een `VPN` gebruiker voor [!DNL Commerce Intelligence] maken {#vpn}
 
-Zoals eerder vermeld, werkt elke geldige `VPN` -gebruiker - maar de Adobe raadt u aan een gebruiker te maken die uitsluitend voor [!DNL Commerce Intelligence] wordt gebruikt.
+Zoals eerder vermeld, werkt elke geldige `VPN` -gebruiker - maar Adobe raadt u aan een gebruiker alleen voor [!DNL Commerce Intelligence] -gebruik te maken.
 
 ## Toegang tot de IP-adressen van [!DNL Commerce Intelligence] toestaan {#allowlist}
 

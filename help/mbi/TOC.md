@@ -71,7 +71,7 @@ ht-degree: 0%
       - [[!DNL sales_order_item]](data-analyst/data-warehouse-mgr/sales-flat-order-item-table.md)
       - [[!DNL quote]](data-analyst/data-warehouse-mgr/sales-flat-quote-table.md)
       - [[!DNL quote_item]](data-analyst/data-warehouse-mgr/sales-flat-quote-item-table.md)
-   - SQL Report Builder {#sql}
+   - SQL REPORT BUILDER {#sql}
       - [Het gebruiken van  [!DNL Cohort Report Builder]](data-analyst/dev-reports/cohort-rpt-bldr.md)
       - [Gebruikend  [!DNL Cohort Report Builder]  voor Niet-Datum Gebaseerde Cohorts](data-analyst/dev-reports/cohort-rpt-non-date-based.md)
       - [Een kwalitatieve cohortanalyse maken](data-analyst/dev-reports/create-qual-cohort-analysis.md)
@@ -213,7 +213,7 @@ ht-degree: 0%
       - [Gegevens delen](data-user/export-data/share-data.md)
       - [Grafiekgegevens exporteren](data-user/export-data/exp-chart-dash.md)
       - [Geautomatiseerde e-mailoverzichten](data-user/export-data/email-summaries.md)
-- Aanbevolen werkwijzen {#best-practices}
+- Aanbevolen procedures {#best-practices}
    - Werken met gegevens {#data}
       - [Werken met gegevens](best-practices/work-data.md)
       - [UTM-codering in  [!DNL Google Analytics]](best-practices/utm-tagging-google.md)
@@ -232,7 +232,7 @@ ht-degree: 0%
    - Werken met dashboards {#working-dashboards}
       - [Dashboards delen](best-practices/share-dashboard-best-practice.md)
       - [Een investeringsdashboard opbouwen](best-practices/build-investor-dashboard.md)
-- Zelfstudies {#tutorials}
+- Tutorials {#tutorials}
    - [Het gebruiken van  [!DNL Visual Report Builder]](tutorials/using-visual-report-builder.md)
    - [Het gebruiken van de Opties van de Tijd in  [!DNL Visual Report Builder]](tutorials/time-options-visual-rpt-bldr.md)
    - [Creërend Visualisaties voor a  [!DNL SQL]  Vraag](tutorials/create-visuals-from-sql.md)

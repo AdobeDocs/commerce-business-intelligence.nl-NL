@@ -1,5 +1,5 @@
 ---
-title: Cohort-Report Builder voor niet-datumgebaseerde cohorten
+title: Cohort Report Builder for Non-Date Based Cohorts
 description: Leer gebruikers te groeperen door een gelijkaardige activiteit of een attribuut.
 exl-id: c7b85ce9-113c-4ffc-855f-3d53fe2347d8
 role: Admin, Data Architect, Data Engineer, User
@@ -55,11 +55,11 @@ Er zijn vijf specificaties nodig om een verslag van Cohort op te stellen:
 
 
 
-#### 1. Groeperen `cohorts`
+#### &#x200B;1. Groeperen `cohorts`
 
 `Cohorts` worden gegroepeerd op een gedragskenmerk, in dit voorbeeld `Customer's first order GA source` . De hier beschikbare opties zijn kolommen die al als `groupable` voor metrisch zijn aangewezen.
 
-#### 2. Cohorten selecteren
+#### &#x200B;2. Cohorten selecteren
 
 U kunt alle resultaten voor het gegeven kenmerk tonen. Omdat dit veel `cohorts` kan opleveren, kunt u de specifieke `cohorts` (die overeenkomt met de verschillende waarden die beschikbaar zijn voor `Customer's first order GA source` ) selecteren die u nodig hebt.
 

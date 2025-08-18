@@ -33,7 +33,7 @@ Wanneer gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdsp
 
 1. Geef de metrische naam.
 
-   De Adobe adviseert een naam die, in een blik, u vertelt wat metrisch is. Bijvoorbeeld: `Average Order Revenue` .
+   Adobe raadt een naam aan die je in één oogopslag vertelt wat de maatstaf is. Bijvoorbeeld: `Average Order Revenue` .
 
 1. De volgende stap is te bepalen wat uw metrisch doet. Definieer met de vervolgkeuzemenu&#39;s de bewerking van de meting, de kolom `operation` en een `date` -dimensie:
 
@@ -62,11 +62,11 @@ Voor `average order revenue` metrisch, zou u geen testorden willen omvatten die 
 
 In de sectie `Filter Logic` kunt u nader bepalen hoe een metrische waarde zich moet gedragen.
 
-* &quot;\[&lbrace;0\] of \[`B`\]&quot; staat om het even welke gegevens toe die de filters \[&lbrace;2\] OF \[`B` \] tevredenstellen`A` `A`
-* &quot;\[&lbrace;0\] en \[`B`\]&quot;staat slechts gegevens toe die zowel filters \ [`A` \] als \ [`B` \] tevredenstellen`A`
-* &quot;(\[&lbrace;0\] en \[`B`\]) OF \[`C`\]&quot; staat alleen gegevens toe die aan beide filters \[`A`\] en \[`B`\] voldoen, of alleen aan filter \[`C`\] voldoen`A`
+* &quot;\[{0\] of \[`A`\]&quot; staat om het even welke gegevens toe die de filters \[{2\] OF \[`B` \] tevredenstellen`A``B`
+* &quot;\[{0\] en \[`A`\]&quot;staat slechts gegevens toe die zowel filters \ [`B` \] als \ [`A` \] tevredenstellen`B`
+* &quot;(\[{0\] en \[`A`\]) OF \[`B`\]&quot; staat alleen gegevens toe die aan beide filters \[`C`\] en \[`A`\] voldoen, of alleen aan filter \[`B`\] voldoen`C`
 
-## Dimensionen toevoegen {#dimensions}
+## Afmetingen toevoegen {#dimensions}
 
 In de sectie [`Dimensions`](../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) worden alle beschikbare gegevensafmetingen voor filteren of groeperen weergegeven. Standaard worden alle beschikbare gegevenskolommen weergegeven als afmetingen. Als u doorgaat met het voorbeeld, als u uw inkomsten wilt segmenteren op verwijzingsbron, kunt u dat hier doen.
 

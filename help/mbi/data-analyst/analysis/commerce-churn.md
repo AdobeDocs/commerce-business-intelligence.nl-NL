@@ -76,22 +76,19 @@ Te maken kolommen
 * **Tarief van de Knevel**
    * [!UICONTROL Metric]: Nieuwe klanten (op eerste besteldatum)
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
-   * &#x200B;
-
+   * 
      [!UICONTROL Perspective]: `Cumulative`
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]:
-   * Seconden sinds laatste de ordedatum van de klant >= [ Uw zelf-bepaalde grens voor gekochte klanten ]&#x200B;**`^`**
+   * Seconden sinds laatste de ordedatum van de klant >= [ Uw zelf-bepaalde grens voor gekochte klanten ]**`^`**
    * `Lifetime number of orders Greater Than 0`
 
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
-   * &#x200B;
-
+   * 
      [!UICONTROL Perspective]: Cumulative
    * [!UICONTROL Formula]: `(B / ((A + B) - C)`
-   * &#x200B;
-
+   * 
      [!UICONTROL Format]: Percentage
 
 * *Metrisch `A`:`New customers cumulative`*

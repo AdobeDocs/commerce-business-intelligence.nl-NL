@@ -13,40 +13,40 @@ ht-degree: 0%
 
 # Nieuwe architectuur
 
-[!DNL Adobe Commerce Intelligence] Product- en engineeringteams hebben zich het afgelopen jaar geconcentreerd op het mogelijk maken van de meest verstrekkende, hoogst gevraagde verbeteringen. De Adobe is verheugd om aan te kondigen dat er een nieuwe [!DNL Commerce Intelligence] -productarchitectuur beschikbaar is die deze verbeteringen werkelijkheid maakt.
+[!DNL Adobe Commerce Intelligence] Product- en engineeringteams hebben zich het afgelopen jaar geconcentreerd op het mogelijk maken van de meest verstrekkende, hoogst gevraagde verbeteringen. Adobe is blij dat het de beschikbaarheid aankondigt van een nieuwe [!DNL Commerce Intelligence] productarchitectuur die deze verbeteringen tot realiteit maakt.
 
 ## Voordelen van nieuwe architectuur
 
-* Creeer types van kolommen in de Data Warehouse, met inbegrip van berekende kolommen met SQL.
+* Maak typen kolommen in de Data Warehouse, inclusief berekende kolommen met SQL.
 * Er zijn direct nieuwe kolommen beschikbaar.
 * De latentie van gegevens is dramatisch verbeterd.
 
 ## Technische voordelen
 
-De belangrijkste verschillen worden hierboven vermeld, maar de belangrijkste verandering is de manier berekeningen tijdens de updatecyclus worden uitgevoerd. De berekeningen worden niet meer in elke kolom tijdens elke update in werking gesteld; zij in plaats daarvan in plaats daarvan op bestelling van de Visuele Report Builder in werking gesteld.
+De belangrijkste verschillen worden hierboven vermeld, maar de belangrijkste verandering is de manier berekeningen tijdens de updatecyclus worden uitgevoerd. De berekeningen worden niet meer in elke kolom tijdens elke update in werking gesteld; zij worden in plaats daarvan in plaats daarvan op bestelling van Visual Report Builder in werking gesteld.
 
 ### Naar nieuwe architectuur
 
-Aangezien de rekeningen fundamenteel verschillend worden gebouwd, is er geen automatisch proces om uw Data Warehouse of rapporten aan een nieuwe architectuurrekening te migreren. Voor de overgang naar de nieuwe architectuur moet uw bestaande account opnieuw worden geïmplementeerd.
+Aangezien de accounts fundamenteel anders zijn opgebouwd, is er geen automatisch proces voor het migreren van uw Data Warehouse of voor het rapporteren van rapporten naar een nieuwe architectuuraccount. Voor de overgang naar de nieuwe architectuur moet uw bestaande account opnieuw worden geïmplementeerd.
 
 ### Kosten voor overstap naar de nieuwe architectuur
 
-Geen extra kosten! Adobe maakt dit nieuwe account zodat u kunt beginnen met de herimplementatie, die minstens een maand gratis is. Dit staat u tijd toe om beide rekeningen open te hebben zodat u de re-implementatie gemakkelijker kunt uitvoeren en ervoor zorgt dat uw team geen hiaat in de dienst heeft.
+Geen extra kosten! Adobe maakt dit nieuwe account zodat u kunt beginnen met de herimplementatie, die minimaal een maand gratis is. Dit staat u tijd toe om beide rekeningen open te hebben zodat u de re-implementatie gemakkelijker kunt uitvoeren en ervoor zorgt dat uw team geen hiaat in de dienst heeft.
 
 ### Tijd nodig om account opnieuw te implementeren in de nieuwe architectuur
 
-De tijden van herimplementatie variëren afhankelijk van wat u wilt herbouwen. De Adobe raadt u aan de volgende stappen in uw bestaande account uit te voeren om een idee te krijgen van wat er nodig is voor de nieuwe implementatie:
+De tijden van herimplementatie variëren afhankelijk van wat u wilt herbouwen. Adobe raadt u aan de volgende stappen in uw bestaande account uit te voeren om een idee te krijgen van wat er nodig is voor de nieuwe implementatie:
 
 * Een kernset van rapporten/dashboards identificeren.
 * Bepaal metriek en afmetingen die worden vereist om die rapporten te bouwen.
 * Identificeer de kolommen die worden vereist om die metriek en afmetingen opnieuw te maken.
 
-Wanneer dit volledig is, weet u welke gegevens u aan synchronisatie aan de nieuwe architectuurData Warehouse moet om die kernrapporten te herbouwen.
+Wanneer dit volledig is, weet u welke gegevens u aan synchronisatie aan de nieuwe architectuur Data Warehouse nodig hebt om die kernrapporten te herbouwen.
 
 ### Help opvragen
 
-Het [!DNL Adobe Commerce Intelligence] [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) kan uw re-implementatie voor extra kosten uitvoeren. Contacteer uw [ Team van de Rekening van de Adobe ](../../guide-overview.md#Submitting-a-Support-Ticket) en ben bereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
+Het [!DNL Adobe Commerce Intelligence] [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) kan uw re-implementatie voor extra kosten uitvoeren. Contacteer uw [ Team van de Rekening van Adobe ](../../guide-overview.md#Submitting-a-Support-Ticket) en ben bereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
 
 ### Blijven werken met bestaande architectuur
 
-Als deze functies voor u niet belangrijk zijn, kunt u zich bij uw bestaande account houden. Er zijn geen extra kosten voor het bijhouden van uw bestaande account. De Adobe blijft deze rekeningen zonder wijzigingen steunen.
+Als deze functies voor u niet belangrijk zijn, kunt u zich bij uw bestaande account houden. Er zijn geen extra kosten voor het bijhouden van uw bestaande account. Adobe blijft deze accounts zonder wijzigingen ondersteunen.

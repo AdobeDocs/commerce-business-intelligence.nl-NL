@@ -21,7 +21,7 @@ Voor consolidatie van lijsten aan het werk, moeten de inputlijsten **zo ook gest
 
 In dit onderwerp worden enkele van de meest gebruikte gevallen voor geconsolideerde tabellen en de volgende stappen voor het maken van uw eigen tabellen besproken.
 
-## Recommendations for When to Use Consolidated Tables
+## Aanbevelingen voor wanneer geconsolideerde tabellen moeten worden gebruikt
 
 In het volgende gedeelte wordt besproken wanneer het aangewezen is geconsolideerde tabellen in uw systeem te gebruiken.
 
@@ -41,7 +41,7 @@ Stel je een website voor waar gebruikers verschillende dingen kunnen doen: een e
 
 U kunt geconsolideerde tabellen gebruiken om één uniforme lijst van alle gebruikers te maken en wanneer een van deze gebeurtenissen heeft plaatsgevonden. U kunt dan vragen op de geconsolideerde lijst in werking stellen om zulk een analyse gemakkelijk te leiden.
 
-Zoals met alle andere lijsten in uw Data Warehouse, kunt u extra kolommen toevoegen om verschillende soorten grafieken en analyses te aandrijven.
+Net als bij alle andere tabellen in uw Data Warehouse kunt u extra kolommen toevoegen om verschillende soorten grafieken en analyses van stroom te voorzien.
 
 ## Een geconsolideerde tabel maken, weergeven of bijwerken
 

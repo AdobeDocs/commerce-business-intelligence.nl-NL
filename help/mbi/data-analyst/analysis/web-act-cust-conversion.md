@@ -19,7 +19,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt waarmee uw websiteactiviteit
 
 ## Vereisten
 
-**de Invoer uw reclame kostengegevens** - verbindt [[!DNL [Google AdWords]]](../importing-data/integrations/google-adwords.md) met [!DNL Adobe Commerce Intelligence] - dit synchroniseert automatisch uw [!DNL AdWords] uitgaven in Commerce Intelligence.
+**de Invoer uw reclame kostengegevens** - verbindt [!DNL [Google AdWords]](../importing-data/integrations/google-adwords.md) met [!DNL Adobe Commerce Intelligence] - dit synchroniseert automatisch uw [!DNL AdWords] uitgaven in Commerce Intelligence.
 
 **gegevens van het kanaal van de gebruikersverwerving van het Spoor** - om uw [!DNL Google AdWords] gegevens aan specifieke orden in uw gegevensbestand te binden, moet u [ gebruikersverwerving ](../analysis/google-track-user-acq.md) volgen via [!DNL Google Analytics E-commerce]. Hierdoor kunt u elke bestelling verbinden met een utm-bron en een medium.
 
@@ -29,7 +29,7 @@ Deze inzameling van rapporten wordt gebouwd gebruikend het volgende:
 
 * Metriek die automatisch worden gegenereerd wanneer u de [!DNL Google AdWords] -gegevens aansluit
 * Standaardwaarden die al beschikbaar moeten zijn voor uw account, zoals `Number of orders` en `New users`
-* Dimensionen die worden gemaakt wanneer u uw [!DNL Google Analytics Ecommerce] -gegevens koppelt aan uw database, zoals de utm-bron van de order en het utm-medium van de order. Neem contact op met het ondersteuningsteam als deze velden momenteel niet beschikbaar zijn in uw account
+* Dimensies die worden gemaakt wanneer u uw [!DNL Google Analytics Ecommerce] -gegevens koppelt aan uw database, zoals de utm-bron van de order en het utm-medium van de order. Neem contact op met het ondersteuningsteam als deze velden momenteel niet beschikbaar zijn in uw account
 
 ## Uw rapporten samenstellen
 

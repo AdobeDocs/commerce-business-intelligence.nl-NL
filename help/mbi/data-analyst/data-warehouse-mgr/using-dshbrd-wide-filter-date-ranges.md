@@ -43,11 +43,11 @@ Wanneer u een datumfilter voor een dashboard opgeeft, wordt dat filter alleen op
 
 ## Filters opslaan
 
-Om te analyseren hoe een specifieke opslag uitvoert, klik het opslagpictogram in de hoger-juiste hoek (![ Filter van de Opslag ](../../assets/store-filter.png)). Door gebrek, `Store Filter` wordt geplaatst aan `All Stores`, die de gegevens van alle [ opslagmeningen ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html?lang=nl-NL) beschikbaar in uw plaats van Commerce toont.
+Om te analyseren hoe een specifieke opslag uitvoert, klik het opslagpictogram in de hoger-juiste hoek (![ Filter van de Opslag ](../../assets/store-filter.png)). Door gebrek, `Store Filter` wordt geplaatst aan `All Stores`, die de gegevens van alle [ opslagmeningen ](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/store-views.html) beschikbaar in uw plaats van Commerce toont.
 
 >[!NOTE]
 >
->Een opslagfilter wordt in- of uitgeschakeld voor een volledige [!DNL Commerce Intelligence] -account. Als een dashboard rapporten bevat die niet door het filter worden beïnvloed (zoals rapporten die niet op om het even welke [!DNL Adobe Commerce] gegevens worden voortgebouwd), werken die rapporten niet bij wanneer de archieffilter wordt toegepast. U kunt [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) als u gelooft dat een rapport zou moeten bijwerken gebaseerd op archiefselectie of als u gelooft dat uw filter van de rekeningsopslag incorrect gehandicapt is.
+>Een opslagfilter wordt in- of uitgeschakeld voor een volledige [!DNL Commerce Intelligence] -account. Als een dashboard rapporten bevat die niet door het filter worden beïnvloed (zoals rapporten die niet op om het even welke [!DNL Adobe Commerce] gegevens worden voortgebouwd), werken die rapporten niet bij wanneer de archieffilter wordt toegepast. U kunt [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u gelooft dat een rapport zou moeten bijwerken gebaseerd op archiefselectie of als u gelooft dat uw filter van de rekeningsopslag incorrect gehandicapt is.
 
 Wanneer u een winkel selecteert in de `Store Filter` , behoudt het filter uw selectie wanneer u tussen dashboards navigeert. Door uw selectie te behouden, kunt u overal gegevens voor de geselecteerde winkel zien totdat u `All Stores` selecteert.
 

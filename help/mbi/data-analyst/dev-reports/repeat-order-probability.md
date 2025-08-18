@@ -25,11 +25,11 @@ Als u een filter toevoegt dat een dimensie gebruikt die niet gelijk is voor alle
 
 In bepaalde gevallen kunt u een `order-specific` -dimensie omzetten in een `user-specific` -dimensie om deze als filter toe te voegen in het `Repeat Order Probability` -diagram. In deze gevallen retourneert u het orderkenmerk van de eerste of laatste volgorde van een gebruiker (bijvoorbeeld de naam van het eerste bestelgebied van de gebruiker).
 
-Als u zulk een nieuwe afmeting wilt tot stand brengen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u zulk een nieuwe afmeting wilt tot stand brengen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ## Herhalingswaarschijnlijkheid van orders met verschillende kenmerken vergelijken
 
-Als u het aantal herhaalde aankopen voor verschillende orderkenmerken wilt vergelijken (bijvoorbeeld orderkenmerken `region` ), raadt Adobe u aan een grafiek te maken die lijkt op `Users by lifetime number of orders` . Dit toont u het aantal gebruikers dat 1, 2, 3,... levenslevensaantal orden maakte, en voegt de filter van het ordeniveau toe. (Met andere woorden, dit kan u tonen of de gebruikers meer of minder herhaalde aankopen in één regio of een andere. maken)
+Als u het aantal herhaalde aankopen voor verschillende orderkenmerken wilt vergelijken (bijvoorbeeld orderkenmerken `region`), raadt Adobe aan een grafiek te maken die lijkt op `Users by lifetime number of orders` . Dit toont u het aantal gebruikers dat 1, 2, 3,... levenslevensaantal orden maakte, en voegt de filter van het ordeniveau toe. (Met andere woorden, dit kan u tonen of de gebruikers meer of minder herhaalde aankopen in één regio of een andere. maken)
 
 De getallen waaruit een dergelijk diagram bestaat, kunnen vervolgens worden geëxporteerd naar Excel om de waarschijnlijkheidsverhouding van de herhaalde volgorde te berekenen. Om de waarschijnlijkheid te zien van klanten die `(x)` orden maakten om `(x+1)` orden te maken, eenvoudig ` divide the number of people who've made at least (x+1) purchases by the number of people who have made at least (x)` aankopen.
 

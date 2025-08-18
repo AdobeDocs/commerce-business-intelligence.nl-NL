@@ -1,5 +1,5 @@
 ---
-title: Facebook Ads-gegevens verwacht
+title: Facebook-advertentiegegevens verwacht
 description: Leer een kort overzicht van de tabellen die u kunt synchroniseren met uw Data Warehouse
 exl-id: 0c8b907b-1a98-470b-bb2c-55327e88e502
 role: Admin, Data Architect, Data Engineer, User
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Facebook Ads] gegevens verwacht
 
-Nadat u uw  [!DNL Facebook Ads]  rekening [&#128279;](../integrations/facebook-ads.md) hebt verbonden , kunt u de [ Manager van de Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat u uw [ rekening  [!DNL Facebook Ads]  hebt verbonden ](../integrations/facebook-ads.md), kunt u de [ Manager van Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
-Dit onderwerp geeft u een kort overzicht van de lijsten Adobe adviseert u aan uw Data Warehouse synchroniseren. Dit benadrukt slechts de kernlijsten, aangezien er vrij een paar subtables zijn.
+In dit onderwerp vindt u een kort overzicht van de tabellen die Adobe aanbeveelt te synchroniseren met uw Data Warehouse. Dit benadrukt slechts de kernlijsten, aangezien er vrij een paar subtables zijn.
 
 ## Kern- en campagnemetabellen
 
@@ -60,4 +60,4 @@ Deze tabel bevat dezelfde informatie als de tabel `facebook_ads_insights_{accoun
 ## Verwante
 
 * [Verbinding maken  [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

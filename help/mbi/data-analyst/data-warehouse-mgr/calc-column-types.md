@@ -6,7 +6,7 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration
 source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 * [Handmatige verwijzingskaart](#map)
 * [Geavanceerde berekende kolommen](#advanced)
 
-Binnen de [ Manager van de Data Warehouse ](../data-warehouse-mgr/tour-dwm.md), kunt u kolommen tot stand brengen om uw gegevens voor analyse te verhogen en te optimaliseren. [ Deze functionaliteit ](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van de Data Warehouse te selecteren en **[!UICONTROL Create New Column]** te klikken.
+Binnen de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md), kunt u kolommen tot stand brengen om uw gegevens voor analyse te verhogen en te optimaliseren. [ Deze functionaliteit ](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van Data Warehouse te selecteren en **[!UICONTROL Create New Column]** te klikken.
 
-Dit onderwerp beschrijft de types van kolommen die u met de Manager van de Data Warehouse kunt tot stand brengen. Het behandelt ook de beschrijving, een visuele looppas-door van die kolom, en a [ verwijzingskaart ](#map) van alle die input wordt vereist om een kolom tot stand te brengen. Er zijn drie manieren om berekende kolommen te maken:
+In dit onderwerp worden de typen kolommen beschreven die u kunt maken met Data Warehouse Manager. Het behandelt ook de beschrijving, een visuele looppas-door van die kolom, en a [ verwijzingskaart ](#map) van alle die input wordt vereist om een kolom tot stand te brengen. Er zijn drie manieren om berekende kolommen te maken:
 
 1. [Dezelfde tabel berekende kolommen](#sametable)
 1. [Een-op-veel berekende kolommen](#onetomany)
@@ -71,7 +71,7 @@ Dit type van berekende kolom keert de telling van waarden op de vele lijst *op* 
 
 In het onderstaande voorbeeld wordt de dimensie `Customer's lifetime number of canceled orders` gemaakt in de `customers` -tabel (met een filter voor `orders.status` ).
 
-![](../../assets/many_to_one.gif){: width=&quot;699&quot; height=&quot;351&quot;}
+![](../../assets/many_to_one.gif){: width="699" height="351"}
 
 ### Som {#sum}
 
@@ -101,7 +101,7 @@ Als u moeite hebt zich te herinneren wat alle input wanneer het creëren van een
 
 In uw vraag om vragen over uw zaken te analyseren en te beantwoorden, kunt u een situatie ontmoeten waarin u niet de nauwkeurige kolom kunt bouwen u wilt.
 
-Om een snelle ommekeer te verzekeren, adviseert de Adobe het controleren van de [ Geavanceerde Berekende Gids van de Types van Kolom ](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) om te zien welk soort kolommen het team van de steun van de Adobe kan bouwen. Dat onderwerp behandelt ook de info die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
+Om een snelle ommekeer te verzekeren, adviseert Adobe het controleren van de [ Geavanceerde Berekende Gids van de Types van Kolom ](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) om te zien welk soort kolommen het de steunteam van Adobe kan bouwen. Dat onderwerp behandelt ook de info die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
 
 ## Gerelateerde documentatie
 

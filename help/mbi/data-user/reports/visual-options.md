@@ -1,6 +1,6 @@
 ---
-title: Visualisatieopties in de Visuele Report Builder
-description: Leer hoe te om de opties van de Visualisatie in de Visuele Report Builder te gebruiken.
+title: Visualisatieopties in Visual Report Builder
+description: Leer hoe te om de opties van de Visualisatie in Visual Report Builder te gebruiken.
 exl-id: e42a004e-28e3-4484-bb5a-b58c810b23e0
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration

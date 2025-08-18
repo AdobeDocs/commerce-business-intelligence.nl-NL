@@ -1,5 +1,5 @@
 ---
-title: Weergaven van Data Warehouse maken en gebruiken
+title: Data Warehouse-weergaven maken en gebruiken
 description: Leer over een methode om nieuwe gestreken lijsten tot stand te brengen door een bestaande lijst te wijzigen, of het samenvoegen van of het consolideren van veelvoudige lijsten samen door SQL te gebruiken.
 exl-id: 5aa571c9-7f38-462c-8f1b-76a826c9dc55
 role: Admin, Data Architect, Data Engineer, User
@@ -11,23 +11,23 @@ ht-degree: 6%
 
 ---
 
-# Werken met weergaven van Data Warehouse
+# Werken met Data Warehouse-weergaven
 
 In dit document worden het doel en het gebruik van `Data Warehouse Views` dat toegankelijk is, beschreven door naar **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]** te navigeren. Hieronder vindt u een uitleg van wat het doet en hoe u weergaven kunt maken. Ook ziet u hoe u `Data Warehouse Views` kunt gebruiken om [!DNL Facebook] -gegevens te consolideren en [!DNL AdWords] om gegevens uit te geven.
 
 ## Algemeen doel
 
-De functie `Data Warehouse Views` is een methode om nieuwe geagendeerde tabellen te maken door een bestaande tabel te wijzigen of door meerdere tabellen samen te voegen of te consolideren met SQL. Nadat een `Data Warehouse View` is gemaakt en verwerkt door een updatecyclus, wordt het in uw Data Warehouse gevuld als een nieuwe tabel onder het vervolgkeuzemenu `Data Warehouse Views` , zoals hieronder wordt getoond:
+De functie `Data Warehouse Views` is een methode om nieuwe geagendeerde tabellen te maken door een bestaande tabel te wijzigen of door meerdere tabellen samen te voegen of te consolideren met SQL. Als een `Data Warehouse View` eenmaal is gemaakt en verwerkt door een updatecyclus, wordt het in uw Data Warehouse gevuld als een nieuwe tabel onder het vervolgkeuzemenu `Data Warehouse Views` , zoals hieronder wordt getoond:
 
 ![](../../assets/Data_Warehouse.png)
 
 Van hier, functioneert uw nieuwe mening zoals een andere lijst, die u de macht geven om nieuwe berekende kolommen tot stand te brengen of metriek en rapporten bovenop het te bouwen.
 
-`Data Warehouse Views` worden vooral gebruikt om meerdere vergelijkbare maar verschillende tabellen samen te voegen, zodat alle rapporten op één nieuwe tabel kunnen worden gebaseerd. Enkele voorbeelden die veel voorkomen, zijn het consolideren van de tabellen vanuit een bestaande database en een live database om historische en huidige gegevens te combineren, of het combineren van meerdere advertentiebronnen zoals Facebook en AdWords in een enkelvoudige `Consolidated ad spend` tabel.
+`Data Warehouse Views` worden vooral gebruikt om meerdere vergelijkbare maar verschillende tabellen samen te voegen, zodat alle rapporten op één nieuwe tabel kunnen worden gebaseerd. Een paar voorbeelden die u kunt gebruiken, zijn het consolideren van de tabellen vanuit een verouderde database en een live database om historische en huidige gegevens te combineren, of het combineren van meerdere advertentiebronnen zoals Facebook en AdWords in een enkelvoudige `Consolidated ad spend` tabel.
 
 Als u bekend bent met SQL, gebruiken beide consolidatievoorbeelden de `UNION` functie, maar u kunt om het even welke syntaxis en functies gebruiken PostgreSQL wanneer het bouwen van een nieuwe mening.
 
-## Weergaven van Data Warehouse maken en beheren
+## Data Warehouse-weergaven maken en beheren
 
 U kunt nieuwe `Data Warehouse Views` maken en bestaande weergaven verwijderen door naar **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]** te navigeren, zoals hieronder wordt getoond:
 
@@ -45,7 +45,7 @@ Hier kunt u een weergave maken door de voorbeeldinstructies hieronder te volgen:
 
 1. Als u klaar bent, klikt u op **[!UICONTROL Save]** om de weergave op te slaan. Uw weergave heeft tijdelijk de status `Pending` totdat deze wordt verwerkt door de volgende volledige updatecyclus, waarna de status verandert in `Active` . Nadat uw weergave door een update is verwerkt, kunt u deze gebruiken in rapporten.
 
-Het is belangrijk om te vermelden dat de onderliggende query die wordt gebruikt om een `Data Warehouse View` te genereren, na het opslaan niet kan worden bewerkt. Als u de structuur van een `Data Warehouse View` moet aanpassen, moet u een mening tot stand brengen en manueel om het even welke berekende kolommen, metriek, of rapporten van de originele mening aan nieuwe migreren. Wanneer de migratie is voltooid, kunt u de oorspronkelijke weergave veilig verwijderen. Omdat `Data Warehouse Views` niet bewerkbaar zijn, raadt de Adobe u aan de uitvoer van uw query te testen met de `SQL Report Builder` voordat u de query opslaat als een weergave voor Data Warehouse.
+Het is belangrijk om te vermelden dat de onderliggende query die wordt gebruikt om een `Data Warehouse View` te genereren, na het opslaan niet kan worden bewerkt. Als u de structuur van een `Data Warehouse View` moet aanpassen, moet u een mening tot stand brengen en manueel om het even welke berekende kolommen, metriek, of rapporten van de originele mening aan nieuwe migreren. Wanneer de migratie is voltooid, kunt u de oorspronkelijke weergave veilig verwijderen. Omdat `Data Warehouse Views` niet bewerkbaar is, raadt Adobe u aan de uitvoer van uw query te testen met `SQL Report Builder` voordat u de query opslaat als een Data Warehouse-weergave.
 
 ## Voorbeeld: [!DNL Facebook] en [!DNL Google AdWords] data
 
@@ -136,11 +136,11 @@ In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te 
 
 **zoekend extra hulp?**
 
-Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) hulp in de verwezenlijking van meningen aan. Voor alles van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van de Data Warehouse voor een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
+Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) hulp in de verwezenlijking van meningen aan. Voor alles, van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van Data Warehouse voor de doeleinden van een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
 Gewoonlijk duurt het maken van een nieuwe `Data Warehouse View` voor het consolideren van 2-3 vergelijkbare gestructureerde tabellen vijf uur aan servicetijd, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
 
 * Consolidatie van meer dan drie tabellen in één weergave
-* Weergave van meerdere Data Warehouse maken
+* Het maken van meerdere Data Warehouse-weergaven
 * Complexe samenvoegende logica of filtervoorwaarden
 * Consolidatie van twee of meer tabellen met ongelijke gegevensstructuren

@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md)
 
-De manager van de Data Warehouse, die door **[!UICONTROL Manage Data > Data Warehouse]** wordt betreden te klikken, is de portaal aan uw [!DNL Adobe Commerce Intelligence] Data Warehouse. Gebruikend de Manager van de Data Warehouse, kunt u lijst en kolomsync montages beheren, neer in het schema van een lijst boren, en berekende kolommen tot stand brengen in rapporten te gebruiken.
+De Data Warehouse Manager, die u kunt openen door op **[!UICONTROL Manage Data > Data Warehouse]** te klikken, is de portal voor uw [!DNL Adobe Commerce Intelligence] Data Warehouse. Met Data Warehouse Manager kunt u de instellingen voor tabel- en kolomsynchronisatie beheren, naar het schema van een tabel gaan en berekende kolommen maken die u in rapporten wilt gebruiken.
 
 Dit onderwerp omvat:
 
@@ -36,7 +36,7 @@ Binnen de lijst van de lijst, worden de lijsten gegroepeerd door hun verbindings
 
 Onder het zoekvak ziet u twee opties: `All Tables` en `Synced Tables` . De optie `All Tables` bevat een lijst met alle tabellen die u beschikbaar hebt gemaakt voor uw Data Warehouse. Deze tabellen bevatten zowel gesynchroniseerde als niet-gesynchroniseerde tabellen.
 
-Met de optie `Synced Tables` worden alle tabellen weergegeven die al in de Data Warehouse zijn toegevoegd en waarvan gegevens uit de geselecteerde kolommen worden gerepliceerd.
+Met de optie `Synced Tables` worden alle tabellen weergegeven die al in uw Data Warehouse zijn toegevoegd en waarvan gegevens uit de geselecteerde kolommen worden gerepliceerd.
 
 Zie de tabel die u zoekt niet in de lijst `All Tables` ? Hiervoor zijn enkele redenen te vinden:
 
@@ -48,7 +48,7 @@ Zie de tabel die u zoekt niet in de lijst `All Tables` ? Hiervoor zijn enkele re
 
 ### Nieuwe tabellen en native kolommen synchroniseren
 
-De Manager van de Data Warehouse geeft u niet alleen de capaciteit om uw gegevensbronnen gemakkelijk te bekijken en te beheren, u hebt ook de vrijheid om de individuele lijsten en de kolommen te selecteren u wilt synchroniseren.
+Met Data Warehouse Manager kunt u niet alleen uw gegevensbronnen gemakkelijk weergeven en beheren, maar kunt u ook de afzonderlijke tabellen en kolommen selecteren die u wilt synchroniseren.
 
 1. Klik op de optie `All Tables` en zoek de tabel die u wilt synchroniseren.
 1. Klik op de naam van de tabel om een voorvertoning van het schema weer te geven. Als de tabel nieuw is, worden alle kolommen weergegeven als `Unsynced` .
@@ -71,19 +71,19 @@ Hieronder volgt een kort overzicht van het hele proces:
 
 ### Nieuwe tabellen synchroniseren op de achtergrond {#syncnew}
 
-Wanneer u een grote lijst voor het eerst synchroniseert, moet uw Data Warehouse alle gegevenspunten in de lijst terugwerkende kracht vangen alvorens nieuwe gegevens op een lopende basis te vangen. Als uw lijst groot is, kunt u niet die aanvankelijke synchrone looppas met uw **updatecyclus** willen hebben. In deze situatie, wilt u de aanvankelijke synchronisatie op de achtergrond voorkomen, in *parallel* met om het even welke momenteel lopende update.
+Wanneer u een grote tabel voor het eerst synchroniseert, moet uw Data Warehouse met terugwerkende kracht alle gegevenspunten in de tabel vastleggen voordat nieuwe gegevens doorlopend worden vastgelegd. Als uw lijst groot is, kunt u niet die aanvankelijke synchrone looppas met uw **updatecyclus** willen hebben. In deze situatie, wilt u de aanvankelijke synchronisatie op de achtergrond voorkomen, in *parallel* met om het even welke momenteel lopende update.
 
 Om ervoor te zorgen dat dit gebeurt, selecteert u de optie `Save and Sync Data Immediately` waarmee die tabel voor het eerst wordt gesynchroniseerd.
 
 ### Controleren op nieuwe tabellen en kolommen {#forceupdate}
 
-Uw Data Warehouse ontdekt automatisch geen nieuwe bronnen, lijsten, of kolommen het ogenblik zij worden toegevoegd. Een synchronisatieproces loopt door de week om nieuwe toevoegingen te vinden en hen ter beschikking te stellen, maar u kunt een structuursynchronisatie dwingen als u tot onlangs toegevoegde lijsten en kolommen wilt toegang hebben alvorens het proces loopt.
+Uw Data Warehouse detecteert niet automatisch nieuwe bronnen, tabellen of kolommen wanneer deze worden toegevoegd. Een synchronisatieproces loopt door de week om nieuwe toevoegingen te vinden en hen ter beschikking te stellen, maar u kunt een structuursynchronisatie dwingen als u tot onlangs toegevoegde lijsten en kolommen wilt toegang hebben alvorens het proces loopt.
 
 Onder de zoekbalk in de tabellijst bevindt zich een koppeling `Check for new tables and columns` . Als u op deze koppeling klikt, wordt de structuursynchronisatie geforceerd gestart. Nieuwe toevoegingen zijn doorgaans na 10 minuten beschikbaar. Vernieuw de pagina om de nieuwe bron, tabel of kolom te zien.
 
 ## Berekende kolommen maken {#calculated}
 
-Eenvoudig het kunnen gegevens van al uw bronnen zien en beheren maakt het verkrijgen van inzicht in uw zaken veel gemakkelijker. Maar binnen de Manager van de Data Warehouse, kunt u een stap verder gaan door berekende kolommen binnen uw lijsten te creëren. `Calculated` -kolommen leiden nieuwe informatie af van bestaande gegevens.
+Eenvoudig het kunnen gegevens van al uw bronnen zien en beheren maakt het verkrijgen van inzicht in uw zaken veel gemakkelijker. Maar in Data Warehouse Manager kunt u een stap verder gaan door berekende kolommen in uw tabellen te maken. `Calculated` -kolommen leiden nieuwe informatie af van bestaande gegevens.
 
 Stel dat u `user's lifetime revenue` aan de `users` -tabel wilt toevoegen om gebruikers met een hoge waarde te zoeken. Of als u inkomsten wilt segmenteren op basis van geslacht, kunt u `customer's gender` toevoegen aan uw `orders` -tabel.
 
@@ -91,7 +91,7 @@ Voor meer informatie, controleer dit [ leerprogramma ](../../data-analyst/data-w
 
 ## Tabellen neerzetten en kolommen verwijderen {#delete}
 
-Net zoals u tabellen en kolommen kunt selecteren die u met de Data Warehouse wilt synchroniseren, kunt u ze ook neerzetten of verwijderen.
+Net zoals u tabellen en kolommen kunt selecteren die u wilt synchroniseren met uw Data Warehouse, kunt u ze ook neerzetten of verwijderen.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Maak u geen zorgen als u per ongeluk op **[!UICONTROL Delete]** klikt. Een gebie
 
 Als u kolommen wilt verwijderen, klikt u op de tabel waartoe de kolom behoort. Controleer de kolommen die u wilt verwijderen en klik de ![ knoop \_1.png ](../../assets/button_1.png) knoop.
 
-Om een gesynchroniseerde lijst te verwijderen, selecteer alle kolommen in de lijst, en klik opnieuw de ![ knoop ](../../assets/button_1.png) knoop. Hierdoor worden alle native en berekende kolommen die deze tabel gebruiken, uit de Data Warehouse verwijderd.
+Om een gesynchroniseerde lijst te verwijderen, selecteer alle kolommen in de lijst, en klik opnieuw de ![ knoop ](../../assets/button_1.png) knoop. Hierdoor worden alle native en berekende kolommen die deze tabel gebruiken, uit uw Data Warehouse verwijderd.
 
 ### Wijzigingen bevestigen
 
@@ -121,6 +121,6 @@ Wanneer u bereid bent om uw nieuwe kolommen in rapporten te gebruiken, [ moet u 
 
 ## Omloop
 
-Dit artikel bedekte veel materiaal. Ondertussen, zou u een stevig inzicht in wat een gegevensbestand is, hoe de gegevens worden georganiseerd, hoe de lijsten met elkaar betrekking hebben, en wat u met de Manager van de Data Warehouse kunt doen.
+Dit artikel bedekte veel materiaal. Ondertussen moet u een goed begrip hebben van wat een database is, hoe gegevens worden geordend, hoe tabellen op elkaar betrekking hebben en wat u kunt doen met Data Warehouse Manager.
 
 Ga uw kennis testen door [ een berekende kolom ](../data-warehouse-mgr/creating-calculated-columns.md) te creëren of [ die sommige interessante rapporten ](../../tutorials/using-visual-report-builder.md) maken.

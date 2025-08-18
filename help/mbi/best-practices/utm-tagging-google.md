@@ -1,6 +1,6 @@
 ---
-title: UTM-tracking in Googles Analytics
-description: Meer informatie over de beste praktijken voor het bijhouden van UTM-codes (tagging) in Googles Analytics.
+title: UTM-tracking in Google Analytics
+description: Meer informatie over de beste praktijken voor het bijhouden van UTM-codes in Google Analytics.
 exl-id: 70bfd855-3b3f-469b-99bc-deb8251904b7
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 De volgende lijst bevat een overzicht van de vijf belangrijkste zaken die u moet onthouden wanneer u URL&#39;s instelt met `UTM` -tags.
 
-### 1. Doel is elke URL waarop u het plaatsen van uw site kunt controleren, van tags te voorzien
+### &#x200B;1. Doel is elke URL waarop u het plaatsen van uw site kunt controleren, van tags te voorzien
 
 Telkens wanneer u mensen vraagt om op een koppeling te klikken, moet u `UTM` -tags instellen. Hieronder vallen al uw e-mailkoppelingen (uw e-mailservicebureau kan uw URL&#39;s mogelijk automatisch coderen), koppelingen, drukartikelen en blogberichten.
 
-### 2. Maak een URL met een gereedschap
+### &#x200B;2. Maak een URL met een gereedschap
 
 URL&#39;s met `UTM` -tags kunnen omslachtig zijn. In plaats van het proberen om hen uit lange weg te typen, gebruik een hulpmiddel [ als dit ](https://support.google.com/analytics/answer/1033867?hl=en) om u te helpen. Zo weet u zeker dat u alle nuttige parameters aan de URL wilt toevoegen en dat u de URL voor kopiëren en plakken meteen uit de URL wilt halen. Voor het beheer van sociale koppelingen bevat gereedschap zoals [!DNL Hootsuite] de optie om aangepaste URL-parameters toe te voegen aan al uw koppelingen.
 
-### 3. Zorg ervoor dat de parameterwaarden hoofdlettergevoelig zijn
+### &#x200B;3. Zorg ervoor dat de parameterwaarden hoofdlettergevoelig zijn
 
 Het is belangrijk om te onthouden dat de tag `utm\_source=adwords` een andere tag is dan `utm\_source=Adwords` . Overweeg om alles in kleine letters te maken.
 
-### 4. Sla de UTM-parameterwaarden op in uw database
+### &#x200B;4. Sla de UTM-parameterwaarden op in uw database
 
 Telkens wanneer een transactie of gebeurtenis gebeurt, wilt u de prestaties van uw marketing activiteiten evalueren. U kunt dit doen door de waarden van de UTM parameterwaarden van het [[!DNL Google Analytics]  koekje in uw gegevensbestand ](../data-analyst/analysis/google-track-user-acq.md) te lezen.
 
-### 5. Denk na over de naam van campagnes
+### &#x200B;5. Denk na over de naam van campagnes
 
 Als u wilt bijhouden hoe uw marketinginspanningen in de loop der tijd verbeteren, moet u op de hoogte zijn van uw naamgevingsconventies. Houd het eenvoudig en minimaliseer het zoveel mogelijk. Gecompliceerde naamgevingssystemen zijn moeilijker te onderhouden.
 

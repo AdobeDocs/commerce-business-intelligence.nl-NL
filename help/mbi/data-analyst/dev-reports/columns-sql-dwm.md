@@ -1,6 +1,6 @@
 ---
-title: Verschillen tussen SQL en de Manager van de Data Warehouse
-description: Leer de verschillen tussen SQL en de Manager van de Data Warehouse.
+title: Verschillen tussen SQL en Data Warehouse Manager
+description: Leer de verschillen tussen SQL en Data Warehouse Manager.
 exl-id: 31dd7a04-5c03-4399-b67e-f51703eb9fea
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
@@ -21,8 +21,8 @@ Kolommen zijn niet afhankelijk van updatecycli. U hoeft dus niet langer te wacht
 
 >[!IMPORTANT]
 >
->De kolommen die u maakt met de [!DNL SQL] -editor worden niet opgeslagen in de Data Warehouse. U hebt altijd toegang tot de vraag die de kolom bevat, maar als u de kolom in meer dan één rapport wilt gebruiken, moet u het in de vraag voor elk rapport opnieuw creëren. Dit betekent dat kolommen die zijn gemaakt met de [!DNL SQL] -editor niet kunnen worden gebruikt in de traditionele [!DNL Report Builder] .
+>De kolommen die u maakt met de [!DNL SQL] -editor worden niet opgeslagen op uw Data Warehouse. U hebt altijd toegang tot de vraag die de kolom bevat, maar als u de kolom in meer dan één rapport wilt gebruiken, moet u het in de vraag voor elk rapport opnieuw creëren. Dit betekent dat kolommen die zijn gemaakt met de [!DNL SQL] -editor niet kunnen worden gebruikt in de traditionele [!DNL Report Builder] .
 
-## Kolommen in het Manager van de Data Warehouse
+## Kolommen in Data Warehouse Manager
 
-Kolommen zijn afhankelijk van updatecycli, dus een volledige cyclus moet zijn voltooid voordat ze kunnen worden bewerkt. Deze kolommen worden opgeslagen in Data Warehouse Manager en kunnen worden gebruikt in de traditionele [!DNL Report Builder] of [!DNL SQL Report Builder] .
+Kolommen zijn afhankelijk van updatecycli, dus een volledige cyclus moet zijn voltooid voordat ze kunnen worden bewerkt. Deze kolommen worden opgeslagen in Data Warehouse Manager en kunnen worden gebruikt in de traditionele map [!DNL Report Builder] of [!DNL SQL Report Builder] .

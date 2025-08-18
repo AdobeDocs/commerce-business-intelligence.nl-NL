@@ -21,7 +21,7 @@ Dit is handig als u een bestaande set grafieken opnieuw wilt maken, maar het per
 
 1. Klik in het vervolgkeuzemenu op **[!UICONTROL Save As]** .
 
-1. Voer de `New Dashboard Name` in wanneer hierom wordt gevraagd. Adobe raadt namen aan die je in één oogopslag vertellen welke informatie er in het dashboard zit.
+1. Voer de `New Dashboard Name` in wanneer hierom wordt gevraagd. Adobe raadt namen aan die je in een oogopslag vertellen welke informatie er in het dashboard zit.
 
    U kloont bijvoorbeeld een dashboard met de naam `Customer Activity` . Dit dashboard bevatte de informatie van de klantenactiviteit voor uw plaats Philadelphia, maar nu wilt u een dashboard voor uw nieuwe plaats van de Stad van New York creëren. Dit dashboard kan de naam `New York City - Customer Activity` hebben.
 

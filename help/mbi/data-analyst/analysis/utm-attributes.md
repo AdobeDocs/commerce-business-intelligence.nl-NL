@@ -1,6 +1,6 @@
 ---
-title: Googles Analytics en UTM-kenmerk
-description: Leer meer over het bronattributieproces van Googles Analytics.
+title: Google Analytics- en UTM-kenmerk
+description: Meer informatie over het Google Analytics-brontoewijzingsproces.
 exl-id: 48b8a3d3-f1ac-4d3f-8f65-db1245c9ae0a
 role: Admin, Data Architect, Data Engineer, User
 feature: Reports
@@ -21,7 +21,7 @@ Het is kritiek aan [ bron van de spoorgebruikersaanwinst ](../../data-analyst/an
 
 In het ideale geval wordt telkens wanneer een conversiegebeurtenis plaatsvindt, een verwijzingsbron vastgelegd. Maar hoe wordt de bron bepaald?
 
-De realiteit is dat gebruikers vaak uit vele bronnen komen voordat ze een micro- of macroconversie bereiken of doorvoeren. Ze kunnen bijvoorbeeld naar de locatie komen via biologisch, dan vertrekken, dan via betaald zoeken, dan vertrekken en rechtstreeks naar de site zelf komen. Deze brontraceringsinformatie wordt vaak via UTM-parameters aan de site verstrekt, maar er zijn ook meer geavanceerde systemen. Voor uw doeleinden, concentreer zich op [ UTM ](https://support.google.com/analytics/answer/1033867?hl=en&amp;ref_topic=1032998).
+De realiteit is dat gebruikers vaak uit vele bronnen komen voordat ze een micro- of macroconversie bereiken of doorvoeren. Ze kunnen bijvoorbeeld naar de locatie komen via biologisch, dan vertrekken, dan via betaald zoeken, dan vertrekken en rechtstreeks naar de site zelf komen. Deze brontraceringsinformatie wordt vaak via UTM-parameters aan de site verstrekt, maar er zijn ook meer geavanceerde systemen. Voor uw doeleinden, concentreer zich op [ UTM ](https://support.google.com/analytics/answer/1033867?hl=en&ref_topic=1032998).
 
 ## Hoe kenmerkt [!DNL Google Analytics] verwijzingsbronnen via parameters UTM?
 
@@ -37,7 +37,7 @@ Bijvoorbeeld, overweeg een gebruiker die eerst een website via [!DNL Google Anal
 
 >[!NOTE]
 >
->De specifieke gebruikers [!DNL Google Analytics] koekjesparameters worden van een specifieke gebruiker gewist wanneer het koekje [&#128279;](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) verloopt, of wanneer een gebruiker hun koekjes in browser ontruimt.*
+>De specifieke gebruikers [!DNL Google Analytics] koekjesparameters worden van een specifieke gebruiker gewist wanneer het koekje [ ](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage) verloopt, of wanneer een gebruiker hun koekjes in browser ontruimt.*
 
 ### Kenmerk eerste klik
 

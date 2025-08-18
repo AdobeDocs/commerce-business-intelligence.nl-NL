@@ -1,5 +1,5 @@
 ---
-title: Integraties die worden gebruikt met de SQL-Report Builder?
+title: Integraties die worden gebruikt met de SQL Report Builder?
 description: Leer welke integratie met SQL Report Builder kan worden gebruikt.
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports

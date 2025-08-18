@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Offertetabel
 
-De tabel `quote` (`sales_flat_quote` op M1) bevat gegevens over elk winkelwagentje dat in uw winkel is gemaakt, ongeacht of deze zijn verlaten of zijn omgezet in een aankoop. Elke rij vertegenwoordigt één kar. Vanwege de mogelijke grootte van deze tabel, raadt de Adobe u regelmatig aan om records te verwijderen als aan bepaalde criteria wordt voldaan, bijvoorbeeld als er niet-omgezette winkelwagentjes zijn die ouder zijn dan 60 dagen.
+De tabel `quote` (`sales_flat_quote` op M1) bevat gegevens over elk winkelwagentje dat in uw winkel is gemaakt, ongeacht of deze zijn verlaten of zijn omgezet in een aankoop. Elke rij vertegenwoordigt één kar. Vanwege de mogelijke grootte van deze tabel raadt Adobe u aan om regelmatig records te verwijderen als aan bepaalde criteria wordt voldaan, bijvoorbeeld als er niet-omgezette winkelwagentjes ouder zijn dan 60 dagen.
 
 >[!NOTE]
 >

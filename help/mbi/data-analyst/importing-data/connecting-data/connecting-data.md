@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Uw gegevens verbinden
 
-In [!DNL Adobe Commerce Intelligence] worden gegevensbronnen `integrations` genoemd. Nadat de verbinding met `integration` is voltooid, kunt u in Beheer Data Warehouse door de tabellen bladeren die beschikbaar zijn voor synchronisatie.
+In [!DNL Adobe Commerce Intelligence] worden gegevensbronnen `integrations` genoemd. Nadat de verbinding met `integration` is voltooid, kunt u in Data Warehouse Manager door de tabellen bladeren die beschikbaar zijn voor synchronisatie.
 
 Integraties worden toegevoegd en beheerd met behulp van de pagina `Connections` , die toegankelijk is door op **[!UICONTROL Manage Data** > **Connections]** te klikken. Hier zie je:
 
@@ -29,7 +29,7 @@ Integraties worden toegevoegd en beheerd met behulp van de pagina `Connections` 
 
 ## Typen integraties
 
-U kunt uw gegevens op vier manieren in [!DNL Commerce Intelligence] opnemen: een database verbinden, een SaaS-integratie verbinden, een `.csv` -bestand uploaden of de Adobe-API gebruiken.
+U kunt uw gegevens op vier manieren in [!DNL Commerce Intelligence] opnemen: een database verbinden, een SaaS-integratie verbinden, een `.csv` -bestand uploaden of de Adobe API gebruiken.
 
 ## Database-integratie
 
@@ -37,7 +37,7 @@ U kunt uw gegevens op vier manieren in [!DNL Commerce Intelligence] opnemen: een
 
 [!DNL Commerce Intelligence] steunt op SQL-Gebaseerde en gegevensbestanden NoSQL zoals [ MySQL ](../../importing-data/integrations/mysql-via-ssh-tunnel.md), [ Microsoft SQL ](../integrations/microsoft-sql-server.md), [ MongoDB ](../integrations/mongodb-via-ssh-tunnel.md), en [ PostgreSQL ](../integrations/postgresql.md).
 
-Hoewel u uw database rechtstreeks met [!DNL Commerce Intelligence] kunt verbinden via databasereferenties, raadt de Adobe u aan een bewezen coderingsmethode te gebruiken, zoals een SSH-tunnel. Dit zorgt ervoor dat uw gegevens veilig en veilig blijven aangezien het zijn weg in uw Data Warehouse maakt.
+Hoewel u uw database rechtstreeks met [!DNL Commerce Intelligence] kunt verbinden via databasereferenties, raadt Adobe u aan een bewezen coderingsmethode te gebruiken, zoals een SSH-tunnel. Dit zorgt ervoor dat uw gegevens veilig en veilig blijven wanneer deze op weg zijn naar uw Data Warehouse.
 
 Afhankelijk van de verbindingsmethode en het type van gegevensbestand, zou wat technische deskundigheid kunnen worden vereist om de opstelling te voltooien.
 
@@ -51,7 +51,7 @@ Doorgaans is het instellen van een integratie in [!DNL Commerce Intelligence] ne
 
 ## Bestand uploaden
 
-Weet u niet zeker hoe u gegevens van een aanvullende bron in uw Data Warehouse kunt krijgen? [ Gebruikend de `File Upload` eigenschap ](../connecting-data/using-file-uploader.md) is een goede manier om in gegevens te trekken die u niet voor dagelijkse besluitvorming vereist. Na de opmaakregels kunt u snel `.csv` bestanden uploaden naar uw Data Warehouse en deze samenvoegen met andere gegevensbronnen.
+Weet u niet zeker hoe u gegevens van een aanvullende bron naar uw Data Warehouse kunt ophalen? [ Gebruikend de `File Upload` eigenschap ](../connecting-data/using-file-uploader.md) is een goede manier om in gegevens te trekken die u niet voor dagelijkse besluitvorming vereist. Na de opmaakregels kunt u `.csv` -bestanden snel uploaden naar uw Data Warehouse en deze samenvoegen met andere gegevensbronnen.
 
 ## [!DNL Commerce Intelligence] `Import API`
 
@@ -70,6 +70,6 @@ Als u een integratie wilt toevoegen, klikt u op **[!UICONTROL Manage Data** > **
 * [Tabellen consolideren](../../../best-practices/consolidating-your-tables.md)
 * [Toegang tot uw database beperken](../../../administrator/account-management/restrict-db-access.md)
 
-**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor.
+**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor.
 
 **als u een foutenstatus voor een integratie** ziet, controleer de [ sectie van het Oplossen van problemen ](https://support.magento.com/hc/en-us/sections/360003078151) voor hulp.

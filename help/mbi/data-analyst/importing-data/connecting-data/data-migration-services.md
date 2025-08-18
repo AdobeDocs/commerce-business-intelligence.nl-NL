@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevensmigratie
 
-Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Het [[!DNL Adobe]  team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) biedt migratiehulp aan.
+Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Het [[!DNL Adobe]  team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt migratiehulp aan.
 
 Om ervoor te zorgen dat de overgang zo soepel mogelijk verloopt, dient u uw migratieverzoek zo gedetailleerd mogelijk in te dienen. Dit onderwerp heeft alles dat u een verzoek moet voorleggen en op de migratie begonnen worden. Als u ons een volledig beeld geeft van uw behoeften, bent u er zeker van dat uw project binnen de juiste reikwijdte valt en dat de schatting correct is.
 
@@ -45,11 +45,11 @@ Om dit type migratie te voltooien, moeten bestaande gegevenskolommen worden aang
 
 Als u zich comfortabel voelt het aanpassen zelf, volg deze instructies en maak de voltooide spreadsheet aan uw verzoek vast:
 
-1. Herzie alle lijsten en kolommen momenteel synchroniserend aan uw Data Warehouse (**[!UICONTROL Manage Data** > **Data Warehouse]**).
+1. Bekijk alle tabellen en kolommen die momenteel met uw Data Warehouse worden gesynchroniseerd (**[!UICONTROL Manage Data** > **Data Warehouse]**).
 
 1. Maak in een spreadsheet een tab voor elke tabel die naar de nieuwe database moet worden gemigreerd.
 
-1. Maak op elk tabblad een kolom voor alle bestaande kolommen die moeten worden gemigreerd. Adobe raadt u aan de naam van een item als `Existing column name` te wijzigen.
+1. Maak op elk tabblad een kolom voor alle bestaande kolommen die moeten worden gemigreerd. Adobe raadt u aan het item een naam te geven zoals `Existing column name` .
 
 1. U moet ook een andere kolom voor de kolomequivalenten in het nieuwe gegevensbestand in elk lusje van het spreadsheet maken. Adobe raadt aan de kolom een naam te geven, zoals `New column name` .
 
@@ -67,7 +67,7 @@ Hier volgt een voorbeeld:
 
 ## Hoe dien ik een verzoek in? {#submitreq}
 
-U kunt uit naar ons bereiken door [ een steunverzoek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor te leggen.
+U kunt uit naar ons bereiken door [ een steunverzoek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor te leggen.
 
 Als u de stappen in de vorige sectie hebt uitgevoerd voor het maken van de overeenkomende kolomspreadsheet, vergeet dan niet deze als bijlage toe te voegen.
 

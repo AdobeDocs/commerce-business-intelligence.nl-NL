@@ -14,7 +14,7 @@ ht-degree: 0%
 # Kies een rapportbuilder
 
 >[!NOTE]
->&#x200B;>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
 
 Nu u meer opties hebt voor het maken van analyses, is het soms moeilijk om precies te weten welke smaak van de rapportbuilder aan uw behoeften voldoet. Dit onderwerp begeleidt u door de beste manier te kiezen om uw analyse te bouwen.
 
@@ -24,7 +24,7 @@ Bekijk een aantal van de meer algemene redenen waarom u de [!DNL SQL Report Buil
 
 ### Als u [!DNL SQL] -specifieke functies wilt gebruiken...
 
-Een deel van de schoonheid van [!DNL SQL Report Builder] is dat het u de capaciteit geeft om functies te gebruiken die momenteel niet beschikbaar in de Manager van de Data Warehouse zijn. In het verleden had een analist u misschien moeten helpen uw visie volledig te realiseren.
+Een deel van de schoonheid van [!DNL SQL Report Builder] is dat het u de capaciteit geeft om functies te gebruiken die momenteel niet beschikbaar in de Manager van Data Warehouse zijn. In het verleden had een analist u misschien moeten helpen uw visie volledig te realiseren.
 
 [!DNL SQL Report Builder] steunt functies zoals [`LISTAGG` ](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) en [`GETDATE` ](https://docs.aws.amazon.com/redshift/latest/dg/r_GETDATE.html), die u niet kon eerder gebruiken. U kunt tot [`full list` toegang hebben ](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html), maar sommige andere SQL-Specifieke functies omvatten:
 
@@ -39,17 +39,17 @@ Een deel van de schoonheid van [!DNL SQL Report Builder] is dat het u de capacit
 
 ### Als u wat tests wilt uitvoeren...
 
-Als u verschillende technieken en strategieën wilt uitproberen om te bepalen wat het beste werkt voor uw analyse, kunt u [!DNL SQL Report Builder] gebruiken. Het opbouwen van kolommen in de Manager van de Data Warehouse vergt tijd en kolommen die u gebruikend DWM creeert hangt van updatecycli af.
+Als u verschillende technieken en strategieën wilt uitproberen om te bepalen wat het beste werkt voor uw analyse, kunt u [!DNL SQL Report Builder] gebruiken. Het opbouwen van kolommen in de Manager van Data Warehouse vergt tijd en kolommen die u gebruikend DWM creeert hangt van updatecycli af.
 
 U moet op zijn best een updatecyclus doorlopen voordat u de kolom kunt gebruiken. Als u realiseert hebt u een fout in de bouw van de kolom gemaakt, moet u door *twee* cycli wachten: om de kolom aanvankelijk te bevolken, en een andere cyclus voor de revisies om zich te verspreiden.
 
 ### Als u slechts eenmaal een nieuwe kolom gebruikt...
 
-Zoals vermeld in de bovenstaande sectie, kost het maken van een kolom in de Manager van de Data Warehouse tijd. Als u slechts van plan bent om een kolom te gebruiken u in één rapport creeert, stelt de Adobe het gebruiken van [!DNL SQL Report Builder] voor. Hierdoor hoeft u niet langer te wachten tot een updatecyclus is voltooid, zodat u sneller weer aan de slag kunt.
+Zoals vermeld in de bovenstaande sectie, kost het maken van een kolom in Data Warehouse Manager tijd. Als u slechts van plan bent om een kolom te gebruiken u in één rapport creeert, stelt Adobe voor [!DNL SQL Report Builder] te gebruiken. Hierdoor hoeft u niet langer te wachten tot een updatecyclus is voltooid, zodat u sneller weer aan de slag kunt.
 
 ### Als u werkt met gegevens die een één-op-vele verhouding hebben...
 
-Soms kan de structuur van de gegevens van [!DNL SQL Report Builder] een efficiëntere en logische keuze maken om uw analyse samen te stellen. Het creëren van kolommen voor één-op-één verhoudingen is ongecompliceerd in de Manager van de Data Warehouse, maar de dingen kunnen een beetje verwarrend worden wanneer u met één-aan-vele verhoudingen behandelt.
+Soms kan de structuur van de gegevens van [!DNL SQL Report Builder] een efficiëntere en logische keuze maken om uw analyse samen te stellen. Het maken van kolommen voor één-op-één relaties is eenvoudig in Data Warehouse Manager, maar het kan een beetje verwarrend zijn wanneer u met één-op-veel relaties werkt.
 
 Stel dat één product wordt beschouwd als onderdeel van meerdere productcategorieën en u wilt de inkomsten bekijken die aan elke categorie van elk product zijn gekoppeld. Het maken van deze relatie met behulp van DWM kan vervelend en moeilijk zijn, maar het schrijven van een query [!DNL SQL] kan wat eenvoudiger zijn:
 
@@ -57,17 +57,17 @@ Stel dat één product wordt beschouwd als onderdeel van meerdere productcategor
 
 ## Wanneer moet ik de traditionele Report Builder gebruiken? {#whentraditionalrb}
 
-Hoewel [!DNL SQL Report Builder] u meer controle en toegang tot eerder niet beschikbare functionaliteit geeft, is het misschien niet altijd de juiste keuze. De Adobe stelt voor dat u ook rekening houdt met het volgende wanneer u bepaalt welke smaak de rapportaannemer moet gebruiken.
+Hoewel [!DNL SQL Report Builder] u meer controle en toegang tot eerder niet beschikbare functionaliteit geeft, is het misschien niet altijd de juiste keuze. Adobe stelt voor dat u ook rekening houdt met het volgende wanneer u bepaalt welke smaak de rapportaannemer moet gebruiken.
 
 ### Als u een eenvoudig rapport opstelt...
 
-Als u eenvoudig wilt maken, kunt u de traditionele Report Builder veel sneller gebruiken dan het schrijven van een volledige [!DNL SQL] query. Het helpt als om het even welke kolommen die u de analyse moet tot stand brengen reeds in de Manager van de Data Warehouse zijn.
+Als u eenvoudig wilt maken, kunt u de traditionele Report Builder veel sneller gebruiken dan een volledige [!DNL SQL] query schrijven. Het is handig als de kolommen die u nodig hebt om de analyse te maken, al in Data Warehouse Manager staan.
 
 ### Als u uw werk deelt met andere gebruikers...
 
-Gebruikt/bekijkt u deze analyse door gebruikers in uw hele organisatie? Afhankelijk van wie u uw werk met deelt, kan het plakken met de Visuele Report Builder beter soms zijn. Gebruikers kunnen snel naar de definitie in de [!DNL Visual Report Builder] zoeken en een mogelijk lange [!DNL SQL] -query lezen.
+Gebruikt/bekijkt u deze analyse door gebruikers in uw hele organisatie? Afhankelijk van met wie u uw werk deelt, kan het beter zijn om met Visual Report Builder te blijven hangen. Gebruikers kunnen snel naar de definitie in de [!DNL Visual Report Builder] zoeken en een mogelijk lange [!DNL SQL] -query lezen.
 
-Als er mensen zijn die het rapport nodig hebben maar niet bekend zijn met [!DNL SQL] , stelt de Adobe voor de oorspronkelijke smaak van de Report Builder te gebruiken. Het maakt het makkelijker voor hen.
+Als er mensen zijn die het rapport nodig hebben maar niet bekend zijn met [!DNL SQL] , stelt Adobe voor de oorspronkelijke smaak van de Report Builder te gebruiken. Het maakt het makkelijker voor hen.
 
 ## Omloop {#wrapup}
 

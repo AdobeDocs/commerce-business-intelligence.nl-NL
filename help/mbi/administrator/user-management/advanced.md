@@ -3,13 +3,13 @@ title: Geavanceerd gebruikersbeheer
 description: Verbeter de zichtbaarheid van gegevens, stroomlijn de rapportage, maak de toegang voor gebruikersgroepen beter, vereenvoudig het delen van dashboard en zorg voor beveiliging en schaalbaarheid voor uw organisatie.
 role: Admin, User
 feature: User Management
-source-git-commit: 42871886d12b97ee52aa270da6f0186a9a4eaddc
+exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
+source-git-commit: df408b8947a62cdb498b56370be965c89c45f6ff
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
 
 ---
-
 
 # Geavanceerd gebruikersbeheer
 
@@ -392,7 +392,7 @@ Gebruikersgroepen zijn logische groepen gebieden die zijn toegewezen aan specifi
 
 Gebruikersgroepen configureren:
 
-1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] &#x200B;**, om bestaande gebruikersgroepen te bekijken.
+1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] **, om bestaande gebruikersgroepen te bekijken.
 
    ![ vorm gebruikersgroepen ](../../assets/configure-user-groups.png)
 

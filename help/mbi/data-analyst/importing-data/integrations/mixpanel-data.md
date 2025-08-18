@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Mixpanel] gegevens verwacht
 
-Nadat [ u uw  [!DNL Mixpanel]  rekening ](../integrations/mixpanel.md) hebt verbonden, kunt u de [ Manager van de Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat [ u uw  [!DNL Mixpanel]  rekening ](../integrations/mixpanel.md) hebt verbonden, kunt u de [ Manager van Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
 In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit [!DNL Mixpanel] kunt importeren in uw [!DNL Commerce Intelligence] -account. De volgende tabellen worden na verbinding met [!DNL Mixpanel] in uw Data Warehouse gemaakt. Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen in de kolom Tabelnaam.
 
@@ -32,4 +32,4 @@ In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit
 ## Gerelateerde documentatie
 
 * [Verbinding maken  [!DNL Mixpanel]](../integrations/mixpanel.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

@@ -1,22 +1,22 @@
 ---
 title: Geavanceerde berekende kolomtypen
-description: Leer de grondbeginselen voor de meeste gevallen van de gebruikkolom — maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan tot stand brengen.
+description: Leer de grondbeginselen voor de meeste gebruiks kolomgevallen - maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van Data Warehouse kan tot stand brengen.
 exl-id: 9871fa19-95b3-46e4-ae2d-bd7c524d12db
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 2%
 
 ---
 
 # Geavanceerde berekende kolomtypen
 
-Vele analyses u zouden kunnen willen tot stand brengen impliceren het gebruik van a **nieuwe kolom** die u `group by` of `filter by` wilt. Het [ Creëren Berekende Kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) leerprogramma behandelt de grondbeginselen voor de meeste gebruiksgevallen, maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van de Data Warehouse kan tot stand brengen.
+Vele analyses u zouden kunnen willen tot stand brengen impliceren het gebruik van a **nieuwe kolom** die u `group by` of `filter by` wilt. Het [ Creëren Berekende Kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) leerprogramma behandelt de grondbeginselen voor de meeste gebruiksgevallen, maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van Data Warehouse kan tot stand brengen.
 {: #top}
 
-Deze kolomtypen kunnen worden gemaakt door het Adobe-team van Data Warehouse-analisten. Als u een nieuwe berekende kolom wilt definiëren, geeft u ons de volgende informatie:
+Deze typen kolommen kunnen worden gemaakt door het Adobe-team van Data Warehouse-analisten. Als u een nieuwe berekende kolom wilt definiëren, geeft u ons de volgende informatie:
 
 1. De **`definition`** van deze kolom (inclusief invoer, formules of opmaak)
 1. De **`table`** waarop u de kolom wilt maken
@@ -87,7 +87,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 ## Ik probeer opeenvolgende gebeurteniswaarden te vergelijken. {#sequence}
 
-Dit wordt genoemd de opeenvolgende gebeurtenisvergelijking van a **&#x200B;**. Dit betekent dat u probeert de delta tussen een waarde (valuta, aantal, timestamp) en de overeenkomstige waarde voor de vorige gebeurtenis van de eigenaar te vinden.
+Dit wordt genoemd de opeenvolgende gebeurtenisvergelijking van a ****. Dit betekent dat u probeert de delta tussen een waarde (valuta, aantal, timestamp) en de overeenkomstige waarde voor de vorige gebeurtenis van de eigenaar te vinden.
 
 Hier volgt een voorbeeld:
 
@@ -115,7 +115,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 ## Ik probeer de valuta om te zetten. {#currency}
 
-A **berekende de muntomzetting van 0&rbrace; &lbrace;zet transactiebedragen van een geregistreerde munt in een rapporteringsmunt om, die op de wisselkoers op de gebeurtenistijd wordt gebaseerd.**
+A **berekende de muntomzetting van 0} {zet transactiebedragen van een geregistreerde munt in een rapporteringsmunt om, die op de wisselkoers op de gebeurtenistijd wordt gebaseerd.**
 
 Hier volgt een voorbeeld:
 
@@ -137,7 +137,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 ## Ik probeer de tijdzones om te zetten. {#timezone}
 
-De a **berekende kolom van de tijdzoneconversie van 0&rbrace; &lbrace;zet timestamps voor een bepaalde gegevensbron van hun geregistreerde timezone in rapporterende timezone om.**
+De a **berekende kolom van de tijdzoneconversie van 0} {zet timestamps voor een bepaalde gegevensbron van hun geregistreerde timezone in rapporterende timezone om.**
 
 Hier volgt een voorbeeld:
 
@@ -159,9 +159,9 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 ## Ik probeer iets te doen dat hier niet vermeld staat. {#else}
 
-Geen zorgen. Dat het hier niet voorkomt, betekent niet dat het niet mogelijk is. Het Adobe team van Data Warehouse Analysts kan helpen.
+Geen zorgen. Dat het hier niet voorkomt, betekent niet dat het niet mogelijk is. Het Adobe-team van Data Warehouse-analisten kan u helpen.
 
-Om een nieuwe berekende kolom te bepalen, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) met details over precies wat u zou willen bouwen.
+Om een nieuwe berekende kolom te bepalen, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) met details over precies wat u zou willen bouwen.
 
 ## Gerelateerde documentatie
 

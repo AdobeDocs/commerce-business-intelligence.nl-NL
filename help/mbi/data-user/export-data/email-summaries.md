@@ -74,7 +74,7 @@ In het veld `Set when to send the Email Summary` kunt u opgeven wanneer de e-mai
 
 1. Selecteer `Repeating` in het veld `Set when to send the Email Summary` .
 
-1. Selecteer `Daily` , `Weekly` of `Monthly` in het veld `Set Frequency` .
+1. Selecteer `Set Frequency` , `Daily` of `Weekly` in het veld `Monthly` .
 
 1. Geef de begindatum op in de `Select Start Date` -kalender.
 

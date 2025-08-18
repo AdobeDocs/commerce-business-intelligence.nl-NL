@@ -50,7 +50,7 @@ Hieronder wordt beschreven hoe u door [!DNL Commerce Intelligence] kunt navigere
 
 ## Toegang tot het IP-adres van [!DNL Commerce Intelligence] toestaan {#allowlist}
 
-De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze staan `54.88.76.97` en `34.250.211.151` , maar ze staan ook op de pagina `MySQL credentials` . Zie de blauwe doos in het bovenstaande GIF.
+De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze staan `54.88.76.97` en `34.250.211.151` , maar ze staan ook op de pagina `MySQL credentials` . Zie de blauwe doos in de GIF hierboven.
 
 ## Een [!DNL Linux] gebruiker voor [!DNL Commerce Intelligence] maken {#linux}
 
@@ -120,4 +120,4 @@ Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te v
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

@@ -17,7 +17,7 @@ Vond iets vreemd in uw [[!DNL Zendesk]  gegevens ](../integrations/exp-zendesk-d
 
 ## Gegevens exporteren inschakelen
 
-Gegevensexport is momenteel niet ingeschakeld voor alle [!DNL Zendesk] -accounts. Om deze eigenschap te activeren, [ voorleggen een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL), die uw [!DNL Zendesk] subdomeinnaam noemen.
+Gegevensexport is momenteel niet ingeschakeld voor alle [!DNL Zendesk] -accounts. Om deze eigenschap te activeren, [ voorleggen een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html), die uw [!DNL Zendesk] subdomeinnaam noemen.
 
 >[!NOTE]
 >
@@ -38,6 +38,6 @@ Nadat het exporteren van gegevens is ingeschakeld, kunnen alleen beheerders in e
 
    Deze downloadkoppeling is ten minste drie dagen geldig.
 
-Dit proces bouwt een dossier van XML dat alle informatie bevat die in uw huidige [!DNL Zendesk] rekening, met inbegrip van kaartgegevens (met commentaren), gebruikersgegevens, en rekeningsgegevens wordt opgeslagen. Op dit punt, kunt u [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen (ben zeker om dit dossier vast te maken!) zodat u uw gegevens nader kunt bekijken. Als het bestand te groot is, deelt u het bestand via [!DNL Dropbox] of [!DNL Google Drive] met het team van [!DNL Commerce Intelligence] .
+Dit proces bouwt een dossier van XML dat alle informatie bevat die in uw huidige [!DNL Zendesk] rekening, met inbegrip van kaartgegevens (met commentaren), gebruikersgegevens, en rekeningsgegevens wordt opgeslagen. Op dit punt, kunt u [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voorleggen (ben zeker om dit dossier vast te maken!) zodat kunt u een dichtere blik naar uw gegevens nemen. Als het bestand te groot is, deelt u het bestand via [!DNL Commerce Intelligence] of [!DNL Dropbox] met het team van [!DNL Google Drive] .
 
 Voor meer informatie over [!DNL Zendesk] dossieruitvoer, verwijs naar de officiële [[!DNL Zendesk]  uitvoerdocumentatie ](https://support.zendesk.com/hc/en-us/articles/4408886165402-Exporting-data-to-a-JSON-CSV-or-XML-file).

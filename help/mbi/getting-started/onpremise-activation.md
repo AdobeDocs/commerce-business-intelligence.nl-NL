@@ -17,13 +17,13 @@ Als u [!DNL Commerce Intelligence] voor on-premise abonnementen wilt activeren, 
 
 ## Uw [!DNL Commerce Intelligence] -account maken
 
-Neem contact op met het accountteam van de Adobe of de technische adviseur van de klant om uw account te maken.
+Neem contact op met uw Adobe-accountteam of technische adviseur van de klant om uw account te maken.
 
 ## Uw wachtwoord maken
 
 Nadat uw account is gemaakt, controleert u uw e-mail op een e-mail met accountmeldingen vanuit [!DNL The Magento BI Team@rjmetrics.com] . Gebruik de koppeling in de e-mail om toegang te krijgen tot uw [!DNL Commerce Intelligence] -account en uw wachtwoord te maken. Ga naar je postvak IN en verifieer je e-mailadres.
 
-Als u geen e-mail ontving, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u geen e-mail ontving, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
 ![](../assets/create-account-4.png)
 
@@ -41,14 +41,14 @@ Nadat u het wachtwoord hebt ingesteld en u hebt aangemeld bij [!DNL Commerce Int
 
 ## Een toegewijde [!DNL Commerce Intelligence] gebruiker maken in de [!DNL Commerce] -beheerder
 
-Als u [!DNL Commerce Intelligence] wilt gebruiken, moet u een permanente en toegewijde gebruiker toevoegen aan het [!DNL Commerce] -project. Deze toegewijde gebruiker fungeert als permanente verbinding met [!DNL Commerce] waarmee nieuwe gegevens kunnen worden opgehaald en overgedragen naar de [!DNL Commerce Intelligence] -Data Warehouse van de account.
+Als u [!DNL Commerce Intelligence] wilt gebruiken, moet u een permanente en toegewijde gebruiker toevoegen aan het [!DNL Commerce] -project. Deze toegewijde gebruiker fungeert als permanente verbinding met [!DNL Commerce] waarmee nieuwe gegevens kunnen worden opgehaald en overgedragen naar de [!DNL Commerce Intelligence] Data Warehouse van de account.
 
 Als u een toegewijde [!DNL Commerce Intelligence] -gebruiker configureert, wordt de account niet gedeactiveerd of verwijderd, waardoor de [!DNL Commerce Intelligence] -verbinding wordt gestopt.
 
 
 >[!NOTE]
 >
->Adobe stimuleert het gebruik van een accountnaam die de permanente status ervan aangeeft (bijv. ACI-toegewezen, ACI-database-connector enzovoort).
+>Adobe raadt aan een accountnaam te gebruiken die de permanente status ervan aangeeft (bijv. ACI-toegewezen, ACI-database-connector, enzovoort).
 
 Nadat u de toegewijde gebruiker voor [!DNL Commerce Intelligence] in Admin hebt gemaakt, voegt u dezelfde gebruiker toe aan de primaire omgeving van het [!DNL Commerce] -project met de instelling **[!UICONTROL Master]** `Contributor` .
 
@@ -118,7 +118,7 @@ Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your M
 
 [!UICONTROL Port]: `3306`
 
-[!UICONTROL -gebruikersnaam]: `mbi`
+[!UICONTROL-gebruikersnaam]: `mbi`
 
 [!UICONTROL Password]: [ invoerwachtwoord dat in de vorige sectie ] wordt getoond
 
@@ -126,7 +126,7 @@ Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your M
 
 [!UICONTROL Table Prefixes]: [ verlaten leeg als er geen lijstvoorvoegsels ] zijn
 
-## Plaats uw **montages van de Tijdzone van 0&rbrace;**
+## Plaats uw [!UICONTROL **montages van de Tijdzone van 0}**]
 
 ![](../assets/time-zone-settings.png)
 
@@ -170,7 +170,7 @@ Nadat u de configuratie voltooit, [ teken binnen ](../getting-started/sign-in.md
 
 <!---# Activate your [!DNL Commerce Intelligence] Account 
 
-To activate [!DNL Commerce Intelligence] for on-premise or `Cloud Pro` subscriptions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+To activate [!DNL Commerce Intelligence] for on-premise or `Cloud Pro` subscriptions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 >[!NOTE]
 >

@@ -17,7 +17,7 @@ U kunt meer doen in `Visual Report Builder` dan analyses maken die trend in de t
 
 Dit soort sorteren en ordenen van gegevens kan worden uitgevoerd in rapporten die zowel een `Group By` als een `Time Interval of None` gebruiken. Wanneer beide elementen in een rapport staan, wordt de functie `Show Top/Bottom` boven de voorvertoning van het diagram weergegeven. Met deze functie kunt u de bovenste (hoogste tot laagste) en onderste (laagste tot hoogste) gegevenspunten weergeven op basis van de parameters die u instelt.
 
-![ toon Hoogste/Onderste eigenschap in de Visuele Report Builder.](../../assets/Show_Top_Bottom.png)
+![ toon Hoogste/Onderste eigenschap in Visuele Report Builder.](../../assets/Show_Top_Bottom.png)
 
 ## Hoe gebruik ik dit? {#how}
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # SQL-query&#39;s vertalen in Commerce Intelligence
 
-Heb zich ooit afgevraagd hoe SQL de vragen in de [ berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md), [ metriek ](../../data-user/reports/ess-manage-data-metrics.md) worden vertaald, en [ rapporten ](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL Commerce Intelligence]? Als u een zware SQL gebruiker bent, laat het begrip hoe SQL in [!DNL Commerce Intelligence] wordt vertaald u toe om slimmer in de [ Manager van de Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) te werken en de meesten uit het [!DNL Commerce Intelligence] platform te krijgen.
+Heb zich ooit afgevraagd hoe SQL de vragen in de [ berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md), [ metriek ](../../data-user/reports/ess-manage-data-metrics.md) worden vertaald, en [ rapporten ](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL Commerce Intelligence]? Als u een zware SQL gebruiker bent, laat het begrip hoe SQL in [!DNL Commerce Intelligence] wordt vertaald u toe om slimmer in de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) te werken en de meesten uit het [!DNL Commerce Intelligence] platform te krijgen.
 
 Aan het eind van dit onderwerp, vindt u a **vertaalmatrijs** voor SQL vraagclausules en [!DNL Commerce Intelligence] elementen.
 
@@ -53,7 +53,7 @@ Bekijk een specifiek voorbeeld van hoe een `Total Revenue` metrisch in [!DNL Com
 | `email NOT LIKE '%@magento.com'` | Metrisch `filter` |
 | `AND created_at < X`<br><br>`AND created_at >= Y` | Metrisch `timestamp` (en rapportering `time range`) |
 
-Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > **&#x200B; Metriek &#x200B;** te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
+Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > ** Metriek **te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
 
 ![ Metrische samenvoeging ](../../assets/Metric_aggregation.png)
 
@@ -73,9 +73,9 @@ De query voor deze aggregatie kan er ongeveer als volgt uitzien:
 | `ON c.customer_id = o.customer_id` | Pad |
 | `WHERE o.status = 'success'` | Samenvoegen, filter |
 
-Voor het instellen van deze instelling in [!DNL Commerce Intelligence] is het gebruik van uw Data Warehouse Manager vereist. Hierbij maakt u een pad tussen de tabel `orders` en de tabel `customers` en maakt u vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
+Voor het instellen van deze instelling in [!DNL Commerce Intelligence] is het gebruik van uw Data Warehouse-manager vereist. Hierbij maakt u een pad tussen uw `orders` - en `customers` -tabel en maakt u vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
 
-Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > **&#x200B; selecteer een definitie &#x200B;**> **SUM]**.
+Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > ** selecteer een definitie **> **SUM]**.
 
 Vervolgens moet u de brontabel selecteren. Als er een pad naar de `orders` -tabel bestaat, selecteert u dit in de vervolgkeuzelijst. Als u echter een nieuw pad maakt, klikt u op **[!UICONTROL Create new path]** en ziet u hieronder het scherm:
 
@@ -97,7 +97,7 @@ Nu u de nieuwe `Customer LTV` kolom in uw `customers` lijst hebt gebouwd, bent u
 >
 >Voor laatstgenoemde, wanneer u een nieuwe berekende kolom bouwt moet u [ de afmeting aan bestaande metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toevoegen alvorens het als a `filter` of `group by` beschikbaar is.
 
-Zie [ het creëren van berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) met uw Manager van de Data Warehouse.
+Zie [ het creëren van berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) met uw Manager van Data Warehouse.
 
 ## `Group By` clausules
 

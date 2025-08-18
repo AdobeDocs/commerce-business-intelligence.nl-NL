@@ -1,12 +1,12 @@
 ---
-title: De SQL-Report Builder gebruiken
-description: Leer de in- en uitgangen van de SQL-Report Builder.
+title: De SQL Report Builder gebruiken
+description: Leer de in- en uitgangen van de SQL Report Builder.
 exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md) om SQL grafieken tot stand te brengen en uit te geven. `Standard` -gebruikers kunnen deze grafieken opnieuw rangschikken op dashboards en `Read-only` -gebruikers hebben dezelfde ervaring als met traditionele grafieken. Bovendien hebben `Read-only` -gebruikers geen toegang tot de tekst van de query.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=nl-NL) om meer te leren.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
 
 [!DNL SQL] (Structured Query Language) is een programmeertaal die wordt gebruikt om te communiceren met databases. In [!DNL Commerce Intelligence] wordt [!DNL SQL] gebruikt om gegevens van uw Data Warehouse te zoeken of op te halen. Bekijk de rapporten op uw dashboard - achter de schermen, wordt elk aangedreven door een [!DNL SQL] vraag.
 
-U kunt [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) gebruiken om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen om te zetten in een grafiek. U kunt een rapport maken met de [!DNL SQL Report Builder] door op **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]** te klikken.
+Met de [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze transformeren in een grafiek. U kunt een rapport maken met de [!DNL SQL Report Builder] door op **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]** te klikken.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=nl-NL) om meer te leren.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
 
 Met [!DNL SQL Report Builder] kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze snel omzetten in een grafiek. Het beste deel over het gebruiken van [!DNL SQL] om rapporten te bouwen is dat u niet op updatecycli hoeft te wachten om op kolommen te herhalen u creeert. Als de resultaten niet goed lijken, kunt u de vraag snel uitgeven en opnieuw uitvoeren tot de dingen uw verwachtingen aanpassen.
 
@@ -71,9 +71,9 @@ U kunt de zijbalk in de [!DNL SQL] -editor ook gebruiken om metriek, tabellen en
 
 >[!NOTE]
 >
->Om het even welke [ UITGEZOCHTE functie ](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), of om het even welke functie die geen gegevens muteert, die door PostgreSQL wordt gesteund in de SQL Report Builder. Dit omvat, maar is niet beperkt tot, AVG, COUNT, COUNT DISTINCT, MIN/MAX en SUM.
+>Om het even welke [ UITGEZOCHTE functie ](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), of om het even welke functie die geen gegevens muteert, die door PostSQL wordt gesteund wordt gesteund in SQL Report Builder. Dit omvat, maar is niet beperkt tot, AVG, COUNT, COUNT DISTINCT, MIN/MAX en SUM.
 
-Elk `JOIN` -type wordt ook ondersteund, maar Adobe raadt alleen het gebruik van BINNER JOIN aan omdat dit het goedkoopste type van `JOIN` is.
+Elk `JOIN` -type wordt ook ondersteund, maar Adobe raadt u alleen aan INNER JOIN te gebruiken omdat dit het goedkoopst is voor de `JOIN` -typen.
 
 ## De query uitvoeren en de resultaten weergeven {#runquery}
 
@@ -99,11 +99,11 @@ Hieronder volgt een kort overzicht van hoe het visualisatieproces eruitziet:
 
 ![](../../assets/SQL_RB_viz_overview.gif)
 
-Voor een gedetailleerde looppas-door van hoe te om een visualisatie tot stand te brengen, verwijs naar [ Creërend visualisaties van SQL vragen leerprogramma ](../../tutorials/create-visuals-from-sql.md) {: target= &quot;_blank&quot;}.
+Voor een gedetailleerde looppas-door van hoe te om een visualisatie tot stand te brengen, verwijs naar [ Creërend visualisaties van SQL vragen leerprogramma ](../../tutorials/create-visuals-from-sql.md){: target="_blank"}.
 
 ## Het rapport opslaan {#save}
 
-Voordat u uw werk kunt opslaan, moet u het rapport een naam geven. Herinner me om de [ beste praktijkrichtlijnen voor het noemen ](../../best-practices/naming-elements.md) te volgen {: target= &quot;_blank&quot;} en iets te kiezen dat duidelijk overbrengt wat het rapport is!
+Voordat u uw werk kunt opslaan, moet u het rapport een naam geven. Herinner me om de [ beste praktijkrichtlijnen voor het noemen ](../../best-practices/naming-elements.md){: target="_blank"} te volgen en iets te kiezen dat duidelijk overbrengt wat het rapport is!
 
 Klik op **[!UICONTROL Save]** in de rechterbovenhoek van de [!DNL SQL] -editor en selecteer het rapport `Type` ( `Chart` of `Table`). Als u de tekst wilt laten omlopen, selecteert u het dashboard waarin u het rapport wilt opslaan en klikt u op **[!UICONTROL Save to Dashboard]** .
 
@@ -113,7 +113,7 @@ Klik op **[!UICONTROL Save]** in de rechterbovenhoek van de [!DNL SQL] -editor e
 
 #### [!DNL SQL Report Builder]
 
-[[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) geeft u de macht om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een rapport. Het gebruiken van [!DNL SQL] staat u [ ook toe om  [!DNL SQL]  functies te gebruiken die niet beschikbaar ](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in `Visual` of `Cohort` Reporten Builder zijn, waarbij u grotere controle over uw gegevens geeft.
+[[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) geeft u de macht om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een rapport. Het gebruiken van [!DNL SQL] staat u [ ook toe om  [!DNL SQL]  functies te gebruiken die niet beschikbaar ](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in `Visual` of `Cohort` de Bouwers van het Rapport zijn, waarbij u grotere controle over uw gegevens geeft.
 
 Berekende kolommen die zijn gemaakt met [!DNL SQL] zijn niet afhankelijk van updatecycli. Dit betekent dat u deze kolommen kunt doorlopen zoals u wilt en de resultaten direct kunt zien.
 
@@ -131,9 +131,9 @@ Berekende kolommen die zijn gemaakt met [!DNL SQL] zijn niet afhankelijk van upd
 
 #### Resultaten van database versus SQL Editor
 
-Meestal kunnen verschillen in resultaten worden toegeschreven aan updatecycli. Als [!DNL Commerce Intelligence] bezig is gegevens van uw gegevensbestand aan uw Data Warehouse te herhalen, zou u verschillende resultaten kunnen zien zelfs wanneer het gebruiken van de zelfde vraag.
+Meestal kunnen verschillen in resultaten worden toegeschreven aan updatecycli. Als [!DNL Commerce Intelligence] bezig is met het repliceren van gegevens van uw database naar uw Data Warehouse, ziet u mogelijk verschillende resultaten, zelfs als u dezelfde query gebruikt.
 
-Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL) moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.
+Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [ moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 
 Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn.
 
@@ -143,7 +143,7 @@ Nee, u verliest geen kolommen van uw Data Warehouse, ongeacht hoe u ze hebt gema
 
 Kolommen die zijn gemaakt met de methode `Data Warehouse Manager` worden niet beïnvloed als u een rapport of query verwijdert waarin ze worden gebruikt.
 
-Kolommen die zijn gemaakt met de [!DNL SQL Report Builder] , worden niet opgeslagen in de Data Warehouse.
+Kolommen die zijn gemaakt met [!DNL SQL Report Builder] , worden niet opgeslagen op uw Data Warehouse.
 
 
 #### `Report Builder` versus `SQL Report Builder`
@@ -157,7 +157,7 @@ In tegenstelling tot de [!DNL Visual Report Builder] is de [[!DNL Cohort Report 
 | **dit is perfect voor...** | **dit is niet zo groot voor...** |
 |---|---|
 | Tussentijdse/gevorderde analisten | Beginners - u hebt praktische cohorten nodig. |
-| Gedragstrends in de loop der tijd identificeren | Kwalitatieve analyse - het kan [ worden gedaan ](../dev-reports/create-qual-cohort-analysis.md), maar vereist de hulp van de Adobe. |
+| Gedragstrends in de loop der tijd identificeren | Kwalitatieve analyse - het kan [ worden gedaan ](../dev-reports/create-qual-cohort-analysis.md), maar vereist de hulp van Adobe. |
 
 ## Vragen opnieuw samenstellen na de updatecyclus
 
@@ -165,12 +165,12 @@ U hoeft uw query&#39;s niet opnieuw samen te stellen. Rapporten die zijn gemaakt
 
 >[!NOTE]
 >
->Wanneer u een [!DNL SQL] -rapport/query verwijdert, worden de onderliggende kolommen niet van de Data Warehouse verwijderd. U verliest geen kolommen, ongeacht hoe u ze hebt gemaakt.
+>Wanneer u een [!DNL SQL] -rapport/query verwijdert, worden de onderliggende kolommen niet uit uw Data Warehouse verwijderd. U verliest geen kolommen, ongeacht hoe u ze hebt gemaakt.
 
-* Kolommen die zijn gemaakt met de Data Warehouse Manager worden niet beïnvloed als u een rapport of query verwijdert waarin ze worden gebruikt.
+* Kolommen die zijn gemaakt met Data Warehouse Manager worden niet beïnvloed als u een rapport of query verwijdert waarin ze worden gebruikt.
 
-* Kolommen die zijn gemaakt met de SQL-Report Builder, worden niet opgeslagen in uw Data Warehouse.
+* Kolommen die zijn gemaakt met de SQL Report Builder worden niet opgeslagen op uw Data Warehouse.
 
 ## Omloop {#wrapup}
 
-Als u iets een beetje uitdagender wilt proberen, waarom probeert niet het schrijven van een vraag die voor visualisatie wordt geoptimaliseerd? Controle uit [ Creërend visualisaties van  [!DNL SQL]  vragen leerprogramma ](../../tutorials/create-visuals-from-sql.md) {: target= &quot;_blank&quot;} om begonnen te worden.
+Als u iets een beetje uitdagender wilt proberen, waarom probeert niet het schrijven van een vraag die voor visualisatie wordt geoptimaliseerd? Controle uit [ Creërend visualisaties van  [!DNL SQL]  vragen leerprogramma ](../../tutorials/create-visuals-from-sql.md){: target="_blank"} om begonnen te worden.

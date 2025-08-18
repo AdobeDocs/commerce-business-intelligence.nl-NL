@@ -51,7 +51,7 @@ In dit voorbeeld is de waarschijnlijkheid van de eerste herhalingsbestelling - o
 
 ### Herhaal de waarschijnlijkheid van de volgorde van maanden sinds de bestelling
 
-Dit rapport toont de waarschijnlijkheid van een klant die opnieuw opdracht geeft aangezien sommige maanden sinds hun laatste orde zijn verstreken. Hoewel er geen enkele definitie van de churn-drempel bestaat op basis van dit rapport, beveelt de Adobe aan om de churn te definiëren als het punt waar het kansverlies de waarde overschrijdt die de helft is van de waarschijnlijkheid van de eerste herhaling.
+Dit rapport toont de waarschijnlijkheid van een klant die opnieuw opdracht geeft aangezien sommige maanden sinds hun laatste orde zijn verstreken. Hoewel er op grond van dit rapport geen enkele definitie van de churn-drempel bestaat, beveelt Adobe aan om de churn te definiëren als het punt waar het kansverlies de waarde overschrijdt die de helft is van de waarschijnlijkheid van de eerste herhaling.
 
 Aangezien de waarschijnlijkheid van de eerste herhaling voor dit voorbeeld 60% is, is de vervaldatum de tijd waarop de waarschijnlijkheid van de herhalingsvolgorde daalt tot minder dan 60%/2 = 30%, of ongeveer 6 maanden. Van de 60% van de bestellingen die met een andere bestelling moesten worden gevolgd, werd de helft binnen de eerste zes maanden geplaatst.
 
@@ -63,7 +63,7 @@ Uiteindelijk is het de bedoeling om de drempel te selecteren waar het zinvol is 
 
 ## Welke vragen moet ik in overweging nemen?
 
-Om u te helpen de waarschijnlijkheid van herhalingsbestellingen begrijpen aangezien het op uw zaken van toepassing is, stelt de Adobe voor om deze vragen te overwegen wanneer u uw eigen gegevens onderzoekt:
+Om u te helpen de waarschijnlijkheid van een herhaalde bestelling te begrijpen zoals deze op uw bedrijf van toepassing is, stelt Adobe voor om deze vragen in overweging te nemen wanneer u uw eigen gegevens verkent:
 
 * Wordt de waarschijnlijkheid van de eerste herhalingsvolgorde verwacht? Zo nee, waarom denkt u dat het hoger of lager moet zijn?
 * Zijn er grote dalingen in de waarschijnlijkheid van herhaling gedurende bepaalde maanden sinds laatste orde? Zo ja, worden deze veranderingen verwacht?
@@ -78,7 +78,7 @@ Nadat u de bovenstaande analyse hebt gemaakt en een drempelwaarde voor het aanta
 
 Als u meer dan één product aanbiedt, vraagt u zich waarschijnlijk af hoe klanten die een specifiek product aanschaffen zich in de loop der tijd anders gedragen dan andere klanten. Wilt u meer weten? Bekijk deze zelfstudie om het levenslange aankoopgedrag van klanten te verkennen op basis van specifieke producten die ze hebben aangeschaft.
 
-Deze best practices worden geleverd door [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor meer info.
+Deze best practices worden geleverd door [!DNL Adobe Commerce Intelligence] Data Analysis Services (DAS). [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor meer info.
 
 ### Verwante
 

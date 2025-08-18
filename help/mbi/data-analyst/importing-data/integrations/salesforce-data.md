@@ -1,6 +1,6 @@
 ---
 title: Salesforce-gegevens verwacht
-description: Leer over gesteunde en niet gesteunde voorwerpen in gegevens Salesforce.
+description: Meer informatie over ondersteunde en niet-ondersteunde objecten in Salesforce-gegevens.
 exl-id: 6625349f-2ec0-402d-8635-889a1f29811c
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -50,4 +50,4 @@ Momenteel worden de volgende objecten in de API van [!DNL Salesforce] niet besch
 ## Verwante:
 
 * [Verbinding maken  [!DNL Salesforce]](../integrations/salesforce.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

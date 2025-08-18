@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Onboarding [!DNL Adobe Commerce Intelligence]
 
-De onopscheppingsvragen met betrekking tot `store` en `database` montages zorgen ervoor dat u opstelling uw rapportering correct. Met deze antwoorden, levert de Adobe uw rapporten die precies aan de opstelling van uw opslag worden aangepast.
+De onopscheppingsvragen met betrekking tot `store` en `database` montages zorgen ervoor dat u opstelling uw rapportering correct. Met deze antwoorden levert Adobe uw rapporten die precies zijn afgestemd op de installatie van uw winkel.
 
 ## Opslaginstellingen
 

@@ -43,7 +43,7 @@ Deze maatstaf toont de netto-inkomsten die u verkrijgt uit orders die een bepaal
 
 ### Percentage verdisconteerd
 
-Dit toont het aandeel van de bruto-inkomsten dat door kortingen wordt gecompenseerd. Voor coupons met een percentagekorting is deze waarde al bekend (bijvoorbeeld 10% korting). Desondanks verschaft deze maatregel inzicht en een vergelijkingsmethode voor coupons die een korting op de vaste dollar zijn.
+Dit toont het aandeel van de bruto-inkomsten dat door kortingen wordt gecompenseerd. Voor coupons met een percentagekorting is deze waarde al bekend (bijvoorbeeld 10% korting). Desondanks biedt deze maatregel insight en een vergelijkingsmethode voor coupons die een korting op de vaste dollar zijn.
 
 ### Gemiddelde nettoorderwaarde
 
@@ -109,7 +109,7 @@ Voor gemiddelde levenopbrengst, kunt u zien dat de gemiddelde levenopbrengst voo
 
 ## Wat kan ik nog meer analyseren? {#otheranalyses}
 
-De analyses die in dit onderwerp worden genoemd kunnen u waardevolle inzicht in geven hoe uw klanten uw coupons gebruiken, maar er zijn vele andere analyses die u toestaan om een wat dieper te graven.
+De analyses die in dit onderwerp worden genoemd kunnen u waardevolle insight in geven hoe uw klanten uw coupons gebruiken, maar er zijn vele andere analyses die u toestaan om wat dieper te graven.
 
 **u kon uw klantenverwervingen van coupons analyseren.**
 

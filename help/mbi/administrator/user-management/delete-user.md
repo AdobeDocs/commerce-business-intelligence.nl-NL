@@ -26,5 +26,5 @@ U kunt de gebruiker opnieuw activeren door een gebruiker met hetzelfde e-mailadr
 Als u de dashboards van die gebruiker slechts nodig hebt in een verschillend gebruikersrekening worden geduwd, doe het volgende:
 
 1. Gebruik het verwijderde e-mailadres van de gebruiker om een nieuwe [!DNL Commerce Intelligence] gebruiker te maken.
-1. [ breng steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) op de hoogte nadat u de gebruiker creeert. Met Ondersteuning worden de dashboards naar uw account overgebracht.
-1. Nadat de Steun van de Adobe u van de overdracht op de hoogte brengt, kunt u de gebruiker opnieuw schrappen.
+1. [ breng steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) op de hoogte nadat u de gebruiker creeert. Met Ondersteuning worden de dashboards naar uw account overgebracht.
+1. Nadat Adobe Support u op de hoogte heeft gesteld van de overdracht, kunt u de gebruiker opnieuw verwijderen.

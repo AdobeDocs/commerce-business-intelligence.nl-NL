@@ -55,14 +55,14 @@ Te veel bedrijven richten zich uitsluitend op het vinden van kanalen die nieuwe 
 
 A [ primaire sleutel ](https://en.wikipedia.org/wiki/Unique_key) is een onveranderlijke kolom (of reeks kolommen) die unieke waarden binnen een lijst veroorzaakt. Primaire toetsen zijn ongelooflijk belangrijk, omdat ze ervoor zorgen dat uw tabellen correct worden gerepliceerd in [!DNL Commerce Intelligence] .
 
-Gebruik bij het bouwen van primaire sleutels een gegevenstype voor gehele getallen voor de kolom die automatisch wordt verhoogd. Adobe raadt u aan om waar mogelijk meerdere kolommen met de primaire sleutel te gebruiken.
+Gebruik bij het bouwen van primaire sleutels een gegevenstype voor gehele getallen voor de kolom die automatisch wordt verhoogd. Adobe raadt u aan zoveel mogelijk het gebruik van meerdere primaire kolomsleutels te vermijden.
 
 Als uw tabel een SQL-weergave is, voegt u een kolom toe die als primaire sleutel kan fungeren. [!DNL Commerce Intelligence] kan deze kolom automatisch identificeren als een primaire sleutel.
 
 ### Een gegevenstype toewijzen aan uw gegevenskolom
 
-Als een gegevenskolom geen toegewezen [ gegevenstype ](https://en.wikipedia.org/wiki/Data_type) heeft, [!DNL Commerce Intelligence] gokt welk gegevenstype aan gebruik. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het team van de steun van de Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
+Als een gegevenskolom geen toegewezen [ gegevenstype ](https://en.wikipedia.org/wiki/Data_type) heeft, [!DNL Commerce Intelligence] gokt welk gegevenstype aan gebruik. Als het systeem verkeerd gokt, kunt u niet de relevante analyses kunnen uitvoeren tot het de steunteam van Adobe de kolom aan het juiste gegevenstype aanpast. Als een datumkolom bijvoorbeeld wordt geraden als een numeriek gegevenstype, kunt u zich in de loop van de tijd ontwikkelen met die datumdimensie.
 
 ### Voeg prefixen aan uw Lijsten van Gegevens toe als u veelvoudige Gegevensbestanden hebt
 
-Als er meerdere databases zijn verbonden met [!DNL Commerce Intelligence] , kunt u het beste voorvoegsels aan tabellen toevoegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden van waar metrische gegevens of gegevensdimensies vandaan komen.
+Als u meer dan één database hebt aangesloten op [!DNL Commerce Intelligence] , raadt Adobe u aan om voorvoegsels aan uw tabellen toe te voegen om verwarring te voorkomen. Met voorvoegsels kunt u onthouden van waar metrische gegevens of gegevensdimensies vandaan komen.

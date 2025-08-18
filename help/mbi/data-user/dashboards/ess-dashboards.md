@@ -21,7 +21,7 @@ Het is gemakkelijk om een rapport te creëren, het aan een dashboard toe te voeg
 
 ## Dashboards maken {#createdash}
 
-Dashboards zijn scherpe, op thema&#39;s gebaseerde emmers voor de analyses u in de Reporten Builder creeert. Op deze manier kunt u uw team aanmoedigen om samen te werken en één bron van waarheid in uw organisatie te onderhouden.
+De dashboards zijn sharable, themed emmers voor de analyses u in de Bouwers van het Rapport creeert. Op deze manier kunt u uw team aanmoedigen om samen te werken en één bron van waarheid in uw organisatie te onderhouden.
 
 *als u Admin of een Standaardgebruiker* bent, kunt u een dashboard tot stand brengen door `Dashboard Options` dropdown te klikken en `Create New dashboard` te kiezen.
 
@@ -63,7 +63,7 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
 1. Klik op **[!UICONTROL Create Report]** om de **[!UICONTROL Report Builder Options]** weer te geven.
 
-   ![ de Opties van de Report Builder ](../../assets/magento-bi-report-builder.png)
+   ![ de Opties van Report Builder ](../../assets/magento-bi-report-builder.png)
 
 ## Items op een dashboard ordenen
 
@@ -77,7 +77,7 @@ In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren
 
 ### Uw dashboards delen {#sharingdash}
 
-Als u [!DNL Commerce Intelligence] werkelijk wilt schalen in uw hele organisatie en waardevolle inzichten wilt bieden, kunt u met Adobe beter dashboards delen die u maakt met andere teamleden. *u kunt dashboards delen u* bezit door de `Share Dashboard` optie bij de bovenkant van de pagina te klikken.
+Adobe raadt u aan dashboards die u maakt met andere teamleden te delen, zodat u [!DNL Commerce Intelligence] in uw hele organisatie kunt schalen en waardevolle inzichten kunt bieden. *u kunt dashboards delen u* bezit door de `Share Dashboard` optie bij de bovenkant van de pagina te klikken.
 
 Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op een individuele basis toewijzen, betekenend kunt u beslissen wie uw rapporten kan bekijken en uitgeven.
 

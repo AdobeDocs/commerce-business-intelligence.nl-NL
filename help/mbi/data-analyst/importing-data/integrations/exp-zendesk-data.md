@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Zendesk] gegevens verwacht
 
-Nadat [ u uw  [!DNL Zendesk]  rekening ](../integrations/zendesk.md) hebt verbonden, kunt u de [ Manager van de Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat [ u uw  [!DNL Zendesk]  rekening ](../integrations/zendesk.md) hebt verbonden, kunt u de [ Manager van Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
 In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit [!DNL Zendesk] kunt importeren in [!DNL Adobe Commerce Intelligence] , inclusief koppelingen naar aanvullende documentatie over [!DNL Zendesk] -gegevens.
 
@@ -35,4 +35,4 @@ In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit
 ## Verwante
 
 * [Zendesk verbinden](../integrations/zendesk.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

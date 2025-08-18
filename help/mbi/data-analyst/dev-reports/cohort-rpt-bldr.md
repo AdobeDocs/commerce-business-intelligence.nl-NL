@@ -1,5 +1,5 @@
 ---
-title: Cohort-Report Builder
+title: Cohort Report Builder
 description: Leer over de analyse van gebruikersgroepen die gelijkaardige kenmerken over hun levenscycli delen.
 exl-id: d80c5389-7256-40e0-86e0-49903113f93d
 role: Admin, Data Architect, Data Engineer, User
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Cohort-Report Builder
+# Cohort Report Builder
 
 Hebt u ooit willen onderzoeken hoe verschillende subsets van uw gebruikers zich in de loop der tijd gedragen? Bijvoorbeeld, vroeg ooit zich af of de gebruikers die tijdens een bevorderingsperiode registreren een hogere gemiddelde levensinkomsten hebben dan zij die niet? Als het antwoord `Yes` is, dan is `Cohort Report Builder` het perfecte hulpmiddel voor u. [!DNL Adobe Commerce Intelligence] is geoptimaliseerd voor het uitvoeren van deze analyse en het relevant maken voor uw bedrijf.
 
@@ -59,7 +59,7 @@ Hiermee wordt een nieuw venster geopend waarin de details van het `Cohort` -rapp
 1. De minimale hoeveelheid gegevens die elke `cohort` moet bevatten
 1. Tijdbereik na `cohort` voorkomen
 
-#### 1. Groeperen `cohorts`
+#### &#x200B;1. Groeperen `cohorts`
 
 `Cohorts` wordt gegroepeerd door een timestamp, als **registratiedatum** of **eerste ordedatum**.
 
@@ -67,17 +67,17 @@ Hiermee wordt een nieuw venster geopend waarin de details van het `Cohort` -rapp
 >
 >U kunt niet dezelfde tijdstempel gebruiken als de metrische waarde voor de datum `cohort` is gebruikt. Voor een analyse die dit vereist, kunt u `Standard report builder` in plaats daarvan gebruiken.
 
-#### 2. `Cohort` tijdsperiode
+#### &#x200B;2. `Cohort` tijdsperiode
 
 Kies de periode waarop u `cohorts` wilt groeperen. Met andere woorden, welk deel van de tijdstempel dat u hierboven hebt geselecteerd, is het belangrijkst. De waarden `week`, `month`, `quarter` of `year` ? Uw rapport toont gegevens in om het even welk interval dat u hier selecteert
 
-#### 3. en 4. Stel het aantal `cohorts` in dat moet worden weergegeven en het aantal gegevens dat elke `cohort` moet hebben
+#### &#x200B;3. en 4. Stel het aantal `cohorts` in dat moet worden weergegeven en het aantal gegevens dat elke `cohort` moet hebben
 
 Met deze parameters kunt u alleen de `cohorts` bekijken waarin u bent geïnteresseerd. Met het handige vak `Preview` onder aan het venster kunt u precies zien wat de cohorten in uw rapport weergeven.
 
 Standaard wordt de huidige `cohort` niet opgenomen, tenzij u de minimale hoeveelheid gegevens wijzigt die voor elke `cohort` wordt vereist naar `0` . In dit geval bevat de `cohort` voor de huidige periode alleen gedeeltelijke gegevens.
 
-#### 5. Tijdbereik na `Cohort` voorkomen
+#### &#x200B;5. Tijdbereik na `Cohort` voorkomen
 
 Met deze functie kunt u het tijdbereik instellen van gegevens die u voor de geselecteerde `cohorts` bekijkt. Als u bijvoorbeeld 24 maanden `cohorts` wilt weergeven op basis van `customer's first order date` , maar u alleen geïnteresseerd bent in de eerste 3 maanden van gegevens voor elke `cohort` , kunt u de `number of cohorts to view` op `24` en de `time range after cohort occurrence` op `3` instellen.
 
@@ -109,7 +109,7 @@ Hieronder vindt u instructies die specifiek zijn voor de oudere versie van de `C
 
 `Cohort` analyse in actie! Hier zie je dat de omzet in de loop der tijd toeneemt, op cumulatieve basis en per gebruiker.
 
-In deze sectie wordt u door het maken van uw eigen `cohort` -analyse geleid. Voor voorbeelden (en geanimeerde GIFFEN die het proces aantonen), bekijk de [ sectie van Voorbeelden ](#examples) van dit onderwerp.
+In deze sectie wordt u door het maken van uw eigen `cohort` -analyse geleid. Voor voorbeelden (en geanimeerde GIFs die het proces aantonen), bekijk de [ sectie van Voorbeelden ](#examples) van dit onderwerp.
 
 1. Klik op **[!UICONTROL Report Builder]** op het linkertabblad of op **[!UICONTROL Add Report** > **Create Report]** in een dashboard.
 
@@ -213,4 +213,4 @@ Dit is hetzelfde als de bovenstaande `perspective` , behalve dat de waarde voor 
 
 ## Omloop {#finish}
 
-`Cohort Report Builder` is geoptimaliseerd voor het groeperen van gebruikers door een gemeenschappelijke `cohort date`. U bent wellicht geïnteresseerd in het groeperen van de gebruikers op basis van een vergelijkbare activiteit of een vergelijkbaar kenmerk. De Adobe adviseert controlerend [ dit leerprogramma op kwalitatieve cohorts ](../dev-reports/create-qual-cohort-analysis.md) om begonnen te worden.
+`Cohort Report Builder` is geoptimaliseerd voor het groeperen van gebruikers door een gemeenschappelijke `cohort date`. U bent wellicht geïnteresseerd in het groeperen van de gebruikers op basis van een vergelijkbare activiteit of een vergelijkbaar kenmerk. Adobe adviseert het controleren van [ dit leerprogramma op kwalitatieve cohorts ](../dev-reports/create-qual-cohort-analysis.md) om begonnen te worden.

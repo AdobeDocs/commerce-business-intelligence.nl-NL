@@ -1,6 +1,6 @@
 ---
 title: Repliceren van Google Analytics-kanalen met behulp van acquisitiebronnen
-description: Leer hoe u kanalen van Googles Analytics repliceert met behulp van aankoopbronnen.
+description: Leer hoe u Google Analytics-kanalen kunt repliceren met behulp van aankoopbronnen.
 exl-id: e7248fe4-94db-4cdf-8f58-1f65061a207d
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
@@ -40,13 +40,13 @@ Terwijl het hebben van deze emmers u kan helpen om te begrijpen waar uw verkeer 
 
 {style="table-layout:auto"}
 
-## Hoe kan ik deze kanaalgroeperingen in mijn Data Warehouse opnieuw maken? {#recreate}
+## Hoe kan ik deze kanaalgroepen opnieuw maken in mijn Data Warehouse? {#recreate}
 
-Nu u weet dat kanalen slechts combinaties van bronnen en media zijn, is het een gemakkelijk proces in drie stappen om deze groeperingen in uw Data Warehouse opnieuw te maken.
+Nu u weet dat kanalen slechts combinaties van bronnen en media zijn, is het een eenvoudig proces in drie stappen om deze groepen opnieuw te maken in uw Data Warehouse.
 
 1. **laat uw [!DNL Google ECommerce] integratie** toe
 
-   [ wanneer toegelaten ](../importing-data/integrations/google-ecommerce.md), zorg ervoor aan [ synchronisatie ] (../ {{ site.baseurl }} /data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) het **middel** en **bron** gebieden in uw Data Warehouse. Nadat dit wordt voltooid, zullen de gemiddelde en bronverwervingsgegevens in uw Data Warehouse worden gebracht.
+   [ wanneer toegelaten ](../importing-data/integrations/google-ecommerce.md), zorg ervoor aan [ synchronisatie ] (../ {{ site.baseurl }} /data-analyst/data-warehouse-mgr/tour-dwm.html#syncing) het **middel** en **bron** gebieden in uw Data Warehouse. Nadat deze bewerking is voltooid, worden gegevens over aankopen via medium en bron naar uw Data Warehouse overgebracht.
 
 1. **upload een afbeelding van het kanaalgroeperingen van Google**
 
@@ -54,7 +54,7 @@ Nu u weet dat kanalen slechts combinaties van bronnen en media zijn, is het een 
 
    Als u een [!DNL Google Analytics] pro bent en uw eigen kanalen hebt gemaakt, wilt u uw specifieke regels toevoegen aan de toewijzingstabel voordat u het bestand uploadt naar [!DNL Commerce Intelligence] .
 
-   Breng het in uw Data Warehouse als a [ Dossier uploadt ](../importing-data/connecting-data/using-file-uploader.md).
+   Breng het in uw Data Warehouse als a [ Dossier uploaden ](../importing-data/connecting-data/using-file-uploader.md).
 
    ![](../../assets/Setting_Primary_Keys.png)
 
@@ -62,7 +62,7 @@ Nu u weet dat kanalen slechts combinaties van bronnen en media zijn, is het een 
 
    Om een verband tussen [!DNL Google ECommerce] en de mappinglijst te vestigen, [ voorlegt een steunverzoek ](../../guide-overview.md#Submitting-a-Support-Ticket) aan uw team van de Analyst van Gegevens en van verwijzingen dit onderwerp. De analist leidt tot een nieuwe berekende kolom genoemd **Kanaal** in de lijst van de Handel EC. **na een volledige updatecyclus**, zal deze kolom klaar zijn om in a `Filter` of `Group by` te gebruiken.
 
-U hebt nu [!DNL Google Analytics Channel] groeperingen in uw Data Warehouse, wat betekent u uw gegevens vanuit een nieuw perspectief kunt analyseren:
+U hebt nu [!DNL Google Analytics Channel] groepen in uw Data Warehouse, wat betekent dat u uw gegevens vanuit een nieuw perspectief kunt analyseren:
 
 ![ die het Aantal van Orden segmenteren metrisch door Kanaal ](../../assets/GA_Channel_Gif.gif)
 

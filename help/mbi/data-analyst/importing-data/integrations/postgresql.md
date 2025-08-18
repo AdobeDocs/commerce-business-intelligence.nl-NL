@@ -6,7 +6,7 @@ role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
 source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Hieronder ziet u hoe u door [!DNL Commerce Intelligence] kunt navigeren om de to
 
 ## Toegang tot het IP-adres van [!DNL Commerce Intelligence] toestaan {#allowlist}
 
-De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adres toe te staan. Het is `54.88.76.97/32` , maar het staat ook op de pagina met referenties van `PostgreSQL` . Zie de blauwe doos in het bovenstaande GIF.
+De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adres toe te staan. Het is `54.88.76.97/32` , maar het staat ook op de pagina met referenties van `PostgreSQL` . Zie de blauwe doos in de GIF hierboven.
 
 ## Een [!DNL Linux] gebruiker voor [!DNL Commerce Intelligence] maken {#linux}
 
@@ -105,4 +105,4 @@ Wanneer u wordt gebeëindigd, klik **sparen &amp; Test** om de opstelling te vol
 
 ### Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

@@ -15,26 +15,26 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [ nieuwe architectuur ](../../administrator/account-management/new-architecture.md) als u de &quot;sectie van de Mening van de Data Warehouse&quot;beschikbaar na het selecteren van &quot;Gegevens&quot;van de belangrijkste toolbar hebt.
+>Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [ nieuwe architectuur ](../../administrator/account-management/new-architecture.md) als u de &quot;sectie van de Mening van Data Warehouse&quot;beschikbaar na het selecteren van &quot;Gegevens&quot;van de belangrijkste toolbar hebt.
 
 Als u geld uitgeeft aan online reclame, wilt u uw rendement op dit geld volgen en gegevensgedreven besluiten over verdere investeringen nemen. Dit onderwerp toont hoe te opstelling een dashboard dat uw kanaalanalyse - met inbegrip van ROI in bijeengevoegde en door campagne volgt.
 
 ![](../../assets/Marketing_dashboard_example.png)
 
-Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [[!DNL [Facebook Ads]]](../importing-data/integrations/facebook-ads.md) -, [[!DNL [Adwords]]](../importing-data/integrations/google-adwords.md) - en [[!DNL [Google Ecommerce]]](../importing-data/integrations/google-ecommerce.md) -accounts en aanvullende online gegevens plaatsen en doorgeven. Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
+Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [!DNL [Facebook Ads]](../importing-data/integrations/facebook-ads.md) -, [!DNL [Adwords]](../importing-data/integrations/google-adwords.md) - en [!DNL [Google Ecommerce]](../importing-data/integrations/google-ecommerce.md) -accounts en aanvullende online gegevens plaatsen en doorgeven. Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Geconsolideerde tabellen
 
-**Oorspronkelijke architectuur:** om uw uitgaven van diverse bronnen, zoals [!DNL Facebook Ads] of [!DNL Google Adwords] te verenigen, adviseert de Adobe het creëren van a **geconsolideerde lijst** van elk van uw advertentie uitgeven. U hebt een analist nodig om deze stap voor u te voltooien. Als u niet, [ dossier een steunverzoek ](../../guide-overview.md#Submitting-a-Support-Ticket) met het onderwerp `[MARKETING ROI ANALYSIS]` hebt, en een analist leidt tot deze lijst.
+**Oorspronkelijke architectuur:** om uw uitgaven van diverse bronnen, zoals [!DNL Facebook Ads] of [!DNL Google Adwords] te verenigen, adviseert Adobe het creëren van a **geconsolideerde lijst** van elk van uw advertentie uitgeven. U hebt een analist nodig om deze stap voor u te voltooien. Als u niet, [ dossier een steunverzoek ](../../guide-overview.md#Submitting-a-Support-Ticket) met het onderwerp `[MARKETING ROI ANALYSIS]` hebt, en een analist leidt tot deze lijst.
 
-**Nieuwe architectuur:** u kunt het voorbeeld in [ volgen dit onderwerp van de Bibliotheek van de Analyse ](../../data-analyst/data-warehouse-mgr/create-dw-views.md). De geconsolideerde Lijsten zijn nu genoemd geworden Mening van de Data Warehouse over de nieuwe architectuur.
+**Nieuwe architectuur:** u kunt het voorbeeld in [ volgen dit onderwerp van de Bibliotheek van de Analyse ](../../data-analyst/data-warehouse-mgr/create-dw-views.md). Geconsolideerde tabellen worden nu Data Warehouse Views on the new architectuur genoemd.
 
 ## Berekende kolommen
 
 Te maken kolommen
 
 * **`Consolidated Digital Ad Spend`** table
-* **`Campaign name`** wordt gecreeerd door een analist van de Adobe als deel van uw **[MARKETING ROI ANALYSE]** kaartje
+* **`Campaign name`** wordt gecreeerd door een analist van Adobe als deel van uw **[MARKETING ROI ANALYSE]** kaartje
 
 **Oorspronkelijke en nieuwe architecturen:**
 
@@ -42,11 +42,9 @@ Te maken kolommen
    * **`Order's GA campaign`**
       * Selecteer een definitie: `Joined Column`
       * [!UICONTROL Create Path]:
-      * &#x200B;
-
+      * 
         [!UICONTROL Many]: `sales_flat_order.increment_id`
-      * &#x200B;
-
+      * 
         [!UICONTROL One]: `ecommerce####.transaction_id`
 
       * Selecteer een [!UICONTROL table]: `ecommerce####`
@@ -144,9 +142,9 @@ Te maken kolommen
 
 * Metrisch `A`: Advertentie-uitgaven
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Scalar`
 
 * **Add klantenverwervingen (allen tijd)**
@@ -160,9 +158,9 @@ Te maken kolommen
 
 * Metrisch `A`: `Ad customer acquisitions`
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Scalar`
 
 * **Add ROI**
@@ -185,8 +183,7 @@ Te maken kolommen
       * Filterlogica: ([`A`] OR [`B`] OR [`C`]) EN [`D`]
 
    * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
-   * &#x200B;
-
+   * 
      [!UICONTROL Format]: `Percentage`
 
 * Metrisch `A`: `Ad Spend (hide)`
@@ -194,21 +191,20 @@ Te maken kolommen
 * Metrisch `C`: `Average LTV (hide)`
 * [!UICONTROL Formula]: `Ads ROI`
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Scalar`
 
 * **Orders door gummiddel**
-   * &#x200B;
-
+   * 
      [!UICONTROL Metric]: `Orders`
 
 * Metrisch `A`: `Orders`
 * [!UICONTROL Time period]: `All time`
 * [!UICONTROL Interval]: `By Month`
 * [!UICONTROL Group by]: `Order's medium`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Area`
 
 * **ROI van de Advertentie door campagne**
@@ -239,18 +235,15 @@ Te maken kolommen
       * Filterlogica: ([`A`] OR [`B`] OR [`C`]) EN [`D`]
 
    * [!UICONTROL Formula]: `(A / B)`
-   * &#x200B;
-
+   * 
      [!UICONTROL Format]: `Currency`
 
    * [!UICONTROL Formula]: `(C - (A / B))`
-   * &#x200B;
-
+   * 
      [!UICONTROL Format]: `Currency`
 
    * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
-   * &#x200B;
-
+   * 
      [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Metric]: `Ad Clicks`
@@ -258,38 +251,36 @@ Te maken kolommen
    * [!UICONTROL Metric]: `Ad Impressions`
 
    * [!UICONTROL Formula]: `(H / I)`
-   * &#x200B;
-
+   * 
      [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Formula]: `(A / H)`
-   * &#x200B;
-
+   * 
      [!UICONTROL Format]: `Currency`
 
 * Metrisch `A`: `Ad Spend` (hide)
 * Metrisch `B`: `Ad customer acquisitions`
 * Metrisch `C`: `Average LTV`
 * Metrisch `D`: `Average lifetime # of orders`
-* &#x200B;
-  [!UICONTROL -formule]: `CAC`
+* 
+  [!UICONTROL-formule]: `CAC`
 * [!UICONTROL Formula]: `Avg return`
 * [!UICONTROL Formula]: `Ads ROI`
 * Metrisch `H`: `adClicks`
 * Metrisch `I`: `Impressions`
-* &#x200B;
-  [!UICONTROL -formule]: `CTR`
-* &#x200B;
-  [!UICONTROL -formule]: `CPC`
+* 
+  [!UICONTROL-formule]: `CTR`
+* 
+  [!UICONTROL-formule]: `CPC`
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Group door]: `campaign` (Gebruik de campagne &#39;First Order&#39; van de Klant voor niet-ad-uitgaventabelgegevens)
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Table`
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ### Verwante
 

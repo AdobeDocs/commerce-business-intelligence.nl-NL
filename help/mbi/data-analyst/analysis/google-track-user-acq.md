@@ -1,5 +1,5 @@
 ---
-title: Googles Analytics - Bekijk het Source-gegevensoverzicht voor het aanschaffen van gebruikers
+title: Google Analytics - Bekijk het Source-gegevensoverzicht voor het aanschaffen van gebruikers
 description: Leer hoe u uw gegevens kunt segmenteren op basis van de aankoopbron van de gebruiker.
 exl-id: 2ce3e4f9-4741-4ada-b822-ec6a5ca94497
 role: Admin, User
@@ -27,7 +27,7 @@ Als u de aanschafbronnen van gebruikers nog niet bijhoudt in uw database, kunt u
 
 ### (Optie 1) Brongegevens voor orderverwijzing bijhouden via [!DNL Google Analytics E-Commerce]
 
-Als u [!DNL Google Analytics E-Commerce] gebruikt om uw bestelling- en verkoopgegevens bij te houden, kunt u de [[!DNL [Google Analytics E-Commerce Connector]]](../importing-data/integrations/google-ecommerce.md) gebruiken om de brongegevens van elke bestelling te synchroniseren. Op deze manier kunt u inkomsten en orders segmenteren op verwijzingsbron (bijvoorbeeld `utm_source` of `utm_medium` ). U krijgt ook een idee van aanschafbronnen van klanten via [!DNL Commerce Intelligence] aangepaste afmetingen zoals `User's first order source` .
+Als u [!DNL Google Analytics E-Commerce] gebruikt om uw bestelling- en verkoopgegevens bij te houden, kunt u de [!DNL [Google Analytics E-Commerce Connector]](../importing-data/integrations/google-ecommerce.md) gebruiken om de brongegevens van elke bestelling te synchroniseren. Op deze manier kunt u inkomsten en orders segmenteren op verwijzingsbron (bijvoorbeeld `utm_source` of `utm_medium` ). U krijgt ook een idee van aanschafbronnen van klanten via [!DNL Commerce Intelligence] aangepaste afmetingen zoals `User's first order source` .
 
 ### (Optie 2) Brongegevens van de [!DNL Google Analytics] -overname opslaan in uw database
 
@@ -35,7 +35,7 @@ In dit onderwerp wordt uitgelegd hoe u de gegevens van het [!DNL Google Analytic
 
 #### Waarom?
 
-Als u alleen de standaard [!DNL Google Analytics] conversie- en acquisitiemetriek bekijkt, krijgt u niet het hele beeld. Terwijl het zien van het aantal omzettingen van organisch onderzoek tegenover betaalde onderzoek interessant is, wat kunt u met die informatie doen? Moet je meer geld uitgeven aan betaalde zoekopdrachten? Dat hangt van de waarde van klanten af die uit dat kanaal komen, wat niet iets Googles Analytics verstrekt.
+Als u alleen de standaard [!DNL Google Analytics] conversie- en acquisitiemetriek bekijkt, krijgt u niet het hele beeld. Terwijl het zien van het aantal omzettingen van organisch onderzoek tegenover betaalde onderzoek interessant is, wat kunt u met die informatie doen? Moet je meer geld uitgeven aan betaalde zoekopdrachten? Dat hangt af van de waarde van klanten die van dat kanaal komen, wat niet iets is dat Google Analytics biedt.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ Deze code werd vertaald in a [ PHP bibliotheek die op github ](https://github.co
 
 De geretourneerde `$data` -array is een kaart van de keys `source`, `medium`, `term`, `content`, `campaign`, `gclid` en hun respectievelijke waarden.
 
-Adobe raadt u aan een tabel met de naam `user_referral` toe te voegen aan de database, waarin u de volgende kolommen kunt weergeven: `id INT PRIMARY KEY, user_id INT NOT NULL, source VARCHAR(255), medium VARCHAR(255), term VARCHAR(255), content VARCHAR(255), campaign VARCHAR(255), gclid VARCHAR(255)` . Wanneer een gebruiker zich aanmeldt, haalt u de verwijzingsinformatie op en slaat u deze op in deze tabel.
+Adobe raadt u aan een tabel met de naam `user_referral` toe te voegen aan uw database met de volgende kolommen: `id INT PRIMARY KEY, user_id INT NOT NULL, source VARCHAR(255), medium VARCHAR(255), term VARCHAR(255), content VARCHAR(255), campaign VARCHAR(255), gclid VARCHAR(255)` . Wanneer een gebruiker zich aanmeldt, haalt u de verwijzingsinformatie op en slaat u deze op in deze tabel.
 
 #### Hoe deze gegevens te gebruiken
 

@@ -20,7 +20,7 @@ Voordat u begint te bouwen in [!DNL Adobe Commerce Intelligence] , wil Adobe enk
 De manier waarop u de berekende kolommen, metriek, en rapporten noemt dicteert het gemak waarin de verschillende gebruikers door uw [!DNL Commerce Intelligence] rekening kunnen navigeren. Houd bij de naamgeving van deze functies rekening met de volgende drie instellingen:
 
 * **DUIDELIJKHEID** - Zo kunt u bij een blik vertellen wat een rapport toont, wat metrisch doet, etc.
-* **CONSISTENTIE** - zodat u (en het de steunteam van de Adobe) elementen en rapporten in uw rekening gemakkelijk vinden en kunnen begrijpen.
+* **CONSISTENTIE** - zodat u (en het de steunteam van Adobe) elementen en rapporten in uw rekening gemakkelijk vinden en kunnen begrijpen.
 * **CREDIBILITY** - om andere gegeven-gedreven [!DNL Commerce Intelligence] gebruikers te inspireren en te machtigen, moet u vertrouwen in verhogen hoe zij de gegevens begrijpen en gebruiken!
 
 Lees verder voor beproefde en ware nomenclatuurtips!
@@ -80,7 +80,7 @@ De dashboards zouden op manieren moeten worden genoemd die thematisch de rapport
 
 Omgekeerd, als uw dashboard een plaats is waar u met verschillende rapporten experimenteert, denk na noemend het **Sandbox van Uw Naam** zodat u weet dat de rapporten bevat binnen concepten zijn.
 
-## Dimensionen (berekende kolommen) {#dimensions}
+## Afmetingen (berekende kolommen) {#dimensions}
 
 Wanneer het noemen van nieuwe [ dimensies ](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), is het nuttigst om deze formule te volgen: **(Entiteit) + (Nde) + (tijdkader) + (berekening) + (commentaren)**. Bijvoorbeeld:
 

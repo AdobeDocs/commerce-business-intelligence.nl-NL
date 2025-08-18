@@ -15,7 +15,7 @@ ht-degree: 0%
 
 1. Klik op de naam van uw bedrijf in de rechterbovenhoek en selecteer **[!UICONTROL Invite User]** in het vervolgkeuzemenu.
 1. Voer de naam en het e-mailadres van de gebruiker in.
-1. Stel de volgende waarden voor de gebruiker in: `Admin` , `Standard` of `Read Only` .**[!UICONTROL general permission level]**
+1. Stel de volgende waarden voor de gebruiker in: **[!UICONTROL general permission level]** , `Admin` of `Standard` .`Read Only`
 1. Geef aan of deze nieuwe gebruiker ook verantwoordelijk moet zijn voor **[!UICONTROL billing]** - of **[!UICONTROL technical]** -problemen door de desbetreffende vakken in te schakelen.
 
    >[!NOTE]
@@ -28,7 +28,7 @@ De nieuwe gebruiker wordt een e-mail met login en wachtwoorddetails verzonden.
 
 >[!NOTE]
 >
->De nieuwe gebruiker heeft standaard geen dashboards. Adobe adviseert dat u [&#128279;](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk deelt.
+>De nieuwe gebruiker heeft standaard geen dashboards. Adobe adviseert dat u [ ](../../data-user/dashboards/share-dashboard-with-users.md) de noodzakelijke dashboards met de nieuwe gebruiker onmiddellijk deelt.
 
 ## Uw e-mailadres of wachtwoord bijwerken
 
@@ -40,4 +40,4 @@ Als u de uitnodiging, op de [ login pagina ](https://dashboard.rjmetrics.com/v2/
 
 >[!IMPORTANT]
 >
->Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen.
+>Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voorleggen.

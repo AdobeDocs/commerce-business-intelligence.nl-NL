@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Bij het analyseren van uw gegevens is het nuttig om gegevens uit verschillende bronnen te consolideren. Wilt u de omzet groeperen door de bron van de overname, de gegevens van uw `orders` tabel en [!DNL Google Analytics] gegevens te koppelen? Misschien wilt u opbrengst groeperen door klantengeslacht of zich bij een klantenattribuut aan transactiegegevens voor segmentatie aansluiten. In dit onderwerp wordt besproken hoe dat moet gebeuren.
 
-Alvorens begonnen te worden, adviseert de Adobe dat u de [ Berekende Gids van de Types van Kolom ](../../data-analyst/data-warehouse-mgr/calc-column-types.md) voor informatie over de types van kolommen herziet die u in de Manager van de Data Warehouse, samen met hun definities en voorbeelden kunt tot stand brengen.
+Alvorens begonnen te worden, adviseert Adobe dat u de [ Berekende Gids van de Types van Kolom ](../../data-analyst/data-warehouse-mgr/calc-column-types.md) voor informatie over de types van kolommen herziet die u in de Manager van Data Warehouse, samen met hun definities en voorbeelden kunt tot stand brengen.
 
 1. Klik op **[!DNL Manage Data > Data Warehouse]** om te beginnen.
 

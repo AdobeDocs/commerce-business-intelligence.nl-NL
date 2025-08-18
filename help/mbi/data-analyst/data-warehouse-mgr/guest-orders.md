@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Als u tijdens het controleren van uw bestellingen opmerkt dat veel `customer\_id` -waarden null zijn of geen waarde hebben om weer deel te nemen aan de `customers` -tabel, is dit een indicatie dat in uw winkel bestellingen van gasten zijn toegestaan. Dit betekent dat uw `customers` tabel hoogstwaarschijnlijk niet voor al uw klanten inclusief is.
 
-Dit onderwerp bespreekt de invloed gastorden op uw gegevens hebben en welke opties u behoorlijk voor gastorden in uw [!DNL Commerce Intelligence] Data Warehouse moet rekenschap geven.
+Dit onderwerp bespreekt de impact die gastorders op uw gegevens hebben en welke opties u moet behoorlijk voor gastorden in uw [!DNL Commerce Intelligence] Data Warehouse rekenschap geven.
 
 ## Gevolgen van gastorders voor gegevens
 
@@ -31,9 +31,9 @@ In de standaard commerciële database is er een `orders` -tabel die zich bij een
   >
   >Om het unieke individu te identificeren dat de orde maakte, moet er een ander uniek gebruikersattribuut naast `customer\_id` in bijlage aan een orde zijn. Het e-mailadres van de klant wordt doorgaans gebruikt.
 
-## Hoe te om gastorden in de opstelling van de Data Warehouse rekenschap te geven
+## Hoe te om gastorden in de opstelling van Data Warehouse rekenschap te geven
 
-Typisch, neemt de Ingenieur van de Verkoop die uw rekening uitvoert gastorden in overweging wanneer het bouwen van de stichting van uw Data Warehouse.
+Doorgaans houdt de verkooptechnicus die uw account implementeert rekening met gastorders bij het opbouwen van de basis van uw Data Warehouse.
 
 De meest optimale manier om voor gastorden rekening te houden is alle klant-vlakke metriek op de `orders` lijst te baseren. Bij deze installatie wordt een unieke klant-id gebruikt die alle klanten hebben, inclusief gasten (doorgaans wordt de e-mail van de klant gebruikt). Hierbij worden registratiegegevens uit de tabel `customers` genegeerd. Met deze optie worden alleen klanten die ten minste één aankoop hebben gedaan, opgenomen in rapporten op klantniveau. Geregistreerde gebruikers die nog geen aankoop hebben gedaan, worden niet opgenomen. Met deze optie is de maatstaf van `New customer` gebaseerd op de eerste besteldatum van de klant in de `orders` -tabel.
 

@@ -1,6 +1,6 @@
 ---
 title: Visualisaties maken van SQL-query's
-description: Leer om u met de terminologie vertrouwd te maken die in de SQL Report Builder wordt gebruikt en u een stevige stichting te geven voor het creëren van SQL visualisaties.
+description: Leer u vertrouwd te maken met de terminologie die in SQL Report Builder wordt gebruikt en geef u een stevige basis voor het maken van SQL-visualisaties.
 exl-id: 9b9bc205-5b64-4e64-8d23-057072e5dd72
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: SQL Report Builder, Data Warehouse Manager, Reports, Data Integration
@@ -21,7 +21,7 @@ Het doel van deze zelfstudie is om u vertrouwd te maken met de terminologie die 
 
 Voordat u met deze zelfstudie begint, raadpleegt u de volgende terminologie die in de `SQL Report Builder` wordt gebruikt.
 
-- `Series`: De kolom die u wilt meten wordt bedoeld als Reeks in de SQL Report Builder. Algemene voorbeelden zijn `revenue` , `items sold` en `marketing spend` . Ten minste één kolom moet als een `Series` worden ingesteld om een visualisatie te maken.
+- `Series`: De kolom die u wilt meten, wordt bedoeld als Serie in SQL Report Builder. Algemene voorbeelden zijn `revenue` , `items sold` en `marketing spend` . Ten minste één kolom moet als een `Series` worden ingesteld om een visualisatie te maken.
 
 - `Category`: De kolom die u wilt gebruiken om uw gegevens te segmenteren, wordt een `Category` Dit is net als de functie `Group By` in de [`Visual Report Builder`](../data-user/reports/ess-rpt-build-visual.md) . Bijvoorbeeld, als u de levenopbrengst van uw klanten door hun aanschafbron wilt segmenteren, zou de kolom die aanschafbron bevat als `Category` worden gespecificeerd. U kunt meerdere kolommen instellen als een `Category` .
 

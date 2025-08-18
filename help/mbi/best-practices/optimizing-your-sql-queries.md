@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Met [!DNL SQL Report Builder] kunt u op elk gewenst moment query&#39;s uitvoeren op deze query&#39;s en deze doorlopen. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
 
-Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=nl-NL). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert de Adobe het volgende.
+Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 
 Het selecteren van alle kolommen maakt niet voor een geschikte, gemakkelijk uitgevoerde vraag. Het kan veel tijd duren om query&#39;s met `SELECT *` uit te voeren, vooral als uw tabel veel kolommen bevat.
 
-Daarom raadt de Adobe u aan `SELECT *` waar mogelijk niet te gebruiken en alleen de kolommen op te nemen die u nodig hebt:
+Daarom raadt Adobe u aan `SELECT *` niet zoveel mogelijk te gebruiken en alleen de kolommen op te nemen die u nodig hebt:
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
@@ -47,7 +47,7 @@ Deze vragen zijn identiek op elke manier behalve het type van VERBINDING zij geb
 
 ## Meerdere verbindingen gebruiken
 
-Terwijl u veelvoudige verbindingen in uw vraag kunt omvatten, herinner dat het de kosten van de vraag kan drijven omhoog. Om te voorkomen dat de kostendrempel wordt overschreden, beveelt de Adobe aan waar mogelijk meerdere verbindingen te vermijden.
+Terwijl u veelvoudige verbindingen in uw vraag kunt omvatten, herinner dat het de kosten van de vraag kan drijven omhoog. Om te voorkomen dat de kostendrempel wordt overschreden, raadt Adobe aan waar mogelijk meerdere verbindingen te vermijden.
 
 ## Filters gebruiken
 

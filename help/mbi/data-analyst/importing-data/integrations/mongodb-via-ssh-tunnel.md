@@ -23,7 +23,7 @@ Als u de [!DNL MongoDB] -database via een SSH-tunnel wilt verbinden met [!DNL Co
 
 >[!NOTE]
 >
->Vanwege de technische aard van deze installatie, raadt de Adobe u aan om een lus uit te voeren in een ontwikkelaar om u te helpen als u dit nog niet eerder hebt gedaan.
+>Vanwege de technische aard van deze installatie, raadt Adobe u aan een lus uit te voeren in een ontwikkelaar om uit te zoeken of u dit nog niet eerder hebt gedaan.
 
 ## De openbare sleutel [!DNL Commerce Intelligence] ophalen {#retrieve}
 
@@ -146,4 +146,4 @@ Als u klaar bent, klikt u op **[!UICONTROL Save Test]** om de installatie te vol
 
 ### Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

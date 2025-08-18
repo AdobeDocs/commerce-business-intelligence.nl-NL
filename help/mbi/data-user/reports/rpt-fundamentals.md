@@ -64,7 +64,7 @@ Dat wordt vervolgens gebruikt om:
 
 Beide velden moeten op gebruikersniveau worden gemaakt (bijvoorbeeld op de tabel `user` ). Hierdoor kan de gemiddelde analyse door de gebruikers worden genormaliseerd (met andere woorden, de noemer in deze gemiddelde berekening is het aantal gebruikers).
 
-Hier wordt door [!DNL Commerce Intelligence] ingesprongen! U kunt de Data Warehouse [!DNL Commerce Intelligence] gebruiken om de bovenstaande kolommen te maken. Neem contact op met de analist van de Adobe en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt de [ Redacteur van de Kolom ](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) ook gebruiken.
+Hier wordt door [!DNL Commerce Intelligence] ingesprongen! U kunt uw [!DNL Commerce Intelligence] Data Warehouse gebruiken om de bovenstaande kolommen te maken. Neem contact op met het Adobe-analistenteam en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt de [ Redacteur van de Kolom ](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) ook gebruiken.
 
 Het is aan te raden te vermijden dat u deze berekende gegevensvelden rechtstreeks in uw database maakt, aangezien dit een onnodige belasting voor uw productieservers betekent.
 
@@ -94,7 +94,7 @@ Ga eenvoudig naar om het even welk dashboard en [ creeer een rapport ](../../dat
 
 ### `Visual Report Builder` {#visualrb}
 
-[ `Visual Report Builder`](../../data-user/reports/ess-rpt-build-visual.md) is de gemakkelijkste manier om uw gegevens te visualiseren. Als u niet vertrouwd met SQL bent of u een rapport wilt snel tot stand brengen, is de Visuele Report Builder uw beste weddenschap. Met slechts een paar klikken, kunt u metriek toevoegen, uw gegevens segmenteren, en rapporten tot stand brengen aan over uw organisatie. Deze optie is ideaal voor zowel beginners als deskundigen, aangezien hiervoor geen technische expertise vereist is.
+[ `Visual Report Builder`](../../data-user/reports/ess-rpt-build-visual.md) is de gemakkelijkste manier om uw gegevens te visualiseren. Als u niet vertrouwd met SQL bent of u een rapport wilt snel tot stand brengen, is Visual Report Builder uw beste weddenschap. Met slechts een paar klikken, kunt u metriek toevoegen, uw gegevens segmenteren, en rapporten tot stand brengen aan over uw organisatie. Deze optie is ideaal voor zowel beginners als deskundigen, aangezien hiervoor geen technische expertise vereist is.
 
 |  |  |
 |--- |--- |
@@ -107,7 +107,7 @@ Ga eenvoudig naar om het even welk dashboard en [ creeer een rapport ](../../dat
 
 #### Beschrijvingen toevoegen aan rapporten
 
-Wanneer het creëren van rapporten die met andere leden van uw team worden gedeeld, adviseert de Adobe beschrijvingen toe te voegen die andere gebruikers toestaan om uw analyse beter te begrijpen.
+Bij het maken van rapporten die worden gedeeld met andere leden van uw team, raadt Adobe aan beschrijvingen toe te voegen waarmee andere gebruikers uw analyse beter kunnen begrijpen.
 
 1. Klik op **[!UICONTROL i]** boven aan een willekeurig rapport.
 1. Voer in het tekstvak een beschrijving in.

@@ -75,4 +75,4 @@ Als u een uitgebreid beeld wilt krijgen van uw campagnes, kunt u uw [!DNL Mailch
 
 Elk bestand - `Opens` , `Clicks` en `Sent` - moet in [!DNL Commerce Intelligence] als afzonderlijk bestand worden geüpload. Adobe raadt u aan de bestanden een naam te geven met deze naamgevingsconventie: `MailChimp\_ACTION\_DATE` . Vervang `ACTION` door `Open` , `Click` of `Sent` en vervang `DATE` door de datum van export.
 
-Wanneer u klaar bent om de dossiers te uploaden, gebruik [`File Upload` eigenschap ](../connecting-data/using-file-uploader.md) om de gegevens in uw Data Warehouse over te brengen.
+Wanneer u klaar bent om de bestanden te uploaden, gebruikt u de [`File Upload` functie ](../connecting-data/using-file-uploader.md) om de gegevens over te brengen naar uw Data Warehouse.

@@ -1,6 +1,6 @@
 ---
-title: Gegevens van Googles Analytics verwacht
-description: Leer om met uw Googles Analytics metriek in wisselwerking te staan.
+title: Google Analytics-gegevens verwacht
+description: Leer hoe je communiceert met je Google Analytics metriek.
 exl-id: db9fdaaa-47a9-4095-b1f8-9b6c74c25b7c
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # [!DNL Google Analytics] gegevens verwacht
 
-Nadat u een [!DNL Google Analytics] integratie hebt verbonden, kunt u met uw [!DNL Google Analytics] metriek *onmiddellijk in`Visual Report Builder`* in wisselwerking staan. Wanneer u `Visual Report Builder` invoert en u op **[!UICONTROL Add a Metric]** klikt, wordt een reeks meetgegevens uit het profiel [!DNL Google Analytics] weergegeven in een vervolgkeuzelijst direct onder de meetgegevens in de Data Warehouse.
+Nadat u een [!DNL Google Analytics] integratie hebt verbonden, kunt u met uw [!DNL Google Analytics] metriek *onmiddellijk in`Visual Report Builder`* in wisselwerking staan. Wanneer u `Visual Report Builder` invoert en op **[!UICONTROL Add a Metric]** klikt, wordt een reeks meetgegevens uit uw [!DNL Google Analytics] -profiel weergegeven in een vervolgkeuzelijst direct onder de meetgegevens in uw Data Warehouse.
 
-De [!DNL Google Analytics] integratie is levend **&#x200B; - dit betekent dat `Report Builder` om gegevens van [!DNL Google Analytics] vraagt *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek die u kunt toegang hebben precies worden bepaald aangezien zij in [!DNL Google Analytics] zijn, en dat deze waarden niet &#x200B;** in uw [!DNL Commerce Intelligence] rekening worden gespaard - slechts visueel getoond in uw rapporten.
+De [!DNL Google Analytics] integratie is levend ** - dit betekent dat `Report Builder` om gegevens van [!DNL Google Analytics] vraagt *onmiddellijk* wanneer u metrisch aan uw rapport toevoegt. Het betekent ook dat de metriek die u kunt toegang hebben precies worden bepaald aangezien zij in [!DNL Google Analytics] zijn, en dat deze waarden niet ** in uw [!DNL Commerce Intelligence] rekening worden gespaard - slechts visueel getoond in uw rapporten.
 
-+++Ondersteunde metriek en Dimensionen (Googles Analytics 3 of Universal Analytics)
++++Ondersteunde maateenheden en afmetingen (Google Analytics 3 of Universal Analytics)
 
 >[!NOTE]
 >
@@ -83,7 +83,7 @@ De [!DNL Google Analytics] integratie is levend **&#x200B; - dit betekent dat `R
 
 {style="table-layout:auto"}
 
-## Ondersteunde Dimensionen
+## Ondersteunde afmetingen
 
 | [!DNL Commerce Intelligence] Weergavenaam | [!DNL Google Analytics] Naam/formule | Groeperen? |
 | --- | --- | --- |
@@ -154,7 +154,7 @@ De [!DNL Google Analytics] integratie is levend **&#x200B; - dit betekent dat `R
 
 +++
 
-+++Ondersteunde metriek en Dimensionen (Googles Analytics 4)
++++Ondersteunde maateenheden en afmetingen (Google Analytics 4)
 
 [!DNL Google Analytics] integraties in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [ Gegevens API v1 (GA4) ](https://developers.google.com/analytics/devguides/reporting/data/v1).
 
@@ -162,6 +162,6 @@ De [!DNL Google Analytics] integratie is levend **&#x200B; - dit betekent dat `R
 >
 > Commerce Intelligence ondersteunt de volgende afmetingen niet: `cohort` , `cohortNthDay` , `cohortNthMonth` en `cohortNthWeek` .
 >
->U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Visual Report Builder` . U kunt [ GA4 Dimensionen &amp; de Ontdekkingsreiziger van Metriek ](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/) controleren.
+>U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Visual Report Builder` . U kunt de [ afmetingen GA4 &amp; de Ontdekkingsreiziger van Metriek ](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/) controleren.
 
 +++

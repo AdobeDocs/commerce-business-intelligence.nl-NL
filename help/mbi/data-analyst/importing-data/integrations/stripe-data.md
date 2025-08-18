@@ -1,5 +1,5 @@
 ---
-title: Verwachte gegevens Stripe
+title: Stripe-gegevens verwacht
 description: Bekijk de belangrijkste gegevenstabellen die u vanuit Stripe kunt importeren in Commerce Intelligence.
 exl-id: 694577b2-48f9-4376-850d-acae1776afe3
 role: Admin, Data Architect, Data Engineer, User
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # [!DNL Stripe] gegevens verwacht
 
-Nadat [ u uw  [!DNL Stripe]  rekening ](../integrations/stripe.md) hebt verbonden, kunt u de [ Manager van de Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat [ u uw  [!DNL Stripe]  rekening ](../integrations/stripe.md) hebt verbonden, kunt u de [ Manager van Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
-In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit [!DNL Stripe] kunt importeren in [!DNL Commerce Intelligence] . Nadat de opstelling wordt voltooid, zullen de volgende lijsten in uw Data Warehouse worden gecreeerd. Klik op de koppelingen in de kolom Tabelnaam voor meer informatie over de kenmerken in elke tabel.
+In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit [!DNL Stripe] kunt importeren in [!DNL Commerce Intelligence] . Nadat de installatie is voltooid, worden de volgende tabellen gemaakt in uw Data Warehouse. Klik op de koppelingen in de kolom Tabelnaam voor meer informatie over de kenmerken in elke tabel.
 
 | **Naam van de Lijst** | **Beschrijving** |
 |-----|-----|
@@ -36,4 +36,4 @@ In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit
 ## Verwante:
 
 * [Verbinding maken  [!DNL Stripe]](../integrations/stripe.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

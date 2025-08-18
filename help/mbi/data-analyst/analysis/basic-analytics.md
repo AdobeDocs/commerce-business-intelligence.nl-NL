@@ -34,7 +34,7 @@ Deze lijst bevat de belangrijkste informatie over elke klant, zoals een unieke k
 
 Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen alle beheerders in uw account ze maken. Bovendien moet u ervoor zorgen dat deze afmetingen gegroepeerd zijn voor alle toepasselijke metriek.
 
-**Dimensionen**
+**Afmetingen**
 
 * **[!UICONTROL Entity_id]**: Een unieke id voor elke klant. Dit kan ook een uniek klantnummer of een e-mailadres van een klant zijn en moet fungeren als referentietoets voor de tabel van uw bestelling.
 * **[!UICONTROL Created_at]**: De datum waarop de account van de klant is gemaakt en aan uw database is toegevoegd.
@@ -46,7 +46,7 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 **Accepteert u gastorden?**
 
-*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om uw klantenanalyses te verzekeren omvat alle klanten.*
+*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw klantenanalyses te verzekeren omvat alle klanten.*
 
 *niet zeker als u gastorden goedkeurt? Verwijs naar [ dit onderwerp ](../data-warehouse-mgr/guest-orders.md) om meer te leren!*
 
@@ -54,13 +54,13 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze lijst bevatten basisinformatie over elke orde, zoals identiteitskaart van de orde, creatieve datum, status, identiteitskaart van de klant die de orde plaatste, etc. In de onderstaande voorbeelden wordt **[!UICONTROL sales_flat_order]** gebruikt als de naam van een tabel met voorbeeldorders.
 
-**Dimensionen**
+**Afmetingen**
 
 * **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit wordt vaak gebruikt om informatie tussen de klant en ordentabellen te bewegen. In deze voorbeelden verwacht u dat de customer_id in de **[!UICONTROL sales_flat_order]** -tabel wordt uitgelijnd met de **[!UICONTROL entitiy_id]** on the **[!UICONTROL customer_entity]** -tabel.
 * **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
 * **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam in de `Customers` -tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
 * **[!UICONTROL Customer's order number (previous-current)]**: een samenvoeging van twee waarden in de kolom **[!UICONTROL Customer's order number]** . Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
 * **[!UICONTROL Coupon_code]**: geeft aan welke coupons op elke bestelling zijn gebruikt.
 * **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.
@@ -69,19 +69,19 @@ In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze lijs
 
 In deze tabel staat elke rij voor één object dat is verkocht. Deze tabel bevat informatie over de objecten die in elke bestelling worden verkocht, zoals het referentienummer van de bestelling, het productnummer, de hoeveelheid, enzovoort. In de onderstaande voorbeelden wordt `sales_flat_order_item` gebruikt als de naam van een tabel met items in de voorbeeldvolgorde.
 
-**Dimensionen**
+**Afmetingen**
 
 * **[!UICONTROL Item_id]**: De unieke id voor elke rij in de tabel.
 * **[!UICONTROL Order_id]**: De referentietoets naar de `Orders` -tabel die aangeeft welke items in dezelfde volgorde zijn aangeschaft. Als een volgorde meerdere items bevat, wordt deze waarde herhaald.
 * **[!UICONTROL Product_id]**: Als u informatie wilt over het specifieke product dat is aangeschaft (zoals kleur, grootte, enzovoort), gebruikt u deze kolom om die informatie uit de tabel met producten te halen.
-* **[!UICONTROL Order's created_at]**: Het tijdstempel dat de volgorde is geplaatst, wordt meestal vanuit de tabel `Orders` naar de `order line items` -tabel gekopieerd.
+* **[!UICONTROL Order's created_at]**: Het tijdstempel dat de volgorde is geplaatst, wordt meestal vanuit de tabel `order line items` naar de `Orders` -tabel gekopieerd.
 * **[!UICONTROL Order's coupon_code]**: net als bij de `Order's created_at` -dimensie wordt deze kolom gekopieerd uit de tabel met bestellingen.
 
 ## Subscriptietabel
 
 Deze tabel wordt gebruikt voor het beheer van uw abonnementsgegevens, zoals de abonnements-id, het e-mailadres van de abonnee, de startdatum van het abonnement enzovoort.
 
-**Dimensionen**
+**Afmetingen**
 
 * **[!UICONTROL Customer_id]**: Een unieke id voor de klant die de bestelling heeft geplaatst. Dit is een gemeenschappelijke manier om een weg tussen de lijst van Klanten en de lijst van Orden te bouwen. In deze voorbeelden, verwacht u customer_id op de **sales_flat_order** lijst om met `entitiy_id` op de `customer_entity` lijst te richten.
 * **[!UICONTROL Start date]**: De datum waarop het abonnement van een klant is gestart.
@@ -90,7 +90,7 @@ Deze tabel wordt gebruikt voor het beheer van uw abonnementsgegevens, zoals de a
 
 Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook] , [!DNL Google AdWords] of andere bronnen in uw analyses opnemen. Als u veelvoudige marketing uitgavenbronnen hebt, contacteer het [ Team van Managed Services ](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij vestiging een geconsolideerde lijst voor uw marketing campagnes.
 
-**Dimensionen**
+**Afmetingen**
 
 * **[!UICONTROL Spend]**: De totale advertentie die wordt uitgegeven. In [!DNL Facebook] is dit de uitgavenkolom in de `facebook_ads_insights_####` -tabel. Voor [!DNL Google AdWords] is dit de `adCost` -kolom in de `campaigns####` -tabel.
 * De `####` die aan elk van deze tabellen wordt toegevoegd, heeft betrekking op de specifieke account-id voor uw [!DNL Facebook] - of [!DNL Google AdWords] -account.
@@ -343,7 +343,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Producten die het meest met coupons worden aangeschaft
 
-* **Beschrijving**: Dit rapport verstrekt inzicht in welke producten worden verkocht wanneer u bevorderingen of coupons aanbiedt.
+* **Beschrijving**: Dit rapport verstrekt insight waarin de producten worden verkocht wanneer u promoties of coupons aanbiedt.
 * **Metrisch gebruikte**: Geordende producten
 * **Voorbeeld van het Rapport**: De producten het meest die met coupons worden gekocht
    * **[!UICONTROL Metric]**: `Products ordered`
@@ -357,7 +357,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 ### Tijd tussen bestellingen
 
-* **Beschrijving**: Test uw veronderstellingen en verwachtingen over de aankoopcycli van uw klanten met a **tijd tussen orden** analyse die het gemiddelde (of mediaan!) bekijkt tijdsduur tussen aankopen. In de onderstaande grafiek ziet u dat uw beste klanten - die meer dan drie bestellingen plaatsen - hun tweede aankoop binnen minder dan zes maanden doen. Klanten die geen vierde bestelling hebben geplaatst, wachten veertien maanden voordat ze een tweede aankoop doen.
+* **Beschrijving**: Test uw veronderstellingen en verwachtingen over de aankoopcycli van uw klanten met a **tijd tussen orden** analyse die de gemiddelde (of mediaan!) hoeveelheid tijd tussen aankopen bekijkt. In de onderstaande grafiek ziet u dat uw beste klanten - die meer dan drie bestellingen plaatsen - hun tweede aankoop binnen minder dan zes maanden doen. Klanten die geen vierde bestelling hebben geplaatst, wachten veertien maanden voordat ze een tweede aankoop doen.
 * **Metrische definitie**: Dit metrisch voert een **gemiddelde** van `Time since previous order` van `sales_flat_order` uit die door `created_at` wordt bevolen.
 * **voorbeeld van het Rapport**:
    * **Metrisch 1**: ≤ 3 orden
@@ -481,8 +481,8 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Formula]**: `B/A`
    * Selecteer de optie `currency`
    * **[!UICONTROL Group By]**:
-      * Selecteer `Customer's first order's campaign` voor metrisch `A`
-      * Selecteer `campaign` voor metrisch `B`
+      * Selecteer `A` voor metrisch `Customer's first order's campaign`
+      * Selecteer `B` voor metrisch `campaign`
 
   ![ Nieuwe Gebruikers.](../../assets/New_Users_Last_Month.png)
 
@@ -533,7 +533,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * Selecteer de optie `% `
    * **[!UICONTROL Group By]**:
       * Voor metrisch `A` en `B` selecteert u `Customer's first order's campaign`
-      * Selecteer `campaign` voor metrisch `C`
+      * Selecteer `C` voor metrisch `campaign`
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 title: Out-of-the-Box Dashboards
-description: Leer over dashboards uit-van-de-doos om inzicht in uw zaken te verstrekken.
+description: Meer informatie over dashboards buiten de box om insight aan je bedrijf te geven.
 exl-id: fe61c92e-de87-4317-96d7-01d2a9846bf9
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Out-of-the-box dashboards
 
-[!DNL Adobe Commerce Intelligence] bevat out-of-the-box dashboards om inzicht in uw zaken te verstrekken. Met dashboards kunt u de gezondheid van essentiële metriek controleren zoals opbrengst van de gebruikersleven, aantal herhaalde aankopen, hoogste producten die over een bepaalde periode, en meer worden gekocht. Deze pre-gevormde dashboards werden gecreeerd om u te helpen geïnformeerde bedrijfsbesluiten nemen.
+[!DNL Adobe Commerce Intelligence] bevat out-of-the-box dashboards om insight aan uw bedrijf te leveren. Met dashboards kunt u de gezondheid van essentiële metriek controleren zoals opbrengst van de gebruikersleven, aantal herhaalde aankopen, hoogste producten die over een bepaalde periode, en meer worden gekocht. Deze pre-gevormde dashboards werden gecreeerd om u te helpen geïnformeerde bedrijfsbesluiten nemen.
 
 >[!NOTE]
 >
->De toegang tot deze dashboards hangt van uw accounttype en uw toegangsniveau af. Als u deze dashboards niet ziet, contacteer [ steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+>De toegang tot deze dashboards hangt van uw accounttype en uw toegangsniveau af. Als u deze dashboards niet ziet, contacteer [ steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ## Beschikbaarheid van rapporten
 
@@ -133,7 +133,7 @@ Het dashboard voor bestellingen biedt inzicht in het transactievolume van orders
 
 ## Producten
 
-Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), en hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Uw opslag moet [ worden gevormd om restituties ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html?lang=nl-NL) voor die te vullen grafieken te volgen.
+Het dashboard Producten toont algemene productprestaties in termen van bestelde producten, hun Bruto Waarde van de Handelswaren (GMV), en hoogste producten die worden gekocht en terugbetaald. Het kan u helpen aankopen en terugkeren in evenwicht te brengen, en productsucces en populariteit te bepalen. Uw opslag moet [ worden gevormd om restituties ](https://experienceleague.adobe.com/docs/commerce-admin/customers/customer-accounts/store-credit/credit-configure.html) voor die te vullen grafieken te volgen.
 
 >[!NOTE]
 >
