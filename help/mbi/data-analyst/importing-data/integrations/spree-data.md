@@ -30,4 +30,4 @@ Dit onderwerp verkent de belangrijkste gegevenslijsten die u van [!DNL Spree] in
 ## Verwante:
 
 * [Verbinding maken  [!DNL Spree]](../integrations/spree.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

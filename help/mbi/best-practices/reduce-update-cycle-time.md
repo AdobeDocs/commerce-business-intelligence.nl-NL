@@ -43,4 +43,4 @@ Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en graf
 
 ## Omloop omhoog
 
-Als uw updatetijd nog langzaam lijkt zelfs na het uitvoeren van deze aanbevelingen, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als uw updatetijd nog langzaam lijkt zelfs na het uitvoeren van deze aanbevelingen, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).

@@ -17,4 +17,4 @@ Als u uw wachtwoord opnieuw wilt instellen, klikt u op **[!UICONTROL Reset Passw
 
 U kunt ook het wachtwoord wijzigen in [!DNL Commerce Intelligence] met behulp van de pagina **[!UICONTROL Personal Settings]** .
 
-Als u uw wachtwoord terugstelt en gesloten uit uw rekening blijft, volg [ deze uiteinden ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.html) helpen het probleem identificeren.
+Als u uw wachtwoord terugstelt en gesloten uit uw rekening blijft, volg [ deze uiteinden ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.html?lang=nl-NL) helpen het probleem identificeren.

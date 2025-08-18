@@ -45,7 +45,7 @@ Wanneer dit volledig is, weet u welke gegevens u aan synchronisatie aan de nieuw
 
 ### Help opvragen
 
-Het [!DNL Adobe Commerce Intelligence] [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) kan uw re-implementatie voor extra kosten uitvoeren. Contacteer uw [ Team van de Rekening van Adobe ](../../guide-overview.md#Submitting-a-Support-Ticket) en ben bereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
+Het [!DNL Adobe Commerce Intelligence] [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) kan uw re-implementatie voor extra kosten uitvoeren. Contacteer uw [ Team van de Rekening van Adobe ](../../guide-overview.md#Submitting-a-Support-Ticket) en ben bereid om een lijst van dashboards/rapporten te verstrekken die u het creëren in de nieuwe rekening wilt voorrang geven
 
 ### Blijven werken met bestaande architectuur
 

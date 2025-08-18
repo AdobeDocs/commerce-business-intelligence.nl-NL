@@ -23,13 +23,13 @@ De tabel `quote_item` (`sales_flat_quote_item` op M1) bevat gegevens over elk ar
 
 | **de Naam van de Kolom** | **Beschrijving** |
 |---|---|
-| `base_price` | Prijs van een individuele eenheid van een product op het tijdstip dat het punt aan een karretje werd toegevoegd, nadat [ de regels van de catalogusprijs, de gelaagde kortingen, en de speciale prijs ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) worden toegepast en alvorens om het even welke belastingen, de verscheping, of de wortelkortingen worden toegepast. Dit wordt weergegeven in de basisvaluta van de winkel. |
+| `base_price` | Prijs van een individuele eenheid van een product op het tijdstip dat het punt aan een karretje werd toegevoegd, nadat [ de regels van de catalogusprijs, de gelaagde kortingen, en de speciale prijs ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=nl-NL) worden toegepast en alvorens om het even welke belastingen, de verscheping, of de wortelkortingen worden toegepast. Dit wordt weergegeven in de basisvaluta van de winkel. |
 | `created_at` | Tijdstempel maken van het winkelwagentje dat lokaal in UTC is opgeslagen. Afhankelijk van uw configuratie in [!DNL Commerce Intelligence] kan dit tijdstempel worden omgezet in een tijdzone voor rapportage in [!DNL Commerce Intelligence] die afwijkt van de tijdzone van uw database |
 | `item_id` (PK) | Unieke id voor de tabel |
 | `name` | Tekstnaam van het orderitem |
 | `parent_item_id` | `Foreign key` die een eenvoudig product koppelt aan zijn ouderbundel of configureerbaar product. Verbinden met `quote_item.item_id` om de kenmerken van het bovenliggende product te bepalen die aan het eenvoudige product zijn gekoppeld. Voor bovenliggende winkelwagentjes (dat wil zeggen bundel- of configureerbare producttypen) is de `parent_item_id` `NULL` |
 | `product_id` | `Foreign key` die aan de tabel `catalog_product_entity` is gekoppeld. Verbinden met `catalog_product_entity.entity_id` om productkenmerken te bepalen die aan het orderitem zijn gekoppeld |
-| `product_type` | Type product dat aan het karretje is toegevoegd. De potentiële [ producttypes ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html#product-types) omvatten: eenvoudig, configureerbaar, gegroepeerd, virtueel, bundel, en downloadbaar |
+| `product_type` | Type product dat aan het karretje is toegevoegd. De potentiële [ producttypes ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/product-create.html?lang=nl-NL#product-types) omvatten: eenvoudig, configureerbaar, gegroepeerd, virtueel, bundel, en downloadbaar |
 | `qty` | Hoeveelheid eenheden in het winkelwagentje voor het desbetreffende winkelwagentje |
 | `quote_id` | `Foreign key` die aan de tabel `quote` is gekoppeld. Verbinden met `quote.entity_id` om de kenmerken van het winkelwagentje te bepalen die aan het winkelwagentje zijn gekoppeld |
 | `sku` | Unieke identificatiecode voor het winkelwagentje |
@@ -43,7 +43,7 @@ De tabel `quote_item` (`sales_flat_quote_item` op M1) bevat gegevens over elk ar
 |---|---|
 | `Cart creation date` | Tijdstempel die is gekoppeld aan de aanmaakdatum van de wagen. Berekend door `quote_item.quote_id` samen te voegen met `quote.entity_id` en de `created_at` tijdstempel te retourneren |
 | `Cart is active? (1/0)` | Een Booleaans veld dat &quot;1&quot; retourneert als het winkelwagentje door een klant is gemaakt en nog niet is omgezet in een bestelling. Retourneert &quot;0&quot; voor omgezette winkelwagentjes of winkelwagentjes die via de beheerder zijn gemaakt. Berekend door `quote_item.quote_id` met `quote.entity_id` te verbinden en het veld `is_active` te retourneren |
-| `Cart item total value (qty * base_price)` | De totale waarde van een punt op het tijdstip dat het punt aan een karretje werd toegevoegd, nadat [ de regels van de catalogusprijs, de gelaagde kortingen, en de speciale prijs ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) worden toegepast en alvorens om het even welke belastingen, de verscheping, of de wortelkortingen worden toegepast. Berekend door de `qty` te vermenigvuldigen met de `base_price` |
+| `Cart item total value (qty * base_price)` | De totale waarde van een punt op het tijdstip dat het punt aan een karretje werd toegevoegd, nadat [ de regels van de catalogusprijs, de gelaagde kortingen, en de speciale prijs ](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html?lang=nl-NL) worden toegepast en alvorens om het even welke belastingen, de verscheping, of de wortelkortingen worden toegepast. Berekend door de `qty` te vermenigvuldigen met de `base_price` |
 | `Seconds since cart creation` | Verlopen tijd tussen de aanmaakdatum van de wagen en nu. Berekend door `quote_item.quote_id` met `quote.entity_id` te verbinden en het veld `Seconds since cart creation` te retourneren |
 | `Store name` | Naam van de Commerce-winkel die aan het orderitem is gekoppeld. Berekend door `sales_order_item.store_id` met `store.store_id` te verbinden en het veld `name` te retourneren |
 
@@ -72,7 +72,7 @@ De tabel `quote_item` (`sales_flat_quote_item` op M1) bevat gegevens over elk ar
 
 `quote_item`
 
-* Verbind met `quote_item` om kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp in het vormen van deze berekeningen, als het bouwen in de manager van Data Warehouse.
+* Verbind met `quote_item` om kolommen tot stand te brengen die details van de ouder configureerbaar of bundel SKU met het eenvoudige product associëren. [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor hulp in het vormen van deze berekeningen, als het bouwen in de manager van Data Warehouse.
    * Pad: `quote_item.parent_item_id` (veel) => `quote_item.item_id` (één)
 
 `store`

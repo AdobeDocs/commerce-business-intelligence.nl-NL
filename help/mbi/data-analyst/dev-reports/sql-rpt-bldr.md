@@ -17,13 +17,13 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md) om SQL grafieken tot stand te brengen en uit te geven. `Standard` -gebruikers kunnen deze grafieken opnieuw rangschikken op dashboards en `Read-only` -gebruikers hebben dezelfde ervaring als met traditionele grafieken. Bovendien hebben `Read-only` -gebruikers geen toegang tot de tekst van de query.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=nl-NL) om meer te leren.
 
 [!DNL SQL] (Structured Query Language) is een programmeertaal die wordt gebruikt om te communiceren met databases. In [!DNL Commerce Intelligence] wordt [!DNL SQL] gebruikt om gegevens van uw Data Warehouse te zoeken of op te halen. Bekijk de rapporten op uw dashboard - achter de schermen, wordt elk aangedreven door een [!DNL SQL] vraag.
 
 Met de [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze transformeren in een grafiek. U kunt een rapport maken met de [!DNL SQL Report Builder] door op **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]** te klikken.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=nl-NL) om meer te leren.
 
 Met [!DNL SQL Report Builder] kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze snel omzetten in een grafiek. Het beste deel over het gebruiken van [!DNL SQL] om rapporten te bouwen is dat u niet op updatecycli hoeft te wachten om op kolommen te herhalen u creeert. Als de resultaten niet goed lijken, kunt u de vraag snel uitgeven en opnieuw uitvoeren tot de dingen uw verwachtingen aanpassen.
 
@@ -133,7 +133,7 @@ Berekende kolommen die zijn gemaakt met [!DNL SQL] zijn niet afhankelijk van upd
 
 Meestal kunnen verschillen in resultaten worden toegeschreven aan updatecycli. Als [!DNL Commerce Intelligence] bezig is met het repliceren van gegevens van uw database naar uw Data Warehouse, ziet u mogelijk verschillende resultaten, zelfs als u dezelfde query gebruikt.
 
-Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [ moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [ moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
 
 Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn.
 

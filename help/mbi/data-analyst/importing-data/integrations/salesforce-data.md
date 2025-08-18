@@ -50,4 +50,4 @@ Momenteel worden de volgende objecten in de API van [!DNL Salesforce] niet besch
 ## Verwante:
 
 * [Verbinding maken  [!DNL Salesforce]](../integrations/salesforce.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

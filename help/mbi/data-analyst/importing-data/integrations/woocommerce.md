@@ -25,5 +25,5 @@ Het [!DNL WooCommerce] gegevensbestand is gebaseerd op [!DNL MySQL], kunt u het 
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
 * [Aanbevolen gegevensafmetingen voor segmentatie en filteren](../../../best-practices/segment-filter.md)

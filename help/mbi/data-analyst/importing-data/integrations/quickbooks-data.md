@@ -62,4 +62,4 @@ Als u alle velden wilt weergeven die u kunt bijhouden, klikt u op de koppelingen
 ## Verwante:
 
 * [Verbinding maken  [!DNL QuickBooks]](../integrations/quickbooks.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

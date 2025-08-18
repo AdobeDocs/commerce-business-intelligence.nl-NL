@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Raw-gegevens exporteren
 
-Met onbewerkte gegevensexportbewerkingen kunt u records uit uw Data Warehouse exporteren om beter te kunnen zien wat het dashboard van kracht maakt. Ook, kunnen de ruwe gegevensuitvoer u [ helpen gegevensuitwisselingen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html) aanwijzen.
+Met onbewerkte gegevensexportbewerkingen kunt u records uit uw Data Warehouse exporteren om beter te kunnen zien wat het dashboard van kracht maakt. Ook, kunnen de ruwe gegevensuitvoer u [ helpen gegevensuitwisselingen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html?lang=nl-NL) aanwijzen.
 
 De uitvoer van ruwe gegevens verleent toegang tot extra kolommen en dimensies die door de-normalisatie en pre-samenvoeging van relevante metriek worden geproduceerd. `User's first order date` is bijvoorbeeld een dimensie die u voor elke gebruiker in [!DNL Commerce Intelligence] kunt exporteren, terwijl deze wellicht niet beschikbaar is in uw database.
 

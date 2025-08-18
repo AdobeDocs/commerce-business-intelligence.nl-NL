@@ -89,4 +89,4 @@ Gebruikend deze gegevens, kunt u beginnen [ metriek ](../../../data-user/reports
 
 Als u geen geconsolideerde tabel hebt en u maakt een mooi dashboard op de `adwords` -tabel, moet u de rapportage repliceren of dubbele metriek maken om die gegevens te vergelijken met uw [!DNL Facebook Ads] -gegevens. Met behulp van een geconsolideerde tabel kunt u naadloos [!DNL Facebook Ads] -gegevens opnemen in uw bestaande [!DNL Adwords] -rapporten. U kunt ook segmenteren op advertentieplatform.
 
-Als u reeds de gebieden hierboven hebt gesynchroniseerd, [ contacteer ons ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw advertentie uit te breiden.
+Als u reeds de gebieden hierboven hebt gesynchroniseerd, [ contacteer ons ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om uw advertentie uit te breiden.
