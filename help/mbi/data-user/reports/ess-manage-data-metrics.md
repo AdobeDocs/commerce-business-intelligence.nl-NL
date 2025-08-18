@@ -62,9 +62,9 @@ Voor `average order revenue` metrisch, zou u geen testorden willen omvatten die 
 
 In de sectie `Filter Logic` kunt u nader bepalen hoe een metrische waarde zich moet gedragen.
 
-* &quot;\[{0\] of \[`A`\]&quot; staat om het even welke gegevens toe die de filters \[{2\] OF \[`B` \] tevredenstellen`A``B`
-* &quot;\[{0\] en \[`A`\]&quot;staat slechts gegevens toe die zowel filters \ [`B` \] als \ [`A` \] tevredenstellen`B`
-* &quot;(\[{0\] en \[`A`\]) OF \[`B`\]&quot; staat alleen gegevens toe die aan beide filters \[`C`\] en \[`A`\] voldoen, of alleen aan filter \[`B`\] voldoen`C`
+* &quot;\[&lbrace;0\] of \[`A`\]&quot; staat om het even welke gegevens toe die de filters \[&lbrace;2\] OF \[`B` \] tevredenstellen`A` `B`
+* &quot;\[&lbrace;0\] en \[`A`\]&quot;staat slechts gegevens toe die zowel filters \ [`B` \] als \ [`A` \] tevredenstellen`B`
+* &quot;(\[&lbrace;0\] en \[`A`\]) OF \[`B`\]&quot; staat alleen gegevens toe die aan beide filters \[`C`\] en \[`A`\] voldoen, of alleen aan filter \[`B`\] voldoen`C`
 
 ## Afmetingen toevoegen {#dimensions}
 

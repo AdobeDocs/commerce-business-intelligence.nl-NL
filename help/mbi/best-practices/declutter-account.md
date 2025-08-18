@@ -61,7 +61,7 @@ Nadat u toegang hebt tot uw dashboards en rapporten, kunt u beginnen uw rekening
 
 **om een volledig dashboard** te schrappen
 
-1. Selecteer **[!UICONTROL Manage Data]**, dan ** [!UICONTROL Dashboards**].
+1. Selecteer **[!UICONTROL Manage Data]**, dan **&#x200B; [!UICONTROL Dashboards**].
 1. Klik op het dashboard dat u wilt verwijderen.
 1. Klik op **[!UICONTROL Delete Dashboard]**.
 

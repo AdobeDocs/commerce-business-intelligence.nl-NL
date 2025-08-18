@@ -21,7 +21,7 @@ Iets vreemd gevonden in [[!DNL Google Adwords]](../integrations/google-adwords.m
 
 1. Voer uw [!DNL Google Adwords] -accountgegevens in.
 
-1. Nadat uw rekening aan [!DNL Google Adwords] Redacteur wordt toegevoegd, uitgezochte **[!UICONTROL File** > ** Spreadsheet van de Uitvoer (CSV) **> **Gehele Rekening van de Uitvoer]**
+1. Nadat uw rekening aan [!DNL Google Adwords] Redacteur wordt toegevoegd, uitgezochte **[!UICONTROL File** > **&#x200B; Spreadsheet van de Uitvoer (CSV) &#x200B;**> **Gehele Rekening van de Uitvoer]**
 
 Hiermee wordt een `.csv` -bestand gemaakt dat alle informatie bevat die is opgeslagen in uw huidige [!DNL Google Adwords] -account. Op dit punt, leg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor (ben zeker om dit dossier vast te maken!) zodat kunt u een dichtere blik naar uw gegevens nemen. Als het bestand te groot is, deelt u het bestand via [!DNL Commerce Intelligence] of [!DNL Dropbox] met het team van [!DNL Google Drive] .
 

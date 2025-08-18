@@ -36,7 +36,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 * **[!UICONTROL catalog_product_entity]** tabel:
    * **`Product's most recent order date`**
       * [!UICONTROL Column type]: `Many to One`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `MAX`
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
@@ -45,7 +45,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
    * **`Product's first order date`**
       * [!UICONTROL Column type]: `Many to One`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `MIN`
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
@@ -54,13 +54,13 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
    * **`Seconds since product's most recent order date`**
       * [!UICONTROL Column type]: `Same Table`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `AGE`
       * Selecteren [!UICONTROL DATETIME column]: `Product's most recent order date`
 
    * **`Product's lifetime number of items sold`**
       * [!UICONTROL Column type]: `Many to One`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `SUM`
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `qty_ordered`
@@ -69,12 +69,12 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
    * **`Avg products sold per week (all time)`**
       * [!UICONTROL Column type]: `Same Table`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `CALCULATION`
       * [!UICONTROL Column] invoer:
          * A: `Product's lifetime number of items sold`
          * B: `Product's first order date`
-      * 
+      * &#x200B;
         [!UICONTROL Datatype]: `Decimal`
       * Definitie:
          * case when A is null or B is null then null else round(A::decimal/(extract(epoch from (current_timestamp - B))::decimal/604800.0),2) end
@@ -82,40 +82,40 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 * **[!UICONTROL cataloginventory_stock_item]** tabel:
    * **`Sku`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `sku`
 
    * **`Product's lifetime number of items sold`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `Product's lifetime number of items sold`
 
    * **`Seconds since product's most recent order date`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `Seconds since product's most recent order date`
 
    * **`Avg products sold per week (all time)`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `Avg products sold per week (all time)`
 
    * **`Weeks on hand`**
       * [!UICONTROL Column type]: `Same Table`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `CALCULATION`
       * [!UICONTROL Column] invoer:
          * A: `qty`
          * B: `Avg products sold per week (all time)`
-      * 
+      * &#x200B;
         [!UICONTROL Datatype]: `Decimal`
       * Definitie:
          * case als A null of B null is of B = 0,0 en null else round(A::decimal/B,2) end
@@ -126,7 +126,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 * **[!UICONTROL catalog_product_entity]** tabel:
    * **`Product's most recent order date`**
       * [!UICONTROL Column type]: `Many to One`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `MAX`
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
@@ -135,7 +135,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
    * **`Product's first order date`**
       * [!UICONTROL Column type]: `Many to One`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `MIN`
       * [!UICONTROL Path]: `sales_order_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `created_at`
@@ -144,13 +144,13 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
    * **`Seconds since product's most recent order date`**
       * [!UICONTROL Column type]: `Same Table`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `AGE`
       * Selecteer DATETIME-kolom: **`Product's most recent order date`**
 
    * **`Product's lifetime number of items sold`**
       * [!UICONTROL Column type]: `Many to One`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `SUM`
       * [!UICONTROL Path]: **`sales_order_item.product_id => catalog_product_entity.entity_id`**
       * Selecteer een [!UICONTROL column]: **`qty_ordered`**
@@ -163,28 +163,28 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 * **[!UICONTROL cataloginventory_stock_item]** tabel:
    * **`Sku`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `sku`
 
    * **`Product's lifetime number of items sold`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `Product's lifetime number of items sold`
 
    * **`Seconds since product's most recent order date`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `Seconds since product's most recent order date`
 
    * **`Avg products sold per week (all time)`**
       * [!UICONTROL Column type]: `One to Many`
-      * 
+      * &#x200B;
         [!UICONTROL Column equation]: `JOINED_COLUMN`
       * [!UICONTROL Path]: `cataloginventory_stock_item.product_id => catalog_product_entity.entity_id`
       * Selecteer een [!UICONTROL column]: `Avg products sold per week (all time)`
@@ -215,7 +215,7 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
    * [!UICONTROL Group by]:
       * `Sku`
       * `Weeks on hand`
-   * 
+   * &#x200B;
      [!UICONTROL Chart type]: `Table`
 
 * **`Inventory with less than 2 weeks on hand (order now)`**
@@ -225,9 +225,9 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
    * [!UICONTROL Time period]: `All time`
    * Tijdinterval: `None`
-   * 
+   * &#x200B;
      [!UICONTROL Group door]: `Sku`
-   * 
+   * &#x200B;
      [!UICONTROL Chart type]: `Table`
 
 * **`Inventory with more than 26 weeks on hand (put on sale)`**
@@ -237,9 +237,9 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
 
    * [!UICONTROL Time period]: `All time`
    * Tijdinterval: `None`
-   * 
+   * &#x200B;
      [!UICONTROL Group door]: `Sku`
-   * 
+   * &#x200B;
      [!UICONTROL Chart type]: `Table`
 
 Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

@@ -87,7 +87,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 ## Ik probeer opeenvolgende gebeurteniswaarden te vergelijken. {#sequence}
 
-Dit wordt genoemd de opeenvolgende gebeurtenisvergelijking van a ****. Dit betekent dat u probeert de delta tussen een waarde (valuta, aantal, timestamp) en de overeenkomstige waarde voor de vorige gebeurtenis van de eigenaar te vinden.
+Dit wordt genoemd de opeenvolgende gebeurtenisvergelijking van a **&#x200B;**. Dit betekent dat u probeert de delta tussen een waarde (valuta, aantal, timestamp) en de overeenkomstige waarde voor de vorige gebeurtenis van de eigenaar te vinden.
 
 Hier volgt een voorbeeld:
 
@@ -115,7 +115,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 ## Ik probeer de valuta om te zetten. {#currency}
 
-A **berekende de muntomzetting van 0} {zet transactiebedragen van een geregistreerde munt in een rapporteringsmunt om, die op de wisselkoers op de gebeurtenistijd wordt gebaseerd.**
+A **berekende de muntomzetting van 0&rbrace; &lbrace;zet transactiebedragen van een geregistreerde munt in een rapporteringsmunt om, die op de wisselkoers op de gebeurtenistijd wordt gebaseerd.**
 
 Hier volgt een voorbeeld:
 
@@ -137,7 +137,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 ## Ik probeer de tijdzones om te zetten. {#timezone}
 
-De a **berekende kolom van de tijdzoneconversie van 0} {zet timestamps voor een bepaalde gegevensbron van hun geregistreerde timezone in rapporterende timezone om.**
+De a **berekende kolom van de tijdzoneconversie van 0&rbrace; &lbrace;zet timestamps voor een bepaalde gegevensbron van hun geregistreerde timezone in rapporterende timezone om.**
 
 Hier volgt een voorbeeld:
 

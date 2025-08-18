@@ -53,7 +53,7 @@ Bekijk een specifiek voorbeeld van hoe een `Total Revenue` metrisch in [!DNL Com
 | `email NOT LIKE '%@magento.com'` | Metrisch `filter` |
 | `AND created_at < X`<br><br>`AND created_at >= Y` | Metrisch `timestamp` (en rapportering `time range`) |
 
-Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > ** Metriek **te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
+Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > **&#x200B; Metriek &#x200B;** te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
 
 ![ Metrische samenvoeging ](../../assets/Metric_aggregation.png)
 
@@ -75,7 +75,7 @@ De query voor deze aggregatie kan er ongeveer als volgt uitzien:
 
 Voor het instellen van deze instelling in [!DNL Commerce Intelligence] is het gebruik van uw Data Warehouse-manager vereist. Hierbij maakt u een pad tussen uw `orders` - en `customers` -tabel en maakt u vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
 
-Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > ** selecteer een definitie **> **SUM]**.
+Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > **&#x200B; selecteer een definitie &#x200B;**> **SUM]**.
 
 Vervolgens moet u de brontabel selecteren. Als er een pad naar de `orders` -tabel bestaat, selecteert u dit in de vervolgkeuzelijst. Als u echter een nieuw pad maakt, klikt u op **[!UICONTROL Create new path]** en ziet u hieronder het scherm:
 

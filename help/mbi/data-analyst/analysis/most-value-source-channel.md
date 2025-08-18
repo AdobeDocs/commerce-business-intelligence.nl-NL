@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Je hebt je publiek onderzocht, je hebt je campagne gemaakt, je hebt geïnvesteerd in een paar marketingkanalen. Nu er enige tijd voorbij is, hoe presteren die kanalen? Welk kanaal heeft de meest nieuwe gebruikers gebracht? Welke bron heeft het meest aan uw totale opbrengst bijgedragen?
 
-Met [!DNL Adobe Commerce Intelligence] kunt u uw omzet en gebruikers eenvoudig segmenteren via een verwijzingsbron, ongeacht of dit overeenkomt met [!DNL [Google Analytics' UTM fields]](https://support.google.com/analytics/answer/1191184?hl=en) of aangepaste gegevensvelden. Dankzij deze segmentatie kunt u uw best presterende kanalen vinden en uw marketingbudget beter investeren.
+Met [!DNL Adobe Commerce Intelligence] kunt u uw omzet en gebruikers eenvoudig segmenteren via een verwijzingsbron, ongeacht of dit overeenkomt met [[!DNL [Google Analytics' UTM fields]]](https://support.google.com/analytics/answer/1191184?hl=en) of aangepaste gegevensvelden. Dankzij deze segmentatie kunt u uw best presterende kanalen vinden en uw marketingbudget beter investeren.
 
 In dit onderwerp worden enkele rapporten besproken die u kunt gebruiken om uw waardevolle marketingkanalen te ontdekken:
 
