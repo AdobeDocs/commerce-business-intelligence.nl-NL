@@ -10,9 +10,10 @@ feature-set: Commerce Intelligence
 level: Beginner, Intermediate
 topic: Commerce
 index: true
-source-git-commit: c212256ff32e308cb67a84afd3fd86b0f756ae24
+badgePaas: label="Alleen PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="Is alleen van toepassing op Adobe Commerce op Cloud-projecten (door Adobe beheerde PaaS-infrastructuur) en op projecten in het veld."
+source-git-commit: aae7508da07dcf464401a4e5681f76cee20f01c9
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 
 # Metagegevens voor intern gebruik
 
-De `metadata.md` Het bestand bevat metagegevens op repo-niveau die worden doorgegeven aan de gebruikershandleiding `TOC.md` in de revisie. Als u de inhoud metadata.md voor een gebruikersgids wilt wijzigen, doet u dit in om het even welke `TOC.md` bestand.
+Het `metadata.md` -bestand bevat metagegevens op repo-niveau die worden doorgegeven aan `TOC.md` -bestanden in de revisie. Als u de inhoud metadata.md voor een gebruikershandleiding wilt wijzigen, doet u dit in elk `TOC.md` -bestand.
 
 | metagegevens | wat het doet |
 |--- |--- |
