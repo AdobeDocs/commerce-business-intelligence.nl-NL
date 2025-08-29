@@ -1,8 +1,8 @@
 ---
-source-git-commit: f4dbe7367d0aa3d452d1f963d208b503a74cff90
+source-git-commit: 6233779ba2e2a99ed229f8aa97497eb8d9d877f7
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 7%
+source-wordcount: '454'
+ht-degree: 5%
 
 ---
 # Technische documentatie van Adobe Commerce Intelligence
@@ -15,13 +15,13 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 ## Over je bijdragen aan Adobe-inhoud
 
-Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL).
+Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
 
 ### Kleine wijzigingen
 
-Als u minder belangrijke updates bijdraagt, bezoek het artikel en klik het terugkoppelen gebied dat bij de bodem van het artikel verschijnt, klik **Gedetailleerde terugkoppelt opties**, en klik dan **Voorstellen en** uitgeven om naar het prijsonderdrukkingsbrondossier op GitHub te gaan. Gebruik GitHub UI om uw updates te maken. Zie de algemene [ de contributorgids van Adobe Docs ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor meer informatie.
+Als u minder belangrijke updates bijdraagt, bezoek het artikel en klik het terugkoppelen gebied dat bij de bodem van het artikel verschijnt, klik **Gedetailleerde terugkoppelt opties**, en klik dan **Voorstellen en** uitgeven om naar het prijsonderdrukkingsbrondossier op GitHub te gaan. Gebruik GitHub UI om uw updates te maken. Zie de algemene [ de contributorgids van Adobe Docs ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden in dit antwoord aanbrengt, worden behandeld in de gebruiksvoorwaarden van Adobe.
 
@@ -37,7 +37,7 @@ Als u een technisch schrijver, programmamanager, of ontwikkelaar van het product
 
 Communautaire contribuanten kunnen GitHub UI voor basishet uitgeven of vork gebruiken het repo om belangrijke bijdragen te leveren.
 
-Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor details.
+Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor details.
 
 ## Hoe te om prijsdaling te gebruiken om uw onderwerp te formatteren
 
@@ -45,3 +45,31 @@ Alle artikelen in deze repository gebruiken GitHub gearomatiseerde prijsopgave. 
 
 - [ Grondbeginselen van de Prijsverlaging ](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 - [ Afdrukbare prijsdaling ](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+
+## Koppelingen vooraf toewijzen voor optimalisatie van afbeeldingen
+
+Deze opslagplaats omvat geautomatiseerde haken die vooraf worden vastgelegd en die afbeeldingen optimaliseren voordat ze worden vastgelegd. **Alle contribuanten zouden deze haken** moeten toelaten om verenigbare beeldoptimalisering en verminderde bewaarplaatsgrootte te verzekeren.
+
+### Snelle installatie
+
+Nadat u de opslagplaats hebt gekloond, voert u het volgende uit:
+
+```bash
+.githooks/setup-hooks.sh
+```
+
+### Wat de haken doen
+
+- Gelaagde afbeeldingsbestanden automatisch detecteren (PNG, JPG, JPEG, GIF, SVG)
+- `image_optim` uitvoeren om afbeeldingen te comprimeren en te optimaliseren
+- Geoptimaliseerde afbeeldingen automatisch opnieuw plaatsen
+- Zorg ervoor dat alle toegewezen images correct zijn geoptimaliseerd
+
+### Voordelen
+
+- Beperkte grootte opslagplaats
+- Snellere paginabelasting voor documentatie
+- Consistente beeldkwaliteit voor alle contribuanten
+- Geen handmatige optimalisatie vereist
+
+Zie [`.githooks/README.md`](.githooks/README.md) voor gedetailleerde installatie-instructies, probleemoplossing en configuratie.
