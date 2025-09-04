@@ -5,7 +5,7 @@ breadcrumb-title: Overzicht van de handleiding
 seo-title: Commerce Intelligence User Guide
 seo-description: Describes how to use Adobe Commerce Intelligence features used to gain insights from Adobe Commerce or Magento Open Source data, along with other third-party data sources.
 exl-id: f62c7a98-1b4c-4abb-9692-50ce0f3ee1fb
-source-git-commit: c7f6bacd49487cd13c4347fe6dd46d6a10613942
+source-git-commit: 6bf06de729b5cec3a93797cd86b33ae0129f05ab
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 2%
@@ -39,23 +39,25 @@ Naast de bovenstaande op rol-gebaseerde workflows bevat deze handleiding ook:
 
 ## Hoe krijg je hulp?
 
-Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) als u vragen hebt en uit sommige van uw Professionele Diensten willen voordeel halen of als u problemen met uw rekening ontmoet.
+Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u vragen hebt en uit sommige van uw Professionele Diensten willen voordeel halen of als u problemen met uw rekening ontmoet.
 
 ### Servicebeleid
 
-Zie a [ lijst waarvan de diensten die het team van de klantensteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) verleent.
+Zie a [ lijst waarvan de diensten die het team van de klantensteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) verleent.
 
 ### Een ondersteuningsticket indienen
 
-Hebt u hulp nodig bij het bouwen van een geavanceerd berekend kolom? Is er een fout of verbindingsprobleem opgetreden? Mocht u in contact met het steunteam moeten krijgen, vraagt Adobe dat u de [ richtlijnen van het steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) gebruikt. In deze richtsnoeren wordt beschreven welke informatie Adobe nodig heeft om het probleem op te lossen.
+Hebt u hulp nodig bij het bouwen van een geavanceerd berekend kolom? Is er een fout of verbindingsprobleem opgetreden? Mocht u in contact met het steunteam moeten krijgen, vraagt Adobe dat u de [ richtlijnen van het steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) gebruikt. In deze richtsnoeren wordt beschreven welke informatie Adobe nodig heeft om het probleem op te lossen.
 
 ## Beschikbare documentatie
 
 | Documentatiebron | Beschrijving |
 |----------------------- | ----------- |
-| [ Adobe Commerce 2.4 de Documentatie van de Merchant ](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=nl-NL) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
-| [ de Diensten voor de Documentatie van Adobe Commerce ](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html?lang=nl-NL) | Documentatie om een inzameling van de diensten te steunen die handelaren helpen zeer belangrijke componenten van hun zaken met hun opslag integreren. |
-| [ Adobe Commerce 2.4 Operationele Gidsen ](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html?lang=nl-NL) | Documentatie van systemen over de concepten, processen, hulpmiddelen, en beste praktijken om projecten te ontwikkelen, op te stellen en te handhaven die op Adobe Commerce en de platforms van Magento Open Source worden opgesteld. |
+| [ Adobe Commerce 2.4 de Documentatie van de Merchant ](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) | Bedrijfsgerichte documentatie voor zowel Adobe Commerce als Magento Open Source |
+| [ de Diensten voor de Documentatie van Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce/user-guides/home) | Documentatie om een inzameling van de diensten te steunen die handelaren helpen zeer belangrijke componenten van hun zaken met hun opslag integreren. |
+| [ Adobe Commerce 2.4 Operationele Gidsen ](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-guides/home) | Documentatie van systemen over de concepten, processen, hulpmiddelen, en beste praktijken om projecten te ontwikkelen, op te stellen en te handhaven die op Adobe Commerce en de platforms van Magento Open Source worden opgesteld. |
 | [ Adobe Commerce 2.4 Documentatie van de Ontwikkelaar ](https://developer.adobe.com/commerce/) | Documentatie gericht op ontwikkelaars die wordt gebruikt om Adobe Commerce of Magento Open Source te bouwen en aan te passen |
 
-{style="table-layout:auto"}
+{{$include /help/_includes/templated/whats-new.md}}
+
+<!-- Last updated from includes: 2025-09-03 15:37:01 -->
