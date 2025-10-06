@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met [!DNL SQL Report Builder] kunt u query&#39;s uitvoeren en wijzigen wanneer u dat wilt. Dit vermogen is nuttig als u een vraag onmiddellijk moet bijwerken, in plaats van het wachten op een updatecyclus om te beëindigen alvorens een kolom of een rapport te bevestigen.
 
-Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [&#x200B; Data Warehouse &#x200B;](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
+Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=nl-NL). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [&#x200B; Data Warehouse &#x200B;](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 

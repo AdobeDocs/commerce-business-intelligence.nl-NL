@@ -65,4 +65,4 @@ Als de verbinding succesvol is, a _Succes!_ wordt boven aan de pagina weergegeve
 ### Verwante
 
 * [Verwachte  [!DNL Mixpanel]  gegevens](../integrations/mixpanel-data.md)
-* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

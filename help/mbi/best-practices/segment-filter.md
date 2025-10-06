@@ -71,7 +71,7 @@ Dit soort analyse doen marketeers van Fortune 1000 bedrijven de hele dag. Voor d
 
 De eerste stap om uw metriek door de bovengenoemde afmetingen te segmenteren is ervoor te zorgen dat u deze gegevens in uw gegevensbestand volgt. Als de gegevens niet worden bijgehouden, neemt u contact op met uw technische team en zoekt u een manier om deze gegevens te volgen.
 
-Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [&#x200B; contacteer het steunteam &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
+Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [&#x200B; contacteer het steunteam &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
 
 ## Verwante
 

@@ -36,4 +36,4 @@ Door de [!DNL Salesforce] -gegevens aan te sluiten, beschikt u over een reeks an
 Als u een weinig meer technologie-savvy bent, kan de [[!DNL Salesforce]  API Documentatie &#x200B;](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) een nuttig middel zijn om meer over te leren hoe Salesforce met [!DNL Commerce Intelligence] wordt geïntegreerd.
 
 * [Verwachte  [!DNL Salesforce]  gegevens](../integrations/salesforce-data.md)
-* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

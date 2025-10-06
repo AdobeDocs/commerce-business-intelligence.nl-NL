@@ -54,4 +54,4 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 ## Verwante:
 
 * [Verwachte  [!DNL Zendesk]  gegevens](../integrations/exp-zendesk-data.md)
-* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

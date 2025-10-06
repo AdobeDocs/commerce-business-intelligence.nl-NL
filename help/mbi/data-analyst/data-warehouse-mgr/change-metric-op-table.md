@@ -25,6 +25,6 @@ In bepaalde gevallen, kunt u besluiten om de gegevenslijst te veranderen die met
 
    ![&#x200B; de selectiedrop-down van de Lijst die beschikbare lijsten &#x200B;](../../assets/change-metrics-2.png) tonen
 
-1. Als u geen passende kolom in de nieuwe lijst hebt, kunt u of **tot het in uw gegevenslijst** of [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) leiden als het een berekeningskolom of dimensie is die door [!DNL Commerce Intelligence] wordt gemaakt. U kunt ook **de afmeting van metrisch** schrappen. Als u een dimensie wilt verwijderen die u niet meer nodig hebt, gaat u gewoon terug naar de metrische editor en selecteert u de afmetingen die u onder `Dimensions` wilt verwijderen.
+1. Als u geen passende kolom in de nieuwe lijst hebt, kunt u of **tot het in uw gegevenslijst** of [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) leiden als het een berekeningskolom of dimensie is die door [!DNL Commerce Intelligence] wordt gemaakt. U kunt ook **de afmeting van metrisch** schrappen. Als u een dimensie wilt verwijderen die u niet meer nodig hebt, gaat u gewoon terug naar de metrische editor en selecteert u de afmetingen die u onder `Dimensions` wilt verwijderen.
 
    ![&#x200B; Operationele dropdown menu van de kolomselectie &#x200B;](../../assets/change-metrics-3.png)

@@ -35,7 +35,7 @@ Met de [!DNL Google Analytics Live] -integratie aan de andere kant is elke [!DNL
 
 >[!INFO]
 >
->[!DNL Google Analytics Warehoused] is een `Premium` Integratie. [&#x200B; de steun van het Contact &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u een belang in het toevoegen van deze integratie aan uw abonnement hebt.
+>[!DNL Google Analytics Warehoused] is een `Premium` Integratie. [&#x200B; de steun van het Contact &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) als u een belang in het toevoegen van deze integratie aan uw abonnement hebt.
 
 1. Ga naar de pagina `Connections` onder **[!UICONTROL Admin** > **Integrations]** .
 1. Klik op **[!UICONTROL Add an Integration]** aan de rechterkant.
@@ -63,7 +63,7 @@ De profiel-id [!DNL Google Analytics] van een bepaalde website identificeren:
 
 ## Gerelateerde documentatie
 
-* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
 * [Verbinding maken  [!DNL Google Adwords]](../integrations/google-adwords.md)
 * [Websiteactiviteiten en conversietarieven van klanten analyseren](../../analysis/web-act-cust-conversion.md)
 * [De gegevens van de gebruikersverwerving van het spoor gebruikend  [!DNL Google Analytics]  koekjes](../../analysis/google-track-user-acq.md)

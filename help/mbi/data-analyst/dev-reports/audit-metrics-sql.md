@@ -48,4 +48,4 @@ U kunt ook aangepaste query&#39;s schrijven en de resultaten exporteren die u wi
 
 >[!NOTE]
 >
->Als u een discrepantie na het controleren van uw gegevens vindt, bekijk [&#x200B; Contact Steun: De discrepanties van gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html) steunonderwerp voor meer informatie over wat te doen daarna.
+>Als u een discrepantie na het controleren van uw gegevens vindt, bekijk [&#x200B; Contact Steun: De discrepanties van gegevens &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=nl-NL) steunonderwerp voor meer informatie over wat te doen daarna.

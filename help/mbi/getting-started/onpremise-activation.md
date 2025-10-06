@@ -23,7 +23,7 @@ Neem contact op met uw Adobe-accountteam of technische adviseur van de klant om 
 
 Nadat uw account is gemaakt, controleert u uw e-mail op een e-mail met accountmeldingen vanuit [!DNL The Magento BI Team@rjmetrics.com] . Gebruik de koppeling in de e-mail om toegang te krijgen tot uw [!DNL Commerce Intelligence] -account en uw wachtwoord te maken. Ga naar je postvak IN en verifieer je e-mailadres.
 
-Als u geen e-mail ontving, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u geen e-mail ontving, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
 
 ![&#x200B; creeer wachtwoordscherm voor nieuwe rekening van Commerce Intelligence &#x200B;](../assets/create-account-4.png)
 
@@ -170,7 +170,7 @@ Nadat u de configuratie voltooit, [&#x200B; teken binnen &#x200B;](../getting-st
 
 <!---# Activate your [!DNL Commerce Intelligence] Account
 
-To activate [!DNL Commerce Intelligence] for on-premise or `Cloud Pro` subscriptions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+To activate [!DNL Commerce Intelligence] for on-premise or `Cloud Pro` subscriptions, [contact support](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
 
 >[!NOTE]
 >

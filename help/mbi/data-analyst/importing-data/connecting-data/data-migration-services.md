@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevensmigratie
 
-Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Het [[!DNL Adobe]  team van de Diensten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt migratiehulp aan.
+Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Het [[!DNL Adobe]  team van de Diensten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) biedt migratiehulp aan.
 
 Om ervoor te zorgen dat de overgang zo soepel mogelijk verloopt, dient u uw migratieverzoek zo gedetailleerd mogelijk in te dienen. Dit onderwerp heeft alles dat u een verzoek moet voorleggen en op de migratie begonnen worden. Als u ons een volledig beeld geeft van uw behoeften, bent u er zeker van dat uw project binnen de juiste reikwijdte valt en dat de schatting correct is.
 
@@ -67,7 +67,7 @@ Hier volgt een voorbeeld:
 
 ## Hoe dien ik een verzoek in? {#submitreq}
 
-U kunt uit naar ons bereiken door [&#x200B; een steunverzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor te leggen.
+U kunt uit naar ons bereiken door [&#x200B; een steunverzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor te leggen.
 
 Als u de stappen in de vorige sectie hebt uitgevoerd voor het maken van de overeenkomende kolomspreadsheet, vergeet dan niet deze als bijlage toe te voegen.
 

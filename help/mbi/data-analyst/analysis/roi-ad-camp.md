@@ -99,7 +99,7 @@ Gebruikt u productspecifieke advertenties? Als dat het geval is, kunt u de ROI o
 >
 >In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door ervan uit te gaan dat alle kosten werden besteed aan het genereren van aankopen, maakt het resulterende rendement van investeringen het worstcasescenario (hoogste kosten per aankoop). U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die 10 nieuwe gebruikers en 10 aankopen genereerde, zijn uw werkelijke kosten per aankoop $1. Onder de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.
 
-Alvorens u begint, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
+Alvorens u begint, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
 
 * De bron van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de bron van de gebruiker aansluit)
 * De campagne van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich aansluit bij gebruikerscampagne)
