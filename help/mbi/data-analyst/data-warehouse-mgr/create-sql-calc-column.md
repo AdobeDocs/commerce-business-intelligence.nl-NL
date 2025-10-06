@@ -4,9 +4,9 @@ description: Leer hoe de geavanceerde kolommen in de vorm van SQL de kolommen va
 exl-id: f16e4ee4-ed73-4ddb-b701-1fe3db14346a
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, SQL Report Builder, Commerce Tables
-source-git-commit: 8090c2e0f17f0e8d3bdec668ce546206bf024691
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ De verschillende kolommen die met de kolom `Calculation` kunnen worden gecreeerd
 
 De meeste accounts hebben een kolom met de naam `Is customer's last order?` in hun `orders` -tabel om analyses uit te voeren op herhaalde aankoopsnelheden en gekochte klanten. Als uw account zich op de nieuwe architectuur bevindt, wordt deze kolom gemaakt met een `Calculation` -kolom. Deze kolom kan worden weergegeven in de onderstaande schermafbeelding:
 
-![](../../assets/Is_customer_s_last_order.png)
+![ SQL berekende kolomdefinitie voor het identificeren van de laatste orde van de klant ](../../assets/Is_customer_s_last_order.png)
 
 De kolom `Is customer's last order?` gebruikt de invoer `Customer's lifetime number of orders` en `Customer's order number` als `A` respectievelijk `B` alias.
 
@@ -47,7 +47,7 @@ Veel clients analyseren de omzet graag op itemniveau en segmenteren deze op veld
 
 Voor het analyseren van productinkomsten staat in de meeste accounts een kolom met de naam `Order item total value (quantity * price)` in de tabel `Orders Items` . Als uw account zich op de nieuwe architectuur bevindt, wordt deze kolom ook gebouwd met een `Calculation` -kolom. Deze kolom is zichtbaar in de onderstaande schermafbeelding:
 
-![](../../assets/Order_item_total_value.png)
+![ SQL berekende kolomdefinitie voor de totale waarde van het orde punt ](../../assets/Order_item_total_value.png)
 
 In het Commerce-schema gebruikt de kolom `Order item total value (quantity * price)` de invoer `qty ordered` en `base price` alias als `A` respectievelijk `B` .
 
@@ -57,7 +57,7 @@ De waarden die door deze nieuwe kolom worden geretourneerd, zijn in dollars en c
 
 Een nieuwe kolom `Calculation` kan aan een lijst worden toegevoegd door aan **[!DNL Manage Data > Data Warehouse]** te navigeren zoals hieronder getoond:
 
-![](../../assets/blobid2.png)
+![ mening die van de Lijst berekende kolomresultaten tonen ](../../assets/blobid2.png)
 
 Van hieruit kunt u een kolom `Calculation` maken door de onderstaande stappen te volgen:
 

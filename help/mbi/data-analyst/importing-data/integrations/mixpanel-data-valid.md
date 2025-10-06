@@ -4,9 +4,9 @@ description: Leer hoe u kunt bevestigen dat u alle gegevens hebt gesynchroniseer
 exl-id: d18ce954-26fe-4440-ad8b-4f266c007b2f
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ Wanneer [!DNL Adobe Commerce Intelligence] voor het eerst verbinding maakt met u
 
 1. Ga naar de `Segmentation` -sectie en bekijk `Your Top Events` .
 
-   ![](../../../assets/your-top-events.png)
+   ![ Mixpanel dashboard die uw hoogste gebeurtenissen tonen ](../../../assets/your-top-events.png)
 
 1. `Past 96 Hours` selecteren voor het tijdbereik
 
-   ![](../../../assets/past-96-hours.png)
+   ![ de bereikselecteur van de het tijdwaaier van het Mixpanel die voorbij 96 uuroptie toont ](../../../assets/past-96-hours.png)
 
 1. Blader naar het gedeelte rechtsonder in het rapport en exporteer een `.csv` -bestand:
 
-   ![](../../../assets/export-csv-mixpanel.png)
+   ![ de uitvoer van het Mixpanel naar optie CSV in menu ](../../../assets/export-csv-mixpanel.png)
 
 1. Verzend het `.csv` -bestand naar de accountmanager of analist waarmee u werkt aan dit validatieproces.

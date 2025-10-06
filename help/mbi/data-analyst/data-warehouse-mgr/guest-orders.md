@@ -4,9 +4,9 @@ description: Leer over de gevolgen gastorden op uw gegevens hebben en welke opti
 exl-id: cd5120ca-454c-4cf4-acb4-3aebe06cdc9a
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In de standaard commerciële database is er een `orders` -tabel die zich bij een
 
 * **als alle klanten** worden geregistreerd en gastorden niet worden toegestaan, betekent dit dat elk verslag in de `orders` lijst een waarde in de `customer\_id` kolom heeft. Hierdoor wordt elke volgorde weer gekoppeld aan de tabel `customers` .
 
-  ![](../../assets/guest-orders-4.png)
+  ![ de lijst van de Orden van de Gast die klanteninformatie ](../../assets/guest-orders-4.png) tonen
 
 * **als de gastorden** worden toegestaan, betekent dit dat sommige orden geen waarde in de `customer\_id` kolom hebben. Alleen geregistreerde klanten krijgen een waarde voor de kolom `customer\_id` in de tabel `orders` . Klanten die niet zijn geregistreerd, ontvangen een `NULL` (of lege) waarde voor deze kolom. Hierdoor hebben niet alle orderrecords overeenkomende records in de tabel `customers` .
 
@@ -39,7 +39,7 @@ De meest optimale manier om voor gastorden rekening te houden is alle klant-vlak
 
 Het kan zijn dat het filter `Customers we count` dat in dit type instelling is ingesteld, een filter heeft voor `Customer's order number = 1` .
 
-![](../../assets/guest-orders-filter-set.png)
+![ de vastgestelde configuratie van de Filter voor het uitsluiten van gastorden ](../../assets/guest-orders-filter-set.png)
 
 In een situatie zonder gastorden, bestaat elke klant als unieke rij in de klantenlijst (zie Beeld 1). Een metrische waarde zoals `New customers` kan eenvoudig de id van deze tabel tellen op basis van `created\_at` -datum om te begrijpen dat nieuwe klanten op basis van de registratiedatum worden benaderd.
 

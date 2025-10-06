@@ -4,9 +4,9 @@ description: Leer hoe u kolommen maakt om uw gegevens te vergroten en te optimal
 exl-id: 1af79b9e-77ff-4fc6-917a-4e6743b95035
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Een pagina berekende kolom keert het aantal seconden tussen de huidige tijd en w
 
 In het onderstaande voorbeeld wordt `Seconds since customer's most recent order` in de tabel `customers` gemaakt. Hiermee kunt u gebruikerslijsten samenstellen van klanten die binnen `X days` geen aankopen hebben gedaan (dit wordt ook wel churning genoemd).
 
-![](../../assets/age.gif)
+![ Geanimeerde demonstratie van het creëren van de kolom van de leeftijdsberekening ](../../assets/age.gif)
 
 ### Valuta-converter
 
@@ -47,7 +47,7 @@ In het onderstaande voorbeeld wordt `base\_grand\_total In AED` gemaakt en wordt
 
 Voor Commerce-clients worden in het veld `base\_currency\_code` gewoonlijk native valuta&#39;s opgeslagen. Het veld `Spot Time` moet overeenkomen met de datum die wordt gebruikt in de metriek.
 
-![](../../assets/currency_converter.png)
+![ de omzetter van de Valuta berekende kolomconfiguratie ](../../assets/currency_converter.png)
 
 ## Een-op-veel berekende kolommen {#onetomany}
 
@@ -59,7 +59,7 @@ Een aangesloten bij kolom verplaatst een attribuut op één lijst *aan* de vele 
 
 In het onderstaande voorbeeld wordt de `Customer's group\_id` -dimensie samengevoegd tot de `orders` -tabel.
 
-![](../../assets/joined_column.gif)
+![ Geanimeerde demonstratie van het creëren van aangesloten kolom die lijsten verbinden ](../../assets/joined_column.gif)
 
 ## Vele-aan-één berekende kolommen {#manytoone}
 
@@ -71,7 +71,7 @@ Dit type van berekende kolom keert de telling van waarden op de vele lijst *op* 
 
 In het onderstaande voorbeeld wordt de dimensie `Customer's lifetime number of canceled orders` gemaakt in de `customers` -tabel (met een filter voor `orders.status` ).
 
-![](../../assets/many_to_one.gif){: width="699" height="351"}
+![ Geanimeerde demonstratie van veel-aan-één kolomsamenvoeging ](../../assets/many_to_one.gif){: width="699" height="351"}
 
 ### Som {#sum}
 
@@ -95,7 +95,7 @@ Dit soort dimensie kan bijvoorbeeld bepalen of een klant ooit een bepaald produc
 
 Als u moeite hebt zich te herinneren wat alle input wanneer het creëren van een berekende kolom zijn, houd deze verwijzingskaart handig wanneer u bouwt:
 
-![](../../assets/merged_reference_map.png)
+![ kaart die van de Verwijzing samengevoegde berekende kolomconfiguratie tonen ](../../assets/merged_reference_map.png)
 
 ## Geavanceerde berekende kolommen {#advanced}
 

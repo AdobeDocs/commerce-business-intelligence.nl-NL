@@ -4,9 +4,9 @@ description: Leer hoe u kunt analyseren hoe gebruikers door uw websites en apps 
 exl-id: e6a9f08f-1063-4d92-93e6-971280239fdb
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/Mixpanel_logo.png)
+![ embleem van het Mixpanel ](../../../assets/Mixpanel_logo.png)
 
 Met [!DNL Mixpanel] kunt u analyseren hoe gebruikers door uw websites en apps navigeren en deze gebruiken. Als u goed kijkt naar gegevens over gebruikersgedrag, leidt dit tot slimmere beslissingen over ontwerp en ontwikkeling, wat over het algemeen een beter product betekent. Door [!DNL Mixpanel] aan [!DNL Commerce Intelligence] te verbinden, kunt u analyseren hoe uw gebruikers zich gedragen en hoe dat gedrag omzet oplevert.
 
@@ -65,4 +65,4 @@ Als de verbinding succesvol is, a _Succes!_ wordt boven aan de pagina weergegeve
 ### Verwante
 
 * [Verwachte  [!DNL Mixpanel]  gegevens](../integrations/mixpanel-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

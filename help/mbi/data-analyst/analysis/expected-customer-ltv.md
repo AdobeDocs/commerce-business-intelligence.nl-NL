@@ -4,9 +4,9 @@ description: Leer hoe u een dashboard instelt waarmee u inzicht krijgt in de gro
 exl-id: e353b92a-ff3b-466b-b519-4f86d054c0bc
 role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit onderwerp toont aan hoe te opstelling een dashboard dat u helpt de de waardegroei van het klantenleven en verwachte levenwaarde van uw klanten begrijpen.
 
-![](../../assets/exp-lifetim-value-anyalysis.png)
+![ Verwachte dashboard van de de levenwaardeanalyse die van de klantenwaarde projecties ](../../assets/exp-lifetim-value-anyalysis.png) tonen
 
 Deze analyse is alleen beschikbaar voor klanten met een Pro-account op de nieuwe architectuur. Als uw account toegang heeft tot de functie `Persistent Views` onder de zijbalk van `Manage Data` , bevindt u zich op de nieuwe architectuur en kunt u de onderstaande instructies volgen om deze analyse zelf te maken.
 
@@ -23,23 +23,23 @@ Alvorens begonnen te worden, wilt u met de [ bouwer van het cohortrapport vertro
 
 ## Berekende kolommen
 
-Kolommen om op de **orden** lijst tot stand te brengen &lbrace;als het gebruiken van **30 dagmaanden**:
+Kolommen om op de **orden** lijst tot stand te brengen {als het gebruiken van **30 dagmaanden**:
 
 * [!UICONTROL Column name]: `Months between first order and this order`
 * [!UICONTROL Column type]: `Same Table`
-* &#x200B;
+* 
   [!UICONTROL Column equation]: `CALCULATION`
 * [!UICONTROL Column input]: A = `Seconds between customer's first order date and this order`
-* &#x200B;
+* 
   [!UICONTROL Datatype]: `Integer`
 * **Definitie:**`case when A is null then null when A <= 0 then '1'::int else (ceil(A)/2629800)::int end`
 
 * [!UICONTROL Column name]: `Months since order`
 * [!UICONTROL Column type]: `Same Table`
-* &#x200B;
+* 
   [!UICONTROL Column equation]: `CALCULATION`
 * [!UICONTROL Column input]: A = `created_at`
-* &#x200B;
+* 
   [!UICONTROL Datatype]: `Integer`
 * Definitie: `case when created_at is null then null else (ceil((extract(epoch from current_timestamp) - extract(epoch from created_at))/2629800))::int end`
 
@@ -47,31 +47,31 @@ Kolommen om op de **`orders`** lijst te creëren als het gebruiken van **kalende
 
 * [!UICONTROL Column name]: `Calendar months between first order and this order`
 * [!UICONTROL Column type]: `Same Table`
-* &#x200B;
+* 
   [!UICONTROL Column equation]: `CALCULATION`
 * [!UICONTROL Column inputs]:
    * `A` = `created_at`
    * `B` = `Customer's first order date`
 
-* &#x200B;
+* 
   [!UICONTROL Datatype]: `Integer`
 * Definitie: `case when (A::date is null) or (B::date is null) then null else ((date_part('year',A::date) - date_part('year',B::date))*12 + date_part('month',A::date) - date_part('month',B::date))::int end`
 
 * [!UICONTROL Column name]: `Calendar months since order`
 * [!UICONTROL Column type]: `Same Table`
-* &#x200B;
+* 
   [!UICONTROL Column equation]: `CALCULATION`
 * [!UICONTROL Column input]: `A` = `created_at`
-* &#x200B;
+* 
   [!UICONTROL Datatype]: `Integer`
 * **Definitie:**`case when A is null then null else ((date_part('year',current_timestamp::date) - date_part('year',A::date))*12 + date_part('month',current_timestamp::date) - date_part('month',A::date))::int end`
 
 * [!UICONTROL Column name]: `Is in current month? (Yes/No)`
 * [!UICONTROL Column type]: `Same Table`
-* &#x200B;
+* 
   [!UICONTROL Column equation]: `CALCULATION`
 * [!UICONTROL Column input]: A = `created_at`
-* &#x200B;
+* 
   [!UICONTROL Datatype]: `String`
 * Definitie: `case when A is null then null when (date_trunc('month', current_timestamp::date))::varchar = (date_trunc('month', A::date))::varchar then 'Yes' else 'No' end`
 
@@ -103,7 +103,7 @@ Te maken statistieken
    * `Calendar months between first order and this order` `<= X` (Kies een redelijk getal voor X, bijvoorbeeld 24 maanden)
    * `Is in current month?` = `No`
 
-* &#x200B;
+* 
   [!UICONTROL Metric]: `Revenue`
 * [!UICONTROL Filter]:
 
@@ -122,7 +122,7 @@ Te maken statistieken
 
 * [!UICONTROL Formula]: `Expected revenue`
 * [!UICONTROL Formula]: `A / (B - C)`
-* &#x200B;
+* 
   [!UICONTROL Format]: `Currency`
 
 Overige diagramdetails
@@ -139,7 +139,7 @@ Overige diagramdetails
 **Gem opbrengst per maand door cohort**
 
 * Metrisch `A`: `Revenue`
-* &#x200B;
+* 
   [!UICONTROL Metric view]: `Cohort`
 * [!UICONTROL Cohort date]: `Customer's first order date`
 * [!UICONTROL Perspective]: `Average value per cohort member`
@@ -147,11 +147,11 @@ Overige diagramdetails
 **Cumulatieve inkomsten avg per maand door cohort**
 
 * Metrisch `A`: `Revenue`
-* &#x200B;
+* 
   [!UICONTROL Metric view]: `Cohort`
 * [!UICONTROL Cohort date]: `Customer's first order date`
 * [!UICONTROL Perspective]: `Cumulative average value per cohort member`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan de pagina.
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

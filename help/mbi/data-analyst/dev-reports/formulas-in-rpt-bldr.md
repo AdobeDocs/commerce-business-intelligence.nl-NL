@@ -4,9 +4,9 @@ description: Leer hoe formules kunnen worden gebruikt in de Report Builder.
 exl-id: 7a0ad07a-5bcc-474f-95bc-ccc2b74073b2
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ In [`Report Builder`](../../tutorials/using-visual-report-builder.md), kunt u kr
 
 In de `Report Builder` is een `formula` alleen een combinatie van een of meer meetgegevens op basis van een wiskundige logica. Een typisch voorbeeld ziet er als volgt uit:
 
-![](../../assets/formula-example.png)
+![ het voorbeeld van de Formule die berekening in Report Builder ](../../assets/formula-example.png) tonen
 
 In dit voorbeeld gebruikt u een `Number of orders metric (A)` en een `Distinct buyers metric (B)` . Het doel is om de vraag te beantwoorden: wat is het gemiddelde aantal bestellingen dat mijn kopers elke maand maken? De parameters van de formule zijn:
 
@@ -65,4 +65,4 @@ In dit voorbeeld hebt u het perspectief `Stacked Columns` gebruikt om de resulta
 
 Hebt u in de bovenstaande voorbeelden gemerkt dat de formules `timestamp` , `groupings` , `perspectives` en `filters` worden overgeërfd van de invoermeetgegevens? Houd in mening dat de formules kunnen worden gebruikt om `perspectives` en [ onafhankelijke tijdopties ](../../tutorials/time-options-visual-rpt-bldr.md){: target="_blank"} te gebruiken, enkel als metriek kan.
 
-Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

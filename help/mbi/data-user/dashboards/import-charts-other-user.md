@@ -4,9 +4,9 @@ description: Leer hoe u een grafiek kunt bewerken die eigendom is van een andere
 exl-id: defcb72d-6027-4ae7-b974-e2f39773fe32
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Zoek eerst het diagram dat u van de andere gebruiker wilt kopiëren. Alle dashbo
 
 ## Het diagram klonen
 
-Kies in het gedeelde dashboard het diagram dat u naar uw eigen account wilt kopiëren. Klik op het tandwielpictogram (![](../../assets/gear-icon.png)) en klik vervolgens op **[!UICONTROL Save As]** .
+Kies in het gedeelde dashboard het diagram dat u naar uw eigen account wilt kopiëren. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) en klik dan **[!UICONTROL Save As]**.
 
 U wordt gevraagd een naam aan uw exemplaar van het diagram te geven en deze aan een van uw bestaande dashboards toe te voegen. Als u geen dashboard selecteert, wordt het toegevoegd aan uw lijst van bestaande grafieken en u kunt het [ later ](../../data-user/dashboards/add-charts-dashboard.md) toevoegen.
 

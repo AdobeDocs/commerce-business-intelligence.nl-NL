@@ -4,9 +4,9 @@ description: Leer om campagne ROI te meten door uw reclamekosten en de waarde va
 exl-id: db99f817-2a2e-4194-9dd2-ec2d6b27a118
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/Google_Adwords_logo.png)
+![ het embleem van Google AdWords ](../../../assets/Google_Adwords_logo.png)
 
 Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je [!DNL Google] campagne gestart. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [ van gebruikers te bedienen die van uw campagnes worden verworven.](../../analysis/roi-ad-camp.md)
 
@@ -29,7 +29,7 @@ Ga aan de slag door uw [!DNL Google Adwords] -gegevens in te voeren in [!DNL Com
 1. Voer uw [!DNL Google Analytics] referenties in. Nadat het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence] .
 1. Een lijst met profiel-id&#39;s. Controleer de profielen waarmee u verbinding wilt maken [!DNL Commerce Intelligence] .
 
-   ![](../../../assets/cnnct-profile.png)
+   ![ de verbindingsdialoog van Google AdWords die profielselectie toont ](../../../assets/cnnct-profile.png)
 
 1. Wijzigingen worden automatisch opgeslagen. Klik dus op **[!UICONTROL Back to Connections]** als u klaar bent.
 
@@ -55,7 +55,7 @@ Er kunnen meerdere websites verbonden zijn met één [!DNL Google Analytics] -ac
 
 ## Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Bron voor verwijzing van de orde van het spoor via  [!DNL Google ECommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)

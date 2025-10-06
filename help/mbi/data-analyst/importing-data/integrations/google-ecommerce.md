@@ -4,9 +4,9 @@ description: Meer informatie over uw meest gewaardeerde verwijzingskanalen.
 exl-id: c80f52f3-894a-4084-8c0e-aee618ed77f5
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/google-ecommerce-logo.png)
+![ het embleem van de eCommerce van Google ](../../../assets/google-ecommerce-logo.png)
 
 U hebt gestage stroom van verkeer en orden, wat betekent u effectief bereikend en klanten verwerft. Maar wat zijn uw meest waardevolle verwijzingskanalen? Wat is de gemiddelde levenwaarde van klanten die van één bron tegenover een andere worden verworven? Door uw van de ordeverwijzing bron gegevens van [!DNL Google ECommerce] aan [!DNL Commerce Intelligence] aan te sluiten, kunt u analyses bouwen die u helpen uw [ waardevolste marketing kanalen ](../../../data-analyst/analysis/most-value-source-channel.md) identificeren.
 
@@ -35,7 +35,7 @@ Ga aan de slag door uw [!DNL Google ECommerce] -gegevens in te voeren in [!DNL C
 
    Als u meerdere profielen hebt en hulp nodig hebt bij het identificeren van welke profielen, raadpleegt u de sectie **Meerdere profielen verbinden [!DNL Google Analytics] hieronder.
 
-   ![](../../../assets/conn-mult-ga-profiles.png)<!--{: width="500"}-->
+   ![ Vorm die opties toont om veelvoudige profielen van Google Analytics te verbinden ](../../../assets/conn-mult-ga-profiles.png)<!--{: width="500"}-->
 
 1. Wijzigingen worden automatisch opgeslagen. Klik dus op **[!UICONTROL Back to Connections]** als u klaar bent.
 
@@ -60,7 +60,7 @@ De profiel-id [!DNL Google Analytics] van een bepaalde website identificeren:
 ## Verwante:
 
 * [Verwachte  [!DNL Google ECommerce]  gegevens](../integrations/google-ecommerce-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [ Vestiging  [!DNL Google ECommerce]  het volgen ](https://support.google.com/analytics/answer/1009612?hl=en)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)
 * [ROI verhogen in uw reclamecampagnes](../../analysis/roi-ad-camp.md)

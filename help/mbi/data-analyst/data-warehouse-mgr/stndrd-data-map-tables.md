@@ -4,9 +4,9 @@ description: Leer hoe u met toewijzingstabellen werkt.
 exl-id: e452ff87-f298-43d5-acc3-af58e53bd0bc
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Stel dat u een `Report Builder` -rapport maakt in `Revenue by State` . Alles gaat goed totdat u een `billing state` -groep aan uw rapport probeert toe te voegen en u dit ziet:
 
-![](../../assets/Messy_State_Segments.png)
+![ Grafiek die messy staatssegmenten met inconsistente het noemen ](../../assets/Messy_State_Segments.png) toont
 
 ## Hoe kan dit gebeuren?
 
@@ -43,9 +43,9 @@ Om een mappinglijst te maken, moet u een twee-kolom spreadsheet tot stand brenge
 
 In de eerste kolom, ga de waarden in die in uw gegevensbestand met **worden opgeslagen slechts één waarde in elke rij**. `pa` en `PA` kunnen bijvoorbeeld niet op dezelfde regel staan. Elke invoer moet een eigen rij hebben. Zie hieronder voor een voorbeeld.
 
-In de tweede kolom, ga in wat deze waarden **&#x200B;**&#x200B;zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
+In de tweede kolom, ga in wat deze waarden **** zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
 
-![](../../assets/Mapping_table_examples.jpg)
+![ de afbeeldingslijst van het Voorbeeld die originele waarden en gestandaardiseerde waarden tonen ](../../assets/Mapping_table_examples.jpg)
 
 ## Wat moet ik doen in [!DNL Commerce Intelligence] om het te gebruiken? {#use}
 
@@ -66,7 +66,7 @@ Als u de kolom `joined` wilt maken, navigeert u naar de tabel waarnaar het veld 
    * Selecteer aan de zijde van `One` de kolommen `mapping` table en `Primary key` . In dat geval selecteert u de kolom `state_input` in de tabel `mapping_state` .
    * Hier is een blik op wat de weg als kijkt:
 
-     ![](../../assets/State_Mapping_Path.png)
+     ![ de Manager die van Data Warehouse de weg van de de rekeningenberekening van de staatsafbeelding toont ](../../assets/State_Mapping_Path.png)
 
 1. Als u klaar bent, klikt u op **[!UICONTROL Save]** om het pad te maken.
 1. Het pad wordt mogelijk niet direct na het opslaan gevuld. Als dit gebeurt, klikt u op het vak `Path` en selecteert u het pad dat u hebt gemaakt.
@@ -76,7 +76,7 @@ Als u de kolom `joined` wilt maken, navigeert u naar de tabel waarnaar het veld 
 
 Nadat een updatecyclus voltooit, zult u uw nieuwe aangesloten kolom kunnen gebruiken om uw gegevens behoorlijk te segmenteren in plaats van de berichtkolom van uw gegevensbestand. Kijk nu naar de groeperingsopties - geen stress meer:
 
-![](../../assets/Clean_State_Segments.png)
+![ Grafiek die schone staatssegmenten na standaardisatie tonen ](../../assets/Clean_State_Segments.png)
 
 Tabellen toewijzen is handig voor elk moment waarop u mogelijk onjuiste gegevens in uw Data Warehouse wilt opruimen. Nochtans, kunnen de afbeeldingslijsten ook voor sommige andere koele gebruiksgevallen worden gebruikt, als [ het herhalen van uw  [!DNL Google Analytics channels]  in  [!DNL Commerce Intelligence]](../data-warehouse-mgr/rep-google-analytics-channels.md).
 

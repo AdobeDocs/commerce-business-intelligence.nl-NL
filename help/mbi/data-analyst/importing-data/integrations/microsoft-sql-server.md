@@ -4,9 +4,9 @@ description: Leer hoe te om uw SQL van Microsoft gegevensbestand met  [!DNL Comm
 exl-id: 7f49d1dc-8fbb-4a8c-9d07-9a8195c266f5
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/MicrosoftSQLServer-logo.png)
+![ het embleem van de Server van Microsoft SQL ](../../../assets/MicrosoftSQLServer-logo.png)
 
 In dit onderwerp wordt uitgelegd hoe u de [!DNL Microsoft SQL] -database in vier stappen met [!DNL Commerce Intelligence] kunt verbinden. Dit proces vereist enige technische expertise met betrekking tot serververbindingen en SQL, en kan steun van ontwikkelaars op uw team vereisen.
 
-[!DNL Commerce Intelligence] ondersteunt [!DNL Amazon RDS] , [!DNL EC2] , [!DNL Microsoft SQL Azure] en de meeste andere cloudserverproviders. Als u een vraag op uw bijzondere gastheer hebt, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) vragend ons om deze informatie te verstrekken.
+[!DNL Commerce Intelligence] ondersteunt [!DNL Amazon RDS] , [!DNL EC2] , [!DNL Microsoft SQL Azure] en de meeste andere cloudserverproviders. Als u een vraag op uw bijzondere gastheer hebt, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) vragend ons om deze informatie te verstrekken.
 
 Uw systeem moet SELECT-query&#39;s uitvoeren op uw database. Dit wordt eerst gedaan om een momentopname van uw gegevensbestandstructuur en dan regelmatig overwerk te krijgen om uw gegevens bijgewerkt te houden. Uw updates zijn incrementeel en Adobe beperkt de updatefrequentie en -tijd om ongewenste laadtijden op uw server te voorkomen.
 
@@ -41,7 +41,7 @@ De beste manier om dit te doen is voor ons om met uw gegevensbestandserver over 
 
 1. Voer het IP-adres, de gebruikersnaam en het wachtwoord van de server in [!DNL Commerce Intelligence] onder **[!UICONTROL Manage Data** > **Connections]** .
 
-   ![](../../../assets/manage-data-connections.png)
+   ![ beheert de pagina van de Verbindingen van Gegevens die gegevensbestandintegratie tonen ](../../../assets/manage-data-connections.png)
 
 1. Klik op **[!UICONTROL Add a Data Source]**.
 

@@ -4,9 +4,9 @@ description: Leer hoe u een dashboard maakt en gebruikt.
 exl-id: a872344b-ac66-41eb-a471-5a69f8802527
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
 1. Klik in het menu op **[!UICONTROL Dashboards]** .
 
-1. De naam van het standaarddashboard verschijnt in de linkerbovenhoek van de dashboardkopbal. Klik op de pijl omlaag (![](../../assets/magento-bi-btn-down.png)) om de beschikbare opties weer te geven.
+1. De naam van het standaarddashboard verschijnt in de linkerbovenhoek van de dashboardkopbal. Klik de benedenpijl (![ benedenpijlpictogram ](../../assets/magento-bi-btn-down.png)) om de beschikbare opties te tonen.
 
    ![ creeer Dashboard ](../../assets/magento-bi-dashboard-create.png)
 
@@ -49,7 +49,7 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
    ![ dashboardnaam ](../../assets/magento-bi-dashboard-create-name.png)
 
-   * De naam van het nieuwe dashboard wordt in de linkerbovenhoek weergegeven. Klik op de pijl omlaag (![](../../assets/magento-bi-btn-down.png)) om de opties weer te geven. Als u een groep hebt gemaakt, wordt het nieuwe dashboard onder de groep in de lijst weergegeven.
+   * De naam van het nieuwe dashboard wordt in de linkerbovenhoek weergegeven. Klik de benedenpijl (![ benedenpijlpictogram ](../../assets/magento-bi-btn-down.png)) om de opties te tonen. Als u een groep hebt gemaakt, wordt het nieuwe dashboard onder de groep in de lijst weergegeven.
 
 ### Een rapport toevoegen
 

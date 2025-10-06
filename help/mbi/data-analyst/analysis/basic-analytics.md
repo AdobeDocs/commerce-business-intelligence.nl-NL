@@ -4,9 +4,9 @@ description: Leer hoe u analyses van basisbeginselen begrijpt en bouwt.
 exl-id: 23cea7b3-2e66-40c3-b4bd-d197237782e3
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Warehouse Manager, Dashboards, Data Integration
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '3120'
+source-wordcount: '3130'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 **Accepteert u gastorden?**
 
-*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om uw klantenanalyses te verzekeren omvat alle klanten.*
+*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw klantenanalyses te verzekeren omvat alle klanten.*
 
 *niet zeker als u gastorden goedkeurt? Verwijs naar [ dit onderwerp ](../data-warehouse-mgr/guest-orders.md) om meer te leren!*
 
@@ -60,7 +60,7 @@ In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze lijs
 * **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
 * **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam in de `Customers` -tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
 * **[!UICONTROL Customer's order number (previous-current)]**: een samenvoeging van twee waarden in de kolom **[!UICONTROL Customer's order number]** . Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
 * **[!UICONTROL Coupon_code]**: geeft aan welke coupons op elke bestelling zijn gebruikt.
 * **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.
@@ -155,7 +155,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Interval]**: `By Month`
    * **[!UICONTROL Group By]**: `Customer's Order Number` , selecteer vervolgens `2` en `3`
 
-  ![](../../assets/2nd_and_3rd_purchases_last_year.png)
+  ![ Grafiek die tweede en derde aankoopanalyse voor vorig jaar tonen ](../../assets/2nd_and_3rd_purchases_last_year.png)
 
 * **Voorbeeld van het Rapport 2**: Het aantal herhalingsklanten vorig jaar
    * **[!UICONTROL Metric]**: `Distinct Customers`
@@ -244,9 +244,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 * **Beschrijving**: Het gemiddelde van de opbrengst die door klanten binnen hun eerste 30 dagen als klant wordt geproduceerd.
 * **Metrische Beschrijving**: Dit metrisch voert een **Gemiddelde** van `Customer's First 30 Day Revenue` van `customer_entity` lijst uit die door `created_at` wordt bevolen.
 * **Beschrijving van het Rapport**: Alle-tijdgemiddelde van eerste 30 dagopbrengst van de Klant
-* **[!UICONTROL Metric]**: `Average First 30 Day Revenue`
-* **[!UICONTROL Time Range]**: `All Time`
-* **[!UICONTROL Time Interval]**: `None`
+   * **[!UICONTROL Metric]**: `Average First 30 Day Revenue`
+   * **[!UICONTROL Time Range]**: `All Time`
+   * **[!UICONTROL Time Interval]**: `None`
 
 ![ Gemiddelde Eerste Inkomsten van 30 dagen ](../../assets/Avg_first_30_day_revenue.png)<!--{: width="929"}-->
 

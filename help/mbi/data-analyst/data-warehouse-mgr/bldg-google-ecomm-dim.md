@@ -4,9 +4,9 @@ description: Leer dimensies te bouwen die uw gegevens van de eCommerce met uw or
 exl-id: f8a557ae-01d7-4886-8a1c-c0f245c7bc49
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Integration, Data Warehouse Manager
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Als u de afmetingen in dit onderwerp wilt maken, hebt u een [!DNL Google ECommer
 
 Hier volgt een snelle blik bij het synchroniseren van lijsten en kolommen als u een verfrisser nodig hebt:
 
-![](../../assets/Syncing_New_Columns.gif)
+![ Geanimeerde demonstratie van het synchroniseren van nieuwe kolommen in Data Warehouse ](../../assets/Syncing_New_Columns.gif)
 
 Nadat u een samenvoeging hebt gemaakt van de tabel `orders` naar de tabel [!DNL Google eCommerce] , maakt u de eerste drie dimensies in de onderstaande lijst. Vervolgens gebruikt u deze afmetingen om drie gebruikers-/klantafmetingen in de tabel `customers` te maken. Als u wilt voltooien, voegt u deze kolommen bij de tabel `orders` .
 
@@ -65,7 +65,7 @@ Dit voorbeeld bouwt de **Source [!DNL Google Analytics] dimensie van de Orde** .
 1. In het venster dat wordt weergegeven, stelt u de zijde `Many` in op `orders.order\_id` of de kolom in de tabel `orders` die de volgorde-id bevat.
 1. Zoek aan de zijde van `One` de tabel `Google ECommerce` en stel vervolgens de kolom in op `transactionID` .
 
-   ![](../../assets/google-ecommerce-table.png)
+   ![ de lijststructuur van de Handel van Google die beschikbare afmetingen tonen ](../../assets/google-ecommerce-table.png)
 
 1. Klik op **[!UICONTROL Save]** om het pad te maken.
 1. Klik nogmaals op het vervolgkeuzemenu **[!UICONTROL Select table and column]** nadat het pad is toegevoegd.
@@ -74,13 +74,13 @@ Dit voorbeeld bouwt de **Source [!DNL Google Analytics] dimensie van de Orde** .
 
 Hier is een blik op het hele proces:
 
-![](../../assets/help_center.gif)
+![ Geanimeerde demonstratie van het creëren van Google Analytics bronafmeting ](../../assets/help_center.gif)
 
 Daarna, probeer creërend **middel [!DNL Google Analytics] en** van de Orde `campaign`. Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
 
 ### Klantentabel {#customers}
 
-Dit voorbeeld bouwt de **bron [!DNL Google Analytics] dimensie van de eerste orde van de Klant &lbrace;.**
+Dit voorbeeld bouwt de **bron [!DNL Google Analytics] dimensie van de eerste orde van de Klant {.**
 
 1. Klik in de lijst met tabellen in de Data Warehouse op de tabel (in dit geval `customers` ) die uw klantgegevens bevat.
 1. Klik op **[!UICONTROL Create a Column]**.
@@ -97,7 +97,7 @@ Dit voorbeeld bouwt de **bron [!DNL Google Analytics] dimensie van de eerste ord
    _
 1. Klik op **[!UICONTROL Save]** om de dimensie te maken.
 
-Daarna, probeer creërend **middel [!DNL Google Analytics] en** van de eerste orde van de Klant 1&rbrace;. `campaign` Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
+Daarna, probeer creërend **middel [!DNL Google Analytics] en** van de eerste orde van de Klant 1}. `campaign` Niet veel veranderingen voor deze dimensies, dus geef het een poging. Maar als u geplakt wordt, kunt u uit [ het eind van dit artikel ](#stuck) controleren om te zien wat verschillend is.
 
 ### Bonus: Orders table, rond 2
 
@@ -115,7 +115,7 @@ In dit voorbeeld wordt de `Customer's first order's [!DNL Google Analytics] sour
 
 Hier is een blik op het hele proces:
 
-![](../../assets/help_center2.gif)
+![ Geanimeerde demonstratie van het creëren van de dimensies van de klantenverwerving ](../../assets/help_center2.gif)
 
 Voltooi de bewerking door de `Customer's first order's` medium en `campaign` afmetingen aan de `orders` tabel te koppelen. Sluit zich aan bij de dimensies, en als er problemen zijn, dan controle uit [ het eind van het artikel ](#stuck) als u hulp nodig hebt.
 

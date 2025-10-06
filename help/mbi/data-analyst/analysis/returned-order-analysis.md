@@ -4,9 +4,9 @@ description: Leer hoe u een dashboard instelt met een gedetailleerde analyse van
 exl-id: 6a948561-45b7-4813-9661-ab42197ca5bd
 role: Admin, User
 feature: Data Warehouse Manager, Reports, Dashboards
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit onderwerp toont aan hoe te opstelling een dashboard dat een gedetailleerde analyse van de terugkeer van uw opslag verstrekt.
 
-![](../../assets/detailed-returns-dboard.png)
+![ Gedetailleerde terugkeerdashboard die terugkeertarieven en redenen tonen ](../../assets/detailed-returns-dboard.png)
 
 Alvorens begonnen te worden, moet u een [ Adobe Commerce ](https://business.adobe.com/products/magento/magento-commerce.html) klant zijn en zou moeten ervoor zorgen dat uw bedrijf de `enterprise\_rma` lijst voor terugkeer gebruikt.
 
@@ -61,9 +61,9 @@ Te maken kolommen
 * **`Order's created at`**
 * Selecteer een definitie: `Joined Column`
 * [!UICONTROL Create Path]:
-* &#x200B;
+* 
   [!UICONTROL Many]: `enterprise_rma.order_id`
-* &#x200B;
+* 
   [!UICONTROL One]: `sales_flat_order.entity_id`
 
 * Selecteer een [!UICONTROL table]: `sales_flat_order`
@@ -82,9 +82,9 @@ Te maken kolommen
 * **`return_date_requested`**
 * Selecteer een definitie: `Joined Column`
 * [!UICONTROL Create Path]:
-   * &#x200B;
+   * 
      [!UICONTROL Many]: `enterprise_rma_item_entity.rma_entity_id`
-   * &#x200B;
+   * 
      [!UICONTROL One]: `enterprise_rma.entity_id`
 
 * Selecteer een [!UICONTROL table]: `enterprise_rma`
@@ -157,14 +157,14 @@ Te maken kolommen
 
 * Formule: waarschijnlijkheid van herhalingsvolgorde
 * [!UICONTROL Formula]: `B / A`
-* &#x200B;
+* 
   [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's order number`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Bar`
 
 * **Gem tijd om terug te keren (allen tijd)**
@@ -172,9 +172,9 @@ Te maken kolommen
 * [!UICONTROL Metric]: `Avg time between order and return`
 
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Number`
 
 * **Percentage van orden met een terugkeer**
@@ -188,11 +188,11 @@ Te maken kolommen
 
 * Formule: % van bestellingen met rendement
 * [!UICONTROL Formula]: `B / A`
-* &#x200B;
+* 
   [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Chart Type]: `Number - % of orders with return`
 
@@ -202,7 +202,7 @@ Te maken kolommen
 
 * [!UICONTROL Time period]: `All time`
 * [!UICONTROL Interval]: `By month`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Line`
 
 * **Klanten die een terugkeer hebben gemaakt en niet opnieuw aangekocht**
@@ -213,11 +213,11 @@ Te maken kolommen
    * `Is customer's last order? (1=yes/0=no) = 1`
 
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Group door]: `Customer_email`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Table`
 
 * **tarief van de terugkeer door punt**
@@ -230,16 +230,16 @@ Te maken kolommen
 
 * [!UICONTROL Formula]: `Return %`
 * [!UICONTROL Formula]: `B / A`
-* &#x200B;
+* 
   [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `product_sku AND/OR product_name`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Table`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse of het Professionele team van de Diensten in dienst wilt nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse of het Professionele team van de Diensten in dienst wilt nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

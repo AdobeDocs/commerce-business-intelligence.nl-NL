@@ -4,9 +4,9 @@ description: Leer hoe u MySQL via cPanel kunt verbinden.
 exl-id: 90b0a0b0-8c6b-4144-95b4-f588f18616c7
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Aan de slag.
 1. Klik op **[!UICONTROL [!DNL MySQL] Databases]** in de sectie `Database` .
 1. Schuif omlaag naar de sectie `Add New User` en maak een gebruiker voor [!DNL Commerce Intelligence] :
 
-   ![](../../../assets/create-mbi-mysql-user-cpanel.png)
+   ![ cPanel MySQL de interface die van Gegevensbestanden toont creeert gebruikersvorm ](../../../assets/create-mbi-mysql-user-cpanel.png)
 
 1. Klik op **[!UICONTROL Create User]**.
 1. Nu u de gebruiker hebt gecreeerd, moet u het aan een gegevensbestand associëren. Ga terug naar de sectie `Add New User` . Zie de instellingen voor `Add User to Database?` Dat is wat u nodig hebt.
@@ -69,4 +69,4 @@ Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te v
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

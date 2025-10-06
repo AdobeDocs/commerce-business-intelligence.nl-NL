@@ -4,9 +4,9 @@ description: Leer hoe je Commerce Intelligence-gebruikers beheert.
 exl-id: 2a5eeabb-3c13-4ca1-b845-ed255b389c9f
 role: Admin, User
 feature: User Management
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Met deze machtigingen kunnen gebruikers bepaalde handelingen uitvoeren of toegan
 
 >[!NOTE]
 >
->_u kunt de toegang van de a **[!UICONTROL Standard]**&#x200B;gebruiker [ tot specifieke metriek ](../../administrator/user-management/restrict-metric-access.md) beperken._
+>_u kunt de toegang van de a **[!UICONTROL Standard]**gebruiker [ tot specifieke metriek ](../../administrator/user-management/restrict-metric-access.md) beperken._
 >
 >** [!UICONTROL Standard] _de gebruikers kunnen tot het Factureren met een extra toestemming toegang hebben plaatsend._
 >
@@ -66,7 +66,7 @@ Naast de algemene machtigingsniveaus bestaan er ook twee andere gebruikersaandui
 
 `Admin` -gebruikers hebben standaard toegang tot de tab `Billing` , maar `Standard` -gebruikers kunnen ook toegang krijgen als ze het selectievakje `Billing` in hun profiel hebben ingeschakeld.
 
-![ het factureren ](../../assets/billing.png)<!--{: width="550" height="363"}-->
+![ het Factureren pagina ](../../assets/billing.png)<!--{: width="550" height="363"}-->
 
 ### Technisch
 

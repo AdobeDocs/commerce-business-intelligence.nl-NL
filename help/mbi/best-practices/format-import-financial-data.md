@@ -4,9 +4,9 @@ description: Leer hoe u financiële gegevens opmaakt en importeert.
 exl-id: cdbed262-7cf1-4fd6-ad5a-c44d26dffba7
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ In dit onderwerp wordt de beste manier besproken om financiële gegevens te impo
 
 Een tweedimensionale, cross-tab gegevenstabel is vaak de indeling die wordt gebruikt voor financiële gegevens. Met waarden die door labels in zowel kolommen als rijen worden gecategoriseerd, zou dit type lay-out gemakkelijk met menselijke ogen en spreadsheethulpmiddelen kunnen zijn, maar het is niet vriendschappelijk aan gegevensbestanden.
 
-![](../../mbi/assets/crosstab.png)
+![ formaat Crosstab dat gegevens in de lay-out van de spillijst toont ](../../mbi/assets/crosstab.png)
 
 Als u deze gegevens wilt importeren en analyseren in [!DNL Commerce Intelligence] , moet u de tabel samenvoegen tot een eendimensionale lijst. Wanneer samengevoegd, wordt elke gegevenswaarde gecategoriseerd door veelvoudige etiketten die allen in één enkele rij zijn, waar elke rij uniek is of een uniek herkenningsteken, bijvoorbeeld een primaire zeer belangrijke kolom zou hebben.
 
-![](../../mbi/assets/flattened.png)
+![ afgevlakt formaat dat gegevens in kolomlay-out toont ](../../mbi/assets/flattened.png)
 
 ## Excel-bestanden opmaken voor importeren
 
@@ -35,7 +35,7 @@ Een tweedimensionale tabel afvlakken met een [!DNL Excel] draaientabel:
 1. Maak de draaitabel in een nieuw vel en klik op **[!UICONTROL Finish]** .
 1. Schakel de kolom- en rijvelden uit in de veldlijst.
 1. Dubbelklik op de resulterende numerieke waarde om de samengevoegde brongegevens in een nieuw blad weer te geven.
-   ![](../../mbi/assets/pivot-table-double-click.png)
+   ![ de lijst van het het kantellijstgebied van Excel die tweemaal klikken om uit te breiden ](../../mbi/assets/pivot-table-double-click.png)
 1. Opslaan als een `CSV` -bestand.
 
 ## Omloop omhoog

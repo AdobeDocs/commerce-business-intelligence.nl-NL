@@ -4,9 +4,9 @@ description: Leer hoe u een dashboard voor investeerders maakt.
 exl-id: 917e7628-3498-4413-a7e1-61799989a7dd
 role: Admin, Data Architect, Data Engineer, User
 feature: Dashboards, Data Integration
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Hier volgt wat u rapporten voor het dashboard van uw investeerder moet maken:
    * Metrisch - inkomsten
 * **[!UICONTROL Revenue from 1st time orders vs repeat orders]**
    * Metrisch - inkomsten uit eerste bestellingen
-   * Filter - Het ordernummer van de gebruiker is gelijk aan 1
+      * Filter - Het ordernummer van de gebruiker is gelijk aan 1
    * Metrisch 2 - Herhalingsorderontvangsten
       * Filter - Het ordernummer van de gebruiker is groter dan 1
    * Schakel het selectievakje voor meerdere Y-assen uit
@@ -77,4 +77,4 @@ Met de [ diensten van de Verrijking van Gegevens van Commerce ](https://business
 
 Bewust uw rapporten en let op details. Na voltooiing ziet het dashboard er ongeveer als volgt uit:
 
-![](../../mbi/assets/investor-dboard-example.png)
+![ bouwt het Dashboard van de Investerer ](../../mbi/assets/investor-dboard-example.png)

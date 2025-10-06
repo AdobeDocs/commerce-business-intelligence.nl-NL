@@ -4,9 +4,9 @@ description: Leer hoe te om gegevenskolommen met veranderlijke waarden te vormen
 exl-id: c31ef32e-ba5a-4902-b632-fbab551cc632
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,9 @@ U kunt de frequenties opnieuw controleren in de Data Warehouse door op een tabel
 
 Als u de frequentie voor het opnieuw controleren wilt wijzigen, klikt u op het selectievakje naast de kolommen die u wilt wijzigen. Klik vervolgens op de vervolgkeuzelijst **[!UICONTROL Set Recheck Frequency]** en stel de gewenste frequentie in.
 
-![](../../assets/dwm-recheck.png)
+![ de Manager van Data Warehouse die recheck configuratieopties toont ](../../assets/dwm-recheck.png)
 
-Soms ziet u `Paused` in de kolom `Changes?` . Deze waarde toont wanneer de 0&rbrace; replicatiemethode van de lijst [ aan ](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) wordt geplaatst.`Paused`
+Soms ziet u `Paused` in de kolom `Changes?` . Deze waarde toont wanneer de 0} replicatiemethode van de lijst [ aan ](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) wordt geplaatst.`Paused`
 
 [!DNL Adobe] raadt u aan deze kolommen te controleren om de updates te optimaliseren en ervoor te zorgen dat de verwisselbare kolommen opnieuw worden gecontroleerd. Als de frequentie voor het opnieuw controleren van een kolom hoog is gezien hoe vaak de gegevens veranderen, raadt Adobe u aan deze frequentie te verlagen om uw updates te optimaliseren.
 

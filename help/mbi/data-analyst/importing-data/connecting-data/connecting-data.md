@@ -4,9 +4,9 @@ description: Leer hoe u in Data Warehouse Manager door de tabellen kunt bladeren
 exl-id: 94beba8b-6a86-4af9-87fb-96b1cf8f8fa2
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Afhankelijk van de verbindingsmethode en het type van gegevensbestand, zou wat t
 
 ## `SaaS` Integraties
 
-![](../../../assets/SaaS_icons.jpg) pree-commerce-logo.png
+![ de integratiepictogrammen van SaaS die diverse gesteunde platforms ](../../../assets/SaaS_icons.jpg) tonen pree-commerce-logo.png
 
 `SaaS` integraties zijn services zoals [[!DNL Google Adwords]](../integrations/google-adwords.md) , [[!DNL Salesforce]](../integrations/salesforce.md) en [[!DNL Zendesk]](../integrations/zendesk.md) . Aangezien gegevens van derden op de server van de leverancier aanwezig zijn, kunt u deze niet rechtstreeks benaderen zoals u dat kunt met de gegevens in uw database.
 
@@ -70,6 +70,6 @@ Als u een integratie wilt toevoegen, klikt u op **[!UICONTROL Manage Data** > **
 * [Tabellen consolideren](../../../best-practices/consolidating-your-tables.md)
 * [Toegang tot uw database beperken](../../../administrator/account-management/restrict-db-access.md)
 
-**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor.
+**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor.
 
 **als u een foutenstatus voor een integratie** ziet, controleer de [ sectie van het Oplossen van problemen ](https://support.magento.com/hc/en-us/sections/360003078151) voor hulp.

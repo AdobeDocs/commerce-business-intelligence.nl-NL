@@ -4,9 +4,9 @@ description: Leer over een paar ER diagrammen om u te helpen de verhouding tusse
 exl-id: de7d419f-efbe-4d0c-95a8-155a12aa93f3
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Eén klant kan veel bestellingen plaatsen. De relatie tussen deze twee tabellen 
 
 Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) binnen het lusje van Data Warehouse tot stand brengen. Wanneer u klaar bent om het pad te maken, wordt het als volgt gedefinieerd:
 
-![](../../assets/SFO___CE_path.png)
+![ het relatiediagram dat van de Entiteit weg van sales_flat_order aan customer_entity ](../../assets/SFO___CE_path.png) toont
 
 ## `sales\_flat\_order & sales\_flat\_order\_item`
 
@@ -49,7 +49,7 @@ Eén bestelling kan veel items bevatten. De relatie tussen deze twee tabellen is
 
 Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) in het lusje van Data Warehouse tot stand brengen. Wanneer u klaar bent om het pad te maken, definieert u het pad zoals hieronder wordt getoond.
 
-![](../../assets/SFOI___SFO_path.png)
+![ het relatiediagram dat van de Entiteit weg van sales_flat_order_item aan sales_flat_order ](../../assets/SFOI___SFO_path.png) toont
 
 ## `catalog\_product\_entity & sales\_flat\_order\_item`
 
@@ -59,4 +59,4 @@ Eén product kan vele objecten aanschaffen. De relatie tussen deze twee tabellen
 
 Binnen [!DNL Commerce Intelligence], als de weg tussen deze twee lijsten niet bestaat, kunt u [ de weg ](../data-warehouse-mgr/create-paths-calc-columns.md) binnen het lusje van Data Warehouse tot stand brengen. Wanneer u klaar bent om het pad te maken, definieert u het pad zoals hieronder wordt getoond.
 
-![](../../assets/SFOI___CPE_path.png)
+![ het relatiediagram dat van de Entiteit weg van sales_flat_order_item aan catalog_product_entiteit ](../../assets/SFOI___CPE_path.png) toont

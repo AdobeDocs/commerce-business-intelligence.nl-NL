@@ -4,16 +4,16 @@ description: Leer alles wat u nodig hebt om een aanvraag in te dienen en aan de 
 exl-id: 105cd003-98ef-4358-80b9-b3190c2c57b7
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
 
 # Gegevensmigratie
 
-Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Het [[!DNL Adobe]  team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) biedt migratiehulp aan.
+Het migreren naar een nieuw gegevensbestandschema, de server, of het melden van gegevensbestand hoeft niet stressvol te zijn. Het [[!DNL Adobe]  team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) biedt migratiehulp aan.
 
 Om ervoor te zorgen dat de overgang zo soepel mogelijk verloopt, dient u uw migratieverzoek zo gedetailleerd mogelijk in te dienen. Dit onderwerp heeft alles dat u een verzoek moet voorleggen en op de migratie begonnen worden. Als u ons een volledig beeld geeft van uw behoeften, bent u er zeker van dat uw project binnen de juiste reikwijdte valt en dat de schatting correct is.
 
@@ -59,7 +59,7 @@ Als u zich comfortabel voelt het aanpassen zelf, volg deze instructies en maak d
 
 Hier volgt een voorbeeld:
 
-![](../../../assets/Migration_Spreadsheet.png)
+![ het spreadsheetmalplaatje van de Migratie met gegevensbestandschema en lijststructuur ](../../../assets/Migration_Spreadsheet.png)
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Hier volgt een voorbeeld:
 
 ## Hoe dien ik een verzoek in? {#submitreq}
 
-U kunt uit naar ons bereiken door [ een steunverzoek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor te leggen.
+U kunt uit naar ons bereiken door [ een steunverzoek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor te leggen.
 
 Als u de stappen in de vorige sectie hebt uitgevoerd voor het maken van de overeenkomende kolomspreadsheet, vergeet dan niet deze als bijlage toe te voegen.
 

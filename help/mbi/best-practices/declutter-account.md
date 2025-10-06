@@ -4,9 +4,9 @@ description: Leer hoe te om uw  [!DNL Commerce Intelligence]  rekening op te sch
 exl-id: 5fcdac2d-41ca-4011-b646-a699d9ecc6e4
 role: Admin, User
 feature: Accounts
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,13 @@ Nadat u toegang hebt tot uw dashboards en rapporten, kunt u beginnen uw rekening
 
 **om een volledig dashboard** te schrappen
 
-1. Selecteer **[!UICONTROL Manage Data]**, dan **&#x200B; [!UICONTROL Dashboards**].
+1. Selecteer **[!UICONTROL Manage Data]**, dan ** [!UICONTROL Dashboards**].
 1. Klik op het dashboard dat u wilt verwijderen.
 1. Klik op **[!UICONTROL Delete Dashboard]**.
 
 U kunt ook **[!UICONTROL Dashboard Options]** selecteren en vervolgens **[!UICONTROL Delete]** in het dashboard zelf.
 
-![](../../mbi/assets/Delete_from_dashboard.png)
+![ optie van de Schrapping in het menu van het dashboardtandwieluiteinde ](../../mbi/assets/Delete_from_dashboard.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ U kunt ook **[!UICONTROL Dashboard Options]** selecteren en vervolgens **[!UICON
 
 Hier is een blik op het ongebruikte proces van de rapportschrapping:
 
-![](../../mbi/assets/unused_reports.png)
+![ Ongebruikte rapportenlijst die rapporten tonen niet op om het even welk dashboard ](../../mbi/assets/unused_reports.png)
 
 ## Stap 3: Ongebruikte metriek verwijderen
 
@@ -93,7 +93,7 @@ Nadat u uw gebruikerslijst, dashboards, en rapporten hebt schoongemaakt, kunt u 
 1. Onder aan de pagina ziet u een sectie met de naam **[!UICONTROL Dependent Charts]** . Klik de verbinding om een afhankelijke rapportlijst voor dit metrisch te produceren.
 1. Nadat het systeem de controle voltooit, [!DNL Commerce Intelligence] toont een lijst van dashboards, rapporten, en gebruikers die dit metrisch gebruiken.
 
-![](../../mbi/assets/report_dependecies.png)
+![ de dialoog die van de gebiedsdelen van het Rapport toont welke rapporten geselecteerde kolom ](../../mbi/assets/report_dependecies.png) gebruiken
 
 Als u besluit dat de metrische waarde niet meer nodig is, navigeert u weer naar de pagina **[!UICONTROL Metrics]** door op **[!UICONTROL Back to Metric List]** te klikken om de metrische waarde te zoeken die u wilt verwijderen. Klik op **[!UICONTROL Delete]**.
 
@@ -112,6 +112,7 @@ Als u dit zou willen nastreven, bereik uit aan [!DNL Commerce Intelligence] [ St
 1. Ga naar **[!DNL Manage Data]** en vervolgens naar **[!UICONTROL Data Warehouse]** .
 1. Navigeer in de lijst **[!UICONTROL Synced Tables]** naar de tabel die de kolom bevat.
 1. Schakel een of meer vakken in naast een of meer kolommen die u niet wilt synchroniseren.
+
    >[!NOTE]
    >
    >U kunt de synchronisatie van een kolom Primaire sleutel niet ongedaan maken zonder de volledige tabel neer te zetten.
@@ -120,7 +121,7 @@ Als u dit zou willen nastreven, bereik uit aan [!DNL Commerce Intelligence] [ St
 
 Hier is een blik op het hele proces:
 
-![](../../mbi/assets/drop_column.png)
+![ de kolomoptie van de Daling in de Manager van Data Warehouse ](../../mbi/assets/drop_column.png)
 
 ## Omloop
 

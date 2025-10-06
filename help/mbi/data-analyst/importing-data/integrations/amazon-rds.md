@@ -4,9 +4,9 @@ description: Leer de stappen voor het aansluiten van uw instantie RDS.
 exl-id: 02ad29c8-84d6-4b49-9ac1-e5f4feaa7fda
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ De stappen voor het verbinden van uw [!DNL RDS] -instantie variëren, afhankelij
 
 Op de geloofsbrieven pagina (**[!UICONTROL Manage Data** > **Integrations]**) voor elke gegevensbestand, ziet u een doos die de IP adressen bevat u moet machtigen om R [!DNL RDS] aan [!DNL Commerce Intelligence] te verbinden: `54.88.76.97` en `34.250.211.151`. Hier is een blik op de `MySQL credentials` pagina, waar u het IP adresvakje benadrukte:
 
-![](../../../assets/RDS_IP.png)
+![ de montages van de veiligheidsgroep van Amazon RDS die IP adresconfiguratie tonen ](../../../assets/RDS_IP.png)
 
 [!DNL Commerce Intelligence] kan alleen verbinding maken met uw [!DNL RDS] -instantie als u deze IP-adressen via de AWS-beheerconsole toevoegt aan de betreffende beveiligingsgroep van de database. Deze IP-adressen kunnen worden toegevoegd aan een bestaande groep of u kunt een groep maken. Het belangrijkste is dat de groep gemachtigd is om toegang te krijgen tot de instantie waarmee u verbinding wilt maken [!DNL Commerce Intelligence] .
 
@@ -55,6 +55,6 @@ Als u de verbinding wilt maken, hebt u de volgende informatie nodig:
 
 Als u een gecodeerde verbinding gebruikt, wijzigt u de schakeloptie `Encrypted` op de pagina met databasereferenties in `Yes` . Er wordt een extra formulier weergegeven voor het instellen van de codering:
 
-![](../../../assets/sql-integration-encrypted-yes.png)
+![ SQL integratievorm met toegelaten encryptie die ja optie tonen ](../../../assets/sql-integration-encrypted-yes.png)
 
 

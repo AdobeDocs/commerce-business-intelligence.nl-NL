@@ -4,9 +4,9 @@ description: Verbeter de zichtbaarheid van gegevens, stroomlijn de rapportage, m
 role: Admin, User
 feature: User Management
 exl-id: d96a075d-53ab-48d3-ba83-3ff4298a0cb7
-source-git-commit: df408b8947a62cdb498b56370be965c89c45f6ff
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -392,7 +392,7 @@ Gebruikersgroepen zijn logische groepen gebieden die zijn toegewezen aan specifi
 
 Gebruikersgroepen configureren:
 
-1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] &#x200B;**, om bestaande gebruikersgroepen te bekijken.
+1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] **, om bestaande gebruikersgroepen te bekijken.
 
    ![ vorm gebruikersgroepen ](../../assets/configure-user-groups.png)
 
@@ -460,7 +460,7 @@ Admin-gebruikers kunnen dashboardgegevens weergeven met toegang tot alle winkels
 
 Nochtans, kunnen de gebruikers dashboardgegevens bekijken die op de opslag worden gefiltreerd die aan hen tijdens gebruikersconfiguratie in kaart worden gebracht.
 
-![ dashboard van de Mening admin ](../../assets/view-dashboard-user.png)
+![ het dashboard van de Mening filtreerde admin ](../../assets/view-dashboard-user.png)
 
 >[!TIP]
 >

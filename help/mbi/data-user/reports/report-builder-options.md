@@ -4,9 +4,9 @@ description: Leer hoe u de rapportbuilder kunt kiezen.
 exl-id: ec4204ef-975e-45c3-b09e-fb97ffc2c497
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 # Kies een rapportbuilder
 
 >[!NOTE]
->&#x200B;>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
 
 Nu u meer opties hebt voor het maken van analyses, is het soms moeilijk om precies te weten welke smaak van de rapportbuilder aan uw behoeften voldoet. Dit onderwerp begeleidt u door de beste manier te kiezen om uw analyse te bouwen.
 
@@ -53,7 +53,7 @@ Soms kan de structuur van de gegevens van [!DNL SQL Report Builder] een efficië
 
 Stel dat één product wordt beschouwd als onderdeel van meerdere productcategorieën en u wilt de inkomsten bekijken die aan elke categorie van elk product zijn gekoppeld. Het maken van deze relatie met behulp van DWM kan vervelend en moeilijk zijn, maar het schrijven van een query [!DNL SQL] kan wat eenvoudiger zijn:
 
-![](../../assets/When_should_I_use_the_RB_2.png)
+![ SQL vraag die opbrengst door productcategorie met één-aan-vele verhoudingen toont ](../../assets/When_should_I_use_the_RB_2.png)
 
 ## Wanneer moet ik de traditionele Report Builder gebruiken? {#whentraditionalrb}
 

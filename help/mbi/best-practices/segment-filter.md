@@ -4,9 +4,9 @@ description: Leer over beste praktijken voor segmentatie en het filtreren.
 exl-id: 66391bce-bdeb-4e9d-8089-1c796e00d91e
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Wilt u weten wie uw meest waardevolle klanten zijn? Wat zijn uw waardevolste mar
 
 Dit onderwerp behandelt kritieke segmenten die vaak aan klanten worden geadviseerd. Het gaat ook in detail op welke vragen die deze segmenten u kunnen helpen beantwoorden. Technisch, zijn de segmenten gegevenskolommen in uw gegevensbestand. In [!DNL Adobe Commerce Intelligence] worden ze dimensies genoemd.
 
-![](../../mbi/assets/mbi-critical-segments.png)
+![ Dashboard die kritieke klantensegmenten en filters ](../../mbi/assets/mbi-critical-segments.png) tonen
 
 
 ## Gebruikerssegmenten
@@ -71,7 +71,7 @@ Dit soort analyse doen marketeers van Fortune 1000 bedrijven de hele dag. Voor d
 
 De eerste stap om uw metriek door de bovengenoemde afmetingen te segmenteren is ervoor te zorgen dat u deze gegevens in uw gegevensbestand volgt. Als de gegevens niet worden bijgehouden, neemt u contact op met uw technische team en zoekt u een manier om deze gegevens te volgen.
 
-Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
+Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
 
 ## Verwante
 

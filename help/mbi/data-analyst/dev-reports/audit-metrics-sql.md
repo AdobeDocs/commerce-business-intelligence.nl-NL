@@ -4,9 +4,9 @@ description: Leer hoe u gegevens en metriek kunt controleren gebruikend SQL Repo
 exl-id: d1d9e099-4138-43e6-aaec-6f15ebc5c4d4
 role: Admin, Data Architect, Data Engineer, User
 feature: Reports, Data Warehouse Manager, SQL Report Builder
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Open om te beginnen de [!DNL SQL Report Builder] door naar **[!UICONTROL Report 
 
 Als u een duidelijkere weergave van de query wilt, kunt u de opmaak van de query wijzigen in het queryveld. Selecteer `Run Query` als u klaar bent. De resultaten bevolken als lijst in het rapportpaneel onder de vraag.
 
-![](../../assets/run-query-results.gif)
+![ Geanimeerde demonstratie van het runnen van SQL vraag en het bekijken resultaten ](../../assets/run-query-results.gif)
 
 ## De query beperken
 
 Als u probeert om een specifieke discrepantie of een reeks gegevens te identificeren, zou u de vraag tot een specifieke steekproef moeten beperken om tegen uw lokale gegevensbestand te controleren. U kunt dit doen door de vraag uit te geven om uw gewenste beperkingen aan te passen. In het volgende voorbeeld, beperkt u de vraag om slechts opbrengst van 1 Januari, 2013 of later te omvatten. Nadat u de query hebt bijgewerkt, selecteert u nogmaals **[!UICONTROL Run Query]** om de resultaten bij te werken.
 
-![](../../assets/restricting-query.gif)
+![ Geanimeerde demonstratie van het beperken van vraag met filters ](../../assets/restricting-query.gif)
 
 ## Opslaan en exporteren
 
@@ -40,7 +40,7 @@ Wanneer het rapport aan uw behoeften voldoet, geeft u het rapport een andere naa
 
 Nadat het rapport is opgeslagen, navigeert u naar dat dashboard door `Go to Dashboard` te selecteren. Daarna kunt u de gegevens exporteren door het rapport te zoeken en **[!UICONTROL Options gear > Full `.csv`Exporteren]** of **[!UICONTROL Full Excel Export]** te selecteren.
 
-![](../../assets/export-dboard-data.gif)
+![ Geanimeerde demonstratie van het uitvoeren van dashboardgegevens ](../../assets/export-dboard-data.gif)
 
 ## Aangepaste query&#39;s
 
@@ -48,4 +48,4 @@ U kunt ook aangepaste query&#39;s schrijven en de resultaten exporteren die u wi
 
 >[!NOTE]
 >
->Als u een discrepantie na het controleren van uw gegevens vindt, bekijk [ Contact Steun: De discrepanties van gegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html?lang=nl-NL) steunonderwerp voor meer informatie over wat te doen daarna.
+>Als u een discrepantie na het controleren van uw gegevens vindt, bekijk [ Contact Steun: De discrepanties van gegevens ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-data-discrepancies.html) steunonderwerp voor meer informatie over wat te doen daarna.

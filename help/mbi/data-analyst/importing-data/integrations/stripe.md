@@ -4,9 +4,9 @@ description: Leer hoe u de betalings- en factuurgegevens van uw bedrijf beheert 
 exl-id: c038f2a9-b2bd-4e45-93f9-12d2e5077b31
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/stripe-logo.png)
+![ het embleem van Stripe ](../../../assets/stripe-logo.png)
 
 Met [!DNL Stripe] kunt u de betalings- en factuurgegevens van uw bedrijf beheren en bijhouden. Het verbinden van uw [!DNL Stripe] account met [!DNL Commerce Intelligence] is een eenvoudig proces in twee stappen:
 
@@ -48,4 +48,4 @@ Nadat u op **[!UICONTROL Connect with Stripe]** hebt geklikt, wordt een pagina m
 De [[!DNL Stripe]  API Documentatie ](https://stripe.com/docs/api) kan een nuttig middel zijn om meer over te leren hoe [!DNL Stripe] met [!DNL Commerce Intelligence] wordt geïntegreerd.
 
 * [Verwachte  [!DNL Stripe]  gegevens](../integrations/stripe-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

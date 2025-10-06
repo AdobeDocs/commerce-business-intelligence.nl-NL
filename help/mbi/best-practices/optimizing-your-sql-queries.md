@@ -4,18 +4,18 @@ description: Leer hoe u SQL-query's optimaliseert.
 exl-id: 2782c707-6a02-4e5d-bfbb-eff20659fbb2
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Integration, Data Import/Export, Data Warehouse Manager
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: acc152709c7c66f387f4eded9e6c1c646a83af35
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
 # SQL-query&#39;s optimaliseren
 
-Met [!DNL SQL Report Builder] kunt u op elk gewenst moment query&#39;s uitvoeren op deze query&#39;s en deze doorlopen. Dit is nuttig wanneer u een vraag moet wijzigen zonder het moeten op een updatecyclus wachten om te beëindigen alvorens een kolom te realiseren of een rapport u creeerde behoeften het bijwerken.
+Met [!DNL SQL Report Builder] kunt u query&#39;s uitvoeren en wijzigen wanneer u dat wilt. Dit vermogen is nuttig als u een vraag onmiddellijk moet bijwerken, in plaats van het wachten op een updatecyclus om te beëindigen alvorens een kolom of een rapport te bevestigen.
 
-Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html?lang=nl-NL). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
+Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 
@@ -25,7 +25,7 @@ Daarom raadt Adobe u aan `SELECT *` niet zoveel mogelijk te gebruiken en alleen 
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![](../../mbi/assets/Select_all_1.png) | ![](../../mbi/assets/Select_all_2.png) |
+| ![ SQL vraag gebruikend UITGEZOCHTE asterisk ](../../mbi/assets/Select_all_1.png) | ![ SQL vraag die specifieke kolommen ](../../mbi/assets/Select_all_2.png) selecteert |
 
 {style="table-layout:auto"}
 
@@ -39,7 +39,7 @@ Kijk hoe u een FULL OUTER JOIN vraag kunt herschrijven:
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![](../../mbi/assets/Full_Outer_Join_1.png) | ![](../../mbi/assets/Full_Outer_Join_2.png) |
+| ![ SQL vraag met volledige buitenste toetreedt ](../../mbi/assets/Full_Outer_Join_1.png) | ![ SQL vraag met geoptimaliseerde toetreedt ](../../mbi/assets/Full_Outer_Join_2.png) |
 
 {style="table-layout:auto"}
 
@@ -51,7 +51,7 @@ Terwijl u veelvoudige verbindingen in uw vraag kunt omvatten, herinner dat het d
 
 ## Filters gebruiken
 
-Gebruik filters waar mogelijk. Met de componenten `WHERE` en `HAVING` filtert u de resultaten en geeft u alleen de gewenste gegevens.
+Gebruik filters waar mogelijk. Met de clausules `WHERE` en `HAVING` filtert u de resultaten en geeft u alleen de gegevens die u echt wilt.
 
 ## Filters gebruiken in JOIN-clausules
 
@@ -59,7 +59,7 @@ Als u een filter gebruikt wanneer het uitvoeren van een verbinding, ben zeker om
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![](../../mbi/assets/Join_filters_1.png) | ![](../../mbi/assets/Join_filters_2.png) |
+| ![ SQL vraag met WAAR de componentenfilter ](../../mbi/assets/Join_filters_1.png) | ![ SQL vraag met ON componentenfilter ](../../mbi/assets/Join_filters_2.png) |
 
 {style="table-layout:auto"}
 
@@ -73,19 +73,19 @@ Vergelijkingsoperatoren (>, &lt;, =, enzovoort) zijn het goedkoopst, gevolgd doo
 
 Het gebruik van `EXISTS` versus `IN` is afhankelijk van het type resultaten dat u wilt retourneren. Als u slechts in één waarde geïnteresseerd bent, gebruikt u de component `EXISTS` in plaats van `IN` . `IN` wordt gebruikt met lijsten met door komma&#39;s gescheiden waarden, waardoor de rekenkosten van de query stijgen.
 
-Wanneer `IN` query&#39;s worden uitgevoerd, moet het systeem eerst de subquery (de `IN` instructie) verwerken en vervolgens de volledige query op basis van de relatie die in de `IN` instructie is opgegeven. `EXISTS` is veel efficiënter omdat de query niet meerdere keren hoeft te worden uitgevoerd - een waarde waar/onwaar wordt geretourneerd tijdens het controleren van de relatie die in de query is opgegeven.
+Wanneer `IN` query&#39;s worden uitgevoerd, moet het systeem eerst de subquery (de `IN` instructie) verwerken en vervolgens de volledige query op basis van de relatie die in de `IN` instructie is opgegeven. De query `EXISTS` is veel efficiënter omdat de query niet meerdere keren hoeft te worden uitgevoerd. Er wordt een waarde true/false geretourneerd tijdens het controleren van de relatie die in de query is opgegeven.
 
 Om het simpelweg te zeggen: het systeem hoeft niet zo veel te verwerken wanneer het gebruiken van `EXISTS`.
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![](../../mbi/assets/Exists_1.png) | ![](../../mbi/assets/Exists_2.png) |
+| ![ SQL vraag die LINKS VERBINDT MET ONGELDIGE controle ](../../mbi/assets/Exists_1.png) | ![ SQL vraag gebruikend EXISTS clausule ](../../mbi/assets/Exists_2.png) |
 
 {style="table-layout:auto"}
 
 ## ORDE GEBRUIKEN DOOR
 
-`ORDER BY` is een dure functie in SQL en kan de kosten van een vraag beduidend verhogen. Als u een foutenmelding die ontvangt dat de EXPLAIN kosten van uw vraag te hoog is, probeer eliminerend om het even welke `ORDER BY` s van uw vraag tenzij vereist.
+De functie `ORDER BY` is duur in SQL en kan de kosten van een query aanzienlijk verhogen. Als u een foutenmelding die ontvangt dat de EXPLAIN kosten van uw vraag te hoog is, probeer eliminerend om het even welke `ORDER BY` s van uw vraag tenzij vereist.
 
 Dit wil niet zeggen dat `ORDER BY` niet kan worden gebruikt, alleen dat het alleen moet worden gebruikt wanneer dat nodig is.
 
@@ -95,7 +95,7 @@ Er kunnen enkele situaties zijn waarin deze aanpak niet strookt met wat u probee
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![](../../mbi/assets/Group_by_2.png) | ![](../../mbi/assets/Group_by_1.png) |
+| ![ SQL vraag met GROEP DOOR vóór filter ](../../mbi/assets/Group_by_2.png) | ![ SQL vraag met filter vóór GROUP DOOR ](../../mbi/assets/Group_by_1.png) |
 
 {style="table-layout:auto"}
 

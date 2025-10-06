@@ -4,9 +4,9 @@ description: Leer hoe u Visual Report Builder kunt gebruiken.
 exl-id: 1101f43d-e014-4df2-be21-12d90a9d8a56
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      ![ Visuele Report Builder ](../../assets/magento-bi-visual-report-builder-add-metric.png)
 
-   * Kies metrisch [&#128279;](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
+   * Kies metrisch [ ](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
 
      De metrische waarde `New Customers` die in dit voorbeeld wordt gebruikt telt alle klanten, en sorteert de lijst door de datum de klant die voor een rekening wordt aangemeld. Het eerste rapport bevat een eenvoudige lijngrafiek, gevolgd door de tabel met gegevens.
 
@@ -63,7 +63,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      ![ Groep door de Gegevens van de Lijst ](../../assets/magento-bi-report-builder-group-by-table-data.png)
 
-   * Klik op het besturingselement Omwisselen (![](../../assets/magento-bi-btn-transpose.png)) in de rechterbovenhoek van de tabel om de richting van de gegevens te wijzigen.
+   * Klik de Omwisselen (![ pictogram van Omwisselen ](../../assets/magento-bi-btn-transpose.png)) controle in de hoger-juiste hoek van de lijst om de richtlijn van de gegevens te veranderen.
 
      De as van de gegevens wordt gespiegeld en de tabel heeft nu een kolom voor elke couponcode en een rij voor elke maand. Deze richting is misschien beter leesbaar.
 
@@ -95,14 +95,14 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      | | |
      |-----|-----|
-     | ![](../../assets/magento-bi-btn-chart-line.png) | Lijngrafiek |
-     | ![](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontale balk |
-     | ![](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontale gestapelde balk |
-     | ![](../../assets/magento-bi-btn-chart-vert-bar.png) | Verticale balk |
-     | ![](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Verticale gestapelde balk |
-     | ![](../../assets/magento-bi-btn-chart-pie.png) | Schijf |
-     | ![](../../assets/magento-bi-btn-chart-area.png) | Gebied |
-     | ![](../../assets/magento-bi-btn-chart-funnel.png) | Trechter |
+     | ![ het grafiekpictogram van de Lijn ](../../assets/magento-bi-btn-chart-line.png) | Lijngrafiek |
+     | ![ Horizontaal bar pictogram ](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontale balk |
+     | ![ Horizontaal gestapeld staafpictogram ](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontale gestapelde balk |
+     | ![ Verticaal bar pictogram ](../../assets/magento-bi-btn-chart-vert-bar.png) | Verticale balk |
+     | ![ Verticaal gestapeld staafpictogram ](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Verticale gestapelde balk |
+     | ![ het grafiekpictogram van het Schijf ](../../assets/magento-bi-btn-chart-pie.png) | Schijf |
+     | ![ het grafiekpictogram van het Gebied ](../../assets/magento-bi-btn-chart-area.png) | Gebied |
+     | ![ het grafiekpictogram van Funnel ](../../assets/magento-bi-btn-chart-funnel.png) | Trechter |
 
      {style="table-layout:auto"}
 

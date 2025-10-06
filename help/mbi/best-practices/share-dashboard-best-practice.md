@@ -4,9 +4,9 @@ description: Leer met uw dashboards te werken en te delen.
 exl-id: 73df627f-bc08-45c0-aa5e-410c4fd0642d
 role: Admin, User
 feature: Dashboards
-source-git-commit: d40a04cedb3aee3385a8c34e0919f954431e0897
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Het kan voorkomen dat er meerdere dashboards met dezelfde naam zijn, dit komt me
 
 Als u wilt zien wie eigenaar is van een dashboard, klikt u op het vervolgkeuzemenu in de linkerbovenhoek. Alle dashboards zonder een naam eronder, zijn van u.
 
-![](../../mbi/assets/Dash_ownership.png)
+![ de bezitsindicator van het dashboard die schepper en toestemmingen toont ](../../mbi/assets/Dash_ownership.png)
 
 Alle dubbele dashboards verwijderen:
 

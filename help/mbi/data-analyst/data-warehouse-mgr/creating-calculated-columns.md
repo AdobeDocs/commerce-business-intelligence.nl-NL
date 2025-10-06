@@ -4,9 +4,9 @@ description: Leer hoe u gegevens uit verschillende bronnen kunt consolideren.
 exl-id: 668cbc77-6a96-4687-9f40-3635b1be5c66
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Uw nieuwe kolom verschijnt in de huidige lijst met een `Pending` status. Nadat d
 
 Als u moeite hebt zich te herinneren wat alle input wanneer het creëren van een berekende kolom zijn, probeer handig deze verwijzingskaart te houden wanneer u bouwt:
 
-![](../../assets/Calculated_Columns_Example.png)
+![ Voorbeeld berekende kolomconfiguratie in de Manager van Data Warehouse ](../../assets/Calculated_Columns_Example.png)
 
 ## Gerelateerde documentatie
 

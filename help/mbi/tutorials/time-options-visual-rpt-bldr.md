@@ -4,9 +4,9 @@ description: Leer de gegevens in uw rapport gedurende een bepaalde periode te an
 exl-id: a1bb4838-f882-44b1-a29f-84b985032ceb
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1329'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met e
 
 Wanneer u een dergelijke metrische waarde gebruikt in de rapportage, ziet u dat bij het toevoegen van deze metrische waarde aan een rapport automatisch een onafhankelijke `Time Interval` van `None` en `Time Range` van `Global` wordt ingesteld:
 
-![](../assets/Metrics_without_timestamps.gif)
+![ Rapport die metrisch tonen met het Interval van de Tijd aan niets wordt geplaatst en de Waaier van de Tijd die aan Globaal ](../assets/Metrics_without_timestamps.gif) wordt geplaatst
 
 ## Eén metrische waarde een onafhankelijk tijdinterval geven {#independenttimeinterval}
 
@@ -62,11 +62,11 @@ Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijke
 
 Nu kun je zien hoe impact elke maand vorig jaar was:
 
-![](../assets/Independent_Time_Int.png)
+![ grafiek die percentage van opbrengst door maand voor het vorige jaar toont ](../assets/Independent_Time_Int.png)
 
 ## Dezelfde metrische waarde vergelijken over verschillende tijdbereiken {#difftimerange}
 
-In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en deze dimensie niet reeds in uw Data Warehouse hebben, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor hulp.
+In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en deze dimensie niet reeds in uw Data Warehouse hebben, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
 
 De twee meest voorkomende voorbeelden in deze categorie zijn (1) het vergelijken van groeicijfers (omzet jaar-over-jaar of maand-over-maand) en (2) het beter begrijpen van recente trends in voorraden of verkoop van artikelen.
 
@@ -87,7 +87,7 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
 
    Maak zich geen zorgen als metrisch uit het rapport verdwijnt - plaatsend een onafhankelijke tijdoptie verbergt automatisch metrisch van het rapport. Klik op **[!UICONTROL Show]** naast de metrische waarde als u deze opnieuw wilt weergeven.
 
-   ![](../assets/Different_Time_Ranges.gif)
+   ![ Demonstratie van het plaatsen van verschillende tijdwaaiers voor metriek in een rapport ](../assets/Different_Time_Ranges.gif)
 
    * Klik op **[!UICONTROL Apply]** om de instellingen voor interval en bereik op te slaan.
 
@@ -95,7 +95,7 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
 
    * Selecteer `Group By` in het vervolgkeuzemenu `Show All` en klik op **[!UICONTROL Apply]** . Dit leidt tot de x-aswaarden voor het rapport:
 
-   ![](../assets/TO4.png)
+   ![ Rapport die opbrengstvergelijking tonen die door dagaantal van maand ](../assets/TO4.png) wordt gegroepeerd
 
    * Wijzig de naam van de metriek. In het voorbeeld is de eerste metrische waarde `Revenue - 2015` en de tweede waarde `Revenue - 2014` .
 
@@ -136,7 +136,7 @@ Klik op **[!UICONTROL Add Formula]** om de formules te maken. Voer de onderstaan
 
 * Typ `last promo period` in het veld `D / C` voor de waarde `Formula` .
 
-  ![](../assets/Different_Time_Ranges_2.png)
+  ![ Rapport die weken van leveringsberekeningen voor verschillende tijdsperioden tonen ](../assets/Different_Time_Ranges_2.png)
 
 * Pas ten slotte het rapport aan door de metriek te verbergen en een `SKU` of vergelijkbare dimensie aan het rapport toe te voegen als een `Group By` .
 

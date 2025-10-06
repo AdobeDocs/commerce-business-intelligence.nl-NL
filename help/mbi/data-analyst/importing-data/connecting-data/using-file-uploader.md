@@ -4,9 +4,9 @@ description: Leer hoe u al uw gegevens in één Data Warehouse plaatst.
 exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1298'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Gebruik advertentiecampagnes als voorbeeld. Als u zowel online als offline campa
 ## Beperkingen en eisen {#require}
 
 1. **de enige ondersteunde indeling voor het uploaden van bestanden is `CSV` of`comma separated values`** . Als u in Excel werkt, kunt u het bestand opslaan in de `.csv` -indeling met de functie Opslaan als.
-1. **`CSV`-bestanden moeten`UTF-8 encoding`** gebruiken. Meestal is dit geen probleem. Als u deze fout terwijl het uploaden van een dossier ontmoet, [ raadpleeg dit artikel van Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html?lang=nl-NL).
+1. **`CSV`-bestanden moeten`UTF-8 encoding`** gebruiken. Meestal is dit geen probleem. Als u deze fout terwijl het uploaden van een dossier ontmoet, [ raadpleeg dit artikel van Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html).
 1. **de Dossiers kunnen niet groter zijn dan 100MB**. Als het bestand groter is dan dit, scheidt u de tabel in delen en slaat u deze op als afzonderlijke bestanden. U kunt de gegevens toevoegen nadat het eerste bestand is geladen.
 1. **Alle lijsten moeten a`primary key`** hebben. Er moet ten minste één kolom in de tabel staan die als `primary key` kan worden gebruikt, of een unieke id voor elke rij in de tabel. Om het even welke kolom die als a `primary key` wordt aangewezen kan *nooit* ongeldig zijn. Een `primary key` kan zo eenvoudig zijn als het toevoegen van een kolom die een getal aan elke rij geeft, of kan twee kolommen zijn die worden samengevoegd om een kolom met unieke waarden te maken (bijvoorbeeld `campaign name` en `date` ).
 
@@ -105,11 +105,11 @@ A *Succes!* wordt boven in het scherm weergegeven nadat de tabel is opgeslagen.
 
 Kijk naar het hele proces als u een visuele oplossing nodig hebt:
 
-![](../../../assets/fileupload.gif)
+![ Geanimeerde demonstratie van dossier uploadt proces dat gegevens toont die worden toegevoegd ](../../../assets/fileupload.gif)
 
 De geüploade lijsten tonen onder **Dossier uploadt** sectie van het lijstoverzicht (in zowel Alle Lijsten als de Gesynchroniseerde opties van Lijsten) in de Manager van Data Warehouse:
 
-![](../../../assets/upload-tables.png)
+![ uploadt de interface van lijsten die beschikbare lijsten voor gegevensinvoer tonen ](../../../assets/upload-tables.png)
 
 ## Gegevens bijwerken of toevoegen aan een bestaande tabel {#appending}
 

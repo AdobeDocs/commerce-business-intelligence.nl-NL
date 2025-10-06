@@ -4,9 +4,9 @@ description: Leer wat een afmeting is en het kan worden gebruikt om grafieken te
 exl-id: 143a4b1e-2e6f-438a-90e6-bdda13b39cb9
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 1. Selecteer in de kolom `Choose Metric(s) to Add Dimensions` de metriek waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt de kolom `Choose Dimensions to Add` aan de rechterkant weergegeven. Controleer de afmetingen die u aan geselecteerde metrisch wilt toevoegen.
 
-   ![](../../assets/Add_Dimensions.png)
+   ![ voegt de dialoog van Dimensies toe die beschikbare afmetingsopties tonen ](../../assets/Add_Dimensions.png)
 
 1. Als u door om het even welke gegevensdimensies op rapporten zou willen segmenteren of groeperen, zorg ervoor om erop te wijzen zij _groeperbaar_ zijn.
 

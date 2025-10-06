@@ -4,9 +4,9 @@ description: Leer het doel en het gebruik van de berekende kolom van het Verschi
 exl-id: 6ecab794-3466-4b3a-a929-3e56287522aa
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
-source-git-commit: 2433a614e9858684842804a0ae29fb67f0d41ead
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -50,4 +50,4 @@ In de volgende stappen wordt beschreven hoe u een kolom `Date Difference` maakt.
 
 Het volgende voorbeeld is geconfigureerd om de waarde `Seconds between order date and customer's creation date` te berekenen:
 
-![](../../assets/date_diff.png)
+![ de configuratie van de de verschilberekening van de Datum die de kolomselecties van de datetime toont ](../../assets/date_diff.png)

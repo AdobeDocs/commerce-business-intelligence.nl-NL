@@ -4,9 +4,9 @@ description: Leer hoe SQL de vragen in de berekende kolommen, metriek worden ver
 exl-id: b3e3905f-6952-4f15-a582-bf892a971fae
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Bekijk een specifiek voorbeeld van hoe een `Total Revenue` metrisch in [!DNL Com
 | `email NOT LIKE '%@magento.com'` | Metrisch `filter` |
 | `AND created_at < X`<br><br>`AND created_at >= Y` | Metrisch `timestamp` (en rapportering `time range`) |
 
-Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > **&#x200B; Metriek &#x200B;** te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
+Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > ** Metriek **te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
 
 ![ Metrische samenvoeging ](../../assets/Metric_aggregation.png)
 
@@ -75,7 +75,7 @@ De query voor deze aggregatie kan er ongeveer als volgt uitzien:
 
 Voor het instellen van deze instelling in [!DNL Commerce Intelligence] is het gebruik van uw Data Warehouse-manager vereist. Hierbij maakt u een pad tussen uw `orders` - en `customers` -tabel en maakt u vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
 
-Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > **&#x200B; selecteer een definitie &#x200B;**> **SUM]**.
+Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > ** selecteer een definitie **> **SUM]**.
 
 Vervolgens moet u de brontabel selecteren. Als er een pad naar de `orders` -tabel bestaat, selecteert u dit in de vervolgkeuzelijst. Als u echter een nieuw pad maakt, klikt u op **[!UICONTROL Create new path]** en ziet u hieronder het scherm:
 
@@ -89,7 +89,7 @@ Hier moet u zorgvuldig het verband tussen de twee lijsten overwegen u probeert o
 
 Nadat het pad is opgeslagen, kunt u de kolom `Customer LTV` maken! Zie hieronder:
 
-![](../../assets/Customer_LTV.gif)
+![ Geanimeerde demonstratie van de waardeanalyse van het klantenleven gebruikend SQL ](../../assets/Customer_LTV.gif)
 
 Nu u de nieuwe `Customer LTV` kolom in uw `customers` lijst hebt gebouwd, bent u bereid om a [ metrische samenvoeging ](#aggregate) te creëren gebruikend deze kolom (bijvoorbeeld, om gemiddelde LTV per klant te vinden). U kunt ook `group by` of `filter` door de berekende kolom in een rapport gebruiken gebruikend bestaande metriek die op de `customers` lijst wordt voortgebouwd.
 

@@ -4,9 +4,9 @@ description: Leer hoe te om uw helpdesk rapportering in  [!DNL Commerce Intellig
 exl-id: 1c7f7c5c-4b1c-4bcf-8f1d-2b4cf9cdb0fb
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/Zendesk_logo.png)
+![ het embleem van Zendesk ](../../../assets/Zendesk_logo.png)
 
 Door uw [!DNL Zendesk] -gegevens te verbinden, kunt u de helpdeskrapportage consolideren in [!DNL Commerce Intelligence] . Hierdoor kunt u de klantenondersteuning optimaliseren en de prestaties van de helpdesk bewaken, naast uw inkomsten.
 
@@ -31,7 +31,7 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 
 ## Open de pagina met [!DNL Zendesk] referenties in [!DNL Commerce Intelligence] {#stepone}
 
-1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > **&#x200B; Gegevensbronnen &#x200B;**> **Integraties]**.
+1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > ** Gegevensbronnen **> **Integraties]**.
 1. Klik op **[!UICONTROL Add Integration]** aan de rechterkant van het scherm.
 1. Klik op het pictogram [!DNL Zendesk] . Hierdoor wordt de aanmeldingspagina van [!DNL Zendesk] geopend.
 
@@ -54,4 +54,4 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 ## Verwante:
 
 * [Verwachte  [!DNL Zendesk]  gegevens](../integrations/exp-zendesk-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

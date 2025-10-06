@@ -4,9 +4,9 @@ description: Leer hoe te om de bulk-uitgevende eigenschap in  [!DNL Commerce Int
 exl-id: 576ffabb-5e5d-4251-9662-951e2cd30f31
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Dit gezegd hebbende, bedenk dit - *moeten deze veranderingen permanent zijn?* Al
 
 ## [!DNL Find/Replace] gebruiken {#findreplace}
 
-1. Klik op het tandwielpictogram (![](../../assets/gear-icon.png)) naast de naam van het dashboard en vervolgens op het [!UICONTROL Bulk Edit Reports] -venster.
+1. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) naast de naam van uw dashboard, toen het [!UICONTROL Bulk Edit Reports] venster.
 
 1. Klik op **[!UICONTROL Chart Title Find and Replace]** in de pop-up.
 
@@ -45,7 +45,7 @@ Voorbeeld:
 
 ## Voorbehandeling `Chart Names` {#prepend}
 
-1. Klik op het tandwielpictogram (![](../../assets/gear-icon.png)) naast de naam van het dashboard en vervolgens op het [!UICONTROL Bulk Edit Reports] -venster.
+1. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) naast de naam van uw dashboard, toen het [!UICONTROL Bulk Edit Reports] venster.
 
 1. Klik op **[!UICONTROL Prepend Report Names]** in de pop-up.
 
@@ -59,7 +59,7 @@ Voorbeeld:
 
 ## Wijzigen `Dates` {#dates}
 
-1. Klik op het tandwielpictogram (![](../../assets/gear-icon.png)) naast de naam van het dashboard en selecteer vervolgens het [!UICONTROL Bulk Edit Reports] -venster.
+1. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) naast de naam van uw dashboard, dan selecteer het [!UICONTROL Bulk Edit Reports] venster.
 
 1. Klik op **[!UICONTROL Change Dates]** in het pop-upvenster.
 

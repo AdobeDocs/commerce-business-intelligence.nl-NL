@@ -4,9 +4,9 @@ description: Leer de in- en uitgangen van de SQL Report Builder.
 exl-id: 3a485b00-c59d-4bc5-b78b-57e9e92dd9d6
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, SQL Report Builder, Reports
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md) om SQL grafieken tot stand te brengen en uit te geven. `Standard` -gebruikers kunnen deze grafieken opnieuw rangschikken op dashboards en `Read-only` -gebruikers hebben dezelfde ervaring als met traditionele grafieken. Bovendien hebben `Read-only` -gebruikers geen toegang tot de tekst van de query.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=nl-NL) om meer te leren.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
 
 [!DNL SQL] (Structured Query Language) is een programmeertaal die wordt gebruikt om te communiceren met databases. In [!DNL Commerce Intelligence] wordt [!DNL SQL] gebruikt om gegevens van uw Data Warehouse te zoeken of op te halen. Bekijk de rapporten op uw dashboard - achter de schermen, wordt elk aangedreven door een [!DNL SQL] vraag.
 
 Met de [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze transformeren in een grafiek. U kunt een rapport maken met de [!DNL SQL Report Builder] door op **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]** te klikken.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html?lang=nl-NL) om meer te leren.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
 
 Met [!DNL SQL Report Builder] kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze snel omzetten in een grafiek. Het beste deel over het gebruiken van [!DNL SQL] om rapporten te bouwen is dat u niet op updatecycli hoeft te wachten om op kolommen te herhalen u creeert. Als de resultaten niet goed lijken, kunt u de vraag snel uitgeven en opnieuw uitvoeren tot de dingen uw verwachtingen aanpassen.
 
@@ -47,7 +47,7 @@ Als u een [!DNL SQL] -rapport wilt gaan maken, klikt u op **[!UICONTROL Report B
 
 ## Aan de slag
 
-Als u een rapport wilt bewerken, klikt u op het tandwielpictogram (![](../../assets/gear-icon.png)) in de rechterbovenhoek van een [!DNL SQL] -diagram en klikt u op **[!UICONTROL Edit]** .
+Om een rapport uit te geven, klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) in de hoger-juiste hoek van a [!DNL SQL] - gebaseerde grafiek en klik **[!UICONTROL Edit]**.
 
 ## Een query schrijven {#writing}
 
@@ -97,7 +97,7 @@ Als u een visualisatie wilt maken met de resultaten van de query, klikt u op de 
 
 Hieronder volgt een kort overzicht van hoe het visualisatieproces eruitziet:
 
-![](../../assets/SQL_RB_viz_overview.gif)
+![ Geanimeerde demonstratie van SQL Report Builder visualisatieoverzicht ](../../assets/SQL_RB_viz_overview.gif)
 
 Voor een gedetailleerde looppas-door van hoe te om een visualisatie tot stand te brengen, verwijs naar [ Creërend visualisaties van SQL vragen leerprogramma ](../../tutorials/create-visuals-from-sql.md){: target="_blank"}.
 
@@ -107,7 +107,7 @@ Voordat u uw werk kunt opslaan, moet u het rapport een naam geven. Herinner me o
 
 Klik op **[!UICONTROL Save]** in de rechterbovenhoek van de [!DNL SQL] -editor en selecteer het rapport `Type` ( `Chart` of `Table`). Als u de tekst wilt laten omlopen, selecteert u het dashboard waarin u het rapport wilt opslaan en klikt u op **[!UICONTROL Save to Dashboard]** .
 
-![](../../assets/SQL_Save_Report.gif)
+![ Geanimeerde demonstratie van het bewaren van een SQL- rapport aan dashboard ](../../assets/SQL_Save_Report.gif)
 
 ### Uw gegevens analyseren
 
@@ -133,7 +133,7 @@ Berekende kolommen die zijn gemaakt met [!DNL SQL] zijn niet afhankelijk van upd
 
 Meestal kunnen verschillen in resultaten worden toegeschreven aan updatecycli. Als [!DNL Commerce Intelligence] bezig is met het repliceren van gegevens van uw database naar uw Data Warehouse, ziet u mogelijk verschillende resultaten, zelfs als u dezelfde query gebruikt.
 
-Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [ moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [ moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 
 Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn.
 

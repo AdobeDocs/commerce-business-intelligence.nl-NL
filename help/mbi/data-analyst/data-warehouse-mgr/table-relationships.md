@@ -4,9 +4,9 @@ description: Leer hoe u begrijpt hoeveel mogelijke exemplaren in een tabel tot e
 exl-id: e7256f46-879a-41da-9919-b700f2691013
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager, Commerce Tables
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -31,13 +31,13 @@ In een `one-to-one` -relatie behoort een record in de tabel `B` tot slechts éé
 
 In de relatie tussen personen en de rijbewijsnummers kan een persoon bijvoorbeeld slechts één rijbewijsnummer hebben, terwijl het rijbewijsnummer alleen aan de persoon toebehoort.
 
-![](../../assets/one-to-one.png)
+![ Diagram die één-aan-één verhouding tussen twee entiteiten tonen ](../../assets/one-to-one.png)
 
 ### `One-to-Many` {#onetomany}
 
 In een `one-to-many` -relatie kan een record in een tabel `A` mogelijk tot meerdere records in de tabel `B` behoren. Denk aan de relatie tussen `orders` en `items` - een orde kan vele punten bevatten, maar een punt behoort tot één enkele orde. In dit geval is de tabel `orders` de ene zijde en de tabel `items` de vele zijden.
 
-![](../../assets/one-to-many_001.png)
+![ Diagram dat één-aan-vele verhouding tussen orden en punten ](../../assets/one-to-many_001.png) toont
 
 ### `Many-to-Many` {#manytomany}
 
@@ -45,7 +45,7 @@ In een `many-to-many` -relatie kan een record in een tabel `B` mogelijk tot meer
 
 Denk over het verband tussen **producten** en **categorieën**: een product kan tot vele categorieën behoren, en een categorie kan vele producten bevatten.
 
-![](../../assets/many-to-many.png)
+![ Diagram die vele-aan-vele verhouding tussen producten en categorieën tonen ](../../assets/many-to-many.png)
 
 ## Uw tabellen evalueren {#eval}
 
@@ -75,7 +75,7 @@ Eén persoon kan slechts één rijbewijsnummer hebben. Een bepaald rijbewijsnumm
 
 Dit is een `one-to-one` -relatie waarbij elke tabel een ene kant heeft.
 
-![](../../assets/one-to-one3.png)
+![ Conceptueel diagram van één-aan-één verhouding tussen persoon en de vergunning van de bestuurder ](../../assets/one-to-one3.png)
 
 ### `One-to-Many`
 
@@ -83,7 +83,7 @@ Een bepaalde volgorde kan veel items bevatten. Eén gegeven item behoort tot sle
 
 Dit is een `one-to-many` -relatie waarbij de tabel met bestellingen de ene kant is en de tabel met items de vele kant.
 
-![](../../assets/one-to-many3.png)
+![ Conceptueel diagram van één-aan-vele verhouding tussen orden en punten ](../../assets/one-to-many3.png)
 
 ### `Many-to-Many`
 
@@ -91,7 +91,7 @@ Eén bepaald product kan tot veel categorieën behoren. Een bepaalde categorie k
 
 Dit is een `many-to-many` -relatie waarbij elke tabel een vele kanten heeft.
 
-![](../../assets/many-to-many3.png)
+![ Conceptueel diagram van vele-aan-vele verhouding tussen producten en categorieën ](../../assets/many-to-many3.png)
 
 ### Het schema van de tabel gebruiken {#schema}
 
@@ -105,7 +105,7 @@ Als de tabellen zijn gekoppeld met behulp van `primary key` van beide tabellen, 
 
 Een `users` -tabel kan bijvoorbeeld de meeste gebruikerskenmerken (zoals de naam) bevatten, terwijl een aanvullende `user_source` -tabel gebruikersregistratiebronnen vastlegt. In elke tabel staat een rij voor één gebruiker.
 
-![](../../assets/one-to-one1.png)
+![ diagram dat van het Schema één-aan-één verhouding toont gebruikend primaire sleutels ](../../assets/one-to-one1.png)
 
 ### `One-to-many`
 
@@ -115,17 +115,17 @@ Een `users` -tabel kan bijvoorbeeld de meeste gebruikerskenmerken (zoals de naam
 
 Wanneer tabellen worden gekoppeld met een `Foreign key` die verwijst naar een `primary key` , wordt met deze instelling een `one-to-many` -relatie beschreven. De ene kant is de tabel met de `primary key` en de andere kant is de tabel met de `foreign key` .
 
-![](../../assets/one-to-many1.png)
+![ diagram dat van het Schema één-aan-vele verhouding toont gebruikend buitenlandse sleutel ](../../assets/one-to-many1.png)
 
 ### `Many-to-many`
 
 Als een van de volgende twee true is, is de relatie `many-to-many` :
 
 * `Non-primary key` kolommen worden gebruikt om twee tabellen te koppelen
-  ![](../../assets/many-to-many1.png)
+  ![ diagram dat van het Schema vele-aan-vele verhouding toont gebruikend niet primaire sleutels ](../../assets/many-to-many1.png)
 * Een deel van een samenstelling `primary key` wordt gebruikt om twee tabellen te koppelen
 
-![](../../assets/many-to-mnay2.png)
+![ diagram dat van het Schema vele-aan-vele verhouding toont gebruikend samengestelde primaire sleutel ](../../assets/many-to-mnay2.png)
 
 ## Volgende stappen
 

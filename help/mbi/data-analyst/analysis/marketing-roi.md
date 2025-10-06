@@ -4,9 +4,9 @@ description: Leer hoe u een dashboard instelt dat uw kanaalanalyse bijhoudt - in
 exl-id: 5de83998-e6cf-478d-bb6a-7a3dc77c2c0c
 role: Admin,  User
 feature: Reports, Dashboards
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Als u geld uitgeeft aan online reclame, wilt u uw rendement op dit geld volgen en gegevensgedreven besluiten over verdere investeringen nemen. Dit onderwerp toont hoe te opstelling een dashboard dat uw kanaalanalyse - met inbegrip van ROI in bijeengevoegde en door campagne volgt.
 
-![](../../assets/Marketing_dashboard_example.png)
+![ Marketing dashboard die de metriek van ROI en campagneprestaties tonen ](../../assets/Marketing_dashboard_example.png)
 
-Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [[!DNL [Facebook Ads]]](../importing-data/integrations/facebook-ads.md) -, [[!DNL [Adwords]]](../importing-data/integrations/google-adwords.md) - en [[!DNL [Google Ecommerce]]](../importing-data/integrations/google-ecommerce.md) -accounts en aanvullende online gegevens plaatsen en doorgeven. Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
+Voordat u aan de slag gaat, wilt u eerst verbinding maken met uw [!DNL [Facebook Ads]](../importing-data/integrations/facebook-ads.md) -, [!DNL [Adwords]](../importing-data/integrations/google-adwords.md) - en [!DNL [Google Ecommerce]](../importing-data/integrations/google-ecommerce.md) -accounts en aanvullende online gegevens plaatsen en doorgeven. Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Geconsolideerde tabellen
 
@@ -42,9 +42,9 @@ Te maken kolommen
    * **`Order's GA campaign`**
       * Selecteer een definitie: `Joined Column`
       * [!UICONTROL Create Path]:
-      * &#x200B;
+      * 
         [!UICONTROL Many]: `sales_flat_order.increment_id`
-      * &#x200B;
+      * 
         [!UICONTROL One]: `ecommerce####.transaction_id`
 
       * Selecteer een [!UICONTROL table]: `ecommerce####`
@@ -142,9 +142,9 @@ Te maken kolommen
 
 * Metrisch `A`: Advertentie-uitgaven
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Scalar`
 
 * **Add klantenverwervingen (allen tijd)**
@@ -158,9 +158,9 @@ Te maken kolommen
 
 * Metrisch `A`: `Ad customer acquisitions`
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Scalar`
 
 * **Add ROI**
@@ -183,7 +183,7 @@ Te maken kolommen
       * Filterlogica: ([`A`] OR [`B`] OR [`C`]) EN [`D`]
 
    * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
-   * &#x200B;
+   * 
      [!UICONTROL Format]: `Percentage`
 
 * Metrisch `A`: `Ad Spend (hide)`
@@ -191,20 +191,20 @@ Te maken kolommen
 * Metrisch `C`: `Average LTV (hide)`
 * [!UICONTROL Formula]: `Ads ROI`
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Scalar`
 
 * **Orders door gummiddel**
-   * &#x200B;
+   * 
      [!UICONTROL Metric]: `Orders`
 
 * Metrisch `A`: `Orders`
 * [!UICONTROL Time period]: `All time`
 * [!UICONTROL Interval]: `By Month`
 * [!UICONTROL Group by]: `Order's medium`
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Area`
 
 * **ROI van de Advertentie door campagne**
@@ -235,15 +235,15 @@ Te maken kolommen
       * Filterlogica: ([`A`] OR [`B`] OR [`C`]) EN [`D`]
 
    * [!UICONTROL Formula]: `(A / B)`
-   * &#x200B;
+   * 
      [!UICONTROL Format]: `Currency`
 
    * [!UICONTROL Formula]: `(C - (A / B))`
-   * &#x200B;
+   * 
      [!UICONTROL Format]: `Currency`
 
    * [!UICONTROL Formula]: `((C - (A / B)) / (A / B))`
-   * &#x200B;
+   * 
      [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Metric]: `Ad Clicks`
@@ -251,36 +251,36 @@ Te maken kolommen
    * [!UICONTROL Metric]: `Ad Impressions`
 
    * [!UICONTROL Formula]: `(H / I)`
-   * &#x200B;
+   * 
      [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Formula]: `(A / H)`
-   * &#x200B;
+   * 
      [!UICONTROL Format]: `Currency`
 
 * Metrisch `A`: `Ad Spend` (hide)
 * Metrisch `B`: `Ad customer acquisitions`
 * Metrisch `C`: `Average LTV`
 * Metrisch `D`: `Average lifetime # of orders`
-* &#x200B;
-  [!UICONTROL -formule]: `CAC`
+* 
+  [!UICONTROL-formule]: `CAC`
 * [!UICONTROL Formula]: `Avg return`
 * [!UICONTROL Formula]: `Ads ROI`
 * Metrisch `H`: `adClicks`
 * Metrisch `I`: `Impressions`
-* &#x200B;
-  [!UICONTROL -formule]: `CTR`
-* &#x200B;
-  [!UICONTROL -formule]: `CPC`
+* 
+  [!UICONTROL-formule]: `CTR`
+* 
+  [!UICONTROL-formule]: `CPC`
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Group door]: `campaign` (Gebruik de campagne &#39;First Order&#39; van de Klant voor niet-ad-uitgaventabelgegevens)
-* &#x200B;
+* 
   [!UICONTROL Chart Type]: `Table`
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
 
 ### Verwante
 

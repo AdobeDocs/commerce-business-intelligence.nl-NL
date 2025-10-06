@@ -4,9 +4,9 @@ description: Leer hoe u opgeslagen filtersets maakt en toepast op de metriek.
 exl-id: 6ef8b67c-bebd-45eb-bca7-95832ec34fc8
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Als u meerdere metriek in [!DNL Commerce Intelligence] hebt die op een vergelijkbare manier moeten worden gefilterd (bijvoorbeeld testopdrachten uitfilteren), kunt u opgeslagen filtersets maken en deze op de metriek toepassen. Hierdoor bespaart u tijd, omdat u geen afzonderlijke filters hoeft toe te voegen wanneer u een metrisch object maakt of bewerkt.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html?lang=nl-NL) voor meer informatie.
+Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html) voor meer informatie.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-know
 
 1. Klik op **[!DNL Manage Data** > **Filter Sets]** in de zijbalk.
 
-   ![](../../assets/create-filter-sets.png)
+   ![ creeer filterreeksen interface met toevoegen filterplaatoptie ](../../assets/create-filter-sets.png)
 
 1. Klik op **[!UICONTROL Add Filter Set]** boven aan de pagina.
 

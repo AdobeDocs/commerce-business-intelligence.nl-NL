@@ -4,9 +4,9 @@ description: Leer over een methode om nieuwe gestreken lijsten tot stand te bren
 exl-id: 5aa571c9-7f38-462c-8f1b-76a826c9dc55
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Import/Export, Data Integration, Data Warehouse Manager
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1120'
 ht-degree: 6%
 
 ---
@@ -19,7 +19,7 @@ In dit document worden het doel en het gebruik van `Data Warehouse Views` dat to
 
 De functie `Data Warehouse Views` is een methode om nieuwe geagendeerde tabellen te maken door een bestaande tabel te wijzigen of door meerdere tabellen samen te voegen of te consolideren met SQL. Als een `Data Warehouse View` eenmaal is gemaakt en verwerkt door een updatecyclus, wordt het in uw Data Warehouse gevuld als een nieuwe tabel onder het vervolgkeuzemenu `Data Warehouse Views` , zoals hieronder wordt getoond:
 
-![](../../assets/Data_Warehouse.png)
+![ interface die van Data Warehouse de opties van het lijstbeheer tonen ](../../assets/Data_Warehouse.png)
 
 Van hier, functioneert uw nieuwe mening zoals een andere lijst, die u de macht geven om nieuwe berekende kolommen tot stand te brengen of metriek en rapporten bovenop het te bouwen.
 
@@ -31,7 +31,7 @@ Als u bekend bent met SQL, gebruiken beide consolidatievoorbeelden de `UNION` fu
 
 U kunt nieuwe `Data Warehouse Views` maken en bestaande weergaven verwijderen door naar **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]** te navigeren, zoals hieronder wordt getoond:
 
-![](../../assets/Data_Warehouse_Views.png)
+![ sectie van de Mening van Data Warehouse die de configuraties van de douanemening tonen ](../../assets/Data_Warehouse_Views.png)
 
 Hier kunt u een weergave maken door de voorbeeldinstructies hieronder te volgen:
 
@@ -136,7 +136,7 @@ In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te 
 
 **zoekend extra hulp?**
 
-Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) hulp in de verwezenlijking van meningen aan. Voor alles, van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van Data Warehouse voor de doeleinden van een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
+Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) hulp in de verwezenlijking van meningen aan. Voor alles, van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van Data Warehouse voor de doeleinden van een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
 Gewoonlijk duurt het maken van een nieuwe `Data Warehouse View` voor het consolideren van 2-3 vergelijkbare gestructureerde tabellen vijf uur aan servicetijd, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
 

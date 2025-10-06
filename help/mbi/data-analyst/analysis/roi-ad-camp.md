@@ -4,9 +4,9 @@ description: Meer informatie over enkele verschillende methoden om de prestaties
 exl-id: 4f2bf408-eeaf-4dbf-b62e-89426734640a
 role: Admin, User
 feature: Data Warehouse Manager, Reports, Campaigns
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 * Je gegevens over advertentiekosten importeren:
    * [ verbind uw  [!DNL Google AdWords]  met  [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] besteedt in [!DNL Commerce Intelligence]
    * [ uploadt andere reclame kostengegevens ](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt geadviseerd voor kanalen zonder een directe schakelaar aan [!DNL Commerce Intelligence]
-   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [&#128279;](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
+   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [ ](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Kanaalgegevens van verwervingskanalen bijhouden](../analysis/google-track-user-acq.md)
 
 ## Aankoopcampagnes voor gebruikers
@@ -46,7 +46,7 @@ Analyseert (1) en (2) hierboven worden verkend in een afzonderlijk leerprogramma
 1. Selecteer `Add New Metric` en selecteer de [!DNL `Adwords...`] -tabel die uw [!DNL AdWords] kostengegevens opneemt.
 1. Geef uw metrische waarde in de metrische editor een naam (bijvoorbeeld [!UICONTROL AdWord Cost] )
 1. Gebruikend dropdowns, voer a **Som** op de `adCost` kolom in de [!DNL Adwords...] lijst (Verandering) uit die door de `date` kolom wordt bevolen.
-   ![](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
+   ![ bericht van het Succes na het toevoegen van nieuwe metrische ](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
 1. Klik op `Back to Metric List` bovenaan en ga naar een willekeurig dashboard.
 
 1. Een rapport maken dat segmenten via campagnes doorgeven
@@ -99,7 +99,7 @@ Gebruikt u productspecifieke advertenties? Als dat het geval is, kunt u de ROI o
 >
 >In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door ervan uit te gaan dat alle kosten werden besteed aan het genereren van aankopen, maakt het resulterende rendement van investeringen het worstcasescenario (hoogste kosten per aankoop). U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die 10 nieuwe gebruikers en 10 aankopen genereerde, zijn uw werkelijke kosten per aankoop $1. Onder de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.
 
-Alvorens u begint, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
+Alvorens u begint, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
 
 * De bron van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de bron van de gebruiker aansluit)
 * De campagne van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich aansluit bij gebruikerscampagne)
@@ -122,8 +122,8 @@ Alvorens u begint, [ voorlegt een steunkaartje ](https://experienceleague.adobe.
 1. Voeg formules toe met deze meetwaarden:
 1. [!UICONTROL ROI]: voer de formule `\[A\]/\[B\]` in als `\[A\]` `Revenue per campaign for specific product(s)` en `\[B\]` `Ad cost by campaigns` vertegenwoordigt. Hiermee wordt de verhouding tussen (inkomsten voor specifieke producten) en (campagnekosten) gegeven
 1. [!UICONTROL Return]: voer de formule in `\[A\]-\[B\]` . Dit geeft de gemiddelde marge voor een gebruiker door te berekenen (gemiddelde LTV-gebruiker) - (gemiddelde kostprijs per aankoop)
-1. (Optioneel) [!UICONTROL Revenue]: maak de `Revenue by items` -meting zichtbaar om de inkomsten voor specifieke producten per campagne weer te geven
-1. (Optioneel) [!UICONTROL Cost]: maak de `AdWords Cost` -metrische informatie zichtbaar om de kosten voor campagnes te zien
+   1. (Optioneel) [!UICONTROL Revenue]: maak de `Revenue by items` -meting zichtbaar om de inkomsten voor specifieke producten per campagne weer te geven
+   1. (Optioneel) [!UICONTROL Cost]: maak de `AdWords Cost` -metrische informatie zichtbaar om de kosten voor campagnes te zien
 
 1. Geef uw rapport een naam en zorg ervoor het als lijst bewaart
 

@@ -4,9 +4,9 @@ description: Leer u vertrouwd te maken met de terminologie die in SQL Report Bui
 exl-id: 9b9bc205-5b64-4e64-8d23-057072e5dd72
 role: Admin, Data Architect, Data Engineer, Leader, User
 feature: SQL Report Builder, Data Warehouse Manager, Reports, Data Integration
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Neem bijvoorbeeld deze query in overweging die het maandelijkse totale aantal ve
 
 Deze vraag keert deze lijst van resultaten terug:
 
-![](../assets/SQL_results_table.png)
+![ Lijst die SQL vraagresultaten met punten tonen die door product, jaar, en maand ](../assets/SQL_results_table.png) worden verkocht
 
 ## Stap 2: De visualisatie maken
 
@@ -66,7 +66,7 @@ Met deze resultaten, *hoe creeert u de visualisatie?* Klik om aan de slag te gaa
 
 Wanneer een vraag eerst wordt uitgevoerd, kan het rapport onscrubable kijken omdat alle kolommen in de vraag als reeks worden uitgezet:
 
-![](../assets/SQL_initial_report_results.png)
+![ Aanvankelijk SQL rapport met alle kolommen die als reeksen worden geplot ](../assets/SQL_initial_report_results.png)
 
 In dit voorbeeld wilt u dat dit een lijngrafiek wordt die zich in de loop van de tijd ontwikkelt. Gebruik de volgende instellingen om het bestand te maken:
 
@@ -82,13 +82,13 @@ In dit voorbeeld wilt u dat dit een lijngrafiek wordt die zich in de loop van de
 
 Hieronder volgt een snel overzicht van hoe u deze visualisatie creeerde, van het runnen van de vraag aan vestiging het rapport:
 
-![](../assets/SQL_report_settings.gif)
+![ Geanimeerde demonstratie van het vormen van SQL montages van de rapportvisualisatie ](../assets/SQL_report_settings.gif)
 
 ## Stap 3: Selecteer een `Chart Type`
 
 In dit voorbeeld wordt het diagramtype `Line` gebruikt. Als u een andere `chart type` wilt gebruiken, klikt u op de pictogrammen boven de sectie met grafiekopties om deze te wijzigen:
 
-![](../assets/Chart_types.png)
+![ Beschikbare grafiektypepictogrammen met inbegrip van lijn, bar, gebied, en andere visualisatieopties ](../assets/Chart_types.png)
 
 ## Stap 4: De visualisatie opslaan
 

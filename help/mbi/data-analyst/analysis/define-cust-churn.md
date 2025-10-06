@@ -4,9 +4,9 @@ description: Leer hoe u een dashboard instelt waarmee u het koor voor uw klanten
 exl-id: fea8f7e9-c84c-4d49-a657-8b75140c113a
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Warehouse Manager, Reports, Dashboards
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Dit onderwerp toont aan hoe te opstelling een dashboard dat u helpt karn voor uw transactieklanten bepalen.
 
-![](../../assets/churn-deashboard.png)
+![ Klantkurn dashboard die klaringstarief en behoudmetriek tonen ](../../assets/churn-deashboard.png)
 
 Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
 
@@ -44,11 +44,11 @@ Te maken kolommen
 * Selecteer een definitie: `Age`
 * Selecteer een [!UICONTROL column]: `created_at`
 
-* **`Customer's order number`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
-* **`Is customer's last order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
-* **`Seconds since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
-* **`Months since order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
-* **`Months since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2&rbrace; kaartje van het KLOOFJE &lbrace;]**
+* **`Customer's order number`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Is customer's last order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Seconds since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Months since order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
+* **`Months since previous order`** wordt gecreeerd door een analist als deel van uw **[HET DEFINIËREN 2} kaartje van het KLOOFJE {]**
 
 ## Metrisch
 
@@ -69,27 +69,27 @@ Geen nieuwe metriek!
 * [!UICONTROL Metric]: aantal bestellingen
 
 * [!UICONTROL Formula]: waarschijnlijkheid van eerste herhalingsvolgorde
-* &#x200B;
-  [!UICONTROL -formule]: `A/B`
-* &#x200B;
+* 
+  [!UICONTROL-formule]: `A/B`
+* 
   [!UICONTROL Format]: `Percent`
 
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
-* &#x200B;
+* 
   [!UICONTROL Chart type]: `Scalar`
 
 * **Herhaal orde kansingsmaanden sinds orde**
 * Metrisch A: Volgorde van maanden sinds vorige orde (huid) herhalen
 * [!UICONTROL Metric]: `Number of orders`
-* &#x200B;
+* 
   [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
 * Metrisch B: Laatste bestellingen per maand sinds bestelling (verbergen)
 * [!UICONTROL Metric]: `Number of orders`
-* &#x200B;
+* 
   [!UICONTROL Perspective]: `Cumulative`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
@@ -97,29 +97,29 @@ Geen nieuwe metriek!
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Customer's order number greater than 1`
 
-* &#x200B;
+* 
   [!UICONTROL Group door]: `Independent`
 
 * Metrisch D: All-time last orders (hide)
 * [!UICONTROL Metric]: `Number of orders`
 * [!UICONTROL Filter]: `Is customer's last order? (Yes/No) = Yes`
 
-* &#x200B;
+* 
   [!UICONTROL Group door]: `Independent`
 
 * [!UICONTROL Formula]: waarschijnlijkheid van eerste herhalingsvolgorde
-* &#x200B;
-  [!UICONTROL -formule]: `(C-A)/(C+D-A-B)`
-* &#x200B;
+* 
+  [!UICONTROL-formule]: `(C-A)/(C+D-A-B)`
+* 
   [!UICONTROL Format]: `Percent`
 
 * [!UICONTROL Time period]: `All time`
-* &#x200B;
+* 
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Months since previous order`
 * Bovenkant weergeven.Onder: bovenste 24 categorieën, gesorteerd op categorienaam
 
-* &#x200B;
+* 
   [!UICONTROL Chart type]: `Line`
 
 Het waarschijnlijkheidsrapport voor de eerste herhalingsvolgorde vertegenwoordigt de Totaal aantal herhalingsorders / Totaal aantal bestellingen. Elke order is een kans om een herhalingsvolgorde te maken; het aantal herhalingsorders is de subset van de orders die daadwerkelijk worden uitgevoerd.
@@ -132,4 +132,4 @@ Zodra u uw dashboard hebt opgebouwd, de gemeenschappelijkste vraag is: Hoe gebru
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan lijken op de afbeelding boven aan de pagina
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

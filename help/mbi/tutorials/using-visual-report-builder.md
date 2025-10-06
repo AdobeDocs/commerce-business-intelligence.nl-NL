@@ -4,9 +4,9 @@ description: Leer de gegevens in uw rapport gedurende een bepaalde periode te an
 exl-id: da97b63d-63f0-4fd6-87e3-4cac49a42acc
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ U kunt extra metriek toevoegen nadat aanvankelijke metrisch wordt geselecteerd e
 
 Stel dat u een rapport wilt maken waarin de gemiddelde inkomsten per bestelling worden weergegeven. In dit geval deelt u de `Revenue` -metrische waarde door de `Number of orders` -waarde.
 
-![](../assets/ave-rev-per-order.png)
+![ Gebruik Visuele Report Builder ](../assets/ave-rev-per-order.png)
 
 ## Stap 4: De instellingen `Time Period` en `Interval of Analysis` {#time}
 
 Aan nul binnen op een bepaalde rektijd, kunt u de tijdspanne voor de analyse plaatsen. U kunt ook tijdintervallen kiezen om de gegevens te segmenteren (bijvoorbeeld op jaar, op kwartaal of op maand). Gebruik de menu&#39;s in de rechterbovenhoek van het diagram om de tijdsperiode en het interval in te stellen.
 
-![](../assets/Time_Options_Report_Builder.png)
+![ Gebruik Visuele Report Builder ](../assets/Time_Options_Report_Builder.png)
 
 Wanneer het plaatsen van een specifieke datumwaaier voor de tijdspanne, zorg ervoor dat de begindatum bij het begin van het interval is en de einddatum aan het eind van uw interval is.
 
@@ -57,17 +57,17 @@ U kunt `None` kiezen om te voorkomen dat een metrische code wordt gesegmenteerd.
 
 Ga terug naar uw gemiddelde opbrengst per ordevoorbeeld en plaats de Groep door aan bevorderingscode. Dit toont u de gemiddelde opbrengst per orde voor orden zowel met als zonder een bevorderingscode.
 
-![](../assets/Group_By_Report_Builder.png)
+![ Gebruik Visuele Report Builder ](../assets/Group_By_Report_Builder.png)
 
 Als de metriek inbegrepen in de analyse op verschillende gegevenslijsten wordt voortgebouwd, staat een pop-up u toe om de passende gegevensdimensie in elke lijst te selecteren. Het doel is hier dimensies te vinden die type van waarden voor segmentatie delen:
 
-![](../assets/Dimension_Editor.png)
+![ Gebruik Visuele Report Builder ](../assets/Dimension_Editor.png)
 
 ## Stap 6: Instellen `Metric Filters` , `Perspective` en `Time Interval` {#metric-specific}
 
-Voor elke metrische waarde die aan de analyse wordt toegevoegd, kunt u filters toevoegen, het relevante gegevensperspectief selecteren en `time interval` -opties instellen. Om tot deze eigenschappen toegang te hebben, klik de trechter (`Filter`), oog (`Perspective`), en klok (`Time`) pictogrammen die naast de metriek inbegrepen in het rapport worden gevestigd.
+Voor elke metrische waarde die aan de analyse wordt toegevoegd, kunt u filters toevoegen, het relevante gegevensperspectief selecteren en `time interval` -opties instellen. Om tot deze eigenschappen toegang te hebben, klik funnel (`Filter`), oog (`Perspective`), en klok (`Time`) pictogrammen die naast metriek inbegrepen in het rapport worden gevestigd.
 
-![](../assets/Filters_Perspective_Interval_Report_builder.png)
+![ Gebruik Visuele Report Builder ](../assets/Filters_Perspective_Interval_Report_builder.png)
 
 ### `Filters`
 
@@ -83,7 +83,7 @@ Het gebruik van jokertekens (`%` of `_` ) met `LIKE` -instructies wordt onderste
 
 Door meerdere filters toe te voegen, kunt u de gegevens in de grafiek strak beheren. Standaard moeten alle filtervoorwaarden true zijn voor een deel van de gegevens dat wordt opgenomen, maar u kunt OR-relaties maken door het tekstvak Filterregels te bewerken.
 
-![](../assets/edit-filter-rules.png)
+![ Gebruik Visuele Report Builder ](../assets/edit-filter-rules.png)
 
 ### `Perspectives`
 
@@ -91,23 +91,23 @@ Door meerdere filters toe te voegen, kunt u de gegevens in de grafiek strak behe
 
 - `Standard perspective`: In het standaardperspectief ziet u het resultaat van de overeenkomende datum op de x-as (bijvoorbeeld omzet in januari). Dit is het perspectief dat u in uw Gemiddelde opbrengst per ordevoorbeeld gebruikt.
 
-![](../assets/Standard.png)
+![ Gebruik Visuele Report Builder ](../assets/Standard.png)
 
 - `Amount` OF `Percent Change` versus `Previous Period` perspectief: dit perspectief toont de hoeveelheid of het percentage verandering van het ene interval in het volgende en is nuttig om de snelheid van verandering in snel veranderende metriek te meten. Er is ook een perspectief om het interval te vergelijken met dezelfde periode vorig jaar om de groei van jaar tot jaar te laten zien.
 
-![](../assets/Amt_or_Percent_Change.png)
+![ Gebruik Visuele Report Builder ](../assets/Amt_or_Percent_Change.png)
 
 - `Cumulative perspective`: `cumulative perspective` toont het lopende of cumulatieve totale bedrag van metrisch over de tijdspanne. Dit wordt vaak gebruikt om totale klanten te analyseren en voor toekomstige capaciteit te plannen.
 
-![](../assets/Cumulative_Perspective.png)
+![ Gebruik Visuele Report Builder ](../assets/Cumulative_Perspective.png)
 
 - `Percent of First Value perspective`: In dit perspectief worden de gegevens weergegeven als een percentage van het eerste interval dat is opgenomen in de analyse. Dit is nuttig bij het meten van de doeltreffendheid van specifieke acties in verhouding tot de prestaties van de eerste periode.
 
-![](../assets/Percent_of_First_Value.png)
+![ Gebruik Visuele Report Builder ](../assets/Percent_of_First_Value.png)
 
 - `Rolling averages window perspective`: het het rollen gemiddelde perspectief van het venster van gemiddelden toont de het rollen gemiddelde waarde van metrisch over de gespecificeerde tijdwaaier. Het interval moet het zelfde zijn als het interval dat op het rapportniveau wordt geplaatst. Bijvoorbeeld, als het rapport het laatste volledige kwart van Ontvangsten door week toont, kunt u het het rollen gemiddelde tijdwaaier van het venster aan vier weken plaatsen. Dit betekent dat de eerste drie waarden null zijn en de vierde waarde het gemiddelde van de eerste vier weken van Ontvangsten vertegenwoordigt. Voor de duidelijkheid moet u het selectievakje `Multiple Y-Axes` uitschakelen als u dezelfde maateenheid met een voortschrijdend gemiddelde weergeeft, zoals in het onderstaande voorbeeld.
 
-![](../assets/rolling_avg_window.png)
+![ Gebruik Visuele Report Builder ](../assets/rolling_avg_window.png)
 
 ### Opties voor metrische specifieke tijd
 
@@ -131,7 +131,7 @@ U kunt verkiezen om een grafiek, een lijst, of een aantal (`scalar`) te bewaren 
 
 U kunt het rapport vervolgens opslaan door op **[!UICONTROL Save to Dashboard]** te klikken.
 
-![](../assets/save-to-dashboard.png)
+![ Gebruik Visuele Report Builder ](../assets/save-to-dashboard.png)
 
 ## Resultaten rapporteren
 
@@ -139,14 +139,14 @@ Om u te helpen beslissen welke rapportoutput om te kiezen, zie het volgende:
 
 ### Diagram
 
-![](../assets/RB_Chart.png)
+![ Gebruik Visuele Report Builder ](../assets/RB_Chart.png)
 
 ### Tabel
 
-![](../assets/RB_Table.png)
+![ Gebruik Visuele Report Builder ](../assets/RB_Table.png)
 
 ### Getal (`scalar`)
 
-![](../assets/RB_Scalar.png)
+![ Gebruik Visuele Report Builder ](../assets/RB_Scalar.png)
 
 Gefeliciteerd! U bent klaar.

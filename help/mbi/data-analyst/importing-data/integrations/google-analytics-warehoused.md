@@ -4,9 +4,9 @@ description: Leer hoe bezoekers uw site gebruiken, welke inhoud aantrekkelijk is
 exl-id: b9879399-9e1a-4f36-b510-8426ebc83aeb
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/google-analytics-logo.png)
+![ het embleem van Google Analytics ](../../../assets/google-analytics-logo.png)
 
 [!DNL Google Analytics] is de meest gebruikte service voor webanalyse op internet. Als u [!DNL Google Analytics] op uw website implementeert, kunt u bijhouden hoe bezoekers uw site gebruiken, welke inhoud aantrekkelijk is, waar bezoekers vertrekken en nog veel meer. [!DNL Google Analytics Warehoused] is een afzonderlijke integratie van uw bestaande [!DNL Google Analytics] -integratie. Hierdoor is een betere analyse mogelijk omdat de [!DNL Google Analytics] -gegevens zich in uw Data Warehouse bevinden. Dit is anders dan de live feed van de bestaande [!DNL Google Analytics] -integratie. Als u deze gegevens in [!DNL Commerce Intelligence] analyseert, worden de algemene gezondheid en bruikbaarheid van uw site verbeterd, samen met andere gegevens.
 
@@ -35,7 +35,7 @@ Met de [!DNL Google Analytics Live] -integratie aan de andere kant is elke [!DNL
 
 >[!INFO]
 >
->[!DNL Google Analytics Warehoused] is een `Premium` Integratie. [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) als u een belang in het toevoegen van deze integratie aan uw abonnement hebt.
+>[!DNL Google Analytics Warehoused] is een `Premium` Integratie. [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u een belang in het toevoegen van deze integratie aan uw abonnement hebt.
 
 1. Ga naar de pagina `Connections` onder **[!UICONTROL Admin** > **Integrations]** .
 1. Klik op **[!UICONTROL Add an Integration]** aan de rechterkant.
@@ -63,7 +63,7 @@ De profiel-id [!DNL Google Analytics] van een bepaalde website identificeren:
 
 ## Gerelateerde documentatie
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Verbinding maken  [!DNL Google Adwords]](../integrations/google-adwords.md)
 * [Websiteactiviteiten en conversietarieven van klanten analyseren](../../analysis/web-act-cust-conversion.md)
 * [De gegevens van de gebruikersverwerving van het spoor gebruikend  [!DNL Google Analytics]  koekjes](../../analysis/google-track-user-acq.md)

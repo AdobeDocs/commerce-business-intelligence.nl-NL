@@ -4,9 +4,9 @@ description: Leer hoe te om  [!DNL MySQL]  via de Tunnel van SSH te verbinden.
 exl-id: 6b691a6a-9542-4e47-9b1d-d6d3c3dac357
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export, SQL Report Builder
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Laat deze pagina gedurende de zelfstudie open - u hebt deze nodig in de volgende
 
 Hieronder wordt beschreven hoe u door [!DNL Commerce Intelligence] kunt navigeren om de toets op te halen:
 
-![](../../../assets/MySQL_SSH.gif)<!--{: width="770"}-->
+![ Geanimeerde demonstratie van verbinding MySQL via de tunnel van SSH ](../../../assets/MySQL_SSH.gif)<!--{: width="770"}-->
 
 ## Toegang tot het IP-adres van [!DNL Commerce Intelligence] toestaan {#allowlist}
 
@@ -120,4 +120,4 @@ Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te v
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

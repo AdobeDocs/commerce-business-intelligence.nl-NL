@@ -4,9 +4,9 @@ description: Leer over de analyse van gebruikersgroepen die gelijkaardige kenmer
 exl-id: d80c5389-7256-40e0-86e0-49903113f93d
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Nu u zich in `Report Builder` bevindt, voegt u de metrische waarde toe waarop u 
 
 **Knevel de Metrische Mening aan`Cohort`**
 
-![](../../assets/visual-report-builder-cohort-toggle.png)
+![ Visuele Report Builder die de kneveloptie van de de kleurenanalyse tonen ](../../assets/visual-report-builder-cohort-toggle.png)
 
 Hiermee wordt een nieuw venster geopend waarin de details van het `Cohort` -rapport worden geconfigureerd.
 
@@ -83,7 +83,7 @@ Met deze functie kunt u het tijdbereik instellen van gegevens die u voor de gese
 
 Het interval voor deze waarde verandert met wat u in `cohort time period` hebt geselecteerd en de waarde wordt standaard ingesteld op `12` . De waarde verandert alleen als u op het kalenderpictogram klikt om deze te bewerken.
 
-![](../../assets/cohort-time-range.png)
+![ de selecteur van de tijdwaaier van de Cohort die datumopties toont ](../../assets/cohort-time-range.png)
 
 #### Overige opmerkingen
 
@@ -105,7 +105,7 @@ Hieronder vindt u instructies die specifiek zijn voor de oudere versie van de `C
 
 #### Hoe maak ik mijn eigen `cohort` analyse? {#create}
 
-![](../../assets/create-cohort-analysis.png)
+![ creeer de dialoog van de kleurenanalyse met configuratieopties ](../../assets/create-cohort-analysis.png)
 
 `Cohort` analyse in actie! Hier zie je dat de omzet in de loop der tijd toeneemt, op cumulatieve basis en per gebruiker.
 
@@ -155,7 +155,7 @@ Onder `duration` kunt u de instellingen voor de X-as van het diagram definiëren
 
 Als u ervoor hebt gekozen om gebruikers te groeperen met een `cohort date` die vanuit een andere tabel is gekoppeld, wordt mogelijk een `counting members in the … table` -optie weergegeven.
 
-![](../../assets/Cohort_Counting_Members_option.png)
+![ de tellende van de Cohort ledenoptie die onafhankelijke versus cumulatieve wijzen tonen ](../../assets/Cohort_Counting_Members_option.png)
 
 Bekijk een voorbeeld om deze instelling te begrijpen. Stel dat u een rapport hebt gemaakt waarin een `Revenue` metrisch op `Customer's registration date` wordt geconverteerd. Je wilde ook het perspectief `Average value per cohort member` gebruiken om de opbrengst per koper in de loop van de tijd te zien. Als je de gemiddelde waarde per koper wilt vinden, moet je bepalen door hoeveel kopers je wilt delen. Is het het aantal geregistreerde klanten in uw `customers` lijst, of is het het aantal verschillende kopers in uw `orders table` voor de zelfde periode?
 
@@ -169,7 +169,7 @@ Net boven de rapportvisualisatie bevindt zich een vervolgkeuzelijst met `perspec
 
 Zie [ Perspectieven ](#perspectives).
 
-![](../../assets/Cohort_Perspective_Menu.png)
+![ het perspectiefmenu van de Cohort dat verschillende meningsopties toont ](../../assets/Cohort_Perspective_Menu.png)
 
 ## Voorbeelden van cohortanalyse {#examples}
 

@@ -4,9 +4,9 @@ description: Leer hoe u de status van de updatecyclus kunt controleren.
 exl-id: bd65f2bb-86c1-4e83-a132-797694ddb086
 role: Admin, Data Architect, Data Engineer, User
 feature: Dashboards
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Wanneer u zich aanmeldt bij het [!DNL Adobe Commerce Intelligence] -dashboard, k
 
 ## Waarom zou ik de status van de Update Cycle controleren?
 
-Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw [!DNL Commerce Intelligence] rekening controleert. Als u [ resultaten ziet die uw verwachtingen ](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md) niet ontmoeten, bijvoorbeeld, passen de dagelijkse verkoop in [!DNL Commerce Intelligence] niet aan wat u in uw e-commerceplatform of in uw [[!DNL Google]  e-commerceopbrengst ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html?lang=nl-NL) ziet u het laatste gegevenspunt kunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
+Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw [!DNL Commerce Intelligence] rekening controleert. Als u [ resultaten ziet die uw verwachtingen ](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md) niet ontmoeten, bijvoorbeeld, passen de dagelijkse verkoop in [!DNL Commerce Intelligence] niet aan wat u in uw e-commerceplatform of in uw [[!DNL Google]  e-commerceopbrengst ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) ziet u het laatste gegevenspunt kunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
 
 ## [!UICONTROL Read-Only] en [!UICONTROL Standard] Users
 
 `Read-only` -gebruikers kunnen zich aanmelden bij hun dashboard en zien hoe recent de gegevens zijn bijgewerkt door de muisaanwijzer op het pictogram rechtsboven op de pagina te plaatsen. Dit toont wanneer het laatste gegevenspunt werd getrokken.
 
-![](../../mbi/assets/last-success-data.png)
+![ Laatste succesvolle tijdstempel van gegevensupdate getoond in interface ](../../mbi/assets/last-success-data.png)
 
 ## [!UICONTROL Admin] Gebruikers
 
@@ -31,7 +31,7 @@ Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw 
 
 Voor meer informatie kunnen beheerders op **[!UICONTROL Manage Data]** > **[!UICONTROL Integrations]** klikken.
 
-![](../../mbi/assets/detail-manage-data-integrations.png)
+![ beheer de pagina van de Integraties van Gegevens die verbindingsdetails en updatestatus tonen ](../../mbi/assets/detail-manage-data-integrations.png)
 
 Op deze pagina ziet u de huidige updatestatus en de tijd van de laatste voltooide update.
 

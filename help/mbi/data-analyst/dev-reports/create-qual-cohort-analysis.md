@@ -4,9 +4,9 @@ description: Leer wat een kwalitatief cohort is, waarom je geïnteresseerd bent 
 exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Als u echter het cohortgedrag van meerdere gebruikerssegmenten in hetzelfde coho
 
 Creërend een `qualitative cohort` rapport in `Report Builder` impliceert het de analistenteam van Adobe die sommige [ geavanceerde berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) creëren op de noodzakelijke lijsten.
 
-Om deze te bouwen, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) (en verwijzing dit artikel!). Dit is wat u moet weten:
+Om deze te bouwen, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (en verwijzing dit artikel!). Dit is wat u moet weten:
 
 * De `metric` waarmee u de cohortanalyse wilt uitvoeren en de tabel waarin deze wordt gebruikt (bijvoorbeeld: `Revenue` , gebaseerd op de tabel `orders` ).
 
@@ -55,7 +55,7 @@ Als het Adobe-analistenteam op het bovenstaande reageert, hebt u een paar nieuwe
 
 Eerst wilt u de metrische waarde toevoegen die u interesseert voor cohoring, eenmaal voor elke `cohort` die u analyseert. In dit voorbeeld wilt u dat cumulatief `Revenue` wordt gemaakt in de maanden na de eerste bestelling van een klant, gesegmenteerd door `User's referral source` . Dit betekent dat u voor elk segment één `Revenue` metrische waarde en filter voor het specifieke segment toevoegt:
 
-![](../../assets/qualcohort1.gif)
+![ Geanimeerde demonstratie van het creëren van een kwalitatieve cohortanalyse ](../../assets/qualcohort1.gif)
 
 Ten tweede moet u twee wijzigingen aanbrengen in de tijdopties van het rapport:
 
@@ -65,7 +65,7 @@ Ten tweede moet u twee wijzigingen aanbrengen in de tijdopties van het rapport:
 
 In dit voorbeeld bekijkt u een `all time` weergave van `Revenue` . Daarna, zou u met een reeks punten moeten eindigen:
 
-![](../../assets/qualcohort2.gif)
+![ Geanimeerde demonstratie van cohort groepering en analyseopties ](../../assets/qualcohort2.gif)
 
 Ten derde past u zich aan om de `cohorts` in te stellen. Op basis van de `cohort date` en `time interval` die u hebt opgegeven voor het Adobe-analistteam, hebt u een dimensie in uw account die de `cohort` -bewerking uitvoert. In dit voorbeeld wordt die aangepaste dimensie `Months between this order and customer's first order date` genoemd. Met deze dimensie moet u:
 

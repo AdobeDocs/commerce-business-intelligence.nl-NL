@@ -4,9 +4,9 @@ description: Leer om de nadruk van de klantenreis van begin tot eind van  [!DNL 
 exl-id: 824e1ee4-6b88-42f7-b265-29330dbc4407
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
-![](../../../assets/adobe-analytic-slogo.png)
+![ het embleem van Adobe Analytics ](../../../assets/adobe-analytic-slogo.png)
 
 Dankzij de [!DNL Adobe Analytics] integratie voor [!DNL Adobe Commerce Intelligence] kunt u de volledige aandacht van de klant voor de reis van [!DNL Adobe Analytics] en de eCommerce-focus die u van [!DNL Commerce Intelligence] vertrouwt, samenbrengen. Dit geeft je een volledig beeld van de algehele prestaties van je winkel.
 
@@ -57,6 +57,6 @@ De volgende informatie is nodig om verbinding te maken:
 
 1. De geselecteerde rapportsuite wordt in een tabel weergegeven. Klik op **[!UICONTROL Save]** om uw selectie te bevestigen.
 
-1. Informeer het [!DNL Commerce Intelligence] [ team van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) dat uw integratie wordt gemachtigd, en zij stellen het aanvankelijke verbindingsproces voor u in werking.
+1. Informeer het [!DNL Commerce Intelligence] [ team van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) dat uw integratie wordt gemachtigd, en zij stellen het aanvankelijke verbindingsproces voor u in werking.
 
 Nadat het eerste verbindingsproces is gestart, is uw tabel beschikbaar op de Data Warehouse-pagina onder het tabblad `All Tables` . Selecteer de kolommen die u wilt repliceren en de gegevens worden weergegeven na de volgende volledige update.

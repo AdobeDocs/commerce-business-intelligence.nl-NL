@@ -4,9 +4,9 @@ description: Leer hoe u uw Commerce-wisselkoers kunt genereren en analyseren.
 exl-id: 8775cf0a-114d-4b48-8bd2-fc1700c59a12
 role: Admin, Data Architect, Data Engineer, User
 feature: Data Warehouse Manager, Reports
-source-git-commit: adb7aaef1cf914d43348abf5c7e4bec7c51bed0c
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '338'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Dit onderwerp toont aan hoe te om het tarief van de a **kurn** voor uw **commerciële klanten** te berekenen. In tegenstelling tot SaaS of traditionele abonnementsbedrijven, hebben de handelklanten typisch geen concrete **&quot;koordgebeurtenis&quot;** om u te tonen dat zij niet meer op uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
 
-![](../../assets/Churn_rate_image.png)
+![ de tariefvisualisatie die van de Churn klantenbehoud in tijd toont ](../../assets/Churn_rate_image.png)
 
 Vele klanten willen hulp in beginnen te conceptualiseren wat **timeframe** zij zouden moeten gebruiken gebaseerd op hun gegevens. Als u historisch klantengedrag wilt gebruiken om dit **koele timeframe** te bepalen, kunt u zich met [ willen vertrouwd maken bepalend koor ](../analysis/define-cust-churn.md) onderwerp. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
 
@@ -76,19 +76,19 @@ Te maken kolommen
 * **Tarief van de Knevel**
    * [!UICONTROL Metric]: Nieuwe klanten (op eerste besteldatum)
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
-   * &#x200B;
+   * 
      [!UICONTROL Perspective]: `Cumulative`
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]:
-   * Seconden sinds laatste de ordedatum van de klant >= [ Uw zelf-bepaalde grens voor gekochte klanten ]&#x200B;**`^`**
+   * Seconden sinds laatste de ordedatum van de klant >= [ Uw zelf-bepaalde grens voor gekochte klanten ]**`^`**
    * `Lifetime number of orders Greater Than 0`
 
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
-   * &#x200B;
+   * 
      [!UICONTROL Perspective]: Cumulative
    * [!UICONTROL Formula]: `(B / ((A + B) - C)`
-   * &#x200B;
+   * 
      [!UICONTROL Format]: Percentage
 
 * *Metrisch `A`:`New customers cumulative`*

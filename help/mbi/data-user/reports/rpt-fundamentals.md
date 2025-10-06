@@ -4,9 +4,9 @@ description: Leer hoe u uw rapportgegevens gebruikt.
 exl-id: 94d4db27-0e06-4066-9c03-036b109d2d9b
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Het wordt tijd om een lijst van mogelijke analyses en metingen te identificeren 
 
 * Gemiddelde tijd van registratie tot eerste aankoopdatum per gebruik.
 
-Dit onthult de gemiddelde tijd die tussen registratiedatum en de eerste aankoopdatum van de gebruikers vervalt en geeft een idee over hoe de gebruikers zich in deze laatste stap in de conversietrechter gedragen.
+Hieruit blijkt de gemiddelde tijd die verstrijkt tussen de registratiedatum en de eerste aankoopdatum van de gebruikers en geeft u een idee van hoe gebruikers zich gedragen in deze laatste stap in de conversie-funnel.
 
 ## De gegevens zoeken
 
@@ -128,4 +128,4 @@ Wilt u een rapport opnemen in een presentatie of document? Elk rapport kan worde
 
 Zie hieronder:
 
-![](../../assets/exp-rep-as-image.gif)
+![ Geanimeerde demonstratie van het uitvoeren van een rapport als beelddossier ](../../assets/exp-rep-as-image.gif)

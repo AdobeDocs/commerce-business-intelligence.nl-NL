@@ -4,9 +4,9 @@ description: Leer hoe u filters kunt gebruiken.
 exl-id: eb683dfe-9a90-400a-a0c0-3dc00d1f28b5
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports, Data Integration
-source-git-commit: 0854d644cb72b3fc8b8b31a0bf7e8dca4cc99724
+source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die word
 
    In dit rapport, toont elk gegevenspunt het totale aantal klanten voor de maand.
 
-1. Klik in het linkerdeelvenster op het pictogram Filters (![](../../assets/magento-bi-btn-filter.png)).
+1. In het linkerpaneel, klik de Filters (![ pictogram van de Filter ](../../assets/magento-bi-btn-filter.png)).
 
    ![ voeg Filter ](../../assets/magento-bi-report-builder-filter-add.png) toe
 
@@ -35,7 +35,7 @@ Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die word
 
    Filters worden alfabetisch genummerd en de eerste is `[A]` . De eerste twee delen van het filter zijn vervolgkeuzemogelijkheden en het derde deel is een waarde.
 
-   ![](../../assets/magento-bi-report-builder-filter-add-a.png)
+   ![ interface die van de Filter toont toevoegt filteroptie ](../../assets/magento-bi-report-builder-filter-add-a.png)
 
    * Klik op het eerste deel van het filter en kies de kolom die u als het onderwerp van de expressie wilt gebruiken.
 
