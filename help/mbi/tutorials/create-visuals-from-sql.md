@@ -35,7 +35,7 @@ Voordat u met deze zelfstudie begint, raadpleegt u de volgende terminologie die 
 
 Houd rekening met het volgende:
 
-- [!DNL SQL Report Builder] gebruikt [`Redshift SQL` ](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
+- [!DNL SQL Report Builder] gebruikt [`Redshift SQL` &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/c_redshift-and-postgres-sql.html).
 
 - Als u een rapport met een tijdreeks maakt, moet u de tijdstempelkolom(men) `ORDER BY` gebruiken. Dit zorgt ervoor dat de tijdstempels in de juiste volgorde in het rapport worden uitgezet.
 
@@ -58,7 +58,7 @@ Neem bijvoorbeeld deze query in overweging die het maandelijkse totale aantal ve
 
 Deze vraag keert deze lijst van resultaten terug:
 
-![ Lijst die SQL vraagresultaten met punten tonen die door product, jaar, en maand ](../assets/SQL_results_table.png) worden verkocht
+![&#x200B; Lijst die SQL vraagresultaten met punten tonen die door product, jaar, en maand &#x200B;](../assets/SQL_results_table.png) worden verkocht
 
 ## Stap 2: De visualisatie maken
 
@@ -66,7 +66,7 @@ Met deze resultaten, *hoe creeert u de visualisatie?* Klik om aan de slag te gaa
 
 Wanneer een vraag eerst wordt uitgevoerd, kan het rapport onscrubable kijken omdat alle kolommen in de vraag als reeks worden uitgezet:
 
-![ Aanvankelijk SQL rapport met alle kolommen die als reeksen worden geplot ](../assets/SQL_initial_report_results.png)
+![&#x200B; Aanvankelijk SQL rapport met alle kolommen die als reeksen worden geplot &#x200B;](../assets/SQL_initial_report_results.png)
 
 In dit voorbeeld wilt u dat dit een lijngrafiek wordt die zich in de loop van de tijd ontwikkelt. Gebruik de volgende instellingen om het bestand te maken:
 
@@ -82,13 +82,13 @@ In dit voorbeeld wilt u dat dit een lijngrafiek wordt die zich in de loop van de
 
 Hieronder volgt een snel overzicht van hoe u deze visualisatie creeerde, van het runnen van de vraag aan vestiging het rapport:
 
-![ Geanimeerde demonstratie van het vormen van SQL montages van de rapportvisualisatie ](../assets/SQL_report_settings.gif)
+![&#x200B; Geanimeerde demonstratie van het vormen van SQL montages van de rapportvisualisatie &#x200B;](../assets/SQL_report_settings.gif)
 
 ## Stap 3: Selecteer een `Chart Type`
 
 In dit voorbeeld wordt het diagramtype `Line` gebruikt. Als u een andere `chart type` wilt gebruiken, klikt u op de pictogrammen boven de sectie met grafiekopties om deze te wijzigen:
 
-![ Beschikbare grafiektypepictogrammen met inbegrip van lijn, bar, gebied, en andere visualisatieopties ](../assets/Chart_types.png)
+![&#x200B; Beschikbare grafiektypepictogrammen met inbegrip van lijn, bar, gebied, en andere visualisatieopties &#x200B;](../assets/Chart_types.png)
 
 ## Stap 4: De visualisatie opslaan
 
@@ -98,4 +98,4 @@ Selecteer in het vervolgkeuzemenu `Chart` als `Type` en vervolgens als dashboard
 
 ## Omloop omhoog
 
-Wilt u een stap verder gaan? Controle uit de [ beste praktijken van de vraagoptimalisering ](../best-practices/optimizing-your-sql-queries.md).
+Wilt u een stap verder gaan? Controle uit de [&#x200B; beste praktijken van de vraagoptimalisering &#x200B;](../best-practices/optimizing-your-sql-queries.md).

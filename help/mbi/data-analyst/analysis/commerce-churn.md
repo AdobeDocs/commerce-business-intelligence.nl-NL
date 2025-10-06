@@ -15,9 +15,9 @@ ht-degree: 2%
 
 Dit onderwerp toont aan hoe te om het tarief van de a **kurn** voor uw **commerciële klanten** te berekenen. In tegenstelling tot SaaS of traditionele abonnementsbedrijven, hebben de handelklanten typisch geen concrete **&quot;koordgebeurtenis&quot;** om u te tonen dat zij niet meer op uw actieve klanten zouden moeten tellen. Daarom kunt u met de onderstaande instructies een klant definiëren als &#39;afgewaardeerd&#39; op basis van een bepaalde hoeveelheid tijd die is verstreken sinds de laatste bestelling.
 
-![ de tariefvisualisatie die van de Churn klantenbehoud in tijd toont ](../../assets/Churn_rate_image.png)
+![&#x200B; de tariefvisualisatie die van de Churn klantenbehoud in tijd toont &#x200B;](../../assets/Churn_rate_image.png)
 
-Vele klanten willen hulp in beginnen te conceptualiseren wat **timeframe** zij zouden moeten gebruiken gebaseerd op hun gegevens. Als u historisch klantengedrag wilt gebruiken om dit **koele timeframe** te bepalen, kunt u zich met [ willen vertrouwd maken bepalend koor ](../analysis/define-cust-churn.md) onderwerp. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
+Vele klanten willen hulp in beginnen te conceptualiseren wat **timeframe** zij zouden moeten gebruiken gebaseerd op hun gegevens. Als u historisch klantengedrag wilt gebruiken om dit **koele timeframe** te bepalen, kunt u zich met [&#x200B; willen vertrouwd maken bepalend koor &#x200B;](../analysis/define-cust-churn.md) onderwerp. Vervolgens kunt u de resultaten in de formule voor de kleurfrequentie in de onderstaande instructies gebruiken.
 
 ## Berekende kolommen
 
@@ -37,7 +37,7 @@ Te maken kolommen
 
 >[!NOTE]
 >
->Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
+>Zorg ervoor om [&#x200B; alle nieuwe kolommen als afmetingen aan metriek &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Metrisch
 
@@ -69,26 +69,26 @@ Te maken kolommen
 
 >[!NOTE]
 >
->Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
+>Zorg ervoor om [&#x200B; alle nieuwe kolommen als afmetingen aan metriek &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
 * **Tarief van de Knevel**
    * [!UICONTROL Metric]: Nieuwe klanten (op eerste besteldatum)
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
-   * 
+   * &#x200B;
      [!UICONTROL Perspective]: `Cumulative`
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]:
-   * Seconden sinds laatste de ordedatum van de klant >= [ Uw zelf-bepaalde grens voor gekochte klanten ]**`^`**
+   * Seconden sinds laatste de ordedatum van de klant >= [ Uw zelf-bepaalde grens voor gekochte klanten ]&#x200B;**`^`**
    * `Lifetime number of orders Greater Than 0`
 
    * [!UICONTROL Metric]: `New customers (by last order date)`
    * [!UICONTROL Filter]: `Lifetime number of orders Greater Than 0`
-   * 
+   * &#x200B;
      [!UICONTROL Perspective]: Cumulative
    * [!UICONTROL Formula]: `(B / ((A + B) - C)`
-   * 
+   * &#x200B;
      [!UICONTROL Format]: Percentage
 
 * *Metrisch `A`:`New customers cumulative`*

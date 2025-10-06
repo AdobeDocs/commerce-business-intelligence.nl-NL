@@ -64,17 +64,17 @@ Met een [!DNL Google Analytics] -integratie kunt u rapporten opnemen over:
 * Bezoeken ter plaatse
 * Omrekeningskoers
 
-Met de [ diensten van de Verrijking van Gegevens van Commerce ](https://business.adobe.com/products/magento/magento-commerce.html), kunt u rapporten over omvatten:
+Met de [&#x200B; diensten van de Verrijking van Gegevens van Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html), kunt u rapporten over omvatten:
 
 * Unieke klanten naar land/regio, leeftijd, geslacht.
 
 ## Overige tips
 
-* Gebruik duidelijk en beknopt [ noemend overeenkomst ](../best-practices/naming-elements.md)
+* Gebruik duidelijk en beknopt [&#x200B; noemend overeenkomst &#x200B;](../best-practices/naming-elements.md)
 * Het dashboard delen met beleggers
 * Of verzend het via **[!UICONTROL Automated email summary]** (../data-user/export-data/email-summaries.md)
 * Maak slechts één dashboard. Dit maakt de inhoud gemakkelijker te onderhouden en u weet precies wat uw investeerders bekijken.
 
 Bewust uw rapporten en let op details. Na voltooiing ziet het dashboard er ongeveer als volgt uit:
 
-![ bouwt het Dashboard van de Investerer ](../../mbi/assets/investor-dboard-example.png)
+![&#x200B; bouwt het Dashboard van de Investerer &#x200B;](../../mbi/assets/investor-dboard-example.png)

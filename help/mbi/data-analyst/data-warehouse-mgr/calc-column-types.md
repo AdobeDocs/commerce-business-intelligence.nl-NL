@@ -19,9 +19,9 @@ ht-degree: 0%
 * [Handmatige verwijzingskaart](#map)
 * [Geavanceerde berekende kolommen](#advanced)
 
-Binnen de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md), kunt u kolommen tot stand brengen om uw gegevens voor analyse te verhogen en te optimaliseren. [ Deze functionaliteit ](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van Data Warehouse te selecteren en **[!UICONTROL Create New Column]** te klikken.
+Binnen de [&#x200B; Manager van Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md), kunt u kolommen tot stand brengen om uw gegevens voor analyse te verhogen en te optimaliseren. [&#x200B; Deze functionaliteit &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) kan worden betreden door om het even welke lijst in de Manager van Data Warehouse te selecteren en **[!UICONTROL Create New Column]** te klikken.
 
-In dit onderwerp worden de typen kolommen beschreven die u kunt maken met Data Warehouse Manager. Het behandelt ook de beschrijving, een visuele looppas-door van die kolom, en a [ verwijzingskaart ](#map) van alle die input wordt vereist om een kolom tot stand te brengen. Er zijn drie manieren om berekende kolommen te maken:
+In dit onderwerp worden de typen kolommen beschreven die u kunt maken met Data Warehouse Manager. Het behandelt ook de beschrijving, een visuele looppas-door van die kolom, en a [&#x200B; verwijzingskaart &#x200B;](#map) van alle die input wordt vereist om een kolom tot stand te brengen. Er zijn drie manieren om berekende kolommen te maken:
 
 1. [Dezelfde tabel berekende kolommen](#sametable)
 1. [Een-op-veel berekende kolommen](#onetomany)
@@ -37,7 +37,7 @@ Een pagina berekende kolom keert het aantal seconden tussen de huidige tijd en w
 
 In het onderstaande voorbeeld wordt `Seconds since customer's most recent order` in de tabel `customers` gemaakt. Hiermee kunt u gebruikerslijsten samenstellen van klanten die binnen `X days` geen aankopen hebben gedaan (dit wordt ook wel churning genoemd).
 
-![ Geanimeerde demonstratie van het creëren van de kolom van de leeftijdsberekening ](../../assets/age.gif)
+![&#x200B; Geanimeerde demonstratie van het creëren van de kolom van de leeftijdsberekening &#x200B;](../../assets/age.gif)
 
 ### Valuta-converter
 
@@ -47,11 +47,11 @@ In het onderstaande voorbeeld wordt `base\_grand\_total In AED` gemaakt en wordt
 
 Voor Commerce-clients worden in het veld `base\_currency\_code` gewoonlijk native valuta&#39;s opgeslagen. Het veld `Spot Time` moet overeenkomen met de datum die wordt gebruikt in de metriek.
 
-![ de omzetter van de Valuta berekende kolomconfiguratie ](../../assets/currency_converter.png)
+![&#x200B; de omzetter van de Valuta berekende kolomconfiguratie &#x200B;](../../assets/currency_converter.png)
 
 ## Een-op-veel berekende kolommen {#onetomany}
 
-`One-to-Many` kolommen [ gebruiken een weg tussen twee lijsten ](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). Dit pad impliceert altijd één tabel, waar een kenmerk woont, en een vele tabel, waar dat kenmerk naar beneden wordt verplaatst. Het pad kan worden omschreven als een `foreign key--primary key` -relatie.
+`One-to-Many` kolommen [&#x200B; gebruiken een weg tussen twee lijsten &#x200B;](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md). Dit pad impliceert altijd één tabel, waar een kenmerk woont, en een vele tabel, waar dat kenmerk naar beneden wordt verplaatst. Het pad kan worden omschreven als een `foreign key--primary key` -relatie.
 
 ### Samengevoegde kolom {#joined}
 
@@ -59,7 +59,7 @@ Een aangesloten bij kolom verplaatst een attribuut op één lijst *aan* de vele 
 
 In het onderstaande voorbeeld wordt de `Customer's group\_id` -dimensie samengevoegd tot de `orders` -tabel.
 
-![ Geanimeerde demonstratie van het creëren van aangesloten kolom die lijsten verbinden ](../../assets/joined_column.gif)
+![&#x200B; Geanimeerde demonstratie van het creëren van aangesloten kolom die lijsten verbinden &#x200B;](../../assets/joined_column.gif)
 
 ## Vele-aan-één berekende kolommen {#manytoone}
 
@@ -71,7 +71,7 @@ Dit type van berekende kolom keert de telling van waarden op de vele lijst *op* 
 
 In het onderstaande voorbeeld wordt de dimensie `Customer's lifetime number of canceled orders` gemaakt in de `customers` -tabel (met een filter voor `orders.status` ).
 
-![ Geanimeerde demonstratie van veel-aan-één kolomsamenvoeging ](../../assets/many_to_one.gif){: width="699" height="351"}
+![&#x200B; Geanimeerde demonstratie van veel-aan-één kolomsamenvoeging &#x200B;](../../assets/many_to_one.gif){: width="699" height="351"}
 
 ### Som {#sum}
 
@@ -95,13 +95,13 @@ Dit soort dimensie kan bijvoorbeeld bepalen of een klant ooit een bepaald produc
 
 Als u moeite hebt zich te herinneren wat alle input wanneer het creëren van een berekende kolom zijn, houd deze verwijzingskaart handig wanneer u bouwt:
 
-![ kaart die van de Verwijzing samengevoegde berekende kolomconfiguratie tonen ](../../assets/merged_reference_map.png)
+![&#x200B; kaart die van de Verwijzing samengevoegde berekende kolomconfiguratie tonen &#x200B;](../../assets/merged_reference_map.png)
 
 ## Geavanceerde berekende kolommen {#advanced}
 
 In uw vraag om vragen over uw zaken te analyseren en te beantwoorden, kunt u een situatie ontmoeten waarin u niet de nauwkeurige kolom kunt bouwen u wilt.
 
-Om een snelle ommekeer te verzekeren, adviseert Adobe het controleren van de [ Geavanceerde Berekende Gids van de Types van Kolom ](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) om te zien welk soort kolommen het de steunteam van Adobe kan bouwen. Dat onderwerp behandelt ook de info die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
+Om een snelle ommekeer te verzekeren, adviseert Adobe het controleren van de [&#x200B; Geavanceerde Berekende Gids van de Types van Kolom &#x200B;](../../data-analyst/data-warehouse-mgr/adv-calc-columns.md) om te zien welk soort kolommen het de steunteam van Adobe kan bouwen. Dat onderwerp behandelt ook de info die u van u nodig hebt om de kolom tot stand te brengen - omvat het met uw verzoek.
 
 ## Gerelateerde documentatie
 

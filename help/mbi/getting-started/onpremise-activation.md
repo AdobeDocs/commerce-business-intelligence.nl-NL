@@ -23,21 +23,21 @@ Neem contact op met uw Adobe-accountteam of technische adviseur van de klant om 
 
 Nadat uw account is gemaakt, controleert u uw e-mail op een e-mail met accountmeldingen vanuit [!DNL The Magento BI Team@rjmetrics.com] . Gebruik de koppeling in de e-mail om toegang te krijgen tot uw [!DNL Commerce Intelligence] -account en uw wachtwoord te maken. Ga naar je postvak IN en verifieer je e-mailadres.
 
-Als u geen e-mail ontving, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
+Als u geen e-mail ontving, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=en).
 
-![ creeer wachtwoordscherm voor nieuwe rekening van Commerce Intelligence ](../assets/create-account-4.png)
+![&#x200B; creeer wachtwoordscherm voor nieuwe rekening van Commerce Intelligence &#x200B;](../assets/create-account-4.png)
 
 ## Uw winkelvoorkeuren instellen
 
 Vul het formulier met opslaggegevens in voordat u de databaseverbinding configureert. Deze informatie is vereist om de installatie van **[!UICONTROL Connect your Database]** te voltooien.
 
-![ de informatievorm van de opslag met bedrijfsnaam, munt, en timezone gebieden ](../assets/create-account-6.png)
+![&#x200B; de informatievorm van de opslag met bedrijfsnaam, munt, en timezone gebieden &#x200B;](../assets/create-account-6.png)
 
 ## [!DNL Commerce Intelligence] gebruikers toevoegen
 
 Nadat u het wachtwoord hebt ingesteld en u hebt aangemeld bij [!DNL Commerce Intelligence] , kunt u andere gebruikers toevoegen aan uw [!DNL Commerce Intelligence] -account. Voeg bij het toevoegen van gebruikers de juiste machtigingen toe aan de beheerder om het activeringsproces te voltooien.
 
-![ voeg gebruikersvorm met e-mailadres en gebieden van het toestemmingsniveau toe ](../assets/create-account-5.png)
+![&#x200B; voeg gebruikersvorm met e-mailadres en gebieden van het toestemmingsniveau toe &#x200B;](../assets/create-account-5.png)
 
 ## Een toegewijde [!DNL Commerce Intelligence] gebruiker maken in de [!DNL Commerce] -beheerder
 
@@ -52,7 +52,7 @@ Als u een toegewijde [!DNL Commerce Intelligence] -gebruiker configureert, wordt
 
 Nadat u de toegewijde gebruiker voor [!DNL Commerce Intelligence] in Admin hebt gemaakt, voegt u dezelfde gebruiker toe aan de primaire omgeving van het [!DNL Commerce] -project met de instelling **[!UICONTROL Master]** `Contributor` .
 
-![ Commerce voegt gebruikersinterface met rol toe die aan Medewerker wordt geplaatst ](../assets/commerce-add-user-settings.png)
+![&#x200B; Commerce voegt gebruikersinterface met rol toe die aan Medewerker wordt geplaatst &#x200B;](../assets/commerce-add-user-settings.png)
 
 ## Commerce Intelligence SSH-toetsen ophalen
 
@@ -62,7 +62,7 @@ Nadat u de toegewijde gebruiker voor [!DNL Commerce Intelligence] in Admin hebt 
 
 1. Kopieer in de vervolgkeuzelijst de openbare sleutel die u hebt opgegeven.
 
-   ![ pagina van de montages van de Encryptie die het type van Tunnel van SSH en openbaar zeer belangrijk gebied tonen ](../assets/encryption-setting-new-account.png)
+   ![&#x200B; pagina van de montages van de Encryptie die het type van Tunnel van SSH en openbaar zeer belangrijk gebied tonen &#x200B;](../assets/encryption-setting-new-account.png)
 
 ## Voeg uw openbare sleutel aan [!DNL Commerce Intelligence] toe
 
@@ -72,21 +72,21 @@ Nadat u de toegewijde gebruiker voor [!DNL Commerce Intelligence] in Admin hebt 
 
 1. Schuif omlaag en vouw de vervolgkeuzelijst **[!UICONTROL SSH Keys]** uit. Selecteer vervolgens **[!UICONTROL Add a public key]** .
 
-   ![ pagina van de montages van de Rekening met de sectie van Toetsen van SSH en voeg een openbare zeer belangrijke knoop toe ](../assets/add-public-key.png)
+   ![&#x200B; pagina van de montages van de Rekening met de sectie van Toetsen van SSH en voeg een openbare zeer belangrijke knoop toe &#x200B;](../assets/add-public-key.png)
 
 1. Plak de openbare sleutel die u in de bovenstaande stap [!DNL Encryption Type] hebt gekopieerd.
 
-   ![ voeg openbare zeer belangrijke vorm met zeer belangrijk tekstgebied toe en verzend knoop ](../assets/paste-public-key.png)
+   ![&#x200B; voeg openbare zeer belangrijke vorm met zeer belangrijk tekstgebied toe en verzend knoop &#x200B;](../assets/paste-public-key.png)
 
 ## Geef [!DNL Commerce Intelligence] Essentials `MySQL` -referenties op
 
 1. Werk uw `.magento/services.yaml` bij.
 
-   ![ Code die MySQL de dienstconfiguratie in services.yaml- dossier toont ](../assets/update-magento-services-yaml.png)
+   ![&#x200B; Code die MySQL de dienstconfiguratie in services.yaml- dossier toont &#x200B;](../assets/update-magento-services-yaml.png)
 
 1. Werk uw `.magento.app.yaml` bij.
 
-   ![ Code die gegevensbestandverhoudingen configuratie in app.yaml- dossier toont ](../assets/magento-app-yaml-relationships.png)
+   ![&#x200B; Code die gegevensbestandverhoudingen configuratie in app.yaml- dossier toont &#x200B;](../assets/magento-app-yaml-relationships.png)
 
 ## Gegevens over databaseverbinding ophalen
 
@@ -98,7 +98,7 @@ De verbindingsgegevens van de database ophalen naar de [!DNL Commerce] -database
 
 1. Herzie de gegevensbestandinformatie, die aan het volgende voorbeeld zou moeten kijken.
 
-   ![ JSON output die de geloofsbrieven van de gegevensbestandverbinding met inbegrip van gastheer, haven, en gebruikersbenaming tonen ](../assets/example-database-information.png)
+   ![&#x200B; JSON output die de geloofsbrieven van de gegevensbestandverbinding met inbegrip van gastheer, haven, en gebruikersbenaming tonen &#x200B;](../assets/example-database-information.png)
 
 ## Verbind [!DNL Commerce Intelligence] met uw [!DNL Commerce] gegevensbestand gebruikend een gecodeerde verbinding
 
@@ -108,7 +108,7 @@ De verbindingsgegevens van de database ophalen naar de [!DNL Commerce] -database
 
 Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your Magento Database] -scherm in.
 
-![ verbind uw gegevensbestandvorm met gebieden voor integratienaam, gastheer, haven, gebruikersbenaming, wachtwoord, en gegevensbestandnaam ](../assets/connect-magento-db.png)
+![&#x200B; verbind uw gegevensbestandvorm met gebieden voor integratienaam, gastheer, haven, gebruikersbenaming, wachtwoord, en gegevensbestandnaam &#x200B;](../assets/connect-magento-db.png)
 
 **Inputs:**
 
@@ -118,7 +118,7 @@ Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your M
 
 [!UICONTROL Port]: `3306`
 
-[!UICONTROL-gebruikersnaam]: `mbi`
+[!UICONTROL -gebruikersnaam]: `mbi`
 
 [!UICONTROL Password]: [ invoerwachtwoord dat in de vorige sectie ] wordt getoond
 
@@ -126,9 +126,9 @@ Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your M
 
 [!UICONTROL Table Prefixes]: [ verlaten leeg als er geen lijstvoorvoegsels ] zijn
 
-## Plaats uw [!UICONTROL **montages van de Tijdzone van 0}**]
+## Plaats uw [!UICONTROL **montages van de Tijdzone van 0&rbrace;**]
 
-![ de montages van de tijdzone van de Tijd vormen met gegevensbestand timezone en de gewenste gebieden van de tijdzonedaling ](../assets/time-zone-settings.png)
+![&#x200B; de montages van de tijdzone van de Tijd vormen met gegevensbestand timezone en de gewenste gebieden van de tijdzonedaling &#x200B;](../assets/time-zone-settings.png)
 
 **Inputs:**
 
@@ -140,11 +140,11 @@ Voer de [!DNL Commerce Intelligence] -gegevens in het [!UICONTROL Connect your M
 
 Het project UI verstrekt een SSH toegangstekenreeks. Dit koord kan voor het verzamelen van de informatie nodig voor het [!UICONTROL **Verre Adres**] en [!UICONTROL **Gebruikersnaam**] worden gebruikt. Gebruik het koord van de Toegang van SSH door de knoop van de toegangsplaats op de Hoofd tak van UI van het Project te selecteren. Zoek vervolgens de [!UICONTROL User Name] en [!UICONTROL Remote Address] zoals hieronder wordt weergegeven.
 
-![ Project UI die SSH toegangsinformatie met gebruikersbenaming en ver adres ](../assets/master-branch-settings.png) toont
+![&#x200B; Project UI die SSH toegangsinformatie met gebruikersbenaming en ver adres &#x200B;](../assets/master-branch-settings.png) toont
 
 ## Voer uw [!DNL Encryption] -instellingen in
 
-![ de montages van de Encryptie vormen met gebieden voor encryptietype, ver adres, gebruikersbenaming, en haven ](../assets/encryption-settings-2.png)
+![&#x200B; de montages van de Encryptie vormen met gebieden voor encryptietype, ver adres, gebruikersbenaming, en haven &#x200B;](../assets/encryption-settings-2.png)
 
 **Inputs:**
 
@@ -166,7 +166,7 @@ U hebt de [!DNL Commerce] -database nu verbonden met uw [!DNL Commerce Intellige
 >
 >Als u een [!DNL Adobe Commerce Intelligence Pro] -klant bent, neemt u contact op met de succesmanager van de klant of de technische adviseur van de klant om de volgende stappen te coördineren.
 
-Nadat u de configuratie voltooit, [ teken binnen ](../getting-started/sign-in.md) aan uw [!DNL Commerce Intelligence] rekening.
+Nadat u de configuratie voltooit, [&#x200B; teken binnen &#x200B;](../getting-started/sign-in.md) aan uw [!DNL Commerce Intelligence] rekening.
 
 <!---# Activate your [!DNL Commerce Intelligence] Account
 

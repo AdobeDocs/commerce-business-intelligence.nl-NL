@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Verbinden [!DNL Salesforce]
 
-![ het embleem van Salesforce ](../../../assets/Salesforce_Logo.png)
+![&#x200B; het embleem van Salesforce &#x200B;](../../../assets/Salesforce_Logo.png)
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
 Door de [!DNL Salesforce] -gegevens aan te sluiten, beschikt u over een reeks analyses, van scoring en optimalisatie, zodat u uw doelstellingen voor geconverteerde mogelijkheden kunt halen.
 
 >[!IMPORTANT]
 >
->De [!DNL Salesforce] schakelaar vereist dat u [[!DNL Salesforce]  API toegang ](../integrations/salesforce.md) als deel van uw [!DNL Salesforce] abonnement hebt. Controleer of deze optie is ingeschakeld voordat u aan de slag gaat.
+>De [!DNL Salesforce] schakelaar vereist dat u [[!DNL Salesforce]  API toegang &#x200B;](../integrations/salesforce.md) als deel van uw [!DNL Salesforce] abonnement hebt. Controleer of deze optie is ingeschakeld voordat u aan de slag gaat.
 
 1. Als u de [!DNL Salesforce] -integratie aan uw account wilt toevoegen, navigeert u naar de `Connections` pagina onder **[!UICONTROL Manage Data** > **Connections]** .
 1. Klik **[!UICONTROL Add a Data Source]**, die op de rechterkant van het scherm boven de lijst van Gegevensbronnen wordt gevestigd.
@@ -33,7 +33,7 @@ Door de [!DNL Salesforce] -gegevens aan te sluiten, beschikt u over een reeks an
 
 ## Verwante:
 
-Als u een weinig meer technologie-savvy bent, kan de [[!DNL Salesforce]  API Documentatie ](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) een nuttig middel zijn om meer over te leren hoe Salesforce met [!DNL Commerce Intelligence] wordt geïntegreerd.
+Als u een weinig meer technologie-savvy bent, kan de [[!DNL Salesforce]  API Documentatie &#x200B;](https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm) een nuttig middel zijn om meer over te leren hoe Salesforce met [!DNL Commerce Intelligence] wordt geïntegreerd.
 
 * [Verwachte  [!DNL Salesforce]  gegevens](../integrations/salesforce-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

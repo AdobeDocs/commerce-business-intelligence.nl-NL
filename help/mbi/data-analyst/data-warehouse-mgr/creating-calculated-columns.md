@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Bij het analyseren van uw gegevens is het nuttig om gegevens uit verschillende bronnen te consolideren. Wilt u de omzet groeperen door de bron van de overname, de gegevens van uw `orders` tabel en [!DNL Google Analytics] gegevens te koppelen? Misschien wilt u opbrengst groeperen door klantengeslacht of zich bij een klantenattribuut aan transactiegegevens voor segmentatie aansluiten. In dit onderwerp wordt besproken hoe dat moet gebeuren.
 
-Alvorens begonnen te worden, adviseert Adobe dat u de [ Berekende Gids van de Types van Kolom ](../../data-analyst/data-warehouse-mgr/calc-column-types.md) voor informatie over de types van kolommen herziet die u in de Manager van Data Warehouse, samen met hun definities en voorbeelden kunt tot stand brengen.
+Alvorens begonnen te worden, adviseert Adobe dat u de [&#x200B; Berekende Gids van de Types van Kolom &#x200B;](../../data-analyst/data-warehouse-mgr/calc-column-types.md) voor informatie over de types van kolommen herziet die u in de Manager van Data Warehouse, samen met hun definities en voorbeelden kunt tot stand brengen.
 
 1. Klik op **[!DNL Manage Data > Data Warehouse]** om te beginnen.
 
@@ -25,7 +25,7 @@ Alvorens begonnen te worden, adviseert Adobe dat u de [ Berekende Gids van de Ty
 
 1. Geef uw kolom een naam. Bijvoorbeeld `Customer Gender` .
 
-1. Selecteer de definitie voor de kolom. Dit is waar de [ Berekende gids van de Types van Kolom ](../data-warehouse-mgr/calc-column-types.md) in handvat komt!
+1. Selecteer de definitie voor de kolom. Dit is waar de [&#x200B; Berekende gids van de Types van Kolom &#x200B;](../data-warehouse-mgr/calc-column-types.md) in handvat komt!
 
 1. Voor bepaalde typen kolommen is iets meer informatie nodig om de kolom correct te maken:
 
@@ -39,7 +39,7 @@ Als u een kolom `One to Many` (lid van) of `Many to One` (geaggregeerd) maakt, m
 >
 >Vergeet niet de tabel op de juiste manier als een of meerdere tabellen te definiëren.
 
-* Indien gewenst, kunt u [ filters ](../../data-user/reports/ess-manage-data-filters.md) op de nieuwe kolom toepassen.
+* Indien gewenst, kunt u [&#x200B; filters &#x200B;](../../data-user/reports/ess-manage-data-filters.md) op de nieuwe kolom toepassen.
 
 * Klik op **[!UICONTROL Save]** als u klaar bent.
 
@@ -49,7 +49,7 @@ Uw nieuwe kolom verschijnt in de huidige lijst met een `Pending` status. Nadat d
 
 Als u moeite hebt zich te herinneren wat alle input wanneer het creëren van een berekende kolom zijn, probeer handig deze verwijzingskaart te houden wanneer u bouwt:
 
-![ Voorbeeld berekende kolomconfiguratie in de Manager van Data Warehouse ](../../assets/Calculated_Columns_Example.png)
+![&#x200B; Voorbeeld berekende kolomconfiguratie in de Manager van Data Warehouse &#x200B;](../../assets/Calculated_Columns_Example.png)
 
 ## Gerelateerde documentatie
 

@@ -21,13 +21,13 @@ Het kan voorkomen dat er meerdere dashboards met dezelfde naam zijn, dit komt me
 
 Als u wilt zien wie eigenaar is van een dashboard, klikt u op het vervolgkeuzemenu in de linkerbovenhoek. Alle dashboards zonder een naam eronder, zijn van u.
 
-![ de bezitsindicator van het dashboard die schepper en toestemmingen toont ](../../mbi/assets/Dash_ownership.png)
+![&#x200B; de bezitsindicator van het dashboard die schepper en toestemmingen toont &#x200B;](../../mbi/assets/Dash_ownership.png)
 
 Alle dubbele dashboards verwijderen:
 
 1. Synchroniseer met uw team en identificeer de persoon die het dashboard moet onderhouden.
-1. [ Unshare zich ](../data-user/dashboards/leave-dashboard.md) van alle gelijkaardige dashboards, behalve één die door de belangrijkste gebruiker wordt gedeeld.
-1. Als u een exemplaar van het dashboard hebt, [ schrap het ](../data-user/dashboards/deleting-dashboard.md).
+1. [&#x200B; Unshare zich &#x200B;](../data-user/dashboards/leave-dashboard.md) van alle gelijkaardige dashboards, behalve één die door de belangrijkste gebruiker wordt gedeeld.
+1. Als u een exemplaar van het dashboard hebt, [&#x200B; schrap het &#x200B;](../data-user/dashboards/deleting-dashboard.md).
 1. Vraag anderen om hun versie van het dashboard te verwijderen.
 
 ## Een kernset van dashboards maken
@@ -36,7 +36,7 @@ Wanneer nieuwe gebruikers worden gemaakt, hebben zij geen dashboards of grafieke
 
 ## Dashboards delen met Nieuwe Gebruikers
 
-Nieuwe gebruikers kunnen ook profiteren van toegang tot sommige dashboards die niet in de hele organisatie worden gedeeld. In deze gevallen, adviseert Adobe dat de dashboseigenaars [ de relevante dashboards ](../data-user/dashboards/share-dashboard-with-users.md) met nieuwe gebruikers delen wanneer hun rekeningen worden gecreeerd.
+Nieuwe gebruikers kunnen ook profiteren van toegang tot sommige dashboards die niet in de hele organisatie worden gedeeld. In deze gevallen, adviseert Adobe dat de dashboseigenaars [&#x200B; de relevante dashboards &#x200B;](../data-user/dashboards/share-dashboard-with-users.md) met nieuwe gebruikers delen wanneer hun rekeningen worden gecreeerd.
 
 ## Selectief zijn met bewerkmachtigingen
 

@@ -15,9 +15,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van Zendesk ](../../../assets/Zendesk_logo.png)
+![&#x200B; het embleem van Zendesk &#x200B;](../../../assets/Zendesk_logo.png)
 
 Door uw [!DNL Zendesk] -gegevens te verbinden, kunt u de helpdeskrapportage consolideren in [!DNL Commerce Intelligence] . Hierdoor kunt u de klantenondersteuning optimaliseren en de prestaties van de helpdesk bewaken, naast uw inkomsten.
 
@@ -31,7 +31,7 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 
 ## Open de pagina met [!DNL Zendesk] referenties in [!DNL Commerce Intelligence] {#stepone}
 
-1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > ** Gegevensbronnen **> **Integraties]**.
+1. Ga naar de `Integrations` pagina onder **[!UICONTROL Manage Data** > **&#x200B; Gegevensbronnen &#x200B;**> **Integraties]**.
 1. Klik op **[!UICONTROL Add Integration]** aan de rechterkant van het scherm.
 1. Klik op het pictogram [!DNL Zendesk] . Hierdoor wordt de aanmeldingspagina van [!DNL Zendesk] geopend.
 
@@ -54,4 +54,4 @@ Als u dit proces wilt voltooien, moet u twee browservensters of tabbladen openen
 ## Verwante:
 
 * [Verwachte  [!DNL Zendesk]  gegevens](../integrations/exp-zendesk-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

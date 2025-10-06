@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # SQL-query&#39;s vertalen in Commerce Intelligence
 
-Heb zich ooit afgevraagd hoe SQL de vragen in de [ berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md), [ metriek ](../../data-user/reports/ess-manage-data-metrics.md) worden vertaald, en [ rapporten ](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL Commerce Intelligence]? Als u een zware SQL gebruiker bent, laat het begrip hoe SQL in [!DNL Commerce Intelligence] wordt vertaald u toe om slimmer in de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) te werken en de meesten uit het [!DNL Commerce Intelligence] platform te krijgen.
+Heb zich ooit afgevraagd hoe SQL de vragen in de [&#x200B; berekende kolommen &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md), [&#x200B; metriek &#x200B;](../../data-user/reports/ess-manage-data-metrics.md) worden vertaald, en [&#x200B; rapporten &#x200B;](../../tutorials/using-visual-report-builder.md) u gebruikt in [!DNL Commerce Intelligence]? Als u een zware SQL gebruiker bent, laat het begrip hoe SQL in [!DNL Commerce Intelligence] wordt vertaald u toe om slimmer in de [&#x200B; Manager van Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md) te werken en de meesten uit het [!DNL Commerce Intelligence] platform te krijgen.
 
 Aan het eind van dit onderwerp, vindt u a **vertaalmatrijs** voor SQL vraagclausules en [!DNL Commerce Intelligence] elementen.
 
@@ -53,9 +53,9 @@ Bekijk een specifiek voorbeeld van hoe een `Total Revenue` metrisch in [!DNL Com
 | `email NOT LIKE '%@magento.com'` | Metrisch `filter` |
 | `AND created_at < X`<br><br>`AND created_at >= Y` | Metrisch `timestamp` (en rapportering `time range`) |
 
-Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > ** Metriek **te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
+Navigeer aan de metrische bouwer door **[!UICONTROL Manage Data** > **&#x200B; Metriek &#x200B;** te klikken > **creeer Nieuwe Metrisch]**, moet u eerst de aangewezen `source` lijst selecteren, die in dit geval de `orders` lijst is. Dan zou metrisch opstelling zoals hieronder getoond zijn:
 
-![ Metrische samenvoeging ](../../assets/Metric_aggregation.png)
+![&#x200B; Metrische samenvoeging &#x200B;](../../assets/Metric_aggregation.png)
 
 ## Kolomaggregaties
 
@@ -75,11 +75,11 @@ De query voor deze aggregatie kan er ongeveer als volgt uitzien:
 
 Voor het instellen van deze instelling in [!DNL Commerce Intelligence] is het gebruik van uw Data Warehouse-manager vereist. Hierbij maakt u een pad tussen uw `orders` - en `customers` -tabel en maakt u vervolgens een kolom met de naam `Customer LTV` in de tabel van uw klant.
 
-Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > ** selecteer een definitie **> **SUM]**.
+Bekijk hoe u een nieuw pad kunt maken tussen de `customers` en `orders` . Het einddoel is een nieuwe bijeengevoegde kolom in de `customers` lijst tot stand te brengen, zodat navigeer eerst aan de `customers` lijst in uw Data Warehouse, dan klik **[!UICONTROL Create a Column** > **&#x200B; selecteer een definitie &#x200B;**> **SUM]**.
 
 Vervolgens moet u de brontabel selecteren. Als er een pad naar de `orders` -tabel bestaat, selecteert u dit in de vervolgkeuzelijst. Als u echter een nieuw pad maakt, klikt u op **[!UICONTROL Create new path]** en ziet u hieronder het scherm:
 
-![ creeer nieuwe weg ](../../assets/Create_new_path.png)
+![&#x200B; creeer nieuwe weg &#x200B;](../../assets/Create_new_path.png)
 
 Hier moet u zorgvuldig het verband tussen de twee lijsten overwegen u probeert om zich aan te sluiten. In dit geval zijn er potentieel `Many` bestellingen gekoppeld aan `One` customer. De tabel `orders` wordt daarom vermeld aan de `Many` side, terwijl de tabel `customers` geselecteerd aan de `One` side.
 
@@ -89,15 +89,15 @@ Hier moet u zorgvuldig het verband tussen de twee lijsten overwegen u probeert o
 
 Nadat het pad is opgeslagen, kunt u de kolom `Customer LTV` maken! Zie hieronder:
 
-![ Geanimeerde demonstratie van de waardeanalyse van het klantenleven gebruikend SQL ](../../assets/Customer_LTV.gif)
+![&#x200B; Geanimeerde demonstratie van de waardeanalyse van het klantenleven gebruikend SQL &#x200B;](../../assets/Customer_LTV.gif)
 
-Nu u de nieuwe `Customer LTV` kolom in uw `customers` lijst hebt gebouwd, bent u bereid om a [ metrische samenvoeging ](#aggregate) te creëren gebruikend deze kolom (bijvoorbeeld, om gemiddelde LTV per klant te vinden). U kunt ook `group by` of `filter` door de berekende kolom in een rapport gebruiken gebruikend bestaande metriek die op de `customers` lijst wordt voortgebouwd.
+Nu u de nieuwe `Customer LTV` kolom in uw `customers` lijst hebt gebouwd, bent u bereid om a [&#x200B; metrische samenvoeging &#x200B;](#aggregate) te creëren gebruikend deze kolom (bijvoorbeeld, om gemiddelde LTV per klant te vinden). U kunt ook `group by` of `filter` door de berekende kolom in een rapport gebruiken gebruikend bestaande metriek die op de `customers` lijst wordt voortgebouwd.
 
 >[!NOTE]
 >
->Voor laatstgenoemde, wanneer u een nieuwe berekende kolom bouwt moet u [ de afmeting aan bestaande metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toevoegen alvorens het als a `filter` of `group by` beschikbaar is.
+>Voor laatstgenoemde, wanneer u een nieuwe berekende kolom bouwt moet u [&#x200B; de afmeting aan bestaande metriek &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toevoegen alvorens het als a `filter` of `group by` beschikbaar is.
 
-Zie [ het creëren van berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) met uw Manager van Data Warehouse.
+Zie [&#x200B; het creëren van berekende kolommen &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) met uw Manager van Data Warehouse.
 
 ## `Group By` clausules
 
@@ -121,7 +121,7 @@ Begin met de onderstaande query:
 
 Met dezelfde `Total Revenue` metrische code die u eerder hebt gemaakt, kunt u nu uw rapport maken met inkomsten die zijn gesegmenteerd door couponcode! Kijk hieronder naar de gif die toont hoe te opstelling dit visuele rapport die gegevens van september tot november bekijkt:
 
-![ Ontvangsten door couponcode ](../../assets/Revenue_by_coupon_code.gif)
+![&#x200B; Ontvangsten door couponcode &#x200B;](../../assets/Revenue_by_coupon_code.gif)
 
 ## Formulas
 
@@ -147,7 +147,7 @@ Neem een stap terug en bekijk de algemene vraag voor `Average order value`:
 
 Stel nu dat u al metriek hebt ingesteld om de `Total Revenue` en `Number of orders` te berekenen. Aangezien deze meetgegevens bestaan, kunt u de `Report Builder` openen en een berekening op aanvraag maken met de functie `Formula` :
 
-![ AOV forumula ](../../assets/AOV_forumula.gif)
+![&#x200B; AOV forumula &#x200B;](../../assets/AOV_forumula.gif)
 
 ## Omloop omhoog
 

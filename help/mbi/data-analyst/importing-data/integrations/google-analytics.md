@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van Google Analytics ](../../../assets/google-analytics-logo.png)
+![&#x200B; het embleem van Google Analytics &#x200B;](../../../assets/google-analytics-logo.png)
 
 [!DNL Google Analytics] is de meest gebruikte service voor webanalyse op internet. Als u [!DNL Google Analytics] op uw website implementeert, kunt u bijhouden hoe bezoekers uw site gebruiken, welke inhoud aantrekkelijk is, waar bezoekers vertrekken en nog veel meer. Als u deze gegevens in [!DNL Commerce Intelligence] analyseert, worden de algemene gezondheid en bruikbaarheid van uw site verbeterd, samen met andere gegevens.
 
@@ -33,7 +33,7 @@ Ga aan de slag door uw [!DNL Google Analytics] -gegevens in te voeren in [!DNL C
 
 1. Een lijst met profiel-id&#39;s. Controleer de profielen waarmee u verbinding wilt maken [!DNL Commerce Intelligence] . Als u meerdere profielen hebt en hulp nodig hebt bij het identificeren van welke profielen, raadpleegt u de sectie Meerdere [!DNL Google Analytics] profielen verbinden hieronder.
 
-   ![ Google Analytics Admin pagina die profielidentiteitskaart in URL tonen ](../../../assets/list-profile-id.png)<!--{: width="600px"}-->
+   ![&#x200B; Google Analytics Admin pagina die profielidentiteitskaart in URL tonen &#x200B;](../../../assets/list-profile-id.png)<!--{: width="600px"}-->
 
 1. De veranderingen worden opgeslagen automatisch, zodat klik **terug naar Verbindingen** wanneer u wordt gedaan.
 
@@ -51,13 +51,13 @@ De profiel-id [!DNL Google Analytics] van een bepaalde website identificeren:
 
 ## [!DNL Google Analytics] loskoppelen van [!DNL Commerce Intelligence] {#disconnect}
 
-1. Bezoek uw [!DNL Google Analytics] [ pagina van de rekeningsmontages ](https://accounts.google.com/).
+1. Bezoek uw [!DNL Google Analytics] [&#x200B; pagina van de rekeningsmontages &#x200B;](https://accounts.google.com/).
 1. Klik onder de sectie `Security` op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
 1. Klik op **[!UICONTROL revoke access]** naast [!DNL Commerce Intelligence] .
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Verbinding maken  [!DNL Google Adwords]](../integrations/google-adwords.md)
 * [Websiteactiviteiten en conversietarieven van klanten analyseren](../../analysis/web-act-cust-conversion.md)
 * [De gegevens van de gebruikersverwerving van het spoor gebruikend  [!DNL Google Analytics]  koekjes](../../analysis/google-track-user-acq.md)

@@ -13,10 +13,10 @@ ht-degree: 0%
 
 # Een diagram verwijderen uit een dashboard
 
-Om een grafiek uit een dashboard te verwijderen, klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) in de hoger-juiste hoek van de grafiek en klik **[!UICONTROL Remove from Dashboard]**.
+Om een grafiek uit een dashboard te verwijderen, klik het tandwielpictogram (![&#x200B; het pictogram van het Gear &#x200B;](../../assets/gear-icon.png)) in de hoger-juiste hoek van de grafiek en klik **[!UICONTROL Remove from Dashboard]**.
 
 >[!NOTE]
 >
->Het verwijderen van een grafiek is niet het zelfde als [ schrappend het ](../../data-user/dashboards/delete-chart.md). Ook, [ kan een grafiek aan een dashboard ](../../data-user/dashboards/add-charts-dashboard.md) op elk ogenblik worden gelezen.
+>Het verwijderen van een grafiek is niet het zelfde als [&#x200B; schrappend het &#x200B;](../../data-user/dashboards/delete-chart.md). Ook, [&#x200B; kan een grafiek aan een dashboard &#x200B;](../../data-user/dashboards/add-charts-dashboard.md) op elk ogenblik worden gelezen.
 
-![ verwijder grafiek ](../../assets/Removing_Charts_from_Dashboards.gif)
+![&#x200B; verwijder grafiek &#x200B;](../../assets/Removing_Charts_from_Dashboards.gif)

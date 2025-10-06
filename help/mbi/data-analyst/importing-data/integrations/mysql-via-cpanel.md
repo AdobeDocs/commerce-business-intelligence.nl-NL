@@ -38,7 +38,7 @@ Aan de slag.
 1. Klik op **[!UICONTROL [!DNL MySQL] Databases]** in de sectie `Database` .
 1. Schuif omlaag naar de sectie `Add New User` en maak een gebruiker voor [!DNL Commerce Intelligence] :
 
-   ![ cPanel MySQL de interface die van Gegevensbestanden toont creeert gebruikersvorm ](../../../assets/create-mbi-mysql-user-cpanel.png)
+   ![&#x200B; cPanel MySQL de interface die van Gegevensbestanden toont creeert gebruikersvorm &#x200B;](../../../assets/create-mbi-mysql-user-cpanel.png)
 
 1. Klik op **[!UICONTROL Create User]**.
 1. Nu u de gebruiker hebt gecreeerd, moet u het aan een gegevensbestand associëren. Ga terug naar de sectie `Add New User` . Zie de instellingen voor `Add User to Database?` Dat is wat u nodig hebt.
@@ -62,11 +62,11 @@ Als u een [`SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md) gebruikt, moet
 
 * `Connection Type`: stel deze in op `SSH Tunnel`
 * `Remote Address`: Het IP-adres of de hostnaam van de server [!DNL Commerce Intelligence] wordt via een tunnel verzonden naar
-* `Username`: De gebruikersbenaming voor de [!DNL Commerce Intelligence] `SSH (Linux)` gebruiker, zie [ instructies ](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) op hoe te om dit te doen, als u niet reeds hebt)
+* `Username`: De gebruikersbenaming voor de [!DNL Commerce Intelligence] `SSH (Linux)` gebruiker, zie [&#x200B; instructies &#x200B;](../../../data-analyst/importing-data/integrations/mysql-via-ssh-tunnel.md) op hoe te om dit te doen, als u niet reeds hebt)
 * `SSH Port`: SSH-poort op uw server (`22` standaard)
 
 Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te voltooien.
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

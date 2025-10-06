@@ -19,7 +19,7 @@ Wilt u weten wie uw meest waardevolle klanten zijn? Wat zijn uw waardevolste mar
 
 Dit onderwerp behandelt kritieke segmenten die vaak aan klanten worden geadviseerd. Het gaat ook in detail op welke vragen die deze segmenten u kunnen helpen beantwoorden. Technisch, zijn de segmenten gegevenskolommen in uw gegevensbestand. In [!DNL Adobe Commerce Intelligence] worden ze dimensies genoemd.
 
-![ Dashboard die kritieke klantensegmenten en filters ](../../mbi/assets/mbi-critical-segments.png) tonen
+![&#x200B; Dashboard die kritieke klantensegmenten en filters &#x200B;](../../mbi/assets/mbi-critical-segments.png) tonen
 
 
 ## Gebruikerssegmenten
@@ -29,8 +29,8 @@ Gebruikerssegmenten helpen u te begrijpen wie uw gebruikers zijn en hoe zij zich
 * **Leeftijd/Jaar van de Macht**: Hoe oud zijn uw gebruikers? Hoe oud zijn uw meest actieve gebruikers? Doorgaans is het zinvol de waarden in bereiken op te nemen voor een effectievere analyse.
 * **Geslacht**: Doen de verschillende genders met uw website verschillend?
 * **Adres**: Waar komen uw gebruikers uit? Moet u uw marketinginspanningen richten op een bepaalde regio? Hebben uw recente reclamecampagnes zoals verwacht in uw doelregio&#39;s uitgevoerd?
-* **bron van de de acquisitie van de Klant** \: Weet u welk marketing kanaal uw gebruikers uit komen? Hebben ze op een advertentie geklikt of via zoekactie naar je gezocht? [ segmenterend uw gegevens door bron van de gebruikersaanwinst ](../data-analyst/analysis/google-track-user-acq.md) is de eerste stap in het optimaliseren van uw nieuwe klantenaanwinst. Stap twee is meer geld uit te geven in wat werkt en wat niet werkt te doden.
-* **het apparaat van de Registratie**: Hebben de gebruikers geregistreerd via uw mobiele app of uw website? iOS of Android™? Is uw mobiele gebruikersbasis groot genoeg om meer bronnen toe te wijzen voor de ontwikkeling van uw mobiele product? Als u dit nog niet volgt, zie dit onderwerp [ over het volgen van gebruikersapparaat ](../data-analyst/analysis/track-usr-dev-browser.md).
+* **bron van de de acquisitie van de Klant** \: Weet u welk marketing kanaal uw gebruikers uit komen? Hebben ze op een advertentie geklikt of via zoekactie naar je gezocht? [&#x200B; segmenterend uw gegevens door bron van de gebruikersaanwinst &#x200B;](../data-analyst/analysis/google-track-user-acq.md) is de eerste stap in het optimaliseren van uw nieuwe klantenaanwinst. Stap twee is meer geld uit te geven in wat werkt en wat niet werkt te doden.
+* **het apparaat van de Registratie**: Hebben de gebruikers geregistreerd via uw mobiele app of uw website? iOS of Android™? Is uw mobiele gebruikersbasis groot genoeg om meer bronnen toe te wijzen voor de ontwikkeling van uw mobiele product? Als u dit nog niet volgt, zie dit onderwerp [&#x200B; over het volgen van gebruikersapparaat &#x200B;](../data-analyst/analysis/track-usr-dev-browser.md).
 * **die door** wordt bedoeld: Wie zijn uw belangrijkste beïnvloedingsfactoren? Hoeveel gebruikers werden rechtstreeks door anderen doorverwezen?
 * **Industrie**: Als u zaken B2B bent, waarin de industrieën uw gebruikers werken? Welke handelsorganisaties zijn de moeite waard om zich bij te sluiten?
 * **reacties van het Onderzoek**: Als u klantenonderzoeken uitvoert, gebruik de reacties als segmenten voor een dieper niveau van het profileren. U kunt vragen stellen die een aanvulling vormen op wat u al weet over uw gebruikers of uw instructies bevestigen.
@@ -42,8 +42,8 @@ De orde en gebeurtenissegmenten helpen bij het analyseren van gebruikersgedrag e
 
 * **[!UICONTROL Billing / Shipping Address]**: Waar komen de meeste bestellingen vandaan? Is er een verschil tussen facturerings en verzendadressen?
 * **[!UICONTROL Status]**: Hoeveel van uw bestellingen zijn niet voltooid? Wat is de verhouding tussen lopende orders in de afgelopen zeven dagen?
-* **[!UICONTROL Customer acquisition source]**: Voorbij het volgen van gegevens van de gebruikersverwerving op een gebruikersniveau, kunt u het op een orde of gebeurtenisniveau [ ook ](../data-analyst/analysis/google-track-user-acq.md) volgen. Een gebruiker die zich via één bron heeft geregistreerd, heeft mogelijk toegang tot uw site via andere bronnen.
-* **[!UICONTROL Device]**: neemt het aantal mobiele bestellingen toe? Hoeveel van uw opbrengst wordt geproduceerd via mobiele aankopen? (Als u dit nog niet volgt, zie dit onderwerp [ over het volgen van de gegevens van het ordeapparaat ](../data-analyst/analysis/track-usr-dev-browser.md).
+* **[!UICONTROL Customer acquisition source]**: Voorbij het volgen van gegevens van de gebruikersverwerving op een gebruikersniveau, kunt u het op een orde of gebeurtenisniveau [&#x200B; ook &#x200B;](../data-analyst/analysis/google-track-user-acq.md) volgen. Een gebruiker die zich via één bron heeft geregistreerd, heeft mogelijk toegang tot uw site via andere bronnen.
+* **[!UICONTROL Device]**: neemt het aantal mobiele bestellingen toe? Hoeveel van uw opbrengst wordt geproduceerd via mobiele aankopen? (Als u dit nog niet volgt, zie dit onderwerp [&#x200B; over het volgen van de gegevens van het ordeapparaat &#x200B;](../data-analyst/analysis/track-usr-dev-browser.md).
 * **[!UICONTROL Fulfillment Center]**: Welke van uw afhandelingscentra genereert de meeste inkomsten? Als u het verschil tussen bestellingstijd en verzendtijd analyseert, welk afhandelingscentrum reageert het meest?
 * **[!UICONTROL Delivery Carrier]**: Welke is de populairste vervoerder? Welke drager heeft het minste aantal teruggekeerde punten?
 * **[!UICONTROL Discount / Coupon Codes]**: genereren uw promoties eigenlijk extra zaken? Hoeveel extra objecten hebben uw klanten gekocht naast het te koop aangeboden object? Hoe beïnvloeden coupons uw gemiddelde orderwaarde? Wat is je gemiddelde marge voor gedisconteerde versus niet-gedisconteerde objecten?
@@ -59,7 +59,7 @@ De segmenten van het product helpen u handelsveranderende besluiten nemen.
 * **[!UICONTROL Social Activity]**: Is er een correlatie tussen de zogenoemde &#39;buzz&#39; die op sociale media wordt gegenereerd en de hoeveelheid die voor een product wordt verkocht?
 * **[!UICONTROL Size / Variant]**: Wat is de verhouding van inventaris die u van elke variant nodig hebt? Welke varianten kunnen tegen disconteringsvoeten worden verkocht?
 
-Als u in handel geinteresseerd bent, controleer [ hoe te om productsegmenten te gebruiken om herhalingszaken ](../data-analyst/analysis/most-value-source-channel.md) te drijven.
+Als u in handel geinteresseerd bent, controleer [&#x200B; hoe te om productsegmenten te gebruiken om herhalingszaken &#x200B;](../data-analyst/analysis/most-value-source-channel.md) te drijven.
 
 ## Klantprofielen maken
 
@@ -71,7 +71,7 @@ Dit soort analyse doen marketeers van Fortune 1000 bedrijven de hele dag. Voor d
 
 De eerste stap om uw metriek door de bovengenoemde afmetingen te segmenteren is ervoor te zorgen dat u deze gegevens in uw gegevensbestand volgt. Als de gegevens niet worden bijgehouden, neemt u contact op met uw technische team en zoekt u een manier om deze gegevens te volgen.
 
-Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
+Nadat u bevestigt dat het gegeven in uw gegevensbestand wordt gevolgd, [&#x200B; contacteer het steunteam &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om de afmetingen aan uw [!DNL Commerce Intelligence] metriek en grafieken te duwen. U kunt het *hulpmiddel van het Beheer van het Gebied* ook gebruiken om deze gebieden in [!DNL Commerce Intelligence] te volgen.
 
 ## Verwante
 

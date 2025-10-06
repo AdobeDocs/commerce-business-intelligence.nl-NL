@@ -13,14 +13,14 @@ ht-degree: 0%
 
 # Advertising-campagnes en ROI
 
-[!DNL Adobe Commerce Intelligence] staat u toe om [ gemakkelijk te trouwen de gegevens van de reclamekosten en opbrengst ](../../data-analyst/importing-data/integrations/google-adwords.md) van uw gegevensbestand. Dit helpt u identificeren welke campagnes het hoogste rendement op investering (ROI) hebben. In dit onderwerp worden enkele verschillende methoden voor het evalueren van de prestaties van uw campagne besproken.
+[!DNL Adobe Commerce Intelligence] staat u toe om [&#x200B; gemakkelijk te trouwen de gegevens van de reclamekosten en opbrengst &#x200B;](../../data-analyst/importing-data/integrations/google-adwords.md) van uw gegevensbestand. Dit helpt u identificeren welke campagnes het hoogste rendement op investering (ROI) hebben. In dit onderwerp worden enkele verschillende methoden voor het evalueren van de prestaties van uw campagne besproken.
 
 ## Vereisten
 
 * Je gegevens over advertentiekosten importeren:
-   * [ verbind uw  [!DNL Google AdWords]  met  [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] besteedt in [!DNL Commerce Intelligence]
-   * [ uploadt andere reclame kostengegevens ](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt geadviseerd voor kanalen zonder een directe schakelaar aan [!DNL Commerce Intelligence]
-   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [ ](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [ voorlegt een steunkaartje ](../../guide-overview.md#Submitting-a-Support-Ticket).
+   * [&#x200B; verbind uw  [!DNL Google AdWords]  met  [!DNL Commerce Intelligence]](../importing-data/integrations/google-adwords.md): Dit synchroniseert uw [!DNL Adwords] besteedt in [!DNL Commerce Intelligence]
+   * [&#x200B; uploadt andere reclame kostengegevens &#x200B;](../importing-data/connecting-data/import-offline-ad-data.md): Dit wordt geadviseerd voor kanalen zonder een directe schakelaar aan [!DNL Commerce Intelligence]
+   * Als u kostengegevens uit veelvoudige bronnen invoert, kunt u [&#x200B; &#x200B;](../../best-practices/consolidating-your-tables.md) de gegevens in [!DNL Commerce Intelligence] consolideren. Eenvoudig [&#x200B; voorlegt een steunkaartje &#x200B;](../../guide-overview.md#Submitting-a-Support-Ticket).
 * [Kanaalgegevens van verwervingskanalen bijhouden](../analysis/google-track-user-acq.md)
 
 ## Aankoopcampagnes voor gebruikers
@@ -31,7 +31,7 @@ Campagnes die gericht zijn op gebruikersverwerving kunnen vanuit vele perspectie
 1. De omrekeningskoers van registratie tot aankoop van campagnes
 1. Het rendement van campagnes op basis van de gemiddelde levensduur van de gebruiker (LTV)
 
-Analyseert (1) en (2) hierboven worden verkend in een afzonderlijk leerprogramma op [ identificerend uw hoogste marketing kanalen ](../analysis/most-value-source-channel.md). Hier, onderzoekt u analyse (3) om campagne ROI in tijd te meten. Hiermee wordt beantwoord of gebruikers die zijn aangeschaft tijdens een bepaalde campagne voldoende inkomsten hebben gegenereerd om de aanschafkosten te dekken.
+Analyseert (1) en (2) hierboven worden verkend in een afzonderlijk leerprogramma op [&#x200B; identificerend uw hoogste marketing kanalen &#x200B;](../analysis/most-value-source-channel.md). Hier, onderzoekt u analyse (3) om campagne ROI in tijd te meten. Hiermee wordt beantwoord of gebruikers die zijn aangeschaft tijdens een bepaalde campagne voldoende inkomsten hebben gegenereerd om de aanschafkosten te dekken.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Analyseert (1) en (2) hierboven worden verkend in een afzonderlijk leerprogramma
 1. Selecteer `Add New Metric` en selecteer de [!DNL `Adwords...`] -tabel die uw [!DNL AdWords] kostengegevens opneemt.
 1. Geef uw metrische waarde in de metrische editor een naam (bijvoorbeeld [!UICONTROL AdWord Cost] )
 1. Gebruikend dropdowns, voer a **Som** op de `adCost` kolom in de [!DNL Adwords...] lijst (Verandering) uit die door de `date` kolom wordt bevolen.
-   ![ bericht van het Succes na het toevoegen van nieuwe metrische ](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
+   ![&#x200B; bericht van het Succes na het toevoegen van nieuwe metrische &#x200B;](../../assets/success-add-new-metric.png)<!--="500" height="303"}-->
 1. Klik op `Back to Metric List` bovenaan en ga naar een willekeurig dashboard.
 
 1. Een rapport maken dat segmenten via campagnes doorgeven
@@ -99,7 +99,7 @@ Gebruikt u productspecifieke advertenties? Als dat het geval is, kunt u de ROI o
 >
 >In dit voorbeeld wordt ervan uitgegaan dat alle campagnekosten uitsluitend werden gebruikt om aankopen van specifieke producten te genereren. Door ervan uit te gaan dat alle kosten werden besteed aan het genereren van aankopen, maakt het resulterende rendement van investeringen het worstcasescenario (hoogste kosten per aankoop). U kunt zeker zijn dat uw daadwerkelijke ROI hoger is dan deze berekening. Voorbeeld: Ervan uitgaande dat u $20 hebt uitgegeven aan een campagne die 10 nieuwe gebruikers en 10 aankopen genereerde, zijn uw werkelijke kosten per aankoop $1. Onder de veronderstelling dat alle kosten gingen om nieuwe gebruikers te verwerven, zijn de kosten per aankoop $2.
 
-Alvorens u begint, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
+Alvorens u begint, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om zich bij de volgende dimensies aan uw lijst van lijnpunten (`sales\_flat\_order\_item, order\_item`) aan te sluiten:
 
 * De bron van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich bij de bron van de gebruiker aansluit)
 * De campagne van de orde (als u slechts verwijzingsbron op het gebruikersniveau bijhoudt, dan zich aansluit bij gebruikerscampagne)

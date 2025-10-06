@@ -21,8 +21,8 @@ Zoek eerst het diagram dat u van de andere gebruiker wilt kopiëren. Alle dashbo
 
 ## Het diagram klonen
 
-Kies in het gedeelde dashboard het diagram dat u naar uw eigen account wilt kopiëren. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) en klik dan **[!UICONTROL Save As]**.
+Kies in het gedeelde dashboard het diagram dat u naar uw eigen account wilt kopiëren. Klik het tandwielpictogram (![&#x200B; het pictogram van het Gear &#x200B;](../../assets/gear-icon.png)) en klik dan **[!UICONTROL Save As]**.
 
-U wordt gevraagd een naam aan uw exemplaar van het diagram te geven en deze aan een van uw bestaande dashboards toe te voegen. Als u geen dashboard selecteert, wordt het toegevoegd aan uw lijst van bestaande grafieken en u kunt het [ later ](../../data-user/dashboards/add-charts-dashboard.md) toevoegen.
+U wordt gevraagd een naam aan uw exemplaar van het diagram te geven en deze aan een van uw bestaande dashboards toe te voegen. Als u geen dashboard selecteert, wordt het toegevoegd aan uw lijst van bestaande grafieken en u kunt het [&#x200B; later &#x200B;](../../data-user/dashboards/add-charts-dashboard.md) toevoegen.
 
-![ totale klanten ](../../assets/total-customers.png)
+![&#x200B; totale klanten &#x200B;](../../assets/total-customers.png)

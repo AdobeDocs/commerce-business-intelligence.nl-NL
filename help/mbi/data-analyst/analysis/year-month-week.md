@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [ nieuwe architectuur ](../../administrator/account-management/new-architecture.md) als u de [!DNL _3} sectie van de Meningen van Data Warehouse beschikbaar na het selecteren_] van de belangrijkste toolbar hebt.[!DNL Manage Data]
+>Dit onderwerp bevat instructies voor cliënten die de originele architectuur en de nieuwe architectuur gebruiken. U bent op de [&#x200B; nieuwe architectuur &#x200B;](../../administrator/account-management/new-architecture.md) als u de [!DNL _3&rbrace; sectie van de Meningen van Data Warehouse beschikbaar na het selecteren_] van de belangrijkste toolbar hebt.[!DNL Manage Data]
 
 De rapportbouwer staat u toe om tendensen in tijd gemakkelijk te zien en perspectief voor tijdsperioden te veranderen u kunt willen vergelijken. Dit onderwerp toont hoe te opstelling een dashboard om een niveau dieper te gaan om u toe te staan om rapporten voor week over week, maand over maand en jaar over jaaranalyse te creëren.
 
-![ dashboard die week-over-week, maand-over-maand, en jaar-over-jaar vergelijkingen toont ](../../assets/Wow__mom__yoy.png)
+![&#x200B; dashboard die week-over-week, maand-over-maand, en jaar-over-jaar vergelijkingen toont &#x200B;](../../assets/Wow__mom__yoy.png)
 
-Alvorens begonnen te worden, zou u perspectieven in meer detail [ moeten herzien hier ](../../tutorials/using-visual-report-builder.md) en onafhankelijke tijdopties [ hier ](../../tutorials/time-options-visual-rpt-bldr.md).
+Alvorens begonnen te worden, zou u perspectieven in meer detail [&#x200B; moeten herzien hier &#x200B;](../../tutorials/using-visual-report-builder.md) en onafhankelijke tijdopties [&#x200B; hier &#x200B;](../../tutorials/time-options-visual-rpt-bldr.md).
 
-Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Berekende kolommen
 
@@ -40,8 +40,8 @@ Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv
    * `created_at (month)` [!UICONTROL Calculation]: **to_char(A, &quot;mm-month&quot;)**
    * `created_at (day of the month)`&lt; [!UICONTROL Calculation]: **to_char(A, &quot;dd&quot;)**
    * `created_at (day of the week)` [!UICONTROL Calculation]: **to_char(A, &quot;d-Day&quot;)**
-   * ** `created_at (hour of the day)` [!UICONTROL Calculation]: **to_char (A, &quot;hh24&quot;)**
-     ![ creeer berekende kolominterface in de Manager van Data Warehouse ](../../assets/new-arch-create-calc.png)
+   * **&#x200B; `created_at (hour of the day)` [!UICONTROL Calculation]: &#x200B;** to_char (A, &quot;hh24&quot;)**
+     ![&#x200B; creeer berekende kolominterface in de Manager van Data Warehouse &#x200B;](../../assets/new-arch-create-calc.png)
 
 ## Metrisch
 
@@ -49,7 +49,7 @@ Geen.
 
 >[!NOTE]
 >
->Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
+>Zorg ervoor om [&#x200B; alle nieuwe kolommen als afmetingen aan metriek &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
@@ -64,10 +64,10 @@ Geen.
 * Metrisch `A`: `This year`
 * Metrisch `B`: `Last year`
 * [!UICONTROL Time period]: `1 year ago to 0 years ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `created_at (month-day)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 * **MoM grafiek**
@@ -81,10 +81,10 @@ Geen.
 * Metrisch `A`: deze maand*
 * Metrisch `B`: Vorige maand*
 * [!UICONTROL Time period]: een maand geleden tot 0 maanden geleden
-* 
+* &#x200B;
   [!UICONTROL Interval]: None
 * [!UICONTROL Group by]: `created_at (day of month)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: Line
 
 * **WoW grafiek**
@@ -98,10 +98,10 @@ Geen.
 * Metrisch `A`: `This week`
 * Metrisch `B`: `Last week`
 * [!UICONTROL Time period]: `1 week ago to 0 weeks ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `created_at (day of week)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 * **grafiek DoD**
@@ -115,10 +115,10 @@ Geen.
 * Metrisch `A`: `Today`
 * Metrisch B: `Yesterday`
 * [!UICONTROL Time period]: `1 day ago to 0 days ago`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `created_at (hour of day)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat ziet er mogelijk uit als de afbeelding boven aan deze pagina.

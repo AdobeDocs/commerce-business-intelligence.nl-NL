@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Stel dat u een `Report Builder` -rapport maakt in `Revenue by State` . Alles gaat goed totdat u een `billing state` -groep aan uw rapport probeert toe te voegen en u dit ziet:
 
-![ Grafiek die messy staatssegmenten met inconsistente het noemen ](../../assets/Messy_State_Segments.png) toont
+![&#x200B; Grafiek die messy staatssegmenten met inconsistente het noemen &#x200B;](../../assets/Messy_State_Segments.png) toont
 
 ## Hoe kan dit gebeuren?
 
@@ -37,19 +37,19 @@ Het is mogelijk dat er een technische bron is die u kan helpen de gegevens op te
 * Percentages moeten als decimalen worden ingevoerd.
 * Zorg ervoor dat alle voorloopnullen of volgnullen goed blijven staan.
 
-Alvorens u binnen duikt, adviseert Adobe dat u [ de ruwe lijstgegevens ](../../tutorials/export-raw-data.md) uitvoert. Als u eerst de onbewerkte gegevens bekijkt, kunt u alle mogelijke combinaties voor de gegevens onderzoeken die u moet opschonen, zodat alle gegevens in de toewijzingstabel worden opgenomen.
+Alvorens u binnen duikt, adviseert Adobe dat u [&#x200B; de ruwe lijstgegevens &#x200B;](../../tutorials/export-raw-data.md) uitvoert. Als u eerst de onbewerkte gegevens bekijkt, kunt u alle mogelijke combinaties voor de gegevens onderzoeken die u moet opschonen, zodat alle gegevens in de toewijzingstabel worden opgenomen.
 
-Om een mappinglijst te maken, moet u een twee-kolom spreadsheet tot stand brengen die de [ het formatteren regels voor dossier ](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) volgt uploadt.
+Om een mappinglijst te maken, moet u een twee-kolom spreadsheet tot stand brengen die de [&#x200B; het formatteren regels voor dossier &#x200B;](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) volgt uploadt.
 
 In de eerste kolom, ga de waarden in die in uw gegevensbestand met **worden opgeslagen slechts één waarde in elke rij**. `pa` en `PA` kunnen bijvoorbeeld niet op dezelfde regel staan. Elke invoer moet een eigen rij hebben. Zie hieronder voor een voorbeeld.
 
-In de tweede kolom, ga in wat deze waarden **** zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
+In de tweede kolom, ga in wat deze waarden **&#x200B;**&#x200B;zouden moeten zijn. Als u doorgaat met het voorbeeld met de factureringsstatus en `pa` , `PA` , `Pennsylvania` en `pennsylvania` eenvoudig `PA` wilt zijn, voert u `PA` in deze kolom in voor elke invoerwaarde.
 
-![ de afbeeldingslijst van het Voorbeeld die originele waarden en gestandaardiseerde waarden tonen ](../../assets/Mapping_table_examples.jpg)
+![&#x200B; de afbeeldingslijst van het Voorbeeld die originele waarden en gestandaardiseerde waarden tonen &#x200B;](../../assets/Mapping_table_examples.jpg)
 
 ## Wat moet ik doen in [!DNL Commerce Intelligence] om het te gebruiken? {#use}
 
-Nadat u klaar bent met het creëren van de mappinglijst, moet u [ het dossier ](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) in [!DNL Commerce Intelligence] uploaden en [ tot een aangesloten kolom ](../../data-analyst/data-warehouse-mgr/calc-column-types.md) leiden die het nieuwe gebied in de gewenste lijst opnieuw vestigt. U kunt dit doen nadat het bestand is gesynchroniseerd met uw Data Warehouse.
+Nadat u klaar bent met het creëren van de mappinglijst, moet u [&#x200B; het dossier &#x200B;](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) in [!DNL Commerce Intelligence] uploaden en [&#x200B; tot een aangesloten kolom &#x200B;](../../data-analyst/data-warehouse-mgr/calc-column-types.md) leiden die het nieuwe gebied in de gewenste lijst opnieuw vestigt. U kunt dit doen nadat het bestand is gesynchroniseerd met uw Data Warehouse.
 
 In dit voorbeeld wordt de kolom die u in de tabel `mapping_state` ( `state_input` ) hebt gemaakt, met een aangesloten kolom naar de tabel `customer_address` verplaatst. Op deze manier kunnen we groeperen op de lege kolom `state_input` in uw rapporten in plaats van op de kolom `state` .
 
@@ -60,13 +60,13 @@ Als u de kolom `joined` wilt maken, navigeert u naar de tabel waarnaar het veld 
 1. Geef de kolom een naam die deze onderscheidt van de kolom `state` in de database. Geef de kolom een naam `billing state (mapped)` zodat u kunt zien welke kolom moet worden gebruikt wanneer u segmenteert in de rapportbuilder.
 1. Het pad dat u nodig hebt om de tabellen met elkaar te verbinden, bestaat niet. U moet dus een pad maken. Klik op **[!UICONTROL Create new path]** in de vervolgkeuzelijst `Select a table and column` .
 
-   Als u niet zeker bent wat de lijstverhouding is of hoe te om de primaire en buitenlandse sleutels behoorlijk te bepalen, controleer [ het leerprogramma ](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) voor wat hulp.
+   Als u niet zeker bent wat de lijstverhouding is of hoe te om de primaire en buitenlandse sleutels behoorlijk te bepalen, controleer [&#x200B; het leerprogramma &#x200B;](../../data-analyst/data-warehouse-mgr/create-paths-calc-columns.md) voor wat hulp.
 
    * Selecteer aan de zijde van `Many` de tabel waarnaar u het veld verplaatst (voor ons is dit `customer_address` ) en de kolom `Foreign Key` of `state` in het voorbeeld.
    * Selecteer aan de zijde van `One` de kolommen `mapping` table en `Primary key` . In dat geval selecteert u de kolom `state_input` in de tabel `mapping_state` .
    * Hier is een blik op wat de weg als kijkt:
 
-     ![ de Manager die van Data Warehouse de weg van de de rekeningenberekening van de staatsafbeelding toont ](../../assets/State_Mapping_Path.png)
+     ![&#x200B; de Manager die van Data Warehouse de weg van de de rekeningenberekening van de staatsafbeelding toont &#x200B;](../../assets/State_Mapping_Path.png)
 
 1. Als u klaar bent, klikt u op **[!UICONTROL Save]** om het pad te maken.
 1. Het pad wordt mogelijk niet direct na het opslaan gevuld. Als dit gebeurt, klikt u op het vak `Path` en selecteert u het pad dat u hebt gemaakt.
@@ -76,9 +76,9 @@ Als u de kolom `joined` wilt maken, navigeert u naar de tabel waarnaar het veld 
 
 Nadat een updatecyclus voltooit, zult u uw nieuwe aangesloten kolom kunnen gebruiken om uw gegevens behoorlijk te segmenteren in plaats van de berichtkolom van uw gegevensbestand. Kijk nu naar de groeperingsopties - geen stress meer:
 
-![ Grafiek die schone staatssegmenten na standaardisatie tonen ](../../assets/Clean_State_Segments.png)
+![&#x200B; Grafiek die schone staatssegmenten na standaardisatie tonen &#x200B;](../../assets/Clean_State_Segments.png)
 
-Tabellen toewijzen is handig voor elk moment waarop u mogelijk onjuiste gegevens in uw Data Warehouse wilt opruimen. Nochtans, kunnen de afbeeldingslijsten ook voor sommige andere koele gebruiksgevallen worden gebruikt, als [ het herhalen van uw  [!DNL Google Analytics channels]  in  [!DNL Commerce Intelligence]](../data-warehouse-mgr/rep-google-analytics-channels.md).
+Tabellen toewijzen is handig voor elk moment waarop u mogelijk onjuiste gegevens in uw Data Warehouse wilt opruimen. Nochtans, kunnen de afbeeldingslijsten ook voor sommige andere koele gebruiksgevallen worden gebruikt, als [&#x200B; het herhalen van uw  [!DNL Google Analytics channels]  in  [!DNL Commerce Intelligence]](../data-warehouse-mgr/rep-google-analytics-channels.md).
 
 ### Verwante
 

@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van de eCommerce van Google ](../../../assets/google-ecommerce-logo.png)
+![&#x200B; het embleem van de eCommerce van Google &#x200B;](../../../assets/google-ecommerce-logo.png)
 
-U hebt gestage stroom van verkeer en orden, wat betekent u effectief bereikend en klanten verwerft. Maar wat zijn uw meest waardevolle verwijzingskanalen? Wat is de gemiddelde levenwaarde van klanten die van één bron tegenover een andere worden verworven? Door uw van de ordeverwijzing bron gegevens van [!DNL Google ECommerce] aan [!DNL Commerce Intelligence] aan te sluiten, kunt u analyses bouwen die u helpen uw [ waardevolste marketing kanalen ](../../../data-analyst/analysis/most-value-source-channel.md) identificeren.
+U hebt gestage stroom van verkeer en orden, wat betekent u effectief bereikend en klanten verwerft. Maar wat zijn uw meest waardevolle verwijzingskanalen? Wat is de gemiddelde levenwaarde van klanten die van één bron tegenover een andere worden verworven? Door uw van de ordeverwijzing bron gegevens van [!DNL Google ECommerce] aan [!DNL Commerce Intelligence] aan te sluiten, kunt u analyses bouwen die u helpen uw [&#x200B; waardevolste marketing kanalen &#x200B;](../../../data-analyst/analysis/most-value-source-channel.md) identificeren.
 
 Ga aan de slag door uw [!DNL Google ECommerce] -gegevens in te voeren in [!DNL Commerce Intelligence] :
 
@@ -35,7 +35,7 @@ Ga aan de slag door uw [!DNL Google ECommerce] -gegevens in te voeren in [!DNL C
 
    Als u meerdere profielen hebt en hulp nodig hebt bij het identificeren van welke profielen, raadpleegt u de sectie **Meerdere profielen verbinden [!DNL Google Analytics] hieronder.
 
-   ![ Vorm die opties toont om veelvoudige profielen van Google Analytics te verbinden ](../../../assets/conn-mult-ga-profiles.png)<!--{: width="500"}-->
+   ![&#x200B; Vorm die opties toont om veelvoudige profielen van Google Analytics te verbinden &#x200B;](../../../assets/conn-mult-ga-profiles.png)<!--{: width="500"}-->
 
 1. Wijzigingen worden automatisch opgeslagen. Klik dus op **[!UICONTROL Back to Connections]** als u klaar bent.
 
@@ -53,14 +53,14 @@ De profiel-id [!DNL Google Analytics] van een bepaalde website identificeren:
 
 ## [!DNL Google ECommerce] loskoppelen van [!DNL Commerce Intelligence] {#disconnect}
 
-1. Bezoek uw [!DNL Google Analytics] [ pagina van de rekeningsmontages ](https://www.google.com/account/about/?hl=en).
+1. Bezoek uw [!DNL Google Analytics] [&#x200B; pagina van de rekeningsmontages &#x200B;](https://www.google.com/account/about/?hl=en).
 1. Klik onder de sectie `Security` op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
 1. Klik op **[!UICONTROL revoke access]** naast [!DNL Commerce Intelligence] .
 
 ## Verwante:
 
 * [Verwachte  [!DNL Google ECommerce]  gegevens](../integrations/google-ecommerce-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
-* [ Vestiging  [!DNL Google ECommerce]  het volgen ](https://support.google.com/analytics/answer/1009612?hl=en)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Vestiging  [!DNL Google ECommerce]  het volgen &#x200B;](https://support.google.com/analytics/answer/1009612?hl=en)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)
 * [ROI verhogen in uw reclamecampagnes](../../analysis/roi-ad-camp.md)

@@ -29,7 +29,7 @@ Dit gezegd hebbende, bedenk dit - *moeten deze veranderingen permanent zijn?* Al
 
 ## [!DNL Find/Replace] gebruiken {#findreplace}
 
-1. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) naast de naam van uw dashboard, toen het [!UICONTROL Bulk Edit Reports] venster.
+1. Klik het tandwielpictogram (![&#x200B; het pictogram van het Gear &#x200B;](../../assets/gear-icon.png)) naast de naam van uw dashboard, toen het [!UICONTROL Bulk Edit Reports] venster.
 
 1. Klik op **[!UICONTROL Chart Title Find and Replace]** in de pop-up.
 
@@ -41,11 +41,11 @@ Dit gezegd hebbende, bedenk dit - *moeten deze veranderingen permanent zijn?* Al
 
 Voorbeeld:
 
-![ bulkgeef uit ](../../assets/bulk_edit.gif)
+![&#x200B; bulkgeef uit &#x200B;](../../assets/bulk_edit.gif)
 
 ## Voorbehandeling `Chart Names` {#prepend}
 
-1. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) naast de naam van uw dashboard, toen het [!UICONTROL Bulk Edit Reports] venster.
+1. Klik het tandwielpictogram (![&#x200B; het pictogram van het Gear &#x200B;](../../assets/gear-icon.png)) naast de naam van uw dashboard, toen het [!UICONTROL Bulk Edit Reports] venster.
 
 1. Klik op **[!UICONTROL Prepend Report Names]** in de pop-up.
 
@@ -55,11 +55,11 @@ Voorbeeld:
 
 Voorbeeld:
 
-![ prepend ](../../assets/prepend.gif)
+![&#x200B; prepend &#x200B;](../../assets/prepend.gif)
 
 ## Wijzigen `Dates` {#dates}
 
-1. Klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) naast de naam van uw dashboard, dan selecteer het [!UICONTROL Bulk Edit Reports] venster.
+1. Klik het tandwielpictogram (![&#x200B; het pictogram van het Gear &#x200B;](../../assets/gear-icon.png)) naast de naam van uw dashboard, dan selecteer het [!UICONTROL Bulk Edit Reports] venster.
 
 1. Klik op **[!UICONTROL Change Dates]** in het pop-upvenster.
 
@@ -69,4 +69,4 @@ Voorbeeld:
 
 Voorbeeld:
 
-![ veranderende data ](../../assets/dates.gif)
+![&#x200B; veranderende data &#x200B;](../../assets/dates.gif)

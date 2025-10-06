@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Met [!DNL SQL Report Builder] kunt u query&#39;s uitvoeren en wijzigen wanneer u dat wilt. Dit vermogen is nuttig als u een vraag onmiddellijk moet bijwerken, in plaats van het wachten op een updatecyclus om te beëindigen alvorens een kolom of een rapport te bevestigen.
 
-Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
+Alvorens een vraag wordt uitgevoerd, [[!DNL Commerce Intelligence]  schat zijn kosten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.html). Kosten overweegt de tijdsduur en het aantal middelen die worden vereist om een vraag uit te voeren. Als die kosten te hoog worden geacht of als het aantal geretourneerde rijen de [!DNL Commerce Intelligence] -limieten overschrijdt, mislukt de query. Voor het vragen van uw [&#x200B; Data Warehouse &#x200B;](../data-analyst/data-warehouse-mgr/tour-dwm.md), die u verzekert schrijft de meest gestroomlijnde vragen mogelijk, adviseert Adobe het volgende.
 
 ## Alle kolommen selecteren of SELECT gebruiken
 
@@ -25,7 +25,7 @@ Daarom raadt Adobe u aan `SELECT *` niet zoveel mogelijk te gebruiken en alleen 
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![ SQL vraag gebruikend UITGEZOCHTE asterisk ](../../mbi/assets/Select_all_1.png) | ![ SQL vraag die specifieke kolommen ](../../mbi/assets/Select_all_2.png) selecteert |
+| ![&#x200B; SQL vraag gebruikend UITGEZOCHTE asterisk &#x200B;](../../mbi/assets/Select_all_1.png) | ![&#x200B; SQL vraag die specifieke kolommen &#x200B;](../../mbi/assets/Select_all_2.png) selecteert |
 
 {style="table-layout:auto"}
 
@@ -39,7 +39,7 @@ Kijk hoe u een FULL OUTER JOIN vraag kunt herschrijven:
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![ SQL vraag met volledige buitenste toetreedt ](../../mbi/assets/Full_Outer_Join_1.png) | ![ SQL vraag met geoptimaliseerde toetreedt ](../../mbi/assets/Full_Outer_Join_2.png) |
+| ![&#x200B; SQL vraag met volledige buitenste toetreedt &#x200B;](../../mbi/assets/Full_Outer_Join_1.png) | ![&#x200B; SQL vraag met geoptimaliseerde toetreedt &#x200B;](../../mbi/assets/Full_Outer_Join_2.png) |
 
 {style="table-layout:auto"}
 
@@ -59,7 +59,7 @@ Als u een filter gebruikt wanneer het uitvoeren van een verbinding, ben zeker om
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![ SQL vraag met WAAR de componentenfilter ](../../mbi/assets/Join_filters_1.png) | ![ SQL vraag met ON componentenfilter ](../../mbi/assets/Join_filters_2.png) |
+| ![&#x200B; SQL vraag met WAAR de componentenfilter &#x200B;](../../mbi/assets/Join_filters_1.png) | ![&#x200B; SQL vraag met ON componentenfilter &#x200B;](../../mbi/assets/Join_filters_2.png) |
 
 {style="table-layout:auto"}
 
@@ -67,7 +67,7 @@ Als u een filter gebruikt wanneer het uitvoeren van een verbinding, ben zeker om
 
 Als u query&#39;s schrijft, kunt u overwegen de &#39;minst dure&#39; operatoren te gebruiken. Elke vraag heeft computerkosten, die door de functies, de exploitanten, en de filters worden bepaald die omhoog de vraag maken. Sommige operatoren hebben minder rekenkracht nodig, waardoor ze minder kostbaar zijn dan andere operatoren.
 
-Vergelijkingsoperatoren (>, &lt;, =, enzovoort) zijn het goedkoopst, gevolgd door [ LIKE. VERGELIJKBAAR MET en POSIX exploitanten ](https://www.postgresql.org/docs/9.5/functions-matching.html) die de duurste exploitanten zijn.
+Vergelijkingsoperatoren (>, &lt;, =, enzovoort) zijn het goedkoopst, gevolgd door [&#x200B; LIKE. VERGELIJKBAAR MET en POSIX exploitanten &#x200B;](https://www.postgresql.org/docs/9.5/functions-matching.html) die de duurste exploitanten zijn.
 
 ## BESTAANDE versus
 
@@ -79,7 +79,7 @@ Om het simpelweg te zeggen: het systeem hoeft niet zo veel te verwerken wanneer 
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![ SQL vraag die LINKS VERBINDT MET ONGELDIGE controle ](../../mbi/assets/Exists_1.png) | ![ SQL vraag gebruikend EXISTS clausule ](../../mbi/assets/Exists_2.png) |
+| ![&#x200B; SQL vraag die LINKS VERBINDT MET ONGELDIGE controle &#x200B;](../../mbi/assets/Exists_1.png) | ![&#x200B; SQL vraag gebruikend EXISTS clausule &#x200B;](../../mbi/assets/Exists_2.png) |
 
 {style="table-layout:auto"}
 
@@ -95,7 +95,7 @@ Er kunnen enkele situaties zijn waarin deze aanpak niet strookt met wat u probee
 
 | **In plaats van dit...** | **probeer dit!** |
 |-----|-----|
-| ![ SQL vraag met GROEP DOOR vóór filter ](../../mbi/assets/Group_by_2.png) | ![ SQL vraag met filter vóór GROUP DOOR ](../../mbi/assets/Group_by_1.png) |
+| ![&#x200B; SQL vraag met GROEP DOOR vóór filter &#x200B;](../../mbi/assets/Group_by_2.png) | ![&#x200B; SQL vraag met filter vóór GROUP DOOR &#x200B;](../../mbi/assets/Group_by_1.png) |
 
 {style="table-layout:auto"}
 

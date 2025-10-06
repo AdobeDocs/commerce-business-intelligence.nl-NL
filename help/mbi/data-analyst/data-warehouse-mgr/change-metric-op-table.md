@@ -19,12 +19,12 @@ In bepaalde gevallen, kunt u besluiten om de gegevenslijst te veranderen die met
 1. Klik op **[!UICONTROL Edit]** naast de metrische waarde waarvoor u de tabel `operational` wilt wijzigen.
 1. Klik in de editor op **[!UICONTROL Change]** .
 
-   ![ Metrische definitiepagina die operationele lijst toont plaatsend ](../../assets/change-metrics-1.png)
+   ![&#x200B; Metrische definitiepagina die operationele lijst toont plaatsend &#x200B;](../../assets/change-metrics-1.png)
 1. Selecteer de nieuwe lijst die u deze metrisch op wilt baseren.
 1. Pas de bestaande gegevensafmetingen aan de corresponderende in de nieuwe tabel aan. Als u bijvoorbeeld een kolom met de naam `User's registration date` hebt, selecteert u gewoon welke kolom in de nieuwe tabel dezelfde datumgegevens bevat. (Zie de volgende stap als de nieuwe tabel geen overeenkomende kolommen bevat.)
 
-   ![ de selectiedrop-down van de Lijst die beschikbare lijsten ](../../assets/change-metrics-2.png) tonen
+   ![&#x200B; de selectiedrop-down van de Lijst die beschikbare lijsten &#x200B;](../../assets/change-metrics-2.png) tonen
 
-1. Als u geen passende kolom in de nieuwe lijst hebt, kunt u of **tot het in uw gegevenslijst** of [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) leiden als het een berekeningskolom of dimensie is die door [!DNL Commerce Intelligence] wordt gemaakt. U kunt ook **de afmeting van metrisch** schrappen. Als u een dimensie wilt verwijderen die u niet meer nodig hebt, gaat u gewoon terug naar de metrische editor en selecteert u de afmetingen die u onder `Dimensions` wilt verwijderen.
+1. Als u geen passende kolom in de nieuwe lijst hebt, kunt u of **tot het in uw gegevenslijst** of [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) leiden als het een berekeningskolom of dimensie is die door [!DNL Commerce Intelligence] wordt gemaakt. U kunt ook **de afmeting van metrisch** schrappen. Als u een dimensie wilt verwijderen die u niet meer nodig hebt, gaat u gewoon terug naar de metrische editor en selecteert u de afmetingen die u onder `Dimensions` wilt verwijderen.
 
-   ![ Operationele dropdown menu van de kolomselectie ](../../assets/change-metrics-3.png)
+   ![&#x200B; Operationele dropdown menu van de kolomselectie &#x200B;](../../assets/change-metrics-3.png)

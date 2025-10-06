@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Raw-gegevens exporteren
 
-Met onbewerkte gegevensexportbewerkingen kunt u records uit uw Data Warehouse exporteren om beter te kunnen zien wat het dashboard van kracht maakt. Ook, kunnen de ruwe gegevensuitvoer u [ helpen gegevensuitwisselingen ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html) aanwijzen.
+Met onbewerkte gegevensexportbewerkingen kunt u records uit uw Data Warehouse exporteren om beter te kunnen zien wat het dashboard van kracht maakt. Ook, kunnen de ruwe gegevensuitvoer u [&#x200B; helpen gegevensuitwisselingen &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.html) aanwijzen.
 
 De uitvoer van ruwe gegevens verleent toegang tot extra kolommen en dimensies die door de-normalisatie en pre-samenvoeging van relevante metriek worden geproduceerd. `User's first order date` is bijvoorbeeld een dimensie die u voor elke gebruiker in [!DNL Commerce Intelligence] kunt exporteren, terwijl deze wellicht niet beschikbaar is in uw database.
 
@@ -32,9 +32,9 @@ U kunt onbewerkte gegevens op twee manieren exporteren in [!DNL Commerce Intelli
 
 ### Exporteren op tabelniveau op het tabblad [!UICONTROL Manage Data]
 
-Als u de lijst van [!UICONTROL Manage Data] tabel wilt uitvoeren, hebt u [ Admin ](../administrator/user-management/user-management.md) toestemmingen nodig.
+Als u de lijst van [!UICONTROL Manage Data] tabel wilt uitvoeren, hebt u [&#x200B; Admin &#x200B;](../administrator/user-management/user-management.md) toestemmingen nodig.
 
-1. Klik **[!UICONTROL Manage Data** > ** de Gegevens van de Uitvoer **> * Onbewerkte Uitvoer van Gegevens]**.
+1. Klik **[!UICONTROL Manage Data** > **&#x200B; de Gegevens van de Uitvoer &#x200B;**> * Onbewerkte Uitvoer van Gegevens]**.
 1. Er wordt een `Export List` weergegeven van recent gemaakte gegevens die worden geëxporteerd, indien aanwezig. Klik op **[!UICONTROL Add Export]** om een exportbewerking te maken.
 1. Het dialoogvenster `New Raw Data Export` wordt weergegeven. Hier kunt u het exporteren aanpassen door kolommen en filters te selecteren of te deselecteren:
 
@@ -61,7 +61,7 @@ Als u de lijst van [!UICONTROL Manage Data] tabel wilt uitvoeren, hebt u [ Admin
 
 Bekijk het volledige proces op het grafiekniveau.
 
-![ Geanimeerde demonstratie van het uitvoeren van ruwe gegevens van een grafiek ](../assets/Chart-level_export.gif)
+![&#x200B; Geanimeerde demonstratie van het uitvoeren van ruwe gegevens van een grafiek &#x200B;](../assets/Chart-level_export.gif)
 
 ## Stap 2: De export downloaden {#download}
 
@@ -69,7 +69,7 @@ Het exporteren wordt direct na het voltooien van de selecties in het dialoogvens
 
 Als u wilt controleren of het exporteren gereed is, klikt u op **[!UICONTROL Raw Data Exports]** in de rechterbovenhoek van het scherm. Klik op **[!UICONTROL Download]** om een gecomprimeerd `.csv` bestand van uw exportbewerking te downloaden.
 
-![ Geanimeerde demonstratie van het downloaden van een uitgevoerd Csv- dossier ](../assets/Downloading_export.gif)
+![&#x200B; Geanimeerde demonstratie van het downloaden van een uitgevoerd Csv- dossier &#x200B;](../assets/Downloading_export.gif)
 
 ## Stap 3: Toegang tot Historische uitvoer {#historical}
 

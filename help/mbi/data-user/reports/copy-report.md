@@ -17,4 +17,4 @@ Vaak wilt u vergelijkbare gedefinieerde grafieken maken waarin u slechts één e
 
 In deze gevallen start u het dialoogvenster `Chart Editor` en klikt u op **[!UICONTROL Save As]** in de rechterbovenhoek. Hiermee wordt uw bestaande diagram gerepliceerd en toegevoegd aan het huidige dashboard met de nieuwe naam die u selecteert, en kunt u de instellingen van het nieuwe diagram direct bewerken.
 
-![ redacteur van de Grafiek die sparen als optie toont om een exemplaar van een rapport ](../../assets/create-report-copy.png) tot stand te brengen
+![&#x200B; redacteur van de Grafiek die sparen als optie toont om een exemplaar van een rapport &#x200B;](../../assets/create-report-copy.png) tot stand te brengen

@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van Adobe Analytics ](../../../assets/adobe-analytic-slogo.png)
+![&#x200B; het embleem van Adobe Analytics &#x200B;](../../../assets/adobe-analytic-slogo.png)
 
 Dankzij de [!DNL Adobe Analytics] integratie voor [!DNL Adobe Commerce Intelligence] kunt u de volledige aandacht van de klant voor de reis van [!DNL Adobe Analytics] en de eCommerce-focus die u van [!DNL Commerce Intelligence] vertrouwt, samenbrengen. Dit geeft je een volledig beeld van de algehele prestaties van je winkel.
 
@@ -57,6 +57,6 @@ De volgende informatie is nodig om verbinding te maken:
 
 1. De geselecteerde rapportsuite wordt in een tabel weergegeven. Klik op **[!UICONTROL Save]** om uw selectie te bevestigen.
 
-1. Informeer het [!DNL Commerce Intelligence] [ team van de Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) dat uw integratie wordt gemachtigd, en zij stellen het aanvankelijke verbindingsproces voor u in werking.
+1. Informeer het [!DNL Commerce Intelligence] [&#x200B; team van de Steun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) dat uw integratie wordt gemachtigd, en zij stellen het aanvankelijke verbindingsproces voor u in werking.
 
 Nadat het eerste verbindingsproces is gestart, is uw tabel beschikbaar op de Data Warehouse-pagina onder het tabblad `All Tables` . Selecteer de kolommen die u wilt repliceren en de gegevens worden weergegeven na de volgende volledige update.

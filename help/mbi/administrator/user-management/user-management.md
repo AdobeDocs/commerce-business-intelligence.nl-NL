@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gebruikersmachtigingen beheren
 
-[!DNL Adobe Commerce Intelligence] is bedoeld als één bron van waarheid in uw hele organisatie. Elke gebruiker heeft hun eigen reeks dashboards die zij [ met andere gebruikers ](../../data-user/dashboards/share-dashboard-with-users.md) kunnen delen.
+[!DNL Adobe Commerce Intelligence] is bedoeld als één bron van waarheid in uw hele organisatie. Elke gebruiker heeft hun eigen reeks dashboards die zij [&#x200B; met andere gebruikers &#x200B;](../../data-user/dashboards/share-dashboard-with-users.md) kunnen delen.
 
 ## Machtigingsniveaus gebruiker
 
@@ -50,7 +50,7 @@ Met deze machtigingen kunnen gebruikers bepaalde handelingen uitvoeren of toegan
 
 >[!NOTE]
 >
->_u kunt de toegang van de a **[!UICONTROL Standard]**gebruiker [ tot specifieke metriek ](../../administrator/user-management/restrict-metric-access.md) beperken._
+>_u kunt de toegang van de a **[!UICONTROL Standard]**&#x200B;gebruiker [&#x200B; tot specifieke metriek &#x200B;](../../administrator/user-management/restrict-metric-access.md) beperken._
 >
 >** [!UICONTROL Standard] _de gebruikers kunnen tot het Factureren met een extra toestemming toegang hebben plaatsend._
 >
@@ -66,7 +66,7 @@ Naast de algemene machtigingsniveaus bestaan er ook twee andere gebruikersaandui
 
 `Admin` -gebruikers hebben standaard toegang tot de tab `Billing` , maar `Standard` -gebruikers kunnen ook toegang krijgen als ze het selectievakje `Billing` in hun profiel hebben ingeschakeld.
 
-![ het Factureren pagina ](../../assets/billing.png)<!--{: width="550" height="363"}-->
+![&#x200B; het Factureren pagina &#x200B;](../../assets/billing.png)<!--{: width="550" height="363"}-->
 
 ### Technisch
 

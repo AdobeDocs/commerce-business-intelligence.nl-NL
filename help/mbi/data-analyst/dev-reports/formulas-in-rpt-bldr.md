@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Formulieren in de `Report Builder`
 
-In [`Report Builder`](../../tutorials/using-visual-report-builder.md), kunt u krachtige visualisaties tot stand brengen gebruikend de [ bepaalde metriek ](../../data-user/reports/ess-manage-data-metrics.md) in uw rekening. Door deze meetgegevens in een formule te combineren, kunt u extra inzichten van uw gegevens genereren. Dit onderwerp duikt in hoe formules in `Report Builder` kunnen worden gebruikt - laat springen binnen!
+In [`Report Builder`](../../tutorials/using-visual-report-builder.md), kunt u krachtige visualisaties tot stand brengen gebruikend de [&#x200B; bepaalde metriek &#x200B;](../../data-user/reports/ess-manage-data-metrics.md) in uw rekening. Door deze meetgegevens in een formule te combineren, kunt u extra inzichten van uw gegevens genereren. Dit onderwerp duikt in hoe formules in `Report Builder` kunnen worden gebruikt - laat springen binnen!
 
 ## Wat is een `formula` ? {#what}
 
 In de `Report Builder` is een `formula` alleen een combinatie van een of meer meetgegevens op basis van een wiskundige logica. Een typisch voorbeeld ziet er als volgt uit:
 
-![ het voorbeeld van de Formule die berekening in Report Builder ](../../assets/formula-example.png) tonen
+![&#x200B; het voorbeeld van de Formule die berekening in Report Builder &#x200B;](../../assets/formula-example.png) tonen
 
 In dit voorbeeld gebruikt u een `Number of orders metric (A)` en een `Distinct buyers metric (B)` . Het doel is om de vraag te beantwoorden: wat is het gemiddelde aantal bestellingen dat mijn kopers elke maand maken? De parameters van de formule zijn:
 
@@ -35,19 +35,19 @@ Nu u de grondbeginselen hebt behandeld, bekijk een paar voorbeelden.
 
 ### Voorbeeld: Ik wil weten welk percentage van mijn inkomsten kan worden toegeschreven aan eerste bestellingen.
 
-![ Gebruikend formules om het percentage van opbrengst te vinden die aan eerste-tijdorden wordt toegewezen ](../../assets/first_time_orders.gif)
+![&#x200B; Gebruikend formules om het percentage van opbrengst te vinden die aan eerste-tijdorden wordt toegewezen &#x200B;](../../assets/first_time_orders.gif)
 
 In dit voorbeeld hebt u de metriek `Revenue` en `Revenue (first time orders)` gebruikt. Door `Revenue (first time orders)(B)` metrisch door `Revenue metric (A)` te delen en het terugkeerformaat aan `Percent` te plaatsen, kunt u het percentage van opbrengst vinden dat aan eerste orde kan worden toegeschreven.
 
 ### Voorbeeld: ik wil weten wat de gemiddelde opbrengst per orde is wanneer ik doe en geen `promo code` aanbiedt.
 
-![ Gebruikend formules om de gemiddelde opbrengst per orde met en zonder promotiecodes te vinden ](../../assets/promo_code.gif)
+![&#x200B; Gebruikend formules om de gemiddelde opbrengst per orde met en zonder promotiecodes te vinden &#x200B;](../../assets/promo_code.gif)
 
 In dit voorbeeld hebt u de metriek `Revenue` en `Number of orders` gebruikt. Het antwoord op deze vraag bestaat uit twee stappen: `Revenue (A)` wordt gedeeld door `Number of orders (B)` en de retournotatie wordt ingesteld op `Currency` . Vervolgens hebt u alleen het resultaat van de formule (`Avg. Revenue per order`) toegestaan om de resultaten weer te geven en te groeperen met `Promo code` .
 
 ### Voorbeeld: Ik wil de distributie van de UTM-bronnen van mijn nieuwe klanten kennen.
 
-![ Gebruikend formules om de distributie van de bronnen van UTM van nieuwe klanten te vinden ](../../assets/distro.gif)
+![&#x200B; Gebruikend formules om de distributie van de bronnen van UTM van nieuwe klanten te vinden &#x200B;](../../assets/distro.gif)
 
 Het vinden van het antwoord op deze vraag omvat een paar stappen:
 
@@ -63,6 +63,6 @@ In dit voorbeeld hebt u het perspectief `Stacked Columns` gebruikt om de resulta
 
 ## Omloop {#wrapup}
 
-Hebt u in de bovenstaande voorbeelden gemerkt dat de formules `timestamp` , `groupings` , `perspectives` en `filters` worden overgeërfd van de invoermeetgegevens? Houd in mening dat de formules kunnen worden gebruikt om `perspectives` en [ onafhankelijke tijdopties ](../../tutorials/time-options-visual-rpt-bldr.md){: target="_blank"} te gebruiken, enkel als metriek kan.
+Hebt u in de bovenstaande voorbeelden gemerkt dat de formules `timestamp` , `groupings` , `perspectives` en `filters` worden overgeërfd van de invoermeetgegevens? Houd in mening dat de formules kunnen worden gebruikt om `perspectives` en [&#x200B; onafhankelijke tijdopties &#x200B;](../../tutorials/time-options-visual-rpt-bldr.md){: target="_blank"} te gebruiken, enkel als metriek kan.
 
-Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als u om het even welke extra vragen over het gebruiken van formules in `Report Builder` hebt, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

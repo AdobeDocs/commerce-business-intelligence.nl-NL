@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van Google AdWords ](../../../assets/Google_Adwords_logo.png)
+![&#x200B; het embleem van Google AdWords &#x200B;](../../../assets/Google_Adwords_logo.png)
 
-Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je [!DNL Google] campagne gestart. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [ van gebruikers te bedienen die van uw campagnes worden verworven.](../../analysis/roi-ad-camp.md)
+Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je [!DNL Google] campagne gestart. Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [&#x200B; van gebruikers te bedienen die van uw campagnes worden verworven.](../../analysis/roi-ad-camp.md)
 
 Ga aan de slag door uw [!DNL Google Adwords] -gegevens in te voeren in [!DNL Commerce Intelligence] .
 
@@ -29,7 +29,7 @@ Ga aan de slag door uw [!DNL Google Adwords] -gegevens in te voeren in [!DNL Com
 1. Voer uw [!DNL Google Analytics] referenties in. Nadat het autorisatieproces is voltooid, wordt u teruggeleid naar [!DNL Commerce Intelligence] .
 1. Een lijst met profiel-id&#39;s. Controleer de profielen waarmee u verbinding wilt maken [!DNL Commerce Intelligence] .
 
-   ![ de verbindingsdialoog van Google AdWords die profielselectie toont ](../../../assets/cnnct-profile.png)
+   ![&#x200B; de verbindingsdialoog van Google AdWords die profielselectie toont &#x200B;](../../../assets/cnnct-profile.png)
 
 1. Wijzigingen worden automatisch opgeslagen. Klik dus op **[!UICONTROL Back to Connections]** als u klaar bent.
 
@@ -49,13 +49,13 @@ Er kunnen meerdere websites verbonden zijn met één [!DNL Google Analytics] -ac
 
 ## Verbinding verbreken [!DNL Google Adwords]
 
-1. Bezoek uw [!DNL Google] [ pagina van de rekeningsmontages ](https://www.google.com/account/about/?hl=en).
+1. Bezoek uw [!DNL Google] [&#x200B; pagina van de rekeningsmontages &#x200B;](https://www.google.com/account/about/?hl=en).
 1. Klik onder de sectie `Security` op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
 1. Klik op **[!UICONTROL revoke access]**.
 
 ## Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Bron voor verwijzing van de orde van het spoor via  [!DNL Google ECommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)
 * [Ontdek uw meest waardevolle aanschafbronnen en kanalen](../../analysis/most-value-source-channel.md)

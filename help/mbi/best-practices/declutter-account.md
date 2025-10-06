@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Of u nu al zes maanden of zes jaar bij [!DNL Commerce Intelligence] bent, het bijhouden van een proefaccount is van het grootste belang voor uw organisatie om het beste uit het platform te halen. In tijd, is het natuurlijk voor er gebruikers, dashboards, rapporten, metriek, en kolommen zijn die niet meer nodig zijn. Mogelijk hebt u een rapport gemaakt voor eenmalig gebruik en bent u vergeten of heeft een gebruiker die uw bedrijf heeft verlaten, zijn account nooit gedeactiveerd.
 
-Met [ gestandaardiseerde, duidelijke noemende voor alle elementen ](../best-practices/naming-elements.md)) van uw [!DNL Commerce Intelligence] rekening, helpen de stappen van de rekeningscontrole hieronder u de rommelige en onnodige analyses voor uw gebruikers verminderen. Één extra voordeel omvat [ potentieel snellere updatecycli ](../best-practices/reduce-update-cycle-time.md).
+Met [&#x200B; gestandaardiseerde, duidelijke noemende voor alle elementen &#x200B;](../best-practices/naming-elements.md)) van uw [!DNL Commerce Intelligence] rekening, helpen de stappen van de rekeningscontrole hieronder u de rommelige en onnodige analyses voor uw gebruikers verminderen. Één extra voordeel omvat [&#x200B; potentieel snellere updatecycli &#x200B;](../best-practices/reduce-update-cycle-time.md).
 
 ## Stap 1: Identificeer uw niet-actieve gebruikers
 
@@ -25,11 +25,11 @@ U doet dit door op de naam van uw bedrijf in de navigatiebalk rechtsboven te kli
 
 >[!NOTE]
 >
->U hebt [ toestemmingen Admin ](../administrator/user-management/user-management.md) nodig om dit te doen.
+>U hebt [&#x200B; toestemmingen Admin &#x200B;](../administrator/user-management/user-management.md) nodig om dit te doen.
 
 >[!WARNING]
 >
->Als u een gebruiker deactiveert, verwijdert u de diagrammen, dashboards en andere elementen die door die gebruiker zijn gemaakt. Als u deze activa wilt bewaren, contacteer het [!DNL Commerce Intelligence] [ steun ](../guide-overview.md#Submitting-a-Support-Ticket) team alvorens de gebruiker te deactiveren. Ondersteuning kan u helpen deze middelen over te brengen naar een andere gebruiker.
+>Als u een gebruiker deactiveert, verwijdert u de diagrammen, dashboards en andere elementen die door die gebruiker zijn gemaakt. Als u deze activa wilt bewaren, contacteer het [!DNL Commerce Intelligence] [&#x200B; steun &#x200B;](../guide-overview.md#Submitting-a-Support-Ticket) team alvorens de gebruiker te deactiveren. Ondersteuning kan u helpen deze middelen over te brengen naar een andere gebruiker.
 
 ### Gebruiker opnieuw activeren
 
@@ -41,7 +41,7 @@ De volgende stap bij het controleren van uw account is het verwijderen van ongeb
 
 >[!NOTE]
 >
->U hebt `Admin` of `Standard` [ gebruikerstoestemmingen ](../administrator/user-management/user-management.md) nodig om dit te doen.
+>U hebt `Admin` of `Standard` [&#x200B; gebruikerstoestemmingen &#x200B;](../administrator/user-management/user-management.md) nodig om dit te doen.
 
 Elke gebruiker met `Admin` of `Standard` toegang kan rapporten en dashboards tot stand brengen. Daarom moet iedereen met deze machtigingen de onderstaande stappen volgen om ongebruikte rapporten te identificeren en te verwijderen.
 
@@ -61,13 +61,13 @@ Nadat u toegang hebt tot uw dashboards en rapporten, kunt u beginnen uw rekening
 
 **om een volledig dashboard** te schrappen
 
-1. Selecteer **[!UICONTROL Manage Data]**, dan ** [!UICONTROL Dashboards**].
+1. Selecteer **[!UICONTROL Manage Data]**, dan **&#x200B; [!UICONTROL Dashboards**].
 1. Klik op het dashboard dat u wilt verwijderen.
 1. Klik op **[!UICONTROL Delete Dashboard]**.
 
 U kunt ook **[!UICONTROL Dashboard Options]** selecteren en vervolgens **[!UICONTROL Delete]** in het dashboard zelf.
 
-![ optie van de Schrapping in het menu van het dashboardtandwieluiteinde ](../../mbi/assets/Delete_from_dashboard.png)
+![&#x200B; optie van de Schrapping in het menu van het dashboardtandwieluiteinde &#x200B;](../../mbi/assets/Delete_from_dashboard.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ U kunt ook **[!UICONTROL Dashboard Options]** selecteren en vervolgens **[!UICON
 
 Hier is een blik op het ongebruikte proces van de rapportschrapping:
 
-![ Ongebruikte rapportenlijst die rapporten tonen niet op om het even welk dashboard ](../../mbi/assets/unused_reports.png)
+![&#x200B; Ongebruikte rapportenlijst die rapporten tonen niet op om het even welk dashboard &#x200B;](../../mbi/assets/unused_reports.png)
 
 ## Stap 3: Ongebruikte metriek verwijderen
 
@@ -93,7 +93,7 @@ Nadat u uw gebruikerslijst, dashboards, en rapporten hebt schoongemaakt, kunt u 
 1. Onder aan de pagina ziet u een sectie met de naam **[!UICONTROL Dependent Charts]** . Klik de verbinding om een afhankelijke rapportlijst voor dit metrisch te produceren.
 1. Nadat het systeem de controle voltooit, [!DNL Commerce Intelligence] toont een lijst van dashboards, rapporten, en gebruikers die dit metrisch gebruiken.
 
-![ de dialoog die van de gebiedsdelen van het Rapport toont welke rapporten geselecteerde kolom ](../../mbi/assets/report_dependecies.png) gebruiken
+![&#x200B; de dialoog die van de gebiedsdelen van het Rapport toont welke rapporten geselecteerde kolom &#x200B;](../../mbi/assets/report_dependecies.png) gebruiken
 
 Als u besluit dat de metrische waarde niet meer nodig is, navigeert u weer naar de pagina **[!UICONTROL Metrics]** door op **[!UICONTROL Back to Metric List]** te klikken om de metrische waarde te zoeken die u wilt verwijderen. Klik op **[!UICONTROL Delete]**.
 
@@ -101,7 +101,7 @@ Als u besluit dat de metrische waarde niet meer nodig is, navigeert u weer naar 
 
 De laatste stap bestaat uit het beoordelen van de kolommen die momenteel worden gesynchroniseerd in uw Data Warehouse. U kunt niet alleen de synchronisatie van kolommen in uw account ongedaan maken, maar ook de updatetijd verminderen.
 
-Als u dit zou willen nastreven, bereik uit aan [!DNL Commerce Intelligence] [ Steun ](../guide-overview.md#Submitting-a-Support-Ticket). Het ondersteuningsteam kan een rapport maken dat alle kolommen bevat die in geen enkel dashboard voor een gebruiker worden gebruikt en die niet in e-mailoverzichten worden gebruikt, met uitzondering van SQL-rapporten. U kunt dit rapport vervolgens gebruiken als richtlijn voor het selecteren van kolommen die u niet wilt synchroniseren via Data Warehouse Manager.
+Als u dit zou willen nastreven, bereik uit aan [!DNL Commerce Intelligence] [&#x200B; Steun &#x200B;](../guide-overview.md#Submitting-a-Support-Ticket). Het ondersteuningsteam kan een rapport maken dat alle kolommen bevat die in geen enkel dashboard voor een gebruiker worden gebruikt en die niet in e-mailoverzichten worden gebruikt, met uitzondering van SQL-rapporten. U kunt dit rapport vervolgens gebruiken als richtlijn voor het selecteren van kolommen die u niet wilt synchroniseren via Data Warehouse Manager.
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Als u dit zou willen nastreven, bereik uit aan [!DNL Commerce Intelligence] [ St
 
 Hier is een blik op het hele proces:
 
-![ de kolomoptie van de Daling in de Manager van Data Warehouse ](../../mbi/assets/drop_column.png)
+![&#x200B; de kolomoptie van de Daling in de Manager van Data Warehouse &#x200B;](../../mbi/assets/drop_column.png)
 
 ## Omloop
 

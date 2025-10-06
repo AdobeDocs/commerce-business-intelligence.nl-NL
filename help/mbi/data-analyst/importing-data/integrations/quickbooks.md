@@ -15,9 +15,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ Logo QuickBooks ](../../../assets/Quickbooks.png)
+![&#x200B; Logo QuickBooks &#x200B;](../../../assets/Quickbooks.png)
 
 Dankzij de integratie van [!DNL QuickBooks] kunnen uw bedrijfsfinanciën nu naast uw verkoop- en marketinggegevens leven, zodat u snel en eenvoudig tabbladen over uw uitgaven kunt bijhouden, overbesteding kunt identificeren en nog veel meer.
 
@@ -36,7 +36,7 @@ Dankzij de integratie van [!DNL QuickBooks] kunnen uw bedrijfsfinanciën nu naas
 
 Nadat u op **[!UICONTROL Connect to Quickbooks]** hebt geklikt, meldt u zich aan bij uw [!DNL Intuit] -account en autoriseert u de verbinding:
 
-![ QuickBooks App Store integratiepagina ](../../../assets/QuickBooks_App_Store_1.jpg)
+![&#x200B; QuickBooks App Store integratiepagina &#x200B;](../../../assets/QuickBooks_App_Store_1.jpg)
 
 1. Selecteer uw bedrijf in de vervolgkeuzelijst `Search for a company` .
 1. Klik op **[!UICONTROL Next]**. U wordt opnieuw gericht aan [!DNL Commerce Intelligence] en a *Geslaagde Verbinding!* wordt boven in het scherm weergegeven.
@@ -44,4 +44,4 @@ Nadat u op **[!UICONTROL Connect to Quickbooks]** hebt geklikt, meldt u zich aan
 ## Verwante
 
 * [Verwachte  [!DNL QuickBooks]  gegevens](../integrations/quickbooks-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

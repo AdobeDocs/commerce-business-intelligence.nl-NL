@@ -64,7 +64,7 @@ Dat wordt vervolgens gebruikt om:
 
 Beide velden moeten op gebruikersniveau worden gemaakt (bijvoorbeeld op de tabel `user` ). Hierdoor kan de gemiddelde analyse door de gebruikers worden genormaliseerd (met andere woorden, de noemer in deze gemiddelde berekening is het aantal gebruikers).
 
-Hier wordt door [!DNL Commerce Intelligence] ingesprongen! U kunt uw [!DNL Commerce Intelligence] Data Warehouse gebruiken om de bovenstaande kolommen te maken. Neem contact op met het Adobe-analistenteam en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt de [ Redacteur van de Kolom ](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) ook gebruiken.
+Hier wordt door [!DNL Commerce Intelligence] ingesprongen! U kunt uw [!DNL Commerce Intelligence] Data Warehouse gebruiken om de bovenstaande kolommen te maken. Neem contact op met het Adobe-analistenteam en geef ons de specifieke definitie van uw nieuwe kolommen voor het maken. U kunt de [&#x200B; Redacteur van de Kolom &#x200B;](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md) ook gebruiken.
 
 Het is aan te raden te vermijden dat u deze berekende gegevensvelden rechtstreeks in uw database maakt, aangezien dit een onnodige belasting voor uw productieservers betekent.
 
@@ -77,7 +77,7 @@ Hier wilt u de volgende berekening uitvoeren:
 
 _[SUM van `Time between a customer's registration date and first purchase date`] / [ Totaal aantal klanten dat registreerde en]_ kocht
 
-En u wilt deze berekening in tijd, of trending, volgens de registratiedatum van een klant in kaart brengen. En hier is hoe te [ deze metrische ](../../data-user/reports/ess-manage-data-metrics.md) binnen [!DNL Commerce Intelligence] creëren:
+En u wilt deze berekening in tijd, of trending, volgens de registratiedatum van een klant in kaart brengen. En hier is hoe te [&#x200B; deze metrische &#x200B;](../../data-user/reports/ess-manage-data-metrics.md) binnen [!DNL Commerce Intelligence] creëren:
 
 1. Ga naar **[!UICONTROL Data]** en selecteer de tab `Metrics` .
 1. Klik op **[!UICONTROL Add New Metric]** en selecteer de tabel `user` (waarin u de bovenstaande afmetingen hebt gemaakt).
@@ -90,11 +90,11 @@ Deze metrische waarde is nu klaar.
 
 Met de nieuwe metrische opstelling, kunt u het gebruiken om over de gemiddelde tijd tussen registratie en eerste aankoopdatum door registratiedatum te melden.
 
-Ga eenvoudig naar om het even welk dashboard en [ creeer een rapport ](../../data-user/reports/ess-manage-data-metrics.md) gebruikend metrisch hierboven gecreeerd.
+Ga eenvoudig naar om het even welk dashboard en [&#x200B; creeer een rapport &#x200B;](../../data-user/reports/ess-manage-data-metrics.md) gebruikend metrisch hierboven gecreeerd.
 
 ### `Visual Report Builder` {#visualrb}
 
-[ `Visual Report Builder`](../../data-user/reports/ess-rpt-build-visual.md) is de gemakkelijkste manier om uw gegevens te visualiseren. Als u niet vertrouwd met SQL bent of u een rapport wilt snel tot stand brengen, is Visual Report Builder uw beste weddenschap. Met slechts een paar klikken, kunt u metriek toevoegen, uw gegevens segmenteren, en rapporten tot stand brengen aan over uw organisatie. Deze optie is ideaal voor zowel beginners als deskundigen, aangezien hiervoor geen technische expertise vereist is.
+[&#x200B; `Visual Report Builder`](../../data-user/reports/ess-rpt-build-visual.md) is de gemakkelijkste manier om uw gegevens te visualiseren. Als u niet vertrouwd met SQL bent of u een rapport wilt snel tot stand brengen, is Visual Report Builder uw beste weddenschap. Met slechts een paar klikken, kunt u metriek toevoegen, uw gegevens segmenteren, en rapporten tot stand brengen aan over uw organisatie. Deze optie is ideaal voor zowel beginners als deskundigen, aangezien hiervoor geen technische expertise vereist is.
 
 |  |  |
 |--- |--- |
@@ -115,7 +115,7 @@ Bij het maken van rapporten die worden gedeeld met andere leden van uw team, raa
 
 Zie hieronder:
 
-![ Beschrijving van de Grafiek ](../../assets/Chart_Description.gif)
+![&#x200B; Beschrijving van de Grafiek &#x200B;](../../assets/Chart_Description.gif)
 
 #### Rapporten exporteren als afbeeldingen
 
@@ -128,4 +128,4 @@ Wilt u een rapport opnemen in een presentatie of document? Elk rapport kan worde
 
 Zie hieronder:
 
-![ Geanimeerde demonstratie van het uitvoeren van een rapport als beelddossier ](../../assets/exp-rep-as-image.gif)
+![&#x200B; Geanimeerde demonstratie van het uitvoeren van een rapport als beelddossier &#x200B;](../../assets/exp-rep-as-image.gif)

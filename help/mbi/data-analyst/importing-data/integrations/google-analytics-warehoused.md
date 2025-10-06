@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van Google Analytics ](../../../assets/google-analytics-logo.png)
+![&#x200B; het embleem van Google Analytics &#x200B;](../../../assets/google-analytics-logo.png)
 
 [!DNL Google Analytics] is de meest gebruikte service voor webanalyse op internet. Als u [!DNL Google Analytics] op uw website implementeert, kunt u bijhouden hoe bezoekers uw site gebruiken, welke inhoud aantrekkelijk is, waar bezoekers vertrekken en nog veel meer. [!DNL Google Analytics Warehoused] is een afzonderlijke integratie van uw bestaande [!DNL Google Analytics] -integratie. Hierdoor is een betere analyse mogelijk omdat de [!DNL Google Analytics] -gegevens zich in uw Data Warehouse bevinden. Dit is anders dan de live feed van de bestaande [!DNL Google Analytics] -integratie. Als u deze gegevens in [!DNL Commerce Intelligence] analyseert, worden de algemene gezondheid en bruikbaarheid van uw site verbeterd, samen met andere gegevens.
 
@@ -35,7 +35,7 @@ Met de [!DNL Google Analytics Live] -integratie aan de andere kant is elke [!DNL
 
 >[!INFO]
 >
->[!DNL Google Analytics Warehoused] is een `Premium` Integratie. [ de steun van het Contact ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u een belang in het toevoegen van deze integratie aan uw abonnement hebt.
+>[!DNL Google Analytics Warehoused] is een `Premium` Integratie. [&#x200B; de steun van het Contact &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) als u een belang in het toevoegen van deze integratie aan uw abonnement hebt.
 
 1. Ga naar de pagina `Connections` onder **[!UICONTROL Admin** > **Integrations]** .
 1. Klik op **[!UICONTROL Add an Integration]** aan de rechterkant.
@@ -57,13 +57,13 @@ De profiel-id [!DNL Google Analytics] van een bepaalde website identificeren:
 
 ## [!DNL Google Analytics Warehoused] loskoppelen van [!DNL Commerce Intelligence] {#disconnect}
 
-1. Bezoek uw [!DNL Google Analytics] [ pagina van de rekeningsmontages ](https://myaccount.google.com/intro).
+1. Bezoek uw [!DNL Google Analytics] [&#x200B; pagina van de rekeningsmontages &#x200B;](https://myaccount.google.com/intro).
 1. Klik onder de sectie `Security` op **[!UICONTROL edit]** naast `Authorizing` toepassingen en sites.
 1. Klik op **[!UICONTROL revoke access]** naast [!DNL Commerce Intelligence] .
 
 ## Gerelateerde documentatie
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Verbinding maken  [!DNL Google Adwords]](../integrations/google-adwords.md)
 * [Websiteactiviteiten en conversietarieven van klanten analyseren](../../analysis/web-act-cust-conversion.md)
 * [De gegevens van de gebruikersverwerving van het spoor gebruikend  [!DNL Google Analytics]  koekjes](../../analysis/google-track-user-acq.md)

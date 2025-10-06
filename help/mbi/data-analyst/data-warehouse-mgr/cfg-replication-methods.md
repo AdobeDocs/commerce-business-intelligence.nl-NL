@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Replicatiemethoden configureren
 
-`Replication` de methodes en [ hercontroles ](../data-warehouse-mgr/cfg-data-rechecks.md) worden gebruikt om nieuwe of bijgewerkte gegevens in uw gegevensbestandlijsten te identificeren. Een juiste instelling is van cruciaal belang voor zowel de nauwkeurigheid van de gegevens als de geoptimaliseerde updatetijden. Dit onderwerp concentreert zich op replicatiemethodes.
+`Replication` de methodes en [&#x200B; hercontroles &#x200B;](../data-warehouse-mgr/cfg-data-rechecks.md) worden gebruikt om nieuwe of bijgewerkte gegevens in uw gegevensbestandlijsten te identificeren. Een juiste instelling is van cruciaal belang voor zowel de nauwkeurigheid van de gegevens als de geoptimaliseerde updatetijden. Dit onderwerp concentreert zich op replicatiemethodes.
 
-Wanneer de nieuwe lijsten in de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) worden gesynchroniseerd, wordt een replicatiemethode automatisch gekozen voor de lijst. Het begrip van de diverse replicatiemethodes, hoe de lijsten worden georganiseerd, en hoe het gedrag van de lijstgegevens u toestaat om de beste replicatiemethode voor uw lijsten te kiezen.
+Wanneer de nieuwe lijsten in de [&#x200B; Manager van Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md) worden gesynchroniseerd, wordt een replicatiemethode automatisch gekozen voor de lijst. Het begrip van de diverse replicatiemethodes, hoe de lijsten worden georganiseerd, en hoe het gedrag van de lijstgegevens u toestaat om de beste replicatiemethode voor uw lijsten te kiezen.
 
 ## Wat zijn de replicatiemethoden?
 
@@ -39,12 +39,12 @@ De `Modified At` replicatiemethode gebruikt een datetime kolom - die wordt bevol
 
 Naast die criteria, adviseert Adobe **indexerend** de `datetime` kolom die voor `Modified At` replicatie wordt gebruikt, aangezien dit hulp replicatiesnelheid optimaliseert.
 
-Wanneer de update wordt uitgevoerd, worden nieuwe of gewijzigde gegevens geïdentificeerd door te zoeken naar rijen met een waarde in de kolom `datetime` die na de meest recente update is opgetreden. Wanneer nieuwe rijen worden ontdekt, worden zij herhaald aan uw Data Warehouse. Als om het even welke rijen in de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) bestaan, worden zij met de huidige gegevensbestandwaarden beschreven.
+Wanneer de update wordt uitgevoerd, worden nieuwe of gewijzigde gegevens geïdentificeerd door te zoeken naar rijen met een waarde in de kolom `datetime` die na de meest recente update is opgetreden. Wanneer nieuwe rijen worden ontdekt, worden zij herhaald aan uw Data Warehouse. Als om het even welke rijen in de [&#x200B; Manager van Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md) bestaan, worden zij met de huidige gegevensbestandwaarden beschreven.
 
 Een tabel kan bijvoorbeeld een kolom met de naam `modified\_at` hebben die de laatste keer aangeeft dat gegevens zijn gewijzigd. Als de meest recente update dinsdag om 12.00 uur liep, zoekt de update naar alle rijen met een `modified\_at` waarde groter dan dinsdag 12.00 uur. Alle ontdekte rijen die zijn gemaakt of gewijzigd sinds 12.00 uur op dinsdag, worden gerepliceerd naar de Data Warehouse.
 
 **Wist u het?**
-Zelfs als uw gegevensbestand momenteel geen `Incremental` methode van de Replicatie kan steunen, kunt u veranderingen in uw gegevensbestand [ kunnen aanbrengen ](../../best-practices/mod-db-inc-replication.md) die gebruik van `Modified At` of `Single Auto Incrementing PK` zou toelaten.
+Zelfs als uw gegevensbestand momenteel geen `Incremental` methode van de Replicatie kan steunen, kunt u veranderingen in uw gegevensbestand [&#x200B; kunnen aanbrengen &#x200B;](../../best-practices/mod-db-inc-replication.md) die gebruik van `Modified At` of `Single Auto Incrementing PK` zou toelaten.
 
 `Modified At` is niet alleen de meest ideale replicatiemethode, maar ook de snelste. Deze methode veroorzaakt niet alleen merkbare snelheidsverhogingen met grote gegevensreeksen, het vereist ook het vormen van geen recheck optie. Andere methoden moeten een hele tabel doorlopen om wijzigingen te identificeren, zelfs als een kleine subset van gegevens is gewijzigd. `Modified At` doorloopt alleen die kleine subset.
 
@@ -118,7 +118,7 @@ De methodes van de replicatie worden geplaatst op een lijst-door-lijst basis. Al
 
 Kijk naar het hele proces:
 
-![ Geanimeerde demonstratie van het vormen replicatiemethodes voor gegevensbestandlijsten ](../../assets/replication_method.gif)<!--{: width="801" height="341"}-->
+![&#x200B; Geanimeerde demonstratie van het vormen replicatiemethodes voor gegevensbestandlijsten &#x200B;](../../assets/replication_method.gif)<!--{: width="801" height="341"}-->
 
 ## Omloop
 
@@ -135,6 +135,6 @@ Om omhoog te beëindigen, hebt u deze lijst samengebracht die de diverse replica
 ## Gerelateerde documentatie
 
 * [Hercontroles van gegevens](../data-warehouse-mgr/cfg-data-rechecks.md)
-* [De database aanpassen voor ondersteuning ](../../best-practices/mod-db-inc-replication.md)
+* [De database aanpassen voor ondersteuning &#x200B;](../../best-practices/mod-db-inc-replication.md)
 * [De database optimaliseren voor analyse](../../best-practices/opt-db-analysis.md)
 * [Bijwerktijden reduceren](../../best-practices/reduce-update-cycle-time.md)

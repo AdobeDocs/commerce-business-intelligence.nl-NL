@@ -392,9 +392,9 @@ Gebruikersgroepen zijn logische groepen gebieden die zijn toegewezen aan specifi
 
 Gebruikersgroepen configureren:
 
-1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] **, om bestaande gebruikersgroepen te bekijken.
+1. Ga naar [!UICONTROL **Manage Gebruikers**] > [!UICONTROL **User Groups] &#x200B;**, om bestaande gebruikersgroepen te bekijken.
 
-   ![ vorm gebruikersgroepen ](../../assets/configure-user-groups.png)
+   ![&#x200B; vorm gebruikersgroepen &#x200B;](../../assets/configure-user-groups.png)
 
 1. [!UICONTROL **voeg Groep**] toe staat beheerders toe om een nieuwe gebruikersgroep tot stand te brengen:
 
@@ -404,7 +404,7 @@ Gebruikersgroepen configureren:
 
    - Sla de configuratie op.
 
-     ![ voeg gebruikersgroepen ](../../assets/add-group.png) toe
+     ![&#x200B; voeg gebruikersgroepen &#x200B;](../../assets/add-group.png) toe
 
 1. Beheerders kunnen:
 
@@ -422,7 +422,7 @@ Gebruikersgroepen configureren:
 
 Admins kunnen nieuwe gebruikers aan relevante groepen tijdens hun onboarding in kaart brengen door [!UICONTROL **te gebruiken uitnodigen een Gebruiker**]. Bestaande gebruikers kunnen opnieuw worden toegewezen aan gebruikersgroepen op basis van zakelijke vereisten.
 
-![ wijs gebruikers aan gebruikersgroepen ](../../assets/assign-users-to-groups.png) toe
+![&#x200B; wijs gebruikers aan gebruikersgroepen &#x200B;](../../assets/assign-users-to-groups.png) toe
 
 >[!TIP]
 >
@@ -438,7 +438,7 @@ De gebruikers Admin worden altijd in kaart gebracht aan [!UICONTROL **Alle**] op
 
 - Beheerders kunnen dashboards delen met de gebruikersgroepen en met andere admingebruikers om samen te werken. Dit maakt gecentraliseerd beheer van dashboards mogelijk en vereenvoudigt het beheer voor grote organisaties.
 
-  ![ dashboards van het Aandeel ](../../assets/share-dashboards.png)
+  ![&#x200B; dashboards van het Aandeel &#x200B;](../../assets/share-dashboards.png)
 
 - Tot de machtigingen voor delen van dashboard behoren:
 
@@ -450,17 +450,17 @@ De gebruikers Admin worden altijd in kaart gebracht aan [!UICONTROL **Alle**] op
 
   >[!NOTE]
   >
-  >Verwijs naar de [ eigenschapmatrijs ](#feature-matrix) voor bruikbaarheid van diverse eigenschappen van Commerce Intelligence die op de regel en dashboardtoestemmingen worden gebaseerd om diverse combinaties te begrijpen.
+  >Verwijs naar de [&#x200B; eigenschapmatrijs &#x200B;](#feature-matrix) voor bruikbaarheid van diverse eigenschappen van Commerce Intelligence die op de regel en dashboardtoestemmingen worden gebaseerd om diverse combinaties te begrijpen.
 
 #### Dashboardweergaven
 
 Admin-gebruikers kunnen dashboardgegevens weergeven met toegang tot alle winkels.
 
-![ dashboard van de Mening admin ](../../assets/view-dashboard-admin.png)
+![&#x200B; dashboard van de Mening admin &#x200B;](../../assets/view-dashboard-admin.png)
 
 Nochtans, kunnen de gebruikers dashboardgegevens bekijken die op de opslag worden gefiltreerd die aan hen tijdens gebruikersconfiguratie in kaart worden gebracht.
 
-![ het dashboard van de Mening filtreerde admin ](../../assets/view-dashboard-user.png)
+![&#x200B; het dashboard van de Mening filtreerde admin &#x200B;](../../assets/view-dashboard-user.png)
 
 >[!TIP]
 >
@@ -470,4 +470,4 @@ Nochtans, kunnen de gebruikers dashboardgegevens bekijken die op de opslag worde
 
 [!DNL Advanced User Management] breidt de mogelijkheden voor het filteren van gegevens uit tot e-mailoverzichten. Afhankelijk van het publiek kunnen beheergebruikers gebruikersgroepen opgeven waarvoor de geselecteerde rapporten moeten worden gefilterd.
 
-![ overzicht van het Plan e-mail ](../../assets/schedule-email-summary.png)
+![&#x200B; overzicht van het Plan e-mail &#x200B;](../../assets/schedule-email-summary.png)

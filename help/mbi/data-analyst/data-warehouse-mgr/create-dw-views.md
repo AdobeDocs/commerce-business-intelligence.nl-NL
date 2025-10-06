@@ -19,7 +19,7 @@ In dit document worden het doel en het gebruik van `Data Warehouse Views` dat to
 
 De functie `Data Warehouse Views` is een methode om nieuwe geagendeerde tabellen te maken door een bestaande tabel te wijzigen of door meerdere tabellen samen te voegen of te consolideren met SQL. Als een `Data Warehouse View` eenmaal is gemaakt en verwerkt door een updatecyclus, wordt het in uw Data Warehouse gevuld als een nieuwe tabel onder het vervolgkeuzemenu `Data Warehouse Views` , zoals hieronder wordt getoond:
 
-![ interface die van Data Warehouse de opties van het lijstbeheer tonen ](../../assets/Data_Warehouse.png)
+![&#x200B; interface die van Data Warehouse de opties van het lijstbeheer tonen &#x200B;](../../assets/Data_Warehouse.png)
 
 Van hier, functioneert uw nieuwe mening zoals een andere lijst, die u de macht geven om nieuwe berekende kolommen tot stand te brengen of metriek en rapporten bovenop het te bouwen.
 
@@ -31,7 +31,7 @@ Als u bekend bent met SQL, gebruiken beide consolidatievoorbeelden de `UNION` fu
 
 U kunt nieuwe `Data Warehouse Views` maken en bestaande weergaven verwijderen door naar **[!UICONTROL Manage Data]** > **[!UICONTROL Data Warehouse Views]** te navigeren, zoals hieronder wordt getoond:
 
-![ sectie van de Mening van Data Warehouse die de configuraties van de douanemening tonen ](../../assets/Data_Warehouse_Views.png)
+![&#x200B; sectie van de Mening van Data Warehouse die de configuraties van de douanemening tonen &#x200B;](../../assets/Data_Warehouse_Views.png)
 
 Hier kunt u een weergave maken door de voorbeeldinstructies hieronder te volgen:
 
@@ -81,7 +81,7 @@ Bekijk een van de voorbeelden die eerder in dit artikel worden genoemd, nader: [
 
 Als u één advertentietabel wilt maken die zowel [!DNL Facebook] als [!DNL Google AdWords] -campagnes bevat, moet u een SQL-query schrijven en de functie `UNION ALL` gebruiken. Een instructie `UNION ALL` wordt meestal gebruikt om meerdere verschillende SQL-query&#39;s te combineren terwijl de resultaten van elke query aan één uitvoer worden toegevoegd.
 
-Er zijn een paar vereisten van a `UNION` verklaring vermeldend, zoals die in de [ documentatie ](https://www.postgresql.org/docs/8.3/queries-union.html) wordt geschetst PostgreSQL:
+Er zijn een paar vereisten van a `UNION` verklaring vermeldend, zoals die in de [&#x200B; documentatie &#x200B;](https://www.postgresql.org/docs/8.3/queries-union.html) wordt geschetst PostgreSQL:
 
 * Alle vragen moeten het zelfde aantal kolommen terugkeren
 * Overeenkomende kolommen moeten identieke gegevenstypen hebben
@@ -136,7 +136,7 @@ In plaats van een aparte set marketingmeetgegevens voor elke advertentiebron te 
 
 **zoekend extra hulp?**
 
-Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [ team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) hulp in de verwezenlijking van meningen aan. Voor alles, van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van Data Warehouse voor de doeleinden van een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
+Het schrijven van SQL en het creëren van `Data Warehouse Views` is niet inbegrepen met Technische Steun. Nochtans, biedt het [&#x200B; team van de Diensten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) hulp in de verwezenlijking van meningen aan. Voor alles, van het migreren van een erfenisgegevensbestand met een nieuw gegevensbestand om één enkele Mening van Data Warehouse voor de doeleinden van een specifieke analyse tot stand te brengen, kan het ondersteuningsteam helpen.
 
 Gewoonlijk duurt het maken van een nieuwe `Data Warehouse View` voor het consolideren van 2-3 vergelijkbare gestructureerde tabellen vijf uur aan servicetijd, wat neerkomt op ongeveer $1.250 aan werk. Hieronder volgen echter een aantal gemeenschappelijke factoren die de verwachte vereiste investeringen kunnen doen toenemen:
 

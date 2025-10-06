@@ -15,9 +15,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ embleem van het Mixpanel ](../../../assets/Mixpanel_logo.png)
+![&#x200B; embleem van het Mixpanel &#x200B;](../../../assets/Mixpanel_logo.png)
 
 Met [!DNL Mixpanel] kunt u analyseren hoe gebruikers door uw websites en apps navigeren en deze gebruiken. Als u goed kijkt naar gegevens over gebruikersgedrag, leidt dit tot slimmere beslissingen over ontwerp en ontwikkeling, wat over het algemeen een beter product betekent. Door [!DNL Mixpanel] aan [!DNL Commerce Intelligence] te verbinden, kunt u analyseren hoe uw gebruikers zich gedragen en hoe dat gedrag omzet oplevert.
 
@@ -51,7 +51,7 @@ Als u zich nog niet hebt aangemeld bij uw [!DNL Mixpanel] -account, doet u dit e
 
 1. De weergave van uw API-referenties:
 
-![ het terugwinnen van de geloofsbrieven van Mixpanel API ](../../../assets/Mixpanel_API_creds.png)
+![&#x200B; het terugwinnen van de geloofsbrieven van Mixpanel API &#x200B;](../../../assets/Mixpanel_API_creds.png)
 
 Houd dit open, u hebt het nodig om dit op te pakken.
 
@@ -65,4 +65,4 @@ Als de verbinding succesvol is, a _Succes!_ wordt boven aan de pagina weergegeve
 ### Verwante
 
 * [Verwachte  [!DNL Mixpanel]  gegevens](../integrations/mixpanel-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

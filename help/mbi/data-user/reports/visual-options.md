@@ -35,11 +35,11 @@ Het selecteren van de juiste visualisatie voor een bepaalde gegevensset is een e
 
 `Scalar` -rapporten worden weergegeven als één numerieke waarde. Meestal wordt dit gebruikt om de &quot;alle tijd&quot;waarde van zeer belangrijke metrische zoals opbrengst of orden te tonen, of om opbrengst te vergelijken met datum vs begroting met twee afzonderlijke scalaire rapporten. In het onderstaande voorbeeld toont dit eenvoudig het totale aantal orders voor het gegeven rapportageinterval:
 
-![ Scalar rapport dat totaal aantal orden als één enkele numerieke waarde toont ](../../assets/blobid0.png)
+![&#x200B; Scalar rapport dat totaal aantal orden als één enkele numerieke waarde toont &#x200B;](../../assets/blobid0.png)
 
 Als u een rapport wilt opslaan als scalair, configureert u uw filters en tijdinstellingen en klikt u vervolgens op **[!UICONTROL Save]** of **[!UICONTROL Update]** rechtsboven in het rapport. Kies onder het vervolgkeuzemenu `Type` het getal: metrische naam om het rapport op te slaan als de waarde die op de linkerzijbalk wordt weergegeven.
 
-![ sparen rapportdialoog met het drop-down tonen van het Type metrische naamoptie van het Aantal ](../../assets/blobid1.png)
+![&#x200B; sparen rapportdialoog met het drop-down tonen van het Type metrische naamoptie van het Aantal &#x200B;](../../assets/blobid1.png)
 
 **Vereisten**:
 
@@ -51,11 +51,11 @@ Als u een rapport wilt opslaan als scalair, configureert u uw filters en tijdins
 
 Zoals de naam suggereert, zijn `table` -rapporten ideaal voor het weergeven van tabeldetails. Wanneer er een behoefte is om vele groepen door waarden of metriek in één enkel rapport te tonen, is een lijst vaak de beste manier om te gaan. Hieronder ziet u bijvoorbeeld een tabel met &quot;klantgegevens&quot;, waarin bestellingen en inkomsten per e-mail van de klant worden gegroepeerd:
 
-![ het rapport van de Lijst die klantendetails met orden en opbrengst door klant e-mail tonen ](../../assets/blobid2.png)
+![&#x200B; het rapport van de Lijst die klantendetails met orden en opbrengst door klant e-mail tonen &#x200B;](../../assets/blobid2.png)
 
 Net als scalaire rapporten kunt u een rapport opslaan als een tabel door in de rapportbuilder op **[!UICONTROL Save]** of **[!UICONTROL Update]** te klikken en vervolgens de optie Tabel onder het vervolgkeuzemenu `Type` te selecteren.
 
-![ sparen rapportdialoog met Type dropdown die de geselecteerde optie van de Lijst tonen ](../../assets/blobid3.png)
+![&#x200B; sparen rapportdialoog met Type dropdown die de geselecteerde optie van de Lijst tonen &#x200B;](../../assets/blobid3.png)
 
 **Vereisten:**
 
@@ -65,13 +65,13 @@ Net als scalaire rapporten kunt u een rapport opslaan als een tabel door in de r
 
 `Line` grafieken zijn de perfecte keuze voor het vergelijken van de prestaties van vergelijkbare metrische cohorten. Bijvoorbeeld, het analyseren van de inkomsten van twee regio&#39;s over dezelfde periode, of het vergelijken van de groei van de behaalde bestellingen van jaar tot jaar, zoals hieronder getoond:
 
-![ grafiek van de Lijn die twee metriek in tijd met veelvoudige lijnen vergelijkt ](../../assets/blobid0.png)
+![&#x200B; grafiek van de Lijn die twee metriek in tijd met veelvoudige lijnen vergelijkt &#x200B;](../../assets/blobid0.png)
 
 Elke metrisch en formule die aan het rapport wordt toegevoegd wordt vertegenwoordigd door zijn eigen lijn. Wanneer u metrische gegevens vergelijkt met vergelijkbare eenheden en schalen, moet u het selectievakje `Multiple Y-Axes` uitschakelen om alle metrische gegevens op dezelfde schaal weer te geven.
 
 Als u een rapport wilt opslaan als een lijndiagram, past u het rapport `Type` aan `Chart` aan en selecteert u de gewenste visualisatie in de rapportbuilder, zoals hieronder wordt getoond:
 
-![ Bouwer van het Rapport met het geselecteerde type van Grafiek en de optie van de lijngrafiekvisualisatie benadrukte ](../../assets/blobid1.png)
+![&#x200B; Bouwer van het Rapport met het geselecteerde type van Grafiek en de optie van de lijngrafiekvisualisatie benadrukte &#x200B;](../../assets/blobid1.png)
 
 **Vereisten:**
 
@@ -81,13 +81,13 @@ Als u een rapport wilt opslaan als een lijndiagram, past u het rapport `Type` aa
 
 In `Bar` worden uw gegevens in diagrammen weergegeven als een reeks horizontale balken. Deze diagrammen zijn het meest geschikt voor het weergeven van de algemene prestaties van een beperkt aantal metriek of groep op basis van waarden. Bijvoorbeeld, zou een bar grafiek kunnen worden gebruikt om de opbrengst per opslag te vergelijken:
 
-![ Horizontaal staafdiagram dat opbrengstvergelijking door opslag toont ](../../assets/blobid2.png)
+![&#x200B; Horizontaal staafdiagram dat opbrengstvergelijking door opslag toont &#x200B;](../../assets/blobid2.png)
 
 Elke afzonderlijke metrische combinatie, groep door, en tijdintervalcombinatie wordt getoond als zijn eigen bar. Als u twee metriek met één `group by` hebt, die drie verschillende `group by` waarden bevat, toont uw rapport zes afzonderlijke bars.
 
 Als u een rapport wilt opslaan als een staafdiagram, past u het rapport `Type` aan `Chart` aan en selecteert u de optie `Bar` (zie hieronder):
 
-![ Bouwer van het Rapport met het geselecteerde type van Grafiek en de benadrukte optie van de Visualisatie van de Bar ](../../assets/blobid3.png)
+![&#x200B; Bouwer van het Rapport met het geselecteerde type van Grafiek en de benadrukte optie van de Visualisatie van de Bar &#x200B;](../../assets/blobid3.png)
 
 **Vereisten:**
 
@@ -99,13 +99,13 @@ Als u een rapport wilt opslaan als een staafdiagram, past u het rapport `Type` a
 
 Het rapport hieronder bevat bijvoorbeeld twee identieke inkomstenmetriek met één gefilterd voor eerste bestellingen en de andere gefilterd voor herhaalde bestellingen. Na groepering door opslag, kunt u zowel de totale opbrengstbijdrage voor elke opslag zien (die door de totale breedte van de bar wordt vertegenwoordigd) als de eerste keer versus herhaalde verdeling van opbrengst voor elke opslag.
 
-![ Gestapeld horizontaal staafdiagram dat eerste keer toont en opbrengst door opslag herhaalt ](../../assets/blobid4.png)
+![&#x200B; Gestapeld horizontaal staafdiagram dat eerste keer toont en opbrengst door opslag herhaalt &#x200B;](../../assets/blobid4.png)
 
 Zorg ervoor dat het selectievakje `Multiple Y-Axes` is uitgeschakeld wanneer u een rapport als het bovenstaande instelt.
 
 Als u een rapport wilt opslaan als een gestapeld staafdiagram, past u het rapport `Type` aan `Chart` aan en selecteert u de optie Gestapelde balk in de rapportbuilder:
 
-![ Bouwer van het Rapport met het type van Grafiek selecteerde en gestapelde benadrukte optie van de barvisualisatie ](../../assets/blobid5.png)
+![&#x200B; Bouwer van het Rapport met het type van Grafiek selecteerde en gestapelde benadrukte optie van de barvisualisatie &#x200B;](../../assets/blobid5.png)
 
 **Vereisten:**
 
@@ -117,11 +117,11 @@ Als u een rapport wilt opslaan als een gestapeld staafdiagram, past u het rappor
 
 In het onderstaande voorbeeld ziet u twee inkomstenmetriek, waarvan de ene gefilterd is voor de eerste omzet en de andere voor de volgende omzet, die in de loop van de tijd per maand trending:
 
-![ Verticale kolomgrafiek die eerste keer en herhalingsopbrengst per maand ](../../assets/blobid6.png) toont
+![&#x200B; Verticale kolomgrafiek die eerste keer en herhalingsopbrengst per maand &#x200B;](../../assets/blobid6.png) toont
 
 Kolomrapporten kunnen worden opgeslagen door het rapport `Type` in `Chart` te wijzigen en de optie voor kolomvisualisatie te selecteren:
 
-![ Bouwer van het Rapport met het geselecteerde type van Grafiek en de benadrukte optie van de kolomvisualisatie ](../../assets/blobid7.png)
+![&#x200B; Bouwer van het Rapport met het geselecteerde type van Grafiek en de benadrukte optie van de kolomvisualisatie &#x200B;](../../assets/blobid7.png)
 
 **Vereisten:**
 
@@ -133,13 +133,13 @@ Kolomrapporten kunnen worden opgeslagen door het rapport `Type` in `Chart` te wi
 
 Gebruikend de zelfde rapportconfiguratie zoals die in de `Column` sectie hierboven wordt beschreven, zou een rapport met twee omzettingsmetriek (die voor het eerst en herhaling wordt gefiltreerd) als hieronder met een gestapelde kolomvisualisatie kijken:
 
-![ Gestapelde verticale kolomgrafiek die eerste keer en herhalingsopbrengst per maand ](../../assets/blobid8.png) toont
+![&#x200B; Gestapelde verticale kolomgrafiek die eerste keer en herhalingsopbrengst per maand &#x200B;](../../assets/blobid8.png) toont
 
 Ook hier is het belangrijk dat het selectievakje `Multiple Y-Axes` wordt uitgeschakeld wanneer u meerdere meetgegevens weergeeft met de gestapelde kolomvisualisatie.
 
 Als u een rapport wilt opslaan als een gestapelde kolom, stelt u het rapport `Type` in op `Chart` en selecteert u de optie `stacked column` :
 
-![ Bouwer van het Rapport met het type van Grafiek selecteerde en gestapelde benadrukte optie van de kolomvisualisatie ](../../assets/blobid9.png)
+![&#x200B; Bouwer van het Rapport met het type van Grafiek selecteerde en gestapelde benadrukte optie van de kolomvisualisatie &#x200B;](../../assets/blobid9.png)
 
 **Vereisten:**
 
@@ -149,11 +149,11 @@ Als u een rapport wilt opslaan als een gestapelde kolom, stelt u het rapport `Ty
 
 `Pie` grafieken zijn het meest geschikt voor het weergeven van één metrische waarde met een of meer groepsstralen of van meerdere metriek zonder groepsbys. In beide gevallen moet het tijdsinterval zijn ingesteld op Geen om gegevens in een cirkeldiagram weer te geven. In het onderstaande voorbeeld is één maateenheid voor bestellingen een groep op naam van de winkel om de indeling van bestellingen per winkel weer te geven:
 
-![ Schijfgrafiek die orderdistributie door archiefnaam toont ](../../assets/blobid10.png)
+![&#x200B; Schijfgrafiek die orderdistributie door archiefnaam toont &#x200B;](../../assets/blobid10.png)
 
 Als u een rapport wilt opslaan als een cirkeldiagram, stelt u het rapport `Type` in op `Chart` en selecteert u de optie `pie` zoals hieronder wordt weergegeven:
 
-![ de bouwer van het Rapport met het geselecteerde type van Grafiek en de optie van de cirkeldiagramvisualisatie benadrukte ](../../assets/blobid11.png)
+![&#x200B; de bouwer van het Rapport met het geselecteerde type van Grafiek en de optie van de cirkeldiagramvisualisatie benadrukte &#x200B;](../../assets/blobid11.png)
 
 **Vereisten:**
 
@@ -168,11 +168,11 @@ Als u een rapport wilt opslaan als een cirkeldiagram, stelt u het rapport `Type`
 
 In hetzelfde voorbeeld uit de sectie `stacked column` ziet u in het onderstaande rapport de eerste keer versus herhalingsinkomsten met behulp van de gebiedsdiagramvisualisatie:
 
-![ grafiek die van het Gebied eerste-tijd toont en omzettendensen in tijd herhaalt ](../../assets/blobid12.png)
+![&#x200B; grafiek die van het Gebied eerste-tijd toont en omzettendensen in tijd herhaalt &#x200B;](../../assets/blobid12.png)
 
 Als u een rapport wilt opslaan als een vlakdiagram, past u de velden `Type` tot en met `Chart` aan en selecteert u de optie Gebied:
 
-![ de bouwer van het Rapport met het geselecteerde type van Grafiek en de gemarkeerde optie van de gebieddiagram visualisatie ](../../assets/blobid13.png)
+![&#x200B; de bouwer van het Rapport met het geselecteerde type van Grafiek en de gemarkeerde optie van de gebieddiagram visualisatie &#x200B;](../../assets/blobid13.png)
 
 **Vereisten:**
 
@@ -182,7 +182,7 @@ Als u een rapport wilt opslaan als een vlakdiagram, past u de velden `Type` tot 
 
 Grafieken van `Funnel` zijn perfect voor het visualiseren van conversie over een verwachte opeenvolging van gebeurtenissen. Een paar voorbeelden omvatten het analyseren van de potentiële opbrengst in uw verkooptrechter van lood aan gesloten overeenkomst, of het meten van de daling in klanten tussen hun eerste en tweede orden, tweede en derde orden, etc. Hieronder ziet u een voorbeeld van deze laatste:
 
-![ grafiek van Funnel die klantenomzetting over opeenvolgende orden tonen ](../../assets/blobid4.png)
+![&#x200B; grafiek van Funnel die klantenomzetting over opeenvolgende orden tonen &#x200B;](../../assets/blobid4.png)
 
 In een funnel-rapport wordt de relatieve waarde van een bepaalde stap van de funnel weerspiegeld door de hoogte van de stap. De rapportconfiguratie bepaalt de orde waarin de stappen worden getoond. Er zijn twee manieren om een funnel-rapport te configureren:
 
@@ -192,7 +192,7 @@ In een funnel-rapport wordt de relatieve waarde van een bepaalde stap van de fun
 
 Als u een rapport wilt opslaan als een funnel-diagram, past u het rapport `Type` aan `Chart` aan en selecteert u de gewenste visualisatie in de rapportbuilder.
 
-![ de bouwer van het Rapport met het geselecteerde type van Grafiek en de visualisatieoptie van funnel benadrukte ](../../assets/blobid5.png)
+![&#x200B; de bouwer van het Rapport met het geselecteerde type van Grafiek en de visualisatieoptie van funnel benadrukte &#x200B;](../../assets/blobid5.png)
 
 **Vereisten:**
 
@@ -205,13 +205,13 @@ Als u een rapport wilt opslaan als een funnel-diagram, past u het rapport `Type`
 
 Een `scatter plot` wordt gebruikt om de relatie van een meting met twee verschillende variabelen te onderzoeken zodat u gemakkelijk correlaties en uitschieters kunt identificeren. Dit type visualisatie kunt u het beste alleen gebruiken met numerieke afmetingen. Gebruik hiervoor de metrische waarden voor bestellingen en de `Customer's lifetime number of coupons` en `Customer's lifetime revenue` -afmetingen om te zien hoe het gebruik van coupons verhoudt tot inkomsten. U kunt kiezen tussen een spreidingsgrafiek met en zonder een trendline:
 
-![ Uitzet die van de Spreiding correlatie tussen klantenmetriek toont ](../../assets/scatter-plot-1.png)
+![&#x200B; Uitzet die van de Spreiding correlatie tussen klantenmetriek toont &#x200B;](../../assets/scatter-plot-1.png)
 
-![ Uitzet zonder trendlijn die de distributie van gegevenspunten tonen ](../../assets/scatter-plot-2.png)
+![&#x200B; Uitzet zonder trendlijn die de distributie van gegevenspunten tonen &#x200B;](../../assets/scatter-plot-2.png)
 
-![ Uitzet met gegevenspunten en correlatiepatroon ](../../assets/scatter-plot-3.png)
+![&#x200B; Uitzet met gegevenspunten en correlatiepatroon &#x200B;](../../assets/scatter-plot-3.png)
 
-![ Uitzet van de Spreiding met trendlijn die correlatie tussen metriek tonen ](../../assets/scatter-plot-4.png)
+![&#x200B; Uitzet van de Spreiding met trendlijn die correlatie tussen metriek tonen &#x200B;](../../assets/scatter-plot-4.png)
 
 **Vereisten:**
 
@@ -233,11 +233,11 @@ Een `bubble` -diagram kan maximaal vier gegevensafmetingen weergeven waarbij de 
 
 In het volgende diagram ziet u bijvoorbeeld het aantal klanten (bubble size) dat is gegroepeerd op een specifieke acquisitiebron (bubble color) en toestand (diverse bubbles in specifieke kleur), uitgezet tegen de totale omzet en de gemiddelde levensduurbestellingen.
 
-![ Bubble grafiek die klantentelling door verwervingsbron en staat tegenover opbrengst en orden ](../../assets/bubble-1.png) toont
+![&#x200B; Bubble grafiek die klantentelling door verwervingsbron en staat tegenover opbrengst en orden &#x200B;](../../assets/bubble-1.png) toont
 
 In het volgende diagram wordt het aantal klanten (bubbelgrootte) weergegeven, gegroepeerd op aankoopbron (bubbelkleur) en toestand (verschillende bellen in specifieke kleur), uitgezet tegen de gemiddelde levenswaarde en de totale omzet.
 
-![ Bubble grafiek die klantenmetriek door verwervingsbron en staat tonen ](../../assets/bubble-2.png)
+![&#x200B; Bubble grafiek die klantenmetriek door verwervingsbron en staat tonen &#x200B;](../../assets/bubble-2.png)
 
 **Vereisten voor enige grafiek van de reeksbel:**
 
@@ -265,7 +265,7 @@ Gebruik `heatmaps` om hotspots in uw gegevens te visualiseren. Een verwarmingska
 
 De volgende warmtekaart toont de orders per dag van week door uur van dag in totaal, over verscheidene weken.
 
-![ kaart die van het Warmte ordintensiteit door dag van week en uur van dag toont ](../../assets/heat-map.png)<!--{: width="650"}-->
+![&#x200B; kaart die van het Warmte ordintensiteit door dag van week en uur van dag toont &#x200B;](../../assets/heat-map.png)<!--{: width="650"}-->
 
 **Vereisten:**
 

@@ -23,7 +23,7 @@ In de standaard commerciële database is er een `orders` -tabel die zich bij een
 
 * **als alle klanten** worden geregistreerd en gastorden niet worden toegestaan, betekent dit dat elk verslag in de `orders` lijst een waarde in de `customer\_id` kolom heeft. Hierdoor wordt elke volgorde weer gekoppeld aan de tabel `customers` .
 
-  ![ de lijst van de Orden van de Gast die klanteninformatie ](../../assets/guest-orders-4.png) tonen
+  ![&#x200B; de lijst van de Orden van de Gast die klanteninformatie &#x200B;](../../assets/guest-orders-4.png) tonen
 
 * **als de gastorden** worden toegestaan, betekent dit dat sommige orden geen waarde in de `customer\_id` kolom hebben. Alleen geregistreerde klanten krijgen een waarde voor de kolom `customer\_id` in de tabel `orders` . Klanten die niet zijn geregistreerd, ontvangen een `NULL` (of lege) waarde voor deze kolom. Hierdoor hebben niet alle orderrecords overeenkomende records in de tabel `customers` .
 
@@ -39,7 +39,7 @@ De meest optimale manier om voor gastorden rekening te houden is alle klant-vlak
 
 Het kan zijn dat het filter `Customers we count` dat in dit type instelling is ingesteld, een filter heeft voor `Customer's order number = 1` .
 
-![ de vastgestelde configuratie van de Filter voor het uitsluiten van gastorden ](../../assets/guest-orders-filter-set.png)
+![&#x200B; de vastgestelde configuratie van de Filter voor het uitsluiten van gastorden &#x200B;](../../assets/guest-orders-filter-set.png)
 
 In een situatie zonder gastorden, bestaat elke klant als unieke rij in de klantenlijst (zie Beeld 1). Een metrische waarde zoals `New customers` kan eenvoudig de id van deze tabel tellen op basis van `created\_at` -datum om te begrijpen dat nieuwe klanten op basis van de registratiedatum worden benaderd.
 

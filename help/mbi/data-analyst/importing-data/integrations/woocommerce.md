@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van WooCommerce ](../../../assets/WooCommerce-Logo.jpg)
+![&#x200B; het embleem van WooCommerce &#x200B;](../../../assets/WooCommerce-Logo.jpg)
 
 Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Door uw [!DNL WooCommerce] -gegevens aan te sluiten op [!DNL Commerce Intelligence] kunt u deze vragen en meer beantwoorden.
 
-Het [!DNL WooCommerce] gegevensbestand is gebaseerd op [!DNL MySQL], kunt u het met [!DNL Commerce Intelligence] door a [ directe verbinding ](../integrations/mysql-via-a-direct-connection.md) verbinden, [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [ via `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md). Adobe raadt u aan de SSH-methode te gebruiken, omdat deze het veiligst is.
+Het [!DNL WooCommerce] gegevensbestand is gebaseerd op [!DNL MySQL], kunt u het met [!DNL Commerce Intelligence] door a [&#x200B; directe verbinding &#x200B;](../integrations/mysql-via-a-direct-connection.md) verbinden, [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [&#x200B; via `SSH tunnel`](../integrations/mysql-via-ssh-tunnel.md). Adobe raadt u aan de SSH-methode te gebruiken, omdat deze het veiligst is.
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Aanbevolen gegevensafmetingen voor segmentatie en filteren](../../../best-practices/segment-filter.md)

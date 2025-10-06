@@ -46,9 +46,9 @@ Als sommige van deze berekeningen momenteel niet bestaan in uw database, kunnen 
 
 **Accepteert u gastorden?**
 
-*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw klantenanalyses te verzekeren omvat alle klanten.*
+*als zo, kan deze lijst niet al uw klanten bevatten. Contacteer het [&#x200B; ondersteuningsteam &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om uw klantenanalyses te verzekeren omvat alle klanten.*
 
-*niet zeker als u gastorden goedkeurt? Verwijs naar [ dit onderwerp ](../data-warehouse-mgr/guest-orders.md) om meer te leren!*
+*niet zeker als u gastorden goedkeurt? Verwijs naar [&#x200B; dit onderwerp &#x200B;](../data-warehouse-mgr/guest-orders.md) om meer te leren!*
 
 ## Orderentabel
 
@@ -60,7 +60,7 @@ In deze tabel vertegenwoordigt elke rij één volgorde. De kolommen in deze lijs
 * **[!UICONTROL Created_at]**: De datum waarop de bestelling is gemaakt of geplaatst.
 * **[!UICONTROL Customer_email]**: Het e-mailadres van de klant die de bestelling heeft geplaatst. Dit kan ook de unieke identificatie voor de klant zijn.
 * **[!UICONTROL Customer's lifetime number of orders]**: Een kopie van de kolom met dezelfde naam in de `Customers` -tabel.
-* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [ ondersteuningsteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
+* **[!UICONTROL Customer's order number]**: Het volgnummer van de bestelling dat aan de bestelling is gekoppeld. Bijvoorbeeld, als de rij u bekijkt de eerste orde van een klant is, is deze kolom &quot;1&quot;; maar, als dit de 15e orde van de klant was, toont deze kolom &quot;15&quot;voor deze orde. Als deze afmeting niet op uw `Customers` lijst bestaat, vraag het [&#x200B; ondersteuningsteam &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) om u te helpen het bouwen.
 * **[!UICONTROL Customer's order number (previous-current)]**: een samenvoeging van twee waarden in de kolom **[!UICONTROL Customer's order number]** . Het wordt gebruikt in een steekproefrapport hieronder om de verstreken tijd tussen om het even welke twee orden te tonen. De tijd tussen bijvoorbeeld de eerste besteldatum van een klant en de tweede besteldatum wordt bij deze berekening weergegeven als &quot;1-2&quot;.
 * **[!UICONTROL Coupon_code]**: geeft aan welke coupons op elke bestelling zijn gebruikt.
 * **[!UICONTROL Seconds since previous order]**: De tijd (in seconden) tussen bestellingen van een klant.
@@ -88,7 +88,7 @@ Deze tabel wordt gebruikt voor het beheer van uw abonnementsgegevens, zoals de a
 
 ## Tabel met marketinguitgaven
 
-Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook] , [!DNL Google AdWords] of andere bronnen in uw analyses opnemen. Als u veelvoudige marketing uitgavenbronnen hebt, contacteer het [ Team van Managed Services ](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij vestiging een geconsolideerde lijst voor uw marketing campagnes.
+Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook] , [!DNL Google AdWords] of andere bronnen in uw analyses opnemen. Als u veelvoudige marketing uitgavenbronnen hebt, contacteer het [&#x200B; Team van Managed Services &#x200B;](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij vestiging een geconsolideerde lijst voor uw marketing campagnes.
 
 **Afmetingen**
 
@@ -121,7 +121,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `Last Month`
    * **[!UICONTROL Time Interval]**: `By Day`
 
-![ Nieuwe Gebruikers ](../../assets/New_Users_Last_Month.png)<!--{: width="929"}-->
+![&#x200B; Nieuwe Gebruikers &#x200B;](../../assets/New_Users_Last_Month.png)<!--{: width="929"}-->
 
 ### Unieke klanten
 
@@ -132,7 +132,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `Moving range > Last 90 Days`
    * **[!UICONTROL Time Interval]**: `By Day`
 
-![ Unieke Klanten.](../../assets/Unique_customers_last_7_days.png)<!--{: width="929"}-->
+![&#x200B; Unieke Klanten.](../../assets/Unique_customers_last_7_days.png)<!--{: width="929"}-->
 
 ### Nieuwe abonnees
 
@@ -143,7 +143,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `1 Year Ago to 0 Days Ago`
    * **[!UICONTROL Time Interval]**: `By Month`
 
-![ Abonnees ](../../assets/New_Subscribers_This_Year_by_Month.png)<!--{: width="929"}-->
+![&#x200B; Abonnees &#x200B;](../../assets/New_Subscribers_This_Year_by_Month.png)<!--{: width="929"}-->
 
 ### Klanten herhalen
 
@@ -155,7 +155,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Interval]**: `By Month`
    * **[!UICONTROL Group By]**: `Customer's Order Number` , selecteer vervolgens `2` en `3`
 
-  ![ Grafiek die tweede en derde aankoopanalyse voor vorig jaar tonen ](../../assets/2nd_and_3rd_purchases_last_year.png)
+  ![&#x200B; Grafiek die tweede en derde aankoopanalyse voor vorig jaar tonen &#x200B;](../../assets/2nd_and_3rd_purchases_last_year.png)
 
 * **Voorbeeld van het Rapport 2**: Het aantal herhalingsklanten vorig jaar
    * **[!UICONTROL Metric]**: `Distinct Customers`
@@ -163,7 +163,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `Moving range > Last Year`
    * **[!UICONTROL Time Interval]**: `By Month`
 
-  ![ Herhaal Klanten Vorig jaar ](../../assets/Repeat_customers_last_year.png)<!--{: width="929"}-->
+  ![&#x200B; Herhaal Klanten Vorig jaar &#x200B;](../../assets/Repeat_customers_last_year.png)<!--{: width="929"}-->
 
 ### Bovenste klanten op levenslange aantal orders
 
@@ -176,7 +176,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Group By]**: `customer_email`
    * **[!UICONTROL Show Top/Bottom]**: bovenste 25 gesorteerd op bestellingen
 
-  ![ Hoogste 25 Klanten door Worden ](../../assets/Top_25_customers_by_lifetime_orders.png)<!--{: width="929"}-->
+  ![&#x200B; Hoogste 25 Klanten door Worden &#x200B;](../../assets/Top_25_customers_by_lifetime_orders.png)<!--{: width="929"}-->
 
 ### De hoogste klanten door levensinkomsten
 
@@ -189,11 +189,11 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Group By]**: `customer_email`
    * **[!UICONTROL Show Top Bottom]**: bovenste 25 gesorteerd op LiveTime-inkomsten
 
-  ![ Hoogste 25 Klanten door Ontvangsten ](../../assets/top_25_customers_by_lifetime_revneue.png)<!--{: width="929"}-->
+  ![&#x200B; Hoogste 25 Klanten door Ontvangsten &#x200B;](../../assets/top_25_customers_by_lifetime_revneue.png)<!--{: width="929"}-->
 
 ### Gemiddelde levensopbrengsten per cohort
 
-* **Beschrijving**: Spoor de [ gemiddelde levenopbrengst van verschillende cohorts ](../dev-reports/lifetime-rev-cohort-analysis.md) van gebruikers in tijd om top uitvoerend cohorts te identificeren. Cohorts worden gegroepeerd op een gemeenschappelijke datum, zoals de eerste besteldatum of de aanmaakdatum.
+* **Beschrijving**: Spoor de [&#x200B; gemiddelde levenopbrengst van verschillende cohorts &#x200B;](../dev-reports/lifetime-rev-cohort-analysis.md) van gebruikers in tijd om top uitvoerend cohorts te identificeren. Cohorts worden gegroepeerd op een gemeenschappelijke datum, zoals de eerste besteldatum of de aanmaakdatum.
 * **Metrisch Gebruikte**: `Revenue`
 * **Voorbeeld van het Rapport**: Gemiddelde Inkomsten van de Levensduur van de Klant door Cohort
    * **[!UICONTROL Metric]**: `Revenue`
@@ -204,7 +204,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Table]**: `Customer_entity`
    * **[!UICONTROL Perspective]**: cumulatieve gemiddelde waarde per cohortlid
 
-  ![ Inkomsten van de Levensduur van de Klant door Cohort ](../../assets/Avg_customer_lifetime_revenue_by_cohort.png)<!--{: width="929"}-->
+  ![&#x200B; Inkomsten van de Levensduur van de Klant door Cohort &#x200B;](../../assets/Avg_customer_lifetime_revenue_by_cohort.png)<!--{: width="929"}-->
 
 ### Klanten op basis van gebruik van coupons
 
@@ -220,7 +220,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time range]**: `All Time`
    * **[!UICONTROL Time interval]**: `By Month`
 
-  ![ Klanten door het Gebruik van de Coupon ](../../assets/Customers_by_coupon_usage.png)<!--{: width="929"}-->
+  ![&#x200B; Klanten door het Gebruik van de Coupon &#x200B;](../../assets/Customers_by_coupon_usage.png)<!--{: width="929"}-->
 
 * **Voorbeeld 2 van het Rapport**: Percentage klanten van Coupon en van de Geen coupon door maand
    * **[!UICONTROL Metric A]**: `Non coupon customers` (metrische gegevens verbergen)
@@ -237,7 +237,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 >
 > **verberg alle metriek**
 
-![ Gebruik van de coupon ](../../assets/Customers_by_coupon_usage_formula.png)<!--{: width="929"}-->
+![&#x200B; Gebruik van de coupon &#x200B;](../../assets/Customers_by_coupon_usage_formula.png)<!--{: width="929"}-->
 
 ### Gemiddelde eerste 30-daagse inkomsten
 
@@ -248,7 +248,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `All Time`
    * **[!UICONTROL Time Interval]**: `None`
 
-![ Gemiddelde Eerste Inkomsten van 30 dagen ](../../assets/Avg_first_30_day_revenue.png)<!--{: width="929"}-->
+![&#x200B; Gemiddelde Eerste Inkomsten van 30 dagen &#x200B;](../../assets/Avg_first_30_day_revenue.png)<!--{: width="929"}-->
 
 ### Gemiddelde omzet tijdens de levensduur van de klant
 
@@ -259,7 +259,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `All Time`
    * **[!UICONTROL Time Interval]**: `None`
 
-![ Inkomsten van de Levensduur van de Klant ](../../assets/Avd_customer_lifetime_revenue_.png)<!--{: width="929"}-->
+![&#x200B; Inkomsten van de Levensduur van de Klant &#x200B;](../../assets/Avd_customer_lifetime_revenue_.png)<!--{: width="929"}-->
 
 ## Analyses bestellen {#orderanalytics}
 
@@ -274,9 +274,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 >[!TIP]
 >
->Zorg ervoor uw omzetmetrische berekening verenigbaar met de definitie is die u intern bespreekt. U wilt bijvoorbeeld inkomsten tellen uit orders die zijn verzonden, valuta&#39;s uit verschillende regio&#39;s converteren of belasting uitsluiten. Ook, kunt u [ Reeksen van de Filter ](../../data-user/reports/ess-manage-data-filters.md) gebruiken om consistentie over alle metriek te verzekeren die op de zelfde lijst wordt voortgebouwd.
+>Zorg ervoor uw omzetmetrische berekening verenigbaar met de definitie is die u intern bespreekt. U wilt bijvoorbeeld inkomsten tellen uit orders die zijn verzonden, valuta&#39;s uit verschillende regio&#39;s converteren of belasting uitsluiten. Ook, kunt u [&#x200B; Reeksen van de Filter &#x200B;](../../data-user/reports/ess-manage-data-filters.md) gebruiken om consistentie over alle metriek te verzekeren die op de zelfde lijst wordt voortgebouwd.
 
-![ Ontvangsten ](../../assets/revenue.png)<!--{: width="929"}-->
+![&#x200B; Ontvangsten &#x200B;](../../assets/revenue.png)<!--{: width="929"}-->
 
 ### Orders
 
@@ -289,9 +289,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 >[!TIP]
 >
->Enkel als opbrengst metrisch, zou u [ Reeksen van de Filter ](../../data-user/reports/ess-manage-data-filters.md) op zijn plaats moeten hebben om onvolledige, test, of teruggekeerde orden uit te sluiten.
+>Enkel als opbrengst metrisch, zou u [&#x200B; Reeksen van de Filter &#x200B;](../../data-user/reports/ess-manage-data-filters.md) op zijn plaats moeten hebben om onvolledige, test, of teruggekeerde orden uit te sluiten.
 
-![ Orders ](../../assets/orders_pic.png)<!--{: width="929"}-->
+![&#x200B; Orders &#x200B;](../../assets/orders_pic.png)<!--{: width="929"}-->
 
 ### Geordende producten
 
@@ -302,7 +302,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `1 Year Ago to 1 Month Ago`
    * **[!UICONTROL Time Interval]**: `By Month`
 
-  ![ Geordende Producten ](../../assets/products_ordered_pic1.png)<!--{: width="929"}-->
+  ![&#x200B; Geordende Producten &#x200B;](../../assets/products_ordered_pic1.png)<!--{: width="929"}-->
 
 * Combineer deze metrische waarde met het aantal orders om het aantal items per bestelling te berekenen. Voeg vervolgens couponcodes toe aan het rapport om te bepalen hoe uw promoties de grootte van winkelwagentjes beïnvloeden of deel deze met nieuwe of herhaalde bestellingen om het gedrag van uw klanten beter te begrijpen.
 * **Voorbeeld van het Rapport**: Producten per orde: eerste orde vs herhalingsorden
@@ -327,7 +327,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 >
 >Schakel de opties `Multiple Y-Axes box` en `Hide` all metrics uit.
 
-![ Geordende Producten 2 ](../../assets/products_ordered_pic2.png)<!--{: width="929"}-->
+![&#x200B; Geordende Producten 2 &#x200B;](../../assets/products_ordered_pic2.png)<!--{: width="929"}-->
 
 ### Gemiddelde orderwaarde
 
@@ -339,7 +339,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Interval]**: `By Month`
    * **[!UICONTROL Perspective]**: `Amount Change vs Previous Year`
 
-  ![ AOV ](../../assets/aov_pic.png)<!--{: width="929"}-->
+  ![&#x200B; AOV &#x200B;](../../assets/aov_pic.png)<!--{: width="929"}-->
 
 ### Producten die het meest met coupons worden aangeschaft
 
@@ -353,7 +353,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Group By**]: `name` (of `SKU` , of een andere product-id)
    * **[!UICONTROL Show top/bottom]**: bovenste 25 gesorteerd op geordende producten
 
-  ![ Producten met Coupons ](../../assets/prod_coupons_pic.png)<!--{: width="929"}-->
+  ![&#x200B; Producten met Coupons &#x200B;](../../assets/prod_coupons_pic.png)<!--{: width="929"}-->
 
 ### Tijd tussen bestellingen
 
@@ -374,7 +374,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 >
 >Schakel het selectievakje `Multiple Y-Axes` uit.
 
-![ Tijd tussen Orden ](../../assets/time_bw_orders_pic.png)<!--{: width="929"}-->
+![&#x200B; Tijd tussen Orden &#x200B;](../../assets/time_bw_orders_pic.png)<!--{: width="929"}-->
 
 ## Analyse marketinguitgaven {#mktgspendanalytics}
 
@@ -388,7 +388,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Interval]**: `None`
    * **[!UICONTROL Group By]**: `campaign`
 
-![ voeg uitgaven ](../../assets/ad_spend.png)<!--{: width="929"}--> toe
+![&#x200B; voeg uitgaven &#x200B;](../../assets/ad_spend.png)<!--{: width="929"}--> toe
 
 ### Afbeeldingen toevoegen en klikken
 
@@ -400,7 +400,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
    * **[!UICONTROL Time Range]**: `1 Year Ago to 3 Months Ago`
    * **[!UICONTROL Time Interval]**: `By Day`
 
-  ![ Advertentie Impressies ](../../assets/ad_impressions.png)<!--{: width="929"}-->
+  ![&#x200B; Advertentie Impressies &#x200B;](../../assets/ad_impressions.png)<!--{: width="929"}-->
 
 ### Doorklikken-tarief (CTR)
 
@@ -418,7 +418,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 >
 >U kunt **titel** de formule als `CTR`, en **verbergen** alle metriek.
 
-![ CTR ](../../assets/CTR.png)<!--{: width="929"}-->
+![&#x200B; CTR &#x200B;](../../assets/CTR.png)<!--{: width="929"}-->
 
 ### Kosten per klik (CPC)
 
@@ -436,7 +436,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 >
 >U kunt **titel** de formule als `CPC`, en **verbergen** alle metriek.
 
-![ CPC ](../../assets/CPC.png)<!--{: width="929"}-->
+![&#x200B; CPC &#x200B;](../../assets/CPC.png)<!--{: width="929"}-->
 
 ### Klanten op basis van aankoopbron
 
@@ -449,9 +449,9 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 >[!NOTE]
 >
->Controle uit [ dit artikel ](../analysis/most-value-source-channel.md) voor meer voorbeelden van rapporten die verwervingsbron gebruiken.
+>Controle uit [&#x200B; dit artikel &#x200B;](../analysis/most-value-source-channel.md) voor meer voorbeelden van rapporten die verwervingsbron gebruiken.
 
-![ Verwerving Source ](../../assets/acquisition_source.png)<!--{: width="929"}-->
+![&#x200B; Verwerving Source &#x200B;](../../assets/acquisition_source.png)<!--{: width="929"}-->
 
 ### Klanten via aankoopmedium en acquisitiecampagne
 
@@ -467,7 +467,7 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 >
 >Voor het filter in uw metrische `New Customers`, kunt u om het even welke andere media toevoegen die als &quot;betaalde&quot;media voor uw zaken zoals cpc of betaald onderzoek worden beschouwd.
 
-![ Verwerving Medium ](../../assets/acquisition_medium.png)<!--{: width="929"}-->
+![&#x200B; Verwerving Medium &#x200B;](../../assets/acquisition_medium.png)<!--{: width="929"}-->
 
 ### Aanschafkosten (CAC) of kostprijs per aankoop (CPA)
 
@@ -484,15 +484,15 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
       * Selecteer `A` voor metrisch `Customer's first order's campaign`
       * Selecteer `B` voor metrisch `campaign`
 
-  ![ Nieuwe Gebruikers.](../../assets/New_Users_Last_Month.png)
+  ![&#x200B; Nieuwe Gebruikers.](../../assets/New_Users_Last_Month.png)
 
 >[!NOTE]
 >
->U kunt **titel** de formule als `CTR`, en **verbergen** alle metriek. Ook, controleer [ dit artikel ](../analysis/roi-ad-camp.md) voor meer informatie.
+>U kunt **titel** de formule als `CTR`, en **verbergen** alle metriek. Ook, controleer [&#x200B; dit artikel &#x200B;](../analysis/roi-ad-camp.md) voor meer informatie.
 
-![ CAC 1 ](../../assets/New_Users_Last_Month.png)
+![&#x200B; CAC 1 &#x200B;](../../assets/New_Users_Last_Month.png)
 
-![ CAC 2 ](../../assets/cac-2.png)
+![&#x200B; CAC 2 &#x200B;](../../assets/cac-2.png)
 
 ### De waarde van het leven door aanschafbron, middel, en campagne
 
@@ -512,13 +512,13 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 >[!NOTE]
 >
->Voor de twee filters, kunt u andere media toevoegen die als &quot;betaalde&quot;media voor uw zaken (zoals cpc of betaalde onderzoek) worden beschouwd. U kunt ook andere bronnen toevoegen die u wilt analyseren, zoals Facebook. Controle uit [ dit artikel ](../analysis/roi-ad-camp.md) voor meer details op CAC, LTV, en ROI.
+>Voor de twee filters, kunt u andere media toevoegen die als &quot;betaalde&quot;media voor uw zaken (zoals cpc of betaalde onderzoek) worden beschouwd. U kunt ook andere bronnen toevoegen die u wilt analyseren, zoals Facebook. Controle uit [&#x200B; dit artikel &#x200B;](../analysis/roi-ad-camp.md) voor meer details op CAC, LTV, en ROI.
 
-![ waarde van het Leven door verwervingsbron, middel, en campagne ](../../assets/LTV_2.png)<!--{: width="929"}-->
+![&#x200B; waarde van het Leven door verwervingsbron, middel, en campagne &#x200B;](../../assets/LTV_2.png)<!--{: width="929"}-->
 
 ### Rendement van investeringen (ROI)
 
-* **Beschrijving**: Één manier om ROI door campagne te berekenen is door alle die orden te analyseren door de campagne worden geplaatst. Nochtans, analyseert een alternatieve methode de levenwaarde van klanten die door een campagne worden verworven. Om ROI te analyseren, is het belangrijk dat de campagnemenamen over uw uitgavengegevens en transactionele gegevens verenigbaar zijn. Als u het volgende rapport creeert en er geen waarden van ROI toe te schrijven aan mismatch campagnemenamen bestaan, kunt u in het [ etiketteren UTM ](../../best-practices/utm-tagging-google.md) moeten kijken u hebt uitgevoerd.
+* **Beschrijving**: Één manier om ROI door campagne te berekenen is door alle die orden te analyseren door de campagne worden geplaatst. Nochtans, analyseert een alternatieve methode de levenwaarde van klanten die door een campagne worden verworven. Om ROI te analyseren, is het belangrijk dat de campagnemenamen over uw uitgavengegevens en transactionele gegevens verenigbaar zijn. Als u het volgende rapport creeert en er geen waarden van ROI toe te schrijven aan mismatch campagnemenamen bestaan, kunt u in het [&#x200B; etiketteren UTM &#x200B;](../../best-practices/utm-tagging-google.md) moeten kijken u hebt uitgevoerd.
 * **Voorbeeld van het Rapport**: ROI door campagne
    * **[!UICONTROL Metric A]**: `New Customers`
    * **[!UICONTROL Filter A]**: `Customer's first order's source` LIKE &#39;%google%&#39;
@@ -537,8 +537,8 @@ Hier volgen enkele voorbeelden van rapporten en meetgegevens die u nuttig kunt v
 
 >[!NOTE]
 >
->U kunt de formule een titel geven als &quot;ROI&quot; en alle metriek verbergen. Bovendien kunt u de filters in de metriek aanpassen om alternatieve bronnen en media te analyseren. Ook, controleer [ dit onderwerp ](../analysis/roi-ad-camp.md) voor meer details op CAC, LTV, en ROI.
+>U kunt de formule een titel geven als &quot;ROI&quot; en alle metriek verbergen. Bovendien kunt u de filters in de metriek aanpassen om alternatieve bronnen en media te analyseren. Ook, controleer [&#x200B; dit onderwerp &#x200B;](../analysis/roi-ad-camp.md) voor meer details op CAC, LTV, en ROI.
 
-![ ROI 1 ](../../assets/ROI_1.png)<!--{: width="929"}-->
+![&#x200B; ROI 1 &#x200B;](../../assets/ROI_1.png)<!--{: width="929"}-->
 
-![ ROI 2 ](../../assets/ROI_2.png)<!--{: width="929"}-->
+![&#x200B; ROI 2 &#x200B;](../../assets/ROI_2.png)<!--{: width="929"}-->

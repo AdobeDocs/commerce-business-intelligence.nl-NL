@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van de Server van Microsoft SQL ](../../../assets/MicrosoftSQLServer-logo.png)
+![&#x200B; het embleem van de Server van Microsoft SQL &#x200B;](../../../assets/MicrosoftSQLServer-logo.png)
 
 In dit onderwerp wordt uitgelegd hoe u de [!DNL Microsoft SQL] -database in vier stappen met [!DNL Commerce Intelligence] kunt verbinden. Dit proces vereist enige technische expertise met betrekking tot serververbindingen en SQL, en kan steun van ontwikkelaars op uw team vereisen.
 
-[!DNL Commerce Intelligence] ondersteunt [!DNL Amazon RDS] , [!DNL EC2] , [!DNL Microsoft SQL Azure] en de meeste andere cloudserverproviders. Als u een vraag op uw bijzondere gastheer hebt, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) vragend ons om deze informatie te verstrekken.
+[!DNL Commerce Intelligence] ondersteunt [!DNL Amazon RDS] , [!DNL EC2] , [!DNL Microsoft SQL Azure] en de meeste andere cloudserverproviders. Als u een vraag op uw bijzondere gastheer hebt, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) vragend ons om deze informatie te verstrekken.
 
 Uw systeem moet SELECT-query&#39;s uitvoeren op uw database. Dit wordt eerst gedaan om een momentopname van uw gegevensbestandstructuur en dan regelmatig overwerk te krijgen om uw gegevens bijgewerkt te houden. Uw updates zijn incrementeel en Adobe beperkt de updatefrequentie en -tijd om ongewenste laadtijden op uw server te voorkomen.
 
@@ -37,11 +37,11 @@ De beste manier om dit te doen is voor ons om met uw gegevensbestandserver over 
 
 1. Maak een gebruiker die u wilt gebruiken om u aan te melden bij uw databaseserver. U hebt twee opties: via `UI` of via een `query` :
    * `UI`
-   * [`Query` ](http://sqlserverplanet.com/security/add-user) (tweede voorbeeld)
+   * [`Query` &#x200B;](http://sqlserverplanet.com/security/add-user) (tweede voorbeeld)
 
 1. Voer het IP-adres, de gebruikersnaam en het wachtwoord van de server in [!DNL Commerce Intelligence] onder **[!UICONTROL Manage Data** > **Connections]** .
 
-   ![ beheert de pagina van de Verbindingen van Gegevens die gegevensbestandintegratie tonen ](../../../assets/manage-data-connections.png)
+   ![&#x200B; beheert de pagina van de Verbindingen van Gegevens die gegevensbestandintegratie tonen &#x200B;](../../../assets/manage-data-connections.png)
 
 1. Klik op **[!UICONTROL Add a Data Source]**.
 

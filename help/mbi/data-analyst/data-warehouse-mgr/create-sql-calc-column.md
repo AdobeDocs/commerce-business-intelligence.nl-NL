@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Een SQL Berekende kolom maken
 
-Dit onderwerp schetst het doel en het gebruik van het `Calculation` kolomtype, dat aan lijsten kan worden toegevoegd gebruikend de [ Manager van Data Warehouse ](../data-warehouse-mgr/tour-dwm.md). Hieronder wordt uitgelegd wat SQL-berekeningen doen, waarom ze worden gebruikt, het proces voor het maken van een SQL-berekening en bevat twee voorbeelden.
+Dit onderwerp schetst het doel en het gebruik van het `Calculation` kolomtype, dat aan lijsten kan worden toegevoegd gebruikend de [&#x200B; Manager van Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md). Hieronder wordt uitgelegd wat SQL-berekeningen doen, waarom ze worden gebruikt, het proces voor het maken van een SQL-berekening en bevat twee voorbeelden.
 
 **Verklaring**
 
 In het verleden konden kolommen die `advanced` werden geacht, alleen worden uitgevoerd door een analist bij het team Klantsucces hier op [!DNL Adobe Commerce Intelligence] . Nu is alle macht in handen van de eindgebruiker, en de geavanceerde kolommen kunnen in de vorm van `SQL Calculation` kolommen op de nieuwe [!DNL Commerce Intelligence] architectuur worden gecreeerd.
 
-Het kolomtype `Calculation` dat nu beschikbaar is als een optie in Data Warehouse Manager, is dezelfde tabelbewerking waarmee u de kolommen in een tabel kunt transformeren met behulp van de PostSQL-logica. De documentatie over de functies en de exploitanten die in het `Calculation` kolomtype kunnen worden gebruikt kan op de website PostgreSQL [ hier ](https://www.postgresql.org/docs/9.6/functions.html) worden gevonden.
+Het kolomtype `Calculation` dat nu beschikbaar is als een optie in Data Warehouse Manager, is dezelfde tabelbewerking waarmee u de kolommen in een tabel kunt transformeren met behulp van de PostSQL-logica. De documentatie over de functies en de exploitanten die in het `Calculation` kolomtype kunnen worden gebruikt kan op de website PostgreSQL [&#x200B; hier &#x200B;](https://www.postgresql.org/docs/9.6/functions.html) worden gevonden.
 
 De verschillende kolommen die met de kolom `Calculation` kunnen worden gecreeerd zijn bijna onbeperkt, maar de meeste kolommen kunnen worden gecreeerd gebruikend IF-DEN verklaringen en basisrekenkunde, die in de voorbeelden hieronder wordt gebruikt.
 
@@ -27,7 +27,7 @@ De verschillende kolommen die met de kolom `Calculation` kunnen worden gecreeerd
 
 De meeste accounts hebben een kolom met de naam `Is customer's last order?` in hun `orders` -tabel om analyses uit te voeren op herhaalde aankoopsnelheden en gekochte klanten. Als uw account zich op de nieuwe architectuur bevindt, wordt deze kolom gemaakt met een `Calculation` -kolom. Deze kolom kan worden weergegeven in de onderstaande schermafbeelding:
 
-![ SQL berekende kolomdefinitie voor het identificeren van de laatste orde van de klant ](../../assets/Is_customer_s_last_order.png)
+![&#x200B; SQL berekende kolomdefinitie voor het identificeren van de laatste orde van de klant &#x200B;](../../assets/Is_customer_s_last_order.png)
 
 De kolom `Is customer's last order?` gebruikt de invoer `Customer's lifetime number of orders` en `Customer's order number` als `A` respectievelijk `B` alias.
 
@@ -47,7 +47,7 @@ Veel clients analyseren de omzet graag op itemniveau en segmenteren deze op veld
 
 Voor het analyseren van productinkomsten staat in de meeste accounts een kolom met de naam `Order item total value (quantity * price)` in de tabel `Orders Items` . Als uw account zich op de nieuwe architectuur bevindt, wordt deze kolom ook gebouwd met een `Calculation` -kolom. Deze kolom is zichtbaar in de onderstaande schermafbeelding:
 
-![ SQL berekende kolomdefinitie voor de totale waarde van het orde punt ](../../assets/Order_item_total_value.png)
+![&#x200B; SQL berekende kolomdefinitie voor de totale waarde van het orde punt &#x200B;](../../assets/Order_item_total_value.png)
 
 In het Commerce-schema gebruikt de kolom `Order item total value (quantity * price)` de invoer `qty ordered` en `base price` alias als `A` respectievelijk `B` .
 
@@ -57,7 +57,7 @@ De waarden die door deze nieuwe kolom worden geretourneerd, zijn in dollars en c
 
 Een nieuwe kolom `Calculation` kan aan een lijst worden toegevoegd door aan **[!DNL Manage Data > Data Warehouse]** te navigeren zoals hieronder getoond:
 
-![ mening die van de Lijst berekende kolomresultaten tonen ](../../assets/blobid2.png)
+![&#x200B; mening die van de Lijst berekende kolomresultaten tonen &#x200B;](../../assets/blobid2.png)
 
 Van hieruit kunt u een kolom `Calculation` maken door de onderstaande stappen te volgen:
 

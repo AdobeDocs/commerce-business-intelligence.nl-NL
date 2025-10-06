@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Gegevenscontroles configureren
 
-In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. In een `orders` -tabel kan bijvoorbeeld een kolom met de naam `status` voorkomen. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde _in afwachting van_ kunnen bevatten. De orde wordt herhaald in uw [ Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) met deze `pending` waarde.
+In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. In een `orders` -tabel kan bijvoorbeeld een kolom met de naam `status` voorkomen. Wanneer een orde aanvankelijk aan het gegevensbestand wordt geschreven, zou de statuskolom de waarde _in afwachting van_ kunnen bevatten. De orde wordt herhaald in uw [&#x200B; Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md) met deze `pending` waarde.
 
 De status van de orde kan veranderen, hoewel zij niet altijd in een `pending` status zijn. Uiteindelijk kan het `complete` of `cancelled` worden. Om ervoor te zorgen dat de Data Warehouse deze wijziging synchroniseert, moet de kolom opnieuw worden gecontroleerd op nieuwe waarden.
 
-Hoe past dit binnen met de [ replicatiemethodes ](../data-warehouse-mgr/cfg-replication-methods.md) die werd besproken? De verwerking van nieuwe controles varieert op basis van de gekozen replicatiemethode. De `Modified\_At` replicatiemethode is de beste keus voor verwerking veranderende waarden, aangezien de hercontroles niet moeten worden gevormd. Voor de methoden `Auto-Incrementing Primary Key` en `Primary Key Batch Monitoring` moet de configuratie opnieuw worden gecontroleerd.
+Hoe past dit binnen met de [&#x200B; replicatiemethodes &#x200B;](../data-warehouse-mgr/cfg-replication-methods.md) die werd besproken? De verwerking van nieuwe controles varieert op basis van de gekozen replicatiemethode. De `Modified\_At` replicatiemethode is de beste keus voor verwerking veranderende waarden, aangezien de hercontroles niet moeten worden gevormd. Voor de methoden `Auto-Incrementing Primary Key` en `Primary Key Batch Monitoring` moet de configuratie opnieuw worden gecontroleerd.
 
 Wanneer u een van deze methoden gebruikt, moeten verwisselbare kolommen worden gemarkeerd voor nieuwe controle. Er zijn drie manieren om dit te doen:
 
@@ -36,7 +36,7 @@ Wanneer u een van deze methoden gebruikt, moeten verwisselbare kolommen worden g
 **Wist u het?**
 Als u een nieuwe controle op een kolom van het type `primary key` instelt, wordt de kolom niet gecontroleerd op gewijzigde waarden. De tabel wordt gecontroleerd op verwijderde rijen en verwijderingen worden uit de Data Warehouse gewist.
 
-Wanneer een kolom wordt gemarkeerd voor opnieuw controleren, kunt u ook instellen hoe vaak een nieuwe controle plaatsvindt. Als een bepaalde kolom niet vaak verandert, kan het kiezen van minder frequente hercontrole [ uw updatecyclus ](../../best-practices/reduce-update-cycle-time.md) optimaliseren.
+Wanneer een kolom wordt gemarkeerd voor opnieuw controleren, kunt u ook instellen hoe vaak een nieuwe controle plaatsvindt. Als een bepaalde kolom niet vaak verandert, kan het kiezen van minder frequente hercontrole [&#x200B; uw updatecyclus &#x200B;](../../best-practices/reduce-update-cycle-time.md) optimaliseren.
 
 Frequentieopties zijn:
 
@@ -54,9 +54,9 @@ U kunt de frequenties opnieuw controleren in de Data Warehouse door op een tabel
 
 Als u de frequentie voor het opnieuw controleren wilt wijzigen, klikt u op het selectievakje naast de kolommen die u wilt wijzigen. Klik vervolgens op de vervolgkeuzelijst **[!UICONTROL Set Recheck Frequency]** en stel de gewenste frequentie in.
 
-![ de Manager van Data Warehouse die recheck configuratieopties toont ](../../assets/dwm-recheck.png)
+![&#x200B; de Manager van Data Warehouse die recheck configuratieopties toont &#x200B;](../../assets/dwm-recheck.png)
 
-Soms ziet u `Paused` in de kolom `Changes?` . Deze waarde toont wanneer de 0} replicatiemethode van de lijst [ aan ](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) wordt geplaatst.`Paused`
+Soms ziet u `Paused` in de kolom `Changes?` . Deze waarde toont wanneer de 0&rbrace; replicatiemethode van de lijst [&#x200B; aan &#x200B;](../../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) wordt geplaatst.`Paused`
 
 [!DNL Adobe] raadt u aan deze kolommen te controleren om de updates te optimaliseren en ervoor te zorgen dat de verwisselbare kolommen opnieuw worden gecontroleerd. Als de frequentie voor het opnieuw controleren van een kolom hoog is gezien hoe vaak de gegevens veranderen, raadt Adobe u aan deze frequentie te verlagen om uw updates te optimaliseren.
 

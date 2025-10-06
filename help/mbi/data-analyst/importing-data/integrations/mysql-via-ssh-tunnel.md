@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## GA NAAR
 
-* [[!DNL MySQL] via ](../integrations/mysql-via-a-direct-connection.md)
+* [[!DNL MySQL] via &#x200B;](../integrations/mysql-via-a-direct-connection.md)
 * [[!DNL MySQL] via  [!DNL cPanel]](../integrations/mysql-via-cpanel.md)
 
 Als u de [!DNL MySQL] -database wilt verbinden met [!DNL Commerce Intelligence] via een `SSH tunnel` , moet u een aantal dingen doen:
@@ -46,7 +46,7 @@ Laat deze pagina gedurende de zelfstudie open - u hebt deze nodig in de volgende
 
 Hieronder wordt beschreven hoe u door [!DNL Commerce Intelligence] kunt navigeren om de toets op te halen:
 
-![ Geanimeerde demonstratie van verbinding MySQL via de tunnel van SSH ](../../../assets/MySQL_SSH.gif)<!--{: width="770"}-->
+![&#x200B; Geanimeerde demonstratie van verbinding MySQL via de tunnel van SSH &#x200B;](../../../assets/MySQL_SSH.gif)<!--{: width="770"}-->
 
 ## Toegang tot het IP-adres van [!DNL Commerce Intelligence] toestaan {#allowlist}
 
@@ -54,7 +54,7 @@ De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf u
 
 ## Een [!DNL Linux] gebruiker voor [!DNL Commerce Intelligence] maken {#linux}
 
-Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt) gegevens in real time bevat. U kunt [ deze gebruiker ](../../../administrator/account-management/restrict-db-access.md) om het even welke manier beperken u houdt, zolang het het recht behoudt om met de `MySQL` server te verbinden.
+Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt) gegevens in real time bevat. U kunt [&#x200B; deze gebruiker &#x200B;](../../../administrator/account-management/restrict-db-access.md) om het even welke manier beperken u houdt, zolang het het recht behoudt om met de `MySQL` server te verbinden.
 
 1. Als u de nieuwe gebruiker wilt toevoegen, voert u de volgende opdrachten als hoofdmap op de [!DNL Linux] -server uit:
 
@@ -120,4 +120,4 @@ Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te v
 
 ## Verwante:
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

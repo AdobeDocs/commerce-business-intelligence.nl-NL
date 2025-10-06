@@ -50,4 +50,4 @@ In de volgende stappen wordt beschreven hoe u een kolom `Date Difference` maakt.
 
 Het volgende voorbeeld is geconfigureerd om de waarde `Seconds between order date and customer's creation date` te berekenen:
 
-![ de configuratie van de de verschilberekening van de Datum die de kolomselecties van de datetime toont ](../../assets/date_diff.png)
+![&#x200B; de configuratie van de de verschilberekening van de Datum die de kolomselecties van de datetime toont &#x200B;](../../assets/date_diff.png)

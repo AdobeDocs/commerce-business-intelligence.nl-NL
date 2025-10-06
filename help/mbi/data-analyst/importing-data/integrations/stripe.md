@@ -15,9 +15,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van Stripe ](../../../assets/stripe-logo.png)
+![&#x200B; het embleem van Stripe &#x200B;](../../../assets/stripe-logo.png)
 
 Met [!DNL Stripe] kunt u de betalings- en factuurgegevens van uw bedrijf beheren en bijhouden. Het verbinden van uw [!DNL Stripe] account met [!DNL Commerce Intelligence] is een eenvoudig proces in twee stappen:
 
@@ -45,7 +45,7 @@ Nadat u op **[!UICONTROL Connect with Stripe]** hebt geklikt, wordt een pagina m
 
 ## Verwante:
 
-De [[!DNL Stripe]  API Documentatie ](https://stripe.com/docs/api) kan een nuttig middel zijn om meer over te leren hoe [!DNL Stripe] met [!DNL Commerce Intelligence] wordt geïntegreerd.
+De [[!DNL Stripe]  API Documentatie &#x200B;](https://stripe.com/docs/api) kan een nuttig middel zijn om meer over te leren hoe [!DNL Stripe] met [!DNL Commerce Intelligence] wordt geïntegreerd.
 
 * [Verwachte  [!DNL Stripe]  gegevens](../integrations/stripe-data.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)

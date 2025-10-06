@@ -25,11 +25,11 @@ Als u enkele voorbeeldrapporten wilt volgen die in dit onderwerp worden besproke
 
 ## Metrische gegevens analyseren zonder tijdstempels {#notimestamp}
 
-Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, bevat een inventarislijst vaak slechts één rij voor elke SKU. In dat geval, zou u metrisch [ moeten creëren zonder timestamp te specificeren.](../data-user/reports/ess-manage-data-metrics.md)
+Sommige metriek kan zich eenvoudig niet in tijd aangezien de gegevens niet met een bijbehorende timestamp worden verzameld of worden opgeslagen. Bijvoorbeeld, bevat een inventarislijst vaak slechts één rij voor elke SKU. In dat geval, zou u metrisch [&#x200B; moeten creëren zonder timestamp te specificeren.](../data-user/reports/ess-manage-data-metrics.md)
 
 Wanneer u een dergelijke metrische waarde gebruikt in de rapportage, ziet u dat bij het toevoegen van deze metrische waarde aan een rapport automatisch een onafhankelijke `Time Interval` van `None` en `Time Range` van `Global` wordt ingesteld:
 
-![ Rapport die metrisch tonen met het Interval van de Tijd aan niets wordt geplaatst en de Waaier van de Tijd die aan Globaal ](../assets/Metrics_without_timestamps.gif) wordt geplaatst
+![&#x200B; Rapport die metrisch tonen met het Interval van de Tijd aan niets wordt geplaatst en de Waaier van de Tijd die aan Globaal &#x200B;](../assets/Metrics_without_timestamps.gif) wordt geplaatst
 
 ## Eén metrische waarde een onafhankelijk tijdinterval geven {#independenttimeinterval}
 
@@ -62,11 +62,11 @@ Dit soort verslagen kan nuttig zijn als u de opbrengst over jaar wilt vergelijke
 
 Nu kun je zien hoe impact elke maand vorig jaar was:
 
-![ grafiek die percentage van opbrengst door maand voor het vorige jaar toont ](../assets/Independent_Time_Int.png)
+![&#x200B; grafiek die percentage van opbrengst door maand voor het vorige jaar toont &#x200B;](../assets/Independent_Time_Int.png)
 
 ## Dezelfde metrische waarde vergelijken over verschillende tijdbereiken {#difftimerange}
 
-In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en deze dimensie niet reeds in uw Data Warehouse hebben, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
+In dit voorbeeld wordt een aangepaste dimensie met de naam `Day number of the month` gebruikt. Als u dit rapport wilt tot stand brengen en deze dimensie niet reeds in uw Data Warehouse hebben, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp.
 
 De twee meest voorkomende voorbeelden in deze categorie zijn (1) het vergelijken van groeicijfers (omzet jaar-over-jaar of maand-over-maand) en (2) het beter begrijpen van recente trends in voorraden of verkoop van artikelen.
 
@@ -87,7 +87,7 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
 
    Maak zich geen zorgen als metrisch uit het rapport verdwijnt - plaatsend een onafhankelijke tijdoptie verbergt automatisch metrisch van het rapport. Klik op **[!UICONTROL Show]** naast de metrische waarde als u deze opnieuw wilt weergeven.
 
-   ![ Demonstratie van het plaatsen van verschillende tijdwaaiers voor metriek in een rapport ](../assets/Different_Time_Ranges.gif)
+   ![&#x200B; Demonstratie van het plaatsen van verschillende tijdwaaiers voor metriek in een rapport &#x200B;](../assets/Different_Time_Ranges.gif)
 
    * Klik op **[!UICONTROL Apply]** om de instellingen voor interval en bereik op te slaan.
 
@@ -95,7 +95,7 @@ Om dit geval van gebruik aan te tonen, bekijk de dagelijkse inkomsten voor de vo
 
    * Selecteer `Group By` in het vervolgkeuzemenu `Show All` en klik op **[!UICONTROL Apply]** . Dit leidt tot de x-aswaarden voor het rapport:
 
-   ![ Rapport die opbrengstvergelijking tonen die door dagaantal van maand ](../assets/TO4.png) wordt gegroepeerd
+   ![&#x200B; Rapport die opbrengstvergelijking tonen die door dagaantal van maand &#x200B;](../assets/TO4.png) wordt gegroepeerd
 
    * Wijzig de naam van de metriek. In het voorbeeld is de eerste metrische waarde `Revenue - 2015` en de tweede waarde `Revenue - 2014` .
 
@@ -136,7 +136,7 @@ Klik op **[!UICONTROL Add Formula]** om de formules te maken. Voer de onderstaan
 
 * Typ `last promo period` in het veld `D / C` voor de waarde `Formula` .
 
-  ![ Rapport die weken van leveringsberekeningen voor verschillende tijdsperioden tonen ](../assets/Different_Time_Ranges_2.png)
+  ![&#x200B; Rapport die weken van leveringsberekeningen voor verschillende tijdsperioden tonen &#x200B;](../assets/Different_Time_Ranges_2.png)
 
 * Pas ten slotte het rapport aan door de metriek te verbergen en een `SKU` of vergelijkbare dimensie aan het rapport toe te voegen als een `Group By` .
 

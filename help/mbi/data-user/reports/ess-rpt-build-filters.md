@@ -27,44 +27,44 @@ Een of meer filters kunnen worden toegevoegd om de gegevens te beperken die word
 
    In dit rapport, toont elk gegevenspunt het totale aantal klanten voor de maand.
 
-1. In het linkerpaneel, klik de Filters (![ pictogram van de Filter ](../../assets/magento-bi-btn-filter.png)).
+1. In het linkerpaneel, klik de Filters (![&#x200B; pictogram van de Filter &#x200B;](../../assets/magento-bi-btn-filter.png)).
 
-   ![ voeg Filter ](../../assets/magento-bi-report-builder-filter-add.png) toe
+   ![&#x200B; voeg Filter &#x200B;](../../assets/magento-bi-report-builder-filter-add.png) toe
 
 1. Klik op **[!UICONTROL Add Filter]**.
 
    Filters worden alfabetisch genummerd en de eerste is `[A]` . De eerste twee delen van het filter zijn vervolgkeuzemogelijkheden en het derde deel is een waarde.
 
-   ![ interface die van de Filter toont toevoegt filteroptie ](../../assets/magento-bi-report-builder-filter-add-a.png)
+   ![&#x200B; interface die van de Filter toont toevoegt filteroptie &#x200B;](../../assets/magento-bi-report-builder-filter-add-a.png)
 
    * Klik op het eerste deel van het filter en kies de kolom die u als het onderwerp van de expressie wilt gebruiken.
 
-     ![ kies Eerste Deel van Filter ](../../assets/magento-bi-report-builder-filter-part1.png)
+     ![&#x200B; kies Eerste Deel van Filter &#x200B;](../../assets/magento-bi-report-builder-filter-part1.png)
 
    * Klik op het tweede deel van het filter en kies de operator.
 
-     ![ kies de exploitant ](../../assets/magento-bi-report-builder-filter-part2.png)
+     ![&#x200B; kies de exploitant &#x200B;](../../assets/magento-bi-report-builder-filter-part2.png)
 
    * Voer in het derde deel van het filter de waarde in die nodig is om de expressie te voltooien.
 
-     ![ ga de waarde ](../../assets/magento-bi-report-builder-filter-part3.png) in
+     ![&#x200B; ga de waarde &#x200B;](../../assets/magento-bi-report-builder-filter-part3.png) in
 
    * Klik op **[!UICONTROL Apply]** wanneer het filter is voltooid.
 
      Het rapport omvat nu slechts herhaalde klanten, en het aantal klantenverslagen die voor het rapport zijn teruggewonnen is verminderd van 33.000 tot 12.600.
 
-     ![ Gefilterd Rapport ](../../assets/magento-bi-report-builder-filter-report.png)<!--{: .zoom}-->
+     ![&#x200B; Gefilterd Rapport &#x200B;](../../assets/magento-bi-report-builder-filter-report.png)<!--{: .zoom}-->
 
-1. In sidebar, klik het perspectief (![ pictogram van het Perspectief ](../../assets/magento-bi-btn-perspective.png)).
+1. In sidebar, klik het perspectief (![&#x200B; pictogram van het Perspectief &#x200B;](../../assets/magento-bi-btn-perspective.png)).
 
-   ![ Perspectief ](../../assets/magento-bi-report-builder-filter-perspective.png)<!--{: .zoom}-->
+   ![&#x200B; Perspectief &#x200B;](../../assets/magento-bi-report-builder-filter-perspective.png)<!--{: .zoom}-->
 
 1. Kies `Cumulative` in de lijst met instellingen. Klik vervolgens op **[!UICONTROL Apply]** .
 
-   ![ Cumulatief Perspectief ](../../assets/magento-bi-report-builder-filter-perspective-cumulative.png)
+   ![&#x200B; Cumulatief Perspectief &#x200B;](../../assets/magento-bi-report-builder-filter-perspective-cumulative.png)
 
    Het perspectief `Cumulative` verdeelt de verandering in tijd, eerder dan het tonen van oneffen omhoog en downs voor elke maand.
 
 1. Voer een `Title` voor het rapport in en klik op **[!UICONTROL Save]** het rapport als een `Chart` voor het dashboard.
 
-   ![ sparen aan Dashboard ](../../assets/magento-bi-report-builder-filter-perspective-cumulative-save.png)
+   ![&#x200B; sparen aan Dashboard &#x200B;](../../assets/magento-bi-report-builder-filter-perspective-cumulative-save.png)

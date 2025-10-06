@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Verbinden [!DNL Spree]
 
-![ het embleem van Commerce van de Spree ](../../../assets/spree-commerce-logo.png)
+![&#x200B; het embleem van Commerce van de Spree &#x200B;](../../../assets/spree-commerce-logo.png)
 
 Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Door uw [!DNL Spree] -gegevens aan te sluiten op [!DNL Commerce Intelligence] kunt u deze vragen en meer beantwoorden.
 
-Het [!DNL Spree] gegevensbestand is gebaseerd op [!DNL PostgreSQL], kunt u het met [!DNL Commerce Intelligence] verbinden gebruikend de [ zelfde stappen die u voor een normale  [!DNL Postgres]  verbinding ](../integrations/postgresql.md) zou gebruiken.
+Het [!DNL Spree] gegevensbestand is gebaseerd op [!DNL PostgreSQL], kunt u het met [!DNL Commerce Intelligence] verbinden gebruikend de [&#x200B; zelfde stappen die u voor een normale  [!DNL Postgres]  verbinding &#x200B;](../integrations/postgresql.md) zou gebruiken.
 
 ## Gerelateerde documentatie
 

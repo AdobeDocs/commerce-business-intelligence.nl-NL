@@ -14,7 +14,7 @@ ht-degree: 0%
 # Kies een rapportbuilder
 
 >[!NOTE]
->>Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>&#x200B;>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md).
 
 Nu u meer opties hebt voor het maken van analyses, is het soms moeilijk om precies te weten welke smaak van de rapportbuilder aan uw behoeften voldoet. Dit onderwerp begeleidt u door de beste manier te kiezen om uw analyse te bouwen.
 
@@ -26,16 +26,16 @@ Bekijk een aantal van de meer algemene redenen waarom u de [!DNL SQL Report Buil
 
 Een deel van de schoonheid van [!DNL SQL Report Builder] is dat het u de capaciteit geeft om functies te gebruiken die momenteel niet beschikbaar in de Manager van Data Warehouse zijn. In het verleden had een analist u misschien moeten helpen uw visie volledig te realiseren.
 
-[!DNL SQL Report Builder] steunt functies zoals [`LISTAGG` ](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) en [`GETDATE` ](https://docs.aws.amazon.com/redshift/latest/dg/r_GETDATE.html), die u niet kon eerder gebruiken. U kunt tot [`full list` toegang hebben ](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html), maar sommige andere SQL-Specifieke functies omvatten:
+[!DNL SQL Report Builder] steunt functies zoals [`LISTAGG` &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/r_LISTAGG.html) en [`GETDATE` &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/r_GETDATE.html), die u niet kon eerder gebruiken. U kunt tot [`full list` toegang hebben &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html), maar sommige andere SQL-Specifieke functies omvatten:
 
-* [`Bitwise aggregate` functies ](https://docs.aws.amazon.com/redshift/latest/dg/c_bitwise_aggregate_functions.html)
+* [`Bitwise aggregate` functies &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/c_bitwise_aggregate_functions.html)
 * [`CASE expression`](https://docs.aws.amazon.com/redshift/latest/dg/r_CASE_function.html)
 * [`JSON_EXTRACT_PATH_TEXT`](https://docs.aws.amazon.com/redshift/latest/dg/JSON_EXTRACT_PATH_TEXT.html)
 * [`LOG`](https://docs.aws.amazon.com/redshift/latest/dg/r_LOG.html)
 * [`MONTHS_BETWEEN`](https://docs.aws.amazon.com/redshift/latest/dg/r_MONTHS_BETWEEN_function.html)
 * [`REPLACE`](https://docs.aws.amazon.com/redshift/latest/dg/r_REPLACE.html)
 * [`SQRT`](https://docs.aws.amazon.com/redshift/latest/dg/r_SQRT.html)
-* [`concatenation` operator ](https://docs.aws.amazon.com/redshift/latest/dg/r_concat_op.html)
+* [`concatenation` operator &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/r_concat_op.html)
 
 ### Als u wat tests wilt uitvoeren...
 
@@ -53,7 +53,7 @@ Soms kan de structuur van de gegevens van [!DNL SQL Report Builder] een efficië
 
 Stel dat één product wordt beschouwd als onderdeel van meerdere productcategorieën en u wilt de inkomsten bekijken die aan elke categorie van elk product zijn gekoppeld. Het maken van deze relatie met behulp van DWM kan vervelend en moeilijk zijn, maar het schrijven van een query [!DNL SQL] kan wat eenvoudiger zijn:
 
-![ SQL vraag die opbrengst door productcategorie met één-aan-vele verhoudingen toont ](../../assets/When_should_I_use_the_RB_2.png)
+![&#x200B; SQL vraag die opbrengst door productcategorie met één-aan-vele verhoudingen toont &#x200B;](../../assets/When_should_I_use_the_RB_2.png)
 
 ## Wanneer moet ik de traditionele Report Builder gebruiken? {#whentraditionalrb}
 

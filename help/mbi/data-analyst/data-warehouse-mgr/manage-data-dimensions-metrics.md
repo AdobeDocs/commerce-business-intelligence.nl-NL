@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md).
 
 Een dimensie is een gebied in de zelfde lijst zoals metrisch die aan filter of segmentgrafieken kan worden gebruikt die op dat metrisch worden gebaseerd. Een maatstaf voor inkomsten kan bijvoorbeeld stad, staat, land, orderstatus, couponcode en andere typen afmetingen bevatten.
 
@@ -31,7 +31,7 @@ Een of meer afmetingen tegelijk toevoegen aan meerdere metriek:
 
 1. Selecteer in de kolom `Choose Metric(s) to Add Dimensions` de metriek waaraan u afmetingen wilt toevoegen. Als deze optie is geselecteerd, wordt de kolom `Choose Dimensions to Add` aan de rechterkant weergegeven. Controleer de afmetingen die u aan geselecteerde metrisch wilt toevoegen.
 
-   ![ voegt de dialoog van Dimensies toe die beschikbare afmetingsopties tonen ](../../assets/Add_Dimensions.png)
+   ![&#x200B; voegt de dialoog van Dimensies toe die beschikbare afmetingsopties tonen &#x200B;](../../assets/Add_Dimensions.png)
 
 1. Als u door om het even welke gegevensdimensies op rapporten zou willen segmenteren of groeperen, zorg ervoor om erop te wijzen zij _groeperbaar_ zijn.
 
@@ -65,7 +65,7 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 >[!NOTE]
 >
->Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden in [!DNL Commerce Intelligence] . Als u niet de gewenste afmeting vindt, kunt u een nieuwe gegevenskolom in uw gegevensbestand via de [ Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) pagina moeten beginnen te volgen.
+>Elke dimensie waarop u wilt filteren of groeperen, moet al worden bijgehouden in [!DNL Commerce Intelligence] . Als u niet de gewenste afmeting vindt, kunt u een nieuwe gegevenskolom in uw gegevensbestand via de [&#x200B; Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md) pagina moeten beginnen te volgen.
 
 
 **om afmeting(en) van metrisch te schrappen:**
@@ -78,7 +78,7 @@ Een of meer afmetingen uit meerdere meeteenheden verwijderen:
 
 >[!NOTE]
 >
->Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in uw Data Warehouse. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze dimensies. Om de gegevenskolom te verwijderen die een afmeting aan van [!DNL Commerce Intelligence] beantwoordt, untrack eenvoudig de gegevenskolom via de [ Data Warehouse ](../data-warehouse-mgr/tour-dwm.md) pagina.
+>Zelfs na het schrappen van een afmeting, bestaat het nog als kolom op uw lijst in uw Data Warehouse. U kunt het aan om het even welke metrisch toevoegen, en nieuwe metriek bouwen gebruikend deze dimensies. Om de gegevenskolom te verwijderen die een afmeting aan van [!DNL Commerce Intelligence] beantwoordt, untrack eenvoudig de gegevenskolom via de [&#x200B; Data Warehouse &#x200B;](../data-warehouse-mgr/tour-dwm.md) pagina.
 
 ## Gerelateerde documentatie
 

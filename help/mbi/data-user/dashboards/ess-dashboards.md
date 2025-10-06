@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Het is gemakkelijk om een rapport te creëren, het aan een dashboard toe te voegen, en de gegevens uit te voeren naar Excel. Grafieken en rapporten kunnen worden vergroot of verkleind en naar de gewenste positie op het dashboard worden gesleept.
 
-![ Dashboard ](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)
+![&#x200B; Dashboard &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)
 
 ## Dashboards maken {#createdash}
 
@@ -27,15 +27,15 @@ De dashboards zijn sharable, themed emmers voor de analyses u in de Bouwers van 
 
 Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen in het dashboard op elke gewenste manier rangschikken en de grootte ervan wijzigen.
 
-![ rangschikt resize dashboardelement ](../../assets/arrange_resize_dashboard_element.gif)
+![&#x200B; rangschikt resize dashboardelement &#x200B;](../../assets/arrange_resize_dashboard_element.gif)
 
 ### Een dashboard maken
 
 1. Klik in het menu op **[!UICONTROL Dashboards]** .
 
-1. De naam van het standaarddashboard verschijnt in de linkerbovenhoek van de dashboardkopbal. Klik de benedenpijl (![ benedenpijlpictogram ](../../assets/magento-bi-btn-down.png)) om de beschikbare opties te tonen.
+1. De naam van het standaarddashboard verschijnt in de linkerbovenhoek van de dashboardkopbal. Klik de benedenpijl (![&#x200B; benedenpijlpictogram &#x200B;](../../assets/magento-bi-btn-down.png)) om de beschikbare opties te tonen.
 
-   ![ creeer Dashboard ](../../assets/magento-bi-dashboard-create.png)
+   ![&#x200B; creeer Dashboard &#x200B;](../../assets/magento-bi-dashboard-create.png)
 
 1. Klik op **[!UICONTROL Create Dashboard]**. Voer vervolgens de volgende handelingen uit:
 
@@ -47,9 +47,9 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
    * Klik op **[!UICONTROL Create]**.
 
-   ![ dashboardnaam ](../../assets/magento-bi-dashboard-create-name.png)
+   ![&#x200B; dashboardnaam &#x200B;](../../assets/magento-bi-dashboard-create-name.png)
 
-   * De naam van het nieuwe dashboard wordt in de linkerbovenhoek weergegeven. Klik de benedenpijl (![ benedenpijlpictogram ](../../assets/magento-bi-btn-down.png)) om de opties te tonen. Als u een groep hebt gemaakt, wordt het nieuwe dashboard onder de groep in de lijst weergegeven.
+   * De naam van het nieuwe dashboard wordt in de linkerbovenhoek weergegeven. Klik de benedenpijl (![&#x200B; benedenpijlpictogram &#x200B;](../../assets/magento-bi-btn-down.png)) om de opties te tonen. Als u een groep hebt gemaakt, wordt het nieuwe dashboard onder de groep in de lijst weergegeven.
 
 ### Een rapport toevoegen
 
@@ -59,11 +59,11 @@ Hoe de dashboards die u maakt er uitzien, is volledig aan u. U kunt de elementen
 
    * Klik in de dashboardkoptekst op **[!UICONTROL Add Report]** .
 
-     ![ voeg Rapport ](../../assets/magento-bi-dashboard-create-add-report.png) toe
+     ![&#x200B; voeg Rapport &#x200B;](../../assets/magento-bi-dashboard-create-add-report.png) toe
 
 1. Klik op **[!UICONTROL Create Report]** om de **[!UICONTROL Report Builder Options]** weer te geven.
 
-   ![ de Opties van Report Builder ](../../assets/magento-bi-report-builder.png)
+   ![&#x200B; de Opties van Report Builder &#x200B;](../../assets/magento-bi-report-builder.png)
 
 ## Items op een dashboard ordenen
 
@@ -89,7 +89,7 @@ Wanneer u een dashboard deelt, kunt u toestemmingen over uw organisatie OF op ee
 
 *als u een Admin of Standaardgebruiker* bent en een gedeeld dashboard aan uw rekening wilt toevoegen, kunt u dit doen door **[!UICONTROL Dashboard Options]** te klikken en dan **[!UICONTROL Find]** in dropdown te klikken.
 
-![ vind dashboard ](../../assets/find_dashboard.png)<!--{: width="1000" height="535"}-->
+![&#x200B; vind dashboard &#x200B;](../../assets/find_dashboard.png)<!--{: width="1000" height="535"}-->
 
 ### Dashboardinstellingen beheren
 

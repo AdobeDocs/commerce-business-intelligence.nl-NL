@@ -17,11 +17,11 @@ In dit onderwerp wordt de beste manier besproken om financiële gegevens te impo
 
 Een tweedimensionale, cross-tab gegevenstabel is vaak de indeling die wordt gebruikt voor financiële gegevens. Met waarden die door labels in zowel kolommen als rijen worden gecategoriseerd, zou dit type lay-out gemakkelijk met menselijke ogen en spreadsheethulpmiddelen kunnen zijn, maar het is niet vriendschappelijk aan gegevensbestanden.
 
-![ formaat Crosstab dat gegevens in de lay-out van de spillijst toont ](../../mbi/assets/crosstab.png)
+![&#x200B; formaat Crosstab dat gegevens in de lay-out van de spillijst toont &#x200B;](../../mbi/assets/crosstab.png)
 
 Als u deze gegevens wilt importeren en analyseren in [!DNL Commerce Intelligence] , moet u de tabel samenvoegen tot een eendimensionale lijst. Wanneer samengevoegd, wordt elke gegevenswaarde gecategoriseerd door veelvoudige etiketten die allen in één enkele rij zijn, waar elke rij uniek is of een uniek herkenningsteken, bijvoorbeeld een primaire zeer belangrijke kolom zou hebben.
 
-![ afgevlakt formaat dat gegevens in kolomlay-out toont ](../../mbi/assets/flattened.png)
+![&#x200B; afgevlakt formaat dat gegevens in kolomlay-out toont &#x200B;](../../mbi/assets/flattened.png)
 
 ## Excel-bestanden opmaken voor importeren
 
@@ -35,9 +35,9 @@ Een tweedimensionale tabel afvlakken met een [!DNL Excel] draaientabel:
 1. Maak de draaitabel in een nieuw vel en klik op **[!UICONTROL Finish]** .
 1. Schakel de kolom- en rijvelden uit in de veldlijst.
 1. Dubbelklik op de resulterende numerieke waarde om de samengevoegde brongegevens in een nieuw blad weer te geven.
-   ![ de lijst van het het kantellijstgebied van Excel die tweemaal klikken om uit te breiden ](../../mbi/assets/pivot-table-double-click.png)
+   ![&#x200B; de lijst van het het kantellijstgebied van Excel die tweemaal klikken om uit te breiden &#x200B;](../../mbi/assets/pivot-table-double-click.png)
 1. Opslaan als een `CSV` -bestand.
 
 ## Omloop omhoog
 
-De gegevenslijst is omgezet in een lijstformaat, dat al zijn originele informatie bewaart, en kan nu [ worden ingevoerd aan  [!DNL Commerce Intelligence]](../data-analyst/importing-data/connecting-data/using-file-uploader.md) voor analyse.
+De gegevenslijst is omgezet in een lijstformaat, dat al zijn originele informatie bewaart, en kan nu [&#x200B; worden ingevoerd aan  [!DNL Commerce Intelligence]](../data-analyst/importing-data/connecting-data/using-file-uploader.md) voor analyse.

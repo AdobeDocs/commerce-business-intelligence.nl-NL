@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
-![ het embleem van Advertenties Facebook ](../../../assets/facebook-ads-logo.png)
+![&#x200B; het embleem van Advertenties Facebook &#x200B;](../../../assets/facebook-ads-logo.png)
 
-Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je campagne gestart op [!DNL Facebook] . Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [ van gebruikers te bedienen die van uw campagnes worden verworven.](../../../data-analyst/analysis/roi-ad-camp.md)
+Je hebt onderzoek gedaan, je hebt advertenties gemaakt, je hebt je campagne gestart op [!DNL Facebook] . Nu is het tijd om uw advertentie-uitgaven te analyseren en te zien of wordt uw geld effectief besteed. Gebruikend uw advertentie geeft gegevens uit, kunt u campagne ROI door uw reclamekosten en de waarde van het klantenleven (CLV) [&#x200B; van gebruikers te bedienen die van uw campagnes worden verworven.](../../../data-analyst/analysis/roi-ad-camp.md)
 
 Het verbinden van uw [!DNL Facebook Ad] gegevens met [!DNL Commerce Intelligence] is een eenvoudig proces in drie stappen:
 
@@ -38,7 +38,7 @@ Het verbinden van uw [!DNL Facebook Ad] gegevens met [!DNL Commerce Intelligence
 
 Nadat u op **[!DNL Facebook Authorize]** hebt geklikt, wordt een klein pop-upvenster weergegeven:
 
-![ de toegangsrechtendialoog van Facebook voor Commerce Intelligence ](../../../assets/Facebook_Access_Popup.png)
+![&#x200B; de toegangsrechtendialoog van Facebook voor Commerce Intelligence &#x200B;](../../../assets/Facebook_Access_Popup.png)
 
 U voert een reeks stappen uit om [!DNL Commerce Intelligence] toegang te geven tot gegevens van uw openbare profiel [!DNL Facebook Ads] en verwante status. Klik op **[!UICONTROL OK]** om door te gaan.
 
@@ -46,7 +46,7 @@ U voert een reeks stappen uit om [!DNL Commerce Intelligence] toegang te geven t
 
 1. Nadat de verificatie is voltooid, wordt u gevraagd om de [!DNL Facebook Ads] -accounts te selecteren waaruit u gegevens wilt ophalen. Selecteer de gewenste accounts door op het selectievakje `Connect` in de kolom te klikken.
 
-   ![ Facebook Advertentie de selectieinterface van Rekeningen ](../../../assets/Facebook_Ad_Accounts.png)
+   ![&#x200B; Facebook Advertentie de selectieinterface van Rekeningen &#x200B;](../../../assets/Facebook_Ad_Accounts.png)
 
 1. Klik op **[!UICONTROL Save Connections]**.
 
@@ -58,7 +58,7 @@ Zorg ervoor dat u [!DNL Facebook] campagnes in [!DNL Google Analytics] volgt. Zo
 
 ## Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 * [Verbind uw  [!DNL Google Adwords]  rekening](../integrations/google-ecommerce.md)
 * [Bron voor verwijzing van de orde van het spoor via  [!DNL Google eCommerce]](../integrations/google-ecommerce.md)
 * [Bron van gebruikersverwijzing bijhouden in uw database](../../analysis/google-track-user-acq.md)

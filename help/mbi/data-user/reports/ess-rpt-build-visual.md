@@ -27,15 +27,15 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      De beschikbare metriek kan alfabetisch of door lijst worden vermeld.
 
-     ![ Visuele Report Builder ](../../assets/magento-bi-visual-report-builder-add-metric.png)
+     ![&#x200B; Visuele Report Builder &#x200B;](../../assets/magento-bi-visual-report-builder-add-metric.png)
 
-   * Kies metrisch [ ](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
+   * Kies metrisch [&#x200B; &#x200B;](../../data-user/reports/ess-manage-data-metrics.md) dat de reeks gegevens beschrijft die u voor het rapport wilt gebruiken.
 
      De metrische waarde `New Customers` die in dit voorbeeld wordt gebruikt telt alle klanten, en sorteert de lijst door de datum de klant die voor een rekening wordt aangemeld. Het eerste rapport bevat een eenvoudige lijngrafiek, gevolgd door de tabel met gegevens.
 
      Het overzicht op de linkerzijde toont de naam van huidige metrisch, die door het resultaat van om het even welke berekeningen op kolomgegevens wordt gevolgd die in metrisch worden gespecificeerd. In dit voorbeeld geeft het overzicht het totale aantal klanten weer.
 
-     ![ Visuele Report Builder ](../../assets/magento-bi-report-builder-untitled.png)
+     ![&#x200B; Visuele Report Builder &#x200B;](../../assets/magento-bi-report-builder-untitled.png)
 
 1. Houd de muisaanwijzer boven elk gegevenspunt op de regel in het diagram. Elk gegevenspunt toont het totale aantal nieuwe klanten die zich tijdens die maand hebben aangemeld.
 
@@ -49,25 +49,25 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      In dit voorbeeld heeft het systeem vijf couponcodes gevonden die door klanten werden gebruikt bij het plaatsen van hun eerste bestelling.
 
-     ![ Groep door ](../../assets/magento-bi-report-builder-group-by-dimensions.png)
+     ![&#x200B; Groep door &#x200B;](../../assets/magento-bi-report-builder-group-by-dimensions.png)
 
      In `Group By` worden alle coupons weergegeven die door klanten worden gebruikt. De coupons die zijn gebruikt om de eerste bestelling te plaatsen, zijn gemarkeerd met een selectievakje. Het diagram bevat nu meerdere gekleurde lijnen die elke coupon vertegenwoordigen die voor een eerste bestelling is gebruikt. De legenda heeft een kleurcode die overeenkomt met elke gegevensrij.
 
    * Klik op **[!UICONTROL Apply]** om het venster Groeperen op detail te sluiten.
 
-     ![ Veelvoudige Dimensies ](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
+     ![&#x200B; Veelvoudige Dimensies &#x200B;](../../assets/magento-bi-report-builder-group-by-dimension-detail.png)
 
    * Houd de muisaanwijzer boven een paar gegevenspunten op elke regel om het aantal klanten te zien dat de coupon tijdens het plaatsen van de eerste bestelling heeft gebruikt.
 
    * De tabel met gegevens heeft nu een extra dimensie, met een kolom voor elke maand en een rij voor elke couponcode.
 
-     ![ Groep door de Gegevens van de Lijst ](../../assets/magento-bi-report-builder-group-by-table-data.png)
+     ![&#x200B; Groep door de Gegevens van de Lijst &#x200B;](../../assets/magento-bi-report-builder-group-by-table-data.png)
 
-   * Klik de Omwisselen (![ pictogram van Omwisselen ](../../assets/magento-bi-btn-transpose.png)) controle in de hoger-juiste hoek van de lijst om de richtlijn van de gegevens te veranderen.
+   * Klik de Omwisselen (![&#x200B; pictogram van Omwisselen &#x200B;](../../assets/magento-bi-btn-transpose.png)) controle in de hoger-juiste hoek van de lijst om de richtlijn van de gegevens te veranderen.
 
      De as van de gegevens wordt gespiegeld en de tabel heeft nu een kolom voor elke couponcode en een rij voor elke maand. Deze richting is misschien beter leesbaar.
 
-     ![ Omgezette Gegevens ](../../assets/magento-bi-report-builder-group-by-table-data-transposed.png)
+     ![&#x200B; Omgezette Gegevens &#x200B;](../../assets/magento-bi-report-builder-group-by-table-data-transposed.png)
 
    **`Date Range`**
 
@@ -75,7 +75,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    * Klik op het besturingselement `Date Range` , dat in dit voorbeeld is ingesteld op `All-Time by Month` .
 
-     ![ de Waaier van de Datum ](../../assets/magento-bi-report-builder-date-range.png)
+     ![&#x200B; de Waaier van de Datum &#x200B;](../../assets/magento-bi-report-builder-date-range.png)
 
    * Breng de volgende wijzigingen aan:
 
@@ -85,7 +85,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      Het verslag bevat nu alleen de gegevens voor het laatste kwartaal, per week.
 
-     ![ Rapport voor Laatste Kwartaal door Week ](../../assets/magento-bi-report-builder-date-range-quarter-by-week-chart.png)
+     ![&#x200B; Rapport voor Laatste Kwartaal door Week &#x200B;](../../assets/magento-bi-report-builder-date-range-quarter-by-week-chart.png)
 
    **Type van Grafiek**
 
@@ -95,14 +95,14 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
      | | |
      |-----|-----|
-     | ![ het grafiekpictogram van de Lijn ](../../assets/magento-bi-btn-chart-line.png) | Lijngrafiek |
-     | ![ Horizontaal bar pictogram ](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontale balk |
-     | ![ Horizontaal gestapeld staafpictogram ](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontale gestapelde balk |
-     | ![ Verticaal bar pictogram ](../../assets/magento-bi-btn-chart-vert-bar.png) | Verticale balk |
-     | ![ Verticaal gestapeld staafpictogram ](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Verticale gestapelde balk |
-     | ![ het grafiekpictogram van het Schijf ](../../assets/magento-bi-btn-chart-pie.png) | Schijf |
-     | ![ het grafiekpictogram van het Gebied ](../../assets/magento-bi-btn-chart-area.png) | Gebied |
-     | ![ het grafiekpictogram van Funnel ](../../assets/magento-bi-btn-chart-funnel.png) | Trechter |
+     | ![&#x200B; het grafiekpictogram van de Lijn &#x200B;](../../assets/magento-bi-btn-chart-line.png) | Lijngrafiek |
+     | ![&#x200B; Horizontaal bar pictogram &#x200B;](../../assets/magento-bi-btn-chart-horz-bar.png) | Horizontale balk |
+     | ![&#x200B; Horizontaal gestapeld staafpictogram &#x200B;](../../assets/magento-bi-btn-chart-horz-stacked-bar.png) | Horizontale gestapelde balk |
+     | ![&#x200B; Verticaal bar pictogram &#x200B;](../../assets/magento-bi-btn-chart-vert-bar.png) | Verticale balk |
+     | ![&#x200B; Verticaal gestapeld staafpictogram &#x200B;](../../assets/magento-bi-btn-chart-vert-stacked-bar.png) | Verticale gestapelde balk |
+     | ![&#x200B; het grafiekpictogram van het Schijf &#x200B;](../../assets/magento-bi-btn-chart-pie.png) | Schijf |
+     | ![&#x200B; het grafiekpictogram van het Gebied &#x200B;](../../assets/magento-bi-btn-chart-area.png) | Gebied |
+     | ![&#x200B; het grafiekpictogram van Funnel &#x200B;](../../assets/magento-bi-btn-chart-funnel.png) | Trechter |
 
      {style="table-layout:auto"}
 
@@ -116,7 +116,7 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    * Klik op **[!UICONTROL Save to Dashboard]**.
 
-     ![ sparen aan Dashboard ](../../assets/magento-bi-report-builder-save-to-dashboard.png)
+     ![&#x200B; sparen aan Dashboard &#x200B;](../../assets/magento-bi-report-builder-save-to-dashboard.png)
 
 1. Voer een van de volgende handelingen uit om de grafiek in een dashboard weer te geven:
 
@@ -124,4 +124,4 @@ Het volgende voorbeeld toont hoe te om een eenvoudig rapport tot stand te brenge
 
    * Kies `Dashboards` in het menu en klik op de naam van het huidige dashboard om de lijst weer te geven. Klik vervolgens op de naam van het dashboard waar het rapport is opgeslagen.
 
-     ![ Rapport in Dashboard ](../../assets/magento-bi-report-builder-my-dashboard.png)
+     ![&#x200B; Rapport in Dashboard &#x200B;](../../assets/magento-bi-report-builder-my-dashboard.png)

@@ -17,7 +17,7 @@ Kennis van de couponprestaties van uw bedrijf is een interessante manier om uw b
 
 Dit onderwerp documenteert de stappen die worden vereist om deze analyse tot stand te brengen om te begrijpen hoe de op coupon-verworven klanten presteren, trends, en het gebruik van individuele couponcode volgen.
 
-![ dashboard van de codeanalyse van de coupon die gebruik en prestatiesmetriek tonen ](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
+![&#x200B; dashboard van de codeanalyse van de coupon die gebruik en prestatiesmetriek tonen &#x200B;](../../assets/coupon_analysis_dash_720.png)<!--{: width="807" height="471"}-->
 
 ## Aan de slag
 
@@ -62,42 +62,42 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 >De [!UICONTROL Time Period]** voor elk rapport wordt weergegeven als `All-time` . U kunt dit aanpassen aan uw analysebehoeften. Adobe raadt alle rapporten op dit dashboard aan voor dezelfde periode, zoals `All time` , `Year-to-date` of `Last 365 days` .
 
 * **Orders met coupons**
-   * 
+   * &#x200B;
      [!UICONTROL Metric]: `Orders`
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]:`Number (scalar)`
 
 * **Orders zonder coupons**
-   * 
+   * &#x200B;
      [!UICONTROL Metric]: `Orders`
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]:`Number (scalar)`
 
 * **Netto opbrengst van orden met coupons**
-   * 
+   * &#x200B;
      [!UICONTROL Metric]: `Revenue`
       * Filter toevoegen:
          * [`A`] `coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
 * **Kortingen van coupons**
    * [!UICONTROL Metric]: `Coupon discount amount`
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -107,7 +107,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -117,7 +117,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [ A ] `Customer's first order's coupon_code` **IS**`[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -141,23 +141,23 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
 
    * Formule maken: `Gross revenue`
       * [!UICONTROL Formula]: `(B – C)`
-      * 
+      * &#x200B;
         [!UICONTROL Format]: `Currency`
 
    * Create formule:**% disconted**
       * Formule: `(C / (B - C))`
-      * 
+      * &#x200B;
         [!UICONTROL Format]: `Percentage`
 
    * Formule maken: `Average order discount`
       * [!UICONTROL Formula]: `(C / A)`
-      * 
+      * &#x200B;
         [!UICONTROL Format]: `Percentage`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
-   * 
+   * &#x200B;
      [!UICONTROL Chart type]: `Table`
 
 * **Gemiddelde levensinkomsten door eerste orde coupon**
@@ -166,7 +166,7 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [`A`] `coupon_code` **IS**`[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Chart type]: `Number (scalar)`
 
@@ -176,10 +176,10 @@ De eerste stap bestaat uit het samenstellen van een nieuwe metrische code met de
          * [`A`] `Customer's first order's coupon_code` **IS NIET** `[NULL]`
 
    * [!UICONTROL Time period]: `All time`
-   * 
+   * &#x200B;
      [!UICONTROL Interval]: `None`
    * [!UICONTROL Group by]: `Customer's first order's coupon_code`
-   * 
+   * &#x200B;
      [!UICONTROL Chart type]: **Column**
 
 * **Nieuwe klanten door coupon/niet-coupon verwerving**
@@ -205,4 +205,4 @@ Na het bouwen van de rapporten, verwijs naar het beeld bij de bovenkant van dit 
 >
 >Vanaf Adobe Commerce 2.4.7, kunnen de klanten **quote_coupons** en **sales_order_coupons** lijsten gebruiken om inzicht op te krijgen hoe de klant veelvoudige coupons gebruikt.
 
-![ de relatiediagram van de Lijst voor multi-coupon analyse ](../../assets/multicoupon_relationship_tables.png)
+![&#x200B; de relatiediagram van de Lijst voor multi-coupon analyse &#x200B;](../../assets/multicoupon_relationship_tables.png)

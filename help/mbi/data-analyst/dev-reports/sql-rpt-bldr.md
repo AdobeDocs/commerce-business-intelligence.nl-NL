@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md) om SQL grafieken tot stand te brengen en uit te geven. `Standard` -gebruikers kunnen deze grafieken opnieuw rangschikken op dashboards en `Read-only` -gebruikers hebben dezelfde ervaring als met traditionele grafieken. Bovendien hebben `Read-only` -gebruikers geen toegang tot de tekst van de query.
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md) om SQL grafieken tot stand te brengen en uit te geven. `Standard` -gebruikers kunnen deze grafieken opnieuw rangschikken op dashboards en `Read-only` -gebruikers hebben dezelfde ervaring als met traditionele grafieken. Bovendien hebben `Read-only` -gebruikers geen toegang tot de tekst van de query.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
+Zie de [&#x200B; opleidingsvideo &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
 
 [!DNL SQL] (Structured Query Language) is een programmeertaal die wordt gebruikt om te communiceren met databases. In [!DNL Commerce Intelligence] wordt [!DNL SQL] gebruikt om gegevens van uw Data Warehouse te zoeken of op te halen. Bekijk de rapporten op uw dashboard - achter de schermen, wordt elk aangedreven door een [!DNL SQL] vraag.
 
 Met de [[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze transformeren in een grafiek. U kunt een rapport maken met de [!DNL SQL Report Builder] door op **[!UICONTROL Report Builder** > **[!DNL SQL Report Builder]]** te klikken.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
+Zie de [&#x200B; opleidingsvideo &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-sql-report-builder.html) om meer te leren.
 
 Met [!DNL SQL Report Builder] kunt u rechtstreeks query&#39;s uitvoeren op uw Data Warehouse, de resultaten bekijken en deze snel omzetten in een grafiek. Het beste deel over het gebruiken van [!DNL SQL] om rapporten te bouwen is dat u niet op updatecycli hoeft te wachten om op kolommen te herhalen u creeert. Als de resultaten niet goed lijken, kunt u de vraag snel uitgeven en opnieuw uitvoeren tot de dingen uw verwachtingen aanpassen.
 
@@ -47,7 +47,7 @@ Als u een [!DNL SQL] -rapport wilt gaan maken, klikt u op **[!UICONTROL Report B
 
 ## Aan de slag
 
-Om een rapport uit te geven, klik het tandwielpictogram (![ het pictogram van het Gear ](../../assets/gear-icon.png)) in de hoger-juiste hoek van a [!DNL SQL] - gebaseerde grafiek en klik **[!UICONTROL Edit]**.
+Om een rapport uit te geven, klik het tandwielpictogram (![&#x200B; het pictogram van het Gear &#x200B;](../../assets/gear-icon.png)) in de hoger-juiste hoek van a [!DNL SQL] - gebaseerde grafiek en klik **[!UICONTROL Edit]**.
 
 ## Een query schrijven {#writing}
 
@@ -55,7 +55,7 @@ Om een rapport uit te geven, klik het tandwielpictogram (![ het pictogram van he
 >
 >[!DNL SQL Report Builder] -query&#39;s zijn hoofdlettergevoelig. Zorg ervoor u het correcte geval gebruikt wanneer het schrijven van vragen of u kon met onverwachte resultaten of fouten opwinden.
 
-Na de [ richtlijnen voor vraagoptimalisering ](../../best-practices/optimizing-your-sql-queries.md), schrijf een vraag in de [!DNL SQL] redacteur.
+Na de [&#x200B; richtlijnen voor vraagoptimalisering &#x200B;](../../best-practices/optimizing-your-sql-queries.md), schrijf een vraag in de [!DNL SQL] redacteur.
 
 >[!IMPORTANT]
 >
@@ -67,11 +67,11 @@ Met de knoppen boven aan het zijpaneel kunt u schakelen tussen lijsten met tabel
 
 U kunt de zijbalk in de [!DNL SQL] -editor ook gebruiken om metriek, tabellen en kolommen rechtstreeks in uw query&#39;s in te voegen door de cursor boven de tekst te plaatsen en op **[!UICONTROL Insert]** te klikken:
 
-![ Invoegend een lijst in de [!DNL SQL] redacteur.](../../assets/SQL_RB_Insert_Table.png)
+![&#x200B; Invoegend een lijst in de [!DNL SQL] redacteur.](../../assets/SQL_RB_Insert_Table.png)
 
 >[!NOTE]
 >
->Om het even welke [ UITGEZOCHTE functie ](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), of om het even welke functie die geen gegevens muteert, die door PostSQL wordt gesteund wordt gesteund in SQL Report Builder. Dit omvat, maar is niet beperkt tot, AVG, COUNT, COUNT DISTINCT, MIN/MAX en SUM.
+>Om het even welke [&#x200B; UITGEZOCHTE functie &#x200B;](https://www.postgresql.org/docs/9.5/sql-select.html#SQL-SELECT-LIST), of om het even welke functie die geen gegevens muteert, die door PostSQL wordt gesteund wordt gesteund in SQL Report Builder. Dit omvat, maar is niet beperkt tot, AVG, COUNT, COUNT DISTINCT, MIN/MAX en SUM.
 
 Elk `JOIN` -type wordt ook ondersteund, maar Adobe raadt u alleen aan INNER JOIN te gebruiken omdat dit het goedkoopst is voor de `JOIN` -typen.
 
@@ -79,11 +79,11 @@ Elk `JOIN` -type wordt ook ondersteund, maar Adobe raadt u alleen aan INNER JOIN
 
 Klik op **[!UICONTROL Run Query]** als u klaar bent met het schrijven van de query. De resultaten worden weergegeven in een tabel onder de SQL-editor:
 
-![ in werking stellend de vraag en het bekijken resultaten.](../../assets/SQL_Run_Query.gif)
+![&#x200B; in werking stellend de vraag en het bekijken resultaten.](../../assets/SQL_Run_Query.gif)
 
 Als er iets mis lijkt in de resultaten, kunt u de query bewerken en opnieuw uitvoeren totdat u tevreden bent.
 
-U zou soms [ berichten onder de redacteur met EXPLAIN in hen ](../../best-practices/optimizing-your-sql-queries.md) kunnen zien. Als u één van deze ziet, betekent dat dat uw vraag niet heeft gelopen en een beetje van fijnafstemmen nodig heeft.
+U zou soms [&#x200B; berichten onder de redacteur met EXPLAIN in hen &#x200B;](../../best-practices/optimizing-your-sql-queries.md) kunnen zien. Als u één van deze ziet, betekent dat dat uw vraag niet heeft gelopen en een beetje van fijnafstemmen nodig heeft.
 
 Nadat u klaar bent met het bewerken van uw query, kunt u overschakelen op het maken van een visualisatie of het opslaan van uw werk op een dashboard.
 
@@ -97,23 +97,23 @@ Als u een visualisatie wilt maken met de resultaten van de query, klikt u op de 
 
 Hieronder volgt een kort overzicht van hoe het visualisatieproces eruitziet:
 
-![ Geanimeerde demonstratie van SQL Report Builder visualisatieoverzicht ](../../assets/SQL_RB_viz_overview.gif)
+![&#x200B; Geanimeerde demonstratie van SQL Report Builder visualisatieoverzicht &#x200B;](../../assets/SQL_RB_viz_overview.gif)
 
-Voor een gedetailleerde looppas-door van hoe te om een visualisatie tot stand te brengen, verwijs naar [ Creërend visualisaties van SQL vragen leerprogramma ](../../tutorials/create-visuals-from-sql.md){: target="_blank"}.
+Voor een gedetailleerde looppas-door van hoe te om een visualisatie tot stand te brengen, verwijs naar [&#x200B; Creërend visualisaties van SQL vragen leerprogramma &#x200B;](../../tutorials/create-visuals-from-sql.md){: target="_blank"}.
 
 ## Het rapport opslaan {#save}
 
-Voordat u uw werk kunt opslaan, moet u het rapport een naam geven. Herinner me om de [ beste praktijkrichtlijnen voor het noemen ](../../best-practices/naming-elements.md){: target="_blank"} te volgen en iets te kiezen dat duidelijk overbrengt wat het rapport is!
+Voordat u uw werk kunt opslaan, moet u het rapport een naam geven. Herinner me om de [&#x200B; beste praktijkrichtlijnen voor het noemen &#x200B;](../../best-practices/naming-elements.md){: target="_blank"} te volgen en iets te kiezen dat duidelijk overbrengt wat het rapport is!
 
 Klik op **[!UICONTROL Save]** in de rechterbovenhoek van de [!DNL SQL] -editor en selecteer het rapport `Type` ( `Chart` of `Table`). Als u de tekst wilt laten omlopen, selecteert u het dashboard waarin u het rapport wilt opslaan en klikt u op **[!UICONTROL Save to Dashboard]** .
 
-![ Geanimeerde demonstratie van het bewaren van een SQL- rapport aan dashboard ](../../assets/SQL_Save_Report.gif)
+![&#x200B; Geanimeerde demonstratie van het bewaren van een SQL- rapport aan dashboard &#x200B;](../../assets/SQL_Save_Report.gif)
 
 ### Uw gegevens analyseren
 
 #### [!DNL SQL Report Builder]
 
-[[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) geeft u de macht om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een rapport. Het gebruiken van [!DNL SQL] staat u [ ook toe om  [!DNL SQL]  functies te gebruiken die niet beschikbaar ](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in `Visual` of `Cohort` de Bouwers van het Rapport zijn, waarbij u grotere controle over uw gegevens geeft.
+[[!DNL SQL Report Builder]](../dev-reports/sql-rpt-bldr.md) geeft u de macht om uw Data Warehouse direct te vragen, de resultaten te bekijken, en hen snel om te zetten in een rapport. Het gebruiken van [!DNL SQL] staat u [&#x200B; ook toe om  [!DNL SQL]  functies te gebruiken die niet beschikbaar &#x200B;](https://docs.aws.amazon.com/redshift/latest/dg/c_SQL_functions.html) in `Visual` of `Cohort` de Bouwers van het Rapport zijn, waarbij u grotere controle over uw gegevens geeft.
 
 Berekende kolommen die zijn gemaakt met [!DNL SQL] zijn niet afhankelijk van updatecycli. Dit betekent dat u deze kolommen kunt doorlopen zoals u wilt en de resultaten direct kunt zien.
 
@@ -133,7 +133,7 @@ Berekende kolommen die zijn gemaakt met [!DNL SQL] zijn niet afhankelijk van upd
 
 Meestal kunnen verschillen in resultaten worden toegeschreven aan updatecycli. Als [!DNL Commerce Intelligence] bezig is met het repliceren van gegevens van uw database naar uw Data Warehouse, ziet u mogelijk verschillende resultaten, zelfs als u dezelfde query gebruikt.
 
-Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [ moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
+Verbindingsproblemen kunnen ook tot discrepanties leiden. Navigeer naar de pagina `Connections` door op **[!DNL Manage Data** > **Connections]** te klikken om de pagina uit te checken. Is er een fout opgetreden voor de databaseintegratie in kwestie? Als zo, kunt u de integratie [&#x200B; moeten opnieuw voor authentiek verklaren om dingen te krijgen die opnieuw lopen.](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html)
 
 Als al uw integraties met succes worden verbonden en u niet in het midden van een updatecyclus bent, kan iets anders misleidend zijn.
 
@@ -148,7 +148,7 @@ Kolommen die zijn gemaakt met [!DNL SQL Report Builder] , worden niet opgeslagen
 
 #### `Report Builder` versus `SQL Report Builder`
 
-[!DNL SQL Report Builder] geeft u meer flexibiliteit bij het maken en structureren van uw grafieken. U kunt bijvoorbeeld selecteren welke waarden op de `X` - en `Y` -as moeten worden weergegeven. Voor meer informatie bij het creëren van grafieken in [!DNL SQL Report Builder], controleer [ Creërend visualisaties van  [!DNL SQL]  vragen ](../../tutorials/create-visuals-from-sql.md) leerprogramma.
+[!DNL SQL Report Builder] geeft u meer flexibiliteit bij het maken en structureren van uw grafieken. U kunt bijvoorbeeld selecteren welke waarden op de `X` - en `Y` -as moeten worden weergegeven. Voor meer informatie bij het creëren van grafieken in [!DNL SQL Report Builder], controleer [&#x200B; Creërend visualisaties van  [!DNL SQL]  vragen &#x200B;](../../tutorials/create-visuals-from-sql.md) leerprogramma.
 
 #### `Cohort Report Builder` {#cohortrb}
 
@@ -157,7 +157,7 @@ In tegenstelling tot de [!DNL Visual Report Builder] is de [[!DNL Cohort Report 
 | **dit is perfect voor...** | **dit is niet zo groot voor...** |
 |---|---|
 | Tussentijdse/gevorderde analisten | Beginners - u hebt praktische cohorten nodig. |
-| Gedragstrends in de loop der tijd identificeren | Kwalitatieve analyse - het kan [ worden gedaan ](../dev-reports/create-qual-cohort-analysis.md), maar vereist de hulp van Adobe. |
+| Gedragstrends in de loop der tijd identificeren | Kwalitatieve analyse - het kan [&#x200B; worden gedaan &#x200B;](../dev-reports/create-qual-cohort-analysis.md), maar vereist de hulp van Adobe. |
 
 ## Vragen opnieuw samenstellen na de updatecyclus
 
@@ -173,4 +173,4 @@ U hoeft uw query&#39;s niet opnieuw samen te stellen. Rapporten die zijn gemaakt
 
 ## Omloop {#wrapup}
 
-Als u iets een beetje uitdagender wilt proberen, waarom probeert niet het schrijven van een vraag die voor visualisatie wordt geoptimaliseerd? Controle uit [ Creërend visualisaties van  [!DNL SQL]  vragen leerprogramma ](../../tutorials/create-visuals-from-sql.md){: target="_blank"} om begonnen te worden.
+Als u iets een beetje uitdagender wilt proberen, waarom probeert niet het schrijven van een vraag die voor visualisatie wordt geoptimaliseerd? Controle uit [&#x200B; Creërend visualisaties van  [!DNL SQL]  vragen leerprogramma &#x200B;](../../tutorials/create-visuals-from-sql.md){: target="_blank"} om begonnen te worden.

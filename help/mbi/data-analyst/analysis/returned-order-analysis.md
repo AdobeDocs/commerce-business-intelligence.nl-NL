@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Dit onderwerp toont aan hoe te opstelling een dashboard dat een gedetailleerde analyse van de terugkeer van uw opslag verstrekt.
 
-![ Gedetailleerde terugkeerdashboard die terugkeertarieven en redenen tonen ](../../assets/detailed-returns-dboard.png)
+![&#x200B; Gedetailleerde terugkeerdashboard die terugkeertarieven en redenen tonen &#x200B;](../../assets/detailed-returns-dboard.png)
 
-Alvorens begonnen te worden, moet u een [ Adobe Commerce ](https://business.adobe.com/products/magento/magento-commerce.html) klant zijn en zou moeten ervoor zorgen dat uw bedrijf de `enterprise\_rma` lijst voor terugkeer gebruikt.
+Alvorens begonnen te worden, moet u een [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html) klant zijn en zou moeten ervoor zorgen dat uw bedrijf de `enterprise\_rma` lijst voor terugkeer gebruikt.
 
-Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Aan de slag
 
@@ -61,9 +61,9 @@ Te maken kolommen
 * **`Order's created at`**
 * Selecteer een definitie: `Joined Column`
 * [!UICONTROL Create Path]:
-* 
+* &#x200B;
   [!UICONTROL Many]: `enterprise_rma.order_id`
-* 
+* &#x200B;
   [!UICONTROL One]: `sales_flat_order.entity_id`
 
 * Selecteer een [!UICONTROL table]: `sales_flat_order`
@@ -82,9 +82,9 @@ Te maken kolommen
 * **`return_date_requested`**
 * Selecteer een definitie: `Joined Column`
 * [!UICONTROL Create Path]:
-   * 
+   * &#x200B;
      [!UICONTROL Many]: `enterprise_rma_item_entity.rma_entity_id`
-   * 
+   * &#x200B;
      [!UICONTROL One]: `enterprise_rma.entity_id`
 
 * Selecteer een [!UICONTROL table]: `enterprise_rma`
@@ -138,7 +138,7 @@ Te maken kolommen
 
 >[!NOTE]
 >
->Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
+>Zorg ervoor om [&#x200B; alle nieuwe kolommen als afmetingen aan metriek &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ### Rapporten
 
@@ -157,14 +157,14 @@ Te maken kolommen
 
 * Formule: waarschijnlijkheid van herhalingsvolgorde
 * [!UICONTROL Formula]: `B / A`
-* 
+* &#x200B;
   [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Customer's order number`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Bar`
 
 * **Gem tijd om terug te keren (allen tijd)**
@@ -172,9 +172,9 @@ Te maken kolommen
 * [!UICONTROL Metric]: `Avg time between order and return`
 
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Number`
 
 * **Percentage van orden met een terugkeer**
@@ -188,11 +188,11 @@ Te maken kolommen
 
 * Formule: % van bestellingen met rendement
 * [!UICONTROL Formula]: `B / A`
-* 
+* &#x200B;
   [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Chart Type]: `Number - % of orders with return`
 
@@ -202,7 +202,7 @@ Te maken kolommen
 
 * [!UICONTROL Time period]: `All time`
 * [!UICONTROL Interval]: `By month`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 * **Klanten die een terugkeer hebben gemaakt en niet opnieuw aangekocht**
@@ -213,11 +213,11 @@ Te maken kolommen
    * `Is customer's last order? (1=yes/0=no) = 1`
 
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Group door]: `Customer_email`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Table`
 
 * **tarief van de terugkeer door punt**
@@ -230,16 +230,16 @@ Te maken kolommen
 
 * [!UICONTROL Formula]: `Return %`
 * [!UICONTROL Formula]: `B / A`
-* 
+* &#x200B;
   [!UICONTROL Format]: `Percentage`
 
 * [!UICONTROL Time period]: `All time`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `product_sku AND/OR product_name`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Table`
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse of het Professionele team van de Diensten in dienst wilt nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse of het Professionele team van de Diensten in dienst wilt nemen, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html).

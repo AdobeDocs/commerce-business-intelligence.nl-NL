@@ -21,9 +21,9 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat de prestaties van uw gra
 
 Voordat je aan de slag gaat, wil je twee verschillende tijdsperioden identificeren waarbij je verschillende waarden hebt voor de drempel voor gratis verzending in je winkel.
 
-![ Grafiek die vrije het verschepen drempelanalyse en de distributie van de ordewaarde tonen ](../../assets/free_shipping_threshold.png)
+![&#x200B; Grafiek die vrije het verschepen drempelanalyse en de distributie van de ordewaarde tonen &#x200B;](../../assets/free_shipping_threshold.png)
 
-Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Berekende kolommen
 
@@ -57,7 +57,7 @@ Geen nieuwe metriek!!!
 
 >[!NOTE]
 >
->Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
+>Zorg ervoor om [&#x200B; alle nieuwe kolommen als afmetingen aan metriek &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ## Rapporten
 
@@ -66,9 +66,9 @@ Geen nieuwe metriek!!!
 
 * Metrisch `A`: `Average Order Value`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Scalar`
 
 * **Aantal orden door subtotaal emmers met het verschepen regel A**
@@ -80,53 +80,53 @@ Geen nieuwe metriek!!!
 
 * Metrisch `A`: `Number of orders`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Order subtotal (buckets)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Column`
 
 * **Percentage van orden door subtotaal met het verschepen regel A**
    * [!UICONTROL Metric]: `Number of orders`
 
    * [!UICONTROL Metric]: `Number of orders`
-   * 
+   * &#x200B;
      [!UICONTROL Group door]: `Independent`
    * [!UICONTROL Formula]: `(A / B)`
-   * 
+   * &#x200B;
      [!UICONTROL Format]: `%`
 
 * Metrisch `A`: `Number of orders by subtotal (hide)`
 * Metrisch `B`: `Total number of orders (hide)`
 * [!UICONTROL Formula]: `% of orders`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Order subtotal (buckets)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 * **Percentage van orden met subtotaal die scheepvaartregel A overschrijden**
    * [!UICONTROL Metric]: `Number of orders`
-   * 
+   * &#x200B;
      [!UICONTROL Perspective]: `Cumulative`
 
    * [!UICONTROL Metric]: `Number of orders`
-   * 
+   * &#x200B;
      [!UICONTROL Group door]: `Independent`
 
    * [!UICONTROL Formula]: `1- (A / B)`
-   * 
+   * &#x200B;
      [!UICONTROL Format]: `%`
 
 * Metrisch `A`: `Number of orders by subtotal`
 * Metrisch `B`: `Total number of orders (hide)`
 * [!UICONTROL Formula]: `% of orders`
 * [!UICONTROL Time period]: `Time period with shipping rule A`
-* 
+* &#x200B;
   [!UICONTROL Interval]: `None`
 * [!UICONTROL Group by]: `Order subtotal (buckets)`
-* 
+* &#x200B;
   [!UICONTROL Chart Type]: `Line`
 
 

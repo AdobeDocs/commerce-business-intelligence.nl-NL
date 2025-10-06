@@ -19,14 +19,14 @@ Wanneer [!DNL Adobe Commerce Intelligence] voor het eerst verbinding maakt met u
 
 1. Ga naar de `Segmentation` -sectie en bekijk `Your Top Events` .
 
-   ![ Mixpanel dashboard die uw hoogste gebeurtenissen tonen ](../../../assets/your-top-events.png)
+   ![&#x200B; Mixpanel dashboard die uw hoogste gebeurtenissen tonen &#x200B;](../../../assets/your-top-events.png)
 
 1. `Past 96 Hours` selecteren voor het tijdbereik
 
-   ![ de bereikselecteur van de het tijdwaaier van het Mixpanel die voorbij 96 uuroptie toont ](../../../assets/past-96-hours.png)
+   ![&#x200B; de bereikselecteur van de het tijdwaaier van het Mixpanel die voorbij 96 uuroptie toont &#x200B;](../../../assets/past-96-hours.png)
 
 1. Blader naar het gedeelte rechtsonder in het rapport en exporteer een `.csv` -bestand:
 
-   ![ de uitvoer van het Mixpanel naar optie CSV in menu ](../../../assets/export-csv-mixpanel.png)
+   ![&#x200B; de uitvoer van het Mixpanel naar optie CSV in menu &#x200B;](../../../assets/export-csv-mixpanel.png)
 
 1. Verzend het `.csv` -bestand naar de accountmanager of analist waarmee u werkt aan dit validatieproces.

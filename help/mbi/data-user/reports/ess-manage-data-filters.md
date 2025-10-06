@@ -15,15 +15,15 @@ ht-degree: 0%
 
 Als u meerdere metriek in [!DNL Commerce Intelligence] hebt die op een vergelijkbare manier moeten worden gefilterd (bijvoorbeeld testopdrachten uitfilteren), kunt u opgeslagen filtersets maken en deze op de metriek toepassen. Hierdoor bespaart u tijd, omdat u geen afzonderlijke filters hoeft toe te voegen wanneer u een metrisch object maakt of bewerkt.
 
-Zie de [ opleidingsvideo ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html) voor meer informatie.
+Zie de [&#x200B; opleidingsvideo &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-training-video-filter-sets.html) voor meer informatie.
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md).
 
 1. Klik op **[!DNL Manage Data** > **Filter Sets]** in de zijbalk.
 
-   ![ creeer filterreeksen interface met toevoegen filterplaatoptie ](../../assets/create-filter-sets.png)
+   ![&#x200B; creeer filterreeksen interface met toevoegen filterplaatoptie &#x200B;](../../assets/create-filter-sets.png)
 
 1. Klik op **[!UICONTROL Add Filter Set]** boven aan de pagina.
 
