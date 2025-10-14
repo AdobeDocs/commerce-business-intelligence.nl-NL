@@ -19,13 +19,13 @@ Veel factoren kunnen een reeds lange updatetijd vergroten. Bepaalde replicatieme
 
 ## Frequentie voor opnieuw controleren verlagen
 
-In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld, in een **orde** lijst zou er een kolom kunnen zijn genoemd **status**. Wanneer een volgorde voor het eerst naar de database wordt geschreven, bevat de statuskolom mogelijk de waarde `pending` . De orde wordt herhaald in uw [ Data Warehouse ](../data-analyst/data-warehouse-mgr/tour-dwm.md) met deze `pending` waarde.
+In een gegevensbestandlijst, kunnen er gegevenskolommen met veranderlijke waarden zijn. Bijvoorbeeld, in een **orde** lijst zou er een kolom kunnen zijn genoemd **status**. Wanneer een volgorde voor het eerst naar de database wordt geschreven, bevat de statuskolom mogelijk de waarde `pending` . De orde wordt herhaald in uw [&#x200B; Data Warehouse &#x200B;](../data-analyst/data-warehouse-mgr/tour-dwm.md) met deze `pending` waarde.
 
-De veranderlijke kolommen moeten [ opnieuw gecontroleerd voor bijgewerkte waarden ](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) in tijd zijn. [!DNL Commerce Intelligence] controleert deze kolommen standaard opnieuw tijdens elke update, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en gerepliceerd, kan dit een negatief effect hebben op de updatetijd. In plaats van tijdens elke update opnieuw te controleren, raadt Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
+De veranderlijke kolommen moeten [&#x200B; opnieuw gecontroleerd voor bijgewerkte waarden &#x200B;](../data-analyst/data-warehouse-mgr/cfg-data-rechecks.md) in tijd zijn. [!DNL Commerce Intelligence] controleert deze kolommen standaard opnieuw tijdens elke update, maar als er een grote hoeveelheid gegevens is die opnieuw moet worden gecontroleerd en gerepliceerd, kan dit een negatief effect hebben op de updatetijd. In plaats van tijdens elke update opnieuw te controleren, raadt Adobe aan de frequentie voor het opnieuw controleren in te stellen op dagelijks, wekelijks of maandelijks.
 
 ## Methoden voor incrementele replicatie gebruiken
 
-Zoals hierboven vermeld, zijn lange updatetijden rechtstreeks gecorreleerd aan hoeveel gegevens opnieuw moeten worden gecontroleerd en worden gerepliceerd. [ de Incrementele replicatiemethodes ](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) kunnen de hoeveelheid gegevens zeer verminderen die tijdens de updatecyclus worden verwerkt. Indien mogelijk raadt Adobe u aan deze methoden te gebruiken of uw database te wijzigen ter ondersteuning van een incrementele methode.
+Zoals hierboven vermeld, zijn lange updatetijden rechtstreeks gecorreleerd aan hoeveel gegevens opnieuw moeten worden gecontroleerd en worden gerepliceerd. [&#x200B; de Incrementele replicatiemethodes &#x200B;](../data-analyst/data-warehouse-mgr/cfg-replication-methods.md) kunnen de hoeveelheid gegevens zeer verminderen die tijdens de updatecyclus worden verwerkt. Indien mogelijk raadt Adobe u aan deze methoden te gebruiken of uw database te wijzigen ter ondersteuning van een incrementele methode.
 
 ## Ongebruikte grafieken verwijderen uit dashboards
 
@@ -35,12 +35,12 @@ Aangezien [!DNL Commerce Intelligence] alleen cachebewerkingen uitvoert voor gra
 
 >[!NOTE]
 >
->Als u grafieken verwijdert van het dashboard, wordt het diagram niet verwijderd. U kunt [ het terug op elk ogenblik ](../data-user/dashboards/add-charts-dashboard.md) toevoegen.
+>Als u grafieken verwijdert van het dashboard, wordt het diagram niet verwijderd. U kunt [&#x200B; het terug op elk ogenblik &#x200B;](../data-user/dashboards/add-charts-dashboard.md) toevoegen.
 
 ## Uw database optimaliseren voor analyse
 
-Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en grafieknut, kunt u uw gegevensbestand voor analyse [ ook ](../best-practices/opt-db-analysis.md) optimaliseren.
+Naast het opnieuw evalueren van recheck frequenties, replicatiemethodes, en grafieknut, kunt u uw gegevensbestand voor analyse [&#x200B; ook &#x200B;](../best-practices/opt-db-analysis.md) optimaliseren.
 
 ## Omloop omhoog
 
-Als uw updatetijd nog langzaam lijkt zelfs na het uitvoeren van deze aanbevelingen, [ contacteer het steunteam ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als uw updatetijd nog langzaam lijkt zelfs na het uitvoeren van deze aanbevelingen, [&#x200B; contacteer het steunteam &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).

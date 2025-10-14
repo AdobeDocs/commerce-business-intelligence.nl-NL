@@ -17,4 +17,4 @@ Teams wijzigen? In het midden van de lente schoonmaakt u uw [!DNL Commerce Intel
 
 Voorbeeld:
 
-![ verlaten dashboard ](../../assets/Leave_Dashboard.gif)
+![&#x200B; verlaten dashboard &#x200B;](../../assets/Leave_Dashboard.gif)

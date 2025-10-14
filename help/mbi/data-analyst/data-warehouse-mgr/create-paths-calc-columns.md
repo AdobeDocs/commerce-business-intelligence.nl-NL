@@ -15,18 +15,18 @@ ht-degree: 0%
 
 ## Vernieuwen van berekende kolommen
 
-Wanneer [ het creëren van berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) in uw Data Warehouse, wordt u gevraagd om een weg te bepalen beschrijvend hoe de lijst u een kolom op creeert verwant met de lijst is u informatie van trekt. Als u een pad wilt maken, moet u twee dingen weten:
+Wanneer [&#x200B; het creëren van berekende kolommen &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) in uw Data Warehouse, wordt u gevraagd om een weg te bepalen beschrijvend hoe de lijst u een kolom op creeert verwant met de lijst is u informatie van trekt. Als u een pad wilt maken, moet u twee dingen weten:
 
 1. Hoe de lijsten in uw gegevensbestanden op elkaar betrekking hebben
 1. De primaire en buitenlandse sleutels die deze verhouding bepalen
 
-Als u deze informatie kent, kunt u gemakkelijk tot een weg leiden die de instructies in dit onderwerp volgt. U kunt een technische deskundige in uw organisatie vragen of het [ Professionele team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) contacteren.
+Als u deze informatie kent, kunt u gemakkelijk tot een weg leiden die de instructies in dit onderwerp volgt. U kunt een technische deskundige in uw organisatie vragen of het [&#x200B; Professionele team van de Diensten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) contacteren.
 
 ## Vernieuwen op tabelrelaties en toetstypen {#refresher}
 
 ### Tabelrelaties {#relationships}
 
-Dit concept wordt behandeld in het [ Begrijpen en het evalueren van de artikelen van lijstverhoudingen ](../../data-analyst/data-warehouse-mgr/table-relationships.md), maar een snelle samenvatting doet niemand pijn, niet?
+Dit concept wordt behandeld in het [&#x200B; Begrijpen en het evalueren van de artikelen van lijstverhoudingen &#x200B;](../../data-analyst/data-warehouse-mgr/table-relationships.md), maar een snelle samenvatting doet niemand pijn, niet?
 
 Tabellen kunnen op drie manieren met elkaar worden verbonden:
 
@@ -62,10 +62,10 @@ U kunt nu het pad maken.
 1. Klik in de tabellijst op de tabel waarin u de kolom wilt maken. In dit voorbeeld is dit de `customers` -tabel.
 1. Het tabelschema wordt weergegeven. Klik op **[!UICONTROL Create New Column]**.
 1. Geef uw kolom een naam, bijvoorbeeld, `Customer's orders`.
-1. Selecteer de definitie voor de kolom. Controle uit de [ Berekende Gids van de Kolom ](../data-warehouse-mgr/creating-calculated-columns.md) voor een handig bedriegblad.
+1. Selecteer de definitie voor de kolom. Controle uit de [&#x200B; Berekende Gids van de Kolom &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) voor een handig bedriegblad.
 1. Klik in het vervolgkeuzemenu [!UICONTROL Select table and column] op de optie **[!UICONTROL Create new path]** .
 
-   ![ Creërend wegen voor berekende kolommen modaal ](../../assets/Creating_Paths_modal.png)
+   ![&#x200B; Creërend wegen voor berekende kolommen modaal &#x200B;](../../assets/Creating_Paths_modal.png)
 
 1. Selecteer met behulp van de vervolgkeuzelijsten de primaire en externe toetsen voor elke tabel.
 
@@ -79,7 +79,7 @@ U kunt nu het pad maken.
 
 * **[!DNL Commerce Intelligence]kan primaire/buitenlandse zeer belangrijke verhoudingen niet raden**. U wilt geen onjuiste gegevens in uw account introduceren, dus het maken van paden moet handmatig gebeuren.
 
-* **momenteel, kunnen de wegen slechts tussen twee verschillende lijsten** worden gespecificeerd. Vormt de logica die u probeert opnieuw te maken meer dan twee tabellen? Het zou dan zin aan (1) kunnen hebben zich bij de kolommen aan een intermediaire lijst eerst, dan aan de &quot;definitieve bestemmings&quot;lijst, of (2) overleg met het [ Professionele team van de Diensten ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om de beste benadering aan uw doelstellingen te vinden.
+* **momenteel, kunnen de wegen slechts tussen twee verschillende lijsten** worden gespecificeerd. Vormt de logica die u probeert opnieuw te maken meer dan twee tabellen? Het zou dan zin aan (1) kunnen hebben zich bij de kolommen aan een intermediaire lijst eerst, dan aan de &quot;definitieve bestemmings&quot;lijst, of (2) overleg met het [&#x200B; Professionele team van de Diensten &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om de beste benadering aan uw doelstellingen te vinden.
 
 * **de kolom van A kan slechts de buitenlandse zeer belangrijke verwijzing voor ÉÉN weg tegelijkertijd zijn**. Als `order_items.order_id` bijvoorbeeld naar `orders.id` verwijst, kan `order_items.order_id` niet naar iets anders wijzen.
 
@@ -89,7 +89,7 @@ Als u geen berekende kolom kunt maken vanwege een of meer van de bovenstaande be
 
 ## Een berekend kolompad verwijderen {#delete}
 
-Een onjuist pad gemaakt in uw Data Warehouse? Of misschien doe je een beetje lentesreiniging en wil je opruimen? Als u een weg van uw rekening moet schrappen, kunt u [ een kaartje over naar Adobe steunanalisten ](../../guide-overview.md#Submitting-a-Support-Ticket) verzenden. **ben zeker om de naam van de weg te omvatten!**
+Een onjuist pad gemaakt in uw Data Warehouse? Of misschien doe je een beetje lentesreiniging en wil je opruimen? Als u een weg van uw rekening moet schrappen, kunt u [&#x200B; een kaartje over naar Adobe steunanalisten &#x200B;](../../guide-overview.md#Submitting-a-Support-Ticket) verzenden. **ben zeker om de naam van de weg te omvatten!**
 
 ## Omloop {#wrapup}
 
@@ -99,4 +99,4 @@ Nu kunt u op een comfortabele manier paden maken voor berekende kolommen in uw D
 
 * [Tabelrelaties begrijpen en evalueren](../data-warehouse-mgr/table-relationships.md)
 * [Paden maken voor berekende kolommen](../data-warehouse-mgr/create-paths-calc-columns.md)
-* [ Berekende de Types van Kolom ](../data-warehouse-mgr/calc-column-types.md) proberen om tot stand te brengen.
+* [&#x200B; Berekende de Types van Kolom &#x200B;](../data-warehouse-mgr/calc-column-types.md) proberen om tot stand te brengen.

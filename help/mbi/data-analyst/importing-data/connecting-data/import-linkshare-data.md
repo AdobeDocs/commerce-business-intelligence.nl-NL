@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Als u uw [!DNL Linkshare] gegevens wilt overbrengen naar [!DNL Adobe Commerce Intelligence] , moet u twee dingen doen:
 
-1. [De gegevens van Linksys uitvoeren in ](#export)
+1. [De gegevens van Linksys uitvoeren in &#x200B;](#export)
 1. [De spreadsheet uploaden naar  [!DNL Commerce Intelligence]](../connecting-data/using-file-uploader.md)
 
 ## Gegevens exporteren uit Linkshare {#export}
@@ -32,7 +32,7 @@ Als u uw [!DNL Linkshare] gegevens wilt overbrengen naar [!DNL Adobe Commerce In
 
 1. Selecteer onder `Data Type` de optie `Transaction Date` .
 
-   ![ het invoeren \_linkshare\_data.png ](../../../assets/importing_linkshare_data.png)
+   ![&#x200B; het invoeren \_linkshare\_data.png &#x200B;](../../../assets/importing_linkshare_data.png)
 
 1. Klik op **[!UICONTROL View Report]**.
 
@@ -40,4 +40,4 @@ Als u uw [!DNL Linkshare] gegevens wilt overbrengen naar [!DNL Adobe Commerce In
 
    Op dit punt wordt een `.csv` -bestand gedownload.
 
-Nadat het dossier wordt gedownload, kunt u het aan [!DNL Commerce Intelligence] uploaden gebruikend de [`File Upload` eigenschap ](../connecting-data/using-file-uploader.md).
+Nadat het dossier wordt gedownload, kunt u het aan [!DNL Commerce Intelligence] uploaden gebruikend de [`File Upload` eigenschap &#x200B;](../connecting-data/using-file-uploader.md).

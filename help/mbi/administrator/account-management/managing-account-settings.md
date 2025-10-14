@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin.](../../administrator/user-management/user-management.md)
+>Vereist [&#x200B; toestemmingen Admin.](../../administrator/user-management/user-management.md)
 
 In uw [!DNL Commerce Intelligence] -account kunt u uw accountinstellingen aanpassen voor uw Data Warehouse. U kunt deze openen door de naam van uw organisatie te selecteren in de rechterbovenhoek van een scherm en vervolgens **[!UICONTROL Account Settings]** te kiezen in het vervolgkeuzemenu.
 

@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # Geavanceerde berekende kolomtypen
 
-Vele analyses u zouden kunnen willen tot stand brengen impliceren het gebruik van a **nieuwe kolom** die u `group by` of `filter by` wilt. Het [ Creëren Berekende Kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) leerprogramma behandelt de grondbeginselen voor de meeste gebruiksgevallen, maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van Data Warehouse kan tot stand brengen.
+Vele analyses u zouden kunnen willen tot stand brengen impliceren het gebruik van a **nieuwe kolom** die u `group by` of `filter by` wilt. Het [&#x200B; Creëren Berekende Kolommen &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) leerprogramma behandelt de grondbeginselen voor de meeste gebruiksgevallen, maar u kunt berekende kolom willen die een beetje complexer is dan wat de Manager van Data Warehouse kan tot stand brengen.
 {: #top}
 
 Deze typen kolommen kunnen worden gemaakt door het Adobe-team van Data Warehouse-analisten. Als u een nieuwe berekende kolom wilt definiëren, geeft u ons de volgende informatie:
@@ -51,7 +51,7 @@ Een kolom met het berekende gebeurtenisaantal kan worden gebruikt om verschillen
 
 Wilt u de kolom met het ordernummer van de klant in actie zien? Klik het beeld om het als Groep door dimensie in een rapport te zien worden gebruikt.
 
-![ Gebruikend een gebeurtenisaantal berekende kolom aan Groep door het de ordeaantal van de klant.](../../assets/EventNumber.gif)<!--{: style="max-width: 500px;"}-->
+![&#x200B; Gebruikend een gebeurtenisaantal berekende kolom aan Groep door het de ordeaantal van de klant.](../../assets/EventNumber.gif)<!--{: style="max-width: 500px;"}-->
 
 Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
@@ -76,7 +76,7 @@ Hier volgt een voorbeeld:
 
 Een kolom voor het berekende datumverschil kan worden gebruikt om een metrische waarde te maken die de gemiddelde of mediane tijd tussen twee gebeurtenissen berekent. Klik op de onderstaande afbeelding om uit te zoeken hoe de `Average time to first order` -metrische waarde wordt gebruikt in een rapport.
 
-![ Gebruikend een kolom van het datumverschil berekende om Gemiddelde tijd aan eerste orde te berekenen.](../../assets/DateDifference.gif)<!--{: style="max-width: 500px;"}-->
+![&#x200B; Gebruikend een kolom van het datumverschil berekende om Gemiddelde tijd aan eerste orde te berekenen.](../../assets/DateDifference.gif)<!--{: style="max-width: 500px;"}-->
 
 Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
@@ -103,7 +103,7 @@ Hier volgt een voorbeeld:
 
 Een opeenvolgende gebeurtenisvergelijking kan worden gebruikt om de gemiddelde of mediane tijd tussen elke opeenvolgende gebeurtenis te vinden. Klik het beeld hieronder om **Gemiddelde en Mediane tijd tussen orden** metriek in actie te zien.
 
-= ![ Gebruikend een opeenvolgende gebeurtenisvergelijking berekende kolom om Gemiddelde en Mediane tijd tussen orden te berekenen.](../../assets/SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
+= ![&#x200B; Gebruikend een opeenvolgende gebeurtenisvergelijking berekende kolom om Gemiddelde en Mediane tijd tussen orden te berekenen.](../../assets/SeqEventComp.gif)<!--{: style="max-width: 500px;"}-->
 
 Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
@@ -161,7 +161,7 @@ Om dit type van berekende kolom tot stand te brengen, moet u weten:
 
 Geen zorgen. Dat het hier niet voorkomt, betekent niet dat het niet mogelijk is. Het Adobe-team van Data Warehouse-analisten kan u helpen.
 
-Om een nieuwe berekende kolom te bepalen, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) met details over precies wat u zou willen bouwen.
+Om een nieuwe berekende kolom te bepalen, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) met details over precies wat u zou willen bouwen.
 
 ## Gerelateerde documentatie
 

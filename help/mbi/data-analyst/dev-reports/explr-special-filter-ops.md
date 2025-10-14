@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Filteropties
 
-Dit onderwerp verkent een paar speciale `operators` die in `filters` worden gebruikt wanneer [ creërend een rapport ](../../tutorials/using-visual-report-builder.md){: target="_blank"} of [ creërend metrisch ](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"}.
+Dit onderwerp verkent een paar speciale `operators` die in `filters` worden gebruikt wanneer [&#x200B; creërend een rapport &#x200B;](../../tutorials/using-visual-report-builder.md){: target="_blank"} of [&#x200B; creërend metrisch &#x200B;](../../data-user/reports/ess-manage-data-metrics.md){: target="_blank"}.
 
 ## `Filter Operators`
 

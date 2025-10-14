@@ -15,7 +15,7 @@ ht-degree: 0%
 
 In de `sales_order` -tabel (`sales_flat_order` op M1) wordt elke volgorde vastgelegd. Doorgaans vertegenwoordigt elke rij één unieke volgorde, hoewel er aangepaste implementaties van Commerce zijn die resulteren in het splitsen van een volgorde in afzonderlijke rijen.
 
-Deze lijst omvat alle klantenorden, of die orde door gastcontrole werd verwerkt. Als uw opslag gastcontrole goedkeurt, kunt u meer informatie over dit [ gebruiksgeval ](../data-warehouse-mgr/guest-orders.md) vinden.
+Deze lijst omvat alle klantenorden, of die orde door gastcontrole werd verwerkt. Als uw opslag gastcontrole goedkeurt, kunt u meer informatie over dit [&#x200B; gebruiksgeval &#x200B;](../data-warehouse-mgr/guest-orders.md) vinden.
 
 ## Algemene kolommen
 

@@ -25,4 +25,4 @@ Dit is nu uw nieuwe standaarddashboard.
 
 Voorbeeld:
 
-![ standaarddashboard ](../../assets/default_dashboard.gif)
+![&#x200B; standaarddashboard &#x200B;](../../assets/default_dashboard.gif)

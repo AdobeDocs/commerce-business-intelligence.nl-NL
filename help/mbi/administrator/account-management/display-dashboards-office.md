@@ -23,6 +23,6 @@ Hier volgt de aanbevolen lijst met zaken die u nodig hebt voor de optie:
 
 1. **het toetsenbord en de muis van USB** om uw dongle te controleren.
 
-1. **browser uitbreiding van A om tussen verscheidene lusjes in één keer te roteren.** Hiermee kunt u geselecteerde dashboards instellen die u op een uniek tabblad weergeeft. Adobe adviseert de [ uitbreiding van de Lusjes van de Draaiaar ](https://chrome.google.com/webstore/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda?hl=en) als u [!DNL Chrome] gebruikt.
+1. **browser uitbreiding van A om tussen verscheidene lusjes in één keer te roteren.** Hiermee kunt u geselecteerde dashboards instellen die u op een uniek tabblad weergeeft. Adobe adviseert de [&#x200B; uitbreiding van de Lusjes van de Draaiaar &#x200B;](https://chrome.google.com/webstore/detail/revolver-tabs/dlknooajieciikpedpldejhhijacnbda?hl=en) als u [!DNL Chrome] gebruikt.
 
 Als u de bovenstaande hardware hebt, kunt u een browservenster op uw scherm openen met een specifiek dashboard dat u op elk tabblad wilt weergeven. Tot slot vorm uw browser om door elk dashboard bij de gewenste frequentie te roteren.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Toegang beperken
 
-Wanneer u een tunnel van SSH aan uw server creeert, is er geen behoefte aan [!DNL Adobe Commerce Intelligence] toegang tot om het even wat behalve het gegevensbestand te hebben. Als u niet [!DNL Commerce Intelligence] volledige toegang tot de server wilt hebben die uw gegevensbestand opneemt, kunt u toegang beperken door de [!DNL Commerce Intelligence Linux] gebruiker in a [ beperkte bash shell ](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html) te dwingen.
+Wanneer u een tunnel van SSH aan uw server creeert, is er geen behoefte aan [!DNL Adobe Commerce Intelligence] toegang tot om het even wat behalve het gegevensbestand te hebben. Als u niet [!DNL Commerce Intelligence] volledige toegang tot de server wilt hebben die uw gegevensbestand opneemt, kunt u toegang beperken door de [!DNL Commerce Intelligence Linux] gebruiker in a [&#x200B; beperkte bash shell &#x200B;](https://www.gnu.org/software/bash/manual/html_node/The-Restricted-Shell.html) te dwingen.
 
 Mogelijk hebt u de naam als uitgangspunt genomen, maar een beperkte schaal wordt gebruikt om een omgeving in te stellen die beter wordt bestuurd dan de standaardshell. Het belangrijkste aan dit type shell is dat beperkte shell gebruikers tot systeemfuncties kunnen toegang hebben of om het even welk soort wijzigingen maken.
 

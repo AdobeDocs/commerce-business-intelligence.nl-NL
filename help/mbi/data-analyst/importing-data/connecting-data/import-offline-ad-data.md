@@ -19,7 +19,7 @@ Door uw advertentieuitgavengegevens te uploaden, kunt u het investeringsrendemen
 
 De eerste stap bij het analyseren en uitgeven van gegevens is het krijgen van de gegevens. Aangezien de meeste advertentieplatforms u toestaan om rapporten uit te voeren, beveelt Adobe u aan de ruwe gegevens van uw advertentieplatform uit te voeren en het direct te uploaden aan [!DNL Commerce Intelligence] zonder enige manipulatie. U kunt bewerkingen uitvoeren op de gegevens in uw Data Warehouse, zodat het niet nodig is om uw inspanningen te verdubbelen.
 
-Nadat u de advertentie hebt geëxporteerd, gebruikt u de functie [`File Upload` ](../connecting-data/using-file-uploader.md) om de gegevens over te brengen naar uw Data Warehouse. U kunt nieuwe gegevens in de loop der tijd naar dezelfde [!DNL Commerce Intelligence] -tabel uploaden.
+Nadat u de advertentie hebt geëxporteerd, gebruikt u de functie [`File Upload` &#x200B;](../connecting-data/using-file-uploader.md) om de gegevens over te brengen naar uw Data Warehouse. U kunt nieuwe gegevens in de loop der tijd naar dezelfde [!DNL Commerce Intelligence] -tabel uploaden.
 
 ## Offline bronnen
 

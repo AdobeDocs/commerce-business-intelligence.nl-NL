@@ -23,11 +23,11 @@ De [!DNL Google Analytics] integratie is levend **&#x200B; - dit betekent dat `R
 >
 >Op 1 juli 2023 verwerken de standaard Universal Analytics-eigenschappen ([!DNL Google Analytics] 3) geen gegevens meer. U kunt uw Universal Analytics-rapporten na 1 juli 2023 bekijken. Nieuwe gegevens stromen echter alleen naar [!DNL Google Analytics] 4-eigenschappen.
 
-[!DNL Google Analytics] de integratie in [!DNL Commerce Intelligence] gebruikt [!DNL Google Analytics] [ Kern die API meldt ](https://developers.google.com/analytics/devguides/reporting/core/v3/), en steunt de volgende metriek en de afmetingen.
+[!DNL Google Analytics] de integratie in [!DNL Commerce Intelligence] gebruikt [!DNL Google Analytics] [&#x200B; Kern die API meldt &#x200B;](https://developers.google.com/analytics/devguides/reporting/core/v3/), en steunt de volgende metriek en de afmetingen.
 
 >[!NOTE]
 >
->U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Report Builder` . U kunt [ hier ](https://ga-dev-tools.google/dimensions-metrics-explorer/) controleren.
+>U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Report Builder` . U kunt [&#x200B; hier &#x200B;](https://ga-dev-tools.google/dimensions-metrics-explorer/) controleren.
 
 ## Ondersteunde metriek
 
@@ -156,12 +156,12 @@ De [!DNL Google Analytics] integratie is levend **&#x200B; - dit betekent dat `R
 
 +++Ondersteunde maateenheden en afmetingen (Google Analytics 4)
 
-[!DNL Google Analytics] integraties in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [ Gegevens API v1 (GA4) ](https://developers.google.com/analytics/devguides/reporting/data/v1).
+[!DNL Google Analytics] integraties in [!DNL Commerce Intelligence] gebruiken [!DNL Google Analytics] [&#x200B; Gegevens API v1 (GA4) &#x200B;](https://developers.google.com/analytics/devguides/reporting/data/v1).
 
 >[!NOTE]
 >
 > Commerce Intelligence ondersteunt de volgende afmetingen niet: `cohort` , `cohortNthDay` , `cohortNthMonth` en `cohortNthWeek` .
 >
->U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Visual Report Builder` . U kunt de [ afmetingen GA4 &amp; de Ontdekkingsreiziger van Metriek ](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/) controleren.
+>U voorkomt onverwachte of onzinnige resultaten door te controleren of de afmetingen die u gebruikt, compatibel zijn met een of meer maateenheden die u gebruikt in de `Visual Report Builder` . U kunt de [&#x200B; afmetingen GA4 &amp; de Ontdekkingsreiziger van Metriek &#x200B;](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/) controleren.
 
 +++

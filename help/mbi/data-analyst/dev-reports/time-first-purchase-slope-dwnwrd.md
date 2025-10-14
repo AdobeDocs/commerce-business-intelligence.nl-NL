@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Veel Adobe-klanten hebben een metrische en diagramnaam `Average time to first purchase` die de gemiddelde tijd tussen de registratiedatum van een groep gebruikers en de eerste aankoopdatum weergeven. De gegevens slinken bijna altijd naar beneden naarmate de tijd dichter bij het heden komt.
 
-![ gemiddelde tijd aan eerste orde ](../../assets/average-time-to-first-order.png)
+![&#x200B; gemiddelde tijd aan eerste orde &#x200B;](../../assets/average-time-to-first-order.png)
 
 Dit komt omdat deze nieuwere klanten nog niet de gelegenheid hebben gehad om aankopen te genereren die meer dan een maand na hun datum van toetreding zijn gedaan. Omdat gebruikers die nooit een aankoop hebben gedaan helemaal niet worden opgenomen (totdat ze wel een aankoop doen), is dit een nadeel voor nieuwere groepen klanten.
 

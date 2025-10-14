@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md).
 
 Een metrische waarde is een maat. In SQL en gegevensbestandstructuren, is metrisch als een opgeslagen vraag over een veranderlijke periode.
 
-In [!DNL Commerce Intelligence], kunt u metriek gebruiken om [ grafieken ](../../data-user/reports/ess-rpt-build-visual.md) tot stand te brengen. De metrische waarde `revenue` is bijvoorbeeld het totale aantal bestellingen. Metrisch `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
+In [!DNL Commerce Intelligence], kunt u metriek gebruiken om [&#x200B; grafieken &#x200B;](../../data-user/reports/ess-rpt-build-visual.md) tot stand te brengen. De metrische waarde `revenue` is bijvoorbeeld het totale aantal bestellingen. Metrisch `average customer revenue per order` is wat de gemiddelde klant per orde besteedt.
 
-Wanneer gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [ gefiltreerd of gesegmenteerd ](../../best-practices/segment-filter.md) door verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van klanten, gegroepeerd op geslacht. In dit geval is `average customer revenue per order` de metrische waarde en is het geslacht de groepering.
+Wanneer gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdspanne worden geanalyseerd en [&#x200B; gefiltreerd of gesegmenteerd &#x200B;](../../best-practices/segment-filter.md) door verschillende categorieën. Overweeg een analyse te maken van de gemiddelde opbrengsten van klanten, gegroepeerd op geslacht. In dit geval is `average customer revenue per order` de metrische waarde en is het geslacht de groepering.
 
 ## De metrische waarde definiëren {#define}
 
@@ -50,13 +50,13 @@ Wanneer gebruikt in rapporten, kunnen de metriek over een gespecificeerde tijdsp
 
    * Kies een kolom waarop de bewerking moet worden uitgevoerd. Als u bijvoorbeeld uw totale omzet wilt vinden, voert u een saldobewerking uit op de kolom `order total` .
 
-     Als u bestaande metrisch uitgeeft, kunt u ook [ de operationele lijst van metrische metrisch ](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in deze sectie veranderen.
+     Als u bestaande metrisch uitgeeft, kunt u ook [&#x200B; de operationele lijst van metrische metrisch &#x200B;](../../data-analyst/data-warehouse-mgr/change-metric-op-table.md) in deze sectie veranderen.
 
    * Kies een datumdimensie die kan worden gebruikt om metrisch te trenderen. Bijvoorbeeld `order date` .
 
 ## Filters toevoegen {#filters}
 
-De `Filter` sectie staat u toe om een filter tot stand te brengen of a [ bewaarde filterreeks ](../../data-user/reports/ess-manage-data-filters.md) op metrisch toe te passen.
+De `Filter` sectie staat u toe om een filter tot stand te brengen of a [&#x200B; bewaarde filterreeks &#x200B;](../../data-user/reports/ess-manage-data-filters.md) op metrisch toe te passen.
 
 Voor `average order revenue` metrisch, zou u geen testorden willen omvatten die zouden kunnen worden gedaan terwijl het opzetten van uw opslag - dit zou ons een onnauwkeurig resultaat geven. Kan een filterset toepassen om deze orders uit de gegevensset te verwijderen. Nadat het filter is gemaakt, wordt het toegepast op alle diagrammen die met deze metrische waarde zijn gemaakt.
 

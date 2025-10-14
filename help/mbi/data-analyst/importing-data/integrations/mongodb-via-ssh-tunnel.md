@@ -38,13 +38,13 @@ Laat deze pagina gedurende de zelfstudie open - u hebt deze nodig in de volgende
 
 Als u een beetje verloren bent, is hier hoe te door [!DNL Commerce Intelligence] te navigeren om de sleutel terug te winnen:
 
-![ het terugwinnen van de openbare sleutel RJMetrics ](../../../assets/MongoDB_Public_Key.gif)<!--{:.zoom}-->
+![&#x200B; het terugwinnen van de openbare sleutel RJMetrics &#x200B;](../../../assets/MongoDB_Public_Key.gif)<!--{:.zoom}-->
 
 ## Toegang tot het IP-adres van [!DNL Commerce Intelligence] toestaan {#allowlist}
 
 De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze zijn `54.88.76.97` en `34.250.211.151` , maar ze staan ook op de aanmeldingspagina van [!DNL MongoDB] :
 
-![ MBI_Allow_Access_IPs.png ](../../../assets/MBI_allow_access_IPs.png)
+![&#x200B; MBI_Allow_Access_IPs.png &#x200B;](../../../assets/MBI_allow_access_IPs.png)
 
 ## Een `Linux` gebruiker voor [!DNL Commerce Intelligence] maken {#linux}
 
@@ -78,7 +78,7 @@ Om te beëindigen creërend de gebruiker, verander de toestemmingen op de /home/
 
 ## Een [!DNL Commerce Intelligence] [!DNL MongoDB] -gebruiker maken {#mongodb}
 
-[!DNL MongoDB] de servers hebben twee looppaswijzen - [ met de &quot;auth&quot;optie ](#auth) `(mongod -- auth)` en zonder, [ die het gebrek ](#default) is. De stappen voor het maken van een [!DNL MongoDB] -gebruiker variëren afhankelijk van de modus die de server gebruikt. Controleer de modus voordat u verdergaat.
+[!DNL MongoDB] de servers hebben twee looppaswijzen - [&#x200B; met de &quot;auth&quot;optie &#x200B;](#auth) `(mongod -- auth)` en zonder, [&#x200B; die het gebrek &#x200B;](#default) is. De stappen voor het maken van een [!DNL MongoDB] -gebruiker variëren afhankelijk van de modus die de server gebruikt. Controleer de modus voordat u verdergaat.
 
 ### Als de server de optie `Auth` gebruikt: {#auth}
 
@@ -146,4 +146,4 @@ Als u klaar bent, klikt u op **[!UICONTROL Save Test]** om de installatie te vol
 
 ### Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

@@ -90,7 +90,7 @@ ht-degree: 0%
       - [Inleiding](data-analyst/importing-data/connecting-data/connecting-data.md)
       - [Gegevens van eCommerce opmaken en importeren](data-analyst/importing-data/connecting-data/format-import-ecom-data.md)
       - [Het invoeren van  [!DNL Bing Ad Spend]  Gegevens](data-analyst/importing-data/connecting-data/import-bing-ad-data.md)
-      - [ [!DNL CJ Affiliate]  (Commission Junction) marketinggegevens importeren](data-analyst/importing-data/connecting-data/import-cj-market-data.md)
+      - [&#x200B; [!DNL CJ Affiliate]  (Commission Junction) marketinggegevens importeren](data-analyst/importing-data/connecting-data/import-cj-market-data.md)
       - [Het invoeren  [!DNL Linkshare]  gegevens](data-analyst/importing-data/connecting-data/import-linkshare-data.md)
       - [Het invoeren  [!DNL MailChimp]  gegevens](data-analyst/importing-data/connecting-data/import-mailchimp-data.md)
       - [Offline/andere gegevens importeren en gegevens besteden](data-analyst/importing-data/connecting-data/import-offline-ad-data.md)

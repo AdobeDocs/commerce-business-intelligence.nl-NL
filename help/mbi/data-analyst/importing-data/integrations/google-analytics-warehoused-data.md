@@ -15,17 +15,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
 >[!NOTE]
 >
->Sommige informatie werd gebruikt met toestemming van uw vrienden op [[!DNL Stitch] ](https://www.stitchdata.com/docs/integrations/saas/google-analytics).
+>Sommige informatie werd gebruikt met toestemming van uw vrienden op [[!DNL Stitch] &#x200B;](https://www.stitchdata.com/docs/integrations/saas/google-analytics).
 
-[!DNL Google Analytics Warehoused] integratie in [!DNL Commerce Intelligence] gebruikt [!DNL Google Analytics] [ Kern die API meldt ](https://developers.google.com/analytics/devguides/reporting/core/v3/).
+[!DNL Google Analytics Warehoused] integratie in [!DNL Commerce Intelligence] gebruikt [!DNL Google Analytics] [&#x200B; Kern die API meldt &#x200B;](https://developers.google.com/analytics/devguides/reporting/core/v3/).
 
 >[!NOTE]
 >
->Om onverwachte of onzinnige resultaten te vermijden, bevestig dat om het even welke afmetingen u gebruikt [ compatibel met één of meerdere metriek ](https://ga-dev-tools.google/dimensions-metrics-explorer/) zijn u in `Report Builder` gebruikt.
+>Om onverwachte of onzinnige resultaten te vermijden, bevestig dat om het even welke afmetingen u gebruikt [&#x200B; compatibel met één of meerdere metriek &#x200B;](https://ga-dev-tools.google/dimensions-metrics-explorer/) zijn u in `Report Builder` gebruikt.
 
 Er wordt één tabel, genaamd `report`, gemaakt in uw Data Warehouse.
 

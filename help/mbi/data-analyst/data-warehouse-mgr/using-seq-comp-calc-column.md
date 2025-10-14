@@ -62,4 +62,4 @@ Om een **kolom van het Aantal van de Gebeurtenis** tot stand te brengen:
 
 1. De kolom is beschikbaar om *onmiddellijk* te gebruiken.
 
-![ SEC ](../../assets/SEC_new.png)
+![&#x200B; SEC &#x200B;](../../assets/SEC_new.png)

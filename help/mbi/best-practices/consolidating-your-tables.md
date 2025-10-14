@@ -45,7 +45,7 @@ Net als bij alle andere tabellen in uw Data Warehouse kunt u extra kolommen toev
 
 ## Een geconsolideerde tabel maken, weergeven of bijwerken
 
-Als u in het toevoegen van een geconsolideerde lijst aan uw Data Warehouse geinteresseerd bent, contacteer [!DNL Commerce Intelligence] [ steun ](../guide-overview.md#Submitting-a-Support-Ticket).
+Als u in het toevoegen van een geconsolideerde lijst aan uw Data Warehouse geinteresseerd bent, contacteer [!DNL Commerce Intelligence] [&#x200B; steun &#x200B;](../guide-overview.md#Submitting-a-Support-Ticket).
 
 >[!NOTE]
 >

@@ -23,7 +23,7 @@ Heb je je ooit afgevraagd hoe het aanbieden van coupons je je bedrijf beïnvloed
 
 ## Aanbevolen meetwaarden {#metrics}
 
-Wanneer het analyseren van coupongebruik, overweeg gebruikend ([ of bouwend ](../../data-user/reports/ess-manage-data-metrics.md)) deze metriek:
+Wanneer het analyseren van coupongebruik, overweeg gebruikend ([&#x200B; of bouwend &#x200B;](../../data-user/reports/ess-manage-data-metrics.md)) deze metriek:
 
 ### Aantal orders
 

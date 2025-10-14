@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Analytics] gegevens verwacht
 
-De [!DNL Adobe Analytics] integratie voor [!DNL Adobe Commerce Intelligence] gebruikt [ Analytics 2.0 die API ](https://developer.adobe.com/analytics-apis/docs/2.0/#!AdobeDocs/analytics-2.0-apis/master/README.md) melden.
+De [!DNL Adobe Analytics] integratie voor [!DNL Adobe Commerce Intelligence] gebruikt [&#x200B; Analytics 2.0 die API &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/#!AdobeDocs/analytics-2.0-apis/master/README.md) melden.
 
 >[!INFO]
 >
@@ -48,6 +48,6 @@ In deze sectie worden de beperkingen van de [!DNL Adobe Analytics] -integratie v
 | Beperking | Beschrijving |
 | --- | --- |
 | `Historical data period` | Net als bij andere integraties van derden, haalt de [!DNL Adobe Analytics] -integratie een beperkte hoeveelheid historische gegevens op en worden de gegevens vervolgens bijgewerkt. De historische periode wordt gevormd aan 2 weken. |
-| `Empty component combinations` | Sommige combinaties van metriek en afmetingen bevatten geen gegevens. Als een dergelijke combinatie voor replicatie wordt geselecteerd, sluit [!DNL Commerce Intelligence] de kolom van de herhaalde lijst uit. Om te vermijden selecterend zulk een combinatie, kunt u een rapport in [[!DNL Adobe Analytics]  Workspace ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL) eerst tot stand brengen om te verifiëren u de gegevens krijgt u verwacht. |
+| `Empty component combinations` | Sommige combinaties van metriek en afmetingen bevatten geen gegevens. Als een dergelijke combinatie voor replicatie wordt geselecteerd, sluit [!DNL Commerce Intelligence] de kolom van de herhaalde lijst uit. Om te vermijden selecterend zulk een combinatie, kunt u een rapport in [[!DNL Adobe Analytics]  Workspace &#x200B;](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=nl-NL) eerst tot stand brengen om te verifiëren u de gegevens krijgt u verwacht. |
 | `Re-authorization cadence` | Om de twee weken moet de [!DNL Adobe Analytics] -integratie opnieuw worden geautoriseerd. Als u opnieuw wilt autoriseren, gaat u naar de pagina Bewerken voor de integratie en klikt u op **[!UICONTROL Re-Authorize with [!DNL Adobe Analytics]]** . |
 | `One dimension per row` | [!DNL Adobe Analytics] biedt metrische gegevens voor één dimensie tegelijk. Als u tijdens de installatie meerdere afmetingen selecteert, bevat elke rij in de [!DNL Commerce Intelligence] -tabel één waarde voor de dimensie en wordt voor elke andere dimensie nul. |

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Dashboards delen met andere gebruikers
 
-Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [[!DNL Adobe]  adviseert ](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} dat u `Edit` rechten op uitgezochte enkelen verleent om toevallige veranderingen te minimaliseren.
+Het delen van dashboards is een uitstekende manier om uw team in de loop te houden en samenwerkingsbespreking aan te moedigen. Door een centraal dashboard te creëren en te delen, kunt u uw team van de informatie voorzien zij terwijl het handhaven van controle nodig hebben. [[!DNL Adobe]  adviseert &#x200B;](../../best-practices/share-dashboard-best-practice.md){: target="_blank"} dat u `Edit` rechten op uitgezochte enkelen verleent om toevallige veranderingen te minimaliseren.
 
 >[!NOTE]
 >
->Als het dashboard dat u deelt rapporten bevat die zijn gebouwd met metriek die een specifieke gebruiker geen toegang tot heeft, tonen de rapporten een `Error Loading Data` bericht. Als u de gegevens aan de specifieke gebruiker wilt verschijnen, moet een [ admin gebruiker ](../../administrator/user-management/user-management.md) toegang tot alle metriek verlenen die in die rapporten wordt gebruikt.
+>Als het dashboard dat u deelt rapporten bevat die zijn gebouwd met metriek die een specifieke gebruiker geen toegang tot heeft, tonen de rapporten een `Error Loading Data` bericht. Als u de gegevens aan de specifieke gebruiker wilt verschijnen, moet een [&#x200B; admin gebruiker &#x200B;](../../administrator/user-management/user-management.md) toegang tot alle metriek verlenen die in die rapporten wordt gebruikt.
 
 ## Een dashboard delen
 
@@ -43,4 +43,4 @@ Het delen van dashboards is een uitstekende manier om uw team in de loop te houd
 
 Voorbeeld:
 
-![ aandeel dashboard ](../../assets/Share_Dashboards.gif)
+![&#x200B; aandeel dashboard &#x200B;](../../assets/Share_Dashboards.gif)

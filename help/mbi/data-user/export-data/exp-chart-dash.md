@@ -22,6 +22,6 @@ Selecteer een van de volgende opties:
 - `Full Excel Export`
 - `Raw Export`
 
-U kunt de [ lijst en de kolommen ook bepalen u in de uitvoer ](../../tutorials/export-raw-data.md) wilt omvatten.
+U kunt de [&#x200B; lijst en de kolommen ook bepalen u in de uitvoer &#x200B;](../../tutorials/export-raw-data.md) wilt omvatten.
 
 Als u een diagram wilt opnemen in een presentatie of document, kunt u het diagram exporteren als een afbeelding in de PNG-, PDF- of SVG-indeling. Klik op het tandwielpictogram in de rechterbovenhoek van een diagram. Selecteer de optie `Enlarge` in het vervolgkeuzemenu en klik vervolgens op **[!UICONTROL Download]** om het exporteren te voltooien.

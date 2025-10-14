@@ -21,12 +21,12 @@ ht-degree: 0%
 
 ## Springen naar
 
-* [[!DNL MySQL] via ](../integrations/mysql-via-ssh-tunnel.md)
+* [[!DNL MySQL] via &#x200B;](../integrations/mysql-via-ssh-tunnel.md)
 * [[!DNL MySQL] via  [!DNL cPanel]](../integrations/mysql-via-cpanel.md)
 
 >[!NOTE]
 >
->[!DNL Adobe] adviseert u [ SSH ](../integrations/mysql-via-ssh-tunnel.md) of één of andere andere vorm van encryptie gebruiken om uw gegevens te beveiligen! Als dit geen optie is, kunt u [!DNL Commerce Intelligence] met uw gegevensbestand nog direct verbinden gebruikend de instructies in dit onderwerp.
+>[!DNL Adobe] adviseert u [&#x200B; SSH &#x200B;](../integrations/mysql-via-ssh-tunnel.md) of één of andere andere vorm van encryptie gebruiken om uw gegevens te beveiligen! Als dit geen optie is, kunt u [!DNL Commerce Intelligence] met uw gegevensbestand nog direct verbinden gebruikend de instructies in dit onderwerp.
 
 In dit onderwerp wordt u door de [!DNL MySQL] -database rechtstreeks verbonden met [!DNL Commerce Intelligence] . Deze instellingen kunnen ook worden gebruikt met [!DNL Adobe Commerce] of andere eCommerce-databases die MySQL gebruiken.
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt u door de [!DNL MySQL] -database rechtstreeks verbonden m
 
 De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze zijn `54.88.76.97` en `34.250.211.151` , maar ze staan ook op de aanmeldingspagina van [!DNL MySQL] :
 
-![ MBI_Allow_Access_IPs.png ](../../../assets/MBI_allow_access_IPs.png)
+![&#x200B; MBI_Allow_Access_IPs.png &#x200B;](../../../assets/MBI_allow_access_IPs.png)
 
 ## Een [!DNL MySQL] gebruiker voor [!DNL Commerce Intelligence] maken
 
@@ -66,4 +66,4 @@ Als u klaar bent, klikt u op **[!UICONTROL Save & Test]** om de installatie te v
 
 ## Gerelateerde documentatie
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

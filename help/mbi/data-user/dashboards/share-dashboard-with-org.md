@@ -27,4 +27,4 @@ Het is gemakkelijk om ervoor te zorgen dat elke gebruiker toegang tot essentiël
 
 Voorbeeld:
 
-![ aandeel dashboard ](../../assets/share.gif)<!--{: width="675" height="311"}-->
+![&#x200B; aandeel dashboard &#x200B;](../../assets/share.gif)<!--{: width="675" height="311"}-->

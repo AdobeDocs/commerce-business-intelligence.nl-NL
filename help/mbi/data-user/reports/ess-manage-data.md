@@ -25,4 +25,4 @@ Met Gegevens beheren hebt u toegang tot verschillende functies voor het beheer v
    * `Manage Data`
    * `Export Data`
 
-   ![ beheert Gegevens ](../../assets/magento-bi-manage-data.png)<!--{: .zoom}-->
+   ![&#x200B; beheert Gegevens &#x200B;](../../assets/magento-bi-manage-data.png)<!--{: .zoom}-->

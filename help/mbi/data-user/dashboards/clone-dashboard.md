@@ -33,4 +33,4 @@ Dit is handig als u een bestaande set grafieken opnieuw wilt maken, maar het per
 
 Voorbeeld:
 
-![ klone dashboard ](../../assets/datgif.gif)
+![&#x200B; klone dashboard &#x200B;](../../assets/datgif.gif)

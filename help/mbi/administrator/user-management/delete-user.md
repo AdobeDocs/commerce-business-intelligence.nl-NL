@@ -17,7 +17,7 @@ Gebruikers kunnen worden verwijderd door naar het vervolgkeuzemenu van uw accoun
 
 >[!NOTE]
 >
->Voordat u een gebruiker verwijdert, is het verstandig te controleren of er grafieken zijn die u wilt behouden. Ondersteuning van [!DNL Adobe Commerce Intelligence] kan de dashboards van de gebruiker met u delen, zodat u alleen kunt opslaan wat u nodig hebt. Ondersteuning kan ook alle dashboards naar uw account sturen, waardoor u eigenaar wordt. [ Contact ons ](../../guide-overview.md#Submitting-a-Support-Ticket) voor hulp.
+>Voordat u een gebruiker verwijdert, is het verstandig te controleren of er grafieken zijn die u wilt behouden. Ondersteuning van [!DNL Adobe Commerce Intelligence] kan de dashboards van de gebruiker met u delen, zodat u alleen kunt opslaan wat u nodig hebt. Ondersteuning kan ook alle dashboards naar uw account sturen, waardoor u eigenaar wordt. [&#x200B; Contact ons &#x200B;](../../guide-overview.md#Submitting-a-Support-Ticket) voor hulp.
 
 ## Een verwijderde [!DNL Commerce Intelligence] gebruiker opnieuw activeren
 
@@ -26,5 +26,5 @@ U kunt de gebruiker opnieuw activeren door een gebruiker met hetzelfde e-mailadr
 Als u de dashboards van die gebruiker slechts nodig hebt in een verschillend gebruikersrekening worden geduwd, doe het volgende:
 
 1. Gebruik het verwijderde e-mailadres van de gebruiker om een nieuwe [!DNL Commerce Intelligence] gebruiker te maken.
-1. [ breng steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) op de hoogte nadat u de gebruiker creeert. Met Ondersteuning worden de dashboards naar uw account overgebracht.
+1. [&#x200B; breng steun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) op de hoogte nadat u de gebruiker creeert. Met Ondersteuning worden de dashboards naar uw account overgebracht.
 1. Nadat Adobe Support u op de hoogte heeft gesteld van de overdracht, kunt u de gebruiker opnieuw verwijderen.

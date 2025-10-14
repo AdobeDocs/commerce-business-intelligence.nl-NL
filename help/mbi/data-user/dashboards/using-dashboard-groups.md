@@ -29,7 +29,7 @@ U kunt op twee manieren dashboardgroepen maken:
 
 1. Bij het maken van een dashboard:
 
-   ![ creeer dashboardgroep ](../../assets/create-dashboard-groups-new-dashboard.png)
+   ![&#x200B; creeer dashboardgroep &#x200B;](../../assets/create-dashboard-groups-new-dashboard.png)
 
 1. Wanneer u de groep van een bestaand dashboard wijzigt, gaat u van de pagina `Manage Data > Dashboards` als volgt te werk:
 
@@ -39,7 +39,7 @@ U kunt op twee manieren dashboardgroepen maken:
 
    1. Als u een groep wilt maken, typt u de naam van de nieuwe groep en klikt u buiten het vak.
 
-      ![ creeer dashboardgroep ](../../assets/create-dashboard-groups-existing-dashboard.png)
+      ![&#x200B; creeer dashboardgroep &#x200B;](../../assets/create-dashboard-groups-existing-dashboard.png)
 
 ## Bestaande dashboards toevoegen aan bestaande groepen
 
@@ -49,7 +49,7 @@ U kunt op twee manieren dashboardgroepen maken:
 
 1. Als u de groep van het dashboard wilt wijzigen, kiest u een andere groep in de lijst - in dit geval `PS` , `Campaigns` .
 
-   ![ dashboard van de veranderingsgroep ](../../assets/add-existing-dashboard-existing-group.png)
+   ![&#x200B; dashboard van de veranderingsgroep &#x200B;](../../assets/add-existing-dashboard-existing-group.png)
 
 ## Dashboardgroepen verwijderen
 

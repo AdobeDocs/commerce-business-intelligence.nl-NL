@@ -15,7 +15,7 @@ ht-degree: 0%
 
 (met regex syntaxis help)
 
-Nadat u uw [[!DNL Google Analytics]  rekening ](../../data-analyst/importing-data/integrations/google-analytics.md) hebt verbonden, kunt u grafieken met uw [!DNL Google Analytics] gegevens tot stand brengen.
+Nadat u uw [[!DNL Google Analytics]  rekening &#x200B;](../../data-analyst/importing-data/integrations/google-analytics.md) hebt verbonden, kunt u grafieken met uw [!DNL Google Analytics] gegevens tot stand brengen.
 
 ## [!DNL Google Analytics] Grafieken maken
 
@@ -25,7 +25,7 @@ Nadat u uw [[!DNL Google Analytics]  rekening ](../../data-analyst/importing-dat
 
 1. Nadat u metrisch hebt gekozen, kunt u met dit diagram te werk gaan alsof het om een andere grafiek door `time period`, `interval`, en gegevens `perspectives` te selecteren die u zou willen zien.
 
-1. Het enige grote verschil is dat `√` reguliere expressies voor filters gebruikt. Een reguliere expressie (regex for short) is een speciale tekstreeks die een zoekpatroon beschrijft. Zie voorbeelden van regex syntaxis in de [[!DNL Google]  gids over Regelmatige Uitdrukkingen van Analytics ](https://support.google.com/analytics/answer/1034324?hl=en).
+1. Het enige grote verschil is dat `√` reguliere expressies voor filters gebruikt. Een reguliere expressie (regex for short) is een speciale tekstreeks die een zoekpatroon beschrijft. Zie voorbeelden van regex syntaxis in de [[!DNL Google]  gids over Regelmatige Uitdrukkingen van Analytics &#x200B;](https://support.google.com/analytics/answer/1034324?hl=en).
 
 >[!NOTE]
 >

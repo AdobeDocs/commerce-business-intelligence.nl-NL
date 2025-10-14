@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Wanneer u een [!DNL Adobe Commerce] -instantie voor het eerst verbindt met [[!DNL Adobe Commerce Intelligence]](../importing-data/integrations/magento.md) , worden in [!DNL Commerce Intelligence] automatisch gegevens uit sommige van uw handelstabellen (doorgaans 4-6 tabellen) overgenomen om de eerste set dashboards en rapporten te configureren. Hoewel dit een groot uitgangspunt biedt, produceren de meeste opslaginstanties tientallen, zo niet honderden extra lijsten die kritieke insight in de prestaties van uw zaken kunnen verstrekken.
 
-Hieronder vindt u een lijst met een aantal van de meer algemene tabellen die klanten van [!DNL Commerce Intelligence] gebruiken. Nadat u [ uw instantie van Commerce met Commerce Intelligence ](../../data-analyst/importing-data/integrations/magento.md) verbindt, kunt u de [ Manager van Data Warehouse ](../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden te volgen.
+Hieronder vindt u een lijst met een aantal van de meer algemene tabellen die klanten van [!DNL Commerce Intelligence] gebruiken. Nadat u [&#x200B; uw instantie van Commerce met Commerce Intelligence &#x200B;](../../data-analyst/importing-data/integrations/magento.md) verbindt, kunt u de [&#x200B; Manager van Data Warehouse &#x200B;](../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden te volgen.
 
 | Tabelnaam | Beschrijving |
 |---|---|

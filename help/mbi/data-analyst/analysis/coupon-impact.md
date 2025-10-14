@@ -20,7 +20,7 @@ Analyseren hoe klanten uw coupons gebruiken, kan uw bedrijf aanzienlijke insight
 * Hoe verschillen de gemiddelde levensduuropbrengsten tussen klanten die coupon hebben gekregen en klanten die niet via coupons zijn aangekocht?
 * Doen klanten die zijn aangeschaft met coupons, herhaaldelijk aankopen met coupons?
 
-Beantwoord deze vragen door zich op [ te concentreren het vergelijken van coupon-verworven klanten aan niet-coupon verworven klanten ](#compare), [ het analyseren van eerste ordedetails van couponverwervingen ](#firstorder), en [ het bekijken van de attributen van klanten die coupons in hun eerste orde gebruiken.](#attributes)
+Beantwoord deze vragen door zich op [&#x200B; te concentreren het vergelijken van coupon-verworven klanten aan niet-coupon verworven klanten &#x200B;](#compare), [&#x200B; het analyseren van eerste ordedetails van couponverwervingen &#x200B;](#firstorder), en [&#x200B; het bekijken van de attributen van klanten die coupons in hun eerste orde gebruiken.](#attributes)
 
 Aan de slag!
 
@@ -151,4 +151,4 @@ Het grootste aantal klanten werd aangekocht via de coupon &quot;20% korting&quot
 
 ## Omloop omhoog {#wrapup}
 
-Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp met deze soorten vragen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Er zijn veel analyses die u kunt maken om beter te begrijpen hoe uw klanten coupons gebruiken. Heb je ooit gedacht aan het analyseren van hoe je klanten je coupons gebruiken of de tijd die het kost om coupons te gebruiken? En hoe zit het met het vinden van het optimale kortingsbedrag - welk bedrag stimuleert herhaalde kopers, hogere gemiddelde orderwaarde en hogere levensduuropbrengsten? Voor hulp met deze soorten vragen, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).

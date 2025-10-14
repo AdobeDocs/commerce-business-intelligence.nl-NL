@@ -25,7 +25,7 @@ Als u een filter toevoegt dat een dimensie gebruikt die niet gelijk is voor alle
 
 In bepaalde gevallen kunt u een `order-specific` -dimensie omzetten in een `user-specific` -dimensie om deze als filter toe te voegen in het `Repeat Order Probability` -diagram. In deze gevallen retourneert u het orderkenmerk van de eerste of laatste volgorde van een gebruiker (bijvoorbeeld de naam van het eerste bestelgebied van de gebruiker).
 
-Als u zulk een nieuwe afmeting wilt tot stand brengen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u zulk een nieuwe afmeting wilt tot stand brengen, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
 
 ## Herhalingswaarschijnlijkheid van orders met verschillende kenmerken vergelijken
 

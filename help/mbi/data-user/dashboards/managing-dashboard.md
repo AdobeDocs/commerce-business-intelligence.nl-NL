@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md).
 
 In **[!DNL Manage Data** > **Dashboards]** kunt u gebruikersmachtigingen beheren voor dashboards die u hebt, dashboards verwijderen die u niet meer nodig hebt en een standaarddashboard instellen. Dit onderwerp omvat:
 

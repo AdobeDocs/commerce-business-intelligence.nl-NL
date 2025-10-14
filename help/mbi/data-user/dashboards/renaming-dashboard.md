@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Vereist [ Admin ](../../administrator/user-management/user-management.md) of `Standard` toestemmingen om deze functies uit te voeren. Als u een `Standard` -gebruiker bent, hebt u ook `Edit` -machtigingen voor het dashboard nodig.
+>Vereist [&#x200B; Admin &#x200B;](../../administrator/user-management/user-management.md) of `Standard` toestemmingen om deze functies uit te voeren. Als u een `Standard` -gebruiker bent, hebt u ook `Edit` -machtigingen voor het dashboard nodig.
 
 Soms passen namen gewoon niet meer. De naam van een dashboard wijzigen gaat snel en eenvoudig.
 
@@ -29,4 +29,4 @@ Soms passen namen gewoon niet meer. De naam van een dashboard wijzigen gaat snel
 
 Voorbeeld:
 
-![ anders noem dashboard ](../../assets/renaming-dboard.gif)
+![&#x200B; anders noem dashboard &#x200B;](../../assets/renaming-dboard.gif)

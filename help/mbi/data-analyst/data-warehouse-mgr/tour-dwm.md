@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md)
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md)
 
 De Data Warehouse Manager, die u kunt openen door op **[!UICONTROL Manage Data > Data Warehouse]** te klikken, is de portal voor uw [!DNL Adobe Commerce Intelligence] Data Warehouse. Met Data Warehouse Manager kunt u de instellingen voor tabel- en kolomsynchronisatie beheren, naar het schema van een tabel gaan en berekende kolommen maken die u in rapporten wilt gebruiken.
 
@@ -32,7 +32,7 @@ Dit onderwerp omvat:
 
 De linkerzijde van de pagina `Data Warehouse Manager` bevat de lijst met tabellen, zodat u gemakkelijk kunt schakelen tussen tabellen. Wanneer u een tabel in de lijst selecteert, wordt het tabelbeheergebied gevuld met het schema van de tabel waarin u de geselecteerde tabel kunt wijzigen.
 
-Binnen de lijst van de lijst, worden de lijsten gegroepeerd door hun verbindingsbron. Deze bronnen worden toegevoegd onder [!UICONTROL Manage Data > Integrations] en kunnen of een gegevensbestand, [ API ](https://developer.adobe.com/commerce/services/reporting/), of een derdeschakelaar zijn. Boven aan de lijst met tabellen bevindt zich een zoekvak waarmee u gemakkelijk de gewenste tabellen kunt vinden.
+Binnen de lijst van de lijst, worden de lijsten gegroepeerd door hun verbindingsbron. Deze bronnen worden toegevoegd onder [!UICONTROL Manage Data > Integrations] en kunnen of een gegevensbestand, [&#x200B; API &#x200B;](https://developer.adobe.com/commerce/services/reporting/), of een derdeschakelaar zijn. Boven aan de lijst met tabellen bevindt zich een zoekvak waarmee u gemakkelijk de gewenste tabellen kunt vinden.
 
 Onder het zoekvak ziet u twee opties: `All Tables` en `Synced Tables` . De optie `All Tables` bevat een lijst met alle tabellen die u beschikbaar hebt gemaakt voor uw Data Warehouse. Deze tabellen bevatten zowel gesynchroniseerde als niet-gesynchroniseerde tabellen.
 
@@ -61,13 +61,13 @@ Met Data Warehouse Manager kunt u niet alleen uw gegevensbronnen gemakkelijk wee
 1. Controleer of de kolommen `Primary Key` staan. Deze kolommen hebben een sleutelsymbool naast de kolomnaam. Een `Primary Key` is vereist om gegevens correct te synchroniseren in de Data Warehouse.
 
    Als u een tabel synchroniseert die rechtstreeks afkomstig is uit uw database, is het mogelijk dat `Primary Keys` niet wordt aangegeven. In dit geval neemt u contact op met de databasebeheerder om te vragen of een primaire sleutel of sleutels aan de tabel moet worden toegevoegd.
-1. Wanneer gebeëindigd, klik de ![ knoop ](../../assets/button.png).
+1. Wanneer gebeëindigd, klik de ![&#x200B; knoop &#x200B;](../../assets/button.png).
 
-A *Succes!* wordt weergegeven en de status verandert in `Pending` voor de geselecteerde kolommen. Nadat de volgende volledige update is voltooid, zijn de nieuw gesynchroniseerde tabellen en kolommen beschikbaar voor gebruik in rapporten. U kunt nieuwe [ replicatiemethodes ](./cfg-replication-methods.md) na de aanvankelijke synchronisatie ook plaatsen.
+A *Succes!* wordt weergegeven en de status verandert in `Pending` voor de geselecteerde kolommen. Nadat de volgende volledige update is voltooid, zijn de nieuw gesynchroniseerde tabellen en kolommen beschikbaar voor gebruik in rapporten. U kunt nieuwe [&#x200B; replicatiemethodes &#x200B;](./cfg-replication-methods.md) na de aanvankelijke synchronisatie ook plaatsen.
 
 Hieronder volgt een kort overzicht van het hele proces:
 
-![ Toevoegend kolommen aan uw gegevenspakhuis ](../../assets/DW_sync.gif)
+![&#x200B; Toevoegend kolommen aan uw gegevenspakhuis &#x200B;](../../assets/DW_sync.gif)
 
 ### Nieuwe tabellen synchroniseren op de achtergrond {#syncnew}
 
@@ -87,7 +87,7 @@ Eenvoudig het kunnen gegevens van al uw bronnen zien en beheren maakt het verkri
 
 Stel dat u `user's lifetime revenue` aan de `users` -tabel wilt toevoegen om gebruikers met een hoge waarde te zoeken. Of als u inkomsten wilt segmenteren op basis van geslacht, kunt u `customer's gender` toevoegen aan uw `orders` -tabel.
 
-Voor meer informatie, controleer dit [ leerprogramma ](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
+Voor meer informatie, controleer dit [&#x200B; leerprogramma &#x200B;](../../data-analyst/data-warehouse-mgr/creating-calculated-columns.md).
 
 ## Tabellen neerzetten en kolommen verwijderen {#delete}
 
@@ -99,9 +99,9 @@ Net zoals u tabellen en kolommen kunt selecteren die u wilt synchroniseren met u
 
 Maak u geen zorgen als u per ongeluk op **[!UICONTROL Delete]** klikt. Een gebiedsdeelcontrole loopt alvorens om het even wat wordt geschrapt, zodat hebt u de kans om alles te herzien alvorens te bevestigen.
 
-Als u kolommen wilt verwijderen, klikt u op de tabel waartoe de kolom behoort. Controleer de kolommen die u wilt verwijderen en klik de ![ knoop \_1.png ](../../assets/button_1.png) knoop.
+Als u kolommen wilt verwijderen, klikt u op de tabel waartoe de kolom behoort. Controleer de kolommen die u wilt verwijderen en klik de ![&#x200B; knoop \_1.png &#x200B;](../../assets/button_1.png) knoop.
 
-Om een gesynchroniseerde lijst te verwijderen, selecteer alle kolommen in de lijst, en klik opnieuw de ![ knoop ](../../assets/button_1.png) knoop. Hierdoor worden alle native en berekende kolommen die deze tabel gebruiken, uit uw Data Warehouse verwijderd.
+Om een gesynchroniseerde lijst te verwijderen, selecteer alle kolommen in de lijst, en klik opnieuw de ![&#x200B; knoop &#x200B;](../../assets/button_1.png) knoop. Hierdoor worden alle native en berekende kolommen die deze tabel gebruiken, uit uw Data Warehouse verwijderd.
 
 ### Wijzigingen bevestigen
 
@@ -111,16 +111,16 @@ Terwijl de geschrapte gebiedsdelen niet kunnen worden hersteld, zullen de lijste
 
 Hier volgt een snelle blik bij het verwijderen van een kolom:
 
-![ Verwijderend een kolom uit uw gegevenspakhuis ](../../assets/DW_delete.gif)
+![&#x200B; Verwijderend een kolom uit uw gegevenspakhuis &#x200B;](../../assets/DW_delete.gif)
 
 ## Wanneer kan ik mijn nieuwe kolommen gebruiken? {#when}
 
 Nieuwe gesynchroniseerde kolommen en nieuwe/bijgewerkte berekende kolommen zijn klaar voor gebruik nadat de volgende volledige update is voltooid. Als er nog geen update wordt uitgevoerd, kunt u een update afdwingen door op **[!UICONTROL Force update]** boven aan de pagina `Data Warehouse` of `Integrations` te klikken. U kunt ook een e-mailmelding plannen wanneer de update is voltooid door op **[!UICONTROL Email me when complete]** te klikken.
 
-Wanneer u bereid bent om uw nieuwe kolommen in rapporten te gebruiken, [ moet u hen aan metriek eerst toevoegen ](../data-warehouse-mgr/manage-data-dimensions-metrics.md). Hoewel gegevens pas beschikbaar zijn nadat een update is voltooid, kunt u nog steeds nieuwe kolommen in rapporten gebruiken. De gegevens binnen het rapport worden weergegeven wanneer de update is voltooid.
+Wanneer u bereid bent om uw nieuwe kolommen in rapporten te gebruiken, [&#x200B; moet u hen aan metriek eerst toevoegen &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md). Hoewel gegevens pas beschikbaar zijn nadat een update is voltooid, kunt u nog steeds nieuwe kolommen in rapporten gebruiken. De gegevens binnen het rapport worden weergegeven wanneer de update is voltooid.
 
 ## Omloop
 
 Dit artikel bedekte veel materiaal. Ondertussen moet u een goed begrip hebben van wat een database is, hoe gegevens worden geordend, hoe tabellen op elkaar betrekking hebben en wat u kunt doen met Data Warehouse Manager.
 
-Ga uw kennis testen door [ een berekende kolom ](../data-warehouse-mgr/creating-calculated-columns.md) te creëren of [ die sommige interessante rapporten ](../../tutorials/using-visual-report-builder.md) maken.
+Ga uw kennis testen door [&#x200B; een berekende kolom &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) te creëren of [&#x200B; die sommige interessante rapporten &#x200B;](../../tutorials/using-visual-report-builder.md) maken.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Gegevens opmaken en importeren
 
-Als u een integratie gebruikt die momenteel niet door [!DNL Adobe Commerce Intelligence] wordt gesteund, kunt u nog het [ Dossier gebruiken uploadt eigenschap ](using-file-uploader.md) om uw gegevens in uw Data Warehouse te krijgen. Dit onderwerp behandelt de ideale gegevensformaten die voor het uploaden van elektronische handelsgegevens moeten worden gebruikt.
+Als u een integratie gebruikt die momenteel niet door [!DNL Adobe Commerce Intelligence] wordt gesteund, kunt u nog het [&#x200B; Dossier gebruiken uploadt eigenschap &#x200B;](using-file-uploader.md) om uw gegevens in uw Data Warehouse te krijgen. Dit onderwerp behandelt de ideale gegevensformaten die voor het uploaden van elektronische handelsgegevens moeten worden gebruikt.
 
 ## `Orders` table
 
@@ -25,7 +25,7 @@ De tabel `orders` moet één rij bevatten voor elke transactie die het bedrijf h
 | `Customer` | De klant die de bestelling heeft geplaatst. |
 | `Order total` | Het totaal van de bestelling. Dit kan een op berekening gebaseerde kolom zijn, waarbij waarden in andere kolommen - zoals subtotaal en verzendkosten - het totaal voor deze kolom vormen. |
 | `Currency` | De valuta waarin de bestelling is betaald. Vermeld indien van toepassing. |
-| ` Order status` | De status van de volgorde, zoals `In Progress` , `Refunded` of `Complete` . De waarde van deze kolom verandert (als niet volledig). De nieuwe en bijgewerkte gegevens kunnen worden ingevoerd gebruikend [ voegt de eigenschap van Gegevens ](../../../data-analyst/importing-data/connecting-data/using-file-uploader.md) op de `File Uploads` pagina toe. |
+| ` Order status` | De status van de volgorde, zoals `In Progress` , `Refunded` of `Complete` . De waarde van deze kolom verandert (als niet volledig). De nieuwe en bijgewerkte gegevens kunnen worden ingevoerd gebruikend [&#x200B; voegt de eigenschap van Gegevens &#x200B;](../../../data-analyst/importing-data/connecting-data/using-file-uploader.md) op de `File Uploads` pagina toe. |
 | `Acquisition/marketing channel` | Het aankoop- of marketingkanaal waar de klant die de order heeft geplaatst, naar werd verwezen. |
 | `Order datetime` | De datum en tijd waarop de order is gemaakt. |
 | `Order updated at` | De datum en het tijdstip waarop de laatste wijziging in de orderrecord is aangebracht. |

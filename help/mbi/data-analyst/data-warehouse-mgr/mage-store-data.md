@@ -16,7 +16,7 @@ ht-degree: 2%
 Het platform van [!DNL Adobe Commerce] registreert en organiseert een grote verscheidenheid van waardevolle handelsgegevens over honderden lijsten. Dit onderwerp beschrijft:
 
 * hoe die gegevens worden gegenereerd
-* wat een nieuwe rij veroorzaakt om in één van de [ Lijsten van Commerce van de Kern worden opgenomen ](../data-warehouse-mgr/common-mage-tables.md)
+* wat een nieuwe rij veroorzaakt om in één van de [&#x200B; Lijsten van Commerce van de Kern worden opgenomen &#x200B;](../data-warehouse-mgr/common-mage-tables.md)
 * hoe handelingen zoals het maken van een aankoop of het maken van een account worden opgenomen in de [!DNL Adobe Commerce] -database
 
 Raadpleeg het volgende voorbeeld om deze concepten te bespreken:
@@ -61,7 +61,7 @@ Kort na de toevoeging van de drie nieuwe producten bezoekt een nieuwe klant, `Sa
 
 ## `sales\_flat\_order (or Sales\_order` als u [!DNL Adobe Commerce 2.x]
 
-Nu het maken van de account is voltooid, is `Sammy Customer` gereed om een aankoop te starten. Op de website voegt de klant twee paren van de `Throwback Bellbottoms` en één `V-Neck T-Shirt` aan de winkelwagen toe. Tevreden met de selecties, beweegt de klant zich om de orde te controleren en voor te leggen, creërend de volgende ingang op de [ lijst van de verkoop vlakke orde ](../data-warehouse-mgr/sales-flat-order-table.md):
+Nu het maken van de account is voltooid, is `Sammy Customer` gereed om een aankoop te starten. Op de website voegt de klant twee paren van de `Throwback Bellbottoms` en één `V-Neck T-Shirt` aan de winkelwagen toe. Tevreden met de selecties, beweegt de klant zich om de orde te controleren en voor te leggen, creërend de volgende ingang op de [&#x200B; lijst van de verkoop vlakke orde &#x200B;](../data-warehouse-mgr/sales-flat-order-table.md):
 
 | **`entity id`** | **`customer id**` | **`subtotal`** | **`created at`** |
 |---|---|---|---|
@@ -79,7 +79,7 @@ Nu het maken van de account is voltooid, is `Sammy Customer` gereed om een aanko
 
 (als u Commerce 2.0 of hoger hebt)
 
-Naast de enkele rij op de `Sales\_flat\_order` lijst, wanneer `Sammy Customer` de orde voorlegt, wordt een rij voor elk uniek punt in die orde opgenomen in de [`sales\_flat\_order\_item` lijst ](../data-warehouse-mgr/sales-flat-order-item-table.md):
+Naast de enkele rij op de `Sales\_flat\_order` lijst, wanneer `Sammy Customer` de orde voorlegt, wordt een rij voor elk uniek punt in die orde opgenomen in de [`sales\_flat\_order\_item` lijst &#x200B;](../data-warehouse-mgr/sales-flat-order-item-table.md):
 
 | **`item\_id`** | **`name`** | **`product\_id`** | **`order\_id`** | **`qty\_ordered`** | **`price`** |
 |---|---|---|---|---|---|

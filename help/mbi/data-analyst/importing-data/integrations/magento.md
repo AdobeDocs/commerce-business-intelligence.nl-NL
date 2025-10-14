@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
+>Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
 
 Wilt u zien hoe uw bedrijf presteert of uw kostbaarste aankoopbronnen en -kanalen vinden? Door uw [!DNL Adobe Commerce] -gegevens aan te sluiten op [!DNL Commerce Intelligence] kunt u deze vragen en meer beantwoorden.
 
-Aangezien het [!DNL Adobe Commerce] gegevensbestand op MySQL gebaseerd is, kunt u het met [!DNL Commerce Intelligence] door a [ directe verbinding ](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [ via een tunnel van SSH ](../integrations/mysql-via-ssh-tunnel.md) verbinden. De methode SSH wordt geadviseerd omdat het het veiligst is.
+Aangezien het [!DNL Adobe Commerce] gegevensbestand op MySQL gebaseerd is, kunt u het met [!DNL Commerce Intelligence] door a [&#x200B; directe verbinding &#x200B;](../integrations/mysql-via-a-direct-connection.md), [[!DNL cPanel]](../integrations/mysql-via-cpanel.md), of [&#x200B; via een tunnel van SSH &#x200B;](../integrations/mysql-via-ssh-tunnel.md) verbinden. De methode SSH wordt geadviseerd omdat het het veiligst is.
 
 ## Verwante informatie
 

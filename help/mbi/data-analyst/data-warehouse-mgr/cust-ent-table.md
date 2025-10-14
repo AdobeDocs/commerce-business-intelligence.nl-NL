@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De tabel `customer_entity` bevat records van alle geregistreerde accounts. Een account wordt beschouwd als geregistreerd als ze zich aanmelden voor een account, ongeacht of ze ooit een aankoop hebben voltooid. Elke rij komt overeen met één unieke geregistreerde account, zoals wordt aangegeven door het account `entity_id` .
 
-Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaatsen. Als uw opslag gastcontrole goedkeurt, zie [ hoe te om gastorden ](../data-warehouse-mgr/guest-orders.md) voor die orden rekenschap te geven.
+Deze lijst bevat geen verslagen van klanten die een orde via gastcontrole plaatsen. Als uw opslag gastcontrole goedkeurt, zie [&#x200B; hoe te om gastorden &#x200B;](../data-warehouse-mgr/guest-orders.md) voor die orden rekenschap te geven.
 
 ## Algemene kolommen
 

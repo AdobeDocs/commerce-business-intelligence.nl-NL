@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Inventarisniveaus analyseren
 
-In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris en instructies bevat voor klanten op zowel de oudere architectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet over de optie **[!UICONTROL Data Warehouse Views]** in het menu **[!UICONTROL Manage Data]** beschikt. Als u op de erfenisarchitectuur bent, voorlegt a [ nieuw steunverzoek ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in de _Berekende kolommen_ hieronder instructies bereikt.
+In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in uw huidige inventaris en instructies bevat voor klanten op zowel de oudere architectuur als de nieuwe architectuur. U bevindt zich op de oude architectuur als u niet over de optie **[!UICONTROL Data Warehouse Views]** in het menu **[!UICONTROL Manage Data]** beschikt. Als u op de erfenisarchitectuur bent, voorlegt a [&#x200B; nieuw steunverzoek &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) met het onderwerp **[!UICONTROL INVENTORY ANALYSIS]** zodra u de aangewezen sectie in de _Berekende kolommen_ hieronder instructies bereikt.
 
 ## Te traceren kolommen:
 
@@ -242,4 +242,4 @@ In dit onderwerp ziet u hoe u een dashboard instelt dat inzichten verschaft in u
    * &#x200B;
      [!UICONTROL Chart type]: `Table`
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).

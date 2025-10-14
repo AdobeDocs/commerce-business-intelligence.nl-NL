@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Stripe] gegevens verwacht
 
-Nadat [ u uw  [!DNL Stripe]  rekening ](../integrations/stripe.md) hebt verbonden, kunt u de [ Manager van Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat [&#x200B; u uw  [!DNL Stripe]  rekening &#x200B;](../integrations/stripe.md) hebt verbonden, kunt u de [&#x200B; Manager van Data Warehouse &#x200B;](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
 In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit [!DNL Stripe] kunt importeren in [!DNL Commerce Intelligence] . Nadat de installatie is voltooid, worden de volgende tabellen gemaakt in uw Data Warehouse. Klik op de koppelingen in de kolom Tabelnaam voor meer informatie over de kenmerken in elke tabel.
 
@@ -25,7 +25,7 @@ In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit
 | [`Invoices`](https://stripe.com/docs/billing/migration/invoice-states) | Deze tabel bevat informatie over facturen, waaronder het verschuldigde bedrag, abonnementen, factuurposten, eventuele automatische correcties van de proratie en meer. |
 | [`Plans`](https://stripe.com/docs/api/plans/object) | Deze tabel bevat de prijsgegevens voor verschillende producten en functieniveaus op uw site. U hebt bijvoorbeeld een abonnement van $10/maand voor basisfuncties en een abonnement van $20/maand voor premiumfuncties. |
 | [`Subscriptions`](https://stripe.com/docs/api/subscriptions/object) | Deze lijst bevat de details van abonnementsplannen uw klanten tot behoren. Tot de kenmerken behoren de id van de klant, de status, geannuleerd/beëindigd op datums, het belastingpercentage, de proefgegevens en nog veel meer. |
-| [`Events`](https://stripe.com/docs/development/dashboard/events) | Gebeurtenissen geven u informatie over iets interessants dat in een account is gebeurd. [ wanneer een interessante gebeurtenis ](https://stripe.com/docs/api/events/types) voorkomt, wordt een nieuw gebeurtenisvoorwerp gecreeerd. Wanneer bijvoorbeeld de gebeurtenis `charge.succeeded` slaagt en een factuur niet kan worden betaald, wordt een gebeurtenis `invoice.payment\_failed` gemaakt. |
+| [`Events`](https://stripe.com/docs/development/dashboard/events) | Gebeurtenissen geven u informatie over iets interessants dat in een account is gebeurd. [&#x200B; wanneer een interessante gebeurtenis &#x200B;](https://stripe.com/docs/api/events/types) voorkomt, wordt een nieuw gebeurtenisvoorwerp gecreeerd. Wanneer bijvoorbeeld de gebeurtenis `charge.succeeded` slaagt en een factuur niet kan worden betaald, wordt een gebeurtenis `invoice.payment\_failed` gemaakt. |
 
 {style="table-layout:auto"}
 
@@ -36,4 +36,4 @@ In dit onderwerp worden de belangrijkste gegevenstabellen besproken die u vanuit
 ## Verwante:
 
 * [Verbinding maken  [!DNL Stripe]](../integrations/stripe.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

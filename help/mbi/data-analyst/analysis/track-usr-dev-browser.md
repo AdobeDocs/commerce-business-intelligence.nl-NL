@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Google Analytics] Tekstspatiëring
 
-Met [!UICONTROL Google Analytics] kunt u [ verwijzingsbroninformatie ](../analysis/google-track-user-acq.md) bewaren om te begrijpen waar uw waardevolste gebruikers uit komen. Dit onderwerp bespreekt het platform (bijvoorbeeld, apparaat of browser) uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
+Met [!UICONTROL Google Analytics] kunt u [&#x200B; verwijzingsbroninformatie &#x200B;](../analysis/google-track-user-acq.md) bewaren om te begrijpen waar uw waardevolste gebruikers uit komen. Dit onderwerp bespreekt het platform (bijvoorbeeld, apparaat of browser) uw gebruikers werken aan. Met dit, zult u kunnen begrijpen hoeveel gebruikers eigenlijk het programma openen via mobiele apparaten en hoe dat de levenwaarde van die gebruikers beïnvloedt.
 
 ## Gebruikersapparaat en browsergegevens opslaan
 
@@ -39,7 +39,7 @@ Deze gegevens zijn voor elke server toegankelijk wanneer een aanvraag wordt inge
 
 ### Hoe parseer ik de nuttige segmenten?
 
-Er zijn een aantal bibliotheken beschikbaar waarmee u de tekenreeks `User-Agent` kunt parseren in componenten zoals het besturingssysteem, het apparaat enzovoort. Verwijs naar het [ ua-parser project ](https://github.com/tobie/ua-parser) om meer te leren.
+Er zijn een aantal bibliotheken beschikbaar waarmee u de tekenreeks `User-Agent` kunt parseren in componenten zoals het besturingssysteem, het apparaat enzovoort. Verwijs naar het [&#x200B; ua-parser project &#x200B;](https://github.com/tobie/ua-parser) om meer te leren.
 
 Met deze nieuwe informatie kunt u beter begrijpen hoe gebruikers toegang krijgen tot uw site. Vervolgens kunt u hun ervaring op maat maken of marketingcampagnes voor bepaalde groepen maken.
 

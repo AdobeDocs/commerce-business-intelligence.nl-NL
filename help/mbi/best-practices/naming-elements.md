@@ -62,7 +62,7 @@ Controleer de spelling nogmaals en vergeet deze plakbezittingen niet!
 
 ## Grafieken {#charts}
 
-Wanneer het noemen van [ grafieken ](../tutorials/using-visual-report-builder.md), is het nuttigst om deze formule te volgen: **(het Perspectief van Gegevens) + (Metrisch) + (de Periode van de Tijd) + (het Interval van de Tijd)**
+Wanneer het noemen van [&#x200B; grafieken &#x200B;](../tutorials/using-visual-report-builder.md), is het nuttigst om deze formule te volgen: **(het Perspectief van Gegevens) + (Metrisch) + (de Periode van de Tijd) + (het Interval van de Tijd)**
 
 **Slecht voorbeeld:**
 Ontvangsten
@@ -82,7 +82,7 @@ Omgekeerd, als uw dashboard een plaats is waar u met verschillende rapporten exp
 
 ## Afmetingen (berekende kolommen) {#dimensions}
 
-Wanneer het noemen van nieuwe [ dimensies ](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), is het nuttigst om deze formule te volgen: **(Entiteit) + (Nde) + (tijdkader) + (berekening) + (commentaren)**. Bijvoorbeeld:
+Wanneer het noemen van nieuwe [&#x200B; dimensies &#x200B;](../data-analyst/data-warehouse-mgr/creating-calculated-columns.md), is het nuttigst om deze formule te volgen: **(Entiteit) + (Nde) + (tijdkader) + (berekening) + (commentaren)**. Bijvoorbeeld:
 
 Eerste 30-daagse inkomsten van gebruiker
 * Volgnummer van de gebruiker
@@ -90,11 +90,11 @@ Eerste 30-daagse inkomsten van gebruiker
 
 ## Filtersets {#filterset}
 
-[ de reeksen van de Filter ](../data-user/reports/ess-manage-data-filters.md) worden typisch genoemd op manieren die de informatie verklaren zij of uitsluiten. Bijvoorbeeld, het noemen van de punten van de filterreeks **Orde wij tellen** staat om het even welke gebruiker toe om binnen te gaan, de logica van de filterreeks te bekijken, en te begrijpen welke ordeinformatie bepaalt wat over de zaken wordt geteld. Vergeet niet dat filtersets op zowel berekende kolommen als metriek kunnen worden toegepast en eenvoudig te begrijpen moeten zijn.
+[&#x200B; de reeksen van de Filter &#x200B;](../data-user/reports/ess-manage-data-filters.md) worden typisch genoemd op manieren die de informatie verklaren zij of uitsluiten. Bijvoorbeeld, het noemen van de punten van de filterreeks **Orde wij tellen** staat om het even welke gebruiker toe om binnen te gaan, de logica van de filterreeks te bekijken, en te begrijpen welke ordeinformatie bepaalt wat over de zaken wordt geteld. Vergeet niet dat filtersets op zowel berekende kolommen als metriek kunnen worden toegepast en eenvoudig te begrijpen moeten zijn.
 
 ## Metrisch {#metrics}
 
-[ Metriek ](../data-user/reports/ess-manage-data-metrics.md) zijn hoofdzakelijk vragen die u antwoorden aan regelmatig wilt. Wat was het aantal bestellingen in de afgelopen maand? Wat is de gemiddelde levenwaarde van uw klanten? Het wordt aanbevolen om metriek een naam te geven die het antwoord aangeeft dat gebruikers krijgen. Als u dezelfde maateenheid hebt gefilterd voor een specifieke winkel of afdeling, moet u deze als zodanig labelen. Bijvoorbeeld:
+[&#x200B; Metriek &#x200B;](../data-user/reports/ess-manage-data-metrics.md) zijn hoofdzakelijk vragen die u antwoorden aan regelmatig wilt. Wat was het aantal bestellingen in de afgelopen maand? Wat is de gemiddelde levenwaarde van uw klanten? Het wordt aanbevolen om metriek een naam te geven die het antwoord aangeeft dat gebruikers krijgen. Als u dezelfde maateenheid hebt gefilterd voor een specifieke winkel of afdeling, moet u deze als zodanig labelen. Bijvoorbeeld:
 
 Gemiddelde LTV van klant (eerste 30 dagen)
 Winkelnaam - Opbrengsten

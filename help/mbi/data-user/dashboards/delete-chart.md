@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Een diagram permanent verwijderen
 
-Zelfs als u [ een grafiek uit het dashboard ](../../data-user/dashboards/remove-charts-dashboard.md) verwijdert, bestaat het nog in uw [!DNL Commerce Intelligence] rekening.
+Zelfs als u [&#x200B; een grafiek uit het dashboard &#x200B;](../../data-user/dashboards/remove-charts-dashboard.md) verwijdert, bestaat het nog in uw [!DNL Commerce Intelligence] rekening.
 
 Een diagram permanent verwijderen:
 
@@ -33,4 +33,4 @@ Een diagram permanent verwijderen:
 
 Voorbeeld:
 
-![ schrap een grafiek ](../../assets/deletechart.gif)<!--{: width="630" height="402"}-->
+![&#x200B; schrap een grafiek &#x200B;](../../assets/deletechart.gif)<!--{: width="630" height="402"}-->

@@ -17,7 +17,7 @@ U kunt meer doen in `Visual Report Builder` dan analyses maken die trend in de t
 
 Dit soort sorteren en ordenen van gegevens kan worden uitgevoerd in rapporten die zowel een `Group By` als een `Time Interval of None` gebruiken. Wanneer beide elementen in een rapport staan, wordt de functie `Show Top/Bottom` boven de voorvertoning van het diagram weergegeven. Met deze functie kunt u de bovenste (hoogste tot laagste) en onderste (laagste tot hoogste) gegevenspunten weergeven op basis van de parameters die u instelt.
 
-![ toon Hoogste/Onderste eigenschap in Visuele Report Builder.](../../assets/Show_Top_Bottom.png)
+![&#x200B; toon Hoogste/Onderste eigenschap in Visuele Report Builder.](../../assets/Show_Top_Bottom.png)
 
 ## Hoe gebruik ik dit? {#how}
 
@@ -47,11 +47,11 @@ Dit betekent dat u de `Revenue` alleen kunt weergeven van de bovenste `5` bronne
 
 Hieronder ziet u een voorbeeld van een grafiek die de `Revenue` -metrische waarde op zichzelf sorteerde in plaats van op de groepering. Zoals u kunt zien, creeerde het sorteren metrisch door het groeperen geen vreemd (en uiteindelijk onnuttig) rapport:
 
-![ Vreemde en nutteloze rapportresultaten.](../../assets/strange-report-results.png)
+![&#x200B; Vreemde en nutteloze rapportresultaten.](../../assets/strange-report-results.png)
 
 Als u beide metriek door het groeperen had gesorteerd, zou de grafiek als dit kijken:
 
-![ sorterend beide metriek door het groeperen.](../../assets/sort-metrics-by-grouping.png)
+![&#x200B; sorterend beide metriek door het groeperen.](../../assets/sort-metrics-by-grouping.png)
 
 ## Hoe worden waarden standaard gesorteerd? {#defaultsorting}
 
@@ -59,11 +59,11 @@ Wanneer slechts één metrische waarde wordt opgenomen in een rapport met een `G
 
 In dit voorbeeld wordt bekeken hoeveel mogelijkheden uw vertegenwoordigers hebben gesloten. Deze tabel wordt automatisch gesorteerd van hoogste naar laagste op basis van de metrische waarde, in dit geval `Won Opportunities` .
 
-![ die door metrisch wordt bevolen.](../../assets/Ordered_by_metric.png)
+![&#x200B; die door metrisch wordt bevolen.](../../assets/Ordered_by_metric.png)
 
 Wanneer u echter een tweede metrische waarde toevoegt, wordt de bovenste waarde standaard op basis van de groepering ingesteld. Als metriek en groepen worden toegevoegd, wordt de standaardsortering gebaseerd op de eerste groepering, daarna op de tweede groepering, enzovoort.
 
-![ die door de groepering wordt bevolen.](../../assets/Ordered_by_grouping.png)
+![&#x200B; die door de groepering wordt bevolen.](../../assets/Ordered_by_grouping.png)
 
 ## Omloop {#wrapup}
 

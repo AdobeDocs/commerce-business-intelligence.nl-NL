@@ -34,7 +34,7 @@ Laat deze pagina gedurende de zelfstudie open - u hebt deze nodig in de volgende
 
 Hieronder ziet u hoe u door [!DNL Commerce Intelligence] kunt navigeren om de toets op te halen:
 
-![ het terugwinnen van de openbare sleutel RJMetrics ](../../../assets/get-mbi-public-key.gif)
+![&#x200B; het terugwinnen van de openbare sleutel RJMetrics &#x200B;](../../../assets/get-mbi-public-key.gif)
 
 ## Toegang tot het IP-adres van [!DNL Commerce Intelligence] toestaan {#allowlist}
 
@@ -42,7 +42,7 @@ De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf u
 
 ## Een [!DNL Linux] gebruiker voor [!DNL Commerce Intelligence] maken {#linux}
 
-Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt) gegevens in real time bevat. U kunt [ deze gebruiker ](../../../administrator/account-management/restrict-db-access.md) om het even welke manier beperken u houdt, zolang het het recht behoudt om met de [!DNL PostgreSQL] server te verbinden.
+Dit kan een productie of secundaire machine zijn, zolang het (of vaak bijgewerkt) gegevens in real time bevat. U kunt [&#x200B; deze gebruiker &#x200B;](../../../administrator/account-management/restrict-db-access.md) om het even welke manier beperken u houdt, zolang het het recht behoudt om met de [!DNL PostgreSQL] server te verbinden.
 
 1. Als u de nieuwe gebruiker wilt toevoegen, voert u de volgende opdrachten als hoofdmap op de [!DNL Linux] -server uit:
 
@@ -105,4 +105,4 @@ Wanneer u wordt gebeëindigd, klik **sparen &amp; Test** om de opstelling te vol
 
 ### Verwante
 
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

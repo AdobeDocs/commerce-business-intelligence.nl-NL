@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # [!DNL CJ Affiliate] -gegevens importeren
 
-Om [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Adobe Commerce Intelligence] in te voeren, volg eenvoudig de stappen hieronder en maak het resulterende dossier aan a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) vast. Adobe stelt de datatabel in op uw account en kunt gegevens onafhankelijk blijven uploaden.
+Om [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Adobe Commerce Intelligence] in te voeren, volg eenvoudig de stappen hieronder en maak het resulterende dossier aan a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) vast. Adobe stelt de datatabel in op uw account en kunt gegevens onafhankelijk blijven uploaden.
 
 ## [!DNL CJ Affiliate] -gegevens exporteren
 
@@ -21,14 +21,14 @@ Om [!DNL CJ Affiliate (Commission Junction)] gegevens in [!DNL Adobe Commerce In
 
 1. Stel `Performance By` in op `Program` `Trend` gelijk aan `Daily` en `Date Range` gelijk aan het datumbereik dat wordt gecontroleerd.
 
-   ![ uitvoer-cj-gelieerde-gegevens ](../../../assets/export-cj-affiliate-data-1.png)<!--{:.zoom}-->
+   ![&#x200B; uitvoer-cj-gelieerde-gegevens &#x200B;](../../../assets/export-cj-affiliate-data-1.png)<!--{:.zoom}-->
 
 1. Selecteer `Run Report` .
 
 1. Selecteer `File Format` in het vervolgkeuzemenu `CSV` .  Klik op **[!UICONTROL Download]**.
 
-   ![ uitvoer cj partnergegevens ](../../../assets/export-an-individual-order-2.jpg)<!--{:.zoom}-->
+   ![&#x200B; uitvoer cj partnergegevens &#x200B;](../../../assets/export-an-individual-order-2.jpg)<!--{:.zoom}-->
 
-1. Nadat u het dossier hebt gedownload, kunt u [ het dossier ](../connecting-data/using-file-uploader.md) uploaden aan uw [!DNL Commerce Intelligence] Data Warehouse.
+1. Nadat u het dossier hebt gedownload, kunt u [&#x200B; het dossier &#x200B;](../connecting-data/using-file-uploader.md) uploaden aan uw [!DNL Commerce Intelligence] Data Warehouse.
 
-   Zo maakt u een tabel in uw [!DNL Commerce Intelligence] Data Warehouse waarin u regelmatig nieuwe gegevens kunt uploaden. Wanneer het uploaden van het dossier, volg de het formatteren vereisten die in [ worden vermeld Gebruikend het Dossier uploader ](../connecting-data/using-file-uploader.md).
+   Zo maakt u een tabel in uw [!DNL Commerce Intelligence] Data Warehouse waarin u regelmatig nieuwe gegevens kunt uploaden. Wanneer het uploaden van het dossier, volg de het formatteren vereisten die in [&#x200B; worden vermeld Gebruikend het Dossier uploader &#x200B;](../connecting-data/using-file-uploader.md).

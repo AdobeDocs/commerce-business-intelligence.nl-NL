@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Audit Zendesk-gegevens
 
-Vond iets vreemd in uw [[!DNL Zendesk]  gegevens ](../integrations/exp-zendesk-data.md)? Om de kwestie te identificeren, moet u uw gegevens onderzoeken. Dit kan worden gedaan door uw [!DNL Zendesk] gegevens naar een downloadbaar dossier te exporteren.
+Vond iets vreemd in uw [[!DNL Zendesk]  gegevens &#x200B;](../integrations/exp-zendesk-data.md)? Om de kwestie te identificeren, moet u uw gegevens onderzoeken. Dit kan worden gedaan door uw [!DNL Zendesk] gegevens naar een downloadbaar dossier te exporteren.
 
 ## Gegevens exporteren inschakelen
 
-Gegevensexport is momenteel niet ingeschakeld voor alle [!DNL Zendesk] -accounts. Om deze eigenschap te activeren, [ voorleggen een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL), die uw [!DNL Zendesk] subdomeinnaam noemen.
+Gegevensexport is momenteel niet ingeschakeld voor alle [!DNL Zendesk] -accounts. Om deze eigenschap te activeren, [&#x200B; voorleggen een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL), die uw [!DNL Zendesk] subdomeinnaam noemen.
 
 >[!NOTE]
 >
@@ -32,12 +32,12 @@ Nadat het exporteren van gegevens is ingeschakeld, kunnen alleen beheerders in e
 1. Klik op **[!UICONTROL Request file]** naast Volledige XML-export zoals in de onderstaande afbeelding.
 
    Op dit punt, begint een bouwstijl; u wordt meegedeeld via e-mail wanneer het voltooit.
-   ![ reports_export_new.png ](../../../assets/reports_export_new.png)
+   ![&#x200B; reports_export_new.png &#x200B;](../../../assets/reports_export_new.png)
 
 1. Klik op de koppeling in uw e-mailbericht om een ZIP-bestand met het rapport te downloaden.
 
    Deze downloadkoppeling is ten minste drie dagen geldig.
 
-Dit proces bouwt een dossier van XML dat alle informatie bevat die in uw huidige [!DNL Zendesk] rekening, met inbegrip van kaartgegevens (met commentaren), gebruikersgegevens, en rekeningsgegevens wordt opgeslagen. Op dit punt, kunt u [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen (ben zeker om dit dossier vast te maken!) zodat kunt u een dichtere blik naar uw gegevens nemen. Als het bestand te groot is, deelt u het bestand via [!DNL Commerce Intelligence] of [!DNL Dropbox] met het team van [!DNL Google Drive] .
+Dit proces bouwt een dossier van XML dat alle informatie bevat die in uw huidige [!DNL Zendesk] rekening, met inbegrip van kaartgegevens (met commentaren), gebruikersgegevens, en rekeningsgegevens wordt opgeslagen. Op dit punt, kunt u [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen (ben zeker om dit dossier vast te maken!) zodat kunt u een dichtere blik naar uw gegevens nemen. Als het bestand te groot is, deelt u het bestand via [!DNL Commerce Intelligence] of [!DNL Dropbox] met het team van [!DNL Google Drive] .
 
-Voor meer informatie over [!DNL Zendesk] dossieruitvoer, verwijs naar de officiële [[!DNL Zendesk]  uitvoerdocumentatie ](https://support.zendesk.com/hc/en-us/articles/4408886165402-Exporting-data-to-a-JSON-CSV-or-XML-file).
+Voor meer informatie over [!DNL Zendesk] dossieruitvoer, verwijs naar de officiële [[!DNL Zendesk]  uitvoerdocumentatie &#x200B;](https://support.zendesk.com/hc/en-us/articles/4408886165402-Exporting-data-to-a-JSON-CSV-or-XML-file).

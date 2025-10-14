@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag te beantwoorden. Bijvoorbeeld, hoeveel van de opbrengst per product tijdens het vakantieseizoen door nieuwe klanten werd geproduceerd?
 
-![ Verkoop van de Vakantie in Dashboard ](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)
+![&#x200B; Verkoop van de Vakantie in Dashboard &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-holiday-sales-dashboard.png)
 
 ## Stap 1: Maak het basisrapport
 
@@ -31,11 +31,11 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
 1. Klik in het zijpaneel op **[!UICONTROL Details]** om informatie over elke meting weer te geven.
 
-   ![ Ontvangsten door Geordende Producten ](../../assets/magento-bi-report-builder-revenue-by-products.png)
+   ![&#x200B; Ontvangsten door Geordende Producten &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products.png)
 
 1. Klik in het zijpaneel op de naam van elke metrische waarde om de instellingenpagina in een nieuw browsertabblad te openen. Schuif omlaag om elke component van metrisch, met inbegrip van de metrische vraag, de filter, en de afmetingen te zien.
 
-   ![ Metrische Montages ](../../assets/magento-bi-report-builder-revenue-by-products-metric-detail.png)
+   ![&#x200B; Metrische Montages &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products-metric-detail.png)
 
 1. Klik op het vorige browsertabblad om terug te keren naar uw rapport.
 
@@ -57,13 +57,13 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    * Vervang `Untitled` in het zijpaneel door een naam voor de formule.
 
-   ![ Montages van de Formule ](../../assets/magento-bi-report-builder-revenue-by-products-add-formula-detail.png)
+   ![&#x200B; Montages van de Formule &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products-add-formula-detail.png)
 
 1. Klik op **[!UICONTROL Apply]** als de bewerking is voltooid.
 
    Het rapport heeft nu een nieuwe regel voor de formule, `New Customer Revenue`, en sidebar toont het totale bedrag van opbrengst die door nieuwe klanten wordt geproduceerd.
 
-   ![ Rapport met Formule ](../../assets/magento-bi-report-builder-revenue-by-products-formula-report.png)
+   ![&#x200B; Rapport met Formule &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products-formula-report.png)
 
 ## Stap 3: Een datumbereik toevoegen
 
@@ -77,13 +77,13 @@ Een formule combineert meerdere meetgegevens en wiskundige logica om een vraag t
 
    * Kies onder `Select Time Interval` de optie `Day` .
 
-     ![ Vaste Waaier van de Datum ](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range.png)
+     ![&#x200B; Vaste Waaier van de Datum &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range.png)
 
    * Klik op **[!UICONTROL Apply]** als de bewerking is voltooid.
 
    Het verslag is nu beperkt tot het vakantieseizoen, met een datapunt voor elke dag.
 
-   ![ Vaste Waaier van de Datum ](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range-report.png)
+   ![&#x200B; Vaste Waaier van de Datum &#x200B;](../../assets/magento-bi-report-builder-revenue-by-products-formula-report-fixed-date-range-report.png)
 
 ## Stap 4: Sla het rapport op
 

@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Dit onderwerp toont aan hoe te opstelling een dashboard dat u helpt meten hoe de totale opbrengst onder uw klantenbasis wordt verdeeld. Begrijp welk percentage van klanten bijdragen welk percentage van opbrengst en creeer gesegmenteerde lijsten aan beste markt aan en behoud uw hoge bijdragende klanten.
 
-Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Aan de slag
 
 U moet eerst een bestand uploaden dat alleen een primaire sleutel met de waarde één bevat. Hierdoor kunnen enkele noodzakelijke berekende kolommen voor de analyse worden gemaakt.
 
-U kunt [ dossier uploader ](../importing-data/connecting-data/using-file-uploader.md) en het beeld gebruiken hieronder om uw dossier te formatteren.
+U kunt [&#x200B; dossier uploader &#x200B;](../importing-data/connecting-data/using-file-uploader.md) en het beeld gebruiken hieronder om uw dossier te formatteren.
 
 ## Berekende kolommen
 
@@ -156,4 +156,4 @@ Te maken kolommen
 
 Nadat u alle rapporten hebt gecompileerd, kunt u deze naar wens op het dashboard ordenen. Het resultaat kan er als het bovenstaande voorbeelddashboard uitzien.
 
-Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).
+Als u in om het even welke vragen loopt terwijl het bouwen van deze analyse, of eenvoudig het Professionele team van de Diensten in dienst willen nemen, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL).

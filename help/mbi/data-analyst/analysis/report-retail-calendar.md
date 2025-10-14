@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Rapportage over een Retail-agenda
 
-Dit onderwerp toont aan hoe te opstelling de structuur om a [ 4-5-4 kleinhandelskalender ](https://nrf.com/resources/4-5-4-calendar) binnen uw [!DNL Adobe Commerce Intelligence] rekening te gebruiken. De visuele rapportbouwer verstrekt ongelooflijk flexibele tijdwaaiers, intervallen, en onafhankelijke montages. Al deze instellingen werken echter met de traditionele maandkalender.
+Dit onderwerp toont aan hoe te opstelling de structuur om a [&#x200B; 4-5-4 kleinhandelskalender &#x200B;](https://nrf.com/resources/4-5-4-calendar) binnen uw [!DNL Adobe Commerce Intelligence] rekening te gebruiken. De visuele rapportbouwer verstrekt ongelooflijk flexibele tijdwaaiers, intervallen, en onafhankelijke montages. Al deze instellingen werken echter met de traditionele maandkalender.
 
 Omdat veel klanten hun kalender veranderen om winkels of boekhoudingsdata te gebruiken, illustreren de onderstaande stappen hoe te met uw gegevens te werken en rapporten tot stand te brengen gebruikend detailhandelsdata. Hoewel de onderstaande instructies verwijzen naar de kalender 4-5-4 Retail, kunt u deze wijzigen voor elke specifieke kalender die uw team gebruikt, of het nu om een financieel of gewoon een aangepast tijdkader gaat.
 
-Alvorens begonnen te worden, zou u [ Uploader van het Dossier ](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) moeten herzien en ervoor zorgen dat u het `.csv` dossier hebt verlengd. Op deze manier zorgt u ervoor dat alle historische gegevens in de datums worden opgenomen en dat de datums in de toekomst worden opgenomen.
+Alvorens begonnen te worden, zou u [&#x200B; Uploader van het Dossier &#x200B;](../../data-analyst/importing-data/connecting-data/using-file-uploader.md) moeten herzien en ervoor zorgen dat u het `.csv` dossier hebt verlengd. Op deze manier zorgt u ervoor dat alle historische gegevens in de datums worden opgenomen en dat de datums in de toekomst worden opgenomen.
 
-Deze analyse bevat [ geavanceerde berekende kolommen ](../data-warehouse-mgr/adv-calc-columns.md).
+Deze analyse bevat [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/adv-calc-columns.md).
 
 ## Aan de slag
 
-U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 detailhandelkalender voor kleinhandelsjaren 2014 door 2017. Mogelijk moet u dit bestand aanpassen op basis van uw interne agenda voor de detailhandel en het datumbereik uitbreiden ter ondersteuning van uw historisch en huidige tijdframe. Nadat u het bestand hebt gedownload, gebruikt u de File Uploader om een Retail Calendar-tabel te maken in uw [!DNL Commerce Intelligence] Data Warehouse. Als u een ongewijzigde versie van 4-5-4 detailhandelkalender gebruikt, zorg ervoor dat de structuur en de gegevenstypes van de gebieden in deze lijst het volgende aanpassen:
+U kunt [&#x200B; downloaden &#x200B;](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 detailhandelkalender voor kleinhandelsjaren 2014 door 2017. Mogelijk moet u dit bestand aanpassen op basis van uw interne agenda voor de detailhandel en het datumbereik uitbreiden ter ondersteuning van uw historisch en huidige tijdframe. Nadat u het bestand hebt gedownload, gebruikt u de File Uploader om een Retail Calendar-tabel te maken in uw [!DNL Commerce Intelligence] Data Warehouse. Als u een ongewijzigde versie van 4-5-4 detailhandelkalender gebruikt, zorg ervoor dat de structuur en de gegevenstypes van de gebieden in deze lijst het volgende aanpassen:
 
 | Kolomnaam | Datatype kolom | Primaire sleutel |
 | --- | --- | --- |
@@ -121,7 +121,7 @@ U kunt [ downloaden ](../../assets/454-calendar.csv) a `.csv` versie van 4-5-4 d
 
 ## Metrisch
 
-Opmerking: er zijn geen nieuwe meetgegevens nodig voor deze analyse. Nochtans, zorg ervoor om [ de nieuwe kolommen toe te voegen u in de verkoop \_order lijst als afmetingen ](../data-warehouse-mgr/manage-data-dimensions-metrics.md) voor alle metriek op de verkoop \_order lijst alvorens aan de rapporten verder te gaan.
+Opmerking: er zijn geen nieuwe meetgegevens nodig voor deze analyse. Nochtans, zorg ervoor om [&#x200B; de nieuwe kolommen toe te voegen u in de verkoop \_order lijst als afmetingen &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md) voor alle metriek op de verkoop \_order lijst alvorens aan de rapporten verder te gaan.
 
 ## Rapporten
 
@@ -203,4 +203,4 @@ In het bovenstaande ziet u hoe u een agenda voor handelsversies configureert die
 
 Als u bijvoorbeeld de maatstaven op klantniveau wilt weergeven in een 4-5-4-handelsagenda, maakt u een `Same Table` -berekening in de `customer\_entity` -tabel, vergelijkbaar met `\[INPUT\] created\_at (yyyy-mm-dd 00:00:00)` die hierboven wordt beschreven. Vervolgens kunt u deze kolom gebruiken om de berekeningen `One to Many` JOINED\_COLUMN (zoals `Created_at (retail year)` ) en `Include in previous retail year? (Yes/No)` te reproduceren door de tabel `customer\_entity` bij de tabel `Retail Calendar` te voegen.
 
-Vergeet niet om alle nieuwe kolommen als afmetingen aan metriek [ toe te voegen alvorens nieuwe rapporten te bouwen. ](../data-warehouse-mgr/manage-data-dimensions-metrics.md)
+Vergeet niet om alle nieuwe kolommen als afmetingen aan metriek [&#x200B; toe te voegen alvorens nieuwe rapporten te bouwen. &#x200B;](../data-warehouse-mgr/manage-data-dimensions-metrics.md)

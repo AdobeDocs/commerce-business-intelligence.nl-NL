@@ -27,13 +27,13 @@ In dit onderwerp worden enkele rapporten besproken die u kunt gebruiken om uw wa
 
 ## Vereisten {#prereqs}
 
-Om de analyses in dit onderwerp te bouwen, hebt u toegang tot marketing verwerving/verwijzingsbrongegevens nodig. Als u het niet reeds volgt, moet u [ orde verwijzingsbrongegevens van  [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) in [!DNL Adobe Commerce Intelligence] brengen alvorens u kunt verdergaan. Bovendien kunt u door apparaatgegevens aan uw analyses toe te voegen, zien welke technologie uw referenties gebruiken.
+Om de analyses in dit onderwerp te bouwen, hebt u toegang tot marketing verwerving/verwijzingsbrongegevens nodig. Als u het niet reeds volgt, moet u [&#x200B; orde verwijzingsbrongegevens van  [!DNL Google ECommerce]](../importing-data/integrations/google-ecommerce.md) in [!DNL Adobe Commerce Intelligence] brengen alvorens u kunt verdergaan. Bovendien kunt u door apparaatgegevens aan uw analyses toe te voegen, zien welke technologie uw referenties gebruiken.
 
 ## Nieuwe gebruikers op bron {#newusersbysource}
 
 Het beoordelen van de prestaties van verwijzingsbronnen is zeer belangrijk bij het bepalen van uw meest waardevolle kanalen. Dit rapport geeft het aantal nieuwe geregistreerde gebruikers in de loop der tijd weer, op basis van de aankoopbron, zodat u de prestaties van verwijzingsbronnen kunt bijhouden bij het aanschaffen van nieuwe geregistreerde gebruikers.
 
-Om dit rapport in [ Report Builder ](../../tutorials/using-visual-report-builder.md) tot stand te brengen, voeg **Nieuwe gebruikers** metrisch toe (of gelijkwaardige metrisch die het aantal nieuwe gebruikers in tijd) aan het rapport telt. Voer vervolgens de volgende handelingen uit:
+Om dit rapport in [&#x200B; Report Builder &#x200B;](../../tutorials/using-visual-report-builder.md) tot stand te brengen, voeg **Nieuwe gebruikers** metrisch toe (of gelijkwaardige metrisch die het aantal nieuwe gebruikers in tijd) aan het rapport telt. Voer vervolgens de volgende handelingen uit:
 
 1. Stel de [!UICONTROL Time Period] in op de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Interval] in op maandelijks.
@@ -42,7 +42,7 @@ Om dit rapport in [ Report Builder ](../../tutorials/using-visual-report-builder
 
 Hier is een visuele analyse:
 
-![ Creërend een Nieuwe gebruikers door bronrapport.](../../assets/New_Users_by_source.gif)
+![&#x200B; Creërend een Nieuwe gebruikers door bronrapport.](../../assets/New_Users_by_source.gif)
 
 ## Gemiddelde levensopbrengst per gebruikersbron {#avglifetimerev}
 
@@ -57,7 +57,7 @@ Om dit rapport in Report Builder tot stand te brengen, voeg **Gemiddelde levenop
 
 Hier is een visuele analyse:
 
-![ Creërend een Gemiddelde levenopbrengst door gebruikersbron ](../../assets/Lifetime_revenue_by_user_source.gif).
+![&#x200B; Creërend een Gemiddelde levenopbrengst door gebruikersbron &#x200B;](../../assets/Lifetime_revenue_by_user_source.gif).
 
 In dit voorbeeld wordt alleen gekeken naar levenslange inkomsten, maar u kunt deze analyse ook repliceren om naar de [!UICONTROL Number of orders] - of [!UICONTROL Distinct buyers] -bron te kijken.
 
@@ -74,13 +74,13 @@ Om dit rapport in Report Builder tot stand te brengen, voeg metrisch de **Gemidd
 
 Hier is een visuele analyse:
 
-![ Creërend een Gemiddelde ordewaarde door gebruiker bronrapport.](../../assets/Average_order_value_by_source.gif)
+![&#x200B; Creërend een Gemiddelde ordewaarde door gebruiker bronrapport.](../../assets/Average_order_value_by_source.gif)
 
 ## Totale inkomsten per registratiedatum en bron van de gebruiker {#revbyregdateandsource}
 
 De analyse van de levenopbrengst die vroeger werd behandeld laat u de gemiddelde levenopbrengst van gebruikers bekijken die uit verschillende bronnen worden verworven, maar wat met totale levensinkomsten? Dit rapport staat u toe om te identificeren hoeveel algemene opbrengstgebruikers die tijdens een specifieke tijd en van een specifieke bron registreren produceren.
 
-Als u dit rapport wilt maken in de Report Builder, voegt u de metrische waarde `Revenue by user registration date` toe. Als u niet [ dit metrisch ](../../data-user/reports/ess-manage-data-metrics.md) reeds hebt gecreeerd, kunt u dit doen door `Revenue` metrisch te herhalen en `time stamp` te veranderen in Gebruiker `creation date`. Voer de volgende handelingen uit nadat u de metrische waarde hebt toegevoegd:
+Als u dit rapport wilt maken in de Report Builder, voegt u de metrische waarde `Revenue by user registration date` toe. Als u niet [&#x200B; dit metrisch &#x200B;](../../data-user/reports/ess-manage-data-metrics.md) reeds hebt gecreeerd, kunt u dit doen door `Revenue` metrisch te herhalen en `time stamp` te veranderen in Gebruiker `creation date`. Voer de volgende handelingen uit nadat u de metrische waarde hebt toegevoegd:
 
 1. Stel de [!UICONTROL Time Period] in op de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Time Interval] in op maandelijks.
@@ -89,13 +89,13 @@ Als u dit rapport wilt maken in de Report Builder, voegt u de metrische waarde `
 
 Hier is een visuele analyse:
 
-![ Creërend een Totale opbrengst door de datum van de gebruikersregistratie &amp; bronrapport.](../../assets/Revenue_by_user_registration_date_and_source.gif)
+![&#x200B; Creërend een Totale opbrengst door de datum van de gebruikersregistratie &amp; bronrapport.](../../assets/Revenue_by_user_registration_date_and_source.gif)
 
 ## Volgorde herhalen op gebruikersbron {#repeatordersbysource}
 
 Het gemiddelde rapport van de ordewaarde toont u, gemiddeld, hoeveel gebruikers die van een bepaalde bron worden verworven uitgeven wanneer het plaatsen van een orde. Dit rapport geeft echter niet aan of dezelfde gebruikers herhaalde klanten zijn. Maar met de Herhalingsorden door gebruikersbronnen, kunt u zien of maken de gebruikers van een bepaalde bron meer of minder herhaalde aankopen.
 
-Om dit rapport in [ Report Builder ](../../tutorials/using-visual-report-builder.md) tot stand te brengen, voeg het **Aantal orden** metrisch toe en doe dan het volgende:
+Om dit rapport in [&#x200B; Report Builder &#x200B;](../../tutorials/using-visual-report-builder.md) tot stand te brengen, voeg het **Aantal orden** metrisch toe en doe dan het volgende:
 
 1. Stel de [!UICONTROL Time Period] in op de registratieperiode die u wilt analyseren.
 1. Stel de [!UICONTROL Time Interval] in op maandelijks.
@@ -108,7 +108,7 @@ Om dit rapport in [ Report Builder ](../../tutorials/using-visual-report-builder
 
 Hier is een visuele analyse:
 
-![ Creërend een Herhalingsorden door gebruiker bronrapport.](../../assets/Repeat_orders_by_user_source.gif)
+![&#x200B; Creërend een Herhalingsorden door gebruiker bronrapport.](../../assets/Repeat_orders_by_user_source.gif)
 
 
 ## Omloop omhoog {#wrapup}

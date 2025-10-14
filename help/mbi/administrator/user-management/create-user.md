@@ -20,7 +20,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >U moet `Billing` machtigingen hebben om de factureringsgegevens van uw account te bekijken, toe te voegen of te wijzigen. [ de Toestemmingen worden geplaatst op een gebruiker-door-gebruiker basis ](../../administrator/user-management/user-management.md) wanneer de gebruikersrekeningen worden gecreeerd. Neem contact op met de beheerder van uw account als u `Billing` -machtigingen nodig hebt.
+   >U moet `Billing` machtigingen hebben om de factureringsgegevens van uw account te bekijken, toe te voegen of te wijzigen. [&#x200B; de Toestemmingen worden geplaatst op een gebruiker-door-gebruiker basis &#x200B;](../../administrator/user-management/user-management.md) wanneer de gebruikersrekeningen worden gecreeerd. Neem contact op met de beheerder van uw account als u `Billing` -machtigingen nodig hebt.
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -36,8 +36,8 @@ U kunt uw e-mailadres en/of wachtwoord bijwerken door in de rechterbovenhoek op 
 
 ## De uitnodiging opnieuw verzenden
 
-Als u de uitnodiging, op de [ login pagina ](https://dashboard.rjmetrics.com/v2/session/create) opnieuw moet verzenden, klik **[!UICONTROL Forgot?]**, ga het e-mailadres van de nieuwe gebruiker in, en klik **[!UICONTROL Reset Password]**. Hiermee verzendt u de uitnodiging opnieuw en kan de gebruiker zich aanmelden.
+Als u de uitnodiging, op de [&#x200B; login pagina &#x200B;](https://dashboard.rjmetrics.com/v2/session/create) opnieuw moet verzenden, klik **[!UICONTROL Forgot?]**, ga het e-mailadres van de nieuwe gebruiker in, en klik **[!UICONTROL Reset Password]**. Hiermee verzendt u de uitnodiging opnieuw en kan de gebruiker zich aanmelden.
 
 >[!IMPORTANT]
 >
->Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [ een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen.
+>Elk account heeft een gecontracteerd aantal licenties of licenties. Als u uw grens raakt of meer zou willen weten, [&#x200B; een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voorleggen.

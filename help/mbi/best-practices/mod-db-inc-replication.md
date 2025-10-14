@@ -34,4 +34,4 @@ Tabellen die deze methode gebruiken, zijn één kolom met een geheel getal die d
 
 ## Omloop omhoog
 
-Door kleine wijzigingen in uw tabellen aan te brengen, kunt u de snellere, efficiëntere methoden voor incrementele replicatie benutten. Nochtans, als dit niet mogelijk is, kunt u andere stappen nog nemen om [ uw updatetijd ](../best-practices/reduce-update-cycle-time.md) te verminderen en [ uw gegevensbestand ](../best-practices/opt-db-analysis.md) te optimaliseren.
+Door kleine wijzigingen in uw tabellen aan te brengen, kunt u de snellere, efficiëntere methoden voor incrementele replicatie benutten. Nochtans, als dit niet mogelijk is, kunt u andere stappen nog nemen om [&#x200B; uw updatetijd &#x200B;](../best-practices/reduce-update-cycle-time.md) te verminderen en [&#x200B; uw gegevensbestand &#x200B;](../best-practices/opt-db-analysis.md) te optimaliseren.

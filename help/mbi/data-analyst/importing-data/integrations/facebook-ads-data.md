@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Facebook Ads] gegevens verwacht
 
-Nadat u uw [ rekening  [!DNL Facebook Ads]  hebt verbonden ](../integrations/facebook-ads.md), kunt u de [ Manager van Data Warehouse ](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat u uw [&#x200B; rekening  [!DNL Facebook Ads]  hebt verbonden &#x200B;](../integrations/facebook-ads.md), kunt u de [&#x200B; Manager van Data Warehouse &#x200B;](../../../data-analyst/data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
 In dit onderwerp vindt u een kort overzicht van de tabellen die Adobe aanbeveelt te synchroniseren met uw Data Warehouse. Dit benadrukt slechts de kernlijsten, aangezien er vrij een paar subtables zijn.
 
@@ -60,4 +60,4 @@ Deze tabel bevat dezelfde informatie als de tabel `facebook_ads_insights_{accoun
 ## Verwante
 
 * [Verbinding maken  [!DNL Facebook Ads]](../integrations/facebook-ads.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

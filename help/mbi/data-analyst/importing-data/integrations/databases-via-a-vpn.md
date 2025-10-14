@@ -39,7 +39,7 @@ Zoals eerder vermeld, werkt elke geldige `VPN` -gebruiker - maar Adobe raadt u a
 
 De verbinding is alleen gelukt als u uw firewall configureert om toegang vanaf uw IP-adressen toe te staan. Ze staan `54.88.76.97` en `34.250.211.151` , maar ze staan ook op de pagina `credentials` voor alle databaseintegratie:
 
-![ MBI_Allow_Access_IPs.png ](../../../assets/MBI_allow_access_IPs.png)
+![&#x200B; MBI_Allow_Access_IPs.png &#x200B;](../../../assets/MBI_allow_access_IPs.png)
 
 ## De verbinding en `VPN` gebruikersgegevens invoeren in [!DNL Commerce Intelligence] {#finish}
 

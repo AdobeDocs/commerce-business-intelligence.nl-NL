@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Commerce] gegevens verwacht
 
-Nadat u [ uw  [!DNL Adobe Commerce]  opslag ](../../../data-analyst/importing-data/integrations/magento.md) hebt verbonden, kunt u de Manager van Data Warehouse gebruiken om relevante gegevensgebieden van uw gegevensbestand van Commerce voor analyse gemakkelijk te volgen.
+Nadat u [&#x200B; uw  [!DNL Adobe Commerce]  opslag &#x200B;](../../../data-analyst/importing-data/integrations/magento.md) hebt verbonden, kunt u de Manager van Data Warehouse gebruiken om relevante gegevensgebieden van uw gegevensbestand van Commerce voor analyse gemakkelijk te volgen.
 
 In dit onderwerp worden de belangrijkste gegevenstabellen besproken die Commerce-gebruikers in [!DNL Commerce Intelligence] importeren.
 
@@ -30,4 +30,4 @@ In dit onderwerp worden de belangrijkste gegevenstabellen besproken die Commerce
 ## Verwante
 
 * [Verbinding maken  [!DNL Adobe Commerce]](../integrations/magento.md)
-* [ Reauthenticating integrations ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)
+* [&#x200B; Reauthenticating integrations &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/mbi-reauthenticating-integrations.html?lang=nl-NL)

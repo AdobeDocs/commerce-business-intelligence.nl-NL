@@ -15,13 +15,13 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 ## Over je bijdragen aan Adobe-inhoud
 
-Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL).
+Zie de [&#x200B; Gids van de Medewerker van de Docent van Adobe &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL).
 
 Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
 
 ### Kleine wijzigingen
 
-Als u minder belangrijke updates bijdraagt, bezoek het artikel en klik het terugkoppelen gebied dat bij de bodem van het artikel verschijnt, klik **Gedetailleerde terugkoppelt opties**, en klik dan **Voorstellen en** uitgeven om naar het prijsonderdrukkingsbrondossier op GitHub te gaan. Gebruik GitHub UI om uw updates te maken. Zie de algemene [ de contributorgids van Adobe Docs ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor meer informatie.
+Als u minder belangrijke updates bijdraagt, bezoek het artikel en klik het terugkoppelen gebied dat bij de bodem van het artikel verschijnt, klik **Gedetailleerde terugkoppelt opties**, en klik dan **Voorstellen en** uitgeven om naar het prijsonderdrukkingsbrondossier op GitHub te gaan. Gebruik GitHub UI om uw updates te maken. Zie de algemene [&#x200B; de contributorgids van Adobe Docs &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u ter documentatie en codevoorbeelden in dit antwoord aanbrengt, worden behandeld in de gebruiksvoorwaarden van Adobe.
 
@@ -37,14 +37,14 @@ Als u een technisch schrijver, programmamanager, of ontwikkelaar van het product
 
 Communautaire contribuanten kunnen GitHub UI voor basishet uitgeven of vork gebruiken het repo om belangrijke bijdragen te leveren.
 
-Zie de [ Gids van de Medewerker van de Docent van Adobe ](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor details.
+Zie de [&#x200B; Gids van de Medewerker van de Docent van Adobe &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor details.
 
 ## Hoe te om prijsdaling te gebruiken om uw onderwerp te formatteren
 
 Alle artikelen in deze repository gebruiken GitHub gearomatiseerde prijsopgave. Als u niet vertrouwd bent met markering, zie:
 
-- [ Grondbeginselen van de Prijsverlaging ](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-- [ Afdrukbare prijsdaling ](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+- [&#x200B; Grondbeginselen van de Prijsverlaging &#x200B;](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+- [&#x200B; Afdrukbare prijsdaling &#x200B;](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Koppelingen vooraf toewijzen voor optimalisatie van afbeeldingen
 

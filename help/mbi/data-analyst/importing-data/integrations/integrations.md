@@ -17,4 +17,4 @@ Een integratie is een gegevensbron. Integraties zijn toepassingen en databases d
 
 In deze sectie worden de beschikbare integraties beschreven waarmee u verschillende externe gegevensbronnen kunt verbinden met [!DNL Commerce Intelligence] .
 
-Om een verbinding of integratie te schrappen, [ contactsteun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) en de naam van de verbinding of integratie te omvatten om te schrappen.
+Om een verbinding of integratie te schrappen, [&#x200B; contactsteun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) en de naam van de verbinding of integratie te omvatten om te schrappen.

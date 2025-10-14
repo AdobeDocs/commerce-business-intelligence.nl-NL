@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Google Adwords] gegevens verwacht
 
-Nadat [ u uw  [!DNL Google Adwords]  rekening ](../integrations/google-adwords.md) hebt verbonden, kunt u de [ Manager van Data Warehouse ](../../data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
+Nadat [&#x200B; u uw  [!DNL Google Adwords]  rekening &#x200B;](../integrations/google-adwords.md) hebt verbonden, kunt u de [&#x200B; Manager van Data Warehouse &#x200B;](../../data-warehouse-mgr/tour-dwm.md) gebruiken om relevante gegevensgebieden voor analyse gemakkelijk te volgen.
 
 Er zijn twee tabellen beschikbaar voor replicatie naar uw Data Warehouse:
 
@@ -48,7 +48,7 @@ De tabel `campaigns` bevat de volgende kolommen:
 | [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adclicks) | Totaal aantal klikken voor de dag |
 | [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adcost) | Totale kosten van de campagne voor de dag |
 | [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
-| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=traffic_sources&jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=traffic_sources&jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [&#x200B; utm \_campagne &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=time&jump=ga_date) | De datum waarop de campagne is gestart |
 | [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_impressions) | Aantal indrukken voor de dag |
 | `profileId` | Profiel-id |
@@ -68,7 +68,7 @@ De tabel `adwords` bevat de volgende kolommen:
 | [`adClicks`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adclicks) | Totaal aantal klikken voor de dag |
 | [`adCost`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adcost) | Totale kosten van de campagne voor de dag |
 | [`adwordsCampaignID`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_adwordscampaignid) | [!DNL Adwords] Campagne-id |
-| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=traffic_sources&jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [ utm \_campagne ](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| [`campaign`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=traffic_sources&jump=ga_campaign) | De naam van de campagne (bijvoorbeeld, [&#x200B; utm \_campagne &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | [`date`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=time&jump=ga_date) | De datum waarop de campagne is gestart |
 | [`impressions`](https://ga-dev-tools.google/dimensions-metrics-explorer/#view=detail&group=adwords&jump=ga_impressions) | Aantal indrukken voor de dag |
 | `profileId` | Profiel-id |
@@ -81,7 +81,7 @@ De tabel `adwords` bevat de volgende kolommen:
 
 {style="table-layout:auto"}
 
-Gebruikend deze gegevens, kunt u beginnen [ metriek ](../../../data-user/reports/ess-manage-data-metrics.md) en [ rapporten ](../../../tutorials/using-visual-report-builder.md) te creëren die op het uitgeven van gegevens worden gebaseerd en [ het te trouwen met uw levensinkomsten om ROI ](../../analysis/roi-ad-camp.md) te berekenen.
+Gebruikend deze gegevens, kunt u beginnen [&#x200B; metriek &#x200B;](../../../data-user/reports/ess-manage-data-metrics.md) en [&#x200B; rapporten &#x200B;](../../../tutorials/using-visual-report-builder.md) te creëren die op het uitgeven van gegevens worden gebaseerd en [&#x200B; het te trouwen met uw levensinkomsten om ROI &#x200B;](../../analysis/roi-ad-camp.md) te berekenen.
 
 ## Geconsolideerde tabellen
 
@@ -89,4 +89,4 @@ Gebruikend deze gegevens, kunt u beginnen [ metriek ](../../../data-user/reports
 
 Als u geen geconsolideerde tabel hebt en u maakt een mooi dashboard op de `adwords` -tabel, moet u de rapportage repliceren of dubbele metriek maken om die gegevens te vergelijken met uw [!DNL Facebook Ads] -gegevens. Met behulp van een geconsolideerde tabel kunt u naadloos [!DNL Facebook Ads] -gegevens opnemen in uw bestaande [!DNL Adwords] -rapporten. U kunt ook segmenteren op advertentieplatform.
 
-Als u reeds de gebieden hierboven hebt gesynchroniseerd, [ contacteer ons ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om uw advertentie uit te breiden.
+Als u reeds de gebieden hierboven hebt gesynchroniseerd, [&#x200B; contacteer ons &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) om uw advertentie uit te breiden.

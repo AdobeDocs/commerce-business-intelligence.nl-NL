@@ -17,7 +17,7 @@ Het voorspellen van de levenwaarde van klanten aangezien zij meer orden plaatsen
 
 Hieronder vindt u de stappen voor het maken van analyses om de levensduurwaarde van uw huidige klanten te begrijpen en te voorspellen hoe de levensduurwaarde met meer bestellingen toeneemt.
 
-![ verwachte levenwaarde ](../../assets/expected_ltv_720.png)
+![&#x200B; verwachte levenwaarde &#x200B;](../../assets/expected_ltv_720.png)
 
 ## Een metrisch object maken
 

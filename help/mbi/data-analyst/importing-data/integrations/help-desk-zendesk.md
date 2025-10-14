@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het consolideren van uw [!DNL Zendesk] -gegevens met uw transactiedatabank is een uitstekende manier om beter te begrijpen hoe uw klanten met uw verkoop- of klantsuccesteams communiceren. Het helpt u ook weten welk type klanten uw steunplatform gebruiken. In dit onderwerp ziet u hoe u een dashboard instelt voor gedetailleerde rapporten over de prestaties en de tijd van [!DNL Zendesk] in uw klanten van een transactie.
 
-Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../integrations/zendesk.md) . Deze analyse bevat [ geavanceerde berekende kolommen ](../../data-warehouse-mgr/adv-calc-columns.md).
+Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../integrations/zendesk.md) . Deze analyse bevat [&#x200B; geavanceerde berekende kolommen &#x200B;](../../data-warehouse-mgr/adv-calc-columns.md).
 
 <!-- Getting Started -->
 
@@ -283,7 +283,7 @@ Voordat u aan de slag gaat, wilt u verbinding maken met de [[!DNL Zendesk]](../i
 
 >[!NOTE]
 >
->Zorg ervoor om [ alle nieuwe kolommen als afmetingen aan metriek ](../../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
+>Zorg ervoor om [&#x200B; alle nieuwe kolommen als afmetingen aan metriek &#x200B;](../../../data-analyst/data-warehouse-mgr/manage-data-dimensions-metrics.md) toe te voegen alvorens nieuwe rapporten te bouwen.
 
 ### Rapporten
 

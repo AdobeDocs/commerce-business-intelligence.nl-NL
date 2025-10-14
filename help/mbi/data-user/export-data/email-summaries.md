@@ -34,7 +34,7 @@ E-mailoverzichten zijn een krachtig communicatiemiddel waarmee u de status en tr
 
 1. Selecteer in de sectie `Choose Content` de rapporten die u in het overzicht wilt opnemen.
 
-   U kunt maximaal tien rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [ het Leiden uw rekeningsmontages ](../../administrator/account-management/managing-account-settings.md).
+   U kunt maximaal tien rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [&#x200B; het Leiden uw rekeningsmontages &#x200B;](../../administrator/account-management/managing-account-settings.md).
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ In het veld `Set when to send the Email Summary` kunt u opgeven wanneer de e-mai
 Nadat u een e-mailoverzicht hebt gemaakt en opgeslagen, wordt op de pagina `Email Summaries` een lijst met alle opgeslagen samenvattingen weergegeven. U kunt (`+`) elke rij voor meer informatie uitbreiden. De kolommen in deze weergave zijn:
 
 * `Email Name` - Naam van het e-mailoverzicht
-* `Content` - Type inhoud in het overzicht, zoals de namen van rapporten. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [ het Leiden uw rekeningsmontages ](../../administrator/account-management/managing-account-settings.md).
+* `Content` - Type inhoud in het overzicht, zoals de namen van rapporten. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [&#x200B; het Leiden uw rekeningsmontages &#x200B;](../../administrator/account-management/managing-account-settings.md).
 * `Scheduled` - Frequentie, datum en tijd waarop de e-mailsamenvatting wordt verzonden
 * `Recipients` - Ontvangers van de e-mailsamenvatting
 * `Created Date` - De datum waarop het e-mailoverzicht is gemaakt

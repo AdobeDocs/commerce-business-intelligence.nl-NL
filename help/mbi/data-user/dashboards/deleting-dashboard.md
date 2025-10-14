@@ -15,9 +15,9 @@ ht-degree: 1%
 
 Als u wilt voorkomen dat de dashboardlijst te onoverzichtelijk wordt, kunt u een dashboard verwijderen als dit niet langer nodig is. Dit kan op twee manieren worden verwezenlijkt:
 
-1. [ via de `Account Settings` pagina ](#account) - deze methode vereist [ toestemmingen Admin ](../../administrator/user-management/user-management.md).
+1. [&#x200B; via de `Account Settings` pagina &#x200B;](#account) - deze methode vereist [&#x200B; toestemmingen Admin &#x200B;](../../administrator/user-management/user-management.md).
 
-1. [ via het `Dashboard Options` menu ](#do) - deze methode vereist u om het dashboard te bezitten of `Edit` toestemmingen te hebben.
+1. [&#x200B; via het `Dashboard Options` menu &#x200B;](#do) - deze methode vereist u om het dashboard te bezitten of `Edit` toestemmingen te hebben.
 
 ## Het dashboard verwijderen via de pagina `Account Settings` {#account}
 
@@ -29,7 +29,7 @@ Als u wilt voorkomen dat de dashboardlijst te onoverzichtelijk wordt, kunt u een
 
 Voorbeeld:
 
-![ schrapt dashboard ](../../assets/deleting_dash.gif)<!--{: width="703" height="346"}-->
+![&#x200B; schrapt dashboard &#x200B;](../../assets/deleting_dash.gif)<!--{: width="703" height="346"}-->
 
 ## Het dashboard verwijderen via het menu `Dashboard Options` {#do}
 
@@ -41,4 +41,4 @@ Voorbeeld:
 
 Voorbeeld:
 
-![ schrapt dashboard ](../../assets/deleting_dash_2.gif)<!--{: width="703" height="347"}-->
+![&#x200B; schrapt dashboard &#x200B;](../../assets/deleting_dash_2.gif)<!--{: width="703" height="347"}-->

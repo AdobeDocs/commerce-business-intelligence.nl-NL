@@ -17,8 +17,8 @@ Schaalgetallen. Staafgrafieken. Grafieken die zich uitstrekken over lange period
 
 *om een grafiek* te resize, klik en sleep de bodem-juiste hoek van om het even welk grafiek.
 
-![ resize grafiek ](../../assets/Resize_Chart_in_Dashboard.gif)
+![&#x200B; resize grafiek &#x200B;](../../assets/Resize_Chart_in_Dashboard.gif)
 
 *om een grafiek* te bewegen, beweeg over de bovenkant van de grafiek tot de `Move` curseurvertoningen. Klik en houd, dan sleep de grafiek aan de gewenste plaats. Laat de klik los om de grafiek te plaatsen.
 
-![ verplaatsingsgrafiek ](../../assets/Move_Chart_in_Dashboard.gif)
+![&#x200B; verplaatsingsgrafiek &#x200B;](../../assets/Move_Chart_in_Dashboard.gif)

@@ -29,4 +29,4 @@ Bestaande grafieken kunnen aan dashboards worden toegevoegd gebruikend de [!UICO
 
 Voorbeeld:
 
-![ voeg grafiek ](../../assets/sql-integration-encrypted-yes.png) toe
+![&#x200B; voeg grafiek &#x200B;](../../assets/sql-integration-encrypted-yes.png) toe

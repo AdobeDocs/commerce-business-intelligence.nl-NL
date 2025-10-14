@@ -22,10 +22,10 @@ Nadat uw [!DNL Google ECommerce] -account is verbonden met [!DNL Commerce Intell
 | `profileName` | Deze kolom bevat uw [!DNL Google Analytics] -profielnaam. |
 | `profileId` | Deze kolom bevat uw [!DNL Google Analytics] profiel-id. |
 | `socialNetwork` | Deze kolom bevat de naam van het sociale netwerk (bijvoorbeeld [!DNL Facebook] of [!DNL YouTube] ) |
-| `campaign` | Deze kolom bevat de campagnenaam (bijvoorbeeld, [`utm\_campaign` ](https://support.google.com/analytics/answer/1033867?hl=en)). |
-| `medium` | Deze kolom bevat de gemiddelde naam (bijvoorbeeld, [`utm\_medium` ](https://support.google.com/analytics/answer/1033867?hl=en)) |
-| `source` | Deze kolom bevat de bronnaam. (bijvoorbeeld, [`utm\_source` ](https://support.google.com/analytics/answer/1033867?hl=en)) |
-| `keyword` | Deze kolom bevat de sleutelwoordbeschrijving (bijvoorbeeld, [`utm\_term` ](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| `campaign` | Deze kolom bevat de campagnenaam (bijvoorbeeld, [`utm\_campaign` &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en)). |
+| `medium` | Deze kolom bevat de gemiddelde naam (bijvoorbeeld, [`utm\_medium` &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| `source` | Deze kolom bevat de bronnaam. (bijvoorbeeld, [`utm\_source` &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en)) |
+| `keyword` | Deze kolom bevat de sleutelwoordbeschrijving (bijvoorbeeld, [`utm\_term` &#x200B;](https://support.google.com/analytics/answer/1033867?hl=en)) |
 | `transactionId` | Deze kolom bevat de volgorde-id. Dit wordt gebruikt om zich bij de verwijzingsgegevens terug naar uw ordegegevens aan te sluiten. |
 | `updated\_at` | Deze kolom bevat de laatste keer dat de gegevensrij is bijgewerkt. |
 

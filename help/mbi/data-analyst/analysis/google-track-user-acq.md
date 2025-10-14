@@ -31,7 +31,7 @@ Als u [!DNL Google Analytics E-Commerce] gebruikt om uw bestelling- en verkoopge
 
 ### (Optie 2) Brongegevens van de [!DNL Google Analytics] -overname opslaan in uw database
 
-In dit onderwerp wordt uitgelegd hoe u de gegevens van het [!DNL Google Analytics] verwervingskanaal in uw eigen database kunt opslaan, namelijk de parameters `source` , `medium` , `term` , `content` , `campaign` en `gclid` die aanwezig waren op het eerste bezoek van een gebruiker aan uw website. Voor een verklaring van deze parameters, verwijs naar de [[!DNL Google Analytics]  documentatie ](https://support.google.com/analytics/answer/1191184?hl=en#zippy=%2Cin-this-article). Vervolgens verkent u enkele krachtige marketinganalyses die met deze informatie in [!DNL Commerce Intelligence] kunnen worden uitgevoerd.
+In dit onderwerp wordt uitgelegd hoe u de gegevens van het [!DNL Google Analytics] verwervingskanaal in uw eigen database kunt opslaan, namelijk de parameters `source` , `medium` , `term` , `content` , `campaign` en `gclid` die aanwezig waren op het eerste bezoek van een gebruiker aan uw website. Voor een verklaring van deze parameters, verwijs naar de [[!DNL Google Analytics]  documentatie &#x200B;](https://support.google.com/analytics/answer/1191184?hl=en#zippy=%2Cin-this-article). Vervolgens verkent u enkele krachtige marketinganalyses die met deze informatie in [!DNL Commerce Intelligence] kunnen worden uitgevoerd.
 
 #### Waarom?
 
@@ -39,7 +39,7 @@ Als u alleen de standaard [!DNL Google Analytics] conversie- en acquisitiemetrie
 
 >[!NOTE]
 >
->[[!DNL Google Analytics eCommerce Tracking] ](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingEcommerce) verlicht dit probleem door transactiegegevens in [!DNL Google Analytics] op te slaan, maar deze oplossing werkt niet voor plaatsen buiten eCommerce. Ook zijn bepaalde gereedschappen, zoals cohortanalyse, niet eenvoudig in de interface van [!DNL Google Analytics] .
+>[[!DNL Google Analytics eCommerce Tracking] &#x200B;](https://developers.google.com/analytics/devguides/collection/gajs/gaTrackingEcommerce) verlicht dit probleem door transactiegegevens in [!DNL Google Analytics] op te slaan, maar deze oplossing werkt niet voor plaatsen buiten eCommerce. Ook zijn bepaalde gereedschappen, zoals cohortanalyse, niet eenvoudig in de interface van [!DNL Google Analytics] .
 
 Wat als u een follow-up overeenkomst aan alle klanten wilt e-mailen die van een bepaalde e-mailcampagne worden verworven? Of integreer aanschafgegevens met uw CRM-systeem? Dit is onmogelijk in [!DNL Google Analytics] - het is in feite tegen de Servicevoorwaarden voor [!DNL Google Analytics] om gegevens op te slaan die een individu identificeren. Maar je kunt deze gegevens zelf opslaan.
 
@@ -51,7 +51,7 @@ Wat als u een follow-up overeenkomst aan alle klanten wilt e-mailen die van een 
 
 Het is duidelijk dat er bepaalde brongegevens voor acquisities in de tekenreeks zijn gecodeerd. Dit wordt getest om te bevestigen dat dit de recentste aanschafbron van de bezoeker en bijbehorende campagnegegevens is. Nu moet u weten hoe u de gegevens kunt extraheren.
 
-Deze code werd vertaald in a [ PHP bibliotheek die op github ](https://github.com/RJMetrics/referral-grabber-php) wordt ontvangen. Als u de bibliotheek wilt gebruiken, `include` verwijst u naar `ReferralGrabber.php` en roept u vervolgens
+Deze code werd vertaald in a [&#x200B; PHP bibliotheek die op github &#x200B;](https://github.com/RJMetrics/referral-grabber-php) wordt ontvangen. Als u de bibliotheek wilt gebruiken, `include` verwijst u naar `ReferralGrabber.php` en roept u vervolgens
 
 `$data = ReferralGrabber::parseGoogleCookie($_COOKIE['__utmz']);`
 
@@ -91,7 +91,7 @@ Dat is interessant, maar weinig nuttig. Wat u echt wilt weten is:
 
 * Het groeitempo van deze getallen in de loop der tijd
 * Het bedrag van de inkomsten die door elke verwervingsbron worden gegenereerd
-* A [ cohortanalyse ](https://en.wikipedia.org/wiki/Cohort_analysis) van gebruikers die uit elke bron komen
+* A [&#x200B; cohortanalyse &#x200B;](https://en.wikipedia.org/wiki/Cohort_analysis) van gebruikers die uit elke bron komen
 * De waarschijnlijkheid dat een gebruiker van één van deze kanalen als klant in de toekomst zal terugkeren
 
 De query&#39;s die nodig zijn om deze analyses uit te voeren zijn complex. Op basis van deze informatie kunt u de meest winstgevende aanschafkanalen bepalen en de marketingtijd en het geld daarop afstemmen.

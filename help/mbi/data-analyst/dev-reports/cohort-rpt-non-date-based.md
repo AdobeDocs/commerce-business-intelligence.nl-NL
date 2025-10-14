@@ -39,7 +39,7 @@ Nu u in `Report Builder` bent, voegt u metrisch toe dat u de analyse wilt uitvoe
 
 ### Schakelen `Metric View` naar `Cohort`
 
-![ 1 - knevel metrische mening om te cohort ](../../assets/1-toggle-metric-view-to-cohort.png)
+![&#x200B; 1 - knevel metrische mening om te cohort &#x200B;](../../assets/1-toggle-metric-view-to-cohort.png)
 
 Dit opent omhoog een nieuw venster waar u de details van het Rapport van het Cohort kunt vormen.
 
@@ -51,7 +51,7 @@ Er zijn vijf specificaties nodig om een verslag van Cohort op te stellen:
 1. Tijdbereik eerste handeling van Cohort
 1. Tijdbereik na cohort-instantie
 
-![ cohort-groepen ](../../assets/2-cohort-groups.png)<!--{: width="200" height="224"}-->
+![&#x200B; cohort-groepen &#x200B;](../../assets/2-cohort-groups.png)<!--{: width="200" height="224"}-->
 
 
 
@@ -63,7 +63,7 @@ Er zijn vijf specificaties nodig om een verslag van Cohort op te stellen:
 
 U kunt alle resultaten voor het gegeven kenmerk tonen. Omdat dit veel `cohorts` kan opleveren, kunt u de specifieke `cohorts` (die overeenkomt met de verschillende waarden die beschikbaar zijn voor `Customer's first order GA source` ) selecteren die u nodig hebt.
 
-![ cohort-groepen ](../../assets/4-cohort-groups.png)<!--{: width="300" height="338"}-->
+![&#x200B; cohort-groepen &#x200B;](../../assets/4-cohort-groups.png)<!--{: width="300" height="338"}-->
 
 #### 3. `Action timestamp`
 
@@ -77,7 +77,7 @@ Hier is waar u de datumwaaier selecteert die `cohorts action timestamp` bevat (z
 
 Wilt u de `cohorts` in de loop van de tijd per maand, week of jaar zien? Hier maakt u deze selecties. Onder die sectie selecteert u de `time range` nadat `cohort action timestamp` is opgetreden. Bijvoorbeeld, toont dit u 12 maanden van gegevens voor de klanten die de eerste orde tijdens de waaier van de actietermijn plaatsten.
 
-![ cohort-eerste-actie-tijd-waaier ](../../assets/5-cohort-first-action-time-range.png)<!--{: width="400" height="557"}-->
+![&#x200B; cohort-eerste-actie-tijd-waaier &#x200B;](../../assets/5-cohort-first-action-time-range.png)<!--{: width="400" height="557"}-->
 
 >[!NOTE]
 >
