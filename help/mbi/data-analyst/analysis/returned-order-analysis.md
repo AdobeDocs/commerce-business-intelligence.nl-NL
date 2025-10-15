@@ -17,7 +17,7 @@ Dit onderwerp toont aan hoe te opstelling een dashboard dat een gedetailleerde a
 
 ![&#x200B; Gedetailleerde terugkeerdashboard die terugkeertarieven en redenen tonen &#x200B;](../../assets/detailed-returns-dboard.png)
 
-Alvorens begonnen te worden, moet u een [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html) klant zijn en zou moeten ervoor zorgen dat uw bedrijf de `enterprise\_rma` lijst voor terugkeer gebruikt.
+Alvorens begonnen te worden, moet u een [&#x200B; Adobe Commerce &#x200B;](https://business.adobe.com/nl/products/magento/magento-commerce.html) klant zijn en zou moeten ervoor zorgen dat uw bedrijf de `enterprise\_rma` lijst voor terugkeer gebruikt.
 
 Deze analyse bevat [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/adv-calc-columns.md).
 

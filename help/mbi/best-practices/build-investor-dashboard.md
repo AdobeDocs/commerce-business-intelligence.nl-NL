@@ -64,7 +64,7 @@ Met een [!DNL Google Analytics] -integratie kunt u rapporten opnemen over:
 * Bezoeken ter plaatse
 * Omrekeningskoers
 
-Met de [&#x200B; diensten van de Verrijking van Gegevens van Commerce &#x200B;](https://business.adobe.com/products/magento/magento-commerce.html), kunt u rapporten over omvatten:
+Met de [&#x200B; diensten van de Verrijking van Gegevens van Commerce &#x200B;](https://business.adobe.com/nl/products/magento/magento-commerce.html), kunt u rapporten over omvatten:
 
 * Unieke klanten naar land/regio, leeftijd, geslacht.
 

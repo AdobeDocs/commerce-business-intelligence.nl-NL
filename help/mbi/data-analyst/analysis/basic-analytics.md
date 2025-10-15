@@ -88,7 +88,7 @@ Deze tabel wordt gebruikt voor het beheer van uw abonnementsgegevens, zoals de a
 
 ## Tabel met marketinguitgaven
 
-Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook] , [!DNL Google AdWords] of andere bronnen in uw analyses opnemen. Als u veelvoudige marketing uitgavenbronnen hebt, contacteer het [&#x200B; Team van Managed Services &#x200B;](https://business.adobe.com/products/magento/fully-managed-service.html) voor hulp bij vestiging een geconsolideerde lijst voor uw marketing campagnes.
+Wanneer u uw marketinguitgaven analyseert, kunt u [!DNL Facebook] , [!DNL Google AdWords] of andere bronnen in uw analyses opnemen. Als u veelvoudige marketing uitgavenbronnen hebt, contacteer het [&#x200B; Team van Managed Services &#x200B;](https://business.adobe.com/nl/products/magento/fully-managed-service.html) voor hulp bij vestiging een geconsolideerde lijst voor uw marketing campagnes.
 
 **Afmetingen**
 
