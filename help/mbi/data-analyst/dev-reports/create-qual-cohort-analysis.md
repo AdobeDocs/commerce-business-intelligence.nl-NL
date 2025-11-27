@@ -37,7 +37,7 @@ Als u echter het cohortgedrag van meerdere gebruikerssegmenten in hetzelfde coho
 
 Creërend een `qualitative cohort` rapport in `Report Builder` impliceert het de analistenteam van Adobe die sommige [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) creëren op de noodzakelijke lijsten.
 
-Om deze te bouwen, voorleg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (en verwijzing dit artikel!). Dit is wat u moet weten:
+Om deze te bouwen, voorleg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) (en verwijzing dit artikel!). Dit is wat u moet weten:
 
 * De `metric` waarmee u de cohortanalyse wilt uitvoeren en de tabel waarin deze wordt gebruikt (bijvoorbeeld: `Revenue` , gebaseerd op de tabel `orders` ).
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >De beschikbaarheid van sommige dashboards hangt van uw dataset af.
 
-Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp voor.
+Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor hulp voor.
 
 ## Uitvoerend overzicht
 
