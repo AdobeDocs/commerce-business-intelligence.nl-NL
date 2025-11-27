@@ -19,7 +19,7 @@ Het creëren van douanesegmenten om te zien hoe het verschillende verkeer preste
 
 ## Waarom zie ik mijn `channels` niet in Commerce Intelligence? {#nochannels}
 
-`Channels` zijn eenvoudige, geaggregeerde emmers van gegevens. Om uw verwervingen in de emmers van het Kanaal te sorteren, [!DNL Google] plaatst verschillende regels en definities gebruikend specifieke parameters: een combinatie van verwerving [ Source ](https://support.google.com/analytics/answer/1033173?hl=en) (de oorsprong van uw verkeer) en verwerving [ Medium ](https://support.google.com/analytics/answer/6099206?hl=en) (de algemene categorie van de bron).
+`Channels` zijn eenvoudige, geaggregeerde emmers van gegevens. Om uw verwervingen in de emmers van het Kanaal te sorteren, [!DNL Google] plaatst verschillende regels en definities gebruikend specifieke parameters: een combinatie van verwerving [&#x200B; Source &#x200B;](https://support.google.com/analytics/answer/1033173?hl=en) (de oorsprong van uw verkeer) en verwerving [&#x200B; Medium &#x200B;](https://support.google.com/analytics/answer/6099206?hl=en) (de algemene categorie van de bron).
 
 Terwijl het hebben van deze emmers u kan helpen om te begrijpen waar uw verkeer uit komt, worden deze gegevens niet geëtiketteerd door kanaal maar door een combinatie van Source en Medium. Omdat [!DNL Google] kanaalinformatie als twee afzonderlijke gegevenspunten verzendt, worden kanaalgroepen niet automatisch weergegeven in [!DNL Commerce Intelligence] .
 
@@ -46,25 +46,25 @@ Nu u weet dat kanalen slechts combinaties van bronnen en media zijn, is het een 
 
 1. **laat uw [!DNL Google ECommerce] integratie** toe
 
-   [ wanneer toegelaten ](../importing-data/integrations/google-ecommerce.md), zorg ervoor aan [ synchronisatie ](tour-dwm.md#syncing) het **middel** en **bron** gebieden in uw Data Warehouse. Nadat deze bewerking is voltooid, worden gegevens over aankopen via medium en bron naar uw Data Warehouse overgebracht.
+   [&#x200B; wanneer toegelaten &#x200B;](../importing-data/integrations/google-ecommerce.md), zorg ervoor aan [&#x200B; synchronisatie &#x200B;](tour-dwm.md#syncing) het **middel** en **bron** gebieden in uw Data Warehouse. Nadat deze bewerking is voltooid, worden gegevens over aankopen via medium en bron naar uw Data Warehouse overgebracht.
 
 1. **upload een afbeelding van het kanaalgroeperingen van Google**
 
-   Adobe Commerce leidt tot een lijst met de standaardgroepen die als dossier in kaart worden gebracht dat u [ kunt downloaden ](../../assets/ga-channel-mapping.csv).
+   Adobe Commerce leidt tot een lijst met de standaardgroepen die als dossier in kaart worden gebracht dat u [&#x200B; kunt downloaden &#x200B;](../../assets/ga-channel-mapping.csv).
 
    Als u een [!DNL Google Analytics] pro bent en uw eigen kanalen hebt gemaakt, wilt u uw specifieke regels toevoegen aan de toewijzingstabel voordat u het bestand uploadt naar [!DNL Commerce Intelligence] .
 
-   Breng het in uw Data Warehouse als a [ Dossier uploaden ](../importing-data/connecting-data/using-file-uploader.md).
+   Breng het in uw Data Warehouse als a [&#x200B; Dossier uploaden &#x200B;](../importing-data/connecting-data/using-file-uploader.md).
 
-   ![ interface die van de Manager van Data Warehouse primaire zeer belangrijke montages ](../../assets/Setting_Primary_Keys.png) toont
+   ![&#x200B; interface die van de Manager van Data Warehouse primaire zeer belangrijke montages &#x200B;](../../assets/Setting_Primary_Keys.png) toont
 
 1. **Vestig een verband tussen [!DNL Google ECommerce] en het Uploaden van het Dossier van Toewijzingen**
 
-   Om een verband tussen [!DNL Google ECommerce] en de mappinglijst te vestigen, [ voorlegt een steunverzoek ](../../guide-overview.md#Submitting-a-Support-Ticket) aan uw team van de Analyst van Gegevens en van verwijzingen dit onderwerp. De analist leidt tot een nieuwe berekende kolom genoemd **Kanaal** in de lijst van de Handel EC. **na een volledige updatecyclus**, zal deze kolom klaar zijn om in a `Filter` of `Group by` te gebruiken.
+   Om een verband tussen [!DNL Google ECommerce] en de mappinglijst te vestigen, [&#x200B; voorlegt een steunverzoek &#x200B;](../../guide-overview.md#Submitting-a-Support-Ticket) aan uw team van de Analyst van Gegevens en van verwijzingen dit onderwerp. De analist leidt tot een nieuwe berekende kolom genoemd **Kanaal** in de lijst van de Handel EC. **na een volledige updatecyclus**, zal deze kolom klaar zijn om in a `Filter` of `Group by` te gebruiken.
 
 U hebt nu [!DNL Google Analytics Channel] groepen in uw Data Warehouse, wat betekent dat u uw gegevens vanuit een nieuw perspectief kunt analyseren:
 
-![ die het Aantal van Orden segmenteren metrisch door Kanaal ](../../assets/GA_Channel_Gif.gif)
+![&#x200B; die het Aantal van Orden segmenteren metrisch door Kanaal &#x200B;](../../assets/GA_Channel_Gif.gif)
 
 In dit voorbeeld, begon u eenvoudig met het segmenteren van het **Aantal Orden** metrisch door **Kanaal**. Test uw nieuwe kolom en bekijk welke trends u kunt identificeren in uw [!DNL Google Analytics Channel] gegevens!
 

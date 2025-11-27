@@ -29,7 +29,7 @@ Zoals hierboven vermeld, kunt u met `cohort` -analyse gedragstrends onder versch
 
 ### Nieuwe architectuur
 
-Dit zijn de instructies om `Cohort Report Builder` op de [ Nieuwe Architectuur ](../../administrator/account-management/new-architecture.md) te gebruiken.
+Dit zijn de instructies om `Cohort Report Builder` op de [&#x200B; Nieuwe Architectuur &#x200B;](../../administrator/account-management/new-architecture.md) te gebruiken.
 
 1. Klik op **[!UICONTROL Report Builder]** op het linkertabblad of op **[!UICONTROL Add Report** > **Create Report]** in een dashboard.
 
@@ -45,7 +45,7 @@ Nu u zich in `Report Builder` bevindt, voegt u de metrische waarde toe waarop u 
 
 **Knevel de Metrische Mening aan`Cohort`**
 
-![ Visuele Report Builder die de kneveloptie van de de kleurenanalyse tonen ](../../assets/visual-report-builder-cohort-toggle.png)
+![&#x200B; Visuele Report Builder die de kneveloptie van de de kleurenanalyse tonen &#x200B;](../../assets/visual-report-builder-cohort-toggle.png)
 
 Hiermee wordt een nieuw venster geopend waarin de details van het `Cohort` -rapport worden geconfigureerd.
 
@@ -81,7 +81,7 @@ Met deze functie kunt u het tijdbereik instellen van gegevens die u voor de gese
 
 Het interval voor deze waarde verandert met wat u in `cohort time period` hebt geselecteerd en de waarde wordt standaard ingesteld op `12` . De waarde verandert alleen als u op het kalenderpictogram klikt om deze te bewerken.
 
-![ de selecteur van de tijdwaaier van de Cohort die datumopties toont ](../../assets/cohort-time-range.png)
+![&#x200B; de selecteur van de tijdwaaier van de Cohort die datumopties toont &#x200B;](../../assets/cohort-time-range.png)
 
 #### Overige opmerkingen
 
@@ -93,21 +93,21 @@ Het interval voor deze waarde verandert met wat u in `cohort time period` hebt g
 
 Hier is een voorbeeld om het allemaal samen te trekken. In dit voorbeeld wil ik het gedrag van bestellingen uitchecken na de eerste aankoop van een `cohort` om te zien of die cohort terugkomt om in de komende zes maanden herhaalde aankopen te doen.
 
-![ de cohort van Orden ](../../assets/crb_example.gif)
+![&#x200B; de cohort van Orden &#x200B;](../../assets/crb_example.gif)
 
 ### Verouderde architectuur
 
 #### Verouderde architectuur {#personalinfo}
 
-Hieronder vindt u instructies die specifiek zijn voor de oudere versie van de `Cohort Report Builder` . Als u in het gebruiken van de nieuwe versie geinteresseerd bent, zie [ Nieuwe Architectuur ](../../administrator/account-management/new-architecture.md) voor meer informatie over het migreren aan een [!DNL Commerce Intelligence] Nieuwe rekening van de Architectuur.
+Hieronder vindt u instructies die specifiek zijn voor de oudere versie van de `Cohort Report Builder` . Als u in het gebruiken van de nieuwe versie geinteresseerd bent, zie [&#x200B; Nieuwe Architectuur &#x200B;](../../administrator/account-management/new-architecture.md) voor meer informatie over het migreren aan een [!DNL Commerce Intelligence] Nieuwe rekening van de Architectuur.
 
 #### Hoe maak ik mijn eigen `cohort` analyse? {#create}
 
-![ creeer de dialoog van de kleurenanalyse met configuratieopties ](../../assets/create-cohort-analysis.png)
+![&#x200B; creeer de dialoog van de kleurenanalyse met configuratieopties &#x200B;](../../assets/create-cohort-analysis.png)
 
 `Cohort` analyse in actie! Hier zie je dat de omzet in de loop der tijd toeneemt, op cumulatieve basis en per gebruiker.
 
-In deze sectie wordt u door het maken van uw eigen `cohort` -analyse geleid. Voor voorbeelden (en geanimeerde GIFs die het proces aantonen), bekijk de [ sectie van Voorbeelden ](#examples) van dit onderwerp.
+In deze sectie wordt u door het maken van uw eigen `cohort` -analyse geleid. Voor voorbeelden (en geanimeerde GIFs die het proces aantonen), bekijk de [&#x200B; sectie van Voorbeelden &#x200B;](#examples) van dit onderwerp.
 
 1. Klik op **[!UICONTROL Report Builder]** op het linkertabblad of op **[!UICONTROL Add Report** > **Create Report]** in een dashboard.
 
@@ -141,7 +141,7 @@ U kunt veranderen hoe deze intervallen op de x-as gebruikend het **menu van de D
 `Time Period`
 Kies in het menu `Time Period` de specifieke gebruiker die u wilt analyseren. `cohorts` U kunt elke `cohort` weergeven, een keuze maken in een lijst, een tijdbereik opgeven of een schuiftijdbereik van `cohorts` definiëren om op te nemen. Als u bijvoorbeeld de optie `Specific Cohorts` hebt gebruikt, kunt u specifieke maanden selecteren om in de analyse op te nemen:
 
-![ Specifiek toevoegen via het menu `Time Period` `Cohorts`](../../assets/Cohort_Time_Period.gif)
+![&#x200B; Specifiek toevoegen via het menu `Time Period` `Cohorts`](../../assets/Cohort_Time_Period.gif)
 
 Als u `cohorts` groepeert op registratiedatum en vervolgens april, mei en juni in de `Specific Cohorts` -lijst selecteert, worden alle gebruikers opgenomen die zich in die maanden hebben geregistreerd.
 
@@ -153,7 +153,7 @@ Onder `duration` kunt u de instellingen voor de X-as van het diagram definiëren
 
 Als u ervoor hebt gekozen om gebruikers te groeperen met een `cohort date` die vanuit een andere tabel is gekoppeld, wordt mogelijk een `counting members in the … table` -optie weergegeven.
 
-![ de tellende van de Cohort ledenoptie die onafhankelijke versus cumulatieve wijzen tonen ](../../assets/Cohort_Counting_Members_option.png)
+![&#x200B; de tellende van de Cohort ledenoptie die onafhankelijke versus cumulatieve wijzen tonen &#x200B;](../../assets/Cohort_Counting_Members_option.png)
 
 Bekijk een voorbeeld om deze instelling te begrijpen. Stel dat u een rapport hebt gemaakt waarin een `Revenue` metrisch op `Customer's registration date` wordt geconverteerd. Je wilde ook het perspectief `Average value per cohort member` gebruiken om de opbrengst per koper in de loop van de tijd te zien. Als je de gemiddelde waarde per koper wilt vinden, moet je bepalen door hoeveel kopers je wilt delen. Is het het aantal geregistreerde klanten in uw `customers` lijst, of is het het aantal verschillende kopers in uw `orders table` voor de zelfde periode?
 
@@ -165,9 +165,9 @@ Nadat u de metrische waarde hebt gedefinieerd en wilt analyseren, kunt u de `per
 
 Net boven de rapportvisualisatie bevindt zich een vervolgkeuzelijst met `perspective` -instellingen.
 
-Zie [ Perspectieven ](#perspectives).
+Zie [&#x200B; Perspectieven &#x200B;](#perspectives).
 
-![ het perspectiefmenu van de Cohort dat verschillende meningsopties toont ](../../assets/Cohort_Perspective_Menu.png)
+![&#x200B; het perspectiefmenu van de Cohort dat verschillende meningsopties toont &#x200B;](../../assets/Cohort_Perspective_Menu.png)
 
 ## Voorbeelden van cohortanalyse {#examples}
 
@@ -175,7 +175,7 @@ Nu u door hebt gegaan hoe te om een `cohort` analyse tot stand te brengen, bekij
 
 ### Ik wil weten hoe mijn gebruiker `cohorts` in de loop der tijd groeit.
 
-![ Gebruiker `cohorts` groeiend in tijd ](../../assets/cohort1.gif)
+![&#x200B; Gebruiker `cohorts` groeiend in tijd &#x200B;](../../assets/cohort1.gif)
 
 In dit voorbeeld hebt u de `Revenue` -metrische waarde geanalyseerd, de cohorten gegroepeerd op `customer's first order date` en de 8 meest recente `cohorts` kleur geselecteerd (gedefinieerd in het menu `Time Period` ) die u in de analyse wilt opnemen. Om te zien hoe de cohorten in de loop der tijd groeiden, gebruikte u `Cumulative Average Value per Cohort Member` `perspective`.
 
@@ -187,7 +187,7 @@ In dit voorbeeld hebt u de `Number of orders` -meting geanalyseerd, de cohorten 
 
 ### Ik wil begrijpen hoe de toekomstige aankoopactiviteit van een gebruiker met zijn eerste maandactiviteit met de zaken vergelijkt.
 
-![ Vergelijkend de toekomstige het kopen van een gebruiker activiteit aan hun eerste maand van activiteit ](../../assets/cohort3.gif)
+![&#x200B; Vergelijkend de toekomstige het kopen van een gebruiker activiteit aan hun eerste maand van activiteit &#x200B;](../../assets/cohort3.gif)
 
 ## `Perspectives` {#perspectives}
 
@@ -211,4 +211,4 @@ Dit is hetzelfde als de bovenstaande `perspective` , behalve dat de waarde voor 
 
 ## Omloop {#finish}
 
-`Cohort Report Builder` is geoptimaliseerd voor het groeperen van gebruikers door een gemeenschappelijke `cohort date`. U bent wellicht geïnteresseerd in het groeperen van de gebruikers op basis van een vergelijkbare activiteit of een vergelijkbaar kenmerk. Adobe adviseert het controleren van [ dit leerprogramma op kwalitatieve cohorts ](../dev-reports/create-qual-cohort-analysis.md) om begonnen te worden.
+`Cohort Report Builder` is geoptimaliseerd voor het groeperen van gebruikers door een gemeenschappelijke `cohort date`. U bent wellicht geïnteresseerd in het groeperen van de gebruikers op basis van een vergelijkbare activiteit of een vergelijkbaar kenmerk. Adobe adviseert het controleren van [&#x200B; dit leerprogramma op kwalitatieve cohorts &#x200B;](../dev-reports/create-qual-cohort-analysis.md) om begonnen te worden.

@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >De beschikbaarheid van sommige dashboards hangt van uw dataset af.
 
-Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp voor.
+Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp voor.
 
 ## Uitvoerend overzicht
 
@@ -29,17 +29,17 @@ Er is een algemene set grafieken voor u opgenomen. Adobe raadt u aan dit dashboa
 
 ## Cohortanalyse
 
-Het dashboard van `cohort analysis` omvat een reeks grafieken die de gemiddelde de inkomstengroei van de gebruikersleven en de stijgende opbrengstgroei tonen gegroepeerd door registratiecolades. Dit onthult of de waarde van het klantenleven (LTV), de waarde van een klant aan een zaken, stijgt in tijd, en ook tendensen rond de groei van LTV identificeert. Door gebrek, *worden alle geregistreerde gebruikers (kopers en niet-kopers) rekenschap gegeven* in de gemiddelde berekening LTV - zie het [ onderwerp van de cohortanalyse ](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+Het dashboard van `cohort analysis` omvat een reeks grafieken die de gemiddelde de inkomstengroei van de gebruikersleven en de stijgende opbrengstgroei tonen gegroepeerd door registratiecolades. Dit onthult of de waarde van het klantenleven (LTV), de waarde van een klant aan een zaken, stijgt in tijd, en ook tendensen rond de groei van LTV identificeert. Door gebrek, *worden alle geregistreerde gebruikers (kopers en niet-kopers) rekenschap gegeven* in de gemiddelde berekening LTV - zie het [&#x200B; onderwerp van de cohortanalyse &#x200B;](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
 
 Dit dashboard kan ook cohortgrafieken bevatten die de levensinkomsten van gebruikers van een specifieke aanschafbron, kanaal of demografisch (bijvoorbeeld New York of Californië) analyseren. Dit moet aantonen hoe u LTV voor specifieke segmenten van uw gebruikersbasis kunt analyseren en zien of één groep of een andere hogere LTV in tijd opbrengt.
 
-Voor meer informatie over cohorts, zie [ Uitvoerend de Analyse van de Cohort ](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+Voor meer informatie over cohorts, zie [&#x200B; Uitvoerend de Analyse van de Cohort &#x200B;](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
 
-Als u momenteel geen bron van de gebruikersverwerving volgt, zie het [ Overzicht van de Gegevens van de Acquisitie Source van het Spoor ](../../data-analyst/analysis/google-track-user-acq.md).
+Als u momenteel geen bron van de gebruikersverwerving volgt, zie het [&#x200B; Overzicht van de Gegevens van de Acquisitie Source van het Spoor &#x200B;](../../data-analyst/analysis/google-track-user-acq.md).
 
 ## Overzicht van e-mail
 
-Het dashboard van `Email Summary` bevat een voorbeeldset met grafieken die kunnen worden gebruikt in een geautomatiseerde dagelijkse e-mailsamenvatting. Verwijs naar [ het creëren van geautomatiseerde e-mailoverzichten ](../../data-user/export-data/email-summaries.md) voor meer informatie bij het vormen van e-mailoverzichten.  
+Het dashboard van `Email Summary` bevat een voorbeeldset met grafieken die kunnen worden gebruikt in een geautomatiseerde dagelijkse e-mailsamenvatting. Verwijs naar [&#x200B; het creëren van geautomatiseerde e-mailoverzichten &#x200B;](../../data-user/export-data/email-summaries.md) voor meer informatie bij het vormen van e-mailoverzichten.  
 
 ## Retentie gezondheid
 
