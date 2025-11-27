@@ -4,9 +4,9 @@ description: Leer hoe u de gezondheid van essentiële gegevens kunt controleren,
 exl-id: f50fc417-e5d4-401c-9baa-cda1468196a2
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Dashboards
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: 3a7423c9dd0f957b77baa27b3447a715caad017b
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >De beschikbaarheid van sommige dashboards hangt van uw dataset af.
 
-Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor hulp voor.
+Als u vragen hebt of u geinteresseerd in het toevoegen van een pakket aan uw rekening bent, leg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor hulp voor.
 
 ## Uitvoerend overzicht
 
@@ -29,23 +29,23 @@ Er is een algemene set grafieken voor u opgenomen. Adobe raadt u aan dit dashboa
 
 ## Cohortanalyse
 
-Het dashboard van `cohort analysis` omvat een reeks grafieken die de gemiddelde de inkomstengroei van de gebruikersleven en de stijgende opbrengstgroei tonen gegroepeerd door registratiecolades. Dit onthult of de waarde van het klantenleven (LTV), de waarde van een klant aan een zaken, stijgt in tijd, en ook tendensen rond de groei van LTV identificeert. Door gebrek, *worden alle geregistreerde gebruikers (kopers en niet-kopers) rekenschap gegeven* in de gemiddelde berekening LTV - zie het [&#x200B; onderwerp van de cohortanalyse &#x200B;](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+Het dashboard van `cohort analysis` omvat een reeks grafieken die de gemiddelde de inkomstengroei van de gebruikersleven en de stijgende opbrengstgroei tonen gegroepeerd door registratiecolades. Dit onthult of de waarde van het klantenleven (LTV), de waarde van een klant aan een zaken, stijgt in tijd, en ook tendensen rond de groei van LTV identificeert. Door gebrek, *worden alle geregistreerde gebruikers (kopers en niet-kopers) rekenschap gegeven* in de gemiddelde berekening LTV - zie het [ onderwerp van de cohortanalyse ](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
 
 Dit dashboard kan ook cohortgrafieken bevatten die de levensinkomsten van gebruikers van een specifieke aanschafbron, kanaal of demografisch (bijvoorbeeld New York of Californië) analyseren. Dit moet aantonen hoe u LTV voor specifieke segmenten van uw gebruikersbasis kunt analyseren en zien of één groep of een andere hogere LTV in tijd opbrengt.
 
-Voor meer informatie over cohorts, zie [&#x200B; Uitvoerend de Analyse van de Cohort &#x200B;](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
+Voor meer informatie over cohorts, zie [ Uitvoerend de Analyse van de Cohort ](../../data-analyst/dev-reports/cohort-rpt-bldr.md).
 
-Als u momenteel geen bron van de gebruikersverwerving volgt, zie het [&#x200B; Overzicht van de Gegevens van de Acquisitie Source van het Spoor &#x200B;](../../data-analyst/analysis/google-track-user-acq.md).
+Als u momenteel geen bron van de gebruikersverwerving volgt, zie het [ Overzicht van de Gegevens van de Acquisitie Source van het Spoor ](../../data-analyst/analysis/google-track-user-acq.md).
 
 ## Overzicht van e-mail
 
-Het dashboard van `Email Summary` bevat een voorbeeldset met grafieken die kunnen worden gebruikt in een geautomatiseerde dagelijkse e-mailsamenvatting. Verwijs naar [&#x200B; het creëren van geautomatiseerde e-mailoverzichten &#x200B;](../../data-user/export-data/email-summaries.md) voor meer informatie bij het vormen van e-mailoverzichten.  
+Het dashboard van `Email Summary` bevat een voorbeeldset met grafieken die kunnen worden gebruikt in een geautomatiseerde dagelijkse e-mailsamenvatting. Verwijs naar [ het creëren van geautomatiseerde e-mailoverzichten ](../../data-user/export-data/email-summaries.md) voor meer informatie bij het vormen van e-mailoverzichten.  
 
 ## Retentie gezondheid
 
 Het dashboard van `Retention health` onthult het herhaalde aankoopgedrag van uw gebruikersbasis.
 
-In het `Time between orders` -diagram wordt de gemiddelde en/of gemiddelde verstreken tijd weergegeven tussen de eerste en tweede volgorde van een gebruiker, de tweede en de derde volgorde, enzovoort. U kunt [&#x200B; overwegen gebruikend deze gegevens om uw e-mail marketing campagnes &#x200B;](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/) te vormen.
+In het `Time between orders` -diagram wordt de gemiddelde en/of gemiddelde verstreken tijd weergegeven tussen de eerste en tweede volgorde van een gebruiker, de tweede en de derde volgorde, enzovoort. U zou kunnen overwegen gebruikend deze gegevens om uw e-mail marketing campagnes te vormen.
 
 In de grafiek `Users by lifetime number of orders` wordt het totale aantal gebruikers voor elk levenslange aantal bestellingen weergegeven om een algemeen overzicht te geven van herhaald aankoopgedrag.  
 
@@ -89,7 +89,7 @@ Het dashboard van `Users to target` bevat tabellen met diagrammen waarin gebruik
 
 * Lijst met topsponsors die de afgelopen `X` dagen actief waren (die u mogelijk wilt belonen)
 
-Gebruikend uw hulpmiddelen van de gegevensuitvoer, is het gemakkelijk om e-maillijsten van gebruikers met gelijkaardig het kopen gedrag voor doel marketing [&#x200B; tot stand te brengen.](http://blog.rjmetrics.com/creating-contact-lists-for-top-customers/)
+Met de gereedschappen voor het exporteren van gegevens kunt u e-maillijsten maken van gebruikers met een vergelijkbaar aankoopgedrag voor de doelmarketing.
 
 ## Gebruikersactiviteit
 
@@ -97,4 +97,4 @@ Het dashboard van `User activity` omvat grafieken die gebruikers door diverse ge
 
 Het diagram `% of cohort members who have purchased` is waardevol omdat het de conversieverhouding (van 0 tot en met 1) van gebruikers weergeeft op basis van het tijdstip waarop ze zich registreren (elke regel vertegenwoordigt een cohort van gebruikers). Het toont ook wanneer zij hun eerste aankoop (bijvoorbeeld in maand 1, 2, 3... na registratie) maken. Dit kan u aantonen dat 10% van gebruikers geactiveerd in maand 1, terwijl dit aantal groeit in maand 2, 3, 4.. en kan later plateau.
 
-Doorgaans worden de lijnen in dit diagram horizontaal na een bepaalde periode. Dit wijst erop dat weinig extra cohort leden organisch na dat punt omzetten - de meeste gebruikers die een aankoop gaan maken hebben reeds dit gedaan. Op dit moment is het zeer onwaarschijnlijk dat deze leden zich zonder tussenkomst tot de kopers zullen wenden. [&#x200B; het bereiken van uit aan hen met douanebevorderingen of gerichte e-mails is een laag-risicomodus om omschakeling van deze bevolking te springen.](http://blog.rjmetrics.com/acting-on-marketing-data-in-your-rjmetrics-online-dashboard/)
+Doorgaans worden de lijnen in dit diagram horizontaal na een bepaalde periode. Dit wijst erop dat weinig extra cohort leden organisch na dat punt omzetten - de meeste gebruikers die een aankoop gaan maken hebben reeds dit gedaan. Op dit moment is het zeer onwaarschijnlijk dat deze leden zich zonder tussenkomst tot de kopers zullen wenden. Het bereiken van naar hen met aangepaste promoties of gerichte e-mails is een manier met weinig risico om deze populatie snel om te zetten.

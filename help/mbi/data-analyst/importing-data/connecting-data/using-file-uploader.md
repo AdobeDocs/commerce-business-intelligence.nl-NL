@@ -4,9 +4,9 @@ description: Leer hoe u al uw gegevens in één Data Warehouse plaatst.
 exl-id: 28db0e78-0222-431d-bbb9-6ef133686603
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
+source-git-commit: 736dbdc3ea6bc8b7c852f06110705765f040c31f
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1293'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vereist [&#x200B; toestemmingen Admin &#x200B;](../../../administrator/user-management/user-management.md).
+>Vereist [ toestemmingen Admin ](../../../administrator/user-management/user-management.md).
 
 [!DNL Adobe Commerce Intelligence] is niet alleen krachtig vanwege de visualisatiefuncties, maar ook omdat u hiermee alle gegevens in één Data Warehouse kunt plaatsen. Zelfs gegevens die zich buiten uw databases en integraties bevinden, kunnen in [!DNL Commerce Intelligence] worden overgebracht met het gereedschap Bestand uploaden in Data Warehouse Manager.
 
@@ -24,7 +24,7 @@ Gebruik advertentiecampagnes als voorbeeld. Als u zowel online als offline campa
 ## Beperkingen en eisen {#require}
 
 1. **de enige ondersteunde indeling voor het uploaden van bestanden is `CSV` of`comma separated values`** . Als u in Excel werkt, kunt u het bestand opslaan in de `.csv` -indeling met de functie Opslaan als.
-1. **`CSV`-bestanden moeten`UTF-8 encoding`** gebruiken. Meestal is dit geen probleem. Als u deze fout terwijl het uploaden van een dossier ontmoet, [&#x200B; raadpleeg dit artikel van Steun &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html?lang=nl-NL).
+1. **`CSV`-bestanden moeten`UTF-8 encoding`** gebruiken. Meestal is dit geen probleem. Als u deze fout terwijl het uploaden van een dossier ontmoet, [ raadpleeg dit artikel van Steun ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.html).
 1. **de Dossiers kunnen niet groter zijn dan 100MB**. Als het bestand groter is dan dit, scheidt u de tabel in delen en slaat u deze op als afzonderlijke bestanden. U kunt de gegevens toevoegen nadat het eerste bestand is geladen.
 1. **Alle lijsten moeten a`primary key`** hebben. Er moet ten minste één kolom in de tabel staan die als `primary key` kan worden gebruikt, of een unieke id voor elke rij in de tabel. Om het even welke kolom die als a `primary key` wordt aangewezen kan *nooit* ongeldig zijn. Een `primary key` kan zo eenvoudig zijn als het toevoegen van een kolom die een getal aan elke rij geeft, of kan twee kolommen zijn die worden samengevoegd om een kolom met unieke waarden te maken (bijvoorbeeld `campaign name` en `date` ).
 
@@ -46,7 +46,7 @@ Omdat bestanden de `CSV` -indeling moeten hebben, kan het gebruik van komma&#39;
 
 ### Datums
 
-Om het even welke dataset die data omvat moet het [&#x200B; standaarddatumformaat &#x200B;](https://dev.mysql.com/doc/refman/5.7/en/datetime.html) gebruiken `YYYY-MM-DD HH:MM:SS` of `MM/DD/YYYY`.
+Om het even welke dataset die data omvat moet het [ standaarddatumformaat ](https://dev.mysql.com/doc/refman/5.7/en/datetime.html) gebruiken `YYYY-MM-DD HH:MM:SS` of `MM/DD/YYYY`.
 
 ### Speciale tekens
 
@@ -69,13 +69,13 @@ Percentages moeten als decimalen worden ingevoerd. Bijvoorbeeld:
 
 ### Waarden met voorloopnullen en/of volgnullen {#zeroes}
 
-Sommige waarden in het bestand (zoals ZIP-codes en id&#39;s) kunnen met nullen beginnen of eindigen. Om ervoor te zorgen dat nullen behoorlijk worden behouden en geupload, kunt u het formatteren type (bijvoorbeeld, [&#x200B; van aantal in tekst &#x200B;](https://support.microsoft.com/en-us/office/format-numbers-as-text-583160db-936b-4e52-bdff-6f1863518ba4?ui=en-us&rs=en-us&ad=us)) veranderen of aantal het formatteren afdwingen.
+Sommige waarden in het bestand (zoals ZIP-codes en id&#39;s) kunnen met nullen beginnen of eindigen. Om ervoor te zorgen dat nullen behoorlijk worden behouden en geupload, kunt u het formatteren type (bijvoorbeeld, [ van aantal in tekst ](https://support.microsoft.com/en-us/office/format-numbers-as-text-583160db-936b-4e52-bdff-6f1863518ba4?ui=en-us&rs=en-us&ad=us)) veranderen of aantal het formatteren afdwingen.
 
-Gebruik `US ZIP codes` als voorbeeld van het wijzigen van getalnotatie. In [!DNL Excel], benadruk de kolom die `ZIP codes` bevat en [&#x200B; verandert het aantalformaat &#x200B;](https://support.microsoft.com/en-us/office/display-numbers-as-postal-codes-61b55c9f-6fe3-4e54-96ca-9e85c38a5a1d?ui=en-us&rs=en-us&ad=us) in `ZIP code`. U kunt ook een aangepaste getalnotatie selecteren en vervolgens `Type` invoeren in het venster `00000` . Houd er rekening mee dat deze methode problemen kan opleveren als sommige codes zijn opgemaakt als `00000` en andere `00000-0000` zijn.
+Gebruik `US ZIP codes` als voorbeeld van het wijzigen van getalnotatie. In [!DNL Excel], benadruk de kolom die `ZIP codes` bevat en [ verandert het aantalformaat ](https://support.microsoft.com/en-us/office/display-numbers-as-postal-codes-61b55c9f-6fe3-4e54-96ca-9e85c38a5a1d?ui=en-us&rs=en-us&ad=us) in `ZIP code`. U kunt ook een aangepaste getalnotatie selecteren en vervolgens `Type` invoeren in het venster `00000` . Houd er rekening mee dat deze methode problemen kan opleveren als sommige codes zijn opgemaakt als `00000` en andere `00000-0000` zijn.
 
-`Type` kan [&#x200B; verschillend worden geformatteerd om andere gegevenstypes &#x200B;](https://support.microsoft.com/en-us/office/keeping-leading-zeros-and-large-numbers-1bf7b935-36e1-4985-842f-5dfa51f85fe7?correlationid=e1d4c2d3-cd5d-4a14-999d-437800274a90&ui=en-us&rs=en-us&ad=us), zoals IDs aan te passen. Als een `ID` bijvoorbeeld negen cijfers lang is, kan de `Type` zijn `000000000` of `000-000-000` . Dit zou `123456` in `000-123-456` veranderen.
+`Type` kan [ verschillend worden geformatteerd om andere gegevenstypes ](https://support.microsoft.com/en-us/office/keeping-leading-zeros-and-large-numbers-1bf7b935-36e1-4985-842f-5dfa51f85fe7?correlationid=e1d4c2d3-cd5d-4a14-999d-437800274a90&ui=en-us&rs=en-us&ad=us), zoals IDs aan te passen. Als een `ID` bijvoorbeeld negen cijfers lang is, kan de `Type` zijn `000000000` of `000-000-000` . Dit zou `123456` in `000-123-456` veranderen.
 
-Voor [!DNL Google Docs] en [!DNL Apple Numbers] middelen, verwijs naar de [&#x200B; Verwante &#x200B;](#related) lijst bij de bodem van deze pagina.
+Voor [!DNL Google Docs] en [!DNL Apple Numbers] middelen, verwijs naar de [ Verwante ](#related) lijst bij de bodem van deze pagina.
 
 ## Gegevens uploaden {#uploading}
 
@@ -105,11 +105,11 @@ A *Succes!* wordt boven in het scherm weergegeven nadat de tabel is opgeslagen.
 
 Kijk naar het hele proces als u een visuele oplossing nodig hebt:
 
-![&#x200B; Geanimeerde demonstratie van dossier uploadt proces dat gegevens toont die worden toegevoegd &#x200B;](../../../assets/fileupload.gif)
+![ Geanimeerde demonstratie van dossier uploadt proces dat gegevens toont die worden toegevoegd ](../../../assets/fileupload.gif)
 
 De geüploade lijsten tonen onder **Dossier uploadt** sectie van het lijstoverzicht (in zowel Alle Lijsten als de Gesynchroniseerde opties van Lijsten) in de Manager van Data Warehouse:
 
-![&#x200B; uploadt de interface van lijsten die beschikbare lijsten voor gegevensinvoer tonen &#x200B;](../../../assets/upload-tables.png)
+![ uploadt de interface van lijsten die beschikbare lijsten voor gegevensinvoer tonen ](../../../assets/upload-tables.png)
 
 ## Gegevens bijwerken of toevoegen aan een bestaande tabel {#appending}
 
@@ -143,7 +143,7 @@ Net als berekende kolommen, zijn de gegevens van dossier uploadt beschikbaar nad
 
 Dit onderwerp behandelde slechts de grondbeginselen voor het gebruiken van het invoeren van gegevens, maar u kunt iets geavanceerder willen doen. Lees de verwante artikelen voor hulp bij het formatteren en invoeren van financiële, eCommerce, en uitgaven, en andere soorten gegevens.
 
-Uploaden van bestanden is niet de enige manier om uw gegevens in [!DNL Commerce Intelligence] in te voeren. De [&#x200B; invoer API van Gegevens &#x200B;](https://developer.adobe.com/commerce/services/reporting/import-api/) functies staan u toe om willekeurige gegevens in uw [!DNL Commerce Intelligence] Data Warehouse te duwen.
+Uploaden van bestanden is niet de enige manier om uw gegevens in [!DNL Commerce Intelligence] in te voeren. De [ invoer API van Gegevens ](https://developer.adobe.com/commerce/services/reporting/import-api/) functies staan u toe om willekeurige gegevens in uw [!DNL Commerce Intelligence] Data Warehouse te duwen.
 
 ## Verwante {#related}
 
@@ -151,7 +151,6 @@ Uploaden van bestanden is niet de enige manier om uw gegevens in [!DNL Commerce 
 * [Offline/andere gegevens importeren en gegevens besteden](../connecting-data/import-offline-ad-data.md)
 * [[!DNL Google ECommerce] gegevens verwacht](../integrations/google-ecommerce-data.md)
 
-## Bronnen van derden
+## Bron van derden
 
-* [&#x200B; de Formatterende Gids van Gegevens van Aantallen &#x200B;](http://www.dummies.com/how-to/content/how-to-choose-a-number-format-in-your-numbers-spre.html)
-* [[!DNL Google Docs]  de Formatterende Gids van Gegevens &#x200B;](https://support.google.com/docs/answer/56470?hl=en)
+* [[!DNL Google Docs]  de Formatterende Gids van Gegevens ](https://support.google.com/docs/answer/56470?hl=en)

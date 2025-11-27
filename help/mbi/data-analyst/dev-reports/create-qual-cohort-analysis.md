@@ -4,9 +4,9 @@ description: Leer wat een kwalitatief cohort is, waarom je geïnteresseerd bent 
 exl-id: 113244e4-409b-4129-b3d4-7a3433539ade
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Reports
-source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
+source-git-commit: 736dbdc3ea6bc8b7c852f06110705765f040c31f
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ Dit onderwerp duikt in wat een kwalitatieve cohort is, waarom u in het bouwen va
 ## Wat zijn `qualitative cohorts` toch? {#whatare}
 
 In het algemeen kan de analyse van `Cohort` globaal worden gedefinieerd als de analyse van gebruikersgroepen die gedurende hun levenscyclus vergelijkbare kenmerken delen. Hiermee kunt u gedragstrends in verschillende gebruikersgroepen identificeren.
-
-Zie [&#x200B; cohortanalyse &#x200B;](https://www.cohortanalysis.com/).
 
 De meeste `cohort` analyses in [!DNL Commerce Intelligence] groeperen gebruikers samen door een gemeenschappelijke datum (bijvoorbeeld, de reeks alle klanten die hun eerste aankoop in een bepaalde maand maakten). Een `qualitative cohort` is iets anders: het is een gebruikersgroep die wordt gedefinieerd door een kenmerk dat niet op tijd is gebaseerd. Voorbeelden zijn:
 
@@ -37,9 +35,9 @@ Als u echter het cohortgedrag van meerdere gebruikerssegmenten in hetzelfde coho
 
 ## Welke informatie moet ik verstrekken om mijn analyse te ondersteunen? {#support}
 
-Creërend een `qualitative cohort` rapport in `Report Builder` impliceert het de analistenteam van Adobe die sommige [&#x200B; geavanceerde berekende kolommen &#x200B;](../data-warehouse-mgr/creating-calculated-columns.md) creëren op de noodzakelijke lijsten.
+Creërend een `qualitative cohort` rapport in `Report Builder` impliceert het de analistenteam van Adobe die sommige [ geavanceerde berekende kolommen ](../data-warehouse-mgr/creating-calculated-columns.md) creëren op de noodzakelijke lijsten.
 
-Om deze te bouwen, voorleg a [&#x200B; steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) (en verwijzing dit artikel!). Dit is wat u moet weten:
+Om deze te bouwen, voorleg a [ steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) (en verwijzing dit artikel!). Dit is wat u moet weten:
 
 * De `metric` waarmee u de cohortanalyse wilt uitvoeren en de tabel waarin deze wordt gebruikt (bijvoorbeeld: `Revenue` , gebaseerd op de tabel `orders` ).
 
@@ -55,7 +53,7 @@ Als het Adobe-analistenteam op het bovenstaande reageert, hebt u een paar nieuwe
 
 Eerst wilt u de metrische waarde toevoegen die u interesseert voor cohoring, eenmaal voor elke `cohort` die u analyseert. In dit voorbeeld wilt u dat cumulatief `Revenue` wordt gemaakt in de maanden na de eerste bestelling van een klant, gesegmenteerd door `User's referral source` . Dit betekent dat u voor elk segment één `Revenue` metrische waarde en filter voor het specifieke segment toevoegt:
 
-![&#x200B; Geanimeerde demonstratie van het creëren van een kwalitatieve cohortanalyse &#x200B;](../../assets/qualcohort1.gif)
+![ Geanimeerde demonstratie van het creëren van een kwalitatieve cohortanalyse ](../../assets/qualcohort1.gif)
 
 Ten tweede moet u twee wijzigingen aanbrengen in de tijdopties van het rapport:
 
@@ -65,7 +63,7 @@ Ten tweede moet u twee wijzigingen aanbrengen in de tijdopties van het rapport:
 
 In dit voorbeeld bekijkt u een `all time` weergave van `Revenue` . Daarna, zou u met een reeks punten moeten eindigen:
 
-![&#x200B; Geanimeerde demonstratie van cohort groepering en analyseopties &#x200B;](../../assets/qualcohort2.gif)
+![ Geanimeerde demonstratie van cohort groepering en analyseopties ](../../assets/qualcohort2.gif)
 
 Ten derde past u zich aan om de `cohorts` in te stellen. Op basis van de `cohort date` en `time interval` die u hebt opgegeven voor het Adobe-analistteam, hebt u een dimensie in uw account die de `cohort` -bewerking uitvoert. In dit voorbeeld wordt die aangepaste dimensie `Months between this order and customer's first order date` genoemd. Met deze dimensie moet u:
 
