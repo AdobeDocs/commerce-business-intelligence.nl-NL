@@ -4,9 +4,9 @@ description: Leer hoe u geautomatiseerde e-mailoverzichten kunt maken.
 exl-id: a9aea4fc-9193-467f-8554-3ad77ac3fa73
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration, Data Import/Export
-source-git-commit: 6e2f9e4a9e91212771e6f6baa8c2f8101125217a
+source-git-commit: a65ededb203b7551fdfcb31cff130ef85b01fbe3
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -34,17 +34,32 @@ E-mailoverzichten zijn een krachtig communicatiemiddel waarmee u de status en tr
 
 1. Selecteer in de sectie `Choose Content` de rapporten die u in het overzicht wilt opnemen.
 
-   U kunt maximaal tien rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [&#x200B; het Leiden uw rekeningsmontages &#x200B;](../../administrator/account-management/managing-account-settings.md).
+   U hebt twee opties voor het toevoegen van inhoud:
+
+   * **Uitgezochte Individuele Rapporten** - kies specifieke rapporten van uw dashboards
+   * **Uitgezochte Gehele Dashboard** - omvat alle rapporten van een dashboard aangezien zij in de dashboardlay-out verschijnen
+
+   U kunt maximaal tien rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [ het Leiden uw rekeningsmontages ](../../administrator/account-management/managing-account-settings.md).
+
+   Voor het toevoegen van volledige dashboards, hebt u het volgende formaat en schrappingsopties:
+
+   * Wijzig het formaat van het rapport in een grafiek of een lijst
+   * Rapporten verwijderen uit de opname in de e-mail
+   * Schakel deze optie in om een CSV-bestand op te nemen voor tabelrapporten. Ontvangers hebben dan rechtstreeks vanuit hun Postvak IN toegang tot onbewerkte, exporteerbare gegevens.
 
    >[!NOTE]
    >
    >`Cohort` -rapporten zijn alleen beschikbaar als u de nieuwe architectuur gebruikt.
 
+   >[!NOTE]
+   >
+   >Grote CSV-bijlagen worden ondersteund tot een totaal van 25 MB per e-mail.
+
 1. (Optioneel) Selecteer `Send Email To Me` als u het e-mailbericht wilt ontvangen.
 
 1. Als u andere gebruikers in de e-mail wilt opnemen, voert u hun e-mailadressen in het veld `Add Email Recipients` in, gescheiden door komma&#39;s, spaties, tabs of puntkomma&#39;s.
 
-## E-mailoverzicht plannen
+## Overzicht e-mail plannen
 
 In het veld `Set when to send the Email Summary` kunt u opgeven wanneer de e-mailsamenvattingen moeten worden verzonden. De opties zijn:
 
@@ -52,7 +67,7 @@ In het veld `Set when to send the Email Summary` kunt u opgeven wanneer de e-mai
 * `Once`
 * `Repeating`
 
-### E-mailoverzicht opslaan om op een latere datum te worden verzonden
+### E-mailoverzicht opslaan om later te worden verzonden
 
 1. Selecteer `Manual` in het veld `Set when to send the Email Summary` .
 
@@ -82,20 +97,24 @@ In het veld `Set when to send the Email Summary` kunt u opgeven wanneer de e-mai
 
 1. (Optioneel) Als u een einddatum wilt opgeven, selecteert u `End Date` en selecteert u de einddatum in de kalender.
 
-## Bestaande e-mailoverzicht wijzigen
+## Bestaande e-mailsamenvatting wijzigen
 
-Nadat u een e-mailoverzicht hebt gemaakt en opgeslagen, wordt op de pagina `Email Summaries` een lijst met alle opgeslagen samenvattingen weergegeven. U kunt (`+`) elke rij voor meer informatie uitbreiden. De kolommen in deze weergave zijn:
+Nadat u een e-mailoverzicht hebt gemaakt en opgeslagen, wordt op de pagina `Email Summaries` een lijst met alle opgeslagen samenvattingen weergegeven. U kunt (`+`) in elke rij voor meer informatie uitbreiden. De kolommen in deze weergave zijn:
 
 * `Email Name` - Naam van het e-mailoverzicht
-* `Content` - Type inhoud in het overzicht, zoals de namen van rapporten. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [&#x200B; het Leiden uw rekeningsmontages &#x200B;](../../administrator/account-management/managing-account-settings.md).
+* `Content` - Type inhoud in het overzicht, zoals de namen van rapporten
 * `Scheduled` - Frequentie, datum en tijd waarop de e-mailsamenvatting wordt verzonden
-* `Recipients` - Ontvangers van de e-mailsamenvatting
+* `Recipients` - Ontvangers van het e-mailoverzicht
 * `Created Date` - De datum waarop het e-mailoverzicht is gemaakt
 * `Status` - `Paused` of `Active`
 
+>[!NOTE]
+>
+>Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [ het Leiden uw rekeningsmontages ](../../administrator/account-management/managing-account-settings.md).
+
 Klik op het tandwielpictogram rechts van elke rij naar:
 
-* `Send Now` - Hiermee verzendt u het e-mailoverzicht direct naar alle opgegeven ontvangers
-* `Edit` - Hiermee kunt u de details van het e-mailoverzicht wijzigen
-* `Pause/Active` - Hiermee kunt u de e-mailsamenvatting onderbreken zodat deze niet wordt bezorgd of kunt u de samenvatting inschakelen op basis van de configuratie ervan
-* `Delete` - Verwijdert het e-mailoverzicht
+* `Send Now` - Verzend het e-mailoverzicht direct naar alle opgegeven ontvangers
+* `Edit` - De details van het e-mailoverzicht wijzigen
+* `Pause/Active` - De verzending van de samenvatting van de e-mail pauzeren of activeren
+* `Delete` - Het e-mailoverzicht verwijderen
