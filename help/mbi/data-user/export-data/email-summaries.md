@@ -39,7 +39,7 @@ E-mailoverzichten zijn een krachtig communicatiemiddel waarmee u de status en tr
    * **Uitgezochte Individuele Rapporten** - kies specifieke rapporten van uw dashboards
    * **Uitgezochte Gehele Dashboard** - omvat alle rapporten van een dashboard aangezien zij in de dashboardlay-out verschijnen
 
-   U kunt maximaal tien rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [ het Leiden uw rekeningsmontages ](../../administrator/account-management/managing-account-settings.md).
+   U kunt maximaal tien rapporten selecteren die u bezit. Nadat u een rapport hebt geselecteerd, gebruikt u de pictogrammen die worden weergegeven om te selecteren of u dat rapport als een tabel of grafiek wilt verzenden. Als u het rapport hebt opgeslagen als een getal, kunt u het alleen als een getal verzenden. Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [&#x200B; het Leiden uw rekeningsmontages &#x200B;](../../administrator/account-management/managing-account-settings.md).
 
    Voor het toevoegen van volledige dashboards, hebt u het volgende formaat en schrappingsopties:
 
@@ -110,7 +110,7 @@ Nadat u een e-mailoverzicht hebt gemaakt en opgeslagen, wordt op de pagina `Emai
 
 >[!NOTE]
 >
->Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [ het Leiden uw rekeningsmontages ](../../administrator/account-management/managing-account-settings.md).
+>Voor informatie over het verzenden van een e-mailsamenvatting die een rapport met stapelgegevens bevat, zie [&#x200B; het Leiden uw rekeningsmontages &#x200B;](../../administrator/account-management/managing-account-settings.md).
 
 Klik op het tandwielpictogram rechts van elke rij naar:
 
