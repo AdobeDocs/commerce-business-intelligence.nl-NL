@@ -1,7 +1,7 @@
 ---
-source-git-commit: 199353c57dd1ca316c2a8b76fee1148d0e342299
+source-git-commit: 98e0c5dbd61d6d0f8d1a6e09d239cb25cbab8f81
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ Deze map bevat vooraf vastgelegde haken die afbeeldingen automatisch optimaliser
 
 ## Wat de haken doen
 
-- **ontdekt automatisch** gestagte beelddossiers (PNG, JPG, JPEG, GIF, SVG)
+- **ontdekt automatisch** gestagte beelddossiers (PNG, JPG, JPEG, GIF)
 - **Uitvoeren`image_optim`** om afbeeldingen te comprimeren en te optimaliseren
 - **re-stage geoptimaliseerde beelden** automatisch
 - **verzeker alle toegewijde beelden** behoorlijk worden geoptimaliseerd
@@ -85,11 +85,11 @@ Image optimization complete!
 ## Richtlijnen voor afbeeldingen
 
 - **PNG**: Gebruik voor screenshots en elementen UI (zal automatisch worden geoptimaliseerd)
-- **SVG**: Gebruik voor pictogrammen en eenvoudige grafiek (optimalisering die door gebrek wordt onbruikbaar gemaakt)
+- **SVG**: Gebruik voor pictogrammen en eenvoudige grafiek (niet auto-geoptimaliseerd door pre-commit haak)
 - **JPEG**: Gebruik voor foto&#39;s (zal automatisch worden geoptimaliseerd)
 - **GIF**: Gebruik voor animaties (zal automatisch worden geoptimaliseerd)
 
-De haken die vooraf worden vastgelegd, optimaliseren automatisch alle afbeeldingen bij het toewijzen.
+De haken die vooraf worden vastgelegd, optimaliseren bij toewijzen automatisch PNG-, JPEG- en GIF-afbeeldingen.
 
 ## Handmatige optimalisatie
 
@@ -138,10 +138,13 @@ De haken gebruiken het configuratiedossier `_jekyll/.image_optim.yml` om optimal
 
 ## Ondersteunde afbeeldingsindelingen
 
+De haakjes die voorafgaan, verwerken automatisch:
+
 - **PNG** (`.png`) - Lossless en verliesvrije compressie
 - **JPEG** (`.jpg`, `.jpeg`) - Lossy compressie met meta-gegevensschoonmaak
 - **GIF** (`.gif`) - Animatie en statische optimalisering
-- **SVG** (`.svg`) - Vectoroptimalisering (gehandicapt door gebrek)
+
+**Nota**: De optimalisering van SVG wordt onbruikbaar gemaakt door gebrek (kan complexe vectorgrafiek en animaties breken). SVG-bestanden worden niet automatisch verwerkt door de vooraf vastgelegde haak.
 
 ## Aanbevolen procedures
 
