@@ -4,9 +4,9 @@ description: Leer hoe u in Data Warehouse Manager door de tabellen kunt bladeren
 exl-id: 94beba8b-6a86-4af9-87fb-96b1cf8f8fa2
 role: Admin, Data Architect, Data Engineer, User
 feature: Commerce Tables, Data Warehouse Manager, Data Integration
-source-git-commit: 4d04b79d55d02bee6dfc3a810e144073e7353ec0
+source-git-commit: d683f1362d87eee16c41ba9a8a83a9ff533b14aa
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Integraties worden toegevoegd en beheerd met behulp van de pagina `Connections` 
 
 * de laatste keer dat een verbindingstest (`Last Connection Started` kolom) werd uitgevoerd
 
-![&#x200B; Gegevens \_Bronnen\_Table.png &#x200B;](../../../assets/Data_Sources_Table.png)
+![ Gegevens \_Bronnen\_Table.png ](../../../assets/Data_Sources_Table.png)
 
 ## Typen integraties
 
@@ -33,9 +33,9 @@ U kunt uw gegevens op vier manieren in [!DNL Commerce Intelligence] opnemen: een
 
 ## Database-integratie
 
-![&#x200B; Gegevensbestand \_icons.jpg &#x200B;](../../../assets/Database_icons.jpg)
+![ Gegevensbestand \_icons.jpg ](../../../assets/Database_icons.jpg)
 
-[!DNL Commerce Intelligence] steunt op SQL-Gebaseerde en gegevensbestanden NoSQL zoals [&#x200B; MySQL &#x200B;](../../importing-data/integrations/mysql-via-ssh-tunnel.md), [&#x200B; Microsoft SQL &#x200B;](../integrations/microsoft-sql-server.md), [&#x200B; MongoDB &#x200B;](../integrations/mongodb-via-ssh-tunnel.md), en [&#x200B; PostgreSQL &#x200B;](../integrations/postgresql.md).
+[!DNL Commerce Intelligence] steunt op SQL-Gebaseerde en gegevensbestanden NoSQL zoals [ MySQL ](../../importing-data/integrations/mysql-via-ssh-tunnel.md), [ Microsoft SQL ](../integrations/microsoft-sql-server.md), [ MongoDB ](../integrations/mongodb-via-ssh-tunnel.md), en [ PostgreSQL ](../integrations/postgresql.md).
 
 Hoewel u uw database rechtstreeks met [!DNL Commerce Intelligence] kunt verbinden via databasereferenties, raadt Adobe u aan een bewezen coderingsmethode te gebruiken, zoals een SSH-tunnel. Dit zorgt ervoor dat uw gegevens veilig en veilig blijven wanneer deze op weg zijn naar uw Data Warehouse.
 
@@ -43,15 +43,15 @@ Afhankelijk van de verbindingsmethode en het type van gegevensbestand, zou wat t
 
 ## `SaaS` Integraties
 
-![&#x200B; de integratiepictogrammen van SaaS die diverse gesteunde platforms &#x200B;](../../../assets/SaaS_icons.jpg) tonen pree-commerce-logo.png
+![ de integratiepictogrammen van SaaS die diverse gesteunde platforms ](../../../assets/SaaS_icons.jpg) tonen pree-commerce-logo.png
 
 `SaaS` integraties zijn services zoals [[!DNL Google Adwords]](../integrations/google-adwords.md) , [[!DNL Salesforce]](../integrations/salesforce.md) en [[!DNL Zendesk]](../integrations/zendesk.md) . Aangezien gegevens van derden op de server van de leverancier aanwezig zijn, kunt u deze niet rechtstreeks benaderen zoals u dat kunt met de gegevens in uw database.
 
-Doorgaans is het instellen van een integratie in [!DNL Commerce Intelligence] net zo eenvoudig als het invoeren van uw accountgegevens. Voor sommige services is mogelijk een API-sleutel vereist om de autorisatie te voltooien. Controle uit de [&#x200B; integratiesectie &#x200B;](../integrations/integrations.md) voor instructies bij het produceren van om het even welke geloofsbrieven u wenst.
+Doorgaans is het instellen van een integratie in [!DNL Commerce Intelligence] net zo eenvoudig als het invoeren van uw accountgegevens. Voor sommige services is mogelijk een API-sleutel vereist om de autorisatie te voltooien. Controle uit de [ integratiesectie ](../integrations/integrations.md) voor instructies bij het produceren van om het even welke geloofsbrieven u wenst.
 
 ## Bestand uploaden
 
-Weet u niet zeker hoe u gegevens van een aanvullende bron naar uw Data Warehouse kunt ophalen? [&#x200B; Gebruikend de `File Upload` eigenschap &#x200B;](../connecting-data/using-file-uploader.md) is een goede manier om in gegevens te trekken die u niet voor dagelijkse besluitvorming vereist. Na de opmaakregels kunt u `.csv` -bestanden snel uploaden naar uw Data Warehouse en deze samenvoegen met andere gegevensbronnen.
+Weet u niet zeker hoe u gegevens van een aanvullende bron naar uw Data Warehouse kunt ophalen? [ Gebruikend de `File Upload` eigenschap ](../connecting-data/using-file-uploader.md) is een goede manier om in gegevens te trekken die u niet voor dagelijkse besluitvorming vereist. Na de opmaakregels kunt u `.csv` -bestanden snel uploaden naar uw Data Warehouse en deze samenvoegen met andere gegevensbronnen.
 
 ## [!DNL Commerce Intelligence] `Import API`
 
@@ -59,17 +59,21 @@ Als u het ophalen van gegevens uit een van uw eigen bronnen liever automatiseert
 
 Het gebruik van de API vereist een beetje technische expertise - iemand die graag een klein Ruby- of PHP-script schrijft en onderhoudt, is meer dan gekwalificeerd.
 
-Meer leren over het worden begonnen met `Import API`, controleer de [&#x200B; plaats van de Ontwikkelaar &#x200B;](https://developer.adobe.com/commerce/services/reporting/) en [&#x200B; hoe te om een API sleutel &#x200B;](https://developer.adobe.com/commerce/services/reporting/import-api/) te produceren.
+Meer leren over het worden begonnen met `Import API`, controleer de [ plaats van de Ontwikkelaar ](https://developer.adobe.com/commerce/services/reporting/) en [ hoe te om een API sleutel ](https://developer.adobe.com/commerce/services/reporting/import-api/) te produceren.
 
 ## Integratie toevoegen
 
 Als u een integratie wilt toevoegen, klikt u op **[!UICONTROL Manage Data** > **Connections]** en vervolgens op **[!UICONTROL Add a New Data Source]** . Klik op het pictogram van de integratie dat u wilt toevoegen en volg de instructies in Help-onderwerpen om de volgende zaken in te stellen:
 
-* [&#x200B; Veelgestelde vragen van de Integratie &#x200B;](https://support.magento.com/hc/en-us/sections/360003161871-Integration-FAQ)
-* [Beschikbaar &#x200B;](../integrations/integrations.md)
+* [ Veelgestelde vragen van de Integratie ](https://support.magento.com/hc/en-us/sections/360003161871-Integration-FAQ)
+* [Beschikbaar ](../integrations/integrations.md)
 * [Tabellen consolideren](../../../best-practices/consolidating-your-tables.md)
 * [Toegang tot uw database beperken](../../../administrator/account-management/restrict-db-access.md)
 
-**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [&#x200B; voorlegt een steunkaartje &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html?lang=nl-NL) voor.
+**ziet geen integratie u wilt?** Sommige integraties moeten worden geactiveerd om zichtbaar te zijn in uw account. Als u iets als [!DNL Facebook] zoekt maar het niet vermeld is, [ voorlegt een steunkaartje ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies.html) voor.
 
-**als u een foutenstatus voor een integratie** ziet, controleer de [&#x200B; sectie van het Oplossen van problemen &#x200B;](https://support.magento.com/hc/en-us/sections/360003078151) voor hulp.
+**als u een foutenstatus voor een integratie** ziet, controleer de [ sectie van het Oplossen van problemen ](https://support.magento.com/hc/en-us/sections/360003078151) voor hulp.
+
+## Update-status controleren (optioneel)
+
+Nadat u bronnen hebt verbonden, wilt u mogelijk een standaardhealth check automatiseren om te bevestigen dat de volledige updates zijn voltooid. Gebruik [ de Status API van de Cyclus van de Update ](https://developer.adobe.com/commerce/services/reporting/update-cycle-status-api/) in de ontwikkelaarsdocumentatie om de meest recente voltooide updatecyclus voor uw cliënt te halen en het in interne dashboards of alarm te tonen.
