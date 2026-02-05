@@ -13,17 +13,17 @@ ht-degree: 0%
 
 # Voortgang van cyclus bijwerken
 
-Wanneer u zich aanmeldt bij het [!DNL Adobe Commerce Intelligence] -dashboard, kunt u de status van de laatste updatecyclus op verschillende manieren controleren. Het hangt allemaal van het type van [ gebruikerstoestemmingen ](../administrator/user-management/user-management.md) af dat u hebt.
+Wanneer u zich aanmeldt bij het [!DNL Adobe Commerce Intelligence] -dashboard, kunt u de status van de laatste updatecyclus op verschillende manieren controleren. Het hangt allemaal van het type van [&#x200B; gebruikerstoestemmingen &#x200B;](../administrator/user-management/user-management.md) af dat u hebt.
 
 ## Waarom zou ik de status van de Update Cycle controleren?
 
-Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw [!DNL Commerce Intelligence] rekening controleert. Als u [ resultaten ziet die uw verwachtingen ](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md) niet ontmoeten, bijvoorbeeld, passen de dagelijkse verkoop in [!DNL Commerce Intelligence] niet aan wat u in uw e-commerceplatform of in uw [[!DNL Google]  e-commerceopbrengst ](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) ziet u het laatste gegevenspunt kunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
+Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw [!DNL Commerce Intelligence] rekening controleert. Als u [&#x200B; resultaten ziet die uw verwachtingen &#x200B;](../data-analyst/data-warehouse-mgr/data-and-updates-faq.md) niet ontmoeten, bijvoorbeeld, passen de dagelijkse verkoop in [!DNL Commerce Intelligence] niet aan wat u in uw e-commerceplatform of in uw [[!DNL Google]  e-commerceopbrengst &#x200B;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.html) ziet u het laatste gegevenspunt kunt controleren om te zien of wordt de kwestie opgelost zodra een update voltooit.
 
 ## [!UICONTROL Read-Only] en [!UICONTROL Standard] Users
 
 `Read-only` -gebruikers kunnen zich aanmelden bij hun dashboard en zien hoe recent de gegevens zijn bijgewerkt door de muisaanwijzer op het pictogram rechtsboven op de pagina te plaatsen. Dit toont wanneer het laatste gegevenspunt werd getrokken.
 
-![ Laatste succesvolle tijdstempel van gegevensupdate getoond in interface ](../../mbi/assets/last-success-data.png)
+![&#x200B; Laatste succesvolle tijdstempel van gegevensupdate getoond in interface &#x200B;](../../mbi/assets/last-success-data.png)
 
 ## [!UICONTROL Admin] Gebruikers
 
@@ -31,7 +31,7 @@ Het controleren van de statusupdatecyclus is nuttig wanneer u de gegevens in uw 
 
 Voor meer informatie kunnen beheerders op **[!UICONTROL Manage Data]** > **[!UICONTROL Integrations]** klikken.
 
-![ beheer de pagina van de Integraties van Gegevens die verbindingsdetails en updatestatus tonen ](../../mbi/assets/detail-manage-data-integrations.png)
+![&#x200B; beheer de pagina van de Integraties van Gegevens die verbindingsdetails en updatestatus tonen &#x200B;](../../mbi/assets/detail-manage-data-integrations.png)
 
 Op deze pagina ziet u de huidige updatestatus en de tijd van de laatste voltooide update.
 
@@ -72,4 +72,4 @@ curl -sS -H "X-RJM-API-Key: <EXPORT-API-KEY>" \
 }
 ```
 
-Voor parameters, authentificatie, fouten, en tariefgrenzen, zie [ de Status API van de Cyclus van de Update ](https://developer.adobe.com/commerce/services/reporting/update-cycle/) in de ontwikkelaarsdocumentatie.
+Voor parameters, authentificatie, fouten, en tariefgrenzen, zie [&#x200B; de Status API van de Cyclus van de Update &#x200B;](https://developer.adobe.com/commerce/services/reporting/update-cycle/) in de ontwikkelaarsdocumentatie.
